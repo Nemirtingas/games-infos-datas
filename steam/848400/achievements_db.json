@@ -1,28 +1,40 @@
 [
   {
     "name": "ACH_BAD_SPHERE_1",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "One Bad Sphere"
-    },
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/848400/8b4d34517cc11ec63e98628d2ad4870616e491a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/848400/998d1a12feb69feb684b170771d0128a4822498a.jpg",
+    "displayName": {
+      "english": "One Bad Sphere",
+      "token": "NEW_ACHIEVEMENT_1_0_NAME"
+    },
     "description": {
-      "english": null
+      "english": "Destroy 100 Enemies",
+      "token": "NEW_ACHIEVEMENT_1_0_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 100,
+      "stats": "NumEnemiesDestroyed"
     }
   },
   {
     "name": "ACH_BAD_SPHERE_2",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "A Very Bad Sphere"
-    },
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/848400/8b4d34517cc11ec63e98628d2ad4870616e491a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/848400/998d1a12feb69feb684b170771d0128a4822498a.jpg",
+    "displayName": {
+      "english": "A Very Bad Sphere",
+      "token": "NEW_ACHIEVEMENT_1_1_NAME"
+    },
     "description": {
-      "english": null
+      "english": "Destroy 10000 Enemies",
+      "token": "NEW_ACHIEVEMENT_1_1_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 10000,
+      "stats": "NumEnemiesDestroyed"
     }
   }
 ]

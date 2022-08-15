@@ -1,28 +1,40 @@
 [
   {
     "name": "Ach_TankKills_01",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Tank Ace"
-    },
     "hidden": 0,
-    "description": {
-      "english": "Kill 100 tanks."
-    },
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118920/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118920/"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118920/",
+    "displayName": {
+      "english": "Tank Ace",
+      "token": "NEW_ACHIEVEMENT_1_0_NAME"
+    },
+    "description": {
+      "english": "Kill 100 tanks.",
+      "token": "NEW_ACHIEVEMENT_1_0_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 100,
+      "max_val": 100,
+      "stats": "Stat_TankKills"
+    }
   },
   {
     "name": "Ach_PlayerKills_01",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Hawk"
-    },
     "hidden": 0,
-    "description": {
-      "english": "Kill 100 players."
-    },
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118920/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118920/"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118920/",
+    "displayName": {
+      "english": "Hawk",
+      "token": "NEW_ACHIEVEMENT_1_1_NAME"
+    },
+    "description": {
+      "english": "Kill 100 players.",
+      "token": "NEW_ACHIEVEMENT_1_1_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 100,
+      "max_val": 100,
+      "stats": "Stat_PlayerKills"
+    }
   }
 ]
