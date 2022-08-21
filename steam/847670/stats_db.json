@@ -1,44 +1,50 @@
 [
   {
     "name": "wins",
-    "defaultvalue": 0,
     "displayName": "Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "totalHits",
-    "defaultvalue": 0,
     "displayName": "Total Hits",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "totalCredits",
-    "defaultvalue": 0,
     "displayName": "Total Credits",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "winStreak",
-    "defaultvalue": 0,
     "displayName": "Win Streak",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "upgradePurchases",
-    "defaultvalue": 0,
     "displayName": "Upgrade Purchased",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "devGame",
-    "defaultvalue": 0,
     "displayName": "Developer Game",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "avgHitPerGame",
-    "defaultvalue": 10000,
     "displayName": "Average Hits Per Game",
-    "type": "avgrate"
+    "type": "avgrate",
+    "incrementonly": false
   }
 ]

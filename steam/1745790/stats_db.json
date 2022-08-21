@@ -1,32 +1,37 @@
 [
   {
     "name": "dist_1",
-    "defaultvalue": 0,
     "displayName": "Best Distance",
-    "type": "float"
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
   },
   {
     "name": "distweek",
-    "defaultvalue": 0,
     "displayName": "Weekly Distance",
-    "type": "float"
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 0.0
   },
   {
     "name": "currweek",
-    "defaultvalue": -2,
     "displayName": "Last Week Played",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": -2
   },
   {
     "name": "currweek5ktime",
-    "defaultvalue": 0,
     "displayName": "Last Week Played 5K Time",
-    "type": "float"
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 0.0
   },
   {
     "name": "OVERIDEcejan",
-    "defaultvalue": 0,
     "displayName": "cejan",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   }
 ]

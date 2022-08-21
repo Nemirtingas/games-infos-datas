@@ -1,284 +1,331 @@
 [
   {
     "name": "elo_rating",
-    "defaultvalue": 1200,
     "displayName": "Elo Rating",
-    "type": "float"
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 1200.0
   },
   {
     "name": "elo_num_rated_games_played",
-    "defaultvalue": 0,
     "displayName": "Number of Rated Games Played",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_games_played",
-    "defaultvalue": 0,
     "displayName": "Total Games Played Worldwide",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_wins_by_white",
-    "defaultvalue": 0,
     "displayName": "Total Wins by White, Worldwide",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_wins_by_black",
-    "defaultvalue": 0,
     "displayName": "Total Wins by Black, Worldwide",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_pieces_moved",
-    "defaultvalue": 0,
     "displayName": "Total Stones Moved, Worldwide",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_pieces_expelled",
-    "defaultvalue": 0,
     "displayName": "Total Stones Expelled, Worldwide",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_pieces_recruited",
-    "defaultvalue": 0,
     "displayName": "Total Stones Recruited, Worldwide",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_pieces_destroyed",
-    "defaultvalue": 0,
     "displayName": "Total Stones Destroyed, Worldwide",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_dice_rolled",
-    "defaultvalue": 0,
     "displayName": "Total Dice Rolled, Worldwide",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_pieces_entered",
-    "defaultvalue": 0,
     "displayName": "Total Stones that Entered the Arena, Worldwide",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "games_played",
-    "defaultvalue": 0,
     "displayName": "Games Played",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "wins",
-    "defaultvalue": 0,
     "displayName": "Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "losses",
-    "defaultvalue": 0,
     "displayName": "Losses",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "wins_as_white",
-    "defaultvalue": 0,
     "displayName": "Wins as White",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "wins_as_black",
-    "defaultvalue": 0,
     "displayName": "Wins as Black",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "losses_as_white",
-    "defaultvalue": 0,
     "displayName": "Losses as White",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "losses_as_black",
-    "defaultvalue": 0,
     "displayName": "Losses as Black",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "pieces_expelled",
-    "defaultvalue": 0,
     "displayName": "Number of Stones Expelled to the Tray",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "pieces_entered",
-    "defaultvalue": 0,
     "displayName": "Number of Stones Entered into the Arena",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "pieces_recruited",
-    "defaultvalue": 0,
     "displayName": "Number of Stones Recruited to the Mat",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "pieces_destroyed",
-    "defaultvalue": 0,
     "displayName": "Number of Stones You Destroyed with Fire",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "pieces_lost",
-    "defaultvalue": 0,
     "displayName": "Number of Your Stones Destroyed by Enemy Fire",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "dice_rolled",
-    "defaultvalue": 0,
     "displayName": "Number of Dice Rolled",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_ai_wins_by_easy",
-    "defaultvalue": 0,
     "displayName": "Worldwide Wins by Easy AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_ai_losses_by_easy",
-    "defaultvalue": 0,
     "displayName": "Worldwide Losses by Easy AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_ai_wins_by_medium",
-    "defaultvalue": 0,
     "displayName": "Worldwide Wins by Medium AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_ai_losses_by_medium",
-    "defaultvalue": 0,
     "displayName": "Worldwide Losses by Medium AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_ai_wins_by_hard",
-    "defaultvalue": 0,
     "displayName": "Worldwide Wins by Hard AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_ai_losses_by_hard",
-    "defaultvalue": 0,
     "displayName": "Worldwide Losses by Hard AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_ai_wins_by_expert",
-    "defaultvalue": 0,
     "displayName": "Worldwide Wins by Harder AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_ai_losses_by_expert",
-    "defaultvalue": 0,
     "displayName": "Worldwide Losses by Harder AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_ai_wins_by_insane",
-    "defaultvalue": 0,
     "displayName": "Worldwide Wins by Hardest AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "global_ai_losses_by_insane",
-    "defaultvalue": 0,
     "displayName": "Worldwide Losses by Hardest AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "ai_wins_vs_easy",
-    "defaultvalue": 0,
     "displayName": "Wins against Easy AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "ai_losses_vs_easy",
-    "defaultvalue": 0,
     "displayName": "Losses to Easy AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "ai_wins_vs_medium",
-    "defaultvalue": 0,
     "displayName": "Wins against Medium AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "ai_losses_vs_medium",
-    "defaultvalue": 0,
     "displayName": "Losses against Medium AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "ai_wins_vs_hard",
-    "defaultvalue": 0,
     "displayName": "Wins against Hard AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "ai_losses_vs_hard",
-    "defaultvalue": 0,
     "displayName": "Losses to Hard AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "ai_wins_vs_expert",
-    "defaultvalue": 0,
     "displayName": "Wins against Harder AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "ai_losses_vs_expert",
-    "defaultvalue": 0,
     "displayName": "Losses to Harder AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "ai_wins_vs_insane",
-    "defaultvalue": 0,
     "displayName": "Wins against Hardest AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "ai_losses_vs_insane",
-    "defaultvalue": 0,
     "displayName": "Losses to Hardest AI",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "wins_online",
-    "defaultvalue": 0,
     "displayName": "Wins Online",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "losses_online",
-    "defaultvalue": 0,
     "displayName": "Losses Online",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "winstreak_online",
-    "defaultvalue": 0,
     "displayName": "Online Win Streak",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   }
 ]

@@ -1,20 +1,21 @@
 [
   {
     "name": "stat_avg_score_per_match",
-    "defaultvalue": 0,
     "displayName": "Score Per Match",
-    "type": "avgrate"
+    "type": "avgrate",
+    "incrementonly": false
   },
   {
     "name": "stat_avg_duration_per_match",
-    "defaultvalue": 0,
     "displayName": "Duration Per Match",
-    "type": "avgrate"
+    "type": "avgrate",
+    "incrementonly": false
   },
   {
     "name": "stat_games_played",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   }
 ]

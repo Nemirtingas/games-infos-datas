@@ -1,44 +1,51 @@
 [
   {
     "name": "MONEY_FOUND",
-    "defaultvalue": 0,
     "displayName": "Total scrap found",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "MONEY_SPENT",
-    "defaultvalue": 0,
     "displayName": "Total scrap spent",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "DAMAGE_BLOCKED",
-    "defaultvalue": 0,
     "displayName": "Total damage blocked",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "WEAPONSLOTS",
-    "defaultvalue": 1,
     "displayName": "Available weaponslots",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 1
   },
   {
     "name": "MAX_LEVEL_CLEARED",
-    "defaultvalue": 0,
     "displayName": "Highest level cleared",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_VERSION_NR",
-    "defaultvalue": 0,
     "displayName": "Steam stat version",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "GLOBAL_MAX_LEVEL_CLEARED",
-    "defaultvalue": 40,
     "displayName": "Highest Level cleared all time",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 40
   }
 ]

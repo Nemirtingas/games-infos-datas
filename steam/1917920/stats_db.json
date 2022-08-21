@@ -1,38 +1,44 @@
 [
   {
     "name": "HelpCount",
-    "defaultvalue": 0,
     "displayName": "Počet zobrazených nápověd.",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "MessCount",
-    "defaultvalue": 0,
     "displayName": "Počet zobrazených hlášek.",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "WalkedMeters",
-    "defaultvalue": 0,
     "displayName": "Počet ušlých kilometrů.",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "TelepCount",
-    "defaultvalue": 0,
     "displayName": "Počet teleportů, pomocí dvojkliku.",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "SpeedRun",
-    "defaultvalue": -1,
     "displayName": "Nejrychlejší čas dohrání.",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": -1
   },
   {
     "name": "SpeedRunHard",
-    "defaultvalue": -1,
     "displayName": "Nejrychlejší čas dohrání na težkou obtížnost.",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": -1
   }
 ]

@@ -1,20 +1,23 @@
 [
   {
     "name": "STAT_VERSION",
-    "defaultvalue": 1,
     "displayName": "version",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 1
   },
   {
     "name": "STAT_SHIPS_SUNK",
-    "defaultvalue": 0,
     "displayName": "Ships Sunk",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_POWERUPS",
-    "defaultvalue": 0,
     "displayName": "Powerups collected",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   }
 ]

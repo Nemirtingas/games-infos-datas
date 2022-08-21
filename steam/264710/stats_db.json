@@ -1,20 +1,23 @@
 [
   {
     "name": "s1_AllTimeDepth",
-    "defaultvalue": 0,
     "displayName": "Max all time depth",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "s2_HasTank",
-    "defaultvalue": 0,
     "displayName": "Player has crafted tank",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "s3_FeedbackSubmit",
-    "defaultvalue": 0,
     "displayName": "Player has submitted feedback",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   }
 ]

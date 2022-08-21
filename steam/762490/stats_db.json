@@ -1,32 +1,37 @@
 [
   {
     "name": "STAT_KILLS",
-    "defaultvalue": 0,
     "displayName": "Number of enemies eliminated",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_HEADSHOTS",
-    "defaultvalue": 0,
     "displayName": "Number of headshots dealt",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MAX_SUCCESSIVE_HEADSHOTS",
-    "defaultvalue": 0,
     "displayName": "Max successive headshots run",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_INDIRECT_KILLS",
-    "defaultvalue": 0,
     "displayName": "Number of enemies being eliminated indirectly (via the environment objects)",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MIN_HEALTH",
-    "defaultvalue": 100,
     "displayName": "Min health value (in percentage) during level playthrough for complete level",
-    "type": "float"
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 100.0
   }
 ]

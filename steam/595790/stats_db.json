@@ -1,38 +1,44 @@
 [
   {
     "name": "stat_total_kills_client",
-    "defaultvalue": 0,
     "displayName": "Total enemies killed",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "stat_stomp_kills_client",
-    "defaultvalue": 0,
     "displayName": "Total stomp kills",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "stat_accumulated_arcade_score",
-    "defaultvalue": 0,
     "displayName": "Accumulated Arcade Score",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "stat_level_flawless",
-    "defaultvalue": 0,
     "displayName": "Number of Campaign Levels cleared without Taking Damage",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "stat_level_no_ultimate",
-    "defaultvalue": 0,
     "displayName": "Number of Campaign Levels cleared without firing an Ultimate",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "stat_level_no_weapon",
-    "defaultvalue": 0,
     "displayName": "Number of Campaign Levels cleared without using a Weapon",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   }
 ]

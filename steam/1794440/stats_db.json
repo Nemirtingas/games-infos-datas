@@ -1,20 +1,23 @@
 [
   {
     "name": "st_dig",
-    "defaultvalue": 0,
     "displayName": "Times dug",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "st_win",
-    "defaultvalue": 0,
     "displayName": "Times complete",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "st_last",
-    "defaultvalue": 0,
     "displayName": "Last played",
-    "type": "float"
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 0.0
   }
 ]

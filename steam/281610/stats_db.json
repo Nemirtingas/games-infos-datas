@@ -1,488 +1,567 @@
 [
   {
     "name": "STAT_RELICS_RECOVERED",
-    "defaultvalue": 0,
     "displayName": "Relics Recovered",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_EFFICIENCY",
-    "defaultvalue": 0,
     "displayName": "Efficiency",
-    "type": "avgrate"
+    "type": "avgrate",
+    "incrementonly": false
   },
   {
     "name": "STAT_WINS",
-    "defaultvalue": 0,
     "displayName": "Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_WIN_RATIO",
-    "defaultvalue": 0,
     "displayName": "Win Ratio",
-    "type": "avgrate"
+    "type": "avgrate",
+    "incrementonly": false
   },
   {
     "name": "STAT_ELO",
-    "defaultvalue": 1500,
     "displayName": "ELO Rating",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 1500
   },
   {
     "name": "STAT_LOSSES",
-    "defaultvalue": 0,
     "displayName": "Losses",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_CARRIER_KILLS",
-    "defaultvalue": 0,
     "displayName": "Carrier Kills",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_WINS",
-    "defaultvalue": 0,
     "displayName": "MP Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M04_COMPLETIONS",
-    "defaultvalue": 0,
     "displayName": "Mission 4 Completions",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_LOSSES",
-    "defaultvalue": 0,
     "displayName": "MP Losses",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_AI_RETRIEVAL_COALITION",
-    "defaultvalue": 0,
     "displayName": "AI Retrieval Coalition Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_AI_RETRIEVAL_GAALSI",
-    "defaultvalue": 0,
     "displayName": "AI Retrieval Gaalsi Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_AI_ANNIHILATION_COALITION",
-    "defaultvalue": 0,
     "displayName": "AI Annihilation Coalition Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_AI_ANNIHILATION_GAALSI",
-    "defaultvalue": 0,
     "displayName": "AI Annhilation Gaalsi Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_AI_C_ANNIHILATION_COALITION",
-    "defaultvalue": 0,
     "displayName": "AI Carrier Annhilation Coalition Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_AI_C_ANNIHILATION_GAALSI",
-    "defaultvalue": 0,
     "displayName": "AI Carrier Annihilation Gaalsi Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_AI_FFA_COALITION",
-    "defaultvalue": 0,
     "displayName": "AI FFA Coalition Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_AI_FFA_GAALSI",
-    "defaultvalue": 0,
     "displayName": "AI FFA Gaalsi Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_AI_RETRIEVAL_COUNT_COALITION",
-    "defaultvalue": 0,
     "displayName": "AI # of artifacts retrieved Coalition",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_AI_RETRIEVAL_COUNT_GAALSI",
-    "defaultvalue": 0,
     "displayName": "AI # of artifacts retrieved Gaalsi",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_TUT_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete Tutorial",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M01_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M01",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M02_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M02",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M03_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M03",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M04_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M04",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M05_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M05",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M06_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M06",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M07_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M07",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M08_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M08",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M09_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M09",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M10_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M10",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M11_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M11",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M12_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M12",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M13_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M13",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_M14_COMPLETE",
-    "defaultvalue": 0,
     "displayName": "Complete M14",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_RETRIEVAL_COALITION",
-    "defaultvalue": 0,
     "displayName": "MP Retrieval Coalition Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_RETRIEVAL_GAALSI",
-    "defaultvalue": 0,
     "displayName": "MP Retrieval Gaalsi Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_ANNIHILATION_COALITION",
-    "defaultvalue": 0,
     "displayName": "MP Annihilation Coalition Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_ANNIHILATION_GAALSI",
-    "defaultvalue": 0,
     "displayName": "MP Annhilation Gaalsi Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_C_ANNIHILATION_COALITION",
-    "defaultvalue": 0,
     "displayName": "MP Carrier Annhilation Coalition Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_C_ANNIHILATION_GAALSI",
-    "defaultvalue": 0,
     "displayName": "MP Carrier Annihilation Gaalsi Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_FFA_COALITION",
-    "defaultvalue": 0,
     "displayName": "MP FFA Coalition Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_FFA_GAALSI",
-    "defaultvalue": 0,
     "displayName": "MP FFA Gaalsi Wins",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_RETRIEVAL_COUNT_COALITION",
-    "defaultvalue": 0,
     "displayName": "MP # of artifacts retrieved Coalition",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_RETRIEVAL_COUNT_GAALSI",
-    "defaultvalue": 0,
     "displayName": "MP # of artifacts retrieved Gaalsi",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_SP_SANDSKIMMER_KILLS",
-    "defaultvalue": 0,
     "displayName": "Kill 500 Sandskimmers in Campaign",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_RANKED_ELO",
-    "defaultvalue": 1500,
     "displayName": "Rank ELO rating",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 1500
   },
   {
     "name": "STAT_RANKED_1V1_WINS",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_RANKED_2V2_WINS",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_RANKED_3V3_WINS",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_RANKED_1V1_GAMESPLAYED",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_RANKED_2V2_GAMESPLAYED",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_RANKED_3V3_GAMESPLAYED",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_RANKED_1V1_REACTORS",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_RANKED_2V2_REACTORS",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_RANKED_3V3_REACTORS",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_RANKED_1V1_STREAK",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_RANKED_2V2_STREAK",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_RANKED_3V3_STREAK",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_RANKED_1V1_EFFICIENCY",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "float"
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 0.0
   },
   {
     "name": "STAT_RANKED_2V2_EFFICIENCY",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "float"
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 0.0
   },
   {
     "name": "STAT_RANKED_3V3_EFFICIENCY",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "float"
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 0.0
   },
   {
     "name": "STAT_RANKED_1V1_ELO",
-    "defaultvalue": 1500,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 1500
   },
   {
     "name": "STAT_RANKED_2V2_ELO",
-    "defaultvalue": 1500,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 1500
   },
   {
     "name": "STAT_RANKED_3V3_ELO",
-    "defaultvalue": 1500,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 1500
   },
   {
     "name": "STAT_MP_CU_COLLECTED",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_RU_COLLECTED",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_REACTORS_COLLECTED",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_UNITS_BUILT",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_UNITS_LOST",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_ENEMY_UNITS_DESTROYED",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_ENEMY_CRUISERS_DESTROYED",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_CARRIERS_DESTROYED",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_RETRIEVAL_SOBAN",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_ANNIHILATION_SOBAN",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_C_ANNIHILATION_SOBAN",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_RETRIEVAL_COUNT_SOBAN",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_RETRIEVAL_KHAANEPH",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_ANNIHILATION_KHAANEPH",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_C_ANNIHILATION_KHAANEPH",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "STAT_MP_RETRIEVAL_COUNT_KHAANEPH",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   }
 ]

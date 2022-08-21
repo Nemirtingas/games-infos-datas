@@ -1,62 +1,72 @@
 [
   {
     "name": "stat_NumEnemiesDefeated",
-    "defaultvalue": 0,
     "displayName": "Number of Enemies Defeated",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "stat_EnemiesKilledInAir",
-    "defaultvalue": 0,
     "displayName": "Enemies Defeated Without Touching the Ground",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "stat_NumDeaths",
-    "defaultvalue": 0,
     "displayName": "Number of Deaths",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "stat_ConsecutiveDeaths",
-    "defaultvalue": 0,
     "displayName": "Number of Consecutive Deaths",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "stat_DeathsPerWorld",
-    "defaultvalue": 0,
     "displayName": "Number of Times Player Died Per World",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "stat_CoinsCollected",
-    "defaultvalue": 0,
     "displayName": "Number of Coins Collected",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "stat_NumDoubleJumps",
-    "defaultvalue": 0,
     "displayName": "Number of Double Jumps Per Level",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "stat_StartingTimeLevel",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "float"
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 0.0
   },
   {
     "name": "stat_StartingTimeWorld",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "float"
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 0.0
   },
   {
     "name": "stat_StartingTimeGame",
-    "defaultvalue": 0,
     "displayName": "",
-    "type": "float"
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 0.0
   }
 ]

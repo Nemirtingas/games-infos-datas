@@ -1,20 +1,23 @@
 [
   {
     "name": "top_coop_time",
-    "defaultvalue": 0,
     "displayName": "Highest coop time",
-    "type": "float"
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
   },
   {
     "name": "total_play_time",
-    "defaultvalue": 0,
     "displayName": "Total play time",
-    "type": "float"
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 0.0
   },
   {
     "name": "slaps",
-    "defaultvalue": 0,
     "displayName": "Total number of slaps",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   }
 ]

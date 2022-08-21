@@ -1,38 +1,44 @@
 [
   {
     "name": "stat_gold",
-    "defaultvalue": 0,
     "displayName": "Gold",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "stat_silver",
-    "defaultvalue": 0,
     "displayName": "Silver",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "stat_bronze",
-    "defaultvalue": 0,
     "displayName": "Bronze",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "stat_stars",
-    "defaultvalue": 0,
     "displayName": "Total Stars",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "stat_distance",
-    "defaultvalue": 0,
     "displayName": "Distance Travelled",
-    "type": "float"
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 0.0
   },
   {
     "name": "stat_rank",
-    "defaultvalue": 99999,
     "displayName": "Total Time",
-    "type": "float"
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 99999.0
   }
 ]

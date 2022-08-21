@@ -1,32 +1,37 @@
 [
   {
     "name": "stat_rides_started",
-    "defaultvalue": 0,
     "displayName": "Rides Started",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "stat_prev_sotd_time",
-    "defaultvalue": 0,
     "displayName": "Last Song of the Day ride time",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "stat_unique_sotds_played",
-    "defaultvalue": 0,
     "displayName": "Songs of the Day ridden",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "stat_mono_cumulative_points",
-    "defaultvalue": 0,
     "displayName": "Cumulative Mono Points",
-    "type": "int"
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "stat_mono_cumulative_billions",
-    "defaultvalue": 0,
     "displayName": "Cumulative Mono Billions",
-    "type": "int"
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   }
 ]
