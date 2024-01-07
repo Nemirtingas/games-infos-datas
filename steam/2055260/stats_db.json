@@ -1,0 +1,688 @@
+[
+  {
+    "name": "sessionPlayed",
+    "displayName": "sessionPlayed",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "sessionTotalTime",
+    "displayName": "sessionTotalTime",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "sessionsUnder1Min",
+    "displayName": "sessionsUnder1Min",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "sessions1To3Min",
+    "displayName": "sessions1To3Min",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "sessions3To10Min",
+    "displayName": "sessions3To10Min",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "sessions10To20Min",
+    "displayName": "sessions10To20Min",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "sessions20To30Min",
+    "displayName": "sessions20To30Min",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "sessions30To40Min",
+    "displayName": "sessions30To40Min",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "sessionsOver40Min",
+    "displayName": "sessionsOver40Min",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "trackerNumNone",
+    "displayName": "trackerNumNone",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "trackerNumMore",
+    "displayName": "trackerNumMore",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "songPlayedFBT",
+    "displayName": "songPlayedFBT",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "songPlayedDRS",
+    "displayName": "songPlayedDRS",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "songPassed",
+    "displayName": "songPassed",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "modNoFail",
+    "displayName": "modNoFail",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "modNoMiss",
+    "displayName": "modNoMiss",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "stageTime",
+    "displayName": "stageTime",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "stageVignetteTime",
+    "displayName": "stageVignetteTime",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "stageOutBoundPauseFront",
+    "displayName": "stageOutBoundPauseFront",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "stageOutBoundPauseSide",
+    "displayName": "stageOutBoundPauseSide",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "stageOutBoundPauseBack",
+    "displayName": "stageOutBoundPauseBack",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "WayOfTheSamuraiNormalStart",
+    "displayName": "WayOfTheSamuraiNormalStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "WayOfTheSamuraiNormalQuit",
+    "displayName": "WayOfTheSamuraiNormalQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "WayOfTheSamuraiNormalRestart",
+    "displayName": "WayOfTheSamuraiNormalRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "WayOfTheSamuraiNormalFail",
+    "displayName": "WayOfTheSamuraiNormalFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "WayOfTheSamuraiHardStart",
+    "displayName": "WayOfTheSamuraiHardStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "WayOfTheSamuraiHardQuit",
+    "displayName": "WayOfTheSamuraiHardQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "WayOfTheSamuraiHardRestart",
+    "displayName": "WayOfTheSamuraiHardRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "WayOfTheSamuraiHardFail",
+    "displayName": "WayOfTheSamuraiHardFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "LoseControlEasyStart",
+    "displayName": "LoseControlEasyStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "LoseControlEasyQuit",
+    "displayName": "LoseControlEasyQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "LoseControlEasyRestart",
+    "displayName": "LoseControlEasyRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "LoseControlEasyFail",
+    "displayName": "LoseControlEasyRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "LoseControlNormalStart",
+    "displayName": "LoseControlNormalStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "LoseControlNormalQuit",
+    "displayName": "LoseControlNormalQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "LoseControlNormalRestart",
+    "displayName": "LoseControlNormalRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "LoseControlNormalFail",
+    "displayName": "LoseControlNormalFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "LoseControlHardStart",
+    "displayName": "LoseControlHardStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "LoseControlHardQuit",
+    "displayName": "LoseControlHardQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "LoseControlHardRestart",
+    "displayName": "LoseControlHardRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "LoseControlHardFail",
+    "displayName": "LoseControlHardFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "DoThisAgainNormalStart",
+    "displayName": "DoThisAgainNormalStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "DoThisAgainNormalRestart",
+    "displayName": "DoThisAgainNormalRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "DoThisAgainNormalFail",
+    "displayName": "DoThisAgainNormalFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "DoThisAgainHardStart",
+    "displayName": "DoThisAgainHardStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "DoThisAgainHardQuit",
+    "displayName": "DoThisAgainHardQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "DoThisAgainHardRestart",
+    "displayName": "DoThisAgainHardRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "DoThisAgainHardFail",
+    "displayName": "DoThisAgainHardFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "TellMeSomethingEasyStart",
+    "displayName": "TellMeSomethingEasyStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "TellMeSomethingEasyQuit",
+    "displayName": "TellMeSomethingEasyQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "TellMeSomethingEasyRestart",
+    "displayName": "TellMeSomethingEasyRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "TellMeSomethingEasyFail",
+    "displayName": "TellMeSomethingEasyFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "TellMeSomethingNormalStart",
+    "displayName": "TellMeSomethingNormalStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "TellMeSomethingNormalQuit",
+    "displayName": "TellMeSomethingNormalQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "TellMeSomethingNormalRestart",
+    "displayName": "TellMeSomethingNormalRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "TellMeSomethingNormalFail",
+    "displayName": "TellMeSomethingNormalFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "TellMeSomethingHardStart",
+    "displayName": "TellMeSomethingHardStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "TellMeSomethingHardQuit",
+    "displayName": "TellMeSomethingHardQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "TellMeSomethingHardRestart",
+    "displayName": "TellMeSomethingHardRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "TellMeSomethingHardFail",
+    "displayName": "TellMeSomethingHardFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "GetItEasyStart",
+    "displayName": "GetItEasyStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "GetItEasyQuit",
+    "displayName": "GetItEasyQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "GetItEasyRestart",
+    "displayName": "GetItEasyRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "GetItEasyFail",
+    "displayName": "GetItEasyFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "GetItNormalStart",
+    "displayName": "GetItNormalStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "GetItNormalQuit",
+    "displayName": "GetItNormalQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "GetItNormalRestart",
+    "displayName": "GetItNormalRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "GetItNormalFail",
+    "displayName": "GetItNormalFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "GetItHardStart",
+    "displayName": "GetItHardStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "GetItHardQuit",
+    "displayName": "GetItHardQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "GetItHardRestart",
+    "displayName": "GetItHardRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "GetItHardFail",
+    "displayName": "GetItHardFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "EnergeticEasyStart",
+    "displayName": "EnergeticEasyStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "EnergeticEasyQuit",
+    "displayName": "EnergeticEasyQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "EnergeticEasyRestart",
+    "displayName": "EnergeticEasyRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "EnergeticEasyFail",
+    "displayName": "EnergeticEasyFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "EnergeticNormalStart",
+    "displayName": "EnergeticNormalStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "EnergeticNormalQuit",
+    "displayName": "EnergeticNormalQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "EnergeticNormalRestart",
+    "displayName": "EnergeticNormalRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "EnergeticNormalFail",
+    "displayName": "EnergeticNormalFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "EnergeticHardStart",
+    "displayName": "EnergeticNormalStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "EnergeticHardQuit",
+    "displayName": "EnergeticHardQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "EnergeticHardRestart",
+    "displayName": "EnergeticHardRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "EnergeticHardFail",
+    "displayName": "EnergeticHardFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "FlyEasyStart",
+    "displayName": "FlyEasyStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "FlyEasyQuit",
+    "displayName": "FlyEasyQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "FlyEasyRestart",
+    "displayName": "FlyEasyRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "FlyEasyFail",
+    "displayName": "FlyEasyFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "FlyNormalStart",
+    "displayName": "FlyNormalStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "FlyNormalQuit",
+    "displayName": "FlyNormalQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "FlyNormalRestart",
+    "displayName": "FlyNormalRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "FlyNormalFail",
+    "displayName": "FlyNormalFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "FlyHardStart",
+    "displayName": "FlyHardStart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "FlyHardQuit",
+    "displayName": "FlyHardQuit",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "FlyHardRestart",
+    "displayName": "FlyHardRestart",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "FlyHardFail",
+    "displayName": "FlyHardFail",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "GameEnter",
+    "displayName": "GameEnter",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "PlayCount",
+    "displayName": "PlayCount",
+    "type": "float",
+    "incrementonly": true,
+    "defaultvalue": 0.0
+  }
+]
