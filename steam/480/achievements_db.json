@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_WIN_ONE_GAME",
-    "hidden": false,
+    "hidden": 0,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/480/winner.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/480/winner_bw.jpg",
     "displayName": {},
@@ -9,7 +9,7 @@
   },
   {
     "name": "ACH_WIN_100_GAMES",
-    "hidden": false,
+    "hidden": 0,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/480/champion.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/480/champion_bw.jpg",
     "displayName": {},
@@ -17,15 +17,26 @@
   },
   {
     "name": "ACH_TRAVEL_FAR_ACCUM",
-    "hidden": false,
+    "hidden": 0,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/480/interstellar.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/480/interstellar_bw.jpg",
-    "displayName": {},
-    "description": {}
+    "displayName": {
+      "english": "Interstellar",
+      "token": "ACH_TRAVEL_FAR_ACCUM_NAME"
+    },
+    "description": {
+      "english": "Accumulate one mile of distance.",
+      "token": "ACH_TRAVEL_FAR_ACCUM_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 5280,
+      "stat_name": "FeetTraveled"
+    }
   },
   {
     "name": "ACH_TRAVEL_FAR_SINGLE",
-    "hidden": false,
+    "hidden": 0,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/480/orbiter.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/480/orbiter_bw.jpg",
     "displayName": {},
@@ -33,7 +44,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_0_4",
-    "hidden": true,
+    "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/480/bb6aa45b43bcb6ad1babe9fd5308d20203a975eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/480/",
     "displayName": {
