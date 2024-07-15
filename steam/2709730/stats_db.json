@@ -1,22 +1,268 @@
 [
   {
     "name": "tutorialComplete",
-    "defaultvalue": 0,
-    "displayName": "Tutorial Complete"
+    "displayName": "Tutorial Complete",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "firstTryLostSoul",
-    "defaultvalue": 0,
-    "displayName": "Soul Killer"
+    "displayName": "Soul Killer",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   },
   {
     "name": "duelWins",
-    "defaultvalue": 0,
-    "displayName": "Duel Wins"
+    "displayName": "Duel Wins",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
   },
   {
     "name": "sixSwingChallengeDamage",
-    "defaultvalue": 0,
-    "displayName": "Six Swing Challenge Damage"
+    "displayName": "Six Swing Challenge Damage",
+    "type": "float",
+    "incrementonly": false,
+    "defaultvalue": 0.0
+  },
+  {
+    "name": "kataBeginningsSGrades",
+    "displayName": "Kata of Beginnigns S Grades",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "kataBurningSandsSGrades",
+    "displayName": "Kata of Burning Sands S Grades",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "kataMistsSGrades",
+    "displayName": "Kata of Mists S Grades",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "challengeOfInitiationCompletions",
+    "displayName": "Challenge of Initiation Completions",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "challengeOfInitiationSGrades",
+    "displayName": "Challenge of Initiation S Grades",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "challengeOfLavaCompletions",
+    "displayName": "Challenge of Lava Completions",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "challengeOfLavaSGrades",
+    "displayName": "Challenge of Lava S Grades",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "challengeOfLavaPureSGrades",
+    "displayName": "Challenge of Lava Pure S Grades",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "challengeOfMistCompletions",
+    "displayName": "Challenge of Mist Completions",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "challengeOfMistSGrades",
+    "displayName": "Challenge of Mist S Grades",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "challengeOfMistPureSGrades",
+    "displayName": "Challenge of Mist Pure S Grades",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "memoriesKataComplete",
+    "displayName": "Memories Kata Completion",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "memoriesComplete",
+    "displayName": "Memories Completion",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "vsHumanDuelWins",
+    "displayName": "PvP Duel Wins",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "topFloorDuelWins",
+    "displayName": "Apex Duel Wins",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "vshumanTopFloorDuelWins",
+    "displayName": "Apex PvP Duel Wins",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "memoriesOneVTwo",
+    "displayName": "Memories 1v2",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "visitedHome",
+    "displayName": "Home Visits",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "blocksOneMinute",
+    "displayName": "blocksOneMinute",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "highestAttackTrainerClear",
+    "displayName": "highestAttackTrainerClear",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "trainingDummyDamage",
+    "displayName": "trainingDummyDamage",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "pvpKills",
+    "displayName": "PvP Kills Steam Client",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "homeTrainingRegimenCompleted",
+    "displayName": "Home Training Regemens Completed",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "blockSpammerComboBlocks",
+    "displayName": "Trainer Combo Blocks",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "blockSpammerRipostes",
+    "displayName": "Trainer Ripostes",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "attackTrainerKickStuns",
+    "displayName": "Trainer Kick Stuns",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "attackTrainerCombos",
+    "displayName": "Trainer Combos",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "attackTrainerHeadShots",
+    "displayName": "Trainer Headshots",
+    "type": "int",
+    "incrementonly": false,
+    "defaultvalue": 0
+  },
+  {
+    "name": "forgottenKnightKills",
+    "displayName": "Forgotten Knight Kills",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "puppeteerKills",
+    "displayName": "Puppeteer Kills",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "lizardBossKills",
+    "displayName": "Lizard Boss Kills",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "chestsLooted",
+    "displayName": "Total Chests Looted",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "towerRuns",
+    "displayName": "Tower Runs",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
+  },
+  {
+    "name": "climbsCompleted",
+    "displayName": "Climbs Completed",
+    "type": "int",
+    "incrementonly": true,
+    "defaultvalue": 0
   }
 ]

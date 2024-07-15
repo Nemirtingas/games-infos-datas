@@ -1,67 +1,705 @@
 [
   {
     "name": "tutorialCompletion",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "The Basics."
-    },
     "hidden": 0,
-    "description": {
-      "english": "Complete Beginnings"
-    },
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/64081836d8de7bc2c3508691805f6043f704c34b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "The Basics.",
+      "token": "NEW_ACHIEVEMENT_5_0_NAME"
+    },
+    "description": {
+      "english": "Complete Beginnings",
+      "token": "NEW_ACHIEVEMENT_5_0_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 1,
+      "max_val": 1,
+      "stat_name": "tutorialComplete"
+    }
   },
   {
     "name": "lostSoulKillFirstTry",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Are you sure you're new?"
-    },
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/d9c47e916eff1031740d170ba43d20d18a09381b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "First Kill",
+      "token": "NEW_ACHIEVEMENT_5_1_NAME"
+    },
     "description": {
-      "english": null
+      "english": "Kill the tutorial Lost Soul without dying.",
+      "token": "NEW_ACHIEVEMENT_5_1_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 1,
+      "max_val": 1,
+      "stat_name": "firstTryLostSoul"
     }
   },
   {
     "name": "duelInitiate",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Initiate Duelist"
-    },
     "hidden": 0,
-    "description": {
-      "english": "Win 10 duel climb matches on an official server."
-    },
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/7ddd656a490008fb44ec1cd3076514789827f759.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Initiate Duelist",
+      "token": "NEW_ACHIEVEMENT_5_2_NAME"
+    },
+    "description": {
+      "english": "Win 10 duel climb matches on an official server.",
+      "token": "NEW_ACHIEVEMENT_5_2_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 10,
+      "stat_name": "duelWins"
+    }
   },
   {
     "name": "sixSwing250",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Six Swing Execution"
-    },
     "hidden": 0,
-    "description": {
-      "english": "Deal 250 more damage in the six swing challenge."
-    },
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/baf48181deae43672fad35fc38faccffb4837070.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Six Swing Execution",
+      "token": "NEW_ACHIEVEMENT_5_3_NAME"
+    },
+    "description": {
+      "english": "Deal 250 more damage in the six swing challenge.",
+      "token": "NEW_ACHIEVEMENT_5_3_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 250,
+      "stat_name": "sixSwingChallengeDamage"
+    }
   },
   {
     "name": "sixSwing275",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Six Swing Master"
-    },
     "hidden": 0,
-    "description": {
-      "english": "Deal 280 or more damage in the six swing challenge."
-    },
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/1962b08f74ad68a22707c8d3f4a80a9c14b66fbd.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Six Swing Master",
+      "token": "NEW_ACHIEVEMENT_5_4_NAME"
+    },
+    "description": {
+      "english": "Deal 315 or more damage in the six swing challenge.",
+      "token": "NEW_ACHIEVEMENT_5_4_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 315,
+      "stat_name": "sixSwingChallengeDamage"
+    }
+  },
+  {
+    "name": "kataBeginningsS",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Kata of Beginnings Mastery",
+      "token": "NEW_ACHIEVEMENT_5_5_NAME"
+    },
+    "description": {
+      "english": "Earn an S grade on the Kata of Beginnings",
+      "token": "NEW_ACHIEVEMENT_5_5_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "kataBeginningsSGrades"
+    }
+  },
+  {
+    "name": "kataBurningSandsS",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Kata of Burning Sands Mastery",
+      "token": "NEW_ACHIEVEMENT_5_6_NAME"
+    },
+    "description": {
+      "english": "Earn an S grade on the Kata of Burning Sands",
+      "token": "NEW_ACHIEVEMENT_5_6_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "kataBurningSandsSGrades"
+    }
+  },
+  {
+    "name": "kataMistsS",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Kata of Mists Mastery",
+      "token": "NEW_ACHIEVEMENT_5_7_NAME"
+    },
+    "description": {
+      "english": "Earn an S grade on the Kata of Mists",
+      "token": "NEW_ACHIEVEMENT_5_7_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "kataMistsSGrades"
+    }
+  },
+  {
+    "name": "katasUnlocked",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Kata Grounds Unlocked",
+      "token": "NEW_ACHIEVEMENT_5_8_NAME"
+    },
+    "description": {
+      "english": "Complete the first kata in Memories.",
+      "token": "NEW_ACHIEVEMENT_5_8_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "memoriesKataComplete"
+    }
+  },
+  {
+    "name": "challengeOfInitiationComplete",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/ede4b142c2dacc5cb2c1b2edcdd057eccf61a318.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/e29124f3e1371e69673b27bad8918b34e7553b9d.jpg",
+    "displayName": {
+      "english": "Initiates Badge",
+      "token": "NEW_ACHIEVEMENT_5_9_NAME"
+    },
+    "description": {
+      "english": "Complete the Trial of Initiation",
+      "token": "NEW_ACHIEVEMENT_5_9_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "challengeOfInitiationCompletions"
+    }
+  },
+  {
+    "name": "challengeOfInitiationSGrade",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Initiates Golden Badge",
+      "token": "NEW_ACHIEVEMENT_5_10_NAME"
+    },
+    "description": {
+      "english": "Earn an S Grade on the Trial of Initiation",
+      "token": "NEW_ACHIEVEMENT_5_10_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "challengeOfInitiationSGrades"
+    }
+  },
+  {
+    "name": "challengeOfLavaCompletion",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Lava Badge",
+      "token": "NEW_ACHIEVEMENT_5_11_NAME"
+    },
+    "description": {
+      "english": "Complete the Trial of Lava",
+      "token": "NEW_ACHIEVEMENT_5_11_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "challengeOfLavaCompletions"
+    }
+  },
+  {
+    "name": "challengeOfLavaSGrade",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Lava Golden Badge",
+      "token": "NEW_ACHIEVEMENT_5_12_NAME"
+    },
+    "description": {
+      "english": "Earn an S Grade on the Trial of Lava",
+      "token": "NEW_ACHIEVEMENT_5_12_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "challengeOfLavaSGrades"
+    }
+  },
+  {
+    "name": "challengeOfLavaPureSGrade",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Lava Elite Badge",
+      "token": "NEW_ACHIEVEMENT_5_13_NAME"
+    },
+    "description": {
+      "english": "Earn an S Grade in the pure Trial of Lava",
+      "token": "NEW_ACHIEVEMENT_5_13_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "challengeOfLavaPureSGrades"
+    }
+  },
+  {
+    "name": "challengeOfMistCompletion",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Mist Badge",
+      "token": "NEW_ACHIEVEMENT_5_14_NAME"
+    },
+    "description": {
+      "english": "Complete the Trial of Mist",
+      "token": "NEW_ACHIEVEMENT_5_14_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "challengeOfMistCompletions"
+    }
+  },
+  {
+    "name": "challengeOfMistSGrade",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Mist Golden Badge",
+      "token": "NEW_ACHIEVEMENT_5_15_NAME"
+    },
+    "description": {
+      "english": "Earn an S Grade on the Trial of Mist",
+      "token": "NEW_ACHIEVEMENT_5_15_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "challengeOfMistSGrades"
+    }
+  },
+  {
+    "name": "challengeOfMistPureSGrade",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Mist Elite Badge",
+      "token": "NEW_ACHIEVEMENT_5_16_NAME"
+    },
+    "description": {
+      "english": "Earn an S Grade in the pure Trial of Mist",
+      "token": "NEW_ACHIEVEMENT_5_16_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "challengeOfLavaPureSGrades"
+    }
+  },
+  {
+    "name": "duelAcolyte",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Duel Acolyte",
+      "token": "NEW_ACHIEVEMENT_5_17_NAME"
+    },
+    "description": {
+      "english": "Win 25 arena duels vs human opponents on an official server.",
+      "token": "NEW_ACHIEVEMENT_5_17_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 25,
+      "stat_name": "vsHumanDuelWins"
+    }
+  },
+  {
+    "name": "duelApex",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Intermediate Duelist",
+      "token": "NEW_ACHIEVEMENT_5_18_NAME"
+    },
+    "description": {
+      "english": "Win 25 arena duels on the top platform on an official server.",
+      "token": "NEW_ACHIEVEMENT_5_18_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 25,
+      "stat_name": "topFloorDuelWins"
+    }
+  },
+  {
+    "name": "duelVeteran",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Veteran Duelist",
+      "token": "NEW_ACHIEVEMENT_5_19_NAME"
+    },
+    "description": {
+      "english": "Win 50 arena duels on the top platform vs human opponents on an official server.",
+      "token": "NEW_ACHIEVEMENT_5_19_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 50,
+      "stat_name": "vshumanTopFloorDuelWins"
+    }
+  },
+  {
+    "name": "firstOneVTwo",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "First 1v2",
+      "token": "NEW_ACHIEVEMENT_5_21_NAME"
+    },
+    "description": {
+      "english": "Defeat the Novice Duo in Memories",
+      "token": "NEW_ACHIEVEMENT_5_21_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "memoriesOneVTwo"
+    }
+  },
+  {
+    "name": "memoriesCompletion",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "The Fundamentals",
+      "token": "NEW_ACHIEVEMENT_5_22_NAME"
+    },
+    "description": {
+      "english": "Complete Memories",
+      "token": "NEW_ACHIEVEMENT_5_22_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "memoriesComplete"
+    }
+  },
+  {
+    "name": "blockOneMinuteBeginner",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Blocking Training Easy",
+      "token": "NEW_ACHIEVEMENT_5_23_NAME"
+    },
+    "description": {
+      "english": "Block 25 attacks in one minute at the block trainer.",
+      "token": "NEW_ACHIEVEMENT_5_23_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 25,
+      "stat_name": "blocksOneMinute"
+    }
+  },
+  {
+    "name": "blockOneMinuteL2",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Blocking Training Intermediate",
+      "token": "NEW_ACHIEVEMENT_5_24_NAME"
+    },
+    "description": {
+      "english": "Block 40 attacks in one minute at the block trainer.",
+      "token": "NEW_ACHIEVEMENT_5_24_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 25,
+      "max_val": 40,
+      "stat_name": "blocksOneMinute"
+    }
+  },
+  {
+    "name": "blockOneMinuteL3",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Blocking Training Master",
+      "token": "NEW_ACHIEVEMENT_5_25_NAME"
+    },
+    "description": {
+      "english": "Block 50 attacks in one minute at the block trainer.",
+      "token": "NEW_ACHIEVEMENT_5_25_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 40,
+      "max_val": 50,
+      "stat_name": "blocksOneMinute"
+    }
+  },
+  {
+    "name": "firstBlood",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "First Blood",
+      "token": "NEW_ACHIEVEMENT_5_26_NAME"
+    },
+    "description": {
+      "english": "Kill another player in any multiplayer mode.",
+      "token": "NEW_ACHIEVEMENT_5_26_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "pvpKills"
+    }
+  },
+  {
+    "name": "veryEasyTrainerKill",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Attacking Basics",
+      "token": "NEW_ACHIEVEMENT_5_27_NAME"
+    },
+    "description": {
+      "english": "Kill the attack trainer on Very Easy",
+      "token": "NEW_ACHIEVEMENT_5_27_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "highestAttackTrainerClear"
+    }
+  },
+  {
+    "name": "basicTraining",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/6b78f1bd66978c43ed4c5ab83eb9dbeb33cbd366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/069d623996aba74b16658b2d612928a567f32cb3.jpg",
+    "displayName": {
+      "english": "Training Regimen 1",
+      "token": "NEW_ACHIEVEMENT_5_28_NAME"
+    },
+    "description": {
+      "english": "Complete the Training Basics in your Home",
+      "token": "NEW_ACHIEVEMENT_5_28_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "homeTrainingRegimenCompleted"
+    }
+  },
+  {
+    "name": "forgottenKnightSlayer",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/54e19a18ec17a50cc98e5ab14b9149c07e277ac6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/74e42080cd548bf813a9b442216a1838d51da682.jpg",
+    "displayName": {
+      "english": "Knight Slayer",
+      "token": "NEW_ACHIEVEMENT_5_29_NAME"
+    },
+    "description": {
+      "english": "Kill a Forgotten Knight in the Tower.",
+      "token": "NEW_ACHIEVEMENT_5_29_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "forgottenKnightKills"
+    }
+  },
+  {
+    "name": "lizardSlayer",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/54e19a18ec17a50cc98e5ab14b9149c07e277ac6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/74e42080cd548bf813a9b442216a1838d51da682.jpg",
+    "displayName": {
+      "english": "Korgothok Slayer",
+      "token": "NEW_ACHIEVEMENT_5_30_NAME"
+    },
+    "description": {
+      "english": "Kill Korogothok in the Tower",
+      "token": "NEW_ACHIEVEMENT_5_30_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "lizardBossKills"
+    }
+  },
+  {
+    "name": "puppeteerSlayer",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/54e19a18ec17a50cc98e5ab14b9149c07e277ac6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/74e42080cd548bf813a9b442216a1838d51da682.jpg",
+    "displayName": {
+      "english": "Puppeteer Slayer",
+      "token": "NEW_ACHIEVEMENT_5_31_NAME"
+    },
+    "description": {
+      "english": "Kill the Puppeteer in the Tower",
+      "token": "NEW_ACHIEVEMENT_5_31_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "puppeteerKills"
+    }
+  },
+  {
+    "name": "Floor 1 Complete",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/54e19a18ec17a50cc98e5ab14b9149c07e277ac6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/74e42080cd548bf813a9b442216a1838d51da682.jpg",
+    "displayName": {
+      "english": "Floor 1 Complete",
+      "token": "NEW_ACHIEVEMENT_42_0_NAME"
+    },
+    "description": {
+      "english": "Complete Floor 1 of the Tower",
+      "token": "NEW_ACHIEVEMENT_42_0_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "climbsCompleted"
+    }
+  },
+  {
+    "name": "towerNovice",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/54e19a18ec17a50cc98e5ab14b9149c07e277ac6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/74e42080cd548bf813a9b442216a1838d51da682.jpg",
+    "displayName": {
+      "english": "Tower Novice",
+      "token": "NEW_ACHIEVEMENT_42_1_NAME"
+    },
+    "description": {
+      "english": "Enter the tower 10 times.",
+      "token": "NEW_ACHIEVEMENT_42_1_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 10,
+      "stat_name": "towerRuns"
+    }
+  },
+  {
+    "name": "towerInitiate",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/54e19a18ec17a50cc98e5ab14b9149c07e277ac6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/74e42080cd548bf813a9b442216a1838d51da682.jpg",
+    "displayName": {
+      "english": "Tower Initiate",
+      "token": "NEW_ACHIEVEMENT_42_2_NAME"
+    },
+    "description": {
+      "english": "Enter the tower 100 times.",
+      "token": "NEW_ACHIEVEMENT_42_2_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 100,
+      "stat_name": "towerRuns"
+    }
+  },
+  {
+    "name": "looter1",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/54e19a18ec17a50cc98e5ab14b9149c07e277ac6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/74e42080cd548bf813a9b442216a1838d51da682.jpg",
+    "displayName": {
+      "english": "Loot Novice",
+      "token": "NEW_ACHIEVEMENT_42_3_NAME"
+    },
+    "description": {
+      "english": "Loot 5 chests in the tower.",
+      "token": "NEW_ACHIEVEMENT_42_3_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 5,
+      "stat_name": "chestsLooted"
+    }
+  },
+  {
+    "name": "looter2",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/54e19a18ec17a50cc98e5ab14b9149c07e277ac6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/74e42080cd548bf813a9b442216a1838d51da682.jpg",
+    "displayName": {
+      "english": "Loot Initiate",
+      "token": "NEW_ACHIEVEMENT_42_4_NAME"
+    },
+    "description": {
+      "english": "Loot 25 chests in the tower.",
+      "token": "NEW_ACHIEVEMENT_42_4_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 25,
+      "stat_name": "chestsLooted"
+    }
+  },
+  {
+    "name": "looter3",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/54e19a18ec17a50cc98e5ab14b9149c07e277ac6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2709730/74e42080cd548bf813a9b442216a1838d51da682.jpg",
+    "displayName": {
+      "english": "Loot Acolyte",
+      "token": "NEW_ACHIEVEMENT_42_5_NAME"
+    },
+    "description": {
+      "english": "Loot 100 chests in the tower.",
+      "token": "NEW_ACHIEVEMENT_42_5_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 100,
+      "stat_name": "chestsLooted"
+    }
   }
 ]
