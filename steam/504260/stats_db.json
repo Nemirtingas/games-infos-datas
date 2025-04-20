@@ -3,14 +3,19 @@
     "name": "LifeTimeScoreStat",
     "displayName": "Lifetime Score",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0
   },
   {
     "name": "GamesPlayedStat",
     "displayName": "Games Played",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1.0,
+    "min": 1.0
   }
 ]

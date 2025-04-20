@@ -3,28 +3,38 @@
     "name": "s_driven",
     "displayName": "Miles driven",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 1000.0,
+    "min": 0.0
   },
   {
     "name": "s_moved",
     "displayName": "Galons of dirt moved",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 100000.0,
+    "min": 0.0
   },
   {
     "name": "s_completed",
     "displayName": "Levels completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "s_aced",
     "displayName": "Levels aced",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   }
 ]

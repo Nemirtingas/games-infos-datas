@@ -3,21 +3,33 @@
     "name": "TestStatInt",
     "displayName": "TestStatInt",
     "type": "int",
+    "default": 5,
     "incrementonly": false,
-    "defaultvalue": 5
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "TestStatFloat",
     "displayName": "TestStatFloat",
     "type": "float",
+    "default": 4.0,
     "incrementonly": false,
-    "defaultvalue": 4.0
+    "aggregated": false,
+    "maxchange": 1000.0,
+    "min": 0.0,
+    "max": 100
   },
   {
     "name": "TestIns",
     "displayName": "TestIns",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   }
 ]

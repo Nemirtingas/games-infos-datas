@@ -3,28 +3,39 @@
     "name": "lifetime_networth",
     "displayName": "Lifetime Networth",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 1000000000
   },
   {
     "name": "sss_wins",
     "displayName": "Total Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "max": 1000
   },
   {
     "name": "sss_loses",
     "displayName": "Total Loses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "max": 1000
   },
   {
     "name": "sss_yeehaws",
     "displayName": "Total Yeehaws Given",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 100
   }
 ]

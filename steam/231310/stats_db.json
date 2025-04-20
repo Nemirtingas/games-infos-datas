@@ -3,21 +3,31 @@
     "name": "STAT_STARS",
     "displayName": "Discovered stars",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "STAT_GALAXY",
     "displayName": "Galaxy visited",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "STAT_SIDEA",
     "displayName": "% Side A",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 95,
+    "min": 0,
+    "max": 100
   }
 ]

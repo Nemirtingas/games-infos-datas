@@ -3,14 +3,21 @@
     "name": "STAT_STARSAWARDED",
     "displayName": "Stars awarded",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 48
   },
   {
     "name": "STAT_DISTANCEDRIVEN",
     "displayName": "Distance driven",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 20.0,
+    "min": 0.0,
+    "max": 1000000
   }
 ]

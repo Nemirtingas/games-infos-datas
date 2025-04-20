@@ -3,28 +3,38 @@
     "name": "solo_wins_vs_hard_robots",
     "displayName": "Wins in solo games vs 3+ hard robots",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "online_wins",
     "displayName": "Wins in online games",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "online_wins_inarow",
     "displayName": "Num of sequenced online game wins",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "solo_wins_inarow",
     "displayName": "Num of sequenced solo game wins",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   }
 ]

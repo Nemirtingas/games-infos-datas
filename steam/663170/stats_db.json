@@ -3,14 +3,21 @@
     "name": "elo",
     "displayName": "Elo",
     "type": "int",
+    "default": 1600,
     "incrementonly": false,
-    "defaultvalue": 1600
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 1,
+    "max": 2400
   },
   {
     "name": "total_rp",
     "displayName": "Total RP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 115,
+    "max": 9999999
   }
 ]

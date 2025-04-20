@@ -3,63 +3,90 @@
     "name": "kill_count",
     "displayName": "Killed enemy Soldiers",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0
   },
   {
     "name": "death_count",
     "displayName": "People that died under your rule",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0
   },
   {
     "name": "raid_count",
     "displayName": "Raids survived",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "colonies_count",
     "displayName": "Number of Colonies founded",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "pop_count",
     "displayName": "Max number of pops in one colony",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100000,
+    "min": 0
   },
   {
     "name": "buildings_count",
     "displayName": "Max number of buildings built in one colony",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100000,
+    "min": 0
   },
   {
     "name": "ressources_count",
     "displayName": "Total number of ressources produced of any kind",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0
   },
   {
     "name": "trees_cut",
     "displayName": "Trees cut down",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0
   },
   {
     "name": "playtime",
     "displayName": "Songs of Syx ingame minutes spend playing",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100000,
+    "min": 0
   }
 ]

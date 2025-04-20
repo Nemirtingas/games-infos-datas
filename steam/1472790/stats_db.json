@@ -3,42 +3,54 @@
     "name": "STAT_DEATHS",
     "displayName": "Total Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "STAT_JUMPS",
     "displayName": "Times Jumped",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "STAT_FLIPS",
     "displayName": "Times Switched Gravity",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "STAT_GEMS",
     "displayName": "Power Gems Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "STAT_ORBS",
     "displayName": "Energy Orbs Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 250
   },
   {
     "name": "STAT_MAP",
     "displayName": "Map Explored",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 232
   }
 ]

@@ -3,62 +3,78 @@
     "name": "stat_Playtime",
     "displayName": "Total Playtime",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "stat_Islands_Completed",
     "displayName": "Islands Traveled",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stat_Enemies_Beaten",
     "displayName": "World Enemies Beaten",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10000
   },
   {
     "name": "stat_AvgGoldCubesPerHour",
     "displayName": "Player Wealth",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "stat_LootCrates_Destroyed",
     "displayName": "World Loot Crates Destroyed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100000
   },
   {
     "name": "stat_Chests_Opened",
     "displayName": "World Chests opened",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100000
   },
   {
     "name": "stat_IslandKings_Beaten",
     "displayName": "World Island Kings Beaten",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10000
   },
   {
     "name": "stat_Enemies_On_Fire",
     "displayName": "Enemies Killed On Fire",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10000
   },
   {
     "name": "stat_Gold_Cubes_Collected",
     "displayName": "Gold Cubes Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100000
   }
 ]

@@ -3,2597 +3,3078 @@
     "name": "time_InHive",
     "displayName": "Time Spent in Hives",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "time_CarryingBackpack",
     "displayName": "Time Spent Carrying Backpack",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "time_Airborne",
     "displayName": "Time Spent Airborne",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "missions_Lost",
     "displayName": "Hives Lost",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "missions_Won",
     "displayName": "Hives Won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "deaths_Jumpers",
     "displayName": "Jumper Casualties",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "deaths_Backpacks",
     "displayName": "Backpacks Destroyed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "collected_Goo",
     "displayName": "Goo Harvested",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "collected_Relics",
     "displayName": "Relics Recovered",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "collected_NPCs",
     "displayName": "Survivors Rescued",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "kills_Total",
     "displayName": "Aliens Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "kills_Drones",
     "displayName": "Alien Drones Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_Buzzers",
     "displayName": "Alien Buzzers Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_Floaters",
     "displayName": "Alien Floaters Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_Healers",
     "displayName": "Alien Healers Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_Soldiers",
     "displayName": "Alien Soldiers Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_Bombardiers",
     "displayName": "Alien Bombardiers Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_Lurkers",
     "displayName": "Alien Lurkers Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_Stalkers",
     "displayName": "Alien Stalkers Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_Harvesters",
     "displayName": "Alien Harvesters Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_Crushers",
     "displayName": "Alien Crushers Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_Scorchers",
     "displayName": "Alien Scorchers Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_Caretakers",
     "displayName": "Alien Caretakers Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_Queens",
     "displayName": "Alien Queens Exterminated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_QueensCaptured",
     "displayName": "Alien Queens Captured",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "unlock_RiflePulseLvl1",
     "displayName": "Unlocked Pulse Rounds Level 1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RiflePulseLvl2",
     "displayName": "Unlocked Pulse Rounds Level 2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RiflePulseLvl3",
     "displayName": "Unlocked Pulse Rounds Level 3",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleShotgunLvl1",
     "displayName": "Unlocked Spread Shot Level 1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleShotgunLvl2",
     "displayName": "Unlocked Spread Shot Level 2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleShotgunLvl3",
     "displayName": "Unlocked Spread Shot Level 3",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleRailgunLvl1",
     "displayName": "Unlocked Mag Slugs Level 1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleRailgunLvl2",
     "displayName": "Unlocked Mag Slugs Level 2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleRailgunLvl3",
     "displayName": "Unlocked Mag Slugs Level 3",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleFlamethrowerLvl1",
     "displayName": "Unlocked Flamethrower Level 1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleFlamethrowerLvl2",
     "displayName": "Unlocked Flamethrower Level 2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleFlamethrowerLvl3",
     "displayName": "Unlocked Flamethrower Level 3",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleRocketsLvl1",
     "displayName": "Unlocked Rocket Rounds Level 1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleRocketsLvl2",
     "displayName": "Unlocked Rocket Rounds Level 2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleRocketsLvl3",
     "displayName": "Unlocked Rocket Rounds Level 3",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleCryoLvl1",
     "displayName": "Unlocked Cryo Beam Level 1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleCryoLvl2",
     "displayName": "Unlocked Cryo Beam Level 2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleCryoLvl3",
     "displayName": "Unlocked Cryo Beam Level 3",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RiflePlasmaLvl1",
     "displayName": "Unlocked Plasma Charger Level 1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RiflePlasmaLvl2",
     "displayName": "Unlocked Plasma Charger Level 2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RiflePlasmaLvl3",
     "displayName": "Unlocked Plasma Charger Level 3",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleGasLvl1",
     "displayName": "Unlocked Poison Cloud Level 1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleGasLvl2",
     "displayName": "Unlocked Poison Cloud Level 2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleGasLvl3",
     "displayName": "Unlocked Poison Cloud Level 3",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleTeslaLvl1",
     "displayName": "Unlocked Tesla Orbs Level 1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleTeslaLvl2",
     "displayName": "Unlocked Tesla Orbs Level 2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleTeslaLvl3",
     "displayName": "Unlocked Tesla Orbs Level 3",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleGammaLvl1",
     "displayName": "Unlocked Gamma Ray Level 1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleGammaLvl2",
     "displayName": "Unlocked Gamma Ray Level 2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleGammaLvl3",
     "displayName": "Unlocked Gamma Ray Level 3",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleBrassLvl1",
     "displayName": "Unlocked Brass Blessing Level 1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleBrassLvl2",
     "displayName": "Unlocked Brass Blessing Level 2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleBrassLvl3",
     "displayName": "Unlocked Brass Blessing Level 3",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleUltraLvl1",
     "displayName": "Unlocked EUV Ray Level 1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleUltraLvl2",
     "displayName": "Unlocked EUV Ray Level 2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_RifleUltraLvl3",
     "displayName": "Unlocked EUV Ray Level 3",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_GrenadeFuse",
     "displayName": "Unlocked Fuse Grenades",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_GrenadeSticky",
     "displayName": "Unlocked Sticky Grenades",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_GrenadeProximity",
     "displayName": "Unlocked Proximity Grenades",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_GrenadeRemote",
     "displayName": "Unlocked Remote Grenades",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_GrenadePoison",
     "displayName": "Unlocked Poison Grenades",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_GrenadeCluster",
     "displayName": "Unlocked Cluster Grenades",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_GrenadePinwheel",
     "displayName": "Unlocked Incendiary Pinwheel Grenades",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_GrenadeHealing",
     "displayName": "Unlocked Healing Grenades",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_UtilityTelefrag",
     "displayName": "Unlocked Telefrag Utility",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_UtilitySonar",
     "displayName": "Unlocked Sonar Map Utility",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_UtilityBandolier",
     "displayName": "Unlocked Bomb Bandolier Utility",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_UtilityRejuvenation",
     "displayName": "Unlocked Rejuvenation Field Utility",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_UtilityOvershield",
     "displayName": "Unlocked Overshield Utility",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_UtilityHover",
     "displayName": "Unlocked Hover Jets Utility",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_UtilityTurret",
     "displayName": "Unlocked Smart Turret Utility",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_UtilityBlink",
     "displayName": "Unlocked Quantum Blink Utility",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_UtilityLaser",
     "displayName": "Unlocked Laser Sight Utility",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_SkinStandard",
     "displayName": "Unlocked Standard Jumpers",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_SkinRobot",
     "displayName": "Unlocked Runabout Jumpers",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_SkinScout",
     "displayName": "Unlocked Scout Jumpers",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_SkinBruiser",
     "displayName": "Unlocked Bruiser Jumpers",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_SkinKickstarter",
     "displayName": "Unlocked Kickstarter Jumpers",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaAtSymbol",
     "displayName": "Unlocked Insignia - @",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaBarCode",
     "displayName": "Unlocked Insignia - Bar Code",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaClub",
     "displayName": "Unlocked Insignia - Club",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaCrazyFace",
     "displayName": "Unlocked Insignia - Crazy Face",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaCrescent",
     "displayName": "Unlocked Insignia - Crescent",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaCross",
     "displayName": "Unlocked Insignia - Cross",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaCrosshair",
     "displayName": "Unlocked Insignia - Crosshair Standard",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaCrosshairCompass",
     "displayName": "Unlocked Insignia - Crosshair Compass",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaCrosshairEye",
     "displayName": "Unlocked Insignia - Crosshair Eye",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaCrosshairRound",
     "displayName": "Unlocked Insignia - Crosshair Round",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaCrown3",
     "displayName": "Unlocked Insignia - Crown",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaDiamond",
     "displayName": "Unlocked Insignia - Diamond",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaEagle",
     "displayName": "Unlocked Insignia - Eagle",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaEncompassedCircle",
     "displayName": "Unlocked Insignia - Encompassed Circle",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaEnergyBlast",
     "displayName": "Unlocked Insignia - Energy Blast",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaExclamationPoint",
     "displayName": "Unlocked Insignia - Exclamation Point",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaFist2",
     "displayName": "Unlocked Insignia - Fist",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaHappyFace",
     "displayName": "Unlocked Insignia - Happy Face",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaHeart",
     "displayName": "Unlocked - Insignia Heart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaInfinityTriangles",
     "displayName": "Unlocked Insignia - Infinity Triangles",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaKillswitch",
     "displayName": "Unlocked Insignia - Killswitch",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaNailPortal",
     "displayName": "Unlocked Insignia - Nail Portal",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaNuclear",
     "displayName": "Unlocked Insignia - Nuclear",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaPlasma",
     "displayName": "Unlocked Insignia - Plasma",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaQRCode",
     "displayName": "Unlocked Insignia - QR Code",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaQuestionMark",
     "displayName": "Unlocked Insignia - Question Mark",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaRoundedHorns",
     "displayName": "Unlocked Insignia - Rounded Horns",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaSkull",
     "displayName": "Unlocked Insignia - Skull",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaSlicedCircle",
     "displayName": "Unlocked Insignia - Sliced Circle",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaSlicedGear",
     "displayName": "Unlocked Insignia - Sliced Gear",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaSpade",
     "displayName": "Unlocked Insignia - Spade",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaSpiral",
     "displayName": "Unlocked Insignia - Spiral",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaSpireHorns",
     "displayName": "Unlocked Insignia - Spire Horns",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaStarPoint",
     "displayName": "Unlocked Insignia - Star Point",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaSword",
     "displayName": "Unlocked Insignia - Sword",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaTearFlame",
     "displayName": "Unlocked Insignia - Tear Flame",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaV",
     "displayName": "Unlocked Insignia - V",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaWaves",
     "displayName": "Unlocked Insignia - Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaWingedShield",
     "displayName": "Unlocked Insignia - Winged Shield",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "unlock_InsigniaYinYan",
     "displayName": "Unlocked Insignia - Yin Yang",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1
   },
   {
     "name": "equip_ColorGreen",
     "displayName": "Equipped Color Green",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_ColorCyan",
     "displayName": "Used Color Cyan",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_ColorBlue",
     "displayName": "Used Color Blue",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_ColorPurple",
     "displayName": "Used Color Purple",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_ColorPink",
     "displayName": "Used Color Pink",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_ColorTeal",
     "displayName": "Used Color Teal",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_ColorRed",
     "displayName": "Used Color Red",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_ColorOrange",
     "displayName": "Used Color Orange",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_ColorYellow",
     "displayName": "Used Color Yellow",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_SkinStandard",
     "displayName": "Used Standard Jumpers",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_SkinRobot",
     "displayName": "Used Runabout Jumpers",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_SkinScout",
     "displayName": "Used Scout Jumpers",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_SkinBruiser",
     "displayName": "Used Bruiser Jumpers",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_SkinKickstarter",
     "displayName": "Used Kickstarter Jumpers",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaAtSymbol",
     "displayName": "Used Insignia - @",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaBarCode",
     "displayName": "Used Insignia - Bar Code",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaClub",
     "displayName": "Used Insignia - Club",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaCrazyFace",
     "displayName": "Used Insignia - Crazy Face",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaCrescent",
     "displayName": "Used Insignia - Crescent",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaCross",
     "displayName": "Used Insignia - Cross",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaCrosshair",
     "displayName": "Used Insignia - Crosshair Standard",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaCrosshairCompass",
     "displayName": "Used Insignia - Crosshair Compass",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaCrosshairEye",
     "displayName": "Used Insignia - Crosshair Eye",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaCrosshairRound",
     "displayName": "Used Insignia - Crosshair Round",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaCrown3",
     "displayName": "Used Insignia - Crown",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaDiamond",
     "displayName": "Used Insignia - Diamond",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaEagle",
     "displayName": "Used Insignia - Eagle",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaEncompassedCircle",
     "displayName": "Used Insignia - Encompassed Circle",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaEnergyBlast",
     "displayName": "Used Insignia - Energy Blast",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaExclamationPoint",
     "displayName": "Used Insignia - Exclamation Point",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaFist2",
     "displayName": "Used Insignia - Fist",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaHappyFace",
     "displayName": "Used Insignia - Happy Face",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaHeart",
     "displayName": "Used Insignia - Heart",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaInfinityTriangles",
     "displayName": "Used Insignia - Infinity Triangles",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaKillswitch",
     "displayName": "Used Insignia - Killswitch",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaNailPortal",
     "displayName": "Used Insignia - Nail Portal",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaNuclear",
     "displayName": "Used Insignia - Nuclear",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaPlasma",
     "displayName": "Used Insignia - Plasma",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaQRCode",
     "displayName": "Used Insignia - QR Code",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaQuestionMark",
     "displayName": "Used Insignia - Question Mark",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaRoundedHorns",
     "displayName": "Used Insignia - Rounded Horns",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaSkull",
     "displayName": "Used Insignia - Skull",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaSlicedCircle",
     "displayName": "Used Insignia - Sliced Circle",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaSlicedGear",
     "displayName": "Used Insignia - Sliced Gear",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaSpade",
     "displayName": "Used Insignia - Spade",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaSpiral",
     "displayName": "Used Insignia - Spiral",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaSpireHorns",
     "displayName": "Used Insignia - Spire Horns",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaStarPoint",
     "displayName": "Used Insignia - Star Point",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaSword",
     "displayName": "Used Insignia - Sword",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaTearFlame",
     "displayName": "Used Insignia - Tear Flame",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaV",
     "displayName": "Used Insignia - Insignia V",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaWaves",
     "displayName": "Used Insignia - Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaWingedShield",
     "displayName": "Used Insignia - Winged Shield",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_InsigniaYinYan",
     "displayName": "Used Insignia - Yin Yang",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_RiflePulse",
     "displayName": "Used Rifle Mod - Pulse Rounds",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_RifleShotgun",
     "displayName": "Used Rifle Mod - Spread Shot",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_RifleRailgun",
     "displayName": "Used Rifle Mod - Mag Slugs",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_RifleFlamethrower",
     "displayName": "Used Rifle Mod - Flamethrower",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_RifleRockets",
     "displayName": "Used Rifle Mod - Rocket Rounds",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_RifleCryo",
     "displayName": "Used Rifle Mod - Cryo Beam",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_RiflePlasma",
     "displayName": "Used Rifle Mod - Plasma Charger",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_RifleGas",
     "displayName": "Used Rifle Mod - Poison Cloud",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_RifleTesla",
     "displayName": "Used Rifle Mod - Tesla Orbs",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_RifleGamma",
     "displayName": "Used Rifle Mod - Gamma Ray",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_RifleBrass",
     "displayName": "Used Rifle Mod - Brass Blessing",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_RifleUltra",
     "displayName": "Used Rifle Mod - EUV Ray",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_GrenadeFuse",
     "displayName": "Used Grenade Mod - Standard Fuse",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_GrenadeSticky",
     "displayName": "Used Grenade Mod - Sticky Casing",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_GrenadeProximity",
     "displayName": "Used Grenade Mod - Proximity Trigger",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_GrenadeRemote",
     "displayName": "Used Grenade Mod - Remote Detonator",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_GrenadePoison",
     "displayName": "Used Grenade Mod - Poison Cloud",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_GrenadeCluster",
     "displayName": "Used Grenade Mod - Cluster Casing",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_GrenadePinwheel",
     "displayName": "Used Grenade Mod - Incendiary Pinwheel",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_GrenadeHealing",
     "displayName": "Used Grenade Mod - Healing",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_UtilityTelefrag",
     "displayName": "Used Utility - Telefrag",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_UtilitySonar",
     "displayName": "Used Utility - Sonar Map",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_UtilityBandolier",
     "displayName": "Used Utility - Bomb Bandolier",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_UtilityRejuvenation",
     "displayName": "Used Utility - Rejuvenation Field",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_UtilityOvershield",
     "displayName": "Used Utility - Overshield",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_UtilityHover",
     "displayName": "Used Utility - Hover Jets",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_UtilityTurret",
     "displayName": "Used Utility - Smart Turret",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_UtilityBlink",
     "displayName": "Used Utility - Quantum Blink",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "equip_UtilityLaser",
     "displayName": "Used Utility - Laser Sight",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_HuntersGauntlet",
     "displayName": "Relic Found - Hunter's Gauntlet",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_RabbitEars",
     "displayName": "Relic Found - Rabbit Ears",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_ValorousShield",
     "displayName": "Relic Found - Valorous Shield",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_FateCutter",
     "displayName": "Relic Found - Fate Cutter",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_JarOfSpores",
     "displayName": "Relic Found - Jar of Spores",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_PheromoneSac",
     "displayName": "Relic Found - Pheromone Sac",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_MysteriousMushroom",
     "displayName": "Relic Found - Mysterious Mushroom",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_Necronomicon",
     "displayName": "Relic Found - Necronomicon",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_CaretakerVesicle",
     "displayName": "Relic Found - Caretaker Vesicle",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_ScorcherWing",
     "displayName": "Relic Found - Scorcher Wing",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_HarvesterTail",
     "displayName": "Relic Found - Harvester Tail",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_BallAndChain",
     "displayName": "Relic Found - Ball and Chain",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_Banjo",
     "displayName": "Relic Found - Banjo",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_Coin",
     "displayName": "Relic Found - Coin",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_DataPad",
     "displayName": "Relic Found - Data Pad",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_Chair",
     "displayName": "Relic Found - Folding Chair",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_GooVial",
     "displayName": "Relic Found - Goo Vial",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_WesleyClaw",
     "displayName": "Relic Found - Crusher Claw",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_Flower",
     "displayName": "Relic Found - Thriving Flower",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_ArmCannon",
     "displayName": "Relic Found - Arm Cannon",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_ElectromorphicCrystal",
     "displayName": "Relic Found - Electromorphic Crystal",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "relic_SuspendedPlasma",
     "displayName": "Relic Found - Suspended Plasma",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_BenSevers",
     "displayName": "Rescued Sylvia Alice",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_DavidGreenfield",
     "displayName": "Rescued Sgt. Greenfield",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_JohnMikula",
     "displayName": "Rescued Sci. Mikula",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_AndrewSevers",
     "displayName": "Rescued Sci. Spacewhale",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_JillianStiles",
     "displayName": "Rescued Sci. Stiles",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_MattStevens",
     "displayName": "Rescued Cdr. Stevens",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_MattDonatelli",
     "displayName": "Rescued Sgt. Donatelli",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_MattRaithel",
     "displayName": "Rescued Sgt. Raithel",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_BradAustrin",
     "displayName": "Rescued Detective Austrin",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_VickyHedgecock",
     "displayName": "Rescued Eng. Hedge",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_JamesSirna",
     "displayName": "Rescued Space Hobo",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_KevinTodd",
     "displayName": "Rescued Sir Kevalier",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_DamonBaker",
     "displayName": "Rescued Damon Baker",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_JimmyHinson",
     "displayName": "Rescued Lt. Hinson",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_FinnMorgan",
     "displayName": "Rescued Eng. Morgan",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_JordanCovert",
     "displayName": "Rescued Sci McTwiddydinkles",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_RobertKoh",
     "displayName": "Rescued Pvt. Koh",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_SamWade",
     "displayName": "Rescued Cdr. Wade",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_EricHibbeler",
     "displayName": "Rescued Sci. Hibbeler",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_KevinOlson",
     "displayName": "Rescued Pvt. Kolson",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_AndyBeim",
     "displayName": "Rescued Spud the Turtle",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_AngelitoVillamena",
     "displayName": "Rescued Sgt. Villamena",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_BenDonatelli",
     "displayName": "Rescued Maj. Salvos",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_BrettSweeney",
     "displayName": "Rescued Sgt. Brett Sweeney",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_DanielAndersen",
     "displayName": "Rescued Daniel Andersen",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_DavidHunt",
     "displayName": "Rescued David Hunt",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_DerekLynch",
     "displayName": "Rescued Eng. Lynch",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_DavidBroyles",
     "displayName": "Rescued Sci. Broyles",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_ElizaFlores",
     "displayName": "Rescued Doc. Flores",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_EllenMikula",
     "displayName": "Rescued Tito the Dog",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_ElliottCrocker",
     "displayName": "Rescued Sgt. Elliott Crocker",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_JackScholly",
     "displayName": "Rescued Jack Scholly",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_JamesPires",
     "displayName": "Rescued Sci. James Pires",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_JennieRaithel",
     "displayName": "Rescued Doc. Raithel",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_JohnAllen",
     "displayName": "Rescued Sci. John Allen",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_JohnHunt",
     "displayName": "Rescued Pvt. John Hunt",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GeorgeCochrane",
     "displayName": "Rescued Doc. Juggerbot",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_KathrynDonatelli",
     "displayName": "Rescued Sci. Donatelli",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_KirkDamman",
     "displayName": "Rescued Kirk Damman",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_MatthewSchilf",
     "displayName": "Rescued Sci. Matthew Schilf",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_PaulDickerson",
     "displayName": "Rescued Sci. Paul Dickerson",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_RalfPeter",
     "displayName": "Rescued Pvt. Grizz Lee Bear",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_RobertMccarthy",
     "displayName": "Rescued Space Hipster",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_RobinRath",
     "displayName": "Rescued Myookis",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_RyanCampbell",
     "displayName": "Rescued Sci. Ryan Campbell Jr.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_JordiEscobar",
     "displayName": "Rescued Gari the Cat",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_SueAdamson",
     "displayName": "Rescued Cdr. Adamson",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_SokloeumMoung",
     "displayName": "Rescued Sci. Sokloeum Moung",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_TienPham",
     "displayName": "Rescued Eng. Tien Pham",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_TisoSpencer",
     "displayName": "Rescued Sci. Tiso Spencer",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_WillScottCornell",
     "displayName": "Rescued Eng. Will Scott-Cornell",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_BartAegisDefenders",
     "displayName": "Rescued Bart",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_SyrekReven",
     "displayName": "Rescued Syrek",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_VadimDyachenko",
     "displayName": "Rescued Eng. Yellowafterlife",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenEngFem1",
     "displayName": "Rescued Eng. Lepore",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenEngFem2",
     "displayName": "Rescued Eng. Brandenburg",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenEngMal1",
     "displayName": "Rescued Eng. Baragona",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenEngMal2",
     "displayName": "Rescued Eng. Mugnai",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenEngSho1",
     "displayName": "Rescued Eng. Reeves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenEngSho2",
     "displayName": "Rescued Eng. Todisco",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenMedFem1",
     "displayName": "Rescued Doc. Zeiler",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenMedFem2",
     "displayName": "Rescued Doc. Hightower",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenMedFem3",
     "displayName": "Rescued Doc. Walmsley",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenMedFem4",
     "displayName": "Rescued Doc. Perkins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenMedFem5",
     "displayName": "Rescued Doc. Frost",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenMedMal1",
     "displayName": "Rescued Doc. Appiah",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenMedMal2",
     "displayName": "Rescued Doc. Herman",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenMedMal3",
     "displayName": "Rescued Doc. Depaul",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenMedMal4",
     "displayName": "Rescued Doc. Gonzales",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenMedMal5",
     "displayName": "Rescued Doc. Appiah",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSciFem1",
     "displayName": "Rescued Sci. Murillo",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSciFem2",
     "displayName": "Rescued Sci. Zelinsky",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSciFem3",
     "displayName": "Rescued Sci. Pinero",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSciFem4",
     "displayName": "Rescued Sci. Knowles",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSciFem5",
     "displayName": "Rescued Sci. Taylor",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSciMal1",
     "displayName": "Rescued Sci. Riley",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSciMal2",
     "displayName": "Rescued Sci. Fitch",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSciMal3",
     "displayName": "Rescued Sci. Afolayan",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSciMal4",
     "displayName": "Rescued Sci. Alamanni",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSciMal5",
     "displayName": "Rescued Sci. Mikelo",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSurFem1",
     "displayName": "Rescued Vanna Jasso",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSurFem2",
     "displayName": "Rescued Paula Ochoa",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSurFem3",
     "displayName": "Rescued Adedayo Gevorgian",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSurFem4",
     "displayName": "Rescued Zorana Silverstein",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSurFem5",
     "displayName": "Rescued Dijana Rostami",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSurMal1",
     "displayName": "Rescued Dominik Basurto",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSurMal2",
     "displayName": "Rescued Stanislas Dunst",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSurMal3",
     "displayName": "Rescued Zaki Zhang",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSurMal4",
     "displayName": "Rescued Herodion Banes",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSurMal5",
     "displayName": "Rescued Mark Mathers",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenEngRob1",
     "displayName": "Rescued Eng. Sparkplug",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenMedRob1",
     "displayName": "Rescued Doc. Gurney",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSciRob1",
     "displayName": "Rescued Sci. Unit",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GenSurRob1",
     "displayName": "Rescued Pvt. Bolts",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_BrendanChapman",
     "displayName": "Rescued Cdr. Chappy",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_KellySofian",
     "displayName": "Rescued Cpl. TheDyslexticGeek",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_SarahBlankenship",
     "displayName": "Rescued Lt. Bird",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "challenges_daily_won",
     "displayName": "Daily Challenges Won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "challenges_daily_lost",
     "displayName": "Daily Challenges Lost",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "challenges_weekly_won",
     "displayName": "Weekly Challenges Won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "challenges_weekly_lost",
     "displayName": "Weekly Challenges Lost",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "depth_reached_1",
     "displayName": "Hive Depth Reached - Level 1",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "depth_reached_2",
     "displayName": "Hive Depth Reached - Level 2",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "depth_reached_3",
     "displayName": "Hive Depth Reached - Level 3",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "depth_reached_4",
     "displayName": "Hive Depth Reached - Level 4",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "depth_reached_5",
     "displayName": "Hive Depth Reached - Level 5",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "depth_reached_6",
     "displayName": "Hive Depth Reached - Level 6",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "depth_reached_7",
     "displayName": "Hive Depth Reached - Level 7",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "depth_reached_8",
     "displayName": "Hive Depth Reached - Level 8",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "depth_reached_9",
     "displayName": "Hive Depth Reached - Level 9",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "depth_reached_10",
     "displayName": "Hive Depth Reached - Level 10",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "depth_reached_11",
     "displayName": "Hive Depth Reached - Level 11",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "depth_reached_12",
     "displayName": "Hive Depth Reached - Level 12",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "kills_Eggs",
     "displayName": "Eggs Scrambled",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "rank_F",
     "displayName": "Mission F Ranks",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "rank_E",
     "displayName": "Mission E Ranks",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "rank_D",
     "displayName": "Mission D Ranks",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "rank_C",
     "displayName": "Mission C Ranks",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "rank_B",
     "displayName": "Mission B Ranks",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "rank_A",
     "displayName": "Mission A Ranks",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "rank_S",
     "displayName": "Mission S Ranks",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "rank_P",
     "displayName": "Mission P Ranks",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "relic_TutorialGrenades",
     "displayName": "Relic Found - Tutorial Grenades",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_FatBard",
     "displayName": "Rescued Fat Bard",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_GraveRobber",
     "displayName": "Rescued Grave Robber",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "npc_Wyatt",
     "displayName": "Rescued Wyatt",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ambushes_Survived",
     "displayName": "Ambushes Survived",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "missions_Attempt",
     "displayName": "Hives Attempted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "campaigns_EasyWon",
     "displayName": "Win the Easy Campaign",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 1
   },
   {
     "name": "campaigns_MediumWon",
     "displayName": "Win the Medium Campaign",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 1
   },
   {
     "name": "campaigns_HardWon",
     "displayName": "Win the Hard Campaign",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 1
   },
   {
     "name": "campaigns_ImpossibleWon",
     "displayName": "Win the Impossible Campaign",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 1
   },
   {
     "name": "health_Restored",
     "displayName": "Amount of Health Restored",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_Players",
     "displayName": "Players Killed by Players",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "time_InHivePersonal",
     "displayName": "Time In Hive Personal",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "missions_WonPersonal",
     "displayName": "Missions Won Personal",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "kills_EggsPersonal",
     "displayName": "Eggs Scrambled Personal",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "missions_Offline",
     "displayName": "Missions Attempted Offline",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "missions_Online",
     "displayName": "Missions Attempted Online",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "challenges_Speedrun",
     "displayName": "Speedruns Attempted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "challenges_Hardcore",
     "displayName": "Hardcores Attempted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "challenges_Endless",
     "displayName": "Endlesses Attempted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "challenges_Dark",
     "displayName": "Darks Attempted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

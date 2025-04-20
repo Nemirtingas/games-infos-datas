@@ -3,763 +3,1198 @@
     "name": "rounds_played",
     "displayName": "Rounds Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 25,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "rounds_won",
     "displayName": "Rounds Won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 25,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "games_played",
     "displayName": "Games Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 5,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "games_won",
     "displayName": "Games Won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "steps_taken",
     "displayName": "Steps Taken",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0
   },
   {
     "name": "coins_collected",
     "displayName": "Coins Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 100000
   },
   {
     "name": "levels_failed",
     "displayName": "Levels Failed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 15,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "deaths",
     "displayName": "Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 100000
   },
   {
     "name": "awards_most_coins",
     "displayName": "Awards - Most Coins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "awards_first_to_finish",
     "displayName": "Awards - First To Finish",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "awards_closest_to_finish",
     "displayName": "Awards - Closest To Finish",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "awards_double_kill",
     "displayName": "Awards - Double Kill",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "awards_triple_kill",
     "displayName": "Awards - Triple Kill",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_1",
     "displayName": "Trap Kills (1)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_2",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_3",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_4",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_5",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_6",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_7",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_8",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_9",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_10",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_11",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_12",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_13",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_14",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_15",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_16",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_17",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_18",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_19",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_20",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_21",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_22",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_23",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_24",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_25",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_26",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_27",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_28",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_29",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_1",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_2",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_3",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_4",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_5",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_6",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_7",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_8",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_9",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_10",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_11",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_12",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_13",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_14",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_15",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_16",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_17",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_18",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_19",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_20",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_21",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_22",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_23",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_24",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_25",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_26",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_27",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_28",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_29",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_1",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_2",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_3",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_4",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_5",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_6",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_7",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_8",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_9",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_10",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_11",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_12",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_13",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_14",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_15",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_16",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_17",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_18",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_19",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_20",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_21",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_22",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_23",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_24",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_25",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_26",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_27",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_28",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_29",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_30",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_31",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_placed_32",
     "displayName": "Trap Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_30",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_31",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_deaths_32",
     "displayName": "Trap Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_30",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_31",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "trap_kills_32",
     "displayName": "Trap Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000
   }
 ]

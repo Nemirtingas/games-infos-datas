@@ -3,28 +3,44 @@
     "name": "ALIEN_KILL_COUNT",
     "displayName": "Aliens killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1,
+    "max": 1000
   },
   {
     "name": "ROOM_COUNT",
     "displayName": "Rooms build",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 1000
   },
   {
     "name": "BUILDING_COUNT",
     "displayName": "Buildings finished",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 100
   },
   {
     "name": "WORKER_RESCUE_COUNT",
     "displayName": "Workers rescued",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 100
   }
 ]

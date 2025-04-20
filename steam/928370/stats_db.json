@@ -3,34 +3,41 @@
     "name": "axesThrown",
     "displayName": "Number of total axes thrown.",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1
   },
   {
     "name": "bonusBalloons",
     "displayName": "Total number of bonus balloons hit.",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "avgHitScore",
     "displayName": "Average single axe hit score (higher is better!).",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "axesHit",
     "displayName": "Number of axes that were thrown and hit the target.",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "lastUnlock",
     "displayName": "Last axe unlocked.",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

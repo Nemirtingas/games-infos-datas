@@ -3,278 +3,323 @@
     "name": "UnlockedSentences",
     "displayName": "Unlocked alien sentences",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "HuggedNPCs",
     "displayName": "Hugs given",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "Handcuffed",
     "displayName": "Enemies taken out peacefully",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "KilledCivilians",
     "displayName": "Civilians hurt",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "KilledSoldiers",
     "displayName": "Soldiers hurt",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "PacifistGamesComplete",
     "displayName": "Games completed as pacifist",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "NonViolentGamesComplete",
     "displayName": "Games completed without being violent",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "ViolentGamesComplete",
     "displayName": "Games completed with being violent",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "ItemsBoughtValue",
     "displayName": "The total cost of items bought.",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "ItemsSoldValue",
     "displayName": "The total cost of items sold.",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "ItemsStolenValue",
     "displayName": "The total cost of items stolen.",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "ItemsBought",
     "displayName": "The total number of items bought.",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "ItemsSold",
     "displayName": "The total number of items sold.",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "ItemsStolen",
     "displayName": "The total number of items stolen.",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "ItemsDisintegratedValue",
     "displayName": "The total cost of items disintegrated by the player.",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "ItemsSpawnedValue",
     "displayName": "The total cost if items created by the player.",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "ItemsDisintegrated",
     "displayName": "Number of items disintegrated by the player.",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "ItemsSpawned",
     "displayName": "Number of items created by the player.",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "ItemsMerged",
     "displayName": "Number of times items are merged together.",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "DamageToAliens",
     "displayName": "Total damage done to aliens.",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "DamageToPlayer",
     "displayName": "Total damage done to player.",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "AverageDamageToAliens",
     "displayName": "Average damage to aliens during combat.",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "AverageDamageToPlayer",
     "displayName": "Average damage done to player during combat.",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "GestureExplanations",
     "displayName": "How many times the player has used gestures to explain English",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "SubmissiveAliens",
     "displayName": "How many times has the player successfully threatened an alien.",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "DisguisesWorn",
     "displayName": "Number of different disguises",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "Killed_c1m1_forest",
     "displayName": "Number of deaths in c1m1_forest.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Killed_c1m2_hub01",
     "displayName": "Number of deaths in c1m2_hub01.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Killed_c1m3_factory",
     "displayName": "Number of deaths in c1m3_factory.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Killed_c1m4_hospital",
     "displayName": "Number of deaths in c1m4_hospital.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Killed_c2m1_hub01",
     "displayName": "Number of deaths in c2m1_hub01.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Killed_c2m2_backpack",
     "displayName": "Number of deaths in c2m2_backpack.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Killed_c2m3_outpost",
     "displayName": "Number of deaths in c2m3_outpost.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Killed_c2m4_facility",
     "displayName": "Number of deaths in c2m4_facility.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Killed_c3m1_prison",
     "displayName": "Number of deaths in c3m1_prison.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Killed_c3m2_prison",
     "displayName": "Number of deaths in c3m2_prison.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Killed_c3m3_research",
     "displayName": "Number of deaths in c3m3_research.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Killed_c3m4_research",
     "displayName": "Number of deaths in c3m4_research.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Killed_c3m5_escape",
     "displayName": "Number of deaths in c3m5_escape.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Killed_c3m6_escape",
     "displayName": "Number of deaths in c3m6_escape.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   }
 ]

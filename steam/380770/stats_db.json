@@ -3,231 +3,306 @@
     "name": "battles_fought",
     "displayName": "Battles",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "wins",
     "displayName": "Victories",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "losses",
     "displayName": "Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "survived",
     "displayName": "Survived",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ships_sank",
     "displayName": "Ships sank",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 9,
+    "min": 0
   },
   {
     "name": "tutorial",
     "displayName": "Ensign",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "battle_3_sank",
     "displayName": "Sunk 3 or more ships",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "battle_5_sank",
     "displayName": "Sunk 5 or more ships",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "battle_7_sank",
     "displayName": "Sunk 7 or more ships",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "hours_in_game",
     "displayName": "Hours played",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "wins_tier_1",
     "displayName": "Victories on 1st tier ships",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "wins_tier_2",
     "displayName": "Victories on 2nd tier ships",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "wins_tier_3",
     "displayName": "Victories on 3rd tier ships",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "wins_tier_4",
     "displayName": "Victories on 4th tier ships",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "wins_tier_5",
     "displayName": "Victories on 5th tier ships",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "wins_tier_6",
     "displayName": "Victories on 6th tier ships",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "wins_tier_7",
     "displayName": "Victories on 7th tier ships",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "wins_tier_8",
     "displayName": "Victories on 9th tier ships",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "wins_tier_9",
     "displayName": "Victories on 9th tier ships",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "treasures",
     "displayName": "Treasures",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "fame",
     "displayName": "Fame",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "max_crew_experience",
     "displayName": "Best crew",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 100.0,
+    "min": 0.0,
+    "max": 100
   },
   {
     "name": "unlocked_ships_Asia",
     "displayName": "Asian Ships unlocked",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": true,
+    "min": 1
   },
   {
     "name": "damage_done_to_hull",
     "displayName": "Damage done to hulls",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "damage_done_to_sails",
     "displayName": "Damage done to sails",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "damage_done_to_crew",
     "displayName": "Crewmen killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "masts_destroyed",
     "displayName": "Masts destroyed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "wrecks_looted",
     "displayName": "Wrecks looted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 17,
+    "min": 0
   },
   {
     "name": "fires_inflicted",
     "displayName": "Fires Inflicted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "fires_suffered",
     "displayName": "Fires Suffered",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "ultimate_wins",
     "displayName": "Decisive Victories",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "unlocked_ships_Caribbean",
     "displayName": "Caribbean Ships unlocked",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 1
   },
   {
     "name": "unlocked_ships_Mediterranean",
     "displayName": "Mediterranean Ships unlocked",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 1
   }
 ]

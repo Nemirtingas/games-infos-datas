@@ -3,14 +3,22 @@
     "name": "TOTAL_ITEMS_SCANNED",
     "displayName": "Total Scanned Items",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 1000000
   },
   {
     "name": "TOTAL_GOOD_CUSTOMERS",
     "displayName": "Total Successful Orders",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 1000000
   }
 ]

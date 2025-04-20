@@ -3,35 +3,46 @@
     "name": "levels_won",
     "displayName": "Levels Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "explosions",
     "displayName": "Explosions",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0
   },
   {
     "name": "hardballs_found",
     "displayName": "Hardballs Acquired",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 20
   },
   {
     "name": "pit_levels_won",
     "displayName": "Level Pit Levels Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "coins_found",
     "displayName": "Silicon Crystals Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

@@ -3,14 +3,20 @@
     "name": "shotsFired",
     "displayName": "Total Shots Fired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 50000,
+    "min": 0
   },
   {
     "name": "playerDeaths",
     "displayName": "Total Player Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0
   }
 ]

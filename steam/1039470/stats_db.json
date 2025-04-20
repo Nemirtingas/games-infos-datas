@@ -3,28 +3,37 @@
     "name": "shots_fired",
     "displayName": "Shots Fired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1000000
   },
   {
     "name": "games_played",
     "displayName": "Games Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "enemies_killed",
     "displayName": "Enemies Killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1000000
   },
   {
     "name": "time_played",
     "displayName": "Time Survived",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 86400000,
+    "min": 1
   }
 ]

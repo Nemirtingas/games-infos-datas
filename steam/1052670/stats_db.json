@@ -3,14 +3,22 @@
     "name": "stat_spotted",
     "displayName": "Total Trains Spotted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 20,
+    "min": 1,
+    "max": 999999
   },
   {
     "name": "stat_days",
     "displayName": "Days played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 99999
   }
 ]

@@ -3,35 +3,45 @@
     "name": "STAT_TOTAL_KILL_COUNT",
     "displayName": "Total Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "STAT_SAVED_FROM_BOMBARDMENTS_BY_PHASE",
     "displayName": "abstractanks saved from bombardments using the phase power-up",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "STAT_GAMES_WON",
     "displayName": "Total matches won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "STAT_GAMES_LOST",
     "displayName": "Total matches lost",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "STAT_VERSION",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

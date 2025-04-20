@@ -3,70 +3,83 @@
     "name": "ACCOUNT_LEVEL",
     "displayName": "ACCOUNT_LEVEL",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false
   },
   {
     "name": "GOLDCOINS",
     "displayName": "GOLDCOINS",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ACCOUNT_CURRENT_EXP",
     "displayName": "CURRENT EXP",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ACCOUNT_EN_KILL_COUNT",
     "displayName": "ENEMY KILL COUNT",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ACCOUNT_MATCH_COUNT",
     "displayName": "TOTAL MATCHES",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "ACCOUNT_TROUBLE_USES",
     "displayName": "TOTAL TROUBLE USES",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ACCOUNT_PLAY_MINS",
     "displayName": "TOTAL MATCH TIME",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ACCOUNT_WIN_COUNT",
     "displayName": "TOTAL WINS",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "ACCOUNT_LOSE_COUNT",
     "displayName": "TOTAL LOSES",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "PLAYTIME_DROP_COUNTER",
     "displayName": "PLAY TIME COUNTER",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

@@ -3,28 +3,38 @@
     "name": "jumpsCumulative",
     "displayName": "Cumulative Jumps",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "jumpsInOneGame",
     "displayName": "Jumps in a single game",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 50
   },
   {
     "name": "protectedCumulative",
     "displayName": "Cumulative ships protected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "protectedInOneGame",
     "displayName": "Ships protected in a single game",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 200
   }
 ]

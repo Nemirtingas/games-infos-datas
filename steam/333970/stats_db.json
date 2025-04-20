@@ -3,315 +3,462 @@
     "name": "stat_gamesPlayed",
     "displayName": "Games Played",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_obstaclesDestroyedThisTurn",
     "displayName": "Destroyed Obstacles",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "stat_obstaclesCreatedThisTurn",
     "displayName": "Obstacles Created",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stat_manaGenTotal",
     "displayName": "Total Mana Generated",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 2000,
+    "min": 0
   },
   {
     "name": "stat_manaGenThisTurn",
     "displayName": "Mana Generated Per Turn",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "stat_manaGenThisGame",
     "displayName": "Mana Generated Per Game",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 3000,
+    "min": 0,
+    "max": 5000
   },
   {
     "name": "stat_manaSpentThisTurn",
     "displayName": "Mana Spent Per Turn",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "stat_useWolf",
     "displayName": "Has used a Wolf",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "stat_animalWolfThisTurn",
     "displayName": "Number of wolves used this turn",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_useBear",
     "displayName": "Has used a Bear",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "stat_useEagle",
     "displayName": "Has used an Eagle",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "stat_useTurtle",
     "displayName": "Has used a Turtle",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "stat_unitsSpawnedThisTurn",
     "displayName": "Units Spawned per turn",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 0,
+    "max": 50
   },
   {
     "name": "stat_animalManaSpentThisTurn",
     "displayName": "Mana spent on animals this turn",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000
   },
   {
     "name": "stat_OMPWins",
     "displayName": "Overall OMP Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_bridgesBuiltThisTurn",
     "displayName": "Bridges built this turn",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_relicCapturesThisTurn",
     "displayName": "Relics captured this turn",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_eagleKillsThisTurn",
     "displayName": "eagle kills this turn",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_repeatEagle",
     "displayName": "has repeated an eagle transform on the same unit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_shellShocked",
     "displayName": "bool has shell shocked",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_realmRipper",
     "displayName": "bool has realm ripper",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_builtBridge",
     "displayName": "bool has built a bridge",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_unitsSpawnedTotal",
     "displayName": "total units spawned",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0
   },
   {
     "name": "stat_bearKillsRowTurn",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_fairyManaGenThisTurn",
     "displayName": "mana generate by fairies this turn",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 200,
+    "min": 0,
+    "max": 200
   },
   {
     "name": "stat_fairyCapturesThisTurn",
     "displayName": "fairies captured this turn",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 20,
+    "min": 0,
+    "max": 20
   },
   {
     "name": "stat_OMPGamesStartTotal",
     "displayName": "number of OMP games started",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_OMPGamesFinishTotal",
     "displayName": "number of OMP games completed",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_OMPSecond",
     "displayName": "2nd place finishes",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_OMPThird",
     "displayName": "3rd place finishes",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_OMPFourth",
     "displayName": "4th place finishes",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_OMPLogins",
     "displayName": "Total OMP logins",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_OMPAuraTotal",
     "displayName": "Total Aura",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0
   },
   {
     "name": "stat_OMPAuraGameTotal",
     "displayName": "Aura from a single game",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 500,
+    "min": 0,
+    "max": 500
   },
   {
     "name": "stat_OMPTrisksGameTotal",
     "displayName": "Trisks from a single game",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 250,
+    "min": 0,
+    "max": 250
   },
   {
     "name": "stat_OMPTrisksTotal",
     "displayName": "Total Trisks earned",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 500,
+    "min": 0
   },
   {
     "name": "stat_Rickett",
     "displayName": "Defeat Master Rickett",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "stat_Highsommar",
     "displayName": "Complete Highsommar",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "stat_mapItemsTotal",
     "displayName": "How many Map Items did you find",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stat_Ninonell",
     "displayName": "Defeat Master Ninonell",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "stat_Aldenfalle",
     "displayName": "Complete Aldenfalle",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "stat_Wintermourne",
     "displayName": "Complete Wintermourne",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "stat_Deepwinter",
     "displayName": "Complete Deepwinter",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "stat_Beltaine",
     "displayName": "Complete Beltaine",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "stat_endGame",
     "displayName": "Finish the Game",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   }
 ]

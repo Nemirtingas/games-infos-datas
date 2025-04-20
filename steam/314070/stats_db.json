@@ -3,56 +3,71 @@
     "name": "STAT_HOMERUNS",
     "displayName": "Homeruns",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_STRIKEOUTS",
     "displayName": "Strikeouts",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_ACCOUNTLEVEL",
     "displayName": "Account Level",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false,
+    "min": 1
   },
   {
     "name": "STAT_MAXEGO_WIN",
     "displayName": "Highest Ego season game won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 99
   },
   {
     "name": "STAT_SEASONGAMES_WON",
     "displayName": "Season games won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_LONGEST_HOMERUN",
     "displayName": "Longest homerun hit",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 600
   },
   {
     "name": "STAT_TOTALSTARPOINTS",
     "displayName": "Total Starpoints earned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "STAT_NUM_SEASONSWON",
     "displayName": "Number of Seasons won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   }
 ]

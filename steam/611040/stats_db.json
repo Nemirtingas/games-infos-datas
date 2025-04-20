@@ -3,21 +3,33 @@
     "name": "cooking",
     "displayName": "Dishes cooked",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 40,
+    "min": 1,
+    "max": 9999999
   },
   {
     "name": "ownTitles",
     "displayName": "Own titles",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 40,
+    "min": 1,
+    "max": 9999999
   },
   {
     "name": "timeVlogs",
     "displayName": "Time spend on rec/edit/publish simple vlogs",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 600,
+    "min": 5,
+    "max": 99999999
   }
 ]

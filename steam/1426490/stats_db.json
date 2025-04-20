@@ -3,14 +3,22 @@
     "name": "TotalGetAnima",
     "displayName": "アニマ総取得数",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000000,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "ColosseumBattlePoint",
     "displayName": "闘技場バトルポイント",
     "type": "int",
+    "default": 1000,
     "incrementonly": false,
-    "defaultvalue": 1000
+    "aggregated": false,
+    "maxchange": 200,
+    "min": 0,
+    "max": 2147483647
   }
 ]

@@ -3,28 +3,36 @@
     "name": "stat_gems",
     "displayName": "Gems",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 20,
+    "min": 0
   },
   {
     "name": "stat_last_played_day",
     "displayName": "",
     "type": "int",
+    "default": -1,
     "incrementonly": true,
-    "defaultvalue": -1
+    "aggregated": false
   },
   {
     "name": "stat_num_games_played_today",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "stat_num_games_won_today",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   }
 ]

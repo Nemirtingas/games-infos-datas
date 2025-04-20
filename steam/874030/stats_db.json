@@ -3,28 +3,38 @@
     "name": "GAMES_PLAYED",
     "displayName": "Rescue Attempts",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "GAMES_WON",
     "displayName": "Successful Rescues",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "DESTROYED_ROBOTS",
     "displayName": "Robots Destroyed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 1
   },
   {
     "name": "DESTROYED_PROPS",
     "displayName": "Props Broken",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 1
   }
 ]

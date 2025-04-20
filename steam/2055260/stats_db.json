@@ -3,686 +3,891 @@
     "name": "sessionPlayed",
     "displayName": "sessionPlayed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "sessionTotalTime",
     "displayName": "sessionTotalTime",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "sessionsUnder1Min",
     "displayName": "sessionsUnder1Min",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "sessions1To3Min",
     "displayName": "sessions1To3Min",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "sessions3To10Min",
     "displayName": "sessions3To10Min",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "sessions10To20Min",
     "displayName": "sessions10To20Min",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "sessions20To30Min",
     "displayName": "sessions20To30Min",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "sessions30To40Min",
     "displayName": "sessions30To40Min",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "sessionsOver40Min",
     "displayName": "sessionsOver40Min",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "trackerNumNone",
     "displayName": "trackerNumNone",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "trackerNumMore",
     "displayName": "trackerNumMore",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "songPlayedFBT",
     "displayName": "songPlayedFBT",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "songPlayedDRS",
     "displayName": "songPlayedDRS",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "songPassed",
     "displayName": "songPassed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "modNoFail",
     "displayName": "modNoFail",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "modNoMiss",
     "displayName": "modNoMiss",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stageTime",
     "displayName": "stageTime",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "stageVignetteTime",
     "displayName": "stageVignetteTime",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "stageOutBoundPauseFront",
     "displayName": "stageOutBoundPauseFront",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "stageOutBoundPauseSide",
     "displayName": "stageOutBoundPauseSide",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "stageOutBoundPauseBack",
     "displayName": "stageOutBoundPauseBack",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0
   },
   {
     "name": "WayOfTheSamuraiNormalStart",
     "displayName": "WayOfTheSamuraiNormalStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "WayOfTheSamuraiNormalQuit",
     "displayName": "WayOfTheSamuraiNormalQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "WayOfTheSamuraiNormalRestart",
     "displayName": "WayOfTheSamuraiNormalRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "WayOfTheSamuraiNormalFail",
     "displayName": "WayOfTheSamuraiNormalFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "WayOfTheSamuraiHardStart",
     "displayName": "WayOfTheSamuraiHardStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "WayOfTheSamuraiHardQuit",
     "displayName": "WayOfTheSamuraiHardQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "WayOfTheSamuraiHardRestart",
     "displayName": "WayOfTheSamuraiHardRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "WayOfTheSamuraiHardFail",
     "displayName": "WayOfTheSamuraiHardFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "LoseControlEasyStart",
     "displayName": "LoseControlEasyStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "LoseControlEasyQuit",
     "displayName": "LoseControlEasyQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "LoseControlEasyRestart",
     "displayName": "LoseControlEasyRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "LoseControlEasyFail",
     "displayName": "LoseControlEasyRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "LoseControlNormalStart",
     "displayName": "LoseControlNormalStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "LoseControlNormalQuit",
     "displayName": "LoseControlNormalQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "LoseControlNormalRestart",
     "displayName": "LoseControlNormalRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "LoseControlNormalFail",
     "displayName": "LoseControlNormalFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "LoseControlHardStart",
     "displayName": "LoseControlHardStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "LoseControlHardQuit",
     "displayName": "LoseControlHardQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "LoseControlHardRestart",
     "displayName": "LoseControlHardRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "LoseControlHardFail",
     "displayName": "LoseControlHardFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "DoThisAgainNormalStart",
     "displayName": "DoThisAgainNormalStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "DoThisAgainNormalRestart",
     "displayName": "DoThisAgainNormalRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "DoThisAgainNormalFail",
     "displayName": "DoThisAgainNormalFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "DoThisAgainHardStart",
     "displayName": "DoThisAgainHardStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "DoThisAgainHardQuit",
     "displayName": "DoThisAgainHardQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "DoThisAgainHardRestart",
     "displayName": "DoThisAgainHardRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "DoThisAgainHardFail",
     "displayName": "DoThisAgainHardFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "TellMeSomethingEasyStart",
     "displayName": "TellMeSomethingEasyStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "TellMeSomethingEasyQuit",
     "displayName": "TellMeSomethingEasyQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "TellMeSomethingEasyRestart",
     "displayName": "TellMeSomethingEasyRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "TellMeSomethingEasyFail",
     "displayName": "TellMeSomethingEasyFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "TellMeSomethingNormalStart",
     "displayName": "TellMeSomethingNormalStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "TellMeSomethingNormalQuit",
     "displayName": "TellMeSomethingNormalQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "TellMeSomethingNormalRestart",
     "displayName": "TellMeSomethingNormalRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "TellMeSomethingNormalFail",
     "displayName": "TellMeSomethingNormalFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "TellMeSomethingHardStart",
     "displayName": "TellMeSomethingHardStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "TellMeSomethingHardQuit",
     "displayName": "TellMeSomethingHardQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "TellMeSomethingHardRestart",
     "displayName": "TellMeSomethingHardRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "TellMeSomethingHardFail",
     "displayName": "TellMeSomethingHardFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GetItEasyStart",
     "displayName": "GetItEasyStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GetItEasyQuit",
     "displayName": "GetItEasyQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GetItEasyRestart",
     "displayName": "GetItEasyRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GetItEasyFail",
     "displayName": "GetItEasyFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GetItNormalStart",
     "displayName": "GetItNormalStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GetItNormalQuit",
     "displayName": "GetItNormalQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GetItNormalRestart",
     "displayName": "GetItNormalRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GetItNormalFail",
     "displayName": "GetItNormalFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GetItHardStart",
     "displayName": "GetItHardStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GetItHardQuit",
     "displayName": "GetItHardQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GetItHardRestart",
     "displayName": "GetItHardRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GetItHardFail",
     "displayName": "GetItHardFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "EnergeticEasyStart",
     "displayName": "EnergeticEasyStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "EnergeticEasyQuit",
     "displayName": "EnergeticEasyQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "EnergeticEasyRestart",
     "displayName": "EnergeticEasyRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "EnergeticEasyFail",
     "displayName": "EnergeticEasyFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "EnergeticNormalStart",
     "displayName": "EnergeticNormalStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "EnergeticNormalQuit",
     "displayName": "EnergeticNormalQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "EnergeticNormalRestart",
     "displayName": "EnergeticNormalRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "EnergeticNormalFail",
     "displayName": "EnergeticNormalFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "EnergeticHardStart",
     "displayName": "EnergeticNormalStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "EnergeticHardQuit",
     "displayName": "EnergeticHardQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "EnergeticHardRestart",
     "displayName": "EnergeticHardRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "EnergeticHardFail",
     "displayName": "EnergeticHardFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "FlyEasyStart",
     "displayName": "FlyEasyStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "FlyEasyQuit",
     "displayName": "FlyEasyQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "FlyEasyRestart",
     "displayName": "FlyEasyRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "FlyEasyFail",
     "displayName": "FlyEasyFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "FlyNormalStart",
     "displayName": "FlyNormalStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "FlyNormalQuit",
     "displayName": "FlyNormalQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "FlyNormalRestart",
     "displayName": "FlyNormalRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "FlyNormalFail",
     "displayName": "FlyNormalFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "FlyHardStart",
     "displayName": "FlyHardStart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "FlyHardQuit",
     "displayName": "FlyHardQuit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "FlyHardRestart",
     "displayName": "FlyHardRestart",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "FlyHardFail",
     "displayName": "FlyHardFail",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GameEnter",
     "displayName": "GameEnter",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "PlayCount",
     "displayName": "PlayCount",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 1.0,
+    "min": 0.0
   }
 ]

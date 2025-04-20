@@ -3,21 +3,27 @@
     "name": "STAT_NUM_RABBIT_BABIES",
     "displayName": "Rabbit babies born",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "STAT_RUNES_FOUND",
     "displayName": "Runes found",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 26
   },
   {
     "name": "STAT_SLIVERS_CARRIED",
     "displayName": "Most slivers carried",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   }
 ]

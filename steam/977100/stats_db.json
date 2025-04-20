@@ -3,21 +3,30 @@
     "name": "LEVELS_COMPLETED",
     "displayName": "Levels Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 9001,
+    "min": 0
   },
   {
     "name": "GLOBAL_LEVELS_COMPLETED",
     "displayName": "Global Levels Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "GLOBAL_STARS_EARNED",
     "displayName": "Global Stars Earned",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 1
   }
 ]

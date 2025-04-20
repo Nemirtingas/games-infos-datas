@@ -3,14 +3,22 @@
     "name": "killcount_killcount",
     "displayName": "Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100000,
+    "min": 1,
+    "max": 50000000000000
   },
   {
     "name": "deathcount_deathcount",
     "displayName": "Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 50000000
   }
 ]

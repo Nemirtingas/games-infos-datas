@@ -3,21 +3,27 @@
     "name": "stat_rank",
     "displayName": "Rank",
     "type": "int",
+    "default": 500,
     "incrementonly": false,
-    "defaultvalue": 500
+    "aggregated": false,
+    "maxchange": 500,
+    "min": -500,
+    "max": 2000
   },
   {
     "name": "aggregated_test",
     "displayName": "Test",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "stat_4",
     "displayName": "stat 4",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

@@ -3,28 +3,35 @@
     "name": "i_stat_version",
     "displayName": "i_stat_version",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "i_total_plays",
     "displayName": "i_total_plays",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "f_total_playtime",
     "displayName": "f_total_playtime",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "i_troopers",
     "displayName": "i_troopers",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   }
 ]

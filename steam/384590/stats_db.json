@@ -3,42 +3,51 @@
     "name": "STAT_GAMES_FINISHED",
     "displayName": "Games Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "STAT_TOTAL_ENEMIES_KILLED",
     "displayName": "Enemies Killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "STAT_BLASTS_FIRED",
     "displayName": "Blasts Used",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "STAT_DASHES_USED",
     "displayName": "Dashes Used",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "STAT_TOTAL_POINTS",
     "displayName": "Total Points (all games)",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "STAT_SNIPED_DEATHS",
     "displayName": "Player deaths due to shooters.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   }
 ]

@@ -3,42 +3,65 @@
     "name": "stat_kills",
     "displayName": "Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100000000
   },
   {
     "name": "stat_died",
     "displayName": "Died",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 1000000
   },
   {
     "name": "stat_completed",
     "displayName": "Stages completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 100000
   },
   {
     "name": "stat_absorbed",
     "displayName": "Energy absorbed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 10000000
   },
   {
     "name": "stat_moneyspent",
     "displayName": "Money spent",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 2000000,
+    "min": 0,
+    "max": 1000000
   },
   {
     "name": "stat_2player",
     "displayName": "2Player stages completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 2500000
   }
 ]

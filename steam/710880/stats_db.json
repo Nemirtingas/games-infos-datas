@@ -3,238 +3,320 @@
     "name": "stat_kill",
     "displayName": "Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10000,
+    "min": 1
   },
   {
     "name": "stat_death",
     "displayName": "Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10000,
+    "min": 1
   },
   {
     "name": "stat_score",
     "displayName": "Score",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1
   },
   {
     "name": "stat_kill1",
     "displayName": "Zombies Killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_kill2",
     "displayName": "Ghosts Killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_kill3",
     "displayName": "Spiders Killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_kill4",
     "displayName": "Sea Monsters Killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_kill5",
     "displayName": "Giant Ravens Killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_kill6",
     "displayName": "Lava Golems Killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_spkill1",
     "displayName": "Kills by Towers",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_spkill2",
     "displayName": "Kills by Traps",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_spkill3",
     "displayName": "Kills by Pledges",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_trained1",
     "displayName": "Outposts Built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_trained2",
     "displayName": "Towers Built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_trained3",
     "displayName": "Catapults Built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_trained4",
     "displayName": "Spike Traps Built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_trained5",
     "displayName": "Ice Traps Built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_trained6",
     "displayName": "Fire Traps Built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_trained7",
     "displayName": "Pledges Trained",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_trained8",
     "displayName": "Blacksmith Purchases",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 99999999
   },
   {
     "name": "stat_level",
     "displayName": "Story Progress",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 100
   },
   {
     "name": "stat_playtime",
     "displayName": "Time Played (In Hours)",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 24.0
   },
   {
     "name": "stat_trained9",
     "displayName": "Barrel Bombs Built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1
   },
   {
     "name": "stat_games_won",
     "displayName": "Games Won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1
   },
   {
     "name": "stat_games_lost",
     "displayName": "Games Lost",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1
   },
   {
     "name": "stat_gametime",
     "displayName": "Game Time Passed (In Hours)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 72
   },
   {
     "name": "stat_spkill4",
     "displayName": "Kills by Castle",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1
   },
   {
     "name": "stat_scoreaccum",
     "displayName": "Adventure Mode Score",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stat_timeaccum",
     "displayName": "Adventure Mode Time",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stat_goldaccum",
     "displayName": "Adventure Mode Gold",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stat_killsaccum",
     "displayName": "Adventure Mode Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stat_deathsaccum",
     "displayName": "Adventure Mode Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stat_trainedaccum",
     "displayName": "Adventure Mode Trained",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stat_gold",
     "displayName": "Gold",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1
   }
 ]

@@ -3,511 +3,675 @@
     "name": "Kills",
     "displayName": "kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0
   },
   {
     "name": "MinigunTowersBuilt",
     "displayName": "minigun towers built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ArrowTowersBuilt",
     "displayName": "arrow towers built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "SwarmTowersBuilt",
     "displayName": "swarm towers built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ElectricTowersBuilt",
     "displayName": "electric towers built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "BladeTowersBuilt",
     "displayName": "blade towers built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "MissileTowersBuilt",
     "displayName": "missile towers built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "WallTowersBuilt",
     "displayName": "wall towers built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "BeginningLaunchedCount",
     "displayName": "\"Beginning\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "BeginningMinPlayed",
     "displayName": "\"Beginnging\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 10.0,
+    "min": 0.0
   },
   {
     "name": "IntrusionLaunchedCount",
     "displayName": "\"Intrusion\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "IntrusionMinPlayed",
     "displayName": "\"Intrusion\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "ExpansionLaunchedCount",
     "displayName": "\"Expansion\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ExpansionMinPlayed",
     "displayName": "\"Expansion\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "RepairStationLaunchedCount",
     "displayName": "\"Repair station\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "RepairStationMinPlayed",
     "displayName": "\"Repair station\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "StockpileLaunchedCount",
     "displayName": "\"Stockpile\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "StockpileMinPlayed",
     "displayName": "\"Stockpile\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "CabinLaunchedCount",
     "displayName": "\"Cabin\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "CabinMinPlayed",
     "displayName": "\"Cabin\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "MineLaunchedCount",
     "displayName": "\"Mine\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "MineMinPlayed",
     "displayName": "\"Mine\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "PlazaLaunchedCount",
     "displayName": "\"Plaza\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "PlazaMinPlayed",
     "displayName": "\"Plaza\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "BridgesLaunchedCount",
     "displayName": "\"Bridges\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "BridgesMinPlayed",
     "displayName": "\"Bridges\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "LongHaulLaunchedCount",
     "displayName": "\"Long haul\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "LongHaulMinPlayed",
     "displayName": "\"Long haul\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "DockLaunchedCount",
     "displayName": "\"Dock\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "DockMinPlayed",
     "displayName": "\"Dock\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "CrossroadLaunchedCount",
     "displayName": "\"Crossroad\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "CrossroadMinPlayed",
     "displayName": "\"Crossroad\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "TownLaunchedCount",
     "displayName": "\"Town\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "TownMinPlayed",
     "displayName": "\"Town\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "BlockedPathLaunchedCount",
     "displayName": "\"Blocked path\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "BlockedPathMinPlayed",
     "displayName": "\"Blocked path\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "TheLineLaunchedCount",
     "displayName": "\"The line\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "TheLineMinPlayed",
     "displayName": "\"The line\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "RiftedLaunchedCount",
     "displayName": "\"Rifted\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "RiftedMinPlayed",
     "displayName": "\"Rifted\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "PathsLaunchedCount",
     "displayName": "\"Paths\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "PathsMinPlayed",
     "displayName": "\"Paths\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "DividedLaunchedCount",
     "displayName": "\"Divided\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "DividedMinPlayed",
     "displayName": "\"Divided\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "NatureLaunchedCount",
     "displayName": "\"Nature\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "NatureMinPlayed",
     "displayName": "\"Nature\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "TrainStationLaunchedCount",
     "displayName": "\"Train station\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "TrainStationMinPlayed",
     "displayName": "\"Train station\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "TheEndLaunchedCount",
     "displayName": "\"The end\" times played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "TheEndStationMinPlayed",
     "displayName": "\"The end\" total play time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 60.0,
+    "min": 0.0
   },
   {
     "name": "MaxGoldAtEndOfMap",
     "displayName": "Maximum amount of gold at end of any map",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "MaxLifeAtEndOfMapOnInsane",
     "displayName": "Maximum amount of life at end of any map on insane",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 20
   },
   {
     "name": "QuakeTowersBuilt",
     "displayName": "quake towers built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "MissileMaxHittCount",
     "displayName": "Max npcs hitt with single missile",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "BladeMaxHittCount",
     "displayName": "Max npcs hitt with single blade",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "QuakeMaxHittCount",
     "displayName": "Max npcs hitt with single quake slam",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "LongestLivingNPC",
     "displayName": "Longest living npc",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ElectricTowerMaxEnergySent",
     "displayName": "Max energy sent by electric tower",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "MachineGunOverchargeContinuesRunTime",
     "displayName": "Machinegun overcharge continues running active time",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "MaxWaveFinished",
     "displayName": "Max finished wave",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "MaxDamageDealt",
     "displayName": "Biggest single damage dealt in one blow",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "WatermelonsDestroyed",
     "displayName": "How many watermelons that has been destroyed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "MaxGoldEarnedDuringSingleGame",
     "displayName": "Max gold earned during a game",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ArrowMortarMaxHittCount",
     "displayName": "Max enemies hitt with a mortar",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "MaxGoldInterestEarned",
     "displayName": "Max interest earned during a single game",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "RestartCount",
     "displayName": "The amount the restart button has been clicked",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "KilledWithFire",
     "displayName": "How many NPC that has died by fire",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "KilledWithElectricity",
     "displayName": "How many that has died by electricity",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "GoldGainedTotalFromSupport",
     "displayName": "How much gold that has been gained from support towers during a singele game",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ReverseTimeCount",
     "displayName": "How many times the reverse button has been clicked and a wave restarted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "SupportTowersBuilt",
     "displayName": "Support towers built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "MaxGoldEarnedFromSingleSupportTower",
     "displayName": "max gold earned from a single support tower",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "MaxGoldGainedFromSupportSingeGame",
     "displayName": "Max gold earned from all support towers",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

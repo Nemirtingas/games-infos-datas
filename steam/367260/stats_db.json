@@ -3,21 +3,30 @@
     "name": "MATCHES_PLAYED_STAT",
     "displayName": "Matches played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GLOBAL_MATCHES_PLAYED_STAT",
     "displayName": "Matches played (all players)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "LONGEST_SESSION_IN_MATCHES_STAT",
     "displayName": "Longest session played, in matches",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   }
 ]

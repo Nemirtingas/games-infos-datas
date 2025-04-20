@@ -3,111 +3,133 @@
     "name": "STAT_TRUESKILL_MU",
     "displayName": "",
     "type": "float",
+    "default": 25.0,
     "incrementonly": false,
-    "defaultvalue": 25.0
+    "aggregated": false
   },
   {
     "name": "STAT_TRUESKILL_SIGMA",
     "displayName": "",
     "type": "float",
+    "default": 8.333333333333332,
     "incrementonly": false,
-    "defaultvalue": 8.333333
+    "aggregated": false
   },
   {
     "name": "STAT_WINS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "CASUAL_POINTS",
     "displayName": "CasualScore",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GLICKO_RATING",
     "displayName": "GLICKO_RATING",
     "type": "float",
+    "default": 1500.0,
     "incrementonly": false,
-    "defaultvalue": 1500.0
+    "aggregated": false
   },
   {
     "name": "GLICKO_DEVIATION",
     "displayName": "GLICKO_DEVIATION",
     "type": "float",
+    "default": 350.0,
     "incrementonly": false,
-    "defaultvalue": 350.0
+    "aggregated": false
   },
   {
     "name": "GLICKO_VOLATILITY",
     "displayName": "GLICKO_VOLATILITY",
     "type": "float",
+    "default": 0.06,
     "incrementonly": false,
-    "defaultvalue": 0.06
+    "aggregated": false
   },
   {
     "name": "DISCONNECTS",
     "displayName": "DISCONNECTS",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "CASUAL_POINTS_V2",
     "displayName": "CasualScoreV2",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GLICKO_RATING_V2",
     "displayName": "GLICKO_RATING_V2",
     "type": "float",
+    "default": 1500.0,
     "incrementonly": false,
-    "defaultvalue": 1500.0
+    "aggregated": false
   },
   {
     "name": "GLICKO_DEVIATION_V2",
     "displayName": "GLICKO_DEVIATION_V2",
     "type": "float",
+    "default": 350.0,
     "incrementonly": false,
-    "defaultvalue": 350.0
+    "aggregated": false
   },
   {
     "name": "GLICKO_VOLATILITY_V2",
     "displayName": "GLICKO_VOLATILITY_V2",
     "type": "float",
+    "default": 0.06,
     "incrementonly": false,
-    "defaultvalue": 0.06
+    "aggregated": false
   },
   {
     "name": "CASUAL_SALT",
     "displayName": "CASUAL_SALT",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 50000
   },
   {
     "name": "CASUAL_POINTS_V3",
     "displayName": "CasualScoreV3",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "DEBUG_CLIENT_STAT_V2",
     "displayName": "DebugTestStatV1",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "DEBUG_CLIENT_STAT_V3",
     "displayName": "DebugTestStatV3",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

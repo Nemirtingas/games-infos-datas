@@ -3,28 +3,44 @@
     "name": "MMR",
     "displayName": "MatchMakingRating",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 100.0,
+    "min": 0.0,
+    "max": 100
   },
   {
     "name": "AncestoryPlayerExperience_Experience",
     "displayName": "Experience",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 1000000
   },
   {
     "name": "TestAncestoryPlayerExperience_TestExperience",
     "displayName": "TestXP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 1000000
   },
   {
     "name": "LiveAncestoryPlayerExperience_Experience",
     "displayName": "LiveXP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 19455
   }
 ]

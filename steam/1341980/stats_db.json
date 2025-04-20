@@ -3,49 +3,65 @@
     "name": "STAT_PATIENT1_SAVED",
     "displayName": "Newly Infected Patients Saved",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "STAT_PATIENT2_SAVED",
     "displayName": "On Ventilator Patients Saved",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "STAT_PATIENT3_SAVED",
     "displayName": "Near Death Patients Saved",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "STAT_PATIENT3_SURVIVAL",
     "displayName": "Near Death Survival",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "STAT_PATIENT1_SURVIVAL",
     "displayName": "Newly Infected Survival",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "STAT_PATIENT2_SURVIVAL",
     "displayName": "On Ventilaor Survival",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "STAT_VERSION",
     "displayName": "",
     "type": "int",
+    "default": 1,
     "incrementonly": false,
-    "defaultvalue": 1
+    "aggregated": false
   }
 ]

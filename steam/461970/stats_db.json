@@ -3,21 +3,26 @@
     "name": "TotalCrystalsCollected",
     "displayName": "Total Crystals Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "LastCompletedLevel",
     "displayName": "Last Completed Level",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 3
   },
   {
     "name": "TotalPlayTime",
     "displayName": "",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "max": 3600
   }
 ]

@@ -3,14 +3,18 @@
     "name": "TotalDeaths",
     "displayName": "Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 1
   },
   {
     "name": "AggregatedTotalDeaths",
     "displayName": "Lifetime Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   }
 ]

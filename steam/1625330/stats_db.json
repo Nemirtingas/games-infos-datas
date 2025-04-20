@@ -3,27 +3,38 @@
     "name": "DistanceTraveled",
     "displayName": "Distance Traveled",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 5.0,
+    "min": 0.0
   },
   {
     "name": "Tags",
     "displayName": "Tags Amount",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 32,
+    "min": 0
   },
   {
     "name": "Tagged",
     "displayName": "Tagged Amount",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 32,
+    "min": 0
   },
   {
     "name": "AverageSpeed",
     "displayName": "Average Speed",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   }
 ]

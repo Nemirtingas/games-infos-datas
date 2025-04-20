@@ -3,35 +3,51 @@
     "name": "stat_total_kills",
     "displayName": "Total Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0
   },
   {
     "name": "stats_version",
     "displayName": "Version",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 1000
   },
   {
     "name": "global_stat_total_kills",
     "displayName": "Global Kill Count",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0
   },
   {
     "name": "stat_total_deaths",
     "displayName": "Total Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0
   },
   {
     "name": "global_stat_total_deaths",
     "displayName": "Global Death Count",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0
   }
 ]

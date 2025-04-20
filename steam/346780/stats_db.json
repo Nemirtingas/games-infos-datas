@@ -3,328 +3,427 @@
     "name": "STAT_LASERS_FIRED_SUCCESSFUL",
     "displayName": "Successful Lasers Fired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_LASERS_FIRED_FAIL",
     "displayName": "Failed Lasers Fired",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "STAT_LASERS_FIRED_TOTAL",
     "displayName": "Total Lasers Fired",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_DRONES_DESTROYED",
     "displayName": "Total Drones Destroyed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_DAMAGE_TAKEN_TOTAL",
     "displayName": "Damage Taken",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_LASER_SUCCESS_RATE",
     "displayName": "Laser Success Rate",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0,
+    "max": 1
   },
   {
     "name": "STAT_POWERUPS_PURCHASED_HEALTH",
     "displayName": "Health Power-Ups Purchased",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_POWERUPS_PURCHASED_IMMORTALITY",
     "displayName": "Immortality Power-Ups Purchased",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_POWERUPS_PURCHASED_SPEED",
     "displayName": "Speed Power-Ups Purchased",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_POWERUPS_PURCHASED_TIMEWARP",
     "displayName": "Time-Warp Power-Ups Purchased",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_POWERUPS_SPAWNED_TOTAL",
     "displayName": "Power-Ups Spawned Total",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_POWERUPS_PICKED_UP",
     "displayName": "Power-Ups Picked Up",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_TIME_TOTAL_HOURS",
     "displayName": "Time Played Total (Hours)",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0
   },
   {
     "name": "STAT_DEATHS_TOTAL",
     "displayName": "Total Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_STARS_TOTAL",
     "displayName": "Total Stars Earned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 108
   },
   {
     "name": "STAT_CAMPAIGN_LEVELS_COMPLETE",
     "displayName": "Campaign Levels Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 36
   },
   {
     "name": "STAT_GAMES_ARCADE",
     "displayName": "Total Arcade Games Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_SHIP_ROTATED",
     "displayName": "Total Ship Rotations",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "STAT_SHIP_VANILLA_TOTAL",
     "displayName": "Total Games Played Using \"Vanilla\"",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_SHIP_CRYSTAL_TOTAL",
     "displayName": "Total Games Played Using \"Crystal\"",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_SHIP_BUILDER_TOTAL",
     "displayName": "Total Games Played Using \"The Builder\"",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_SHIP_ANCIENT_TOTAL",
     "displayName": "Total Games Played Using \"The Ancient\"",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_SHIP_BOOMERANG_TOTAL",
     "displayName": "Total Games Played Using \"Boomerang\"",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_SHIP_SHIELD_TOTAL",
     "displayName": "Total Games Played Using \"Shield\"",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_SHIP_EAGLE_TOTAL",
     "displayName": "Total Games Played Using \"Eagle\"",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_SHIP_TERTIUS_TOTAL",
     "displayName": "Total Games Played Using \"Tertius\"",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_SHIP_AMORPHOUS_TOTAL",
     "displayName": "Total Games Played Using \"Amorphous\"",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_LASERS_FIRED_HORIZONTAL",
     "displayName": "Total Horizontal Lasers Fired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_LASERS_FIRED_VERTICAL",
     "displayName": "Total Vertical Lasers Fired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_SCORE_TOTAL",
     "displayName": "Total Score Achieved",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "STAT_UPGRADES_PURCHASED_TOTAL",
     "displayName": "Total Upgrades Purchased",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_UPGRADES_PURCHASED_LASER_SPEED",
     "displayName": "Laser Speed Upgrades Purchased",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_UPGRADES_PURCHASED_POWERUP_DURATION",
     "displayName": "Power-Up Duration Upgrades Purchased",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_UPGRADES_PURCHASED_POWERUP_SPAWNS",
     "displayName": "Power-Up Spawn Rate Upgrades Purchased",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_UPGRADES_PURCHASED_IGNORE_DAMAGE",
     "displayName": "Ignore Damage Chance Upgrades Purchased",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_UPGRADES_PURCHASED_MAX_HEALTH",
     "displayName": "Max Health Upgrades Purchased",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_UPGRADES_PURCHASED_START_CRYSTALS",
     "displayName": "Starting Crystals Upgrades Purchased",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_UPGRADES_PURCHASED_BONUS_TIME",
     "displayName": "Bonus Time Upgrades Purchased",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_UPGRADES_PURCHASED_HEAL_CHANCE",
     "displayName": "Heal Chance Upgrades Purchased",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_TIME_FASTEST_WIN",
     "displayName": "Fastest Win (seconds)",
     "type": "float",
+    "default": -1.0,
     "incrementonly": false,
-    "defaultvalue": -1.0
+    "aggregated": false,
+    "min": 0.0
   },
   {
     "name": "STAT_AREA_COVERED_GAME_MAX",
     "displayName": "Most Area Covered in One Game (percent)",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0,
+    "max": 1
   },
   {
     "name": "STAT_TIME_SLOWEST_WIN",
     "displayName": "Slowest Win (seconds)",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0
   },
   {
     "name": "STAT_AREA_COVERED_LASER_MAX",
     "displayName": "Most Area Covered by One Laser (percent)",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0,
+    "max": 1
   },
   {
     "name": "STAT_AREA_COVERED_LASER_MIN",
     "displayName": "Least Area Covered by One Laser (percent)",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0,
+    "max": 1
   },
   {
     "name": "STAT_TIME_HOURS_PER_SESSION_AVG",
     "displayName": "Average Time Played per Session (Most recent 20 sessions, hours)",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "STAT_LEVELS_PLAYED",
     "displayName": "Total Levels Played",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_SHIP_TANK_TOTAL",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   }
 ]

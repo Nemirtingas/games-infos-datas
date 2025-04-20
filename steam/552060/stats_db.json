@@ -3,63 +3,81 @@
     "name": "stat_beat_time",
     "displayName": "Time to beat the game (minutes)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 360
   },
   {
     "name": "stat_hints",
     "displayName": "Hints in first playthrough",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 30
   },
   {
     "name": "stat_completed",
     "displayName": "Game Completed (Yes/No)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 1
   },
   {
     "name": "stat_count_origami",
     "displayName": "Origami Count (Max)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 10
   },
   {
     "name": "stat_count_items",
     "displayName": "Items Grabbed (Max)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 238
   },
   {
     "name": "stat_began_game",
     "displayName": "Started the game (Yes/No)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 1
   },
   {
     "name": "stat_all_games",
     "displayName": "All game starts",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 1000
   },
   {
     "name": "stat_finished_games_tunnel",
     "displayName": "All finished games (tunnel)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 1000
   },
   {
     "name": "stat_finished_games_main",
     "displayName": "All finished games (main)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 1000
   }
 ]

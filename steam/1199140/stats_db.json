@@ -3,21 +3,30 @@
     "name": "buns",
     "displayName": "Rabbits Saved",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "pals",
     "displayName": "Palettes Collected",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false,
+    "min": 1,
+    "max": 43
   },
   {
     "name": "buns_all",
     "displayName": "Global Rabbits Saved",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0
   }
 ]

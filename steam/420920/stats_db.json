@@ -3,28 +3,39 @@
     "name": "nr_of_games",
     "displayName": "Number of games played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "playtime_in_minutes",
     "displayName": "Has been in the labyrinth for this many minutes",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 200000
   },
   {
     "name": "steps_in_the_labyrinth",
     "displayName": "Number of steps walked in the labyrinth",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "highest_highscore",
     "displayName": "Highest highscore",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   }
 ]

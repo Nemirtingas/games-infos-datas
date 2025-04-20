@@ -3,21 +3,30 @@
     "name": "stat_successes",
     "displayName": "Successful Break Ins",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "stat_kills",
     "displayName": "Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 1
   },
   {
     "name": "stat_failures",
     "displayName": "Failed Break Ins",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1
   }
 ]

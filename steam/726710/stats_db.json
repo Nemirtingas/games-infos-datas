@@ -3,28 +3,33 @@
     "name": "LevelsCompleted",
     "displayName": "Levels Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GameProgress",
     "displayName": "Game Progress",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "max": 100
   },
   {
     "name": "LevelsStarted",
     "displayName": "Levels Started",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "TotalBestCompleteTime",
     "displayName": "Total Best Complete Time",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   }
 ]

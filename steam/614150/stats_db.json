@@ -3,21 +3,26 @@
     "name": "TH_BEST_SCORE",
     "displayName": "Best Score",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TH_TOTAL_KILL",
     "displayName": "Bandits killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "TH_LONGEST_TIME",
     "displayName": "Longest time on the train",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

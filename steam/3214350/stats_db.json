@@ -3,315 +3,385 @@
     "name": "LaunchCount",
     "displayName": "起動回数",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "Language",
     "displayName": "言語",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TimeDisp",
     "displayName": "時刻表示",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "StopStationDisp",
     "displayName": "停車/通過駅表示",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "RemainingDistanceDisp",
     "displayName": "残距離表示",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "AtsStatDisp",
     "displayName": "保安装置の状態",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "SpeedDisp",
     "displayName": "現在速度表示",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "SlopeDisp",
     "displayName": "勾配表示",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "StopMarkDisp",
     "displayName": "停止位置マーク表示",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "NotchDisp",
     "displayName": "ノッチ表示",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "MotorSoundAlways",
     "displayName": "常時再生（Tc車でも再生する）",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "StopTimeSkip",
     "displayName": "停車時間スキップ",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ATSConfirmation",
     "displayName": "ATS確認",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "EBReset",
     "displayName": "EBリセット",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "StopPositionCorrection",
     "displayName": "停止位置修正",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ATSBrakeRecovery",
     "displayName": "ATSブレーキ復帰",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "MasterVolume",
     "displayName": "マスターボリューム",
     "type": "int",
+    "default": 80,
     "incrementonly": false,
-    "defaultvalue": 80
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "BgmVolume",
     "displayName": "BGM音量",
     "type": "int",
+    "default": 80,
     "incrementonly": false,
-    "defaultvalue": 80
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "SeVolume",
     "displayName": "SE音量",
     "type": "int",
+    "default": 80,
     "incrementonly": false,
-    "defaultvalue": 80
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "MotorVolume",
     "displayName": "モーター・エンジン音量",
     "type": "int",
+    "default": 80,
     "incrementonly": false,
-    "defaultvalue": 80
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "TravelingVolume",
     "displayName": "走行音量(ガタゴト音)",
     "type": "int",
+    "default": 80,
     "incrementonly": false,
-    "defaultvalue": 80
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "CockpitVolume",
     "displayName": "コクピット音量(単打ベル)",
     "type": "int",
+    "default": 80,
     "incrementonly": false,
-    "defaultvalue": 80
+    "aggregated": false,
+    "min": 20,
+    "max": 100
   },
   {
     "name": "HandleVolume",
     "displayName": "ハンドル操作音",
     "type": "int",
+    "default": 80,
     "incrementonly": false,
-    "defaultvalue": 80
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "AmbientVolume",
     "displayName": "駅環境音",
     "type": "int",
+    "default": 80,
     "incrementonly": false,
-    "defaultvalue": 80
+    "aggregated": false,
+    "min": 20,
+    "max": 100
   },
   {
     "name": "AnnounceVolume",
     "displayName": "車内放送音量(自動放送)",
     "type": "int",
+    "default": 80,
     "incrementonly": false,
-    "defaultvalue": 80
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "StopPositionRange",
     "displayName": "停止位置範囲",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 3
   },
   {
     "name": "MovieCache",
     "displayName": "動画キャッシュの量",
     "type": "int",
+    "default": 1,
     "incrementonly": false,
-    "defaultvalue": 1
+    "aggregated": false,
+    "min": 0,
+    "max": 4
   },
   {
     "name": "GuidanceDisp",
     "displayName": "ガイダンス表示",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TotalMileage",
     "displayName": "総走行距離",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "TotalDrivesCnt",
     "displayName": "運転回数",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TotalStopPos0Cnt",
     "displayName": "停止位置0cm回数",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TotalOnScheduleCnt",
     "displayName": "定刻停車回数",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TokaidoMileage",
     "displayName": "東海道線走行距離",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "TokaidoDrivesCnt",
     "displayName": "東海道線運転回数",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TokaidoStopPos0Cnt",
     "displayName": "東海道線停止位置0cm回数",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TokaidoOnScheduleCnt",
     "displayName": "東海道線定刻停車回数",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "MaxSpeedDisp",
     "displayName": "最高速度",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "LimitedNotice",
     "displayName": "制限予告",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "HighWaterThreshold",
     "displayName": "High-Water閾値",
     "type": "int",
+    "default": 8,
     "incrementonly": false,
-    "defaultvalue": 8
+    "aggregated": false,
+    "min": 3,
+    "max": 10
   },
   {
     "name": "ErrorCnt",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "DataVersion",
     "displayName": "データバージョン",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "VerbalCheckVolume",
     "displayName": "運転士喚呼ボリューム",
     "type": "int",
+    "default": 80,
     "incrementonly": false,
-    "defaultvalue": 80
+    "aggregated": false
   },
   {
     "name": "DriversSeatDisplay",
     "displayName": "運転台表示",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "DriverConsoleSwaying",
     "displayName": "運転台前後動揺",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "Kiha54BrakeControl",
     "displayName": "キハ54形ハンドル操作方式",
     "type": "int",
+    "default": 1,
     "incrementonly": false,
-    "defaultvalue": 1
+    "aggregated": false
   }
 ]

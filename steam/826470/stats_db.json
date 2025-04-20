@@ -3,42 +3,62 @@
     "name": "nummel_deaths_global",
     "displayName": "Nummels Lost Globally",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 14
   },
   {
     "name": "nummel_saves_global",
     "displayName": "Nummels Saved Globally",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 14
   },
   {
     "name": "challenge_levels_w1",
     "displayName": "World 1 Challenge Level Progress",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 4,
+    "min": 0,
+    "max": 4
   },
   {
     "name": "challenge_levels_w2",
     "displayName": "World 2 Challenge Level Progress",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 0,
+    "max": 5
   },
   {
     "name": "challenge_levels_w3",
     "displayName": "World 3 Challenge Level Progress",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 4,
+    "min": 0,
+    "max": 4
   },
   {
     "name": "coins_collected",
     "displayName": "Coins Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 50,
+    "min": 0,
+    "max": 1903
   }
 ]

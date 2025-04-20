@@ -3,35 +3,41 @@
     "name": "STAT_SLEEPTIME",
     "displayName": "Minutes Spent Sleeping",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "STAT_HLEVEL",
     "displayName": "Highest Level Reached",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false,
+    "max": 40
   },
   {
     "name": "STAT_UNDO",
     "displayName": "Undo Used",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "STAT_FAILS",
     "displayName": "Fails",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "STAT_COMBINATIONS",
     "displayName": "Total Combinations",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

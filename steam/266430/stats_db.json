@@ -3,1001 +3,1385 @@
     "name": "lib_items",
     "displayName": "Library Items",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "maps_visited",
     "displayName": "Maps Visited",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "maps_discovered",
     "displayName": "Maps Discovered",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "maps_topped",
     "displayName": "Conqueror of Worlds",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "maps_revisited_2",
     "displayName": "Unique Revisited Twice",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "totaltime",
     "displayName": "Total Time",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "uc_2parcade",
     "displayName": "two_player_arcade",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_4parcade",
     "displayName": "four_player_arcade",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_picwide",
     "displayName": "pic_wide_l",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_pictall",
     "displayName": "pic_tall_l",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_wallarcade",
     "displayName": "wall_arcade",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_bigmovienoban",
     "displayName": "big_movie_wallmount_no_banner",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_camcorder",
     "displayName": "camcorder",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_headphoneswall",
     "displayName": "cd_headphones_wall",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_headphones",
     "displayName": "cd_player_headphones",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_cd",
     "displayName": "cd_table",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_cdwall",
     "displayName": "cd_wall",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_ceilingpict",
     "displayName": "ceiling_pic_tall_l",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_ceilingpicw",
     "displayName": "ceiling_pic_wide_l",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_coffeecab",
     "displayName": "coffee_cabinet",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_steamkiosk",
     "displayName": "console_kiosk_steam",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_steamconsole",
     "displayName": "console_steam",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_carracerx2",
     "displayName": "double_car_racer",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_guncabx2",
     "displayName": "double_phasergun_coop",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_flight",
     "displayName": "enclosed_flight",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_4parcadexl",
     "displayName": "extended_four_player_arcade",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_futurespeaker",
     "displayName": "future_speaker",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_icade",
     "displayName": "icade",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_imax",
     "displayName": "imax",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_moviewallmount",
     "displayName": "movie_display_wallmount",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_moviestand",
     "displayName": "movie_stand_standard",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_laptop",
     "displayName": "normal_laptop",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_pckiosk",
     "displayName": "pc_kiosk_standard",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_pcwall",
     "displayName": "pc_wallmount",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_pcwallnoban",
     "displayName": "pc_wallmount_small",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_guncab",
     "displayName": "phaser_gun_coop",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_riflecab",
     "displayName": "phaser_rifle_coop",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_pinball",
     "displayName": "pinball_standard",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_poster",
     "displayName": "poster",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_sitrace",
     "displayName": "single_car_racer",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_soundpillar",
     "displayName": "sound_pillar",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_standrace",
     "displayName": "standup_car_racer",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_swordfish",
     "displayName": "swordfish",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_tablett",
     "displayName": "table_pad_t",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_tabletw",
     "displayName": "table_pad_w",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_tubesteam",
     "displayName": "tabletop_console_steam",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_tubetv",
     "displayName": "tabletop_tv",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_posterrotator",
     "displayName": "tall_rotator",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_theater",
     "displayName": "theater_facade",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_carcabx3",
     "displayName": "tripple_standup_racer",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_tabletwallt",
     "displayName": "wall_pad_t",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_tabletwallw",
     "displayName": "wall_pad_w",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_woodcabinet",
     "displayName": "wood_cabinet",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_steamwood",
     "displayName": "wood_cabinet_steam",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "tickets",
     "displayName": "tickets",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "tickets_spent",
     "displayName": "tickets_spent",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "uc_brainiac",
     "displayName": "brainiac",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_boxcade",
     "displayName": "boxcade",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_cabsolo",
     "displayName": "cabsolo",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_buttonmasher",
     "displayName": "buttonmasher",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_lunar",
     "displayName": "lunar",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_racer3screen",
     "displayName": "racer_multiscreen",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_motoracer",
     "displayName": "motoracer",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "uc_posterscreen",
     "displayName": "posterscreen",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_tombstone",
     "displayName": "01aeaeb4",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_trolley",
     "displayName": "a3d8abe9",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_sphynx",
     "displayName": "2e5f5c45",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_table",
     "displayName": "c6073ae2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_longbar",
     "displayName": "0a4c50cf",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_giftbox",
     "displayName": "2d71f621",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_cashcart",
     "displayName": "e0bc67e8",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_jack",
     "displayName": "61fea212",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_xmasbell",
     "displayName": "9aa54162",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_pokertable",
     "displayName": "d2c899c1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_spookytree",
     "displayName": "51e6c7a8",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_chair",
     "displayName": "2557b204",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_couch",
     "displayName": "a599d408",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_candycane",
     "displayName": "d854d8b2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_roomdivider",
     "displayName": "4add4c24",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_woodshelf",
     "displayName": "a8be4bd3",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_newtontoy",
     "displayName": "22f08516",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_biglamp",
     "displayName": "3157317c",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_snowytree",
     "displayName": "9685d397",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_colorsquare",
     "displayName": "b701e524",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_colorcube",
     "displayName": "52d7c729",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_spoton",
     "displayName": "c0d9f759",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_projceiling",
     "displayName": "3dc804c2",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_lightstrobe",
     "displayName": "701b19cf",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_tlightrainbow",
     "displayName": "4958b105",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_projfloor",
     "displayName": "8757f67b",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_tlight",
     "displayName": "d22885ef",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_lightsyrin",
     "displayName": "00fbb20b",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_colorrect",
     "displayName": "2a5eb030",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_floorsigngames",
     "displayName": "de36cf31",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightr",
     "displayName": "53326ef1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolighti",
     "displayName": "75b03cc0",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightm",
     "displayName": "21e98b08",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightn",
     "displayName": "a921f7de",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightg",
     "displayName": "7f1e8496",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightu",
     "displayName": "e91c6728",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightj",
     "displayName": "23169104",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightc",
     "displayName": "80892e10",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightx",
     "displayName": "6553eadb",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightq",
     "displayName": "e1469200",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightf",
     "displayName": "e5b3e6f5",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolighto",
     "displayName": "e4e00455",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightt",
     "displayName": "6087c132",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightb",
     "displayName": "957c0917",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightk",
     "displayName": "4c87c9b1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightp",
     "displayName": "bc996d97",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolighty",
     "displayName": "42e86afe",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightw",
     "displayName": "faa4daf1",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightl",
     "displayName": "4f370b4b",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolighte",
     "displayName": "f8f6f29b",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightz",
     "displayName": "925cad03",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolights",
     "displayName": "dda533d4",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolighth",
     "displayName": "a731158a",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolighta",
     "displayName": "b65a3a6a",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightv",
     "displayName": "acfd3d91",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "up_flurolightd",
     "displayName": "8f528428",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "vipstatus",
     "displayName": "used cheats",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "aa_xp",
     "displayName": "Total XP",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "aa_items_added",
     "displayName": "Items Added",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_shortcuts_launched",
     "displayName": "Shortcuts Launched",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_objects_selected",
     "displayName": "Objects Selected",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "aa_screenshots_taken",
     "displayName": "Screenshots Taken",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_stickers_applied",
     "displayName": "Stickers Applied",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_text_cards",
     "displayName": "Text Cards Created",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_props_spawned",
     "displayName": "Props Spawned",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_tubes_watched",
     "displayName": "Tube Videos Watched",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_libretro_played",
     "displayName": "Played w/ Libretro",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_wizards_applied",
     "displayName": "Wizards Applied",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_selected_collisionless",
     "displayName": "Collisionless Selected",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_npcs_used",
     "displayName": "Unique NPCs Used",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 16
   },
   {
     "name": "aa_npcs_spawned",
     "displayName": "NPCs Spawned",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_marathon_time",
     "displayName": "Best Marathon Time",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "aa_total_time",
     "displayName": "Total Time",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_maps_discovered",
     "displayName": "Maps Discovered",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "aa_items_spawned",
     "displayName": "Items Spawned",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_props_used",
     "displayName": "Default Props Used",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 38
   },
   {
     "name": "aa_objects_autoplayed",
     "displayName": "Objects Autoplayed",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "aa_letters_spawned",
     "displayName": "Letters Props Spawned",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aa_letters_used",
     "displayName": "Unique Letter Props Used",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 26
   }
 ]

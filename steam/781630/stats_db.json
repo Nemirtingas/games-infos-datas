@@ -3,35 +3,55 @@
     "name": "KILL_COUNT",
     "displayName": "Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 1,
+    "max": 1000
   },
   {
     "name": "ZOMBIE_KOS",
     "displayName": "Zombie KOs",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 1,
+    "max": 50
   },
   {
     "name": "SUICIDE_COUNT",
     "displayName": "Suicide count",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1,
+    "max": 500
   },
   {
     "name": "TACKLE_KILLS",
     "displayName": "Tackle kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 1,
+    "max": 500
   },
   {
     "name": "ULTIMATE_KILLS",
     "displayName": "Special skill kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 1,
+    "max": 250
   }
 ]

@@ -3,48 +3,64 @@
     "name": "ceshi1",
     "displayName": "ceshi显示",
     "type": "int",
+    "default": 99,
     "incrementonly": true,
-    "defaultvalue": 99
+    "aggregated": true
   },
   {
     "name": "ceshi_float",
     "displayName": "float显示",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 10.0,
+    "min": 0.0,
+    "max": 100
   },
   {
     "name": "ceshi_age",
     "displayName": "平均值",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "ceshi2",
     "displayName": "ces2",
     "type": "int",
+    "default": 100,
     "incrementonly": false,
-    "defaultvalue": 100
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 1000
   },
   {
     "name": "全球测试",
     "displayName": "全球测试..",
     "type": "int",
+    "default": 11,
     "incrementonly": false,
-    "defaultvalue": 11
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0
   },
   {
     "name": "ceshi3",
     "displayName": "",
     "type": "int",
+    "default": 12,
     "incrementonly": false,
-    "defaultvalue": 12
+    "aggregated": false
   },
   {
     "name": "ceshi4",
     "displayName": "",
     "type": "int",
+    "default": 14,
     "incrementonly": false,
-    "defaultvalue": 14
+    "aggregated": false
   }
 ]

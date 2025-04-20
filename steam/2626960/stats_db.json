@@ -3,28 +3,35 @@
     "name": "stat_spawn_count",
     "displayName": "ball drop",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "stat_score",
     "displayName": "HighScore",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stat_gold_bubble_max",
     "displayName": "Max gold bubble",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0
   },
   {
     "name": "stat_gold_bubble_total",
     "displayName": "Total gold bubble",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   }
 ]

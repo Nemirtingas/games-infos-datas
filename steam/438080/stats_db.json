@@ -3,42 +3,56 @@
     "name": "opponents_defeated",
     "displayName": "Opponents defeated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 3
   },
   {
     "name": "collected_stars_count",
     "displayName": "Collected stars count",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "rides_count",
     "displayName": "Rides count",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "unlocked_surfers",
     "displayName": "Unlocked surfers",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "distance_swum3",
     "displayName": "Distance swum",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 100000.0,
+    "min": 0.0,
+    "max": 100000000
   },
   {
     "name": "thedistanceswum",
     "displayName": "Distance",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 100000.0,
+    "min": 0.0,
+    "max": 100000000
   }
 ]

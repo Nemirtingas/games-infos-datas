@@ -3,14 +3,19 @@
     "name": "win",
     "displayName": "Finished games.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1,
+    "max": 5000
   },
   {
     "name": "enemies",
     "displayName": "Killed enemies.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

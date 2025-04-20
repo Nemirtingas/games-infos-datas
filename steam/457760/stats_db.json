@@ -3,77 +3,101 @@
     "name": "max_dodecas_scanned",
     "displayName": "Data snoopers scanned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 37
   },
   {
     "name": "max_bunkers_capped",
     "displayName": "Bunkers captured",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false,
+    "min": 1,
+    "max": 16
   },
   {
     "name": "max_beacons_activated",
     "displayName": "Beacons captured",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false,
+    "min": 1,
+    "max": 16
   },
   {
     "name": "fragments_collected",
     "displayName": "Resource fragments collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 1
   },
   {
     "name": "surveyors_scanned",
     "displayName": "Surveyors scanned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 1
   },
   {
     "name": "zealots_scanned",
     "displayName": "Zealots scanned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 1
   },
   {
     "name": "bandits_scanned",
     "displayName": "Bandits scanned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 1
   },
   {
     "name": "max_missions_completed",
     "displayName": "Missions completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1
   },
   {
     "name": "time_in_maze",
     "displayName": "Time in mazes",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "bots_recruited",
     "displayName": "Bots recruited",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 1
   },
   {
     "name": "data_version",
     "displayName": "data_version (internal use)",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1
   }
 ]

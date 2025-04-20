@@ -3,35 +3,50 @@
     "name": "cntr_destroy_blocks",
     "displayName": "Destroyed blocks",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0
   },
   {
     "name": "cntr_suicide_enemy_trilobite_wall",
     "displayName": "Defeated sleeping trilobites",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "cntr_suicide_enemy_shiner",
     "displayName": "Defeated sleeping shiners",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "cntr_suicide_enemy_trilobite_mecha_wall",
     "displayName": "Defeated sleeping mecha trilobites",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "cntr_crushed_enemies",
     "displayName": "Enemies crushed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 10
   }
 ]

@@ -3,91 +3,130 @@
     "name": "downs",
     "displayName": "Downs",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 30,
+    "min": 1
   },
   {
     "name": "shots_fired",
     "displayName": "Shots Fired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 1
   },
   {
     "name": "shots_hit",
     "displayName": "Shots Hit",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 1
   },
   {
     "name": "escapes",
     "displayName": "Escapes",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "executions_terror",
     "displayName": "Terror Executions",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 4,
+    "min": 1
   },
   {
     "name": "execution_syringe_innocent_on_innocent",
     "displayName": "Death syringes used on innocents (as an innocent)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 4,
+    "min": 1
   },
   {
     "name": "execution_syringe_innocent_on_terror",
     "displayName": "Death syringes used on terrors (as an innocent)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 2,
+    "min": 1
   },
   {
     "name": "execution_syringe_terror_on_innocent",
     "displayName": "Death syringes used on innocents (as a terror)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 4,
+    "min": 1
   },
   {
     "name": "execution_syringe_terror_on_terror",
     "displayName": "Death syringes used on terrors (as a terror)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "executions",
     "displayName": "Executions",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 4,
+    "min": 1
   },
   {
     "name": "objectives",
     "displayName": "Objectives taken",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 4,
+    "min": 1
   },
   {
     "name": "time_in_dark",
     "displayName": "Time spent in the dark",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 180.0,
+    "min": 0.0
   },
   {
     "name": "stolen_objectives",
     "displayName": "Stolen Objectives",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 4,
+    "min": 1
   }
 ]

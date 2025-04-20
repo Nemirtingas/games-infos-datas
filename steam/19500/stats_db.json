@@ -3,20 +3,28 @@
     "name": "chapter1_percent",
     "displayName": "Chapter 1 Progress",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0,
+    "max": 100
   },
   {
     "name": "time_per_life",
     "displayName": "Average Time Before Dying",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "gems_percent",
     "displayName": "Percentage of Gems Found",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0,
+    "max": 100
   }
 ]
