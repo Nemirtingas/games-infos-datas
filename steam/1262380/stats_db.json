@@ -3,41 +3,56 @@
     "name": "units_trained",
     "displayName": "Total Units Trained",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "buildings_trained",
     "displayName": "Total Buildings Built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "games_won",
     "displayName": "Total Games Won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "heroes_trained",
     "displayName": "Total Heroes Trained",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "units_at_one_time",
     "displayName": "Most units at one time",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "skill_check",
     "displayName": "Average skill check percentage over last 10 tries",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   }
 ]

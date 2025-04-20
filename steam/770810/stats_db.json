@@ -3,14 +3,19 @@
     "name": "stat_pizzas",
     "displayName": "Pizzas made",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 3,
+    "min": 1,
+    "max": 4000000
   },
   {
     "name": "stat_funds_earned",
     "displayName": "Funds earned",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   }
 ]

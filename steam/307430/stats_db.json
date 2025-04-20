@@ -3,329 +3,470 @@
     "name": "elo_rating",
     "displayName": "Elo Rating",
     "type": "float",
+    "default": 1200.0,
     "incrementonly": false,
-    "defaultvalue": 1200.0
+    "aggregated": false,
+    "maxchange": 3000.0,
+    "min": 0.0,
+    "max": 99999
   },
   {
     "name": "elo_num_rated_games_played",
     "displayName": "Number of Rated Games Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0
   },
   {
     "name": "global_games_played",
     "displayName": "Total Games Played Worldwide",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_wins_by_white",
     "displayName": "Total Wins by White, Worldwide",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_wins_by_black",
     "displayName": "Total Wins by Black, Worldwide",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_ties",
     "displayName": "Total Ties, Worldwide",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_tiles_placed",
     "displayName": "Total Tiles Placed, Worldwide",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10000,
+    "min": 0
   },
   {
     "name": "global_tiles_flipped",
     "displayName": "Total Tiles Flipped, Worldwide",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10000,
+    "min": 0
   },
   {
     "name": "games_played",
     "displayName": "Games Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "wins",
     "displayName": "Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "losses",
     "displayName": "Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ties",
     "displayName": "Ties",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "wins_as_white",
     "displayName": "Wins as White",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "wins_as_black",
     "displayName": "Wins as Black",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "losses_as_white",
     "displayName": "Losses as White",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "losses_as_black",
     "displayName": "Losses as Black",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "tiles_placed",
     "displayName": "Tiles placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 200,
+    "min": 0
   },
   {
     "name": "tiles_flipped",
     "displayName": "Tiles flipped",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5000,
+    "min": 0
   },
   {
     "name": "points_total",
     "displayName": "Points earned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 200,
+    "min": 0
   },
   {
     "name": "points_given",
     "displayName": "Points by opponents",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 200,
+    "min": 0
   },
   {
     "name": "global_ai_wins_by_easy",
     "displayName": "Worldwide Wins by Easy AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_ai_losses_by_easy",
     "displayName": "Worldwide Losses by Easy AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_ai_wins_by_medium",
     "displayName": "Worldwide Wins by Medium AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_ai_losses_by_medium",
     "displayName": "Worldwide Losses by Medium AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_ai_wins_by_hard",
     "displayName": "Worldwide Wins by Hard AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_ai_losses_by_hard",
     "displayName": "Worldwide Losses by Hard AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_ai_wins_by_expert",
     "displayName": "Worldwide Wins by Expert AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_ai_losses_by_expert",
     "displayName": "Worldwide Losses by Expert AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_ai_wins_by_insane",
     "displayName": "Worldwide Wins by Insane AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_ai_losses_by_insane",
     "displayName": "Worldwide Losses by Insane AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ai_wins_vs_easy",
     "displayName": "Wins against Easy AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ai_losses_vs_easy",
     "displayName": "Losses to Easy AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ai_wins_vs_medium",
     "displayName": "Wins against Medium AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ai_losses_vs_medium",
     "displayName": "Losses to Medium AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ai_wins_vs_hard",
     "displayName": "Wins against Hard AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ai_losses_vs_hard",
     "displayName": "Losses to Hard AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ai_wins_vs_expert",
     "displayName": "Wins against Expert AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ai_losses_vs_expert",
     "displayName": "Losses to Expert AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ai_wins_vs_insane",
     "displayName": "Wins against Insane AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ai_losses_vs_insane",
     "displayName": "Losses to Insane AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "wins_online",
     "displayName": "Wins Online",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "losses_online",
     "displayName": "Losses Online",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "winstreak_online",
     "displayName": "Online Win Streak",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "global_ai_wins_by_beginner",
     "displayName": "Worldwide Wins by Beginner AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "global_ai_losses_by_beginner",
     "displayName": "Worldwide Losses by Beginner AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ai_wins_vs_beginner",
     "displayName": "Wins against Beginner AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ai_losses_vs_beginner",
     "displayName": "Losses against Beginner AI",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   }
 ]

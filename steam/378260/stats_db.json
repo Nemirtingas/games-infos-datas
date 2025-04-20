@@ -3,35 +3,51 @@
     "name": "rankedELO",
     "displayName": "Ranked ELO",
     "type": "float",
+    "default": 1200.0,
     "incrementonly": false,
-    "defaultvalue": 1200.0
+    "aggregated": false,
+    "maxchange": 999.0,
+    "min": 0.0,
+    "max": 9999
   },
   {
     "name": "rankedWins",
     "displayName": "Ranked Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "rankedLosses",
     "displayName": "Ranked Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "normalGames",
     "displayName": "Casual Games Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "normalWins",
     "displayName": "Casual Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   }
 ]

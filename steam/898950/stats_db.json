@@ -3,21 +3,27 @@
     "name": "rate",
     "displayName": "rate",
     "type": "int",
+    "default": 1500,
     "incrementonly": false,
-    "defaultvalue": 1500
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "win",
     "displayName": "win",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "play",
     "displayName": "play",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   }
 ]

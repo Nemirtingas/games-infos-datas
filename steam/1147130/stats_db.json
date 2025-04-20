@@ -3,70 +3,94 @@
     "name": "KILLS_KILLS",
     "displayName": "Total Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "KILLSMENUBALL_KILLSMENUBALL",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 1000
   },
   {
     "name": "STARTGAME_STARTGAME",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": 1000
   },
   {
     "name": "DEATHS_DEATHS",
     "displayName": "Total Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "HIGHESTWAVE_HIGHESTWAVE",
     "displayName": "Highest Zombie Wave",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 1000
   },
   {
     "name": "POOPCOUNTER_POOPCOUNTER",
     "displayName": "Successful Poop Throws",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GOTPOOPED_GOTPOOPED",
     "displayName": "Got Pooped",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "UNLOCKEDITEMS_UNLOCKEDITEMS",
     "displayName": "Unlocked Items",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "TOTALZOMBIEKILLS_TOTALZOMBIEKILLS",
     "displayName": "Total Zombie Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "RANK_RANK",
     "displayName": "",
     "type": "int",
+    "default": -1,
     "incrementonly": false,
-    "defaultvalue": -1
+    "aggregated": false,
+    "min": -1,
+    "max": 999
   }
 ]

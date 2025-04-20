@@ -3,70 +3,97 @@
     "name": "MAX_COMBO",
     "displayName": "Your longest combo ever",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "CLEAR_COUNT",
     "displayName": "Cleared Stages",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "FAIL_COUNT",
     "displayName": "Failed Stages",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "FC_COUNT",
     "displayName": "Full Combos",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "PS_COUNT",
     "displayName": "Perfect Sweeps",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "XP",
     "displayName": "Player XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 158875
   },
   {
     "name": "W1_COUNT",
     "displayName": "Career Perfect+ Count",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "VALID_HITS",
     "displayName": "Career pieces hit",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "RISKY_CLEAR_COUNT",
     "displayName": "Stages cleared with Risky",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "RISKY_FAIL_COUNT",
     "displayName": "Stages failed with Risky",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   }
 ]

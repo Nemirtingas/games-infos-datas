@@ -3,21 +3,33 @@
     "name": "PqStStatScoreInTotal",
     "displayName": "Score in total",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 500000,
+    "min": 0,
+    "max": 10000000
   },
   {
     "name": "PqStStatGamesCount",
     "displayName": "Number of playings in VS Mode",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 200
   },
   {
     "name": "PqStStatWinsCount",
     "displayName": "Number of wins in VS Mode",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 200
   }
 ]

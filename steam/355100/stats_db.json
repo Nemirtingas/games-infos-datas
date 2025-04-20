@@ -3,14 +3,22 @@
     "name": "TotalDamage",
     "displayName": "Total Damage",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 1000000
   },
   {
     "name": "Chap1Progress",
     "displayName": "Chapter 1 Progress",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 3
   }
 ]

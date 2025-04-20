@@ -3,42 +3,50 @@
     "name": "stat_game_days_played",
     "displayName": "Number of Game Days Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stat_max_average_satisfaction",
     "displayName": "Max Average Satisfaction",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0,
+    "max": 1.0
   },
   {
     "name": "stat_max_monthly_revenue",
     "displayName": "Maximum Monthly Revenue",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "stat_max_monthly_profit",
     "displayName": "Maximum Monthly Profit",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "stat_max_average_hotel_class",
     "displayName": "Maximum Average Hotel Class",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "stat_highest_total_score",
     "displayName": "Highest Total Score",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   }
 ]

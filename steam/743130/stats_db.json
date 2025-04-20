@@ -3,84 +3,115 @@
     "name": "resource_tiles_collected",
     "displayName": "Resource Tiles Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100
   },
   {
     "name": "max_days_survived",
     "displayName": "Days Survived",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 99999
   },
   {
     "name": "techs_unlocked",
     "displayName": "Technologies Unlocked",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 0
   },
   {
     "name": "new_game_started",
     "displayName": "New Games Started",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "game_loaded",
     "displayName": "Save Loaded",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "habitats_crafted",
     "displayName": "Habitat Modules Crafted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 50,
+    "min": 0
   },
   {
     "name": "missions_completed",
     "displayName": "Missions Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "grown_plants_collected",
     "displayName": "Plants Collected From Gardens & Greenhouses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 50,
+    "min": 0
   },
   {
     "name": "air_leaks_repaired",
     "displayName": "Air Leaks Repaired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 50,
+    "min": 0
   },
   {
     "name": "metal_plates_crafted",
     "displayName": "Metal Plates Crafted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 40,
+    "min": 0
   },
   {
     "name": "total_artifacts_researched",
     "displayName": "Total Artifacts Researched",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5
   },
   {
     "name": "stat_version",
     "displayName": "Stats Version",
     "type": "int",
+    "default": 1,
     "incrementonly": false,
-    "defaultvalue": 1
+    "aggregated": false
   }
 ]

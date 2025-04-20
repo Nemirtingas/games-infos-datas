@@ -3,42 +3,55 @@
     "name": "rank",
     "displayName": "Rank",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 50,
+    "max": 1000
   },
   {
     "name": "gamesWon",
     "displayName": "Games Won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "gamesLost",
     "displayName": "Games Lost",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "currentWinStreak",
     "displayName": "Current Winning Streak",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "bestWinStreak",
     "displayName": "Best Winning Streak",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "rouletteGames",
     "displayName": "Games Played as Random Character",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   }
 ]

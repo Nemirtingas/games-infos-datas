@@ -3,56 +3,88 @@
     "name": "kills",
     "displayName": "units killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 5000,
+    "min": 0,
+    "max": 20000000
   },
   {
     "name": "u_crt",
     "displayName": "units created",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 5000,
+    "min": 0,
+    "max": 20000000
   },
   {
     "name": "b_crt",
     "displayName": "buildings built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5000,
+    "min": 0,
+    "max": 20000000
   },
   {
     "name": "wins",
     "displayName": "won games",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 20000000
   },
   {
     "name": "king_kills",
     "displayName": "Kings killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 20000000
   },
   {
     "name": "warlords_killed",
     "displayName": "warlords killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 20000000
   },
   {
     "name": "obelisks_destroyed",
     "displayName": "obelisks destroyed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 20000000
   },
   {
     "name": "damage_dealt",
     "displayName": "damage dealt",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 20000000
   }
 ]

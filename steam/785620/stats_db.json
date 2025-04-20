@@ -3,35 +3,55 @@
     "name": "boltsEarned",
     "displayName": "Bolts Earned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 180,
+    "min": 0,
+    "max": 180
   },
   {
     "name": "levelsCompleted",
     "displayName": "Levels Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 61
   },
   {
     "name": "longestRobotAliveTime",
     "displayName": "Longest Robot Lifespan",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1200.0,
+    "min": 0.0,
+    "max": 1200
   },
   {
     "name": "toolsUsedThisLevel",
     "displayName": "Tools Used",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "robotsUsedThisLevel",
     "displayName": "Robots Used",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   }
 ]

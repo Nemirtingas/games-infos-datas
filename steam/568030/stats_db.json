@@ -3,14 +3,18 @@
     "name": "KilledSkeletons",
     "displayName": "Killed Enemies",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 10000
   },
   {
     "name": "KilledInMelee",
     "displayName": "Killed Enemies by Melee Weapons",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 100
   }
 ]

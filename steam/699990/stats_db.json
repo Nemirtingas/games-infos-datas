@@ -3,21 +3,27 @@
     "name": "highscore",
     "displayName": "High Score",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "level",
     "displayName": "Level Reached",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 1,
+    "max": 100
   },
   {
     "name": "hardhighscore",
     "displayName": "High Score",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

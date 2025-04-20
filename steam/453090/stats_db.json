@@ -3,341 +3,425 @@
     "name": "TOTAL_INCOME",
     "displayName": "Total income",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 10000.0
   },
   {
     "name": "TOTAL_EXPENSES",
     "displayName": "Total expenses",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 10000.0
   },
   {
     "name": "LOAN_TAKEN",
     "displayName": "Loan taken",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "LOAN_PAID",
     "displayName": "Loan paid",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "WAGES_PAID",
     "displayName": "Wages paid",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "TOTAL_MAINTENANCE",
     "displayName": "Total maintenance cost",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "RIDE_REVENUE",
     "displayName": "Ride ticket revenue",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "SHOP_REVENUE",
     "displayName": "Shop revenue",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "AVERAGE_INCOME",
     "displayName": "Average income",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "BUILT_FLATRIDES",
     "displayName": "Number of flat rides built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "BUILT_COASTERS",
     "displayName": "Number of built coasters",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "UNLOCKED_RIDES",
     "displayName": "Rides unlocked through research",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "SOLD_BALLOONS",
     "displayName": "Balloons sold",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "SOLD_FOOD",
     "displayName": "Food sold",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "SOLD_DRINKS",
     "displayName": "Drinks sold",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "TOILET_VISITS",
     "displayName": "Toilet visits",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "CASH_WITHDRAWN",
     "displayName": "Cash withdrawn",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "BUILT_SHOPS",
     "displayName": "Shops built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "PUKES_CLEANED",
     "displayName": "Cleaned up pukes",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "RIDES_REPAIRED",
     "displayName": "Rides repaired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "VANDALS_BANNED",
     "displayName": "Vandals banned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "CRATES_DELIVERED",
     "displayName": "Crates delivered",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "TOILETS_CLEANED",
     "displayName": "Toilets cleaned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "GUESTS_ENTERTAINED",
     "displayName": "Guests entertained",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "BINS_EMPTIED",
     "displayName": "Trash bins emptied",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "TOTAL_JANITORS",
     "displayName": "Total janitors hired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "TOTAL_HAULERS",
     "displayName": "Total haulers hired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "TOTAL_MECHANICS",
     "displayName": "Total mechanics hired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "TOTAL_SECURITY",
     "displayName": "Total security guards hired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "TOTAL_ENTERTAINERS",
     "displayName": "Total entertainers hired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "HIGHEST_GUESTS",
     "displayName": "Most guests in park (all time)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "HIGHEST_MONEY",
     "displayName": "Most money (all time)",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "TOTAL_GUESTS",
     "displayName": "Total amount of guests visiting the parks",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "BUILT_DECO",
     "displayName": "Deco objects built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "GUESTS_DROWNED",
     "displayName": "Drowned guests",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "GUESTS_CRASHED",
     "displayName": "Crashed guests",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "PARKITECT_STAFF_VISITS",
     "displayName": "Parkitect staff visits",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "ADVERTISEMENTS_RAN",
     "displayName": "Advertisements ran",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "AVERAGE_GUESTS",
     "displayName": "Average amount of guests",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "TOTAL_SHOPKEEPERS",
     "displayName": "Total shopkeepers hired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "EARNED_X_MONEY_PROGRESS",
     "displayName": "",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "BUILD_X_RIDES_PROGRESS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "SELL_X_FOOD_PROGRESS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "RESEARCH_X_RIDES_PROGRESS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "HIRE_X_EMPLOYEES_PROGRESS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "CAMPAIGN_MODE_COMPLETED_PROGRESS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 26
   },
   {
     "name": "CAMPAIGN_MODE_FULLY_COMPLETED_PROGRESS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 52
   },
   {
     "name": "CAMPAIGN_MODE_DLC1_COMPLETED_PROGRESS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 10
   },
   {
     "name": "CAMPAIGN_MODE_DLC1_FULLY_COMPLETED_PROGRESS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 20
   }
 ]

@@ -3,21 +3,28 @@
     "name": "STAT_PHOTOS",
     "displayName": "Photo's taken",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_DUBLOONS",
     "displayName": "Dubloons collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "STAT_MILES_SWUM",
     "displayName": "Miles Swum",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 0.2,
+    "min": 0.0
   }
 ]

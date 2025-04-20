@@ -3,49 +3,64 @@
     "name": "Playtime",
     "displayName": "Total Playtime",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "GlobalPlaytime",
     "displayName": "Global Playtime",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "EditorTime",
     "displayName": "Time spent in editor",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "Tutorials",
     "displayName": "Completed all tutorials",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 3
   },
   {
     "name": "Tutorial1",
     "displayName": "Completed basic tutorial",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "Tutorial2",
     "displayName": "Completed intermediate tutorial",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "Tutorial3",
     "displayName": "Completed advanced tutorial",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 1
   }
 ]

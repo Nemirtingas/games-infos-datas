@@ -3,651 +3,924 @@
     "name": "fields_harvested",
     "displayName": "Fields Harvested",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "houses_built",
     "displayName": "Houses built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "trees_planted",
     "displayName": "Trees planted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "recipes_discovered",
     "displayName": "Alchemy recipes discovered",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0,
+    "max": 100
   },
   {
     "name": "substances_digged",
     "displayName": "Earth substances digged out",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "days_prayed",
     "displayName": "Consecutive days prayed",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "positive_alignment",
     "displayName": "Positive alignment",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "reached_combat_cap",
     "displayName": "Reached Combat skills cap",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "reached_crafting_cap",
     "displayName": "Reached Crafting skills cap",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "reached_stat_cap",
     "displayName": "Reached Stats cap",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "crusader_skills_capped",
     "displayName": "Skill learned for Crusader",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 7
   },
   {
     "name": "keep_built",
     "displayName": "Keeps built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "large_keep_built",
     "displayName": "Large Keeps built",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "kilometers_ran",
     "displayName": "Kilometers ran",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0
   },
   {
     "name": "on_the_top",
     "displayName": "Was on the top of the highest mountain",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "consecutive_hours",
     "displayName": "Consecutive Hours in game",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "total_hours",
     "displayName": "Total hours in game",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "knockout_good_players",
     "displayName": "Good players knocked out",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "knockout_overburdened",
     "displayName": "Knocked out an overburdened player",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "kill_with_a_shovel",
     "displayName": "Killed someone with a shovel",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "prospecting",
     "displayName": "Prospecting skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "mining",
     "displayName": "Mining skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "smelting",
     "displayName": "Smelting skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "forging",
     "displayName": "Forging skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "armorsmithing",
     "displayName": "Armorsmithing skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "forestry",
     "displayName": "Forestry skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "logging",
     "displayName": "Logging skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "carpentry",
     "displayName": "Carpentry skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "bowcraft",
     "displayName": "Bowcraft skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "warfare_engineering",
     "displayName": "Warfare Engineering skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "natures_lore",
     "displayName": "Nature's Lore skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "gathering",
     "displayName": "Gathering skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "herbalism",
     "displayName": "Herbalism skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "healing",
     "displayName": "Healing skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "alchemy",
     "displayName": "Alchemy skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "terraforming",
     "displayName": "Terraforming skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "construction_mat_prep",
     "displayName": "Construction Materials Preparation skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "construction",
     "displayName": "Construction skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "masonry",
     "displayName": "Masonry skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "architecture",
     "displayName": "Architecture skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "farming",
     "displayName": "Farming skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "animal_husbandry",
     "displayName": "Animal Husbandry skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "procuration",
     "displayName": "Procuration skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "cooking",
     "displayName": "Cooking skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "tailoring",
     "displayName": "Tailoring skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "war_horse_handling",
     "displayName": "War horse Handling skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "chainmail_armors",
     "displayName": "Chainmail Armors skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "mounted_fighting",
     "displayName": "Mounted Fighting mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "lancing_mastery",
     "displayName": "Lancing mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "heavy_horse_handling",
     "displayName": "Heavy horse Handling mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "militia_service",
     "displayName": "Militia Service skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "padded_armors",
     "displayName": "Padded Armors skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "spears_mastery",
     "displayName": "Spears mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "unarmed_combat",
     "displayName": "Unarmed Combat mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "poleaxes_mastery",
     "displayName": "Poleaxes mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "blades_mastery",
     "displayName": "Blades mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "scale_armors",
     "displayName": "Scale Armors skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "shields_mastery",
     "displayName": "Shields mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "axes_and_maces_mastery",
     "displayName": "Axe and Mace mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "piercing_mastery",
     "displayName": "Piercing Weapons mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "2h_blades_mastery",
     "displayName": "2 handed Blades mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "plate_armors",
     "displayName": "Plate Armors skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "2h_axes_mastery",
     "displayName": "2 handed Axes mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "2h_blunt_mastery",
     "displayName": "2 handed Blunt weapons mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "war_cries_skill",
     "displayName": "War Cries mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "throwing_mastery",
     "displayName": "Throwing weaponry mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "leather_armors",
     "displayName": "Leather Armors skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "crossbows_mastery",
     "displayName": "Crossbows mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "bows_mastery",
     "displayName": "Bows mastery",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "combat_preparations_skill",
     "displayName": "Combat Preparations skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "fishing_hunting",
     "displayName": "Fishing and Hunting skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "jewelry_skill",
     "displayName": "Jewelry skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "arts_skill",
     "displayName": "Arts skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "piety_skill",
     "displayName": "Piety skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "mentoring_skill",
     "displayName": "Mentoring skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "unit_and_formation",
     "displayName": "Unit and Formation skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "equipment_maintain_skill",
     "displayName": "Equipment Maintain skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "battle_survival",
     "displayName": "Battle Survival skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "demolition_skill",
     "displayName": "Demolition skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "drill_skill",
     "displayName": "Drill skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "climbing_skill",
     "displayName": "Climbing skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "general_actions",
     "displayName": "General Actions skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "horseback_riding",
     "displayName": "Horseback Riding skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "swimming_skill",
     "displayName": "Swimming skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "authority_skill",
     "displayName": "Authority skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "artisan",
     "displayName": "Artisan skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "building_maintaining",
     "displayName": "Building maintain skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "brewing",
     "displayName": "Brewing skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "digging",
     "displayName": "Digging skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "advanced_farming",
     "displayName": "Advanced farming skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "warrior",
     "displayName": "Warrior skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "chivalry",
     "displayName": "Chivalry skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "hunting",
     "displayName": "Hunting skill",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   }
 ]

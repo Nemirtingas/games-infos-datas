@@ -3,35 +3,51 @@
     "name": "TEST_STAT",
     "displayName": "TEST_STATISTIC",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "SummonedMinions",
     "displayName": "Summoned minions",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 500,
+    "min": 0,
+    "max": 500
   },
   {
     "name": "ScoreCrownsStat",
     "displayName": "Crowns",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 50,
+    "min": 0
   },
   {
     "name": "MinionArmyStat",
     "displayName": "Active Minions",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "KillSheepsStat",
     "displayName": "Sheep killed",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": 100
   }
 ]

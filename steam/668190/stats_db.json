@@ -3,14 +3,22 @@
     "name": "GAMES_PLAYED",
     "displayName": "Games Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 1000
   },
   {
     "name": "GLOBAL_GAMES_PLAYED",
     "displayName": "Global Games Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1,
+    "max": 9999999
   }
 ]

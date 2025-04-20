@@ -3,35 +3,40 @@
     "name": "totalwalked",
     "displayName": "Travelled meters in Total",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "oncewalked",
     "displayName": "Most distance travelled at once",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "timesentered",
     "displayName": "How many times you entered the backrooms",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "diecount",
     "displayName": "Total times died",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "escapecount",
     "displayName": "Total times escaped",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   }
 ]

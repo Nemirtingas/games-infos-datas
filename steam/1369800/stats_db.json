@@ -3,49 +3,71 @@
     "name": "first_delivery",
     "displayName": "First Delivery",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "blackhole_skim",
     "displayName": "Blackhole Skims",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 30
   },
   {
     "name": "whitehole_bump",
     "displayName": "Whitehole Bump",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "wormhole_double",
     "displayName": "Wormhole Double",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "levels_completed",
     "displayName": "Levels Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "core_fails",
     "displayName": "Delivery Failures",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "core_attempts",
     "displayName": "Delivery Attempts",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   }
 ]

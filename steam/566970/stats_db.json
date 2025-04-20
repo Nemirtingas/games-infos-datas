@@ -3,42 +3,51 @@
     "name": "stat_count_origami",
     "displayName": "Origami Count",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 10
   },
   {
     "name": "stat_count_cookies",
     "displayName": "Cookies Eaten",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stat_began_game",
     "displayName": "Game started (YES/NO)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 1
   },
   {
     "name": "stat_completed",
     "displayName": "Game completed at least once (YES/NO)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 1
   },
   {
     "name": "stat_beat_time",
     "displayName": "Time to beat game first playthrough (minutes)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "stat_hints",
     "displayName": "Hints first playthrough (count)",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   }
 ]

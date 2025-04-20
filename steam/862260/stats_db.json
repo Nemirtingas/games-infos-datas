@@ -3,28 +3,36 @@
     "name": "turbo_time",
     "displayName": "Turbo Time (min)",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 30.0
   },
   {
     "name": "near_misses",
     "displayName": "Number of near misses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000
   },
   {
     "name": "near_misses_turbo",
     "displayName": "Number of near misses with turbo",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000
   },
   {
     "name": "bonuses",
     "displayName": "Number of bunuses collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100
   }
 ]

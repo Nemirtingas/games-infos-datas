@@ -3,1057 +3,1396 @@
     "name": "GST_MAXLEVEL_ATTAINED",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_TIMES_PRESTIGED",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_TIMES_TRIAL_COMPLETED",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_PRACTICE_GAMES_PLAYED",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_ONLINE_GAMES_PLAYED",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_GAME_SESSION_DURATION_AVERAGE_SUM",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_GAME_SESSION_DURATION_AVERAGE_COUNT",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_GAMES_PER_PLAYSESSION_AVERAGE_SUM",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_GAMES_PER_PLAYSESSION_AVERAGE_COUNT",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_GAMESESSION_DURATION_MIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_GAMESESSION_DURATION_MAX",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_PLAYSESSION_NUMGAMES_MIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_PLAYSESSION_NUMGAMES_MAX",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_PLAYSESSION_NUMGAMES_AVERAGE_SUM",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_PLAYSESSION_NUMGAMES_AVERAGE_COUNT",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_UNLOCKED_CHARACTER_1",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_UNLOCKED_CHARACTER_2",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_UNLOCKED_CHARACTER_3",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_DEMO_TIMELEFT",
     "displayName": "",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "GST_DEMO_TIMELEFT_SET_ONCE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "GST_GAMES_STARTED",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "GST_GAMES_FINISHED",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "GST_GAMES_WON",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_DASHER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_DASHER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_DASHER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_COWBOY",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_COWBOY",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_COWBOY",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_SUMMONER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_SUMMONER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_SUMMONER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_JETTER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_JETTER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_JETTER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_CHAMELEON",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_CHAMELEON",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_CHAMELEON",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_TANK",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_TANK",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_TANK",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_HEAVY",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_HEAVY",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_HEAVY",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_BLAZER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_BLAZER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_BLAZER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ATSTAT_HERO_KILLS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0
   },
   {
     "name": "GST_PLAYER_RANKING_MEAN",
     "displayName": "ranking mean",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "GST_PLAYER_RANKING_STDDEV",
     "displayName": "ranking stddev",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ATSTAT_WINS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GST_VERSION",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ATSTAT_SOLAR_COLLECTED",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "ATSTAT_HEROES_PLAYED",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "ATSTAT_CREEP_KILLS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "ATSTAT_SOLARBOSS_KILLS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "ATSTAT_TURRET_KILLS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "ATSTAT_PRESTIGE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_MAW",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_WINS_BY_CLASS_MAW",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_MAW",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_BRUTE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GST_WINS_BY_CLASS_BRUTE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "GST_LOSSES_BY_CLASS_BRUTE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "GST_PROFILEGOLD",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GST_HIGHEST_PROFILEGOLD",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "leavePenaltyMyTeamMu",
     "displayName": "",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "leavePenaltyMyTeamSigma",
     "displayName": "",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "leavePenaltyOtherTeamMu",
     "displayName": "",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "leavePenaltyOtherTeamSigma",
     "displayName": "",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_HUNTER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_HUNTER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_HUNTER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_ACTIVE_PLAYER_COUNT",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 1,
+    "max": 75000
   },
   {
     "name": "GST_NUM_ACTIVE_PLAYERS",
     "displayName": "",
     "type": "int",
+    "default": 140000,
     "incrementonly": false,
-    "defaultvalue": 140000
+    "aggregated": false,
+    "min": 140000,
+    "max": 140000
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_BUTTERFLY",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_BUTTERFLY",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_BUTTERFLY",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_BIRD",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_BIRD",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_BIRD",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_RANK_PERIOD_INDEX",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GST_SEASON_GAMES_STARTED",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GST_SEASON_GAMES_WON",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GST_RANK_UPLOAD_TIMESTAMP",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_ASSASSIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_ASSASSIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_ASSASSIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_CAPTAIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_CAPTAIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_CAPTAIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_VAMPIRE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_VAMPIRE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_VAMPIRE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LEAVE_PENALTY_UPLOAD_TIMESTAMP",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GST_SEASON_GAMES_WON_TIMESTAMP",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GST_SEASON_GAMES_STARTED_TIMESTAMP",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_COMMANDO",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_COMMANDO",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_COMMANDO",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_SHAMAN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_SHAMAN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_SHAMAN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_SPY",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_SPY",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_SPY",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_PALADIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_PALADIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_PALADIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ATSTAT_WEEDLING",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "ATSTAT_AWESOME",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ATSTAT_FEEDWORM",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_BLINKER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_BLINKER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_BLINKER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_WOZZLE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_WOZZLE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_WOZZLE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_CRAWLER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_CRAWLER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_CRAWLER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_HYPER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_HYPER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_HYPER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_SHIFTER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_SHIFTER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_SHIFTER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_ELLIPTO",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_ELLIPTO",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_ELLIPTO",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_WARRIOR",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_WARRIOR",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_WARRIOR",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_BOIZOR",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_BOIZOR",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_BOIZOR",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_CRUMPLE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_CRUMPLE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_CRUMPLE",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_RASCAL",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_RASCAL",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_RASCAL",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_POACHER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_POACHER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_POACHER",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_WAKUWAKU",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_WAKUWAKU",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_WAKUWAKU",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_TOTALGOLD_BY_CLASS_GANTLET",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "GST_WINS_BY_CLASS_GANTLET",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "GST_LOSSES_BY_CLASS_GANTLET",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   }
 ]

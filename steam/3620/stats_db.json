@@ -3,42 +3,52 @@
     "name": "adv_level_max",
     "displayName": "Highest level BEAT in adventure mode (negative levels indicate the boss level for that zone, so -10 means beat boss 1, -60 means beat ANY boss 6 incarnation)",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "heroic_level_max",
     "displayName": "Highest level BEAT in heroic mode (see adv mode comments regarding bosses)",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "if_level_max",
     "displayName": "Highest level BEAT in iron frog mode",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "num_challenge_starts",
     "displayName": "Number of times user started a challenge mode game",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "num_challenge_losses",
     "displayName": "Number of times user lost a challenge level (did not meet challenge score target)",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "num_challenge_wins",
     "displayName": "Number of times user met or exceeded the challenge score target",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   }
 ]

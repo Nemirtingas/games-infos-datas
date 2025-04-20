@@ -3,35 +3,41 @@
     "name": "run",
     "displayName": "Games Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stage_cleared",
     "displayName": "Clear Count",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1
   },
   {
     "name": "earned_coin",
     "displayName": "Earned Coin",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "stage_failed",
     "displayName": "Fail Count",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "stage_played",
     "displayName": "Total Stage Played Count",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   }
 ]

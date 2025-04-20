@@ -3,50 +3,69 @@
     "name": "NumGames",
     "displayName": "Levels played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9999999
   },
   {
     "name": "MetersTraveled",
     "displayName": "Meters Traveled",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "min": 0.0,
+    "max": 99999
   },
   {
     "name": "PickedAnimalsRate",
     "displayName": "Keeper average",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "ComboRate",
     "displayName": "Combo average",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "FlexibilityRate",
     "displayName": "Flexibility average",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "MobilityRate",
     "displayName": "Mobility average",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "BonusRate",
     "displayName": "Zen average",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "ThreatsRate",
     "displayName": "Fighter average",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   }
 ]

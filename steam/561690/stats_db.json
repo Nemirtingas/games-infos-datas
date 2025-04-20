@@ -3,28 +3,44 @@
     "name": "kills",
     "displayName": "Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 20,
+    "min": 1,
+    "max": 1000
   },
   {
     "name": "playerDeath",
     "displayName": "Death",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 1000
   },
   {
     "name": "time",
     "displayName": "Time in game",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 3600.0,
+    "min": 1.0,
+    "max": 36000
   },
   {
     "name": "medkits",
     "displayName": "Medkits",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 20,
+    "min": 1,
+    "max": 50
   }
 ]

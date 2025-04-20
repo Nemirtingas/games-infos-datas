@@ -3,154 +3,242 @@
     "name": "rounds_fired",
     "displayName": "Shots fired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 1000000
   },
   {
     "name": "rounds_hit",
     "displayName": "Rounds hit",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "machinegun_hits",
     "displayName": "Machinegun hits",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "showdown_kills",
     "displayName": "Showdown Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "showdown_deaths",
     "displayName": "Showdown Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "showdown_wins",
     "displayName": "Showdown Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "showdown_losses",
     "displayName": "Showdown Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "showdown_playtime",
     "displayName": "Showdown Playtime",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1200,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "kills_pistol",
     "displayName": "Pistol Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "gunslinger_progress",
     "displayName": "Gunslinger Progress",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "hobo_progress",
     "displayName": "Hobo Progress",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "are_you_crazy_progress",
     "displayName": "Are You Crazy Progress",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "commando_progress",
     "displayName": "Commando Progress",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "soldier_progress",
     "displayName": "Soldier Progress",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "im_not_a_part_of_this_system_progress",
     "displayName": "I'm not a part of this system! Progress",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "holy_diver_progress",
     "displayName": "Holy diver Progress",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "experience",
     "displayName": "Experience",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 2147483647,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "showdown_total_score",
     "displayName": "Total Score",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 500,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "showdown_times_last_man_standing",
     "displayName": "Number of times as Last Man Standing",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "showdown_played_matches",
     "displayName": "Played Matches",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "showdown_rating",
     "displayName": "Showdown skill rating",
     "type": "float",
+    "default": 1500.0,
     "incrementonly": false,
-    "defaultvalue": 1500.0
+    "aggregated": false,
+    "maxchange": 32.0,
+    "min": 0.0,
+    "max": 20000
   },
   {
     "name": "lifetime_experience",
     "displayName": "Life-time Experience",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 2147483647,
+    "min": 0,
+    "max": 2147483647
   }
 ]

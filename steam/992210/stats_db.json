@@ -3,97 +3,120 @@
     "name": "STAT_SIMULTANEOUS_ATTACKS",
     "displayName": "Simultaneous attacks",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 2,
+    "max": 100
   },
   {
     "name": "STAT_EG_SCIENCE_POINTS",
     "displayName": "Highest science points at the end of game",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 200
   },
   {
     "name": "STAT_BIGGEST_ARMY",
     "displayName": "Biggest army created",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 25
   },
   {
     "name": "STAT_TOTAL_TROOPS_CREATED",
     "displayName": "Total troops created",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "STAT_BIGGEST_TERRITORY_SIZE",
     "displayName": "Biggest territory size achieved in a single game",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "STAT_WIN_HIGHEST_TECHNOLOGIES",
     "displayName": "Highest amount of technologies researched in a single game that was won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "STAT_VICTORIES_SP",
     "displayName": "Total victories in Singleplayer",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "STAT_VICTORIES_MP",
     "displayName": "Total victories in Multiplayer",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "STAT_RECENT_SCORE_AVG",
     "displayName": "Score average of last 10 games",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "STAT_TOTAL_SCORE_POINTS",
     "displayName": "Total score points gathered",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "STAT_PLAYER_LEVEL",
     "displayName": "Current Level",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "max": 100
   },
   {
     "name": "STAT_TOTAL_FACILITIES_CREATED",
     "displayName": "Total facilities created",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "STAT_HIGHEST_UPKEEP",
     "displayName": "Highest upkeep ever",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "STAT_EG_WIN_HIGHEST_UPKEEP",
     "displayName": "Highest upkeep at the end of a game",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

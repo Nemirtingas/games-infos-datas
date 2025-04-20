@@ -3,1099 +3,1492 @@
     "name": "ranked_score",
     "displayName": "Ranked Score",
     "type": "int",
+    "default": 1000,
     "incrementonly": false,
-    "defaultvalue": 1000
+    "aggregated": false,
+    "max": 6000
   },
   {
     "name": "ranked_wins",
     "displayName": "Ranked Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "ranked_losses",
     "displayName": "Ranked Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "ranked_started",
     "displayName": "Ranked Started",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "ranked_finished",
     "displayName": "Ranked Finished",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "ea_score",
     "displayName": "Ranked Score",
     "type": "int",
+    "default": 1000,
     "incrementonly": false,
-    "defaultvalue": 1000
+    "aggregated": true,
+    "maxchange": 30,
+    "min": -30,
+    "max": 9000
   },
   {
     "name": "ea_wins",
     "displayName": "Ranked Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ea_losses",
     "displayName": "Ranked Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ea_started",
     "displayName": "Ranked Started",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ea_finished",
     "displayName": "Ranked Finished",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "abwave_furthest",
     "displayName": "Furthest Abyss Wave",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_zetterburn",
     "displayName": "Zetterburn Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_orcane",
     "displayName": "Orcane Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_wrastor",
     "displayName": "Wrastor Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_kragg",
     "displayName": "Kragg Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_forsburn",
     "displayName": "Forsburn Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_maypul",
     "displayName": "Maypul Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_absa",
     "displayName": "Absa Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_etalus",
     "displayName": "Etalus Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_two",
     "displayName": "Two Player Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_three",
     "displayName": "Three Player Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_four",
     "displayName": "Four Player Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "num_matches",
     "displayName": "Total Matches",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "TutLessons_all",
     "displayName": "Tutorial Lessons Complete",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 17,
+    "min": 0,
+    "max": 17
   },
   {
     "name": "stfast_all",
     "displayName": "Fast Story Modes",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 6,
+    "min": 0,
+    "max": 6
   },
   {
     "name": "coins_collected",
     "displayName": "All Coins Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "ablevels_all",
     "displayName": "Level 10 Abyss Characters",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 18,
+    "min": 0,
+    "max": 18
   },
   {
     "name": "story_zet_time",
     "displayName": "Story Zetterburn Time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 1000.0,
+    "min": -1000.0,
+    "max": 9000
   },
   {
     "name": "story_orc_time",
     "displayName": "Story Orcane Time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 1000.0,
+    "min": -1000.0,
+    "max": 9000
   },
   {
     "name": "story_wra_time",
     "displayName": "Story Wrastor Time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 1000.0,
+    "min": -1000.0,
+    "max": 9000
   },
   {
     "name": "story_kra_time",
     "displayName": "Story Kragg Time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 1000.0,
+    "min": -1000.0,
+    "max": 9000
   },
   {
     "name": "story_for_time",
     "displayName": "Story Forsburn Time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 1000.0,
+    "min": -1000.0,
+    "max": 9000
   },
   {
     "name": "story_may_time",
     "displayName": "Story Maypul Time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0,
+    "min": -1000.0,
+    "max": 9000
   },
   {
     "name": "story_epi_time",
     "displayName": "Story Epilogue Time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 1000.0,
+    "min": -1000.0,
+    "max": 9000
   },
   {
     "name": "coins_current",
     "displayName": "Current Coins",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100000,
+    "min": -100000,
+    "max": 999999
   },
   {
     "name": "ranked2_score",
     "displayName": "Ranked Score",
     "type": "int",
+    "default": 1000,
     "incrementonly": false,
-    "defaultvalue": 1000
+    "aggregated": true,
+    "maxchange": 30,
+    "min": -30,
+    "max": 6000
   },
   {
     "name": "ranked2_wins",
     "displayName": "Ranked Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ranked2_losses",
     "displayName": "Ranked Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ranked2_started",
     "displayName": "Ranked Started",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ranked2_finished",
     "displayName": "Ranked Finished",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ranked3_score",
     "displayName": "Ranked Score",
     "type": "int",
+    "default": 1000,
     "incrementonly": false,
-    "defaultvalue": 1000
+    "aggregated": true,
+    "maxchange": 30,
+    "min": -30,
+    "max": 6000
   },
   {
     "name": "ranked3_wins",
     "displayName": "Ranked Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ranked3_losses",
     "displayName": "Ranked Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ranked3_started",
     "displayName": "Ranked Started",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ranked3_finished",
     "displayName": "Ranked Finished",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "icon_unlocks1",
     "displayName": "Icon Unlocks",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "icon_unlocks0",
     "displayName": "Icon Unlocks",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character1_wins",
     "displayName": "Random Character Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character2_wins",
     "displayName": "Zetterburn Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character3_wins",
     "displayName": "Orcane Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character4_wins",
     "displayName": "Wrastor Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character5_wins",
     "displayName": "Kragg Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character6_wins",
     "displayName": "Forsburn Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character7_wins",
     "displayName": "Maypul Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character8_wins",
     "displayName": "Absa Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character9_wins",
     "displayName": "Etalus Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character10_wins",
     "displayName": "Ori Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character11_wins",
     "displayName": "Ranno Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character12_wins",
     "displayName": "Clairen Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character13_wins",
     "displayName": "Sylvanos Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character14_wins",
     "displayName": "Elliana Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character15_wins",
     "displayName": "Shovel Knight Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character1_losses",
     "displayName": "Random Character Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character2_losses",
     "displayName": "Zetterburn Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character3_losses",
     "displayName": "Orcane Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character4_losses",
     "displayName": "Wrastor Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character5_losses",
     "displayName": "Kragg Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character6_losses",
     "displayName": "Forsburn Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character7_losses",
     "displayName": "Maypul Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character8_losses",
     "displayName": "Absa Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character9_losses",
     "displayName": "Etalus Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character10_losses",
     "displayName": "Ori Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character11_losses",
     "displayName": "Ranno Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character12_losses",
     "displayName": "Clairen Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character13_losses",
     "displayName": "Sylvanos Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character14_losses",
     "displayName": "Elliana Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character15_losses",
     "displayName": "Shovel Knight Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "ranked_stars",
     "displayName": "Ranked Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ranked_winstreak",
     "displayName": "Ranked Winstreak",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stored_season",
     "displayName": "Stored Ranked Season",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "highest_stars",
     "displayName": "Highest Stars Ever",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "pet_unlocks",
     "displayName": "Pet Unlocks",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character1_stars",
     "displayName": "Random Character Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character2_stars",
     "displayName": "Zetterburn Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character3_stars",
     "displayName": "Orcane Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character4_stars",
     "displayName": "Wrastor Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character5_stars",
     "displayName": "Kragg Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character6_stars",
     "displayName": "Forsburn Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character7_stars",
     "displayName": "Maypul Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character8_stars",
     "displayName": "Absa Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character9_stars",
     "displayName": "Etalus Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character10_stars",
     "displayName": "Ori Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character11_stars",
     "displayName": "Ranno Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character12_stars",
     "displayName": "Clairen Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character13_stars",
     "displayName": "Sylvanos Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character14_stars",
     "displayName": "Elliana Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character15_stars",
     "displayName": "Shovel Knight Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character1_kills",
     "displayName": "Zetterburn Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character2_kills",
     "displayName": "Orcane Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character3_kills",
     "displayName": "Wrastor Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character4_kills",
     "displayName": "Kragg Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character5_kills",
     "displayName": "Forsburn Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character6_kills",
     "displayName": "Maypul Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character7_kills",
     "displayName": "Absa Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character8_kills",
     "displayName": "Etalus Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character9_kills",
     "displayName": "Ori Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character10_kills",
     "displayName": "Ranno Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character11_kills",
     "displayName": "Clairen Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character12_kills",
     "displayName": "Sylvanos Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character13_kills",
     "displayName": "Elliana Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character14_kills",
     "displayName": "Shovel Knight Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character1_deaths",
     "displayName": "Zetterburn Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character2_deaths",
     "displayName": "Orcane Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character3_deaths",
     "displayName": "Wrastor Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character4_deaths",
     "displayName": "Kragg Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character5_deaths",
     "displayName": "Forsburn Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character6_deaths",
     "displayName": "Maypul Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character7_deaths",
     "displayName": "Absa Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character8_deaths",
     "displayName": "Etalus Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character9_deaths",
     "displayName": "Ori Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character10_deaths",
     "displayName": "Ranno Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character11_deaths",
     "displayName": "Clairen Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character12_deaths",
     "displayName": "Sylvanos Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character13_deaths",
     "displayName": "Elliana Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character14_deaths",
     "displayName": "Shovel Knight Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "casual_elo",
     "displayName": "Casual ELO",
     "type": "int",
+    "default": 1000,
     "incrementonly": false,
-    "defaultvalue": 1000
+    "aggregated": false
   },
   {
     "name": "abwave_ori",
     "displayName": "Ori Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_ranno",
     "displayName": "Ranno Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_clairen",
     "displayName": "Clairen Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_sylvanos",
     "displayName": "Sylvanos Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_elliana",
     "displayName": "Elliana Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_shovelknight",
     "displayName": "Shovel Knight Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "character16_wins",
     "displayName": "Mollo Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character17_wins",
     "displayName": "Hodan Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character18_wins",
     "displayName": "Pomme Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character19_wins",
     "displayName": "Olympia Wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character16_losses",
     "displayName": "Mollo Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character17_losses",
     "displayName": "Hodan Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character18_losses",
     "displayName": "Pomme Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character19_losses",
     "displayName": "Olympia Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "character16_stars",
     "displayName": "Mollo Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character17_stars",
     "displayName": "Hodan Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character18_stars",
     "displayName": "Pomme Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character19_stars",
     "displayName": "Olympia Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character15_kills",
     "displayName": "Mollo Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character16_kills",
     "displayName": "Hodan Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character17_kills",
     "displayName": "Pomme Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character18_kills",
     "displayName": "Olympia Kills",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1000.0
   },
   {
     "name": "character15_deaths",
     "displayName": "Mollo Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character16_deaths",
     "displayName": "Hodan Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character17_deaths",
     "displayName": "Pomme Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "character18_deaths",
     "displayName": "Olympia Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "abwave_mollo",
     "displayName": "Mollo Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_hodan",
     "displayName": "Hodan Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_pomme",
     "displayName": "Pomme Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "abwave_olympia",
     "displayName": "Olympia Abyss Waves",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 1500
   },
   {
     "name": "saved_version",
     "displayName": "Saved Version",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 999999
   }
 ]

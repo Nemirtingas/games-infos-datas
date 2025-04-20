@@ -3,35 +3,43 @@
     "name": "stat_playcount_arcade_mode",
     "displayName": "Arcade Mode Play Count",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "stat_used_continues",
     "displayName": "Used Continues",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "popularity_score_gal",
     "displayName": "Gal popularity",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 2
   },
   {
     "name": "popularity_score_fnorris",
     "displayName": "F.Norris popularity",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 2
   },
   {
     "name": "popularity_score_ricardo",
     "displayName": "Ricardo popularity",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "max": 2
   }
 ]

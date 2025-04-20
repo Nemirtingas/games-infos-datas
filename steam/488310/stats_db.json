@@ -3,70 +3,106 @@
     "name": "GameTime",
     "displayName": "Total Time Played In Minutes",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 999999.0,
+    "min": 0.0,
+    "max": 999999999999
   },
   {
     "name": "current_season",
     "displayName": "Current Season as set by us the Devs",
     "type": "int",
+    "default": 2,
     "incrementonly": true,
-    "defaultvalue": 2
+    "aggregated": true,
+    "maxchange": 0,
+    "min": 0,
+    "max": 2
   },
   {
     "name": "wins_seasson_1",
     "displayName": "a players wins in season 1 (ranked only)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 999999
   },
   {
     "name": "games_played_seasson_1",
     "displayName": "a players total games played season 1 (ranked only)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 999999
   },
   {
     "name": "skill_rating_seasson_1",
     "displayName": "a players skill rating season 1 (0-2500)",
     "type": "int",
+    "default": 1500,
     "incrementonly": false,
-    "defaultvalue": 1500
+    "aggregated": false,
+    "maxchange": 500,
+    "max": 2500
   },
   {
     "name": "skill_rating_high_seasson_1",
     "displayName": "the players highest skill rating season 1 (0-2500)",
     "type": "int",
+    "default": 1500,
     "incrementonly": false,
-    "defaultvalue": 1500
+    "aggregated": false,
+    "maxchange": 500,
+    "max": 2500
   },
   {
     "name": "wins_seasson_2",
     "displayName": "\"\"",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 999999
   },
   {
     "name": "games_played_seasson_2",
     "displayName": "\"\"",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 999999
   },
   {
     "name": "skill_rating_seasson_2",
     "displayName": "\"\"",
     "type": "int",
+    "default": 1500,
     "incrementonly": true,
-    "defaultvalue": 1500
+    "aggregated": false,
+    "maxchange": 500,
+    "max": 2500
   },
   {
     "name": "skill_rating_high_seasson_2",
     "displayName": "\"\"",
     "type": "int",
+    "default": 1500,
     "incrementonly": false,
-    "defaultvalue": 1500
+    "aggregated": false,
+    "maxchange": 500,
+    "max": 2500
   }
 ]

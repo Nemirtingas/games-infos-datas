@@ -3,49 +3,62 @@
     "name": "stat_playtime",
     "displayName": "Playtime",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "stat_hands",
     "displayName": "Hands played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "stat_games",
     "displayName": "Games played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "stat_score",
     "displayName": "Score",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 10.0,
+    "min": 0.0
   },
   {
     "name": "stat_performance",
     "displayName": "Performance",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "stat_rankingpoints",
     "displayName": "Ranking Points",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "stat_chips",
     "displayName": "Chips",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   }
 ]

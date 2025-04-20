@@ -3,21 +3,29 @@
     "name": "nautical_miles_traveled",
     "displayName": "Nautical Miles Traveled",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 10.0
   },
   {
     "name": "stars_collected",
     "displayName": "Stars Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "boxes_collected",
     "displayName": "Boxes Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1
   }
 ]

@@ -3,14 +3,22 @@
     "name": "stat_accountlevel",
     "displayName": "Experience Level",
     "type": "int",
+    "default": 1,
     "incrementonly": false,
-    "defaultvalue": 1
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 100
   },
   {
     "name": "stat_AIRecycled",
     "displayName": "AI Recycled",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 999999
   }
 ]

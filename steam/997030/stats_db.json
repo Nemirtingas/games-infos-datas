@@ -3,28 +3,33 @@
     "name": "bosseskilled",
     "displayName": "Bosses killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "untiskilled",
     "displayName": "Units killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "ships",
     "displayName": "Ships unlocked",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false,
+    "max": 4
   },
   {
     "name": "targets",
     "displayName": "Targets hunted down",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

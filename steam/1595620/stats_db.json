@@ -3,21 +3,29 @@
     "name": "STAT_VERSION",
     "displayName": "version",
     "type": "int",
+    "default": 1,
     "incrementonly": false,
-    "defaultvalue": 1
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 1
   },
   {
     "name": "STAT_SHIPS_SUNK",
     "displayName": "Ships Sunk",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "STAT_POWERUPS",
     "displayName": "Powerups collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   }
 ]

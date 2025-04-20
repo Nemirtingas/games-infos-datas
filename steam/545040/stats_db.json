@@ -3,21 +3,25 @@
     "name": "fruitCollected",
     "displayName": "Fruit Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "winCount",
     "displayName": "Games Won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "songsListenedTo",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   }
 ]

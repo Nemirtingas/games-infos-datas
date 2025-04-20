@@ -3,28 +3,40 @@
     "name": "MaxStationRank",
     "displayName": "Maximum Station Rank",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0
   },
   {
     "name": "TotalPassengersServiced",
     "displayName": "Total Passengers Serviced",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10000,
+    "min": 0
   },
   {
     "name": "MaxPassengersInStation",
     "displayName": "Maximum Passengers In Station",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10000,
+    "min": 0
   },
   {
     "name": "MaxFunds",
     "displayName": "Maximum Funds",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000000,
+    "min": 0
   }
 ]

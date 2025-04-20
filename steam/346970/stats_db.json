@@ -3,233 +3,325 @@
     "name": "subversions",
     "displayName": "Subversions",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "corpsesDelivered",
     "displayName": "Corpses Delivered to others",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "secondPlace",
     "displayName": "2nd Place Finish",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "thirdPlace",
     "displayName": "3rd Place Finish",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "laserWallPlaced",
     "displayName": "Laser Walls Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "denials",
     "displayName": "Last Second Subversion Failures",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "deathCount",
     "displayName": "Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "roboTime",
     "displayName": "Time in Robosaru",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0
   },
   {
     "name": "corpseDamageCaused",
     "displayName": "Corpse damage caused",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 3000,
+    "min": 0
   },
   {
     "name": "uraniumDelivered",
     "displayName": "Uraniums deposited",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "corpseDamageReceived",
     "displayName": "Corpse Damage Received",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "bunnyWins",
     "displayName": "Wins as a bunny",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "roboWins",
     "displayName": "Wins as a robo",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "wonSpentNoMoneyConsecutive",
     "displayName": "Consecutive rounds won without spending any money",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "corpsesTaken",
     "displayName": "Number of times corpsed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "distanceWalked",
     "displayName": "Meters walked",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 30000.0,
+    "min": 0.0
   },
   {
     "name": "gamesLost",
     "displayName": "Games lost (placed lower than 3rd place)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "bunniesKilled",
     "displayName": "Bunny deaths while you were in Robosaru",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1800,
+    "min": 0
   },
   {
     "name": "crashesInvolved",
     "displayName": "Times you crashed in the dropship",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "placementTotal",
     "displayName": "Placement totals, for use in averaging",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 15,
+    "min": 0
   },
   {
     "name": "recentRoundPlacementAverage",
     "displayName": "The 'window' here is rounds.  It will be used to calculate average from the last 10 rounds.",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "timesSubverted",
     "displayName": "Times you were subverted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "recentScoreAverage",
     "displayName": "Recent game score average",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "totalScoreEarned",
     "displayName": "total score earned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 200000
   },
   {
     "name": "averageBunnyDeathsDuringRobo",
     "displayName": "average bunnies killed during robo reigns",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "bunnyTime",
     "displayName": "Time as a bunny",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0
   },
   {
     "name": "tournamentRankings",
     "displayName": "How many times this player ranked top 3 in a tourney",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "totalItemsDelivered",
     "displayName": "total items delivered to robos",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "markedAsTroll",
     "displayName": "for mods only. make it possible to detect serial abusers.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "moneySpent",
     "displayName": "total money spent",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "wasBanned",
     "displayName": "times this player was banned. Can be used to lock out troublemakers",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "percentOfBunnyTimeCollared",
     "displayName": "recent percent this player wears a collar as bunny",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "percentOfBunnyTimeDropship",
     "displayName": "recent percent this player spent in the dropship as a bunny",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "skillRating",
     "displayName": "player skill rating",
     "type": "int",
+    "default": 1000,
     "incrementonly": false,
-    "defaultvalue": 1000
+    "aggregated": false,
+    "maxchange": 500,
+    "min": 0,
+    "max": 6000
   }
 ]

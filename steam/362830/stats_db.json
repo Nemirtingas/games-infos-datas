@@ -3,70 +3,96 @@
     "name": "STATISTIC_01",
     "displayName": "Number of gold medals",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 55
   },
   {
     "name": "STATISTIC_02",
     "displayName": "Number of silver medals",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 55
   },
   {
     "name": "STATISTIC_03",
     "displayName": "Number of out-of-range",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "STATISTIC_04",
     "displayName": "Number of pocketed balls",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "STATISTIC_05",
     "displayName": "Number of strikes",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "STATISTIC_06",
     "displayName": "Ball movement distance",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 25.0,
+    "min": 0.0
   },
   {
     "name": "STATS_RESET_COUNTER",
     "displayName": "Reset counter used for stats versioning. Changing the counter resets all achievements/stats",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "STATISTIC_07",
     "displayName": "Balls driven into water",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "STATISTIC_08",
     "displayName": "Number of punishing points given",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "STATISTIC_09",
     "displayName": "Number of won gold trophies in tournaments",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   }
 ]

@@ -3,20 +3,28 @@
     "name": "frags",
     "displayName": "Frags",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 130,
+    "min": 0
   },
   {
     "name": "kpd",
     "displayName": "Kills per death",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "edit_time",
     "displayName": "Edit time in minutes",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 5,
+    "min": 0
   }
 ]

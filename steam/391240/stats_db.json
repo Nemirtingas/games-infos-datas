@@ -3,90 +3,127 @@
     "name": "killed_skeletons",
     "displayName": "Skeletons Killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 64,
+    "min": 1
   },
   {
     "name": "duels_played",
     "displayName": "Duels Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 64,
+    "min": 1
   },
   {
     "name": "souls_spent",
     "displayName": "Souls Spent",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 256,
+    "min": 1
   },
   {
     "name": "health_healed",
     "displayName": "Health Healed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 512,
+    "min": 1
   },
   {
     "name": "damage_dealt",
     "displayName": "Damage Dealt",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1024,
+    "min": 1
   },
   {
     "name": "decks_created",
     "displayName": "New Decks Created",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 16,
+    "min": 1
   },
   {
     "name": "cards_summoned",
     "displayName": "Cards Summoned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 64,
+    "min": 1
   },
   {
     "name": "cards_milled",
     "displayName": "Cards Milled",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 64,
+    "min": 1
   },
   {
     "name": "messages_sent",
     "displayName": "Messages Sent",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 2048,
+    "min": 1
   },
   {
     "name": "cards_owned",
     "displayName": "Cards Owned",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1024
   },
   {
     "name": "total_gold",
     "displayName": "Total Gold Earned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1024,
+    "min": 1
   },
   {
     "name": "total_exp",
     "displayName": "Total EXP Earned",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1024,
+    "min": 1
   },
   {
     "name": "average_time_per_turn",
     "displayName": "Average Time Per Turn",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   }
 ]

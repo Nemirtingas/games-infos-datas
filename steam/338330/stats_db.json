@@ -3,257 +3,323 @@
     "name": "COINS_TOTAL",
     "displayName": "Coins Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 300
   },
   {
     "name": "MATCHES_WON",
     "displayName": "Games Won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "DISTANCE_TOTAL",
     "displayName": "Kilometers Walked",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "BLOCKED_TOTAL",
     "displayName": "Damage Blocked",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1000
   },
   {
     "name": "HEALED_TOTAL",
     "displayName": "HP Healed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 500
   },
   {
     "name": "CHESTS_TOTAL",
     "displayName": "Treasure Chests Smashed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10
   },
   {
     "name": "MINIONS_SLAIN_TOTAL",
     "displayName": "Minions Slain",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100
   },
   {
     "name": "BATS_SLAIN_TOTAL",
     "displayName": "Bats Slain",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100
   },
   {
     "name": "HERO_WARRIOR_TIME",
     "displayName": "Hours played as Warrior",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "HERO_ROGUE_TIME",
     "displayName": "Hours played as Rogue",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "HERO_MAGE_TIME",
     "displayName": "Hours played as Mage",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "HERO_NINJA_TIME",
     "displayName": "Hours played as Ninja",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "HERO_MYSTIC_TIME",
     "displayName": "Hours played as Mystic",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "MODE_CLASSIC_TIME",
     "displayName": "Hours played in Classic Mode",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "MODE_CTF_TIME",
     "displayName": "Hours played in Treasure Run",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "COINS_SINGLE",
     "displayName": "Coins Collected in a single Match of Classic",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 300
   },
   {
     "name": "HEALED_SINGLE",
     "displayName": "HP Healed in a single Match",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 500
   },
   {
     "name": "PLAYERS_SLAIN_TOTAL",
     "displayName": "Players Defeated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 60
   },
   {
     "name": "BOTS_SLAIN_TOTAL",
     "displayName": "Bots Defeated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 60
   },
   {
     "name": "DEATHS_TOTAL",
     "displayName": "Slain by Enemies",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 60
   },
   {
     "name": "CTF_COINS_SINGLE",
     "displayName": "Coins Collected in a single Match of Treasure Run",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 200
   },
   {
     "name": "CLASSIC_COINS_MINUTE_AVG",
     "displayName": "Coins per Minute in Classic",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "CTF_COINS_MINUTE_AVG",
     "displayName": "Coins per Minute in Treasure Run",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "CLASSIC_COINS_TOTAL",
     "displayName": "Coins Collected in Classic",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 300
   },
   {
     "name": "CTF_COINS_TOTAL",
     "displayName": "Coins Collected in Treasure Run",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 200
   },
   {
     "name": "GLOBAL_COINS_TOTAL",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 500
   },
   {
     "name": "GLOBAL_COINS_DROPPED",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 500
   },
   {
     "name": "GLOBAL_PLAYERS_SLAIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 200
   },
   {
     "name": "GLOBAL_BOTS_SLAIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 200
   },
   {
     "name": "GLOBAL_MINIONS_SLAIN",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 400
   },
   {
     "name": "GLOBAL_HEALED",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 2000
   },
   {
     "name": "GLOBAL_CHESTS",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 20
   },
   {
     "name": "GLOBAL_BLOCKED",
     "displayName": "",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 400
   },
   {
     "name": "GLOBAL_DISTANCE",
     "displayName": "",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "LEVEL",
     "displayName": "Player Level",
     "type": "int",
+    "default": 1,
     "incrementonly": false,
-    "defaultvalue": 1
+    "aggregated": false,
+    "maxchange": 1,
+    "max": 999
   },
   {
     "name": "EXP_IN_LEVEL",
     "displayName": "EXP in Level",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000
   },
   {
     "name": "EXP_TOTAL",
     "displayName": "EXP Total",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000
   }
 ]

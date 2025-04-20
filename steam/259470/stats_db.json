@@ -3,28 +3,38 @@
     "name": "latest_level",
     "displayName": "DO NOT DISPLAY",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false
   },
   {
     "name": "stat_pickup_count",
     "displayName": "DO NOT DISPLAY",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 32767
   },
   {
     "name": "stat_death_count",
     "displayName": "DO NOT DISPLAY",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 32767
   },
   {
     "name": "stat_annihilation_count",
     "displayName": "DO NOT DISPLAY",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 32767
   }
 ]

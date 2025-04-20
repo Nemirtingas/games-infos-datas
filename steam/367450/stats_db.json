@@ -3,28 +3,34 @@
     "name": "winSimulationsCount",
     "displayName": "Number of Successful Simulation Runs",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "failSimulationscount",
     "displayName": "Number of Failed Simulation Runs",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "replayShared",
     "displayName": "Number of Replays Shared",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "sandboxLevelShared",
     "displayName": "Number of Sandbox Levels Shared",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   }
 ]

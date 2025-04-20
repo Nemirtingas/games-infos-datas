@@ -3,342 +3,399 @@
     "name": "RECORDS_COUNT_STATISTICS",
     "displayName": "Количество сеансов вождения, для которых включена запись",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "COMPLETE_ROUTES_STATISTICS",
     "displayName": "Количество завершенных маршрутов.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "LOW_TRAFFIC_NO_VIOLATION_STATISTICS",
     "displayName": "Статистика, которая показывает, сколько километров пройдено без нарушений. Статистика должна иметь возможность обновления не только в верх, но и вниз",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "LAST_SESSION_TIME_STATISTICS",
     "displayName": "Статистика, которая считает время последней сессии. Эта статистика должна иметь возможность произвольного обновления",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "DANGEROUS_MANEUVER_EVASION_STATISTICS",
     "displayName": "Необходимо реализовать статистику, которая подсчитывает количество уклонений от \"Опасного выезда на встречку\" (IT_OvertakingTraffic)",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "EMERGENCY_BRAKING_STATISTICS",
     "displayName": "Реализовываем статистику, которая подсчитывает количество уклонений от нештатки \"Экстренная остановка трафика (IT_StopTraffic)",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "NO_PEDESTRIAN_KICKDOWN_STATISTICS",
     "displayName": "Статистика, которая подсчитывает количество успешных завершений нештатки \"Переход пешехода в неположенном месте\" (IT_RunPedestrian)",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "RUSSIA_MILEAGE_STATISTICS",
     "displayName": "Статистика показывает количество километров, которые пользователь проехал по дорогам в профиле \"Россия\"",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "USA_MILEAGE_STATISTICS",
     "displayName": "То же самое, но для профиля \"США\", но не в километрах, а в милях",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "AUSTRALIA_MILEAGE_STATISTICS",
     "displayName": "Километраж, в профиле \"Австралия\"",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "EU_MILEAGE_STATISTICS",
     "displayName": "Километраж в профиле \"Евросоюз\"",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "GERMANY_MILEAGE_STATISTICS",
     "displayName": "Километраж в профиле \"Германия\"",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "playTimes",
     "displayName": "Количество запусков",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "play2Times",
     "displayName": "Тест для проверки инкремента",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 100.0,
+    "min": 1.0
   },
   {
     "name": "CommonGameTime",
     "displayName": "Общее время в игре",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 86000,
+    "min": 1
   },
   {
     "name": "SessionsPerGameAvg",
     "displayName": "Количество запущенных сеансов вождения за период от запуска игры до выхода из нее",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "VRModeGameTime",
     "displayName": "Время в игре в VR",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "StockCarsDrivingTime",
     "displayName": "Общее время вождения на стоковых автомобилях",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "ModCarsDrivingTime",
     "displayName": "Общее время вождения на модовых автомобилях",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "RussiaMileage",
     "displayName": "Наезженный километраж в РФ",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "USAMileage",
     "displayName": "Наезженный километраж в США",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "NewCityMileage",
     "displayName": "Километраж в Новом городе",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "Traffic_0_50_Time",
     "displayName": "Время вождения при плотности трафика 0-50%",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Traffic_50_100_Time",
     "displayName": "Время вождения при плотности трафика 50-100%",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Pedestrians_0_50_Time",
     "displayName": "Время вождения при плотности пешеходного трафика 0-50%",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Pedestrians_50_100_Time",
     "displayName": "Время вождения при плотности пешеходного трафика 50-100%",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "KeyboardDriving_Time",
     "displayName": "Время вождения на клавиатуре",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "WheelDriving_Time",
     "displayName": "Время вождения на «Руле»",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Complete_Normal_Counter",
     "displayName": "Общее количество завершенных упражнений в режиме «Обычный»",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Failed_Normal_Counter",
     "displayName": "Общее количество проваленных упражнений в режиме «Обычный»",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Complete_Advanced_Counter",
     "displayName": "Общее количество завершенных упражнений в режиме «Продвинутый»",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "Failed_Advanced_Counter",
     "displayName": "Общее количество проваленных упражнений в режиме «Продвинутый»",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "MegaTesterStat1",
     "displayName": "Количество запусков тестовой версии",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 1000
   },
   {
     "name": "Test_Statistics_2",
     "displayName": "Статистика для проверки сброса при переименовании.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "OldCityMileage",
     "displayName": "Километраж в Старом городе",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "AustraliaMileage",
     "displayName": "Километраж в Австралии",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "EuropeMileage",
     "displayName": "Наезженный километраж в Евросоюзе",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "GermanMileage",
     "displayName": "Километраж в Германии",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "RussiaMileageInt",
     "displayName": "Наезженный километраж в РФ",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "USAMileageInt",
     "displayName": "Наезженный километраж в США",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "EuropeMileageInt",
     "displayName": "Наезженный километраж в Евросоюзе",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "GermanMileageInt",
     "displayName": "Километраж в Германии",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "AustraliaMileageInt",
     "displayName": "Километраж в Австралии",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "OldCityMileageInt",
     "displayName": "Километраж в Старом городе",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "NewCityMileageInt",
     "displayName": "Километраж в Новом городе",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "EXPERIENCED_DRIVER_STATISTICS",
     "displayName": "Количество успешно завершённых пассажирских перевозок",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "RELIABLE_CARGO_DRIVER_STATISTICS",
     "displayName": "Количество успешно завершённых малогабаритных грузоперевозок",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "CANADA_MILEAGE_STATISTICS",
     "displayName": "Километраж, в профиле \"Канада\"",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "CanadaMileageInt",
     "displayName": "Километраж в Канаде",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true
   }
 ]

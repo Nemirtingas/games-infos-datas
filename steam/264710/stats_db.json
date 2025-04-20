@@ -3,21 +3,31 @@
     "name": "s1_AllTimeDepth",
     "displayName": "Max all time depth",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "s2_HasTank",
     "displayName": "Player has crafted tank",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "s3_FeedbackSubmit",
     "displayName": "Player has submitted feedback",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   }
 ]

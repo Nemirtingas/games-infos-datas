@@ -3,21 +3,26 @@
     "name": "STAT_CRATES",
     "displayName": "Crates Demolished",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "STAT_BLOODLOST",
     "displayName": "Blood Lost",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "AGG_GAMECOMPLETIONS",
     "displayName": "Game Completions",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1
   }
 ]

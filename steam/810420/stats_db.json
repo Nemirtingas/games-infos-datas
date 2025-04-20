@@ -3,27 +3,38 @@
     "name": "gnomescatched",
     "displayName": "Gnomes catched",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 50,
+    "min": 1
   },
   {
     "name": "gnomescatchedglobal",
     "displayName": "All gnomes catched",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 50,
+    "min": 1
   },
   {
     "name": "avgerrorshour",
     "displayName": "Errors/hour",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "errors",
     "displayName": "Errors total",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 1
   }
 ]

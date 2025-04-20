@@ -3,21 +3,33 @@
     "name": "CAMPAIGN_LEVELS_COMPLETED",
     "displayName": "Campaign Levels Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 14,
+    "min": 0,
+    "max": 14
   },
   {
     "name": "SKIRMISH_MATCHES_WON",
     "displayName": "Skirmish Matches Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 10000
   },
   {
     "name": "MULTIPLAYER_MATCHES_WON",
     "displayName": "Multiplayer Matches Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 10000
   }
 ]

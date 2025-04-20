@@ -3,35 +3,53 @@
     "name": "coins",
     "displayName": "Coins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 999999
   },
   {
     "name": "levelCompleted",
     "displayName": "Levels Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "enemiesDefeated",
     "displayName": "Enemies Defeated",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 999999
   },
   {
     "name": "hardmodeCompleted",
     "displayName": "Hardmode Levels Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "timeSurvived",
     "displayName": "Time Survived",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 0,
+    "min": 0,
+    "max": 999999
   }
 ]

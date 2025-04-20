@@ -3,14 +3,22 @@
     "name": "STAT_UNDO",
     "displayName": "Steps undone",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000
   },
   {
     "name": "STAT_STEPS",
     "displayName": "Steps made",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10000
   }
 ]

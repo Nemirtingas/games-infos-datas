@@ -3,14 +3,19 @@
     "name": "MP_MATCHES",
     "displayName": "Multiplayer matches",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "CRATES_BROKEN",
     "displayName": "Crates destroyed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   }
 ]

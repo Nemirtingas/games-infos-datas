@@ -3,21 +3,30 @@
     "name": "BLOCKS_PLACED",
     "displayName": "Community Blocks Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 30,
+    "min": 1
   },
   {
     "name": "CREATURES_KILLED",
     "displayName": "Creatures Killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 20,
+    "min": 1
   },
   {
     "name": "PETS_TAMED",
     "displayName": "Tamed Creatures",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1
   }
 ]

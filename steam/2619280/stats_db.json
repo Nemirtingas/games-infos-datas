@@ -3,21 +3,33 @@
     "name": "kill_kill",
     "displayName": "Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000
   },
   {
     "name": "damage_damage",
     "displayName": "Damage",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1.0,
+    "min": 0.0,
+    "max": 1000000
   },
   {
     "name": "health_health",
     "displayName": "Health",
     "type": "float",
+    "default": 100.0,
     "incrementonly": false,
-    "defaultvalue": 100.0
+    "aggregated": false,
+    "maxchange": 1.0,
+    "min": 0.0,
+    "max": 100
   }
 ]

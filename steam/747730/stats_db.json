@@ -3,35 +3,51 @@
     "name": "kills_kills",
     "displayName": "Zombie kills",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "kills100K_kills100K",
     "displayName": "kill 100 000 zombies",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100000
   },
   {
     "name": "Wave_Wave",
     "displayName": "Wave",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 10000
   },
   {
     "name": "CommunityKills_CommunityKills",
     "displayName": "CommunityKills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 1,
+    "max": 999999999
   },
   {
     "name": "BattleTime_BattleTime",
     "displayName": "BattleTime",
     "type": "int",
+    "default": 3600000,
     "incrementonly": false,
-    "defaultvalue": 3600000
+    "aggregated": false,
+    "maxchange": 99999999,
+    "min": -99999999,
+    "max": 99999999
   }
 ]

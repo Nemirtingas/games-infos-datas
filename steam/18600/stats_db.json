@@ -3,14 +3,19 @@
     "name": "native_ships_killed",
     "displayName": "Native ships destroyed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "multiplayer_games_won",
     "displayName": "Multiplayer games won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   }
 ]

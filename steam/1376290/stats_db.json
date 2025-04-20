@@ -3,14 +3,18 @@
     "name": "PlayTime",
     "displayName": "PlayTime",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "DaysPlayed",
     "displayName": "DaysPlayed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   }
 ]

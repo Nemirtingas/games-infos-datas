@@ -3,14 +3,19 @@
     "name": "Stat_Time",
     "displayName": "Time",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0
   },
   {
     "name": "stat_GamesComplete",
     "displayName": "Global games played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   }
 ]

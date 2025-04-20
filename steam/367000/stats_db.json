@@ -3,28 +3,44 @@
     "name": "bombs_stepped",
     "displayName": "Bombs stepped on",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 999999
   },
   {
     "name": "bombs_stepped_total",
     "displayName": "Bombs stepped on by community",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999999
   },
   {
     "name": "bombs_flagged",
     "displayName": "Bombs flagged",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 20,
+    "min": 0,
+    "max": 999999
   },
   {
     "name": "hearts_collected",
     "displayName": "Hearts collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100000
   }
 ]

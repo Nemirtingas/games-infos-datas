@@ -3,42 +3,53 @@
     "name": "intTestStat",
     "displayName": "test int",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "floatTestStat",
     "displayName": "test float",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false
   },
   {
     "name": "stat_nDemolitionMan",
     "displayName": "Number of \"Demolition Man\" titles",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "stat_nDriftKing",
     "displayName": "Number of \"Drift King\" titles",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "stat_nWallCrash",
     "displayName": "Number of wall crashes",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 500
   },
   {
     "name": "stat_nLastInSummary",
     "displayName": "Number of last positions",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   }
 ]

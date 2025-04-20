@@ -3,14 +3,21 @@
     "name": "kills",
     "displayName": "Total Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "stars_stat",
     "displayName": "Total Stars",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 4,
+    "min": 0,
+    "max": 2100
   }
 ]

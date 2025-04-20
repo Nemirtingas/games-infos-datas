@@ -3,35 +3,54 @@
     "name": "S_BlocksPlaced_S_BlocksPlaced",
     "displayName": "Blocks Placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100000,
+    "min": 1,
+    "max": 1000000000
   },
   {
     "name": "S_BlocksDestroyed_S_BlocksDestroyed",
     "displayName": "Blocks Destroyed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100000,
+    "min": 1,
+    "max": 1000000000
   },
   {
     "name": "S_BlocksCrafted_S_BlocksCrafted",
     "displayName": "Blocks Crafted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100000,
+    "min": 1,
+    "max": 1000000000
   },
   {
     "name": "S_BlocksDestroyed10Min_S_BlocksDestroyed10Min",
     "displayName": "Blocks Destroyed 10 Minutes",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 1000000000
   },
   {
     "name": "S_TotalPlaytimeHours",
     "displayName": "Total Playtime Hours",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true,
+    "maxchange": 100000.0,
+    "min": 0.0,
+    "max": 1000000000
   }
 ]

@@ -3,21 +3,31 @@
     "name": "deaths",
     "displayName": "Deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "killedSnails",
     "displayName": "Snails Killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "collectibles",
     "displayName": "Collectibles Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 35,
+    "min": 1,
+    "max": 35
   }
 ]

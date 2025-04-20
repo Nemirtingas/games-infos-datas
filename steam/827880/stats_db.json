@@ -3,13 +3,18 @@
     "name": "NumLosses",
     "displayName": "Number of Losses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "AverageSpeed",
     "displayName": "Average Speed",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   }
 ]

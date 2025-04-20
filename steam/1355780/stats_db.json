@@ -3,28 +3,44 @@
     "name": "harvested_crop_amount",
     "displayName": "The amount of the harvested crop",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 50,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "used_medkits_amount",
     "displayName": "First aid kits used",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "destroyed_ores_amount",
     "displayName": "Number of destroyed ores",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "trees_felled_amount",
     "displayName": "Number of trees felled",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100
   }
 ]

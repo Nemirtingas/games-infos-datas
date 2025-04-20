@@ -3,35 +3,42 @@
     "name": "FUNDS",
     "displayName": "Funds earned",
     "type": "float",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "HIRED",
     "displayName": "Employees hired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10000
   },
   {
     "name": "FIRED",
     "displayName": "Employees fired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10000
   },
   {
     "name": "SPENDADS",
     "displayName": "Expenditure on advertising",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "SPENDWAGES",
     "displayName": "Expenditure on employee wages",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   }
 ]

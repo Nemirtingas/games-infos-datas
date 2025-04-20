@@ -3,21 +3,29 @@
     "name": "NumGames",
     "displayName": "Num Games",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "stat_3",
     "displayName": "newstat",
     "type": "int",
+    "default": 22,
     "incrementonly": false,
-    "defaultvalue": 22
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 22,
+    "max": 150
   },
   {
     "name": "bossdefeated",
     "displayName": "bossdefeat",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   }
 ]

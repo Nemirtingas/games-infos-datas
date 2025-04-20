@@ -3,77 +3,110 @@
     "name": "secondsPlayed",
     "displayName": "Seconds played",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 30.0,
+    "min": 0.0
   },
   {
     "name": "distanceWalked",
     "displayName": "Distance walked",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 500.0,
+    "min": 0.0
   },
   {
     "name": "minionsKilled",
     "displayName": "Minions killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0
   },
   {
     "name": "captainsKilled",
     "displayName": "Captains killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0
   },
   {
     "name": "bossesKilled",
     "displayName": "Bosses killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0
   },
   {
     "name": "pvpKills",
     "displayName": "PvP Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0
   },
   {
     "name": "deathsByHealth",
     "displayName": "Deaths by combat",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0
   },
   {
     "name": "deathsByHunger",
     "displayName": "Deaths by starvation",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0
   },
   {
     "name": "itemsCrafted",
     "displayName": "Items crafted",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0
   },
   {
     "name": "foodEaten",
     "displayName": "Food eaten",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0
   },
   {
     "name": "flaresUsed",
     "displayName": "Flares used",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0
   }
 ]

@@ -3,28 +3,43 @@
     "name": "NINJAS_ATTACKED",
     "displayName": "Ninjas attacked",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": 1000000000
   },
   {
     "name": "PIZZAS_DELIVERED",
     "displayName": "Global pizzas delivered",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 2000000000
   },
   {
     "name": "GAME_COMPLETION",
     "displayName": "Game Completion",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "PIZZAS_DELIVERED_IND",
     "displayName": "Pizzas delivered",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000000000
   }
 ]

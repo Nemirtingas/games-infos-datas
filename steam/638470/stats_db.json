@@ -3,56 +3,79 @@
     "name": "numPlayThroughs",
     "displayName": "Levels completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "numEggs",
     "displayName": "Golden eggs",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0
   },
   {
     "name": "numCoins",
     "displayName": "Golden nuggets",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0
   },
   {
     "name": "numStars",
     "displayName": "Star balloons",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "max": 200
   },
   {
     "name": "numSecretsFound",
     "displayName": "Secrets found",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 50
   },
   {
     "name": "numEnemyKills",
     "displayName": "Enemies killed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 20,
+    "min": 0
   },
   {
     "name": "totalDuration",
     "displayName": "Total playtime",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": true
   },
   {
     "name": "pukeCount",
     "displayName": "Number of pukes",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   }
 ]

@@ -3,14 +3,22 @@
     "name": "graveyards",
     "displayName": "Graveyards Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "zombies",
     "displayName": "Zombies Destroyed",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 200,
+    "min": 0,
+    "max": 999999
   }
 ]

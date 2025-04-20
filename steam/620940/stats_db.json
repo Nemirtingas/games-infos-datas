@@ -3,21 +3,26 @@
     "name": "stat_stars",
     "displayName": "Stars collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 3
   },
   {
     "name": "stat_3stars",
     "displayName": "3 Star Levels",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "stat_hoursplayed",
     "displayName": "Hours Played",
     "type": "float",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false
   }
 ]

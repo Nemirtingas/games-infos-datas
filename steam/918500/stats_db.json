@@ -3,49 +3,76 @@
     "name": "Kills",
     "displayName": "Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "VFood",
     "displayName": "Grass Eaten",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": 999999
   },
   {
     "name": "MFood",
     "displayName": "Meat Eaten",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": 999999
   },
   {
     "name": "HighScore",
     "displayName": "High Score",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1000000,
+    "min": 0,
+    "max": 9999999999
   },
   {
     "name": "Coin",
     "displayName": "Coins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1000000,
+    "min": 0,
+    "max": 9999999999
   },
   {
     "name": "AverageSpeed",
     "displayName": "AverageSpeed",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 9999999.0,
+    "min": 0.0
   },
   {
     "name": "Emotes",
     "displayName": "Emotes",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 9999
   }
 ]

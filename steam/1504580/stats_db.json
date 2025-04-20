@@ -3,258 +3,403 @@
     "name": "game_count",
     "displayName": "Game played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "game_lose",
     "displayName": "Total lose",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "game_win",
     "displayName": "Total wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "dragon_sur_point",
     "displayName": "Dragon slayer point",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "dragon_dra_point",
     "displayName": "Dragon point",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "rainbow_point",
     "displayName": "Rainbow point",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "deathm_point",
     "displayName": "Deathmaze point",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "foot_count",
     "displayName": "Jump count",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 3,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "game_kill",
     "displayName": "Total kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "game_death",
     "displayName": "Total deaths",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "dragon_dra_count",
     "displayName": "Played as dragon",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "dragon_sur_count",
     "displayName": "Played as suvivor",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "dragon_play",
     "displayName": "Total lair of dragon played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "rainbow_play",
     "displayName": "Total rainbow tower played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "deathmaze_play",
     "displayName": "Total deathmaze played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "game_item_pick",
     "displayName": "Total item picked",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "game_avg_player",
     "displayName": "Average player play with",
     "type": "avgrate",
-    "incrementonly": false
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "game_item_trap",
     "displayName": "Total trap placed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "game_item_consume",
     "displayName": "Total consumption",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "endless_play",
     "displayName": "Total endless maze played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "max": 99999
   },
   {
     "name": "game_item_throw",
     "displayName": "Total item thrown",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "deathmatch_play",
     "displayName": "Total deathmatch played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "teamdeath_play",
     "displayName": "Total teamdeath played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "stat_xp",
     "displayName": "EXP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 999,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "stat_gel",
     "displayName": "Gel",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 999,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "stat_coin",
     "displayName": "Coin",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 999,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "stat_point",
     "displayName": "Stat point",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99
   },
   {
     "name": "stat_HP_level",
     "displayName": "HP_level",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99
   },
   {
     "name": "stat_STA_level",
     "displayName": "STA_level",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99
   },
   {
     "name": "stat_SPD_level",
     "displayName": "SPD_level",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99
   },
   {
     "name": "stat_RES_level",
     "displayName": "RES_level",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99
   },
   {
     "name": "gatekeeper_play",
     "displayName": "Total gatekeeper played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9999
   },
   {
     "name": "maze_play",
     "displayName": "Total maze played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9999
   },
   {
     "name": "infect_play",
     "displayName": "Total infection played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9999
   },
   {
     "name": "zombie_play",
     "displayName": "Total zombie played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9999
   },
   {
     "name": "keepstand_play",
     "displayName": "Total keepstand played",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9999
   },
   {
     "name": "party_win",
     "displayName": "Total party wins",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9999
   }
 ]

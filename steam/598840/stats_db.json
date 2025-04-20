@@ -3,35 +3,42 @@
     "name": "high_score",
     "displayName": "Highest Score (Arcade Mode)",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "high_combo",
     "displayName": "Highest Combo (Arcade Mode)",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "total_kills",
     "displayName": "Total Kills (Arcade Mode)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "quickest_completion_time",
     "displayName": "Quickest Completion Time (Arcade Mode)",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "total_completions",
     "displayName": "Total Completions (Arcade Mode)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1
   }
 ]

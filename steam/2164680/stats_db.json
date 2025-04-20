@@ -3,35 +3,44 @@
     "name": "GameLevel",
     "displayName": "Level",
     "type": "int",
+    "default": 1,
     "incrementonly": true,
-    "defaultvalue": 1
+    "aggregated": false,
+    "maxchange": 3
   },
   {
     "name": "LevelXP",
     "displayName": "XP",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 5000
   },
   {
     "name": "LobbyPos",
     "displayName": "",
     "type": "int",
+    "default": 1,
     "incrementonly": false,
-    "defaultvalue": 1
+    "aggregated": false
   },
   {
     "name": "GamesPlayed",
     "displayName": "Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "GamesWon",
     "displayName": "Won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1
   }
 ]

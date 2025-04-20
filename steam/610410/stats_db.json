@@ -3,49 +3,70 @@
     "name": "CompletedTraining",
     "displayName": "Completed a Training Session",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "DestroyedEnemies",
     "displayName": "Destroyed Enemies",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 500,
+    "min": 1
   },
   {
     "name": "DestroyedBosses",
     "displayName": "Destroyed Bosses",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1
   },
   {
     "name": "CrushedEnemies",
     "displayName": "Crushed Enemies",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 500,
+    "min": 1
   },
   {
     "name": "Healing",
     "displayName": "Healing Done",
     "type": "float",
+    "default": 0.0,
     "incrementonly": true,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "maxchange": 1.0,
+    "min": 0.0
   },
   {
     "name": "SuperCharges",
     "displayName": "Super Charges",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 1
   },
   {
     "name": "CompleteSuperCharges",
     "displayName": "Complete Super Charges",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1
   }
 ]

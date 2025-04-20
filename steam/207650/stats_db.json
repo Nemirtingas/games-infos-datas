@@ -3,28 +3,40 @@
     "name": "CompletedAreaOneSPStat",
     "displayName": "Area One Completed Stat (SP)",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   },
   {
     "name": "TimePlayedStat",
     "displayName": "Time Played",
     "type": "float",
+    "default": 0.0,
     "incrementonly": false,
-    "defaultvalue": 0.0
+    "aggregated": false,
+    "min": 0.0,
+    "max": 21900
   },
   {
     "name": "CompletedAreaOneMPStat",
     "displayName": "Area One Completed Stat (MP)",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "CompletedAreaOneStat",
     "displayName": "For Backward Compatibility - Don't Use",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 4
   }
 ]

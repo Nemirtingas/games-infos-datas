@@ -3,532 +3,712 @@
     "name": "gXp",
     "displayName": "General Xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "gTeamkills",
     "displayName": "Teamkills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 16,
+    "min": 0
   },
   {
     "name": "aFluffyHuntKills",
     "displayName": "Fluffy Hunt Kills",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 30
   },
   {
     "name": "gSurvivals",
     "displayName": "Survivals",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "gVictory",
     "displayName": "Victories",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "aHighThreatKills",
     "displayName": "High Threat kills",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "aHellspawnShivaKills",
     "displayName": "Hellspawn Shiva kills",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "aPlayersDiedInGame",
     "displayName": "Players lost in game as a leader",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 8
   },
   {
     "name": "aObjectivesCompleted",
     "displayName": "Objectives Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "assaultXp",
     "displayName": "Assault xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "medicXp",
     "displayName": "Medic xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "demolitionXp",
     "displayName": "Demolition xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "reconXp",
     "displayName": "Recon xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "heavyXp",
     "displayName": "Heavy support  xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "hellfireXp",
     "displayName": "Hellfire xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "terminatorXp",
     "displayName": "Terminator xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "marksmanXp",
     "displayName": "Marksman xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "tier",
     "displayName": "Tier",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "aWavesSoloNormal",
     "displayName": "Waves completed solo on normal",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "aWavesTwoEasy",
     "displayName": "Waves completed with another player on easy",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "aWavesTwoNormal",
     "displayName": "Waves completed with another player on normal",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "aWavesTwoHard",
     "displayName": "Waves completed with another player on hard",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "aWavesFourEasy",
     "displayName": "Waves completed with four players on easy",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "aWavesFourHard",
     "displayName": "Waves completed with four players on hard",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "aWavesFourNightmare",
     "displayName": "Waves completed with four players on nightmare",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "aWavesEightEasy",
     "displayName": "Waves completed with eight players on easy",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "aWavesEightNormal",
     "displayName": "Waves completed with eight players on normal",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "aWavesEightHard",
     "displayName": "Waves completed with eight players on hard",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "aWavesEightNightmare",
     "displayName": "Waves completed with eight players on nightmare",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "aTotalGames",
     "displayName": "Total games",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "aWavesTwoNightmare",
     "displayName": "Waves completed with another player on nightmare",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "aPerfectEvacs",
     "displayName": "Perfect evacs",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "aSuccessfulEvacs",
     "displayName": "Successful evacs",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "aPoorEvacs",
     "displayName": "Poor evacs",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "aBulletsSpent",
     "displayName": "Bullets spent",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "aHitsTaken",
     "displayName": "Hits taken",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "TXp",
     "displayName": "Transfered Xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TassaultXp",
     "displayName": "Transfered assault Xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TmedicXp",
     "displayName": "Transfered medic Xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TdemolitionXp",
     "displayName": "Transfered demolition Xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TreconXp",
     "displayName": "Transfered recon Xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TheavyXp",
     "displayName": "Transfered \tHeavy support Xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "ThellfireXp",
     "displayName": "Transfered hellfireXp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TterminatorXp",
     "displayName": "Transfered terminatorXp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "TmarksmanXp",
     "displayName": "Transfered marksmanXp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "mercsrecruit",
     "displayName": "M.E.R.C.S.",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 4
   },
   {
     "name": "combatreadiness",
     "displayName": "Combat readiness",
     "type": "int",
+    "default": 80,
     "incrementonly": false,
-    "defaultvalue": 80
+    "aggregated": false,
+    "min": 80,
+    "max": 120
   },
   {
     "name": "combatreadinesstime",
     "displayName": "Combat Readiness time",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot1Xp",
     "displayName": "Bot1 Xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot1AssaultXp",
     "displayName": "Bot1 assault XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot1MedicXp",
     "displayName": "Bot1 medic XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot1DemolitionXp",
     "displayName": "Bot1 demolition XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot1ReconXp",
     "displayName": "Bot1 recon XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot1HeavyXp",
     "displayName": "Bot1 heavy XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot1HellfireXp",
     "displayName": "Bot1 hellfire XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot1TerminatorXp",
     "displayName": "Bot1 terminator XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot1MarksmanXp",
     "displayName": "Bot1 marksman XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot2Xp",
     "displayName": "Bot2 Xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot2AssaultXp",
     "displayName": "Bot2 assault XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot2MedicXp",
     "displayName": "Bot2 medic XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot2DemolitionXp",
     "displayName": "Bot2 demolition XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot2ReconXp",
     "displayName": "Bot2 recon XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot2HeavyXp",
     "displayName": "Bot2 heavy XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot2HellfireXp",
     "displayName": "Bot2 hellfire XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot2TerminatorXp",
     "displayName": "Bot2 terminator XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot2MarksmanXp",
     "displayName": "Bot2 marksman XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot3Xp",
     "displayName": "Bot3 Xp",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot3AssaultXp",
     "displayName": "Bot3 assault XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot3MedicXp",
     "displayName": "Bot3 medic XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot3DemolitionXp",
     "displayName": "Bot3 demolition XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot3ReconXp",
     "displayName": "Bot3 recon XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot3HeavyXp",
     "displayName": "Bot3 heavy XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot3HellfireXp",
     "displayName": "Bot3 hellfire XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot3TerminatorXp",
     "displayName": "Bot3 terminator XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "Bot3MarksmanXp",
     "displayName": "Bot3 marksman XP",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0
   },
   {
     "name": "prestigeRank",
     "displayName": "Prestige Rank",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "max": 5
   }
 ]

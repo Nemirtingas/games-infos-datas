@@ -3,14 +3,22 @@
     "name": "stDmg",
     "displayName": "dmg",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 10000
   },
   {
     "name": "stKills",
     "displayName": "Kill",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 100000,
+    "min": 0,
+    "max": 100000
   }
 ]

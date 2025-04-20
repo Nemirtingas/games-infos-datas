@@ -3,63 +3,82 @@
     "name": "GamesStarted",
     "displayName": "Games Started",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "RetroModePlayed",
     "displayName": "Retro Mode Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "GamesCompleted",
     "displayName": "Games Completed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "BulletsFired",
     "displayName": "Bullets Fired",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 9999999999
   },
   {
     "name": "FightersDestroyed",
     "displayName": "Fighters Destroyed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false
   },
   {
     "name": "StarbasesDestroyed",
     "displayName": "Starbases Destroyed",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 9999999
   },
   {
     "name": "PowerupsCollected",
     "displayName": "Unique Powerups Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 99
   },
   {
     "name": "NukesDeployed",
     "displayName": "Nukes or Novas Deployed",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 99999
   },
   {
     "name": "CompletedLevelsSingleGame",
     "displayName": "Levels Completed in One Game",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 999
   }
 ]

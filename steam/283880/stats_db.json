@@ -3,70 +3,104 @@
     "name": "scoreWar",
     "displayName": "Warrior Score",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 500
   },
   {
     "name": "scoreSor",
     "displayName": "Sorceress Score",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 500
   },
   {
     "name": "scoreRog",
     "displayName": "Rogue Score",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 500
   },
   {
     "name": "battles",
     "displayName": "Battles Won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 999
   },
   {
     "name": "gold",
     "displayName": "Gold Collected",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 15,
+    "min": 0,
+    "max": 9999
   },
   {
     "name": "days",
     "displayName": "Days Played",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 999
   },
   {
     "name": "endCount",
     "displayName": "Games Won",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99
   },
   {
     "name": "endTime",
     "displayName": "Fastest Completion",
     "type": "int",
+    "default": 999,
     "incrementonly": false,
-    "defaultvalue": 999
+    "aggregated": false,
+    "min": 0,
+    "max": 999
   },
   {
     "name": "endHonor",
     "displayName": "Highest Honor",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "min": 0,
+    "max": 100
   },
   {
     "name": "bonesTime",
     "displayName": "Best Bones Time",
     "type": "int",
+    "default": 999,
     "incrementonly": false,
-    "defaultvalue": 999
+    "aggregated": false,
+    "min": 0,
+    "max": 999
   }
 ]

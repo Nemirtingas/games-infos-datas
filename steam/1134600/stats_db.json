@@ -3,14 +3,19 @@
     "name": "score",
     "displayName": "score",
     "type": "int",
+    "default": 0,
     "incrementonly": false,
-    "defaultvalue": 0
+    "aggregated": true
   },
   {
     "name": "achievementsNum",
     "displayName": "achievementsNum",
     "type": "int",
+    "default": 0,
     "incrementonly": true,
-    "defaultvalue": 0
+    "aggregated": false,
+    "maxchange": 14,
+    "min": 0,
+    "max": 14
   }
 ]
