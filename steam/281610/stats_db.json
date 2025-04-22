@@ -15,7 +15,9 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "windowsize": 200.0
   },
   {
     "name": "STAT_WINS",
@@ -33,7 +35,10 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 1,
+    "windowsize": 200.0
   },
   {
     "name": "STAT_ELO",

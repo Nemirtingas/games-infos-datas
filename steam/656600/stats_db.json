@@ -669,7 +669,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 50.0
   },
   {
     "name": "AverageCoins",
@@ -677,15 +678,17 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 50.0
   },
   {
     "name": "AverageAccuracy",
     "displayName": "",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 50.0
   },
   {
     "name": "arrowPlays",

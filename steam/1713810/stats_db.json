@@ -58,17 +58,23 @@
     "name": "AvgMetalPerHour",
     "displayName": "Average metal per hour",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 1000,
+    "windowsize": 60.0
   },
   {
     "name": "AvgLumenPerHour",
     "displayName": "Average lumen per hour",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 1000,
+    "windowsize": 60.0
   },
   {
     "name": "FabricatedItems",

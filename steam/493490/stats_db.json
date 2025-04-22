@@ -129,9 +129,10 @@
     "name": "SessionsPerGameAvg",
     "displayName": "Количество запущенных сеансов вождения за период от запуска игры до выхода из нее",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 100.0
   },
   {
     "name": "VRModeGameTime",

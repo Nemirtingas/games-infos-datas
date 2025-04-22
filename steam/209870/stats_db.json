@@ -363,9 +363,12 @@
     "name": "teamrank",
     "displayName": "Average Rank",
     "type": "avgrate",
-    "default": 0,
+    "default": 2.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1.0,
+    "max": 2,
+    "windowsize": 10.0
   },
   {
     "name": "slotoneuses",
@@ -531,9 +534,12 @@
     "name": "matchrank",
     "displayName": "Average Match Placement",
     "type": "avgrate",
-    "default": 0,
+    "default": 16.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1.0,
+    "max": 16,
+    "windowsize": 10.0
   },
   {
     "name": "attackkills",

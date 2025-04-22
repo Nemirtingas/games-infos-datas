@@ -62,7 +62,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 36.0
   },
   {
     "name": "Stats.Golf.NumOOB",
@@ -2984,17 +2985,19 @@
     "name": "Stats.Plaza.Trivia.AverageAnswerTime",
     "displayName": "",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "Stats.Plaza.Trivia.AverageScore",
     "displayName": "",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "Stats.Condo.Hearts",
@@ -3040,17 +3043,19 @@
     "name": "Stats.Plaza.LaserTag.AverageScore",
     "displayName": "",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "Stats.Plaza.Bowling.AverageScore",
     "displayName": "",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "Stats.GameW.Accelerate.Playtime",

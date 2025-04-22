@@ -66,9 +66,11 @@
     "name": "kd_ratio_avg",
     "displayName": "Recent K/D Ratio",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "windowsize": 10.0
   },
   {
     "name": "total_deaths",

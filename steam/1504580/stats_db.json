@@ -179,9 +179,12 @@
     "name": "game_avg_player",
     "displayName": "Average player play with",
     "type": "avgrate",
-    "default": 0,
+    "default": 1.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1.0,
+    "max": 10,
+    "windowsize": 10.0
   },
   {
     "name": "game_item_trap",
