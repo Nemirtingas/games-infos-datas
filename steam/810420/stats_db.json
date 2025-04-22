@@ -23,9 +23,11 @@
     "name": "avgerrorshour",
     "displayName": "Errors/hour",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1.0,
+    "windowsize": 2.0
   },
   {
     "name": "errors",

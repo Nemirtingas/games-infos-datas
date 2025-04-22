@@ -63,25 +63,31 @@
     "name": "WINRATE_FFA",
     "displayName": "Win rate FFA",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 1,
+    "windowsize": 10.0
   },
   {
     "name": "WINRATE_1V1",
     "displayName": "Win Rate 1v1",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 1,
+    "windowsize": 10.0
   },
   {
     "name": "WINRATE_TEAM",
     "displayName": "Win Rate Team",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 1,
+    "windowsize": 10.0
   },
   {
     "name": "BALLOON_POPS_ENEMY",
@@ -125,7 +131,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 50.0
   },
   {
     "name": "POPS_INFLICTED_PER_ENEMY_TEAM",
@@ -133,7 +140,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 50.0
   },
   {
     "name": "DAMAGE_INFLICTED_PER_ENEMY_FFA",
@@ -141,7 +149,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 50.0
   },
   {
     "name": "DAMAGE_INFLICTED_PER_ENEMY_TEAM",
@@ -149,7 +158,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 50.0
   },
   {
     "name": "BASKET_DISTANCE_TRAVELLED",
@@ -173,7 +183,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "MAP_PLAYED_ICECAVERN",
@@ -181,7 +192,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "MAP_PLAYED_LAVAPIT",
@@ -189,7 +201,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "MAX_BALLOONS_POPPED_FFA",
@@ -213,6 +226,7 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   }
 ]

@@ -1037,9 +1037,13 @@
     "name": "Stat.MinionsKilledHour.Avg",
     "displayName": "avg Kill / hr",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 100.0,
+    "min": 0.0,
+    "max": 1000,
+    "windowsize": 10.0
   },
   {
     "name": "TD2.COUNT.ACH_PUZZLES",

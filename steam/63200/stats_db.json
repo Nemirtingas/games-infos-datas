@@ -2401,65 +2401,73 @@
     "name": "KillsPerGame10",
     "displayName": "K/G- Avg Over Last 10 Games",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "WinsPerGame10",
     "displayName": "Win Ratio - Last 10 Games",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "EarningsPerGame10",
     "displayName": "E/G - Avg Over Last 10 Games",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "KillPerMin",
     "displayName": "KPM - Avg Over Last 180 min",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 180.0
   },
   {
     "name": "DeathPerMin",
     "displayName": "DPM - Avg Over Last 180 min",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 180.0
   },
   {
     "name": "AssistsPerMin",
     "displayName": "APM - Avg Over Last 180 min",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 180.0
   },
   {
     "name": "BotKillPerMin",
     "displayName": "BKPM - Avg Over Last 180 min",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 180.0
   },
   {
     "name": "MoneyPerMin",
     "displayName": "MPM - Avg Over Last 180 min",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 180.0
   },
   {
     "name": "TestStat",
@@ -2473,17 +2481,23 @@
     "name": "Server_FinishPos",
     "displayName": "Avg Finish Position",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.4902,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 1.0,
+    "windowsize": 10.0
   },
   {
     "name": "FinishPos",
     "displayName": "Avg Finish Position",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.4902,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 1.0,
+    "windowsize": 10.0
   },
   {
     "name": "Honors_Bayheimer",

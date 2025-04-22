@@ -3,9 +3,12 @@
     "name": "ST_AVG_KILLS",
     "displayName": "Average Kills",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 999999,
+    "windowsize": 5.0
   },
   {
     "name": "ST_TOTAL_POINTS",
@@ -41,9 +44,12 @@
     "name": "ST_AVERAGE_POINTS",
     "displayName": "Average Points",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 999999,
+    "windowsize": 5.0
   },
   {
     "name": "ST_ROUNDS_PLAYED",
@@ -109,9 +115,12 @@
     "name": "ST_AVG_LEVEL",
     "displayName": "Levels Completed",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 999999,
+    "windowsize": 1.0
   },
   {
     "name": "ST_CONDUCTORS_KILLED",

@@ -14,9 +14,12 @@
     "name": "winavg",
     "displayName": "Win  Avg",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 99999,
+    "windowsize": 5.0
   },
   {
     "name": "MatchesPlayed",
@@ -55,9 +58,12 @@
     "name": "Deathspergame",
     "displayName": "Avg Deaths Per Game",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 99999,
+    "windowsize": 10.0
   },
   {
     "name": "gamesplayed",

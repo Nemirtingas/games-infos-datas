@@ -61,9 +61,11 @@
     "name": "DISCONNECTS",
     "displayName": "DISCONNECTS",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1.0,
+    "windowsize": 6.0
   },
   {
     "name": "CASUAL_POINTS_V2",

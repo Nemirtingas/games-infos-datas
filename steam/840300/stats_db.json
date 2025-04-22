@@ -24,7 +24,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "Stungate_Low_MaxUracoinReward",
@@ -68,7 +69,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "Stungate_Low_TotalTravelledDistance",
@@ -734,7 +736,9 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 4320,
+    "windowsize": 10.0
   },
   {
     "name": "AvgArmorRegen",
@@ -742,7 +746,9 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 100000,
+    "windowsize": 20.0
   },
   {
     "name": "AvgDamageTaken",
@@ -750,7 +756,9 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 100000,
+    "windowsize": 20.0
   },
   {
     "name": "Stungate_Low_AvgTravelledDistance",
@@ -758,7 +766,9 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 1000000,
+    "windowsize": 20.0
   },
   {
     "name": "Stungate_Low_AvgPlayTime",
@@ -766,7 +776,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "Stungate_Low_AvgSpeed",
@@ -774,7 +785,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "Stungate_Low_AvgStungateCount",
@@ -782,7 +794,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "Stungate_Low_AvgUracoinBonus",
@@ -790,7 +803,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "Excellence_STG_L_NAT",
@@ -933,7 +947,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "HourlyAvgUracoinWon_STG_M_NAT",
@@ -941,7 +956,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "HourlyAvgUracoinWon_STG_M_INT",
@@ -949,7 +965,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "HourlyAvgUracoinWon_STG_H_INT",
@@ -957,7 +974,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "HourlyAvgUracoinWon_STG_H_SUP",
@@ -965,7 +983,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "MaxUracoinReward_STG_L_NAT",
@@ -1108,7 +1127,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgUracoinBonus_STG_M_NAT",
@@ -1116,7 +1136,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgUracoinBonus_STG_M_INT",
@@ -1124,7 +1145,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgUracoinBonus_STG_H_INT",
@@ -1132,7 +1154,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgUracoinBonus_STG_H_SUP",
@@ -1140,7 +1163,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "HourlyAvgXP",
@@ -1148,7 +1172,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "TotalTravelledDistance_STG_L_NAT",
@@ -1246,7 +1271,9 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 1000000,
+    "windowsize": 20.0
   },
   {
     "name": "AvgTravelledDistance_STG_M_NAT",
@@ -1254,7 +1281,9 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 1000000,
+    "windowsize": 20.0
   },
   {
     "name": "AvgTravelledDistance_STG_M_INT",
@@ -1262,7 +1291,9 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 1000000,
+    "windowsize": 20.0
   },
   {
     "name": "AvgTravelledDistance_STG_H_INT",
@@ -1270,7 +1301,9 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 1000000,
+    "windowsize": 20.0
   },
   {
     "name": "AvgTravelledDistance_STG_H_SUP",
@@ -1278,7 +1311,9 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 1000000,
+    "windowsize": 20.0
   },
   {
     "name": "TotalPlayHour_STG_L_NAT",
@@ -1376,7 +1411,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgPlayTime_STG_M_NAT",
@@ -1384,7 +1420,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgPlayTime_STG_M_INT",
@@ -1392,7 +1429,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgPlayTime_STG_H_INT",
@@ -1400,7 +1438,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgPlayTime_STG_H_SUP",
@@ -1408,7 +1447,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgSpeed_STG_L_NAT",
@@ -1416,7 +1456,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgSpeed_STG_M_NAT",
@@ -1424,7 +1465,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgSpeed_STG_M_INT",
@@ -1432,7 +1474,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgSpeed_STG_H_INT",
@@ -1440,7 +1483,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgSpeed_STG_H_SUP",
@@ -1448,7 +1492,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "MaxIntactDistance_STG_L_NAT",
@@ -1591,7 +1636,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgKeypointCount_STG_M_NAT",
@@ -1599,7 +1645,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgKeypointCount_STG_M_INT",
@@ -1607,7 +1654,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgKeypointCount_STG_H_INT",
@@ -1615,7 +1663,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "AvgKeypointCount_STG_H_SUP",
@@ -1623,7 +1672,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "TotalStageCount_STG_L_NAT",

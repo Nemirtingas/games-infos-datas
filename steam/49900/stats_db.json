@@ -884,9 +884,11 @@
     "name": "AvgBanked",
     "displayName": "Average Points Per Meltdown",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "windowsize": 50.0
   },
   {
     "name": "TotalBanked",
@@ -910,9 +912,11 @@
     "name": "AvgAbsorbed",
     "displayName": "Average Points Absorbed Per Kill",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "windowsize": 100.0
   },
   {
     "name": "TotalLost",
@@ -927,8 +931,10 @@
     "name": "AvgLost",
     "displayName": "Average Points Lost Per Death",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "windowsize": 100.0
   }
 ]

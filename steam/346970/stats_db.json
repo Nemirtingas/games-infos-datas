@@ -200,9 +200,12 @@
     "name": "recentRoundPlacementAverage",
     "displayName": "The 'window' here is rounds.  It will be used to calculate average from the last 10 rounds.",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 10,
+    "windowsize": 10.0
   },
   {
     "name": "timesSubverted",
@@ -218,9 +221,10 @@
     "name": "recentScoreAverage",
     "displayName": "Recent game score average",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "totalScoreEarned",
@@ -235,9 +239,12 @@
     "name": "averageBunnyDeathsDuringRobo",
     "displayName": "average bunnies killed during robo reigns",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 100000,
+    "windowsize": 15.0
   },
   {
     "name": "bunnyTime",
@@ -301,17 +308,23 @@
     "name": "percentOfBunnyTimeCollared",
     "displayName": "recent percent this player wears a collar as bunny",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 1,
+    "windowsize": 5.0
   },
   {
     "name": "percentOfBunnyTimeDropship",
     "displayName": "recent percent this player spent in the dropship as a bunny",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 1,
+    "windowsize": 5.0
   },
   {
     "name": "skillRating",

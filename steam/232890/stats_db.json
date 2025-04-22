@@ -140,9 +140,12 @@
     "name": "STAT_MP_COMPLETE_PCT",
     "displayName": "Multiplayer Completion",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 100,
+    "windowsize": 20.0
   },
   {
     "name": "STAT_LORDS_KILLED",

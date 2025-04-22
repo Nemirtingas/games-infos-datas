@@ -365,15 +365,21 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 100000,
+    "windowsize": 10.0
   },
   {
     "name": "coins_lost_per_hour",
     "displayName": "average coins lost per hour",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 100000,
+    "windowsize": 10.0
   },
   {
     "name": "deaths_per_hour",
@@ -381,7 +387,10 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 10000,
+    "windowsize": 10.0
   },
   {
     "name": "coins_spent",

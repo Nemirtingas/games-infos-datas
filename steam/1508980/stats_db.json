@@ -76,16 +76,20 @@
     "name": "AVG_SCORE",
     "displayName": "Average Score",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 5.0
   },
   {
     "name": "AVG_SURVIVAL",
     "displayName": "Survival Rate",
     "type": "avgrate",
-    "default": 0,
+    "default": 100.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 100,
+    "windowsize": 5.0
   }
 ]

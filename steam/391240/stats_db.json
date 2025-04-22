@@ -122,8 +122,10 @@
     "name": "average_time_per_turn",
     "displayName": "Average Time Per Turn",
     "type": "avgrate",
-    "default": 0,
+    "default": 60.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 300,
+    "windowsize": 10.0
   }
 ]

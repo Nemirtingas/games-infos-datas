@@ -35,9 +35,10 @@
     "name": "AveragePlayerKillsPer30Minutes",
     "displayName": "Average Player Kills/Minute",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 1800.0
   },
   {
     "name": "TotalPlayerKilled",
@@ -107,9 +108,10 @@
     "name": "MassDestroyedAverage",
     "displayName": "Average Mass Destroyed (kg)/Minute",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 60.0
   },
   {
     "name": "AsteroidsDestroyed",
@@ -211,9 +213,10 @@
     "name": "MissilesFiredAverage",
     "displayName": "Average Missiles Fired/Minute",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 60.0
   },
   {
     "name": "MaxPrimaryWeapons",

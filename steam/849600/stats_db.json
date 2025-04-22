@@ -21,17 +21,20 @@
     "name": "m_AverageGameTime",
     "displayName": "Average Game Time",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 10000,
+    "windowsize": 10.0
   },
   {
     "name": "m_AverageEnemiesKilled",
     "displayName": "Average Enemies Killed",
     "type": "avgrate",
-    "default": 0,
+    "default": 0.0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "m_FavoriteHero",
@@ -79,7 +82,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 10.0
   },
   {
     "name": "Ach_Orc_1",

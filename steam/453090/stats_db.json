@@ -71,7 +71,8 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "windowsize": 36000.0
   },
   {
     "name": "BUILT_FLATRIDES",
@@ -337,7 +338,9 @@
     "type": "avgrate",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "max": 50000,
+    "windowsize": 36000.0
   },
   {
     "name": "TOTAL_SHOPKEEPERS",
