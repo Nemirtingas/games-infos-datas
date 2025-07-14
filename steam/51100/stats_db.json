@@ -118,11 +118,12 @@
   {
     "name": "stat_RollDistance",
     "displayName": "Distance Rolled",
-    "type": "float",
-    "default": 0.0,
+    "type": "int",
+    "default": 0,
     "incrementonly": false,
     "aggregated": false,
-    "min": 0.0
+    "min": 0,
+    "max": 196850
   },
   {
     "name": "stat_TrolleyKicked",
@@ -186,15 +187,6 @@
     "incrementonly": false,
     "aggregated": false,
     "min": 0
-  },
-  {
-    "name": "stat_DrivingDistance",
-    "displayName": "Driving Distance",
-    "type": "float",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0.0
   },
   {
     "name": "stat_weapon_shotsfired_rpg7",
@@ -1208,12 +1200,12 @@
     "aggregated": false
   },
   {
-    "name": "stat_GamepointsSpent",
-    "displayName": "Game points Spent",
+    "name": "stat_ReqpointsSpent",
+    "displayName": "Requisition Points spent",
     "type": "int",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": true
   },
   {
     "name": "stat_EarnedExperience",
@@ -1339,15 +1331,6 @@
     "incrementonly": false,
     "aggregated": false,
     "maxchange": 1,
-    "min": 0
-  },
-  {
-    "name": "stat_currentversion",
-    "displayName": "CURRENT VERSION - FOR RESETTING CERTAIN STATS",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
     "min": 0
   },
   {
@@ -1618,15 +1601,6 @@
     "min": 0
   },
   {
-    "name": "stat_client_currentversion",
-    "displayName": "",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0
-  },
-  {
     "name": "stat_tm_matchesWon",
     "displayName": "",
     "type": "int",
@@ -1857,5 +1831,15 @@
     "incrementonly": false,
     "aggregated": false,
     "min": 0
+  },
+  {
+    "name": "stat_DrivingDistance",
+    "displayName": "Driving Distance",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 399999999
   }
 ]
