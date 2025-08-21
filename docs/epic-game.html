@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Details</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function getParam(name) {
+      return new URLSearchParams(window.location.search).get(name);
+    }
+
+    async function enableAchievementsDownload(url, filename = "achievements_db.json") {
+      try {
+        // Check if the file exists first
+        const resHead = await fetch(url, { method: "HEAD" });
+        if (!resHead.ok) return;
+    
+        const link = document.getElementById("achievements-link");
+        link.classList.remove("hidden");
+    
+        let cachedUrl = null;
+    
+        link.addEventListener("click", async (e) => {
+          e.preventDefault();
+    
+          try {
+            if (!cachedUrl) {
+              // First click → fetch + cache
+              const res = await fetch(url);
+              if (!res.ok) return;
+              const blob = await res.blob();
+              cachedUrl = URL.createObjectURL(blob);
+            }
+    
+            // Trigger download
+            const temp = document.createElement("a");
+            temp.href = cachedUrl;
+            temp.download = filename;
+            document.body.appendChild(temp);
+            temp.click();
+            temp.remove();
+          } catch {}
+        });
+      } catch {}
+    }
+
+    async function loadGame() {
+      const ns = getParam("namespace");
+      const appid = getParam("appid");
+
+      if (!ns || !appid) {
+        document.getElementById("content").innerHTML =
+          "<p class='text-red-500'>Invalid parameters.</p>";
+        return;
+      }
+
+      // Load game JSON
+      const gameUrl = `https://raw.githubusercontent.com/Nemirtingas/games-infos-datas/main/epic/${ns}/${appid}/${appid}.json`;
+      try {
+        const res = await fetch(gameUrl);
+        const data = await res.json();
+        
+        document.getElementById("game-title").textContent = data.Name;
+
+        // Image
+        if (data.ImageUrl) {
+          const img = document.getElementById("game-img");
+          img.src = data.ImageUrl;
+          img.alt = data.Name;
+          img.classList.remove("hidden");
+        }
+
+        // Game details
+        const meta = document.getElementById("game-meta");
+        meta.innerHTML = `
+          <p><span class="font-semibold">AppId:</span> ${data.AppId}</p>
+          <p><span class="font-semibold">Namespace:</span> ${data.Namespace}</p>
+          <p><span class="font-semibold">ItemId:</span> ${data.ItemId || "N/A"}</p>
+        `;
+
+        // Releases
+        const rel = document.getElementById("game-releases");
+        if (data.Releases && data.Releases.length > 0) {
+          rel.innerHTML = data.Releases.map(r => 
+            `<span class="px-2 py-1 bg-green-100 text-green-800 rounded mr-2">${r}</span>`
+          ).join("");
+        } else {
+          rel.innerHTML = `<span class="text-gray-500">No releases listed</span>`;
+        }
+
+        // DLCs
+        const dlcList = document.getElementById("game-dlcs");
+        if (data.Dlcs && data.Dlcs.length > 0) {
+          dlcList.innerHTML = data.Dlcs.map(d => `
+            <div class="p-3 border rounded-lg shadow bg-white">
+              <p class="font-semibold">${d.Name}</p>
+              <p class="text-sm text-gray-600">EntitlementId: ${d.EntitlementId}</p>
+              <p class="text-sm text-gray-600">ItemId: ${d.ItemId || "N/A"}</p>
+              <p class="text-sm text-gray-600">Type: ${d.Type || "N/A"}</p>
+            </div>
+          `).join("");
+		  const summaryRoot = document.getElementById("dlc-root");
+		  summaryRoot.classList.remove("hidden");
+        } else {
+          dlcList.innerHTML = `<p class="text-gray-500">No DLCs</p>`;
+        }
+      } catch {
+        document.getElementById("game-meta").innerHTML =
+          "<p class='text-red-500'>Failed to load game data.</p>";
+      }
+
+      // Check achievements
+      const achUrl = `https://raw.githubusercontent.com/Nemirtingas/games-infos-datas/main/epic/${ns}/${appid}/achievements/achievements_db.json`;
+	  enableAchievementsDownload(achUrl);
+    }
+
+    window.onload = loadGame;
+  </script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+  <!-- Top Menu -->
+  <nav class="bg-gray-900 text-white p-4 flex gap-6">
+    <span class="font-bold">Games Browser</span>
+    <a href="index.html#steam" class="text-gray-300 hover:text-white">Steam</a>
+    <a id="index-link" href="index.html#epic" class="text-white font-semibold border-b-2 border-white">Epic</a>
+  </nav>
+
+  <!-- Content -->
+  <div class="p-6 max-w-3xl mx-auto" id="content">
+    <h1 id="game-title" class="text-3xl font-bold mb-4"></h1>
+    <img id="game-img" class="hidden rounded-lg shadow mb-4" />
+
+    <!-- Achievements download link -->
+    <a id="achievements-link" href="#" download
+       class="hidden inline-block mb-6 px-4 py-2 bg-blue-600 text-white rounded shadow hover:bg-blue-700">
+       ⬇ Download Achievements JSON
+    </a>
+
+    <div id="game-meta" class="mb-6 text-gray-700"></div>
+
+    <h2 class="text-xl font-semibold mb-2">Releases</h2>
+    <div id="game-releases" class="mb-6"></div>
+
+	<section id="dlc-root" class="mb-6 hidden">
+	  <details class="space-y-2 border rounded p-3 bg-gray-50">
+		<summary class="cursor-pointer font-bold text-xl flex justify-between items-center">
+          DLCs
+		</summary>
+        <div id="game-dlcs" class="grid gap-3 mb-6"></div>
+	  </details>
+	</section>
+
+    <a id="back-link" href="index.html"
+       class="inline-block mt-8 px-4 py-2 bg-gray-700 text-white rounded">← Back to Library</a>
+    <script>
+      const params = new URLSearchParams(location.search);
+      const back = params.get("back");
+      if (back) {
+        document.getElementById("back-link").href = "index.html" + back;
+		document.getElementById("index-link").href = "index.html" + back;
+      }
+    </script>
+  </div>
+</body>
+</html>

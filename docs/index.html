@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Games Browser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .line-clamp-2 { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  </style>
+  <script>
+    // ----------------- Epic Module -----------------
+    const Epic = (() => {
+      const PAGE_SIZE = 12;
+      const RAW_BASE = "https://raw.githubusercontent.com/Nemirtingas/games-infos-datas/main";
+      const INDEX_URL = `${RAW_BASE}/epic-games-index.json`;
+
+      let games = [];
+      let filtered = [];
+      let currentPage = 1;
+      const detailsCache = new Map();
+
+      const keyFor = (ns, appid) => `${ns}:${appid}`;
+      const appJsonUrl = (ns, appid) => `${RAW_BASE}/epic/${ns}/${appid}/${appid}.json`;
+
+      async function fetchGameDetails(ns, appid) {
+        const key = keyFor(ns, appid);
+        if (detailsCache.has(key)) return detailsCache.get(key);
+        try {
+          const res = await fetch(appJsonUrl(ns, appid));
+          if (!res.ok) throw new Error("HTTP " + res.status);
+          const data = await res.json();
+          detailsCache.set(key, data);
+          return data;
+        } catch {
+          const fallback = { ImageUrl: null };
+          detailsCache.set(key, fallback);
+          return fallback;
+        }
+      }
+
+      function paginate(arr, page, size) {
+        const start = (page - 1) * size;
+        return arr.slice(start, start + size);
+      }
+
+      function updatePager() {
+        const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+        document.getElementById("page-info").textContent = `Page ${currentPage} of ${totalPages}`;
+        document.getElementById("prev-btn").disabled = currentPage <= 1;
+        document.getElementById("next-btn").disabled = currentPage >= totalPages;
+      }
+
+      async function render() {
+        updatePager();
+        const grid = document.getElementById("epic-games-grid");
+        grid.innerHTML = "";
+
+        const pageItems = paginate(filtered, currentPage, PAGE_SIZE);
+
+        for (const g of pageItems) {
+          const card = document.createElement("a");
+          const currentHash = location.hash || "#epic";
+          card.href = `epic-game.html?namespace=${encodeURIComponent(g.Namespace)}&appid=${encodeURIComponent(g.ApplicationId)}&back=${encodeURIComponent(currentHash)}`;
+          card.className = "relative group block rounded-2xl shadow hover:shadow-xl overflow-hidden transition";
+
+          const img = document.createElement("img");
+          img.className = "w-full h-48 object-cover transition group-hover:scale-105";
+          img.alt = g.Name;
+          img.loading = "lazy";
+          card.appendChild(img);
+
+          const overlay = document.createElement("div");
+          overlay.className = "absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 transition";
+          card.appendChild(overlay);
+
+          const body = document.createElement("div");
+          body.className = "absolute bottom-0 left-0 right-0 p-3 bg-black bg-opacity-60 backdrop-blur-sm";
+          const title = document.createElement("h2");
+          title.className = "text-white font-semibold text-sm line-clamp-2";
+          title.textContent = g.Name;
+          const meta = document.createElement("p");
+          meta.className = "text-xs text-gray-300 mt-1";
+          meta.textContent = g.ApplicationId;
+          body.appendChild(title);
+          body.appendChild(meta);
+          card.appendChild(body);
+
+          grid.appendChild(card);
+
+          fetchGameDetails(g.Namespace, g.ApplicationId).then(data => {
+            if (data && data.ImageUrl) img.src = data.ImageUrl;
+            else img.classList.add("bg-gray-200");
+          });
+        }
+      }
+
+      function search(query) {
+        updateHash({ section: "epic", page: 1, search: query });
+      }
+      
+      function nextPage() {
+        const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+        if (currentPage < totalPages) {
+          updateHash({ section: "epic", page: currentPage + 1, search: document.getElementById("search").value.trim() });
+        }
+      }
+      
+      function prevPage() {
+        if (currentPage > 1) {
+          updateHash({ section: "epic", page: currentPage - 1, search: document.getElementById("search").value.trim() });
+        }
+      }
+
+      async function show(params={}) {
+        document.getElementById("steam-section").classList.add("hidden");
+        document.getElementById("none-section").classList.add("hidden");
+        document.getElementById("epic-section").classList.remove("hidden");
+
+        if (games.length === 0) {
+          const res = await fetch(INDEX_URL);
+          games = await res.json();
+        }
+      
+        // Search
+        const q = (params.search ?? "").toString();
+        document.getElementById("search").value = q;
+        filtered = q
+          ? games.filter(g => g.Name.toLowerCase().includes(q.toLowerCase()))
+          : games;
+      
+        // Page
+        currentPage = params.page ? parseInt(params.page) : 1;
+        render();
+      }
+
+      return { show, search, nextPage, prevPage };
+    })();
+
+    // ----------------- Steam Module -----------------
+    const Steam = (() => {
+      const PAGE_SIZE = 12;
+      const RAW_BASE = "https://raw.githubusercontent.com/Nemirtingas/games-infos-datas/main";
+      const INDEX_URL = `${RAW_BASE}/steam_metadata.json`;
+
+      let games = [];
+      let filtered = [];
+      let currentPage = 1;
+      const cache = new Map();
+
+      const appJsonUrl = (appid) => `${RAW_BASE}/steam/${appid}/${appid}.json`;
+
+      async function fetchGameDetails(appid) {
+        if (cache.has(appid)) return cache.get(appid);
+        try {
+          const res = await fetch(appJsonUrl(appid));
+          if (!res.ok) throw new Error("HTTP " + res.status);
+          const data = await res.json();
+          cache.set(appid, data);
+          return data;
+        } catch {
+          const fallback = {};
+          cache.set(appid, fallback);
+          return fallback;
+        }
+      }
+
+      function paginate(arr, page, size) {
+        const start = (page - 1) * size;
+        return arr.slice(start, start + size);
+      }
+
+      function updatePager() {
+        const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+        document.getElementById("steam-page-info").textContent = `Page ${currentPage} of ${totalPages}`;
+        document.getElementById("steam-prev-btn").disabled = currentPage <= 1;
+        document.getElementById("steam-next-btn").disabled = currentPage >= totalPages;
+      }
+
+      async function render() {
+        updatePager();
+        const grid = document.getElementById("steam-games-grid");
+        grid.innerHTML = "";
+
+        const pageItems = paginate(filtered, currentPage, PAGE_SIZE);
+
+        for (const g of pageItems) {
+          const card = document.createElement("a");
+          const currentHash = location.hash || "#steam";
+          card.href = `steam-game.html?appid=${encodeURIComponent(g.AppId)}&back=${encodeURIComponent(currentHash)}`;
+          card.className = "relative group block rounded-2xl shadow hover:shadow-xl overflow-hidden transition";
+
+          const img = document.createElement("div");
+          img.className = "w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 text-sm";
+          img.textContent = "No Image";
+          card.appendChild(img);
+
+          const overlay = document.createElement("div");
+          overlay.className = "absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 transition";
+          card.appendChild(overlay);
+
+          const body = document.createElement("div");
+          body.className = "absolute bottom-0 left-0 right-0 p-3 bg-black bg-opacity-60 backdrop-blur-sm";
+          const title = document.createElement("h2");
+          title.className = "text-white font-semibold text-sm line-clamp-2";
+          title.textContent = g.Name;
+          const meta = document.createElement("p");
+          meta.className = "text-xs text-gray-300 mt-1";
+          meta.textContent = g.AppId;
+          body.appendChild(title);
+          body.appendChild(meta);
+          card.appendChild(body);
+
+          grid.appendChild(card);
+
+          fetchGameDetails(g.AppId).then(data => {
+            if (data && data.ImageUrl) {
+              const i = document.createElement("img");
+              i.src = data.ImageUrl;
+              i.alt = g.Name;
+              i.className = "w-full h-48 object-cover transition group-hover:scale-105";
+              card.replaceChild(i, img);
+            }
+          });
+        }
+      }
+
+      function search(query) {
+        updateHash({ section: "steam", page: 1, search: query });
+      }
+
+      function nextPage() {
+        const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+        if (currentPage < totalPages) {
+          updateHash({ section: "steam", page: currentPage + 1, search: document.getElementById("steam-search").value.trim() });
+        }
+      }
+
+      function prevPage() {
+        if (currentPage > 1) {
+          updateHash({ section: "steam", page: currentPage - 1, search: document.getElementById("steam-search").value.trim() });
+        }
+      }
+
+      async function show(params={}) {
+        document.getElementById("epic-section").classList.add("hidden");
+        document.getElementById("none-section").classList.add("hidden");
+        document.getElementById("steam-section").classList.remove("hidden");
+
+        if (games.length === 0) {
+          const res = await fetch(INDEX_URL);
+          const data = await res.json();
+		  
+		  const details = data.ApplicationDetails || {};
+		  games = Object.entries(details).map(([appid, info]) => ({
+			AppId: parseInt(appid, 10),
+			Name: info.Name || null,
+			ChangeNumber: info.ChangeNumber,
+			LastUpdateTimestamp: info.LastUpdateTimestamp
+		  }));
+        }
+
+        const q = (params.search ?? "").toString();
+		
+		const qInt = parseInt(q, 10);
+		const isInt = !isNaN(qInt);
+		
+        document.getElementById("steam-search").value = q;
+        filtered = q
+          ? games.filter(g => {
+			  const nameMatch = ((g.Name ?? "")).toLowerCase().includes(q.toLowerCase());
+			  const idMatch = isInt && g.AppId === qInt;
+			  return nameMatch || idMatch;
+			})
+          : games;
+
+        currentPage = params.page ? parseInt(params.page) : 1;
+        render();
+      }
+
+      return { show, search, nextPage, prevPage };
+    })();
+
+    // ----------------- None Module -----------------
+    const None = (() => ({
+      show() {
+        document.getElementById("steam-section").classList.add("hidden");
+        document.getElementById("none-section").classList.remove("hidden");
+        document.getElementById("epic-section").classList.add("hidden");
+      }
+    }))();
+
+    function updateNav(active) {
+      const links = {
+        steam: document.getElementById("nav-steam"),
+        epic: document.getElementById("nav-epic"),
+      };
+      Object.entries(links).forEach(([key, el]) => {
+        if (key === active) {
+          el.classList.remove("text-gray-300","hover:text-white");
+          el.classList.add("text-white","font-semibold","border-b-2","border-white");
+        } else {
+          el.classList.remove("text-white","font-semibold","border-b-2","border-white");
+          el.classList.add("text-gray-300","hover:text-white");
+        }
+      });
+    }
+
+    // ----------------- Router -----------------
+    function showSectionFromHash() {
+      const params = parseHash();
+      updateNav(params.section);
+      if (params.section === "epic") {
+        Epic.show(params);
+      } else if (params.section === "steam") {
+        Steam.show(params);
+      } else {
+        None.show();
+      }
+    }
+
+    function parseHash() {
+      const raw = location.hash.startsWith("#") ? location.hash.slice(1) : location.hash;
+      if (!raw) return { section: "epic" };
+      const parts = raw.split("&");
+      const section = parts.shift() || "epic";
+      const params = { section };
+      for (const p of parts) {
+        if (!p) continue;
+        const eq = p.indexOf("=");
+        if (eq === -1) { params[p] = ""; continue; }
+        const key = p.slice(0, eq);
+        const val = decodeURIComponent(p.slice(eq + 1));
+        params[key] = val;
+      }
+      if (params.page) params.page = parseInt(params.page, 10) || 1;
+      return params;
+    }
+
+    function updateHash(params) {
+      const parts = [params.section];
+      if (params.page) parts.push(`page=${params.page}`);
+      if (params.search) parts.push(`search=${encodeURIComponent(params.search)}`);
+      location.hash = parts.join("&");
+    }
+
+    window.addEventListener("DOMContentLoaded", () => {
+      // Epic
+      document.getElementById("search").addEventListener("input", e => Epic.search(e.target.value));
+      document.getElementById("prev-btn").addEventListener("click", Epic.prevPage);
+      document.getElementById("next-btn").addEventListener("click", Epic.nextPage);
+      // Steam
+      document.getElementById("steam-search").addEventListener("input", e => Steam.search(e.target.value));
+      document.getElementById("steam-prev-btn").addEventListener("click", Steam.prevPage);
+      document.getElementById("steam-next-btn").addEventListener("click", Steam.nextPage);
+
+      showSectionFromHash();
+    });
+    window.addEventListener("hashchange", showSectionFromHash);
+  </script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+
+  <nav class="bg-gray-900 text-white p-4 flex gap-6">
+    <span class="font-bold">Games Browser</span>
+    <a id="nav-steam" href="#steam" class="text-gray-300 hover:text-white">Steam</a>
+    <a id="nav-epic" href="#epic" class="text-gray-300 hover:text-white">Epic</a>
+  </nav>
+
+  <!-- None section -->
+  <div id="none-section" class="p-6 max-w-7xl mx-auto hidden">
+    <h1 class="text-2xl font-bold mb-4">None</h1>
+    <p class="text-gray-500">Choose your platform</p>
+  </div>
+
+  <!-- Epic section -->
+  <div id="epic-section" class="p-6 max-w-7xl mx-auto hidden">
+    <h1 class="text-2xl font-bold mb-4">Epic Games</h1>
+    <input id="search" type="text" placeholder="Search games..."
+           class="border p-2 rounded w-full mb-4"/>
+    <div id="epic-games-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+    <div class="flex justify-between items-center mt-6">
+      <button id="prev-btn" class="px-4 py-2 bg-gray-300 rounded disabled:opacity-50">Prev</button>
+      <span id="page-info" class="font-semibold"></span>
+      <button id="next-btn" class="px-4 py-2 bg-gray-300 rounded disabled:opacity-50">Next</button>
+    </div>
+  </div>
+
+  <!-- Steam section -->
+  <div id="steam-section" class="p-6 max-w-7xl mx-auto hidden">
+    <h1 class="text-2xl font-bold mb-4">Steam Games</h1>
+    <input id="steam-search" type="text" placeholder="Search games..."
+           class="border p-2 rounded w-full mb-4"/>
+    <div id="steam-games-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+    <div class="flex justify-between items-center mt-6">
+      <button id="steam-prev-btn" class="px-4 py-2 bg-gray-300 rounded disabled:opacity-50">Prev</button>
+      <span id="steam-page-info" class="font-semibold"></span>
+      <button id="steam-next-btn" class="px-4 py-2 bg-gray-300 rounded disabled:opacity-50">Next</button>
+    </div>
+  </div>
+
+</body>
+</html>
