@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Steam Game Details</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function getParam(name) {
+      return new URLSearchParams(window.location.search).get(name);
+    }
+
+    async function enableFileDownload(url, linkId, filename) {
+      try {
+        const link = document.getElementById(linkId);
+        link.classList.remove("hidden");
+
+        let cachedUrl = null;
+
+        link.addEventListener("click", async (e) => {
+          e.preventDefault();
+          try {
+            if (!cachedUrl) {
+              const res = await fetch(url);
+              if (!res.ok) return;
+              const blob = await res.blob();
+              cachedUrl = URL.createObjectURL(blob);
+            }
+            const temp = document.createElement("a");
+            temp.href = cachedUrl;
+            temp.download = filename;
+            document.body.appendChild(temp);
+            temp.click();
+            temp.remove();
+          } catch {}
+        });
+      } catch {}
+    }
+
+    async function loadGame() {
+      const appid = getParam("appid");
+      if (!appid) {
+        document.getElementById("content").innerHTML =
+          "<p class='text-red-500'>Invalid parameters.</p>";
+        return;
+      }
+
+      const baseUrl = `https://raw.githubusercontent.com/Nemirtingas/games-infos-datas/main/steam/${appid}`;
+      const gameUrl = `${baseUrl}/${appid}.json`;
+
+      try {
+        const res = await fetch(gameUrl);
+        if (!res.ok) throw new Error("Not found");
+        const data = await res.json();
+
+        document.getElementById("game-title").textContent = data.Name;
+		
+		 // Image
+        if (data.ImageUrl) {
+          const img = document.getElementById("game-img");
+          img.src = data.ImageUrl;
+          img.alt = data.Name;
+          img.classList.remove("hidden");
+        }
+		
+        document.getElementById("game-meta").innerHTML = `
+          <p><span class="font-semibold">AppId:</span> ${data.AppId}</p>
+          <p><span class="font-semibold">Type:</span> ${data.Type || "N/A"}</p>
+        `;
+
+        // Controller Configurations
+        const ctrlDiv = document.getElementById("game-controllers");
+        if (data.ControllerConfigurations && Object.keys(data.ControllerConfigurations).length > 0) {
+          ctrlDiv.innerHTML = Object.entries(data.ControllerConfigurations)
+            .map(([id, c]) => `
+              <div class="p-3 border rounded bg-white shadow">
+                <p><span class="font-semibold">ID:</span> ${id}</p>
+                <p><span class="font-semibold">Type:</span> ${c.Type}</p>
+              </div>
+            `).join("");
+        } else {
+          ctrlDiv.innerHTML = `<p class="text-gray-500">No controller configurations</p>`;
+        }
+
+        // DLCs
+        const dlcDiv = document.getElementById("game-dlcs");
+        if (data.Dlcs && Object.keys(data.Dlcs).length > 0) {
+          dlcDiv.innerHTML = Object.values(data.Dlcs)
+            .map(d => `
+              <div class="p-3 border rounded bg-white shadow">
+                <p class="font-semibold">${d.Name}</p>
+                <p class="text-sm text-gray-600">AppId: ${d.AppId}</p>
+                <p class="text-sm text-gray-600">Type: ${d.Type || "N/A"}</p>
+              </div>
+            `).join("");
+            const summaryRoot = document.getElementById("dlc-root");
+		    summaryRoot.classList.remove("hidden");
+        }
+
+        // Optional: Achievements
+        const achUrl = `${baseUrl}/achievements_db.json`;
+        try {
+          const achHead = await fetch(achUrl, { method: "HEAD" });
+          if (achHead.ok) {
+			enableFileDownload(achUrl, "achievements-link", "achievements_db.json");
+            const resA = await fetch(achUrl);
+            const achData = await resA.json();
+            const achList = document.getElementById("game-achievements");
+            achList.innerHTML = achData.map(a => {
+			  let content = "";
+			  if (a.displayName || a.description) {
+				const langs = new Set([
+				  ...Object.keys(a.displayName || {}).filter(k => k !== "token"),
+				  ...Object.keys(a.description || {}).filter(k => k !== "token")
+				]);
+
+				langs.forEach(lang => {
+				  const nameVal = a.displayName?.[lang] || "(no name)";
+				  const descVal = a.description?.[lang] || "(no description)";
+				  content += `<p class="mb-1"><span class="font-semibold">${lang}:</span> ${nameVal} — ${descVal}</p>`;
+				});
+			  }
+
+			  const thresholds = a.stats_thresholds
+				? `<details class="mt-1"><summary class="cursor-pointer text-blue-600">Stats thresholds</summary>
+				   <pre class="text-sm bg-gray-50 p-2 rounded">${JSON.stringify(a.stats_thresholds, null, 2)}</pre></details>`
+				: "";
+
+			  return `
+				<details class="border rounded p-3 bg-white shadow">
+				  <summary class="cursor-pointer flex items-center gap-3">
+					<img src="${a.icon}" class="w-8 h-8" alt="icon">
+					<span class="font-semibold">${a.name}</span>
+				  </summary>
+				  <div class="ml-6 mt-2 text-sm text-gray-700">
+					<p><span class="font-semibold">Hidden:</span> ${a.hidden}</p>
+					${content}
+					${thresholds}
+				  </div>
+				</details>
+			  `;
+			}).join("");
+            const summaryRoot = document.getElementById("achievements-root");
+		    summaryRoot.classList.remove("hidden");
+          }
+        } catch {}
+
+        // Optional: Stats
+        const statsUrl = `${baseUrl}/stats_db.json`;
+        try {
+          const statsHead = await fetch(statsUrl, { method: "HEAD" });
+          if (statsHead.ok) {
+			enableFileDownload(statsUrl, "stats-link", "stats_db.json");
+            const resS = await fetch(statsUrl);
+            const stats = await resS.json();
+            const statsList = document.getElementById("game-stats");
+            statsList.innerHTML = stats.map(s => `
+              <details class="border rounded p-3 bg-white shadow">
+                <summary class="cursor-pointer font-semibold">${s.displayName || s.name}</summary>
+                <div class="ml-4 mt-2 text-sm text-gray-700">
+                  <p><span class="font-semibold">Name:</span> ${s.name}</p>
+                  <p><span class="font-semibold">Type:</span> ${s.type}</p>
+                  <p><span class="font-semibold">Default:</span> ${s.default}</p>
+                  <p><span class="font-semibold">Increment Only:</span> ${s.incrementonly}</p>
+                  <p><span class="font-semibold">Aggregated:</span> ${s.aggregated}</p>
+                  ${s.windowsize ? `<p><span class="font-semibold">Window Size:</span> ${s.windowsize}</p>` : ""}
+                </div>
+              </details>
+            `).join("");
+		    const summaryRoot = document.getElementById("stats-root");
+            summaryRoot.classList.remove("hidden");
+          }
+        } catch {}
+      } catch (e) {
+        document.getElementById("game-meta").innerHTML =
+          "<p class='text-red-500'>Failed to load game data.</p>";
+      }
+    }
+
+    window.onload = loadGame;
+  </script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+  <!-- Top Menu -->
+  <nav class="bg-gray-900 text-white p-4 flex gap-6">
+    <span class="font-bold">Games Browser</span>
+    <a id="index-link" href="index.html#steam" class="text-white font-semibold border-b-2 border-white">Steam</a>
+    <a href="index.html#epic" class="text-gray-300 hover:text-white">Epic</a>
+  </nav>
+
+  <!-- Content -->
+  <div class="p-6 max-w-3xl mx-auto" id="content">
+    <h1 id="game-title" class="text-3xl font-bold mb-4"></h1>
+	<img id="game-img" class="hidden rounded-lg shadow mb-4" />
+	
+    <div id="game-meta" class="mb-6 text-gray-700"></div>
+
+	<section class="mb-6">
+	  <details id="controllers-root" class="space-y-2 border rounded p-3 bg-gray-50">
+	    <summary class="cursor-pointer font-bold text-xl flex justify-between items-center">
+          <h2 class="text-xl font-semibold mb-2">Controller Configurations</h2>
+	    </summary>
+        <div id="game-controllers" class="grid gap-3 mb-6"></div>
+      </details>
+	</section>
+
+	<section id="dlc-root" class="mb-6 hidden">
+	  <details class="space-y-2 border rounded p-3 bg-gray-50">
+		<summary class="cursor-pointer font-bold text-xl flex justify-between items-center">
+          DLCs
+		</summary>
+        <div id="game-dlcs" class="grid gap-3 mb-6"></div>
+	  </details>
+	</section>
+
+	<section id="stats-root" class="mb-6 hidden">
+	  <details class="space-y-2 border rounded p-3 bg-gray-50">
+		<summary class="cursor-pointer font-bold text-xl flex justify-between items-center">
+		  Stats
+		  <a id="stats-link" href="#" download
+			class="hidden inline-block mb-6 px-4 py-2 bg-purple-600 text-white rounded shadow hover:bg-purple-700">
+			⬇ Download Stats JSON
+		  </a>
+		</summary>
+		<div id="game-stats" class="mt-2 space-y-2"></div>
+	  </details>
+	</section>
+
+	<section id="achievements-root" class="mb-6 hidden">
+	  <details class="space-y-2 border rounded p-3 bg-gray-50">
+		<summary class="cursor-pointer font-bold text-xl flex justify-between items-center">
+		  Achievements
+          <a id="achievements-link" href="#" download
+             class="hidden inline-block mb-3 px-4 py-2 bg-blue-600 text-white rounded shadow hover:bg-blue-700">
+             ⬇ Download Achievements JSON
+          </a>
+		</summary>
+		<div id="game-achievements" class="mt-2 space-y-2"></div>
+	  </details>
+	</section>
+
+    <a id="back-link" href="index.html#steam"
+       class="inline-block mt-8 px-4 py-2 bg-gray-700 text-white rounded">← Back to Library</a>
+    <script>
+      const params = new URLSearchParams(location.search);
+      const back = params.get("back");
+      if (back) {
+        document.getElementById("back-link").href = "index.html" + back;
+		document.getElementById("index-link").href = "index.html" + back;
+      }
+    </script>
+  </div>
+</body>
+</html>
