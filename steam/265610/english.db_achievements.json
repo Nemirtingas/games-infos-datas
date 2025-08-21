@@ -1,0 +1,913 @@
+[
+  {
+    "name": "resistance",
+    "defaultvalue": 0,
+    "displayName": "Mega Resistance",
+    "hidden": 0,
+    "description": "Absorb some elemental damage.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/e590a13131730467754ed36dac2de5cf96672fff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/47720d2db6d375eb60dd145eb6543ae6bf664c9b.jpg"
+  },
+  {
+    "name": "skillfound",
+    "defaultvalue": 0,
+    "displayName": "New Skill Found",
+    "hidden": 0,
+    "description": "Find a new special skill. You can find them in chests or get them from quests.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/8b7a9661fe5ed9107e34df5e175f4b16fa5e66cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/30a92aa1136fb017e2b48fd1a9ac60c0cf276a5b.jpg"
+  },
+  {
+    "name": "statboost",
+    "defaultvalue": 0,
+    "displayName": "Permanent Stat Boost",
+    "hidden": 0,
+    "description": "Eat a stat-boosting snack and boost your stats permanently. Protip: Don't give them all to one character.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/328168252d83c98dd8aa2f97bc0d7471762cda25.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/38468dca6ef82b205d569ff496f3cbff843a3460.jpg"
+  },
+  {
+    "name": "skilllearnt",
+    "defaultvalue": 0,
+    "displayName": "New Skill Learnt",
+    "hidden": 0,
+    "description": "Learn the first of many new skills.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/907c113cb561acd531adefdae0d6c96c1efcb0c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/185f4554aaa213e3fd747ff98214633ad4294e16.jpg"
+  },
+  {
+    "name": "powerup",
+    "defaultvalue": 0,
+    "displayName": "Power On",
+    "hidden": 0,
+    "description": "Power up a set of factory doors, and open the next area.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/01fb8efa467340d357f7b8a8d3fb2e42a896255d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/c8127a27937df619e764f2cdac173f6319abcd07.jpg"
+  },
+  {
+    "name": "fullparty",
+    "defaultvalue": 0,
+    "displayName": "The Gang's All Here",
+    "hidden": 0,
+    "description": "Find all of your missing party members.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/e195abdf4d64f7e96259320ce3d18063d3be80d9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/536de587b9b47a2fd2c2507bff77574735a9ea4a.jpg"
+  },
+  {
+    "name": "millionaire",
+    "defaultvalue": 0,
+    "displayName": "Millionaire",
+    "hidden": 0,
+    "description": "Save up 1,000,000 chocolate coins.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/23a3d06b4446ecd6b8862619ad989636fdffad99.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/e15f3e618a4e74271d1422a8a2adcc59892b1ff4.jpg"
+  },
+  {
+    "name": "zoostudent",
+    "defaultvalue": 0,
+    "displayName": "Zoology Student",
+    "hidden": 0,
+    "description": "Scan a foe and begin filling in the bestiary.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/3b9b23191f145d7759be88f01a11bc561e74d571.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/f91a149f494aa7fac8d70ff3804fbc976b208638.jpg"
+  },
+  {
+    "name": "zooexpert",
+    "defaultvalue": 0,
+    "displayName": "Zoology Expert",
+    "hidden": 0,
+    "description": "Scan all foes and complete the bestiary.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/20ee356326da7a6915f2d8cd6aa9c5df5b2bef87.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/58a5d8f4ec82458bb379dcad4b117711ea7b0367.jpg"
+  },
+  {
+    "name": "treasurehunter",
+    "defaultvalue": 0,
+    "displayName": "Treasure Hunter",
+    "hidden": 0,
+    "description": "Collect 333 treasure chests. There's more, but getting all of them could be frustrating.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/43c9cd309e89b7f7e60fd3940bbccdc970bbc6dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/5449a556a9aeb025e23213edd7eacdb0d212c4aa.jpg"
+  },
+  {
+    "name": "beastmaster",
+    "defaultvalue": 0,
+    "displayName": "Beastmaster",
+    "hidden": 0,
+    "description": "Unlock all summon creatures.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/9cdbbf4a59359d6b67e1a6a73f432bd3b1292956.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/332a21645727a1a7ef186475692a5b90ac450a38.jpg"
+  },
+  {
+    "name": "quest1",
+    "defaultvalue": 0,
+    "displayName": "The World is Saved",
+    "hidden": 0,
+    "description": "Beat the game and save the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/5656da523e76679aed5ec8f1074999a9e355ef6c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/6d0dfe73f8ede3a9922986622697334ffc720d40.jpg"
+  },
+  {
+    "name": "quest2",
+    "defaultvalue": 0,
+    "displayName": "Second Quest",
+    "hidden": 0,
+    "description": "Beat the game a second time, continuing from a completed file.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1e7808bb7353ed300f9386b6fe172ac7dffa6309.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/6a805ff507def36e8d8257c51ee1a7b9cc0bb4f6.jpg"
+  },
+  {
+    "name": "quest3",
+    "defaultvalue": 0,
+    "displayName": "Final Chapter",
+    "hidden": 0,
+    "description": "Beat the game a third and final time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b72e99e9c8d3e9faf68412bb986275daba6332b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/94763a8e9e5cfc1ecebc9255411619efbee2a8af.jpg"
+  },
+  {
+    "name": "NPChelper",
+    "defaultvalue": 0,
+    "displayName": "NPC Helper",
+    "hidden": 0,
+    "description": "Complete 10 quests for NPCs. They can't do anything by themselves.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/d5dbb341ddcdb25c172644fbe43d6425c479c530.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/a0a21e2f624ac8cf5f8262550bdae643c8b58606.jpg"
+  },
+  {
+    "name": "NPCservant",
+    "defaultvalue": 0,
+    "displayName": "NPC Servant",
+    "hidden": 0,
+    "description": "Complete 20 quests for NPCs. Saving the world can wait.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/f43106de1c62ab6d55628ba8533e18cdd6ec1beb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1d44f72b461de8939d378c23a8fbc6b7348da894.jpg"
+  },
+  {
+    "name": "NPCslave",
+    "defaultvalue": 0,
+    "displayName": "NPC Slave",
+    "hidden": 0,
+    "description": "Complete 30 quests for NPCs. They own you now.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/a6241c4d0c26b415d7994b57aacdd53a76df5b80.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/c5bfd3427b12e4612742b2ba288725e62f8473f7.jpg"
+  },
+  {
+    "name": "art",
+    "defaultvalue": 0,
+    "displayName": "Art Appreciator",
+    "hidden": 0,
+    "description": "Check out some of the art galleries.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/503845667e639cb5a2f677978489fc7794962d43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/46ddd74feb1dec6bb795897336798e3754e35311.jpg"
+  },
+  {
+    "name": "slimysituation",
+    "defaultvalue": 0,
+    "displayName": "Slimy Situation",
+    "hidden": 0,
+    "description": "Get turned into a slime. Some people have a fetish for that sort of thing.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b9ed33b36a1c8f893a2b9a1bca4d6fbddc609859.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/7a8a5708b653041042be9a6f9e62429ce53800fe.jpg"
+  },
+  {
+    "name": "chicken",
+    "defaultvalue": 0,
+    "displayName": "Chicken Molester",
+    "hidden": 0,
+    "description": "Seriously stress out a chicken. Just don't stab it.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b8a43a86dad18324ffd25ab2be4fa3a3359027ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/ef1a0264813576eb6e14a676f5ecfd1b847cbd43.jpg"
+  },
+  {
+    "name": "deathpenalty",
+    "defaultvalue": 0,
+    "displayName": "Death Penalty",
+    "hidden": 0,
+    "description": "Kill a foe with an instant-death attack.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/67d4827645702228f01bde20b8ad70fd0a46f5ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/69337833157968711fc17cdf6479c124fbcd6acc.jpg"
+  },
+  {
+    "name": "survivedeath",
+    "defaultvalue": 0,
+    "displayName": "Extra Lives",
+    "hidden": 0,
+    "description": "Survive death: Be killed, but do not die.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/24194be78c0f8247cf55e80ac495601dd058827f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/6b213b117226769eec8ae15ce27f87c83adb3681.jpg"
+  },
+  {
+    "name": "powerofcourage",
+    "defaultvalue": 0,
+    "displayName": "Power of Courage",
+    "hidden": 0,
+    "description": "Survive a powerful attack with 1HP.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/bd993220aabdfc4e8eddd995942bcb7122696460.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b5f09faa548145107f3c2fad06074eb52dd5ccda.jpg"
+  },
+  {
+    "name": "monsterhunter",
+    "defaultvalue": 0,
+    "displayName": "Monster Hunter",
+    "hidden": 0,
+    "description": "Defeat 100 foes in total, and develop a taste for their flesh.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/2a0b2ceac6552bee997cdfa8ebe0efc3cc0f1f19.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b66d0270fff75d1b38e60e8e2f5e061dd0cff0cd.jpg"
+  },
+  {
+    "name": "extinctionevent",
+    "defaultvalue": 0,
+    "displayName": "Extinction Event",
+    "hidden": 0,
+    "description": "Defeat 1,000 foes in total, and become a serious threat to the ecosystem.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/8a06048965e8c00e87e4f127e1324cfeb7f7b144.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/70b9eb4d3fe592646123e5084b24aa717a398d6d.jpg"
+  },
+  {
+    "name": "starthegame",
+    "defaultvalue": 0,
+    "displayName": "Start the Game Already",
+    "hidden": 0,
+    "description": "Smash 100 Idols on the loading screen, because clicking randomly makes the game load faster.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1cd8bcef0b402f506b9f99e192aa3ccff26c957d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/2aa77b33e5f365f0df9cc50d7ea1155bc809faf2.jpg"
+  },
+  {
+    "name": "overpriced",
+    "defaultvalue": 0,
+    "displayName": "Overpriced Snacks",
+    "hidden": 0,
+    "description": "Destroy the economy by buying rare food.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/647b93114aa0cb539424c58fc2fd592b2d07a4c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b8a0eb5858b0841e53db3f66756e08c775289de6.jpg"
+  },
+  {
+    "name": "bestcustomer",
+    "defaultvalue": 0,
+    "displayName": "Best Customer",
+    "hidden": 0,
+    "description": "Completely buy-out an equipment shop.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/e97853f819017ab6a5f947c74c4d74a4c66605a3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/f5c9d32ec99a0161055465596d05e06a76104771.jpg"
+  },
+  {
+    "name": "keeneyes",
+    "defaultvalue": 0,
+    "displayName": "Keen Eye",
+    "hidden": 0,
+    "description": "Discover 30 secrets. There's actually way more than that though.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/97c3ed4a8f4699b05a3cf4fb2807d9b96fa5e5c4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/63d849db03586ae83fbf2e3ada0e218b21a77a39.jpg"
+  },
+  {
+    "name": "blacksmith",
+    "defaultvalue": 0,
+    "displayName": "Blacksmith",
+    "hidden": 0,
+    "description": "Fully upgrade any item of equipment.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b9d2ee413e4616d837ecf528d749c3d576ab995a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/aee5b8f935af6d95bac3e5838ae346e3f4e25df5.jpg"
+  },
+  {
+    "name": "equipmentcollector",
+    "defaultvalue": 0,
+    "displayName": "Equipment Collector",
+    "hidden": 0,
+    "description": "Collect 145 pieces of equipment.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1b92bcbd3cf9086f0576cd59b57500dfe20145bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/5593012e8cf5b7a16d5ce2098058a812399a73b3.jpg"
+  },
+  {
+    "name": "firstcasualty",
+    "defaultvalue": 0,
+    "displayName": "First Casualty",
+    "hidden": 0,
+    "description": "Watch a player die, as you do nothing to help.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/77cc652827e7f3a36a12d31c074b5ba59472ecd8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/cd223a2557a588952572b266d5c890df3d8a0076.jpg"
+  },
+  {
+    "name": "stepoverthedead",
+    "defaultvalue": 0,
+    "displayName": "Step Over the Dead",
+    "hidden": 0,
+    "description": "Clear away a player's rotting corpse.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/f7ad0778371ee488a801511836b253b9180a5aae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1e1aa07a7e88db5fb95d160dc035346bb91ba8da.jpg"
+  },
+  {
+    "name": "suicidalattack",
+    "defaultvalue": 0,
+    "displayName": "Kamikaze",
+    "hidden": 0,
+    "description": "Kill yourself with a spell or summon.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/d28bf3649968c10a559010f1b1e9a22ea89c3931.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/2c7ce05bdc287d4af5512f65cb1fffd230da83a8.jpg"
+  },
+  {
+    "name": "invadersfromspace",
+    "defaultvalue": 0,
+    "displayName": "Invaders from Space",
+    "hidden": 0,
+    "description": "Summon the most powerful creature to obliterate your enemies.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/4fa6c5f454e299cdf013ed3396028243128aae8b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1290b86ea6dd926cabc98f3fc10211eb7a23aeaa.jpg"
+  },
+  {
+    "name": "unkownpowerlevel",
+    "defaultvalue": 0,
+    "displayName": "Unknown Power Level",
+    "hidden": 0,
+    "description": "Find an unscannable secret foe.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/845b533e4a5a72733cd5d00c29202bdfdeba607f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/70ff7b862bb08486cb6f5ab67b388bb32328c50d.jpg"
+  },
+  {
+    "name": "d300",
+    "defaultvalue": 0,
+    "displayName": "300 Damage",
+    "hidden": 0,
+    "description": "Deal 300 damage with a single hit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/2b1ab23704d01f5db01110550852935ede84cb4a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/bbe7e17059ed75f965ae7c195da1970148245fc9.jpg"
+  },
+  {
+    "name": "d3k",
+    "defaultvalue": 0,
+    "displayName": "3K Damage",
+    "hidden": 0,
+    "description": "Deal 3,000 damage with a single hit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/e897a135e575c969cc155a8bbdfda666859361ee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/3a10f17afb16b21d95e02031688edfdcbb2054ab.jpg"
+  },
+  {
+    "name": "d30k",
+    "defaultvalue": 0,
+    "displayName": "30K Damage",
+    "hidden": 0,
+    "description": "Deal 30,000 damage with a single hit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/ba17a842451ae549d1b7f5ab3c914f6be542251b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/248ec75224dd8b407859aa97f586db5fa022871e.jpg"
+  },
+  {
+    "name": "d300k",
+    "defaultvalue": 0,
+    "displayName": "300K Damage",
+    "hidden": 0,
+    "description": "Deal 300,000 damage with a single hit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/f0ea02d7294ce36b756efd4346ddec39d4343d3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/443efc724c1e7cca019c167a3587e365c375d0d5.jpg"
+  },
+  {
+    "name": "d3m",
+    "defaultvalue": 0,
+    "displayName": "3M Damage",
+    "hidden": 0,
+    "description": "Deal 3,000,000 damage with a single hit. That's a lot!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/7042f9488e50c44234e6f38c35392bccee973ce7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/5075ff15c05b8e22af810a3935a45d071c5d6598.jpg"
+  },
+  {
+    "name": "level11",
+    "defaultvalue": 0,
+    "displayName": "Level 10",
+    "hidden": 0,
+    "description": "Reach level 10. That's a good start, but there's still a long way to go.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/7b88e4eaa8e2af630cfc175c3fc736ae0d841f9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1c8197bae6460156f8eb2cbab5d23f7136d9b156.jpg"
+  },
+  {
+    "name": "level22",
+    "defaultvalue": 0,
+    "displayName": "Level 20",
+    "hidden": 0,
+    "description": "Reach level 20. Getting well into the game now.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/67e8897e68e8d14f1ad7790c43ee0880c9223f52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/5cda46581c364cd59936754d3473b63f0a3b190c.jpg"
+  },
+  {
+    "name": "level33",
+    "defaultvalue": 0,
+    "displayName": "Level 30",
+    "hidden": 0,
+    "description": "Reach level 30. Should be strong enough to take on the final boss. Almost.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/191188eceda26a2a304c7abe10933b43474f6162.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/44f133b1573cc44d843d2776deed9e7d1feb3483.jpg"
+  },
+  {
+    "name": "level44",
+    "defaultvalue": 0,
+    "displayName": "Level 40",
+    "hidden": 0,
+    "description": "Reach level 40. Well, if you don't have anything better to do, you might as well go even further.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/f57d9d91a61078e2e745cb32708669945d78a7d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/4979a707a62ab9ff85c435a340156a526d07b90a.jpg"
+  },
+  {
+    "name": "limitbreak",
+    "defaultvalue": 0,
+    "displayName": "Limits Were Broken",
+    "hidden": 0,
+    "description": "Use an awesome limit break for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/8a3bd81d75b8548c08a5764a51b5efb89544ffe6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/372b3cb74d4e59affae8e5f2c685cd1508d3be4b.jpg"
+  },
+  {
+    "name": "winteriscoming",
+    "defaultvalue": 0,
+    "displayName": "Winter is Coming",
+    "hidden": 0,
+    "description": "Freeze a foe, and then hit them again for massive damage.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/8cb484456f338fe9b2c0bafb40620c97ccc5be81.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/17fa0598a12be6057ff40777c56e36451add101e.jpg"
+  },
+  {
+    "name": "burnbabyburn",
+    "defaultvalue": 0,
+    "displayName": "Burn Baby Burn",
+    "hidden": 0,
+    "description": "Set a foe on fire, and watch them burn.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/9566bae9639eaaceb52347ac920b4e8c2831ed82.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/c52b03c9006317649c611a5a8e9353e216e5d4bc.jpg"
+  },
+  {
+    "name": "waterconducts",
+    "defaultvalue": 0,
+    "displayName": "Water Conducts",
+    "hidden": 0,
+    "description": "Shock a wet foe with a thunder attack (or ice, if you prefer).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/7300537f49dfe8534eda6256d687bcad0a5bf554.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/5c5a432bfec9642de545562a6bf4f9aa6b0227db.jpg"
+  },
+  {
+    "name": "overkill",
+    "defaultvalue": 0,
+    "displayName": "Overkill",
+    "hidden": 0,
+    "description": "Completely obliterate a feeble enemy. The cute ones deserve it.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/38bbff5b808c0bda8a585c2f221ceda2522ad860.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/d11caae18b8ba570a0a35ed2c789f60a9f2fd3c8.jpg"
+  },
+  {
+    "name": "firstkill",
+    "defaultvalue": 0,
+    "displayName": "First Blood",
+    "hidden": 0,
+    "description": "Defeat your first foe, and become a hardened killer.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/0b96543aa85a2c15646fe65ac1d10a3a13555e33.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/d49cfb00374cf02537bc8f950be2ebe7c70b8de6.jpg"
+  },
+  {
+    "name": "lostruins",
+    "defaultvalue": 0,
+    "displayName": "Lost Ruins",
+    "hidden": 0,
+    "description": "Find the hidden ruins in the jungle.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/e1ae7c8cf9a315a731a654758a10a28a4125a373.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b0dfdc8b072e903d38adafe2ec1c6dbe973488d7.jpg"
+  },
+  {
+    "name": "lunchtime",
+    "defaultvalue": 0,
+    "displayName": "Lunchtime",
+    "hidden": 0,
+    "description": "Take a break and have something to eat outside of battle.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/12336af667a2fddf903f438c311721d7b8166645.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/5adb2e2d89bda65e33823131f534bc3420593bb8.jpg"
+  },
+  {
+    "name": "tastepain",
+    "defaultvalue": 0,
+    "displayName": "Taste Pain",
+    "hidden": 0,
+    "description": "Drink a whole bottle of Chilli Sauce, and eat the actual bottle too.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/4c1ba701c711edfa4ab1614db1c55018b746c46a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/4794102e14a643a34c21093dbe820bac7f4a8a41.jpg"
+  },
+  {
+    "name": "marathon",
+    "defaultvalue": 0,
+    "displayName": "Marathon Runner",
+    "hidden": 0,
+    "description": "Take 10,000 steps. Fun.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b29738656ff08cf7b1315eb5fa9ad20989898749.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/83ca0d7d86a70679ef6e9aada780c363e127550c.jpg"
+  },
+  {
+    "name": "keys",
+    "defaultvalue": 0,
+    "displayName": "Keys Unlock Stuff",
+    "hidden": 0,
+    "description": "Use a key to access new treasures, but you should have figured that out on your own.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/950ddc47a172307506c18a2f439f36fd05d898e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/885dc23f0d27c449e984eaf1dd76f48db5bb5d57.jpg"
+  },
+  {
+    "name": "lava",
+    "defaultvalue": 0,
+    "displayName": "Lava Burns",
+    "hidden": 0,
+    "description": "Walk on lava and get hurt, because that's not smart.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/9d70002c6af9626bf3b4eced433e0ca8d6c8b2ae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/df19ad19cacac5aed90f30e1bca0d87b6c684c7b.jpg"
+  },
+  {
+    "name": "slimecatking",
+    "defaultvalue": 0,
+    "displayName": "Slime Cat King",
+    "hidden": 0,
+    "description": "Find all the Slime Cats, and rule the world map.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/be4c5d0860954e50688ab75d59f0a76ac2084796.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/e9d13054399c407f4ab42ad1f3c28aadd65462ad.jpg"
+  },
+  {
+    "name": "slimecat",
+    "defaultvalue": 0,
+    "displayName": "Slime Cat",
+    "hidden": 0,
+    "description": "Find a Slime Cat and discover the Warp Zone.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/2166fde84c67b1682f15f33dcaf0cd10fe96a812.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/ac9f8e8fa50dbb3598047d2e46d2d43e7a728ef5.jpg"
+  },
+  {
+    "name": "strength",
+    "defaultvalue": 0,
+    "displayName": "Used Strength",
+    "hidden": 0,
+    "description": "Push an unwanted block out of the way. It will not be missed.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/f3d605a5d8b85c153b255938e3813587b2e27754.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/35ee57eebbc6cf3e5092edca3dbe6a255441e162.jpg"
+  },
+  {
+    "name": "flash",
+    "defaultvalue": 0,
+    "displayName": "Used Flash",
+    "hidden": 0,
+    "description": "Light a torch with your candle. Fire magic doesn't work for some reason.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/758ff9082f763780f284c406ecc1b322b4a53b70.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/05ff934a3aa463ad91d4cd472dc2a64d91495e4a.jpg"
+  },
+  {
+    "name": "cut",
+    "defaultvalue": 0,
+    "displayName": "Used Cut",
+    "hidden": 0,
+    "description": "Cut down a dangerous path-blocking bush. Don't worry, they don't have feelings.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/ad6b6066154707c372ef258381f79459b5fefb9f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/d0c1d509585fc42a9cb6e305a2059e9471de5378.jpg"
+  },
+  {
+    "name": "rocksmash",
+    "defaultvalue": 0,
+    "displayName": "Used Rock Smash",
+    "hidden": 0,
+    "description": "Smash a nice boulder. You could even find some diamond inside.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/7204d05787af81b16dfab5d1fbc0fc48ed1f952f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/3f5e0f3958bfab193cde86c1ac512b22dd0ed454.jpg"
+  },
+  {
+    "name": "ladder",
+    "defaultvalue": 0,
+    "displayName": "Used... Ladder?",
+    "hidden": 0,
+    "description": "Bridge a gap, with the power of ladders.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/6b4a37bbe8d08b0d36d1270ba3dc850537c38977.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/92d9d23c5ba68565369b41e1f3b90331ec8faa42.jpg"
+  },
+  {
+    "name": "pantythief",
+    "defaultvalue": 0,
+    "displayName": "Panty Thief",
+    "hidden": 0,
+    "description": "Steal some underwear. Perverts pay good money for stuff like this.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b841ce3040ae1032dc7a6526cb3519101dcbc252.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/fa997658180d124426b79aed5ad3006c0c1a6bb2.jpg"
+  },
+  {
+    "name": "pervert",
+    "defaultvalue": 0,
+    "displayName": "Pervert",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/d377d250c8fe1f3364555197f7443f734b357387.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/040a953a1c0b9f40aceff40b091ccce4fd4f79a7.jpg"
+  },
+  {
+    "name": "lumberjack",
+    "defaultvalue": 0,
+    "displayName": "Lumberjack",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/3900628024e28076c09e291b1b00d5dd85a10bb1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b52df51486acd78e57cae92ee1039a98594614ed.jpg"
+  },
+  {
+    "name": "rockminer",
+    "defaultvalue": 0,
+    "displayName": "Rock Miner",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/6f917a47dcac0c1f79ec7ecf7171fb8da44dbaa9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/441107534929311407e881631ecb1f718388628c.jpg"
+  },
+  {
+    "name": "electricalengineer",
+    "defaultvalue": 0,
+    "displayName": "Electrical Engineer",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/6e8bd289f08782b577da3e7ac339766a19041c96.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/9f1d8189ff1d560c52bb4000f341ec151b6129a8.jpg"
+  },
+  {
+    "name": "extremegardener",
+    "defaultvalue": 0,
+    "displayName": "Extreme Gardener",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/50c99a6801a20d79d01e00e33072e0fd9174e74e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1720ec2fa825b8bc903d77fea6e4f5db448436f0.jpg"
+  },
+  {
+    "name": "leethacker",
+    "defaultvalue": 0,
+    "displayName": "Leet Hacker",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/ec8534af1311c99a213c356c57c11dfed5703cf3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/53c02d83dc8797c2bafdc48ed6f50f85206b5c0a.jpg"
+  },
+  {
+    "name": "catperson",
+    "defaultvalue": 0,
+    "displayName": "Cat Person",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b2b5ba6bea958bb1fa4738cc7c2dec07a92653e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/ff81abcad8c1bd0effabc50dbe84efde3d911725.jpg"
+  },
+  {
+    "name": "enterashwood",
+    "defaultvalue": 0,
+    "displayName": "Deforestation Problem",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/d3ba4b9f6e217f329e95d6a3f4d9959dde177b00.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1b735c9c0742f5aded53c5234ad05c57386819da.jpg"
+  },
+  {
+    "name": "entercaverns",
+    "defaultvalue": 0,
+    "displayName": "Digging Too Deep",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/e4a882c775679a28aca0d00592caeac4c999c840.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/05d6a1a11bc6c8dfdd5ebaee63be6857eeeec699.jpg"
+  },
+  {
+    "name": "entergraveyard",
+    "defaultvalue": 0,
+    "displayName": "I See Dead People",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/7fe83bc6ec45db9ebaa6a1235fdfb003f2034036.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1d92eb5669d90c24fa2ee17c2ebc230a610d4760.jpg"
+  },
+  {
+    "name": "enterplant",
+    "defaultvalue": 0,
+    "displayName": "Realm of Robots",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/7339faec0a48406be2c42aa53b712e37fe18b131.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/22b6b60fd55e45636b2f0dddc6f628b5f43a1bdf.jpg"
+  },
+  {
+    "name": "enterjungle",
+    "defaultvalue": 0,
+    "displayName": "Plants Eat You",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/0e4134cd787cae3400525208440004ec521db997.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/a6f0853f4e046e4c136bb75f56542b7ee3c79891.jpg"
+  },
+  {
+    "name": "entertemple",
+    "defaultvalue": 0,
+    "displayName": "Ancient Civilization",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/3611e5f94314a460330e6f9faad0f3a51b9e2b73.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/5442a4ec5e8668528eb3080f5bf38c992048ddaa.jpg"
+  },
+  {
+    "name": "treasurethief",
+    "defaultvalue": 0,
+    "displayName": "Treasure Thief",
+    "hidden": 0,
+    "description": "Collect 111 treasure chests. Those chests aren't left out there for you, but you seem to take them anyway.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/e1be002c8d502a78352880839cfa682c1b07c976.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/4150e036aa6dddbae25c45b66317b2ea2ecbcb7b.jpg"
+  },
+  {
+    "name": "treasurecollector",
+    "defaultvalue": 0,
+    "displayName": "Treasure Collector",
+    "hidden": 0,
+    "description": "Collect 222 treasure chests. That's more chests than original Pok*mon!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/bf10a26064a0bf377bc47ccc25dd59ffcd7902a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/6d54b3aba1bf06cb51a3fe6ee9adfb150be3f23d.jpg"
+  },
+  {
+    "name": "eagleeyes",
+    "defaultvalue": 0,
+    "displayName": "Eagle Eye",
+    "hidden": 0,
+    "description": "Discover 60 secrets. There may be a few more, but we won't force you to find them all.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/d8916675405f832baecfac9708cacc4501c29b05.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1809acc19644a271d7ef0ec22f4ef4d8a7673d7d.jpg"
+  },
+  {
+    "name": "d30m",
+    "defaultvalue": 0,
+    "displayName": "30M Damage",
+    "hidden": 0,
+    "description": "Deal 30,000,000 damage with a single hit. Is that even possible?!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/00afa7d629e08e0b9b6d35ec91c033026f6aa905.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/0df3953754bfd856b142f3de04a568a7f2dd84ec.jpg"
+  },
+  {
+    "name": "dressupgame",
+    "defaultvalue": 0,
+    "displayName": "Dress Up Game",
+    "hidden": 0,
+    "description": "Fully upgrade 30 hats or armors. You'll need plenty of different armor for the hardest battles!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/9e424613cba0c88fd97a3d7f3dbd1a4930b61a4a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/95c40fb8c678eb968ef2eb2086fb7d65cfb3767d.jpg"
+  },
+  {
+    "name": "masterblacksmith",
+    "defaultvalue": 0,
+    "displayName": "Master Blacksmith",
+    "hidden": 0,
+    "description": "Fully upgrade 30 weapons. Don't just use the same weapons all the time, that's boring!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/f201858ce90e498d0721a77d02d462d15d47101a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/afb6585e310693271e483eccb591c67965abfb63.jpg"
+  },
+  {
+    "name": "treewar",
+    "defaultvalue": 0,
+    "displayName": "Trees Go To War",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/a261089f57fcbcbefe1cc4eb5272453242d7b2dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/cb15032e138de5ce577b8135ff0eb08ca6bdb48d.jpg"
+  },
+  {
+    "name": "diamonds",
+    "defaultvalue": 0,
+    "displayName": "Die For Diamonds",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b16ca60043e1c3ad0a3781dc1a5d35bd0b3a0afa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/8a9e601990bda674be9dbd753e4a322df3471b7b.jpg"
+  },
+  {
+    "name": "hardwareupgrade",
+    "defaultvalue": 0,
+    "displayName": "Hardware Upgrade",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/a96b54f97b20da98f08aa7aafeec00ac48d8dd75.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/94b69a5d6c6e302425ea16d464bfaea9162ee03b.jpg"
+  },
+  {
+    "name": "endoftherainbow",
+    "defaultvalue": 0,
+    "displayName": "End Of The Rainbow",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/3cf2cc45365ff1e0eb9d953456ae5871b3f04b8a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/980a012c0f3b3dce5ca1c261f650b94299efe437.jpg"
+  },
+  {
+    "name": "bossrush1",
+    "defaultvalue": 0,
+    "displayName": "Miniboss Rush",
+    "hidden": 0,
+    "description": "Beat the first boss marathon, on Epic Difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/edae6083cb2af67e364b08eb6e8f69c989cfa37c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/c7b67933367bd960a17702d0e5fd7aa9459f022f.jpg"
+  },
+  {
+    "name": "bossrush2",
+    "defaultvalue": 0,
+    "displayName": "Boss Rush",
+    "hidden": 0,
+    "description": "Beat the second boss marathon, on Epic Difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/47926ba5a6fdd5663647df63723d4b502982694d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/38e939714502e835d255ba7bbaf864b4d311b66b.jpg"
+  },
+  {
+    "name": "bossrush3",
+    "defaultvalue": 0,
+    "displayName": "Mega Boss Rush",
+    "hidden": 0,
+    "description": "Beat the third boss marathon, on Epic Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/eb351f3a70fb3a405d933a27e13d1f40456e5af6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/129167f8ae7bd0d29266014e9bc074fe744eb5e4.jpg"
+  },
+  {
+    "name": "bossrush4",
+    "defaultvalue": 0,
+    "displayName": "Dark Boss Rush",
+    "hidden": 0,
+    "description": "Beat the fourth boss marathon, on Epic Difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/7ea564696f5f181beaf70525b0e4e1a33c0ec660.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/0002ed45ca849276d1bc4ef8d9b492e98e13f4fa.jpg"
+  },
+  {
+    "name": "foerush",
+    "defaultvalue": 0,
+    "displayName": "Foe Rush",
+    "hidden": 0,
+    "description": "Beat the monster marathon, on Epic Difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/e3d7796eb97af759e514963adbeb91677b4a6fca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/a632ea03d3090ff665e6026f6c8748ef27705b29.jpg"
+  },
+  {
+    "name": "endlessbattles1",
+    "defaultvalue": 0,
+    "displayName": "Mighty Fighters",
+    "hidden": 0,
+    "description": "Defeat 10 waves of enemies in Endless Battles. That's a good start.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1d040aa9090581b116f576369cbf590d81e2342a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/a46c52c3de131e6554f8af5d29879adba269924e.jpg"
+  },
+  {
+    "name": "endlessbattles2",
+    "defaultvalue": 0,
+    "displayName": "Epic Crusaders",
+    "hidden": 0,
+    "description": "Defeat 20 waves of enemies in Endless Battles. Time to start getting serious.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/43bc4be659e3e8d0ccb3e2c421ea21bf382825b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/cd49429a194a132330c87a3332381f46a8059edf.jpg"
+  },
+  {
+    "name": "endlessbattles3",
+    "defaultvalue": 0,
+    "displayName": "Legendary Heroes",
+    "hidden": 0,
+    "description": "Defeat 30 waves of enemies in Endless Battles. This should be quite the challenge!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/b27a76b2ff7f150cb24c8fc1b634acaf12fea253.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/464fd5639593366d59a1b43a9fc3848b12b6face.jpg"
+  },
+  {
+    "name": "wormcontrol",
+    "defaultvalue": 0,
+    "displayName": "Worm Control",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/8a419064a777227f903775b5dd2dda039f140926.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/7884026d48e0a4c20ed0e5b77d51218529d19ea7.jpg"
+  },
+  {
+    "name": "loandbehold",
+    "defaultvalue": 0,
+    "displayName": "Lo And Behold",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/305c5b9aba5d20efa52533b530f0a08a70eea7e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/4cd68fb62568163d79f288c09844716c1c69fbab.jpg"
+  },
+  {
+    "name": "dragonslayer",
+    "defaultvalue": 0,
+    "displayName": "Dragon Slayer",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/bdf3ec59256d7409782c5fd98f2cffefee4750bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/70ebd71f869c9d2591a39506db8214f2dc202a65.jpg"
+  },
+  {
+    "name": "unprotected",
+    "defaultvalue": 0,
+    "displayName": "Unprotected",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/336b4033cb0613f7fd68f3d2718f560b6d7f75e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1bfb5a8a1577d9947d1390a55349d3c0c8396564.jpg"
+  },
+  {
+    "name": "darkanna",
+    "defaultvalue": 0,
+    "displayName": "Shadow Huntress",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/d69e8e0ce1dde773801dc06eddf96a3672d8974f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/6b4f4f9c67781f5ccf6ff7c29c35fbb89166033c.jpg"
+  },
+  {
+    "name": "darkmatt",
+    "defaultvalue": 0,
+    "displayName": "Captain Of Death",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/c7992beaff55fdf98a6af8510df0e172294f2bb9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/99f266211780b9112b090cd79d00dcfac7644796.jpg"
+  },
+  {
+    "name": "darknatalie",
+    "defaultvalue": 0,
+    "displayName": "Dark Seductress",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/e30000946596f9dabeb9f08d57a91a3963fdb161.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/40ac3b23c4e7df7b33e005412c995eb92a705b7c.jpg"
+  },
+  {
+    "name": "darklance",
+    "defaultvalue": 0,
+    "displayName": "Fallen Comrade",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/1f810daa78a1591d9ee85b53ee8bebdb227a4ff4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265610/65cf151e465c6db5e69ff531b57ce011ab263a97.jpg"
+  }
+]

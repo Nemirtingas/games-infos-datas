@@ -1,0 +1,885 @@
+[
+  {
+    "name": "WIN_EMPIRE",
+    "defaultvalue": 0,
+    "displayName": "Empire Victory",
+    "hidden": 0,
+    "description": "Win scenario in Empire Scoring Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/0e1c799e5983733310cd1f9f967abf9b328f8993.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/5f93aec944c38b0bc722d7667ef0ce3d22a33a3f.jpg"
+  },
+  {
+    "name": "WIN_ALLIANCE",
+    "defaultvalue": 0,
+    "displayName": "Alliance Victory",
+    "hidden": 0,
+    "description": "Win scenario in Alliance Scoring Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/20ae0cce3235db6df1078a27bf61c9fd00d74da0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/082cc0b2890ee767dae07455c823657fcfd17067.jpg"
+  },
+  {
+    "name": "WIN_IDEOLOGY_DEM",
+    "defaultvalue": 0,
+    "displayName": "A Free World",
+    "hidden": 0,
+    "description": "Win scenario in Ideology Scoring Mode as a Democratic government",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/bed5c95ebe5b7c2fba1f44de5c5420c04ae32791.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/17a50870fae81b385bbe14f6ab701a0b52d9c69b.jpg"
+  },
+  {
+    "name": "WIN_IDEOLOGY_COM",
+    "defaultvalue": 0,
+    "displayName": "Global Communism",
+    "hidden": 0,
+    "description": "Win scenario in Ideology Scoring Mode as a Communist government",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/fc69a7d9ec2f7c459aee52b26af90c14312faa90.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/181b76bc8c577e481f8084a18ae95f1352112d45.jpg"
+  },
+  {
+    "name": "WIN_IDEOLOGY_FAS",
+    "defaultvalue": 0,
+    "displayName": "Triumph of Fascism",
+    "hidden": 0,
+    "description": "Win scenario in Ideology Scoring Mode as a Fascist government",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/0a4e4f820f6ce7a8f197e6b3a6fed1aa326aab9a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/afe1d23d6f1b623a5872d2a4e88f371df19e42d4.jpg"
+  },
+  {
+    "name": "WIN_IDEOLOGY_AUT",
+    "defaultvalue": 0,
+    "displayName": "Authoritarian Rule",
+    "hidden": 0,
+    "description": "Win scenario in Ideology Scoring Mode as an Authoritarian government",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/a408ca15160333484f6a88ed0b9639cf202114fe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/b6a43e27186986dcf70652224a6f7a8846a5dfc3.jpg"
+  },
+  {
+    "name": "SUPERPOWER",
+    "defaultvalue": 0,
+    "displayName": "Superpower",
+    "hidden": 0,
+    "description": "Become a Global Superpower",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/e29add981ce4c9d7f1f286bd7e6b4474f10a238d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/fc9695ad41b5600254f7a857cbf787601b5b2502.jpg"
+  },
+  {
+    "name": "MINOR_TO_SUPERPOWER",
+    "defaultvalue": 0,
+    "displayName": "Rise To Power",
+    "hidden": 0,
+    "description": "Rise from Minor Nation to Superpower",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/ea218c5fd17576b87bfb8653ec4db4bb9eee548a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/fc9695ad41b5600254f7a857cbf787601b5b2502.jpg"
+  },
+  {
+    "name": "REGIONAL_TO_GREATPOWER",
+    "defaultvalue": 0,
+    "displayName": "A Greater Nation",
+    "hidden": 0,
+    "description": "Rise from Regional Nation to a Great Power",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/9897b1e042df55bbad1a921017a44ffc8472e2fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/35ffe8af7bbc65a4df1a98b20e35dc7b38308112.jpg"
+  },
+  {
+    "name": "GREATER_BULGARIA",
+    "defaultvalue": 0,
+    "displayName": "Greater Bulgaria",
+    "hidden": 0,
+    "description": "Play as Bulgaria and conquer all external claims plus Morava and Macedonia",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/90adea7a25297dfa4ebfce1e310b2e9aadb492fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/090df5efb5c0fd6e9b0bf44c77b087a8b733f7cb.jpg"
+  },
+  {
+    "name": "GREEK_IRREDENTISM",
+    "defaultvalue": 0,
+    "displayName": "Megali Idea",
+    "hidden": 0,
+    "description": "Play as Greece and reconquer Constantinople and the Anatolian shores, the Dodecanese, Valona, and Cyprus",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/eeb6ff13bb9bcc28e94a502a94974b9932a51704.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/f60466faf2583aa5222ac755869c9baeb6556861.jpg"
+  },
+  {
+    "name": "ITALIAN_IRREDENTISM",
+    "defaultvalue": 0,
+    "displayName": "Greater Italy",
+    "hidden": 0,
+    "description": "As Italy conquer a Mediterranean Empire taking Tunisia, Algeria, Libya, Southern France, Malta, Cyprus, and the Adriatic rim",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/6dfd852806dffea82cdc01fc7ab2e97fe26fc692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/9d54a3456dafacb0612f855d89f99038df74e8b7.jpg"
+  },
+  {
+    "name": "GREATER_BOLIVIA",
+    "defaultvalue": 0,
+    "displayName": "Bolivian Revenge",
+    "hidden": 0,
+    "description": "Play as Bolivia and regain lost claimed territory from Chile and Paraguay, plus Acre from Brazil",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/9e61a2b54030ddaad48d880cdf7d9e267107043d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/8eb9637ef9b0e2a32dfbf8663b025a3fd11780e2.jpg"
+  },
+  {
+    "name": "GREATER_GUATEMALA",
+    "defaultvalue": 0,
+    "displayName": "Federation of Central America",
+    "hidden": 0,
+    "description": "Play as Guatemala and take control of Central American claims",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/ade4b7d6e75c7569112b5a866fdcd7d80bb4cf10.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/72ad7c23897e380b2636f2253e45b1d5ed4b475b.jpg"
+  },
+  {
+    "name": "GREATER_IRAN",
+    "defaultvalue": 0,
+    "displayName": "Greater Iran",
+    "hidden": 0,
+    "description": "Play as Persia and conquer the Azeri and Kurdish regions",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/e8fa7581da6e0fe70cc40bf57f6ed49673c90d43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/d591f0ad8ca813b7fd4d2dcde3c74f9f52ab4c26.jpg"
+  },
+  {
+    "name": "PAN_TURKISM",
+    "defaultvalue": 0,
+    "displayName": "Pan-Turkic Empire",
+    "hidden": 0,
+    "description": "Play as Turkey and conquer all regions with Turkic Culture",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/3a3461b28c9b108d1ac255fe242c63e47dc309fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/3d4abad0e081cbade30cba804dbf8d74ff3f3327.jpg"
+  },
+  {
+    "name": "OTTOMAN_REBIRTH",
+    "defaultvalue": 0,
+    "displayName": "Rebirth of the Ottoman Empire",
+    "hidden": 0,
+    "description": "Play as Turkey and reconquer former Ottoman Empire territories.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/2d6e6af20486f26b2ab441f71a7704993ebef457.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/592ab2b98418f6232640471ccc36039f615764e5.jpg"
+  },
+  {
+    "name": "GREATER_GERMANY",
+    "defaultvalue": 0,
+    "displayName": "Greater German Reich",
+    "hidden": 0,
+    "description": "Play as Germany and establish the Greater German Reich by conquering the Low Countries, Scandinavia, and Eastward to the Urals",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/2b7edf0a04879e0d6c504424966db8c74cdf6a06.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/36b25a2f71f3188d01f87a3373b0e336c75941fb.jpg"
+  },
+  {
+    "name": "GREATER_HUNGARY",
+    "defaultvalue": 0,
+    "displayName": "Greater Hungary",
+    "hidden": 0,
+    "description": "Play as Hungary and conquer claimed regions plus Bosnia, Herzegovina, Dalmatia, and Bukovina",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/b093676931e5b0cd38abb2cc3df136769ff45651.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/d0c3fa6a6e74cefd62f9b136dec09a6a80c54833.jpg"
+  },
+  {
+    "name": "GREATER_THAILAND",
+    "defaultvalue": 0,
+    "displayName": "Greater Thailand",
+    "hidden": 0,
+    "description": "Play as the Kingdom of Siam and conquer claimed regions",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/5c63917b0b4d22577c779cfe94e1fad2d3292c45.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/c3843c4dc2f6fecfd7e74d1fb01834c9d254e95a.jpg"
+  },
+  {
+    "name": "GREATER_YEMEN",
+    "defaultvalue": 0,
+    "displayName": "Greater Yemen",
+    "hidden": 0,
+    "description": "Play as the Kingdom of Yemen and conquer claimed regions",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/1bdeb569d9c082cf0c41129b6c039abf826f5fa2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/f39a739ce7eafa71913856d97065aded61c8192b.jpg"
+  },
+  {
+    "name": "GREATER_JAPAN",
+    "defaultvalue": 0,
+    "displayName": "Japanese Co-Prosperity Sphere",
+    "hidden": 0,
+    "description": "Play as the Empire of Japan and push the Western Powers from Asia and the Pacific",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/0bb3f89b7e702cbbbbbbff81c3bbda045527a2b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/9ef66f6e342b0b252aa9590ddd90ab2f2a0475fa.jpg"
+  },
+  {
+    "name": "GREATER_MEXICO",
+    "defaultvalue": 0,
+    "displayName": "Reconquesta",
+    "hidden": 0,
+    "description": "Play as Mexico and conquer claimed regions in the US Southwest",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/92cca7e25b125c173e10953e96fae5477349d04f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/394b54e0580e730439acb1a08f502550a98ee295.jpg"
+  },
+  {
+    "name": "MONROE_MAXIM",
+    "defaultvalue": 0,
+    "displayName": "American Hemisphere",
+    "hidden": 0,
+    "description": "Play as the United States and conquer all of the Western Hemisphere",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/c7a07fd7c9ac050fea71512127eb2ef70c5ad691.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/45c1e505a6c7f3c01c71a2d2ea64d2b91b3fcdfd.jpg"
+  },
+  {
+    "name": "GER_TAKE_NEWYORK",
+    "defaultvalue": 0,
+    "displayName": "Germans Occupy New York",
+    "hidden": 0,
+    "description": "Play as Germany and conquer New York City from the Americans",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/7fb9fef128a53eb71bde18798356ad1d7f9a383e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/c78f24f97fddc21afd641bf1bf9d76c28d6289b0.jpg"
+  },
+  {
+    "name": "GER_TAKE_LONDON",
+    "defaultvalue": 0,
+    "displayName": "Germans Take London",
+    "hidden": 0,
+    "description": "Play as Germany and conquer the British capital London",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/5e6eb783e80ba2b1893ff39962bca9c11d44d204.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/c690833a7ecf1696c798f50ed25412b5045da771.jpg"
+  },
+  {
+    "name": "GER_TAKE_PARIS",
+    "defaultvalue": 0,
+    "displayName": "Germans Take Paris",
+    "hidden": 0,
+    "description": "Play as Germany and conquer the French capital Paris",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/d1eed3ff9e6cbc095d9250681231d3958a3e2432.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/e4181c9d8b967055d2b0681305db22436f3b773a.jpg"
+  },
+  {
+    "name": "GER_TAKE_STALINGRAD",
+    "defaultvalue": 0,
+    "displayName": "Germans Take Stalingrad",
+    "hidden": 0,
+    "description": "Play as Germany and conquer the Soviet city of Stalingrad",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/4499b58a7c1c814cd737de1bb990a94bad73e183.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/09f4e75aa76f789d704518f5e3c8fdd137ca36f5.jpg"
+  },
+  {
+    "name": "GER_TAKE_MOSCOW",
+    "defaultvalue": 0,
+    "displayName": "Germans Take Moscow",
+    "hidden": 0,
+    "description": "Play as Germany and conquer the Soviet capital Moscow",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/8de3baef7fd2bb0f474b34e9d9c23c268752fbdc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/9a4ac6329120067b8010258a27e5b48d0d359380.jpg"
+  },
+  {
+    "name": "SOV_TAKE_BERLIN",
+    "defaultvalue": 0,
+    "displayName": "Soviets Take Berlin",
+    "hidden": 0,
+    "description": "Play as the Soviet Union and conquer the German capital Berlin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/842855db7a8f6263ede44b541be0aec1b41e5b57.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/d68324e4159c4dd8b987d05d1d5f085a23f139d5.jpg"
+  },
+  {
+    "name": "USA_TAKE_BERLIN",
+    "defaultvalue": 0,
+    "displayName": "Americans Take Berlin",
+    "hidden": 0,
+    "description": "Play as the USA and conquer the German capital Berlin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/79a879d9d9f9fc2cb07fc3fa4ef2b56f6836ceda.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/a278f83d2ba9adc5e6f499b4bf3f65c32109e7ac.jpg"
+  },
+  {
+    "name": "ALLIES_TAKE_ROME",
+    "defaultvalue": 0,
+    "displayName": "Allies Liberate Italy",
+    "hidden": 0,
+    "description": "Play as the USA or UK and conquer Rome and establish a Democratic Italian state",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/e6b662adbb070c51b7c3f8162b43164ecd832405.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/4d104de1fb31c96e92b7f3d955ec3ac91b42d021.jpg"
+  },
+  {
+    "name": "USA_TAKE_TOKYO",
+    "defaultvalue": 0,
+    "displayName": "Americans Take Tokyo",
+    "hidden": 0,
+    "description": "Play as the USA and conquer the Japanese capital Tokyo",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/c63d77b12253ad8fd295c87e433a17fdbfe5b4d3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/718528578a15059a7fa5027e5d152ba3e8a5649e.jpg"
+  },
+  {
+    "name": "ITA_TAKE_CAIRO",
+    "defaultvalue": 0,
+    "displayName": "Italians Take Cairo",
+    "hidden": 0,
+    "description": "Play as Italy and conquer the Egyptian capital Cairo",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/fdfdde03b3750a5ad2f7664392669a83912c3bd5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/d5768cb89f328ce8d613e247c0b4b514f9b78aa2.jpg"
+  },
+  {
+    "name": "GER_TAKE_DC",
+    "defaultvalue": 0,
+    "displayName": "Germans Take Washington",
+    "hidden": 0,
+    "description": "Play as Germany and conquer the American capital Washington",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/77dcd9755f0c7052e497fe8c9ced04ac0febfdbc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/a8ac326d2567da64a48aa98a84509707ce1920ca.jpg"
+  },
+  {
+    "name": "CONTROL_HOLY_CITIES_CR",
+    "defaultvalue": 0,
+    "displayName": "Corpus Christianum",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/22b5f78cce3731684ebf06fc20031e3a7f116db5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/795163bc8877fa1e968a69bd95102ef1b0320919.jpg"
+  },
+  {
+    "name": "CONTROL_HOLY_CITIES_IS",
+    "defaultvalue": 0,
+    "displayName": "Holy Sites of Islam",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/db0e841b377a3f395a68819f1061337caf525d7a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/96c4d776abbbb2966bd32bee12a8511f880d9915.jpg"
+  },
+  {
+    "name": "ISTANBUL_FALLS",
+    "defaultvalue": 0,
+    "displayName": "Third Rome",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/e41fc4aa1adc110ae0a1fa822fb8b3dbcf2f832c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/28d0a7cca6237aaca67716ea8eb186599a842feb.jpg"
+  },
+  {
+    "name": "1ST_RECRUITS",
+    "defaultvalue": 0,
+    "displayName": "Military Recruiter",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/4a8a95873035b4afb5b91e7a058fe48d4bf6be0a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/fbf58bc938c27692a53c54e29f5d59a03dd9c255.jpg"
+  },
+  {
+    "name": "TURN_10",
+    "defaultvalue": 0,
+    "displayName": "10 Weeks",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/56b76251f5b13dde238ac66055e063e23f381a11.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/5e6c8669b7dc49a77a230ae79c948e0d4cc33b0e.jpg"
+  },
+  {
+    "name": "TURN_52",
+    "defaultvalue": 0,
+    "displayName": "First Year Complete",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/7e223a4df05d5b97154cff3850cfc666955e33af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/78bc146006daff14e0078a5393659710dd8664f2.jpg"
+  },
+  {
+    "name": "END_GAME_LDP",
+    "defaultvalue": 0,
+    "displayName": "Complete Last Days of Peace",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/1ddb4946a2c80b3768dde14a4b8d80d4234c91b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/b814c789c9f7dbeaf7b08841da26041ff4e9b07a.jpg"
+  },
+  {
+    "name": "END_GAME_BFW",
+    "defaultvalue": 0,
+    "displayName": "Complete Building for War",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/b27c264ddf9f305696914a8de4e29bba74aee374.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/dbe2542e2abb2ae7aa34f96b49ae5829a48ae885.jpg"
+  },
+  {
+    "name": "BLITZKRIEG",
+    "defaultvalue": 0,
+    "displayName": "Blitzkrieg",
+    "hidden": 0,
+    "description": "Complete conquest of Poland in 6 turns as Germany or the Soviet Union (must control at least 6 regions)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/18d1bab79811d66243e359b981362da3e3907d09.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/5ff5ec10c5c493e2d8208fe3bea93a419193b516.jpg"
+  },
+  {
+    "name": "AVOID_MAGINOT",
+    "defaultvalue": 0,
+    "displayName": "The Maginot Line",
+    "hidden": 0,
+    "description": "As Germany invade France by going through Belgium (must have conquered Belgium and the Netherlands)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/19fe9fefebba10907c5d88e01860b3d3d8ec73dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/7c1c0e3271fb6d0df76bb2c8f5186ea938ba6cbf.jpg"
+  },
+  {
+    "name": "VE_DAY",
+    "defaultvalue": 0,
+    "displayName": "V-E Day",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/7c040e7ecb0488cdb19f29f9baafc054122cea68.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/428d875b17e52ad971159c81fdae274d468f349b.jpg"
+  },
+  {
+    "name": "VJ_DAY",
+    "defaultvalue": 0,
+    "displayName": "V-J DAY",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/87c26008524dee3d86d2f7d0e27151361824e71b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/8c0f6a6c128769633c2b240948e0128e59f424bf.jpg"
+  },
+  {
+    "name": "BOMB_BERLIN",
+    "defaultvalue": 0,
+    "displayName": "Bomb Berlin",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/ba5bada44575296607bfa742afb98c612303c745.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/2ec1c1a029bdba2e9ee2cd9804f35169c3f963c1.jpg"
+  },
+  {
+    "name": "BOMB_TOKYO",
+    "defaultvalue": 0,
+    "displayName": "Bomb Tokyo",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/347152183cbc6f54ca21c9a74509c3705d22e4f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/b83fbcf890be11fd0760dec402da9d72a983ad3c.jpg"
+  },
+  {
+    "name": "BATTLE_OF_BRITIAN",
+    "defaultvalue": 0,
+    "displayName": "Battle of Britian",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/a57ed816066f32592a3b8a07418a50006998abc1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/97bf821180f2661c7bb4e3fb9d085ad0f1396338.jpg"
+  },
+  {
+    "name": "BOMB_SANFRANCISCO",
+    "defaultvalue": 0,
+    "displayName": "Bomb San Francisco",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/ab30354e21ffaafb0952e98e6d50fa0086ac7a21.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/8d513d7644de10c05e72db5f3448f09c4e1d2964.jpg"
+  },
+  {
+    "name": "CARPETBOMB_HAMBURG",
+    "defaultvalue": 0,
+    "displayName": "Carpet Bomb Hamburg",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/251221b3db70bf83b8de373031d35db50ee71d19.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/8a9804d313d89432433f88bff58badb843d7ecca.jpg"
+  },
+  {
+    "name": "CARPETBOMB_LONDON",
+    "defaultvalue": 0,
+    "displayName": "Carpet Bomb London",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/89b38e9ba123775e6ec361b10596473f24f625c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/cf98beba7616f87fe582b0c34aebb795ac247927.jpg"
+  },
+  {
+    "name": "NUKE_CITY",
+    "defaultvalue": 0,
+    "displayName": "Drop Atomic Bomb",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/99cc4c3636d8beed5542b4601a490b113ff59c6e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/ab8c7d6db40d553cf5f0e6e62fa5ec46eee1c0b0.jpg"
+  },
+  {
+    "name": "V1_ATTACK_LONDON",
+    "defaultvalue": 0,
+    "displayName": "V1 Launched",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/f27131744b417ac96ca20f40aaf6cfd930054856.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/75e1c8febe7717b03188bcb7ff24132f29f260f4.jpg"
+  },
+  {
+    "name": "V2_ATTACK_LONDON",
+    "defaultvalue": 0,
+    "displayName": "V2 Launched",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/138a31572a4842694d049f5d7a75c53374be77e3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/0aef4ae7c5d577612f8927bc500ea694e610e1c0.jpg"
+  },
+  {
+    "name": "INDUSTRIAL_PLANT",
+    "defaultvalue": 0,
+    "displayName": "Industrial Plant",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/f1b443150599742b41adff300e65c8052187578a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/a48c21ffcc4e710aeaf930602aabda9898d7cdb3.jpg"
+  },
+  {
+    "name": "INDUSTRIAL_ENTERPRISE",
+    "defaultvalue": 0,
+    "displayName": "Industrial Enterprise",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/2ce250144b7fff219dd34586ec0ad8b34418468b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/72e3fe4024abc47c4b6aada3d82306b411ff3ea8.jpg"
+  },
+  {
+    "name": "RESEARCH_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Most Advanced Nation",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/4833586ecead067bb7389b2391b2d77945ddca7e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/2dad40169c5cf6ccbbc1ccd02b1df1afa40533e9.jpg"
+  },
+  {
+    "name": "INDUSTRIAL_AGE",
+    "defaultvalue": 0,
+    "displayName": "Enter the Industrial Age",
+    "hidden": 0,
+    "description": "Complete the Early Industrialization research project",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/d4436cb4a30050bee2c1bc9c6a284207aad4b018.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/27f91e29d226bca7cc841a31280ca2faaef319fb.jpg"
+  },
+  {
+    "name": "MACHINE_AGE",
+    "defaultvalue": 0,
+    "displayName": "Enter the Machine Age",
+    "hidden": 0,
+    "description": "Complete the Chemical Engineering research project",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/f3a83c29f40cc902b296a027b9790c9deb2e5366.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/dbb53b18b9cfedf5131d4157f8b866bff89c887f.jpg"
+  },
+  {
+    "name": "ATOMIC_AGE",
+    "defaultvalue": 0,
+    "displayName": "Enter the Atomic Age",
+    "hidden": 0,
+    "description": "Complete the Aviation Engineering research project",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/be970575093b9c390c57f2580e7f055a57a30d57.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/d6fb8a6a27813527a7374166696d0f9731208d5a.jpg"
+  },
+  {
+    "name": "NUCLEAR_POWER",
+    "defaultvalue": 0,
+    "displayName": "Become a Nuclear Power",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/2c354ebcb5a2cc072b6ca93ba5f154117ff2b8dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/813b21e078afb9d92eaa73efe3c85974f5ca2ea5.jpg"
+  },
+  {
+    "name": "SPACE_AGE",
+    "defaultvalue": 0,
+    "displayName": "Enter the Space Age",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/f1bd516c36620e064d938e297ac9b377d99144d3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/16cdba1ca15fdb7928d6b5331d36d4f3ca143d53.jpg"
+  },
+  {
+    "name": "ATLANTIC_WALL",
+    "defaultvalue": 0,
+    "displayName": "Build Atlantic Wall",
+    "hidden": 0,
+    "description": "Construct Coastal Defenses along the Western Atlantic shore regions from Finnmark to Aquitaine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/5ff366b6746650835ac1f6d5f913a3fe3bc444c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/06653c810f17bb1860a6bd5ff78d79fb59296728.jpg"
+  },
+  {
+    "name": "CZECHS_REJECT_MUNICH",
+    "defaultvalue": 0,
+    "displayName": "Czechs Reject Munich",
+    "hidden": 0,
+    "description": "As Czechoslovakia reject the Munich Agreement and survive until the end of the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/494ce5016a339b4ae09a8afa5c015395840e9ee6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/4ca6008e38f4dc2689a2afda8f57c3937e523454.jpg"
+  },
+  {
+    "name": "POLISH_SURVIVAL",
+    "defaultvalue": 0,
+    "displayName": "Polish Survival",
+    "hidden": 0,
+    "description": "Play as Poland in the Last Days of Peace scenario and survive until the end of the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/d2c3558993b361ea87f3feb3191220fb87afe1e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/603d221d9bd95a4bc6682e4098e52339f78abc1d.jpg"
+  },
+  {
+    "name": "ANSCHLUSS",
+    "defaultvalue": 0,
+    "displayName": "Anschluss",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/39d213539694875bbf4c31828e96139788496d5f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/ebcff62258107cce56423346bf898eee8fe08289.jpg"
+  },
+  {
+    "name": "SOVIET_SATELLITES",
+    "defaultvalue": 0,
+    "displayName": "Iron Curtain",
+    "hidden": 0,
+    "description": "Play as the Soviet Union and create Soviet puppets in Romania, Hungary, Poland, Bulgaria, Czechoslovakia, and East Germany",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/fa09b8e25f1d0b94f975ada2ee5510116a162e06.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/39dc04e339afeed7fc0edee314a59329ae9c35a4.jpg"
+  },
+  {
+    "name": "JAPAN_TAKES_HAWAII",
+    "defaultvalue": 0,
+    "displayName": "Japan Occupies Hawaii",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/2ce38130372e911cc0e29ce5eb1ab5da04c49884.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/a6903e31a4860bfbba45007699449f0e9613520c.jpg"
+  },
+  {
+    "name": "SOVIET_SURRENDER",
+    "defaultvalue": 0,
+    "displayName": "Soviet Surrender to Axis",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/8d6468527a2e848b5a6f1fc6f2b4abdefba0f30c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/58429783b168217965bd0175d0d741321cc126fe.jpg"
+  },
+  {
+    "name": "NATIONALISTS_WIN_SPAIN",
+    "defaultvalue": 0,
+    "displayName": "Nationalist Victory in Spain",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/80d0a1a7140f320497e46e5be503369eac905ddc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/629ad181d1bedc30748e0946d2a6bf97ed44bc14.jpg"
+  },
+  {
+    "name": "REPUBLICANS_WIN_SPAIN",
+    "defaultvalue": 0,
+    "displayName": "Republic Victory in Spain",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/a42b01b13d47224d98af793b6e4eab825839c381.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/28496b8c0184c9cd690690bf317e8594faab7b76.jpg"
+  },
+  {
+    "name": "CONQUER_REGION",
+    "defaultvalue": 0,
+    "displayName": "Battle Tested",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/2cac4f36796eea64edcfba84d99ac599a03f9ec4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/8e8298d1989eb73ba2fff0d721f6d2300ebfe46c.jpg"
+  },
+  {
+    "name": "ANNEX_NATION",
+    "defaultvalue": 0,
+    "displayName": "Conqueror",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/f036ed11d332b5cda6a19db56762147c263b32aa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/37bb70d5ae6a47a5b5d37d77fef53d029b603c29.jpg"
+  },
+  {
+    "name": "ESTABLISH_COLONY",
+    "defaultvalue": 0,
+    "displayName": "Colonizer",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/9bf0950822ec425d9fbfb62850ec167f9070168b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/b13006ac444f3709159c843e48480fec9e145ab2.jpg"
+  },
+  {
+    "name": "ESTABLISH_PUPPET",
+    "defaultvalue": 0,
+    "displayName": "Buffer State",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/a8d3cc7aded75acfbf884282b2d15fda70c9b7c8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/42e5d94f166de54667b25a84da73f39750c732fe.jpg"
+  },
+  {
+    "name": "ESTABLISH_INDEPENDENT",
+    "defaultvalue": 0,
+    "displayName": "Liberator",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/a9893bfbf6d4d5770f21ec1f3caa3ffde27017f5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/b6c19d3f244620fab30f6c57922db4f0fdbac4bb.jpg"
+  },
+  {
+    "name": "ANNEX_RHINELAND",
+    "defaultvalue": 0,
+    "displayName": "Remilitarize Rhineland",
+    "hidden": 0,
+    "description": "As Germany annex Rhineland and Palatinate in the Building for War scenario",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/276cc04d1cd046ecd1134ea2a07619850c59fc9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/01d7a404904c31de15176787abba609a7d92c9d7.jpg"
+  },
+  {
+    "name": "FORM_AXIS",
+    "defaultvalue": 0,
+    "displayName": "Form Axis Alliance",
+    "hidden": 0,
+    "description": "Establish alliance with Germany, Kingdom of Italy, and the Empire of Japan",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/b8e194260767f25234cf0103c09b88c65224a080.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/61203d7cc0676677cf3a53bc542ee56a2d913154.jpg"
+  },
+  {
+    "name": "MINOR_AXIS",
+    "defaultvalue": 0,
+    "displayName": "Secure Eastern Borders",
+    "hidden": 0,
+    "description": "As Germany, succeed in getting Hungary, Romania, and Bulgaria to join the Axis alliance",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/70214819fde65dd4cc2d32eb0782e06d6e5362af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/0aabc7fd176b0becee4dbb7d7e46128486f97278.jpg"
+  },
+  {
+    "name": "OPERATION_SEA_LION",
+    "defaultvalue": 0,
+    "displayName": "Invasion of Britian",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/9431b7dcb9c43904b7f6e52b2e04ab64aa10c553.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/42326a32d67f5df342a0c77c30cc7d56caab6441.jpg"
+  },
+  {
+    "name": "WINTER_WAR_USSR",
+    "defaultvalue": 0,
+    "displayName": "Soviets Winter War Victory",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/a26f26a6420962a5a0dd79dbdaeaac156edac3bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/09e9b42670a30ebbc92e1adc7507a2f115fad9bb.jpg"
+  },
+  {
+    "name": "WINTER_WAR_FIN",
+    "defaultvalue": 0,
+    "displayName": "Finnish Winter War Victory",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/c312c77b2e9e297885607b4c61714b6aff86f283.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/eb8e9c2eb5248c31970e0f49995635934eb455d2.jpg"
+  },
+  {
+    "name": "LIBERATE_FRANCE",
+    "defaultvalue": 0,
+    "displayName": "Liberator of France",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/fa908234f2a385e9f73a5cb0895d61657a6f2d8d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/846c76eb77ebf321b0fd0d8ca249704af7733695.jpg"
+  },
+  {
+    "name": "LIBERATE_BELGIUM",
+    "defaultvalue": 0,
+    "displayName": "Liberator of Belgium",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/de0a1d6f1649ab6b144f1aa69968020563151fb6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/4f089527caad12e5446f4cae977caae9dbddd470.jpg"
+  },
+  {
+    "name": "LIBERATE_POLAND",
+    "defaultvalue": 0,
+    "displayName": "Liberator of Poland",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/0163d54672b965ad06548ac476202e296767c746.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/4bca898a99e17fe0065cc2cc7fcc3aba6b350637.jpg"
+  },
+  {
+    "name": "LIBERATE_AUSTRIA",
+    "defaultvalue": 0,
+    "displayName": "Liberator of Austria",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/e00649a1e99672968e9bbfe681a68f805b304858.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/000a56da2b91243275989f5c7805d6b10a65ff55.jpg"
+  },
+  {
+    "name": "FOUND_NEW_GERMANY",
+    "defaultvalue": 0,
+    "displayName": "Established New German Government",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/0c2db8e52ff2e8a4c79c987e91b4e973cad2ad07.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/fd8f6a03e3bb08905653838d0a6ec299b1b5ea89.jpg"
+  },
+  {
+    "name": "DEFEAT_USA",
+    "defaultvalue": 0,
+    "displayName": "Defeat America",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/429dcb58c80cb78866d4e7d07de6cd3139a946d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/626f65b76a5ce6e407f2ce06395d6ddb97670660.jpg"
+  },
+  {
+    "name": "CONQUER_SOUTHAMERICA",
+    "defaultvalue": 0,
+    "displayName": "Conquer South America",
+    "hidden": 0,
+    "description": "Control all regions in South America",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/bdc9500f8f2d6b3207b6e0836c5634feeee083aa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/7b95e0a71bad405c740975dec36609e7374d6151.jpg"
+  },
+  {
+    "name": "CONQUER_NORTHAMERICA",
+    "defaultvalue": 0,
+    "displayName": "Conquer North America",
+    "hidden": 0,
+    "description": "Control all regions in North America",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/54afb207bf20de549e443778bff367c71f202de1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/9b2c4f764af16174ba60be052add3d0e70a5f487.jpg"
+  },
+  {
+    "name": "CONQUER_EUROPE",
+    "defaultvalue": 0,
+    "displayName": "Conquer Europe",
+    "hidden": 0,
+    "description": "Control all regions in Europe",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/2db3fbc7394ca60c13dc7031f281fd24295b3995.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/40705a1f9b5c121c0a20affc7fd0caa9588f7569.jpg"
+  },
+  {
+    "name": "CONQUER_AFRICA",
+    "defaultvalue": 0,
+    "displayName": "Conquer Africa",
+    "hidden": 0,
+    "description": "Control all regions in Africa",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/2de08e3e931d86c5afc64b6d08ae67337912244a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/b210e5be826c3d294ee3dc93c4958442b1fb701b.jpg"
+  },
+  {
+    "name": "CONQUER_ASIA",
+    "defaultvalue": 0,
+    "displayName": "Conquer Asia",
+    "hidden": 0,
+    "description": "Control all regions in Asia",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/86e9fc1d2e5732147a4d9d7102246fdf2a59fffb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/261c137102336db61c708f832bdd529437124f8d.jpg"
+  },
+  {
+    "name": "BARBAROSSA",
+    "defaultvalue": 0,
+    "displayName": "Barbarossa",
+    "hidden": 0,
+    "description": "As Germany conquer 50 Soviet regions in Europe",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/65880b67219a67389e411d3345ac5483a2add2fa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/bf46b6ce06684d3f4baa42b03c83e21cc4ad970b.jpg"
+  },
+  {
+    "name": "ESTABLISH_VICHY",
+    "defaultvalue": 0,
+    "displayName": "Establish Vichy",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/d18a3f7e679e008cf34a0b8148a985b7685928da.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/fab789b6d4092c7870e197f3f4ec1603756b0046.jpg"
+  },
+  {
+    "name": "GREATER_EGYPT",
+    "defaultvalue": 0,
+    "displayName": "Greater Egypt",
+    "hidden": 0,
+    "description": "Play as Egypt conquer Anglo-Egyptian Sudan",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/a17095f99d11896849dda31dc51b91fea65bfa54.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/135eb83639017b36db47f99e3013b31cd03c4eb4.jpg"
+  },
+  {
+    "name": "GREATER_PORTUGAL",
+    "defaultvalue": 0,
+    "displayName": "Lusitanic Empire",
+    "hidden": 0,
+    "description": "Play as Portugal, conquer North and South Rhodesia, Nyasaland, Galicia and Brazil",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/635a78711156d1ee1193b7c7551e5e227897d88a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/67fa7b1d78dad3fd5e8d02c49597f336e785e250.jpg"
+  },
+  {
+    "name": "FOUND_SCANDIVA_SWE",
+    "defaultvalue": 0,
+    "displayName": "Sweden Founds Scandinavian Union",
+    "hidden": 0,
+    "description": "Play as Sweden, form Scandinavian Union and conquer Scandinavian Claims",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/99b241f0cdf59b50b2da2b8391e090bc3c8df283.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/cb43e00e4f4de756f83e0dd7acba9165dfb5484e.jpg"
+  },
+  {
+    "name": "FOUND_SCANDIVA_DEN",
+    "defaultvalue": 0,
+    "displayName": "Denmark Founds Scandinavian Union",
+    "hidden": 0,
+    "description": "Play as Denmark, form Scandinavian Union and conquer Scandinavian  Claims",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/c0219e1fee28d9d48b17ecfca1f5b1950956e0e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/cb43e00e4f4de756f83e0dd7acba9165dfb5484e.jpg"
+  },
+  {
+    "name": "FOUND_SCANDIVA_NOR",
+    "defaultvalue": 0,
+    "displayName": "Norway Founds Scandinavian Union",
+    "hidden": 0,
+    "description": "Play as Norway, form Scandinavian Union and conquer Scandinavian Claims",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/3d24b6945f67adc6402ccedb62b7bd704fc764b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/cb43e00e4f4de756f83e0dd7acba9165dfb5484e.jpg"
+  },
+  {
+    "name": "FRA_TAKE_BERLIN",
+    "defaultvalue": 0,
+    "displayName": "French Take Berlin",
+    "hidden": 0,
+    "description": "Play as France and conquer the German capital Berlin.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/fda4dc86775477a35b782f9d60441a72f3b384d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/462940/3ed7ca8d9cd7e2d3ea9dbad72be10d3f8bb54acd.jpg"
+  }
+]

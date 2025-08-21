@@ -1,0 +1,902 @@
+[
+  {
+    "name": "ACHV_COMPLETE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "survivor",
+    "hidden": 0,
+    "description": "defeat all enemies in a level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/925891b01e2116ccf04635fb7bb3e5cef3c1f474.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/9354a1b9518d227fc3d149190dbeb1244120d49f.jpg"
+  },
+  {
+    "name": "ACHV_UNLOCK_TELEPORT",
+    "defaultvalue": 0,
+    "displayName": "protector",
+    "hidden": 0,
+    "description": "complete a level with a 100% survival rate",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/ea7d87c7d22284dd5f61139ffe4e3a358929003a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/4ac4e861f3aaacdc36c31b4284b522453ec062ce.jpg"
+  },
+  {
+    "name": "ACHV_COMBO_X5",
+    "defaultvalue": 0,
+    "displayName": "grim reaper",
+    "hidden": 0,
+    "description": "get a combo of five or more",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/95c64f1915736ec8c7704683c264a51beec4d504.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/4d991fea198a7c0ce45a51818347642dd7f693f7.jpg"
+  },
+  {
+    "name": "ACHV_COMBO_X10",
+    "defaultvalue": 0,
+    "displayName": "devastator",
+    "hidden": 0,
+    "description": "get a combo of ten or more",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/d95fe08e8e482451f2a96d971e15d0204eb574b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/e9a14a1bf88fb6e901deb6c451472ef25e02648d.jpg"
+  },
+  {
+    "name": "ACHV_JETBOARD_X12",
+    "defaultvalue": 0,
+    "displayName": "board to death",
+    "hidden": 0,
+    "description": "defeat 12 enemies in one jetboard attack",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8bd2700f9c0d6e2f9562a8cccc017329ddb7eab6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/e1ce465a6dd7e7acb56157ffffe4cc4e3266b114.jpg"
+  },
+  {
+    "name": "ACHV_SCAVENGER",
+    "defaultvalue": 0,
+    "displayName": "scavenger",
+    "hidden": 0,
+    "description": "retrieve cash from a lost jetsuit",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/2a5d3618ea0057d205cf79569b79b11fe2c0d891.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/67e87197c9463785a5e2a7692eaa0deec164dfc2.jpg"
+  },
+  {
+    "name": "ACHV_SAVIOUR",
+    "defaultvalue": 0,
+    "displayName": "saviour",
+    "hidden": 0,
+    "description": "save a baby from abduction",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/571805f9ccdc75037d87489e181ed0bd54e5342a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/768822c493a90cb005119fc83af33da773401080.jpg"
+  },
+  {
+    "name": "ACHV_CASH_10k",
+    "defaultvalue": 0,
+    "displayName": "money bags",
+    "hidden": 0,
+    "description": "have 10,000 coins in the bank",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8d9e55f57f38e998b8764347236c6051494ec759.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/d74739557eb0fe21ed0f11304e430cd98d7c874c.jpg"
+  },
+  {
+    "name": "ACHV_TREASURE_CHAMBER",
+    "defaultvalue": 0,
+    "displayName": "treasure hunter",
+    "hidden": 0,
+    "description": "unlock a treasure chamber",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/f5c4b6c8e0b137ae5c5da0a42bdec87623da38f0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/c2352a3a1ac5a4b7d78c0fee69f214327c121ca7.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_STINGER",
+    "defaultvalue": 0,
+    "displayName": "pest control",
+    "hidden": 0,
+    "description": "defeat the 'stinger' boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/61a69623785e317b5b28f88bbfb9ee85bdca6da9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/964a456124f40632a46232d47c182a3952ecc325.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_SNAPPER",
+    "defaultvalue": 0,
+    "displayName": "fish supper",
+    "hidden": 0,
+    "description": "defeat the 'snapper' boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/775806770fdc96d852dec68ef91fb1e6782b53b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/2277caf21007ac739444cc27b9e2d67bba669508.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_SPINNER",
+    "defaultvalue": 0,
+    "displayName": "arachnophobia",
+    "hidden": 0,
+    "description": "defeat the 'spinner' boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/6318bb699716b821fee73cd19e1eafe346d7c99d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/5e1a5c30e63253a07d5d0029ae6baa4289ab859b.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_SQUIRMER",
+    "defaultvalue": 0,
+    "displayName": "early bird",
+    "hidden": 0,
+    "description": "defeat the 'squirmer' boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/a0c003ca8f324bc043b51963382abfec3df95b1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/cc5bf61ba2ebae838e20f22923a9996e22dfe17d.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_OCTOPOID",
+    "defaultvalue": 0,
+    "displayName": "sucker punch",
+    "hidden": 0,
+    "description": "defeat the 'grappler' boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/0d983cc6f14f0480aef022c6efd9fcdda0a25926.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8759d4ac541de522f1e47a4217669e23a9cb50e7.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_STINGER_SPEEDRUN",
+    "defaultvalue": 0,
+    "displayName": "buzz kill",
+    "hidden": 0,
+    "description": "defeat the 'stinger' boss in under 75s",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/5d263909695841a2fc380778bd986351bf3963f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/e53b1b280c1f69913d3a2372743a13fdd41940b4.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_SNAPPER_SPEEDRUN",
+    "defaultvalue": 0,
+    "displayName": "flash fried",
+    "hidden": 0,
+    "description": "defeat the 'snapper' boss in under 150s",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/0bea1734421133d638eee250039a6ada1d56a8ca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/91eed66a73bca8104ab96367d7a7b2274d116c8c.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_OCTOPOID_SPEEDRUN",
+    "defaultvalue": 0,
+    "displayName": "sushi to go",
+    "hidden": 0,
+    "description": "defeat the 'grappler' in under 260s",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/4131532875ee2a89b9dde07cf1f422e2345aa658.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/c738b2e4836560810f43a2afb0086e89b1fa3db5.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_STINGER_PISTOL",
+    "defaultvalue": 0,
+    "displayName": "buzz off",
+    "hidden": 0,
+    "description": "beat the 'stinger' with your default weapon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/cf51257d0da7bd99b617eb5e5ffbc8240b6e50a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8efa67a19c678529b18d267a9eedcafb16f7578c.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_SNAPPER_PISTOL",
+    "defaultvalue": 0,
+    "displayName": "fish in a barrel",
+    "hidden": 0,
+    "description": "beat the 'snapper' with your default weapon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8984f4da6a145654310275370257c60bddda9df0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/12fd0e1d9e40c03c863b40e02956e60d044e28e0.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_SPINNER_PISTOL",
+    "defaultvalue": 0,
+    "displayName": "itsy bitsy",
+    "hidden": 0,
+    "description": "beat the 'spinner' with your default weapon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/42b57bd2fec7d0850ff7d5370754beebbbc37e09.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/35a5cad633767fd80ec72a35668262621c4d62bc.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_SQUIRMER_PISTOL",
+    "defaultvalue": 0,
+    "displayName": "conquer the worm",
+    "hidden": 0,
+    "description": "beat the 'squirmer' with your default weapon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/6319e9ef748f78d3814652d6c20b41f1e87ac1ba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/9cc46643eb284b370960d51223ddf03c60241704.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_OCTOPOID_PISTOL",
+    "defaultvalue": 0,
+    "displayName": "disappearing ink",
+    "hidden": 0,
+    "description": "beat the 'grappler' with your default weapon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/443cccd4d4069053c934bfb9f0029a1cd388a655.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/def639b6598761d71209adb7acd2f36177b0a13b.jpg"
+  },
+  {
+    "name": "ACHV_WORLD01_KILLSTREAK",
+    "defaultvalue": 0,
+    "displayName": "bulletproof level 1",
+    "hidden": 0,
+    "description": "get a x500 killstreak",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/bb0cb05cd717d0f5d4df1ed7c278eabd752e7a8f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/bbb1d7d3e228473acb9372a9f65cd9aaf5d1270d.jpg"
+  },
+  {
+    "name": "ACHV_WORLD02_KILLSTREAK",
+    "defaultvalue": 0,
+    "displayName": "bulletproof level 2",
+    "hidden": 0,
+    "description": "get a x1000 killstreak",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/2d085e96abc2e44042cbb06083c8d6794a375fbd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/c1d73c07d319e94dcd94f47c7b429529634d6b97.jpg"
+  },
+  {
+    "name": "ACHV_WORLD03_KILLSTREAK",
+    "defaultvalue": 0,
+    "displayName": "bulletproof level 3",
+    "hidden": 0,
+    "description": "get a x2000 killstreak",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/cb1fffb45e842e40c69884f5f7947edf2b9b93fe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/995a327b93d01f6d09388944d9277ca84d05ec0c.jpg"
+  },
+  {
+    "name": "ACHV_WORLD04_KILLSTREAK",
+    "defaultvalue": 0,
+    "displayName": "bulletproof level 4",
+    "hidden": 0,
+    "description": "get a x3000 killstreak",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/d7346b28ca3abfa88f661fc1e5f33e215279aaf7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/4ecee60a453bebeb69df9717c629eedfdaa46a62.jpg"
+  },
+  {
+    "name": "ACHV_WORLD01_SPEEDRUN",
+    "defaultvalue": 0,
+    "displayName": "speed-freak level 1",
+    "hidden": 0,
+    "description": "complete a level in stinger's world under 140s",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/db8e3002ebf2d978e268691be2739a2d875fca08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/b89aa27ce599b08c435c837549d36e22e5876b52.jpg"
+  },
+  {
+    "name": "ACHV_WORLD02_SPEEDRUN",
+    "defaultvalue": 0,
+    "displayName": "speed-freak level 2",
+    "hidden": 0,
+    "description": "complete a level in snapper's world under 140s",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/10e70eec304f03037f50884b37ff994fa8abecd0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/429cb2bd640dff262e7f42f4c889db5dd318f371.jpg"
+  },
+  {
+    "name": "ACHV_WORLD03_SPEEDRUN",
+    "defaultvalue": 0,
+    "displayName": "speed-freak level 3",
+    "hidden": 0,
+    "description": "complete a level in spinner's world under 180s",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8dff2df9dd68a7ce6b9a0697b1383ab4c247d6c0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/a02ad5b1c8d3901e740ecf12eb61258e80e08605.jpg"
+  },
+  {
+    "name": "ACHV_WORLD04_SPEEDRUN",
+    "defaultvalue": 0,
+    "displayName": "speed-freak level 4",
+    "hidden": 0,
+    "description": "complete a level in squirmer's world under 210s",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/40ed261a7c0e68f4c331ebd567e153fd7a098458.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/9e730acd8fd6bda22724aeca0349c38fe2006ee8.jpg"
+  },
+  {
+    "name": "ACHV_WORLD05_SPEEDRUN",
+    "defaultvalue": 0,
+    "displayName": "speed-freak level 5",
+    "hidden": 0,
+    "description": "complete a level in grappler's world under 260s",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/5d69bc0c7ed6f241fb3dd13ac6768eb9590a58e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/925563cac55ade046489375d32ba11cca385c57f.jpg"
+  },
+  {
+    "name": "ACHV_SHOTGUN_MASTER",
+    "defaultvalue": 0,
+    "displayName": "shotgun maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the shotgun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/66824d929abb24e938c11e2988d4ae7ae49a05f7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/bf9fe7b3dff8dfd224b9704ea848ec4b95541db4.jpg"
+  },
+  {
+    "name": "ACHV_GATLING_MASTER",
+    "defaultvalue": 0,
+    "displayName": "gatling maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the gatling gun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/02c0507602aa3b4a36b82a74813c0c463b157fe1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/f5dd99a4b7e887ec3956761d790c0c935337b457.jpg"
+  },
+  {
+    "name": "ACHV_UZI_MASTER",
+    "defaultvalue": 0,
+    "displayName": "uzi9mm maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the uzi9mm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/2a183ee94db6b760c1c716d7cd52eb394cbfb5fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/9e5da609ecab50197505b9247292f69542297dc8.jpg"
+  },
+  {
+    "name": "ACHV_JETBOARD_NOVICE",
+    "defaultvalue": 0,
+    "displayName": "jetboard prodigy",
+    "hidden": 0,
+    "description": "get 50 kills with the jetboard",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/067d3e434c4526a4b74b87549ce146a734bf95b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/fb8f6789a7c751f16b9ce69fd642efe7d35b8af2.jpg"
+  },
+  {
+    "name": "ACHV_JETBOARD_MASTER",
+    "defaultvalue": 0,
+    "displayName": "jetboard maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the jetboard",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/e4588053556c21814837b160a7d1433b908dedbd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/1b17f92b58cc00b92c636c17e206c2c57a520995.jpg"
+  },
+  {
+    "name": "ACHV_FLAMETHROWER_MASTER",
+    "defaultvalue": 0,
+    "displayName": "flamethrower maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the flamethrower",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/3bd15c9eb3a25d5464f7e59c9e463d3e741192aa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8680681d950d721710a5100360ac703d70ccc413.jpg"
+  },
+  {
+    "name": "ACHV_GRENADE_MASTER",
+    "defaultvalue": 0,
+    "displayName": "grenade maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the grenade launcher",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/e118093f49e0ce341b80e8c735b7b6c093e73641.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/11eb5618461434b3aca91299380837933eea9274.jpg"
+  },
+  {
+    "name": "ACHV_RPG_MASTER",
+    "defaultvalue": 0,
+    "displayName": "r.p.g. maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the r.p.g.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/2fb10a15ac5c59961bf9121f65e148ba08889dc1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/aeca181e36cdfcd64d2e30e8bedc1c1cd162b759.jpg"
+  },
+  {
+    "name": "ACHV_PLASMARFL_MASTER",
+    "defaultvalue": 0,
+    "displayName": "plasma maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the plasma rifle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/3958ce6055c210c4f13e93e2ac592d01e8329796.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8b314d3a91c53ee84377a6793fbea7cfb5df5fc0.jpg"
+  },
+  {
+    "name": "ACHV_PULSECNN_MASTER",
+    "defaultvalue": 0,
+    "displayName": "pulse maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the pulse cannon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/c4552cc0fa6dac77ee14dec37ded0c336680a390.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/70a21cc02ce5e9860f457635ccb2c1a6275b1725.jpg"
+  },
+  {
+    "name": "ACHV_PARTICLESTRM_MASTER",
+    "defaultvalue": 0,
+    "displayName": "particle maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the particle storm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/2243d8f707ab251303ea22e8348db284bd6d41f3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/4ef494f9122ef2b2ed3b41e082b57f6d82df4c04.jpg"
+  },
+  {
+    "name": "ACHV_GAMMARAY_MASTER",
+    "defaultvalue": 0,
+    "displayName": "gamma ray maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the gamma ray",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/0490edfd9648784997fcef0b613622bcb415dc76.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/62c8a24c114169b49949590f8a7b90ed17fcf828.jpg"
+  },
+  {
+    "name": "ACHV_SONICBOOM_MASTER",
+    "defaultvalue": 0,
+    "displayName": "sonic boom maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the sonic boom",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/c9343ab92e0cc939bbe73d83c1599980e764d3fa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/9086085cc6bb5cff87c977a8c3e378fda848fd85.jpg"
+  },
+  {
+    "name": "ACHV_SHREDDER_MASTER",
+    "defaultvalue": 0,
+    "displayName": "shredder maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the shredder",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/78440bd95a344cf586c69b6233e34fdd1974c2a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/a2b4efa821770e64632b0be03ef8e9d9b9982789.jpg"
+  },
+  {
+    "name": "ACHV_ANTIMATTER_MASTER",
+    "defaultvalue": 0,
+    "displayName": "antimatter maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the antimatter gun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/3ebab9765b563059ca8e50ff969d7915d60c5bde.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/4dcf3af5a0bf65c82bec96dad1b135d4efd23c2d.jpg"
+  },
+  {
+    "name": "ACHV_LIMPET_MASTER",
+    "defaultvalue": 0,
+    "displayName": "limpet min maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the limpet mine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/1de468f5ad4e37b29b73c35fa17e84ed83b9c3a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/fa504bc39f25f474b742e8e9c6687c92e05ab195.jpg"
+  },
+  {
+    "name": "ACHV_GRAVITYHMR_MASTER",
+    "defaultvalue": 0,
+    "displayName": "gravity maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the gravity hammer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/cf6d022385617b3cd3cddd509e695b31ae2b4bb1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/6f4640b5fecb389c04ab6d9605b3af358d72fe12.jpg"
+  },
+  {
+    "name": "ACHV_CLUSTERBMB_MASTER",
+    "defaultvalue": 0,
+    "displayName": "cluster maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the cluster bomb",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/b34b29ffc096aa0ede0a827d5036e5330c72f934.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/7af9da15e56b07816c37424bf54653cbf4248603.jpg"
+  },
+  {
+    "name": "ACHV_LASER_MASTER",
+    "defaultvalue": 0,
+    "displayName": "laser maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the laser rifle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/85de3a6c9d9e0511f8687b639637a6033a203ef9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/70cadf3f51bf9911fdac5752463d84304bb0cb14.jpg"
+  },
+  {
+    "name": "ACHV_PULSERPTR_MASTER",
+    "defaultvalue": 0,
+    "displayName": "repeater maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the pulse repeater",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/b04c5823a5d01b255191394578af6badb560846c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/9eb4a6f1b1623fdd4e052097b708987ae1edf402.jpg"
+  },
+  {
+    "name": "ACHV_TRPLLASER_MASTER",
+    "defaultvalue": 0,
+    "displayName": "mutator maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the phase mutator",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/3cd59aea323145ef0467f2de88d0f8dfeb88ce67.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/1ed2b97563c833ea5a3d5e48c98038c34371c3ff.jpg"
+  },
+  {
+    "name": "ACHV_PHASEINV_MASTER",
+    "defaultvalue": 0,
+    "displayName": "splitter maestro",
+    "hidden": 0,
+    "description": "get 500 kills with the ion splitter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/c1a1072ed09a535cd92e597de6d8ef50ac2eb3e6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/c790517073ac0bd46060cade0e712f07108b1734.jpg"
+  },
+  {
+    "name": "ACHV_MINION_KILLER",
+    "defaultvalue": 0,
+    "displayName": "trooper scooper",
+    "hidden": 0,
+    "description": "defeat 25 'trooper' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/90cde87740288149d249a3278ff6ee41344ff195.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/7a90deb6143feb76b4d5bf4f842b3c1c8b4bcdda.jpg"
+  },
+  {
+    "name": "ACHV_GROUPER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "darth raider",
+    "hidden": 0,
+    "description": "defeat 50 'raider' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/5d7894763ea198cfdca3e574fbcdcd0ac581dbb0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/97f7a40bf4b315133050099076e224c2c00989b2.jpg"
+  },
+  {
+    "name": "ACHV_REAPER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "flanker spanker",
+    "hidden": 0,
+    "description": "defeat 50 'flanker' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/a1308c27210a955840c93459b7cc7b6decbce489.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/9c65382dc37a1ed3a2e1c9df7f53df75bc497402.jpg"
+  },
+  {
+    "name": "ACHV_ASSASSIN_KILLER",
+    "defaultvalue": 0,
+    "displayName": "table turner",
+    "hidden": 0,
+    "description": "defeat 10 'executioner' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/67679b53ea70dfaf691c962f04754209f630480d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/122b17094a76a0cda256297c91e6933bdd5d8964.jpg"
+  },
+  {
+    "name": "ACHV_BODYGUARD_KILLER",
+    "defaultvalue": 0,
+    "displayName": "minder grinder",
+    "hidden": 0,
+    "description": "defeat 10 'minder' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/d64cd77dcd625151beb816b6c8c7bab52595e119.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/eb5a5ac582ae0ea9b2103d892f61c9cd1aa3daab.jpg"
+  },
+  {
+    "name": "ACHV_NINJA_KILLER",
+    "defaultvalue": 0,
+    "displayName": "nipper clipper",
+    "hidden": 0,
+    "description": "defeat 10 'nipper' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/c5d512233842575cef74dc002beaf6c630721965.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/ed1eb4f2ca66d13c3e2a486a7adf9c48d7ef57d8.jpg"
+  },
+  {
+    "name": "ACHV_MASTERMINION_KILLER",
+    "defaultvalue": 0,
+    "displayName": "commander conqueror",
+    "hidden": 0,
+    "description": "defeat 25 'commander' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/f42d5f23b20ce233c791f5fafa3c2feb74ad299e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8fc157b0cc201dc687986561b8801a2bb3d59d8e.jpg"
+  },
+  {
+    "name": "ACHV_MEDIANMINION_KILLER",
+    "defaultvalue": 0,
+    "displayName": "light brigade",
+    "hidden": 0,
+    "description": "defeat 25 'brigadier' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/a7673256b117e04345b16a09cab8bb8b1773597d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/ed1eb4f2ca66d13c3e2a486a7adf9c48d7ef57d8.jpg"
+  },
+  {
+    "name": "ACHV_THUG_KILLER",
+    "defaultvalue": 0,
+    "displayName": "brawler mauler",
+    "hidden": 0,
+    "description": "defeat 10 'brawler' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/5e1337fd0f4ffaec1f58feeb7568fb4cabcfbe61.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8dd8a404cb9c4c58cb1306befd13167083152bc9.jpg"
+  },
+  {
+    "name": "ACHV_AGGRESSOR_KILLER",
+    "defaultvalue": 0,
+    "displayName": "aggressor suppressor",
+    "hidden": 0,
+    "description": "defeat 10 'aggressor' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/bbdbcc527ae2e4a7cca741551c2a76b7f78d5d17.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/90a591b211db6aa69f1539d731a4871a650d0632.jpg"
+  },
+  {
+    "name": "ACHV_GUARDIAN_KILLER",
+    "defaultvalue": 0,
+    "displayName": "armed robbery",
+    "hidden": 0,
+    "description": "defeat 10 'enforcer' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/91f5fa0443161eef043fc95cb815cbc7bb3af548.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/7499decce0e7b23908a1174ecd091691a84b5099.jpg"
+  },
+  {
+    "name": "ACHV_SWARMER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "smasher basher",
+    "hidden": 0,
+    "description": "defeat 100 'smasher' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/170f2bb394b3c10d71df5b08effeaeecfb3259cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/3d73d2ebca109a4585a22f684f1354af38be6fd4.jpg"
+  },
+  {
+    "name": "ACHV_BOMBER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "bomb's away",
+    "hidden": 0,
+    "description": "defeat 50 'bomber' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/6a62f58c6b2313896a868aa48f46e5ce1992bb64.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8a8b9585cea2325d3dd7b9196eb5e983bebe96bf.jpg"
+  },
+  {
+    "name": "ACHV_INVADER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "invader raider",
+    "hidden": 0,
+    "description": "defeat 100 'invader' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/e2634e1ee1900da2df33164a65141ac79f6eb0e8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/c2efc308702939aa5c2de4a345a25cf07fd42968.jpg"
+  },
+  {
+    "name": "ACHV_SKYEBALL_KILLER",
+    "defaultvalue": 0,
+    "displayName": "blind justice",
+    "hidden": 0,
+    "description": "defeat 25 'watcher' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/4c76a5aadc300a43eb544c9bf4fafb341a0c8af5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/b6bf0cd2c80b67c31aa706a27892ebf144d8e30b.jpg"
+  },
+  {
+    "name": "ACHV_MINISWOOPER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "fly swatter",
+    "hidden": 0,
+    "description": "defeat 100 'buzzer' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8e00d59c60f3bad149484af02c0ca04ef1858f66.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/bab7da5ff15eb994d08633f962376c995a714d65.jpg"
+  },
+  {
+    "name": "ACHV_MOTHER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "birth control",
+    "hidden": 0,
+    "description": "defeat 10 'carrier' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/4c87ada3744ef209267c86d0e02308057eb31b26.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/2ef9c36dc1b38c4bee21eb3be7584b2abfb222ad.jpg"
+  },
+  {
+    "name": "ACHV_SQUOCKET_KILLER",
+    "defaultvalue": 0,
+    "displayName": "squid salad",
+    "hidden": 0,
+    "description": "defeat 25 'diver' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/0cb9d05add6482abbf145a95425a8f651b6c74e6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8203a5c388778859fca8e3f9ed3d8cabfc0c3060.jpg"
+  },
+  {
+    "name": "ACHV_SWOOPER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "bugaboo",
+    "hidden": 0,
+    "description": "defeat 50 'swooper' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/1dbaefa4972de999d29b0712921bf4ea7f7c6046.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/f6c328465d1bb04bb3823e16d6e2f55ca1f2d7ec.jpg"
+  },
+  {
+    "name": "ACHV_SPLITTER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "split personality",
+    "hidden": 0,
+    "description": "defeat 100 'splitter' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/adee689d219c60b45f3dfb0806e8e6b317f8d63f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/605f925728b2689b3593e63d7dfe311a2f9b5a37.jpg"
+  },
+  {
+    "name": "ACHV_SNATCHER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "snatcher despatcher",
+    "hidden": 0,
+    "description": "defeat 25 'snatcher' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/803f71d305a2d896db44673a9a81cde1d5c5a1dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/026afaf9e1722b77e87124d7a942adcb418cc79a.jpg"
+  },
+  {
+    "name": "ACHV_SCUTTLER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "jeepers creepers",
+    "hidden": 0,
+    "description": "defeat 100 'creeper' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/044aec6a1bab015eb9db81066c6ccfdd4dbf3bb4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/dbb7a3b9a985bb3bb1ff8167a0511bc37addb762.jpg"
+  },
+  {
+    "name": "ACHV_CRAWLER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "crawler mauler",
+    "hidden": 0,
+    "description": "defeat 10 'crawler' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/3501feda4877aa8fbb1d13966c274cb9d7c9ace3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/ea1148118c59156c6bced4b80fc8c882f47161e6.jpg"
+  },
+  {
+    "name": "ACHV_PRODDER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "thumper bumper",
+    "hidden": 0,
+    "description": "defeat 50 'thumper' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/484f256f73ed64fa539cc7f7e2b563f8adc63ee1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/ae039fcc27fbf8420cbccd89d75d645d90b02600.jpg"
+  },
+  {
+    "name": "ACHV_BEZERKER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "well trashed",
+    "hidden": 0,
+    "description": "defeat 100 'bezerker' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/35fae4d87af6d46b3e9a2cd1d237469aea38e6f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/7f599d7402d282fd9f6cb90a507e09721e264460.jpg"
+  },
+  {
+    "name": "ACHV_SWEEPER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "swept up",
+    "hidden": 0,
+    "description": "defeat 100 'sweeper' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/843549718b676f204b1f22e72c304adbabb0fb29.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8100f1b5b97bed7ec3313b162718f54cebddc7fc.jpg"
+  },
+  {
+    "name": "ACHV_SWEEPERMINI_KILLER",
+    "defaultvalue": 0,
+    "displayName": "wing man",
+    "hidden": 0,
+    "description": "defeat 100 'winger' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/3c0247eb499d4caa11e880f16bcb36014fed44fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/5343b72c55e4631e6c0e67a6f2b05b62463bf702.jpg"
+  },
+  {
+    "name": "ACHV_PISTOL_NOVICE",
+    "defaultvalue": 0,
+    "displayName": "pea shooter",
+    "hidden": 0,
+    "description": "get 50 kills with the pistol",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8807939bede9977e65819df4d63b11b733134316.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/ef61c1b91b2c1d6f5696d03bdc8ac962a46b5dbc.jpg"
+  },
+  {
+    "name": "ACHV_PISTOL_MASTER",
+    "defaultvalue": 0,
+    "displayName": "quick draw",
+    "hidden": 0,
+    "description": "get 500 kills with the pistol",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8335dbf77752060ca0a0c2435ff5df3bd5be05cb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/a53049cf1004ecdd630718f6f640ee40f99b2aef.jpg"
+  },
+  {
+    "name": "ACHV_MAGNUM_MASTER",
+    "defaultvalue": 0,
+    "displayName": "make my day",
+    "hidden": 0,
+    "description": "get 500 kills with the magnum 45",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/2c0b2f8b64cb6ff59e2b620d92ea1d74b4b54bc4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/ecde7b38806e087d5d7cc8d72ee76684b79498f3.jpg"
+  },
+  {
+    "name": "ACHV_DEAGLE_MASTER",
+    "defaultvalue": 0,
+    "displayName": "deagle master",
+    "hidden": 0,
+    "description": "get 500 kills with the desert eagle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/cfbd5bf671f362c734c39aa3769e2fc68a7bcaad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/2417038062de988e79d69a533feb661f338ae95c.jpg"
+  },
+  {
+    "name": "ACHV_PHASER_MASTER",
+    "defaultvalue": 0,
+    "displayName": "phaser master",
+    "hidden": 0,
+    "description": "get 500 kills with the phaser",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/872a87774f098b7e71943b033340df0daf16ec58.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/187203df39776a17ab029f3383398179b0a7054f.jpg"
+  },
+  {
+    "name": "ACHV_BLASTER_MASTER",
+    "defaultvalue": 0,
+    "displayName": "blaster master",
+    "hidden": 0,
+    "description": "get 500 kills with the blaster",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/a78d8653a3428a077fb988db920b32ce033dfc00.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/5a78fae63aac08d57cda6da0e312136acc55fe5b.jpg"
+  },
+  {
+    "name": "ACHV_FLMTRNDO_MASTER",
+    "defaultvalue": 0,
+    "displayName": "tornado master",
+    "hidden": 0,
+    "description": "get 500 kills with the flame tornado",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/c9c4067f36f89496d09e8dceb73220e037e9a8ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/1b5adde78bfeef4016aef1edc6643cfdbcf334e4.jpg"
+  },
+  {
+    "name": "ACHV_POISON_MASTER",
+    "defaultvalue": 0,
+    "displayName": "master poisoner",
+    "hidden": 0,
+    "description": "get 500 kills with the poison pump",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/a57f15897334bab44d40312da5e4a8b93d21d805.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/193d4e745b1540943de6c0d20810526325aee32d.jpg"
+  },
+  {
+    "name": "ACHV_ROTO_MASTER",
+    "defaultvalue": 0,
+    "displayName": "rotovator master",
+    "hidden": 0,
+    "description": "get 500 kills with the rotovator",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8374e0406d7de59f341bf2eaaf17044f4e79c9d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/195d490635c41c7d134f7f7cee7e61b6c9de0fc1.jpg"
+  },
+  {
+    "name": "ACHV_SNIPER_MASTER",
+    "defaultvalue": 0,
+    "displayName": "sniper master",
+    "hidden": 0,
+    "description": "get 500 kills with the sniper rifle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/b9df429a336de3cbae359e95d8d1a38bb82d8e63.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8769e3323336e14dde20f371b251ebbeb42e4a7b.jpg"
+  },
+  {
+    "name": "ACHV_LGTNGBOLT_MASTER",
+    "defaultvalue": 0,
+    "displayName": "lightning master",
+    "hidden": 0,
+    "description": "get 500 kills with the lightning bolt",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/54f73579540d39bb09ea3f6ed5302a0a1dd9d8ad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/0f4c21bfe8ae3619a2afde2952d7a8f0e3d5777f.jpg"
+  },
+  {
+    "name": "ACHV_CASH_50k",
+    "defaultvalue": 0,
+    "displayName": "millionaire",
+    "hidden": 0,
+    "description": "have 50k coins in the bank",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/50905798c953504c1ff448d31b0128ac509ba3d6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/1996584e63a340c53599f1dc10121be144b695ea.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_SQUIRMER_SPEEDRUN",
+    "defaultvalue": 0,
+    "displayName": "wriggle on",
+    "hidden": 0,
+    "description": "defeat the 'squirmer' boss in under 210s",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/f70cd428d21f907bdf7da8c19a4fd71b37b5d24a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/fcf9acd3a2bd8d24fa6bd8b2ab3024c7e87565c2.jpg"
+  },
+  {
+    "name": "ACHV_BOSS_SPINNER_SPEEDRUN",
+    "defaultvalue": 0,
+    "displayName": "quick spin",
+    "hidden": 0,
+    "description": "defeat the 'spinner' boss in under 180s",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/2dfa5838da57f70f0c3314a4ca6a9091b73b3c35.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/b4e2880756b69be1ebc02d74c996632745ead98e.jpg"
+  },
+  {
+    "name": "ACHV_MSSVBASTARD_KILLER",
+    "defaultvalue": 0,
+    "displayName": "bruiser abuser",
+    "hidden": 0,
+    "description": "defeat 10 'bruiser' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/b34d4c255bf5290e87bbce0e71d29e87c40e4346.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/83be32f6f2ba2bfd3d250ad70c04f626a08f6dcb.jpg"
+  },
+  {
+    "name": "ACHV_MASTER_BLASTER",
+    "defaultvalue": 0,
+    "displayName": "master blaster",
+    "hidden": 0,
+    "description": "complete the game in one playthrough",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/15881b9654071600560873596532b5b654d805ae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/882ceebbbe20cb29c394e1c4cf6b8467cb287164.jpg"
+  },
+  {
+    "name": "ACHV_MASTER_BADASS",
+    "defaultvalue": 0,
+    "displayName": "complete badass",
+    "hidden": 0,
+    "description": "complete the game in one playthrough using only the default weapons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/8d379df2fa82da27b4d29ae93c41611abe86a53d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/c683518c287c4dc7bf1df96532a93425299bbc2f.jpg"
+  },
+  {
+    "name": "ACHV_ALL",
+    "defaultvalue": 0,
+    "displayName": "high achiever",
+    "hidden": 0,
+    "description": "complete every achievement",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/b8b214429e143e7de791728bad5fc8ff05216360.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/7e2fea0b1e0ef72cf4846bd01e41dc5e218d27b7.jpg"
+  },
+  {
+    "name": "ACHV_SPITTER_KILLER",
+    "defaultvalue": 0,
+    "displayName": "spit 'n' polish ",
+    "hidden": 0,
+    "description": "defeat 10 'spitter' enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/c29638bf1c9f3fa1ed2f68d6f1ccd88fd6f26971.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/ba7f7873097b8a32df33be97bd8340810af5f942.jpg"
+  },
+  {
+    "name": "ACHV_MISSION_IMPOSSIBLE",
+    "defaultvalue": 0,
+    "displayName": "mission impossible",
+    "hidden": 0,
+    "description": "complete the game using only default weapons and without losing a life",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/346bf16577cafb24377ee8ee224efd3b50fb5749.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1181600/0942ce4c225f0f2ad59d3dc11e195b1535525c4c.jpg"
+  }
+]

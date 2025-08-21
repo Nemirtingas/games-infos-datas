@@ -1,0 +1,514 @@
+[
+  {
+    "name": "CampaignStarted",
+    "defaultvalue": 0,
+    "displayName": "Save us from this horror!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/93b171413fd16e6560991fa9318bac5f415e442d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/f476f539c2b5448cfc698976e6a7b790d25dcd01.jpg"
+  },
+  {
+    "name": "CampaignProgressTheInn",
+    "defaultvalue": 0,
+    "displayName": "Help arrives...",
+    "hidden": 0,
+    "description": "Meet an eccentric woman.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/78188cc64325eff3011251f580c6d977043f7771.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/a1ceb3d2cff98bc4c7771d1de4fd31af28a38da0.jpg"
+  },
+  {
+    "name": "CampaignProgressAct1",
+    "defaultvalue": 0,
+    "displayName": "Ritual",
+    "hidden": 0,
+    "description": "Finish Act 1 of the main story.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/b5820802c26e4582e113dbe483d7b43d3f7e10cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/ac5bef5e556f92405ca7a90289e7fad3e2be7b69.jpg"
+  },
+  {
+    "name": "CampaignProgressAct2",
+    "defaultvalue": 0,
+    "displayName": "What next?",
+    "hidden": 0,
+    "description": "Finish Act 2 of the main story.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/78188cc64325eff3011251f580c6d977043f7771.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/a1ceb3d2cff98bc4c7771d1de4fd31af28a38da0.jpg"
+  },
+  {
+    "name": "CampaignProgressGameEnd",
+    "defaultvalue": 0,
+    "displayName": "The last hunt",
+    "hidden": 0,
+    "description": "Finish the main story.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/9a4785f907dd1e5034479644ee8f53f7777cfdcd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/f8fcf4e57e6b0366b2e187aa6bc3308ee8d44a86.jpg"
+  },
+  {
+    "name": "TacticalTurnsCountLow",
+    "defaultvalue": 0,
+    "displayName": "Be quick about it, aye?",
+    "hidden": 0,
+    "description": "Complete a mission within 8 turns.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/526b54d60675415913d43d4f99431591a7d2bcf6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/e55209fabe977114305137a0e43cbee84e806fee.jpg"
+  },
+  {
+    "name": "TacticalTurnsCountMedium",
+    "defaultvalue": 0,
+    "displayName": "Strategist",
+    "hidden": 0,
+    "description": "Complete a mission in 20 turns or more.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/526b54d60675415913d43d4f99431591a7d2bcf6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/e55209fabe977114305137a0e43cbee84e806fee.jpg"
+  },
+  {
+    "name": "TacticalTurnsCountHigh",
+    "defaultvalue": 0,
+    "displayName": "Armchair General",
+    "hidden": 0,
+    "description": "Complete a mission in 35 turns or more.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/526b54d60675415913d43d4f99431591a7d2bcf6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/e55209fabe977114305137a0e43cbee84e806fee.jpg"
+  },
+  {
+    "name": "DamageReceivedLow",
+    "defaultvalue": 0,
+    "displayName": "Masochist",
+    "hidden": 0,
+    "description": "Hunters take a combined 500 points of damage.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/460ec24c69f3b60d46c5b8ae6ef1e0c2272f7d0a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/4e08523520ced3af62a4ae005115a99e421598c5.jpg"
+  },
+  {
+    "name": "DamageReceivedMedium",
+    "defaultvalue": 0,
+    "displayName": "Bloodletting",
+    "hidden": 0,
+    "description": "Hunters take a combined 1000 points of damage.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/460ec24c69f3b60d46c5b8ae6ef1e0c2272f7d0a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/4e08523520ced3af62a4ae005115a99e421598c5.jpg"
+  },
+  {
+    "name": "DamageReceivedHigh",
+    "defaultvalue": 0,
+    "displayName": "Forged by pain",
+    "hidden": 0,
+    "description": "Hunters take a combined 2500 points of damage.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/460ec24c69f3b60d46c5b8ae6ef1e0c2272f7d0a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/4e08523520ced3af62a4ae005115a99e421598c5.jpg"
+  },
+  {
+    "name": "StaminaUsedLow",
+    "defaultvalue": 0,
+    "displayName": "Know your strength",
+    "hidden": 0,
+    "description": "Hunters have used a combined 500 points of stamina.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/fae051cd81e5391fa0555c412cd3a1ffcce28cf8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/fc4311bf361f8700c531a8543c7c9a76c2ff8a4b.jpg"
+  },
+  {
+    "name": "StaminaUsedMedium",
+    "defaultvalue": 0,
+    "displayName": "Skillful",
+    "hidden": 0,
+    "description": "Hunters have used a combined 1500 points of stamina.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/fae051cd81e5391fa0555c412cd3a1ffcce28cf8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/fc4311bf361f8700c531a8543c7c9a76c2ff8a4b.jpg"
+  },
+  {
+    "name": "StaminaUsedHigh",
+    "defaultvalue": 0,
+    "displayName": "Bow to the God",
+    "hidden": 0,
+    "description": "Hunters have used a combined 2500 points of stamina.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/fae051cd81e5391fa0555c412cd3a1ffcce28cf8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/fc4311bf361f8700c531a8543c7c9a76c2ff8a4b.jpg"
+  },
+  {
+    "name": "BackstabsPerformed",
+    "defaultvalue": 0,
+    "displayName": "A stealthy advantage",
+    "hidden": 0,
+    "description": "Hunters perform 3 backstabs.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/710c493a1ccd6561bb82c4bbb887a447a99b9e5e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/cb5b272da8ed15f1066d575e742a8ad0d83867f2.jpg"
+  },
+  {
+    "name": "SpottedByEnemy",
+    "defaultvalue": 0,
+    "displayName": "I'm walking here!",
+    "hidden": 0,
+    "description": "Be spotted by an enemy 3 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/62e8cda7b3d5d64370eae83b2900a443db3e1cb7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/c00f33d8fabbb10e1eab1519560833b1adc46868.jpg"
+  },
+  {
+    "name": "HexesTraveledLow",
+    "defaultvalue": 0,
+    "displayName": "These Boots Are Made for Walkin'",
+    "hidden": 0,
+    "description": "Hunters have traveled a combined 200 hexes.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/039cab2c5ee97f8865d4336d2502779a0b15b80d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/abb8db44b1d483db999bf92ea25f13bf4e54bdce.jpg"
+  },
+  {
+    "name": "HexesTraveledMedium",
+    "defaultvalue": 0,
+    "displayName": "Worn out leather",
+    "hidden": 0,
+    "description": "Hunters have traveled a combined 1000 hexes.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/039cab2c5ee97f8865d4336d2502779a0b15b80d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/abb8db44b1d483db999bf92ea25f13bf4e54bdce.jpg"
+  },
+  {
+    "name": "HexesTraveledHigh",
+    "defaultvalue": 0,
+    "displayName": "The long pursuit",
+    "hidden": 0,
+    "description": "Hunters have traveled the incredible combined distance of 2000 hexes.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/039cab2c5ee97f8865d4336d2502779a0b15b80d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/abb8db44b1d483db999bf92ea25f13bf4e54bdce.jpg"
+  },
+  {
+    "name": "HeardByEnemy",
+    "defaultvalue": 0,
+    "displayName": "I'm over here!",
+    "hidden": 0,
+    "description": "Announce a hunters position with sound 3 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/0f84da647f51642437023f31d7e33b0bbccc40d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/25bf903d106e90fc042c18a3bb344a2160f0cd23.jpg"
+  },
+  {
+    "name": "SmelledByEnemy",
+    "defaultvalue": 0,
+    "displayName": "The weather was against us...",
+    "hidden": 0,
+    "description": "Alerted an enemy with a hunters scent 3 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/2bd9071c9a29b1f09ebd82f14b02b23e9d933077.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/8b4b4c544a2fea8aab7e0722e255ad6c194574a4.jpg"
+  },
+  {
+    "name": "HunterDeathsLow",
+    "defaultvalue": 0,
+    "displayName": "Mistakes were made...",
+    "hidden": 0,
+    "description": "Lose a hunter.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/5243404fa1f9626f65bb393d614ac657ebfadf2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/b73ae2cd01963d252367fd48111e0b97e7230e6c.jpg"
+  },
+  {
+    "name": "HunterDeathsMedium",
+    "defaultvalue": 0,
+    "displayName": "Troubling times",
+    "hidden": 0,
+    "description": "Lose 5 hunters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/5243404fa1f9626f65bb393d614ac657ebfadf2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/b73ae2cd01963d252367fd48111e0b97e7230e6c.jpg"
+  },
+  {
+    "name": "HunterDeathsHigh",
+    "defaultvalue": 0,
+    "displayName": "Meat for the grinder...",
+    "hidden": 0,
+    "description": "Lose 8 hunters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/5243404fa1f9626f65bb393d614ac657ebfadf2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/b73ae2cd01963d252367fd48111e0b97e7230e6c.jpg"
+  },
+  {
+    "name": "HunterKnockdown",
+    "defaultvalue": 0,
+    "displayName": "Just a scratch",
+    "hidden": 0,
+    "description": "Get downed 3 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/9ddae0b809d8b7843a7db0211d4fe7bc4dea09e6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/235fcdcedf24fa65d95dd31a05469f9643addaf7.jpg"
+  },
+  {
+    "name": "FoodGatheredLow",
+    "defaultvalue": 0,
+    "displayName": "Something to bite on",
+    "hidden": 0,
+    "description": "Gather 300 Food.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/9b31eae0af708542f04b2dbc42a2484aa781a35c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/d7abe6a991ec86efcbf670bb5b695d9ec858da22.jpg"
+  },
+  {
+    "name": "FoodGatheredMedium",
+    "defaultvalue": 0,
+    "displayName": "At least hunger won't consume us",
+    "hidden": 0,
+    "description": "Gather 1500 Food.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/9b31eae0af708542f04b2dbc42a2484aa781a35c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/d7abe6a991ec86efcbf670bb5b695d9ec858da22.jpg"
+  },
+  {
+    "name": "FoodGatheredHigh",
+    "defaultvalue": 0,
+    "displayName": "More than enough",
+    "hidden": 0,
+    "description": "Gather 3000 Food.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/9b31eae0af708542f04b2dbc42a2484aa781a35c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/d7abe6a991ec86efcbf670bb5b695d9ec858da22.jpg"
+  },
+  {
+    "name": "SilverGatheredLow",
+    "defaultvalue": 0,
+    "displayName": "Little by little",
+    "hidden": 0,
+    "description": "Gather 500 Silver.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/71587b8561fd126fb9c742b8ed0de27de26697be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/2f88d95c2bac73beb1210c1a0eb5682fee89ec37.jpg"
+  },
+  {
+    "name": "SilverGatheredMedium",
+    "defaultvalue": 0,
+    "displayName": "Not a small change anymore",
+    "hidden": 0,
+    "description": "Gather 2500 Silver.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/71587b8561fd126fb9c742b8ed0de27de26697be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/2f88d95c2bac73beb1210c1a0eb5682fee89ec37.jpg"
+  },
+  {
+    "name": "SilverGatheredHigh",
+    "defaultvalue": 0,
+    "displayName": "It's heavy",
+    "hidden": 0,
+    "description": "Gather 5000 Silver.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/71587b8561fd126fb9c742b8ed0de27de26697be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/2f88d95c2bac73beb1210c1a0eb5682fee89ec37.jpg"
+  },
+  {
+    "name": "HuntingMaterialsGatheredLow",
+    "defaultvalue": 0,
+    "displayName": "Good stash",
+    "hidden": 0,
+    "description": "Gather 400 Hunting Materials.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/3b78e2f87f4bb11854f078501ed703a2a784c5d1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/14df7dcd742e0af2b34e124958e6765240ac3732.jpg"
+  },
+  {
+    "name": "HuntingMaterialsGatheredMedium",
+    "defaultvalue": 0,
+    "displayName": "Collector",
+    "hidden": 0,
+    "description": "Gather 2000 Hunting Materials.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/3b78e2f87f4bb11854f078501ed703a2a784c5d1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/14df7dcd742e0af2b34e124958e6765240ac3732.jpg"
+  },
+  {
+    "name": "HuntingMaterialsGatheredHigh",
+    "defaultvalue": 0,
+    "displayName": "So much to spend",
+    "hidden": 0,
+    "description": "Gather 4000 Hunting Materials.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/3b78e2f87f4bb11854f078501ed703a2a784c5d1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/14df7dcd742e0af2b34e124958e6765240ac3732.jpg"
+  },
+  {
+    "name": "MechanicalPartsGatheredLow",
+    "defaultvalue": 0,
+    "displayName": "Tinkerer",
+    "hidden": 0,
+    "description": "Gather 100 Mechanical Parts.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/2423d8ba4a4043cf9ca3a7294d80f7d2bc45a365.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/b8f903580deb3420a0936cb9e1d90297f4d7ab16.jpg"
+  },
+  {
+    "name": "MechanicalPartsGatheredMedium",
+    "defaultvalue": 0,
+    "displayName": "We need more",
+    "hidden": 0,
+    "description": "Gather 500 Mechanical Parts.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/2423d8ba4a4043cf9ca3a7294d80f7d2bc45a365.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/b8f903580deb3420a0936cb9e1d90297f4d7ab16.jpg"
+  },
+  {
+    "name": "MechanicalPartsGatheredHigh",
+    "defaultvalue": 0,
+    "displayName": "Mechanical prodigy",
+    "hidden": 0,
+    "description": "Gather 1000 Mechanical Parts.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/2423d8ba4a4043cf9ca3a7294d80f7d2bc45a365.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/b8f903580deb3420a0936cb9e1d90297f4d7ab16.jpg"
+  },
+  {
+    "name": "RitualIngredientsGatheredLow",
+    "defaultvalue": 0,
+    "displayName": "Curiosities",
+    "hidden": 0,
+    "description": "Gather 150 Ritual Ingredients.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/1f0f88eb95d5f0ea05174ab2e99d0fd513457122.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/4fd74c0e8c0bb13f555367395ab609b516bf9c2c.jpg"
+  },
+  {
+    "name": "RitualIngredientsGatheredMedium",
+    "defaultvalue": 0,
+    "displayName": "Blood and candles",
+    "hidden": 0,
+    "description": "Gather 750 Ritual Ingredients.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/1f0f88eb95d5f0ea05174ab2e99d0fd513457122.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/4fd74c0e8c0bb13f555367395ab609b516bf9c2c.jpg"
+  },
+  {
+    "name": "RitualIngredientsGatheredHigh",
+    "defaultvalue": 0,
+    "displayName": "Occult and Mysticism",
+    "hidden": 0,
+    "description": "Gather 1500 Ritual Ingredients.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/1f0f88eb95d5f0ea05174ab2e99d0fd513457122.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/4fd74c0e8c0bb13f555367395ab609b516bf9c2c.jpg"
+  },
+  {
+    "name": "HuntersSacrificedLow",
+    "defaultvalue": 0,
+    "displayName": "The darkness consumes you",
+    "hidden": 0,
+    "description": "Sacrifice 3 hunters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/2d64e67d7b7b7fcca5036991741ec5404c4f8064.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/6dba2f839ff1c813422057485a98c1ee4f0a2361.jpg"
+  },
+  {
+    "name": "HuntersSacrificedMedium",
+    "defaultvalue": 0,
+    "displayName": "A prayer for our brothers",
+    "hidden": 0,
+    "description": "Sacrifice 5 hunters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/2d64e67d7b7b7fcca5036991741ec5404c4f8064.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/6dba2f839ff1c813422057485a98c1ee4f0a2361.jpg"
+  },
+  {
+    "name": "HuntersSacrificedHigh",
+    "defaultvalue": 0,
+    "displayName": "Your sacrifice will not be forgotten",
+    "hidden": 0,
+    "description": "Sacrifice 10 hunters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/2d64e67d7b7b7fcca5036991741ec5404c4f8064.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/6dba2f839ff1c813422057485a98c1ee4f0a2361.jpg"
+  },
+  {
+    "name": "FoodConsumedLow",
+    "defaultvalue": 0,
+    "displayName": "Surviving",
+    "hidden": 0,
+    "description": "Consume 100 Food.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/c0fe3ab3aa06620bab7eaacf51730dd7f53cfa63.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/1f74c4aeff87f617cbbda41a923fd9a97c49fa35.jpg"
+  },
+  {
+    "name": "FoodConsumedMedium",
+    "defaultvalue": 0,
+    "displayName": "Well fed",
+    "hidden": 0,
+    "description": "Consume 800 Food.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/c0fe3ab3aa06620bab7eaacf51730dd7f53cfa63.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/1f74c4aeff87f617cbbda41a923fd9a97c49fa35.jpg"
+  },
+  {
+    "name": "FoodConsumedHigh",
+    "defaultvalue": 0,
+    "displayName": "Great supper",
+    "hidden": 0,
+    "description": "Consume 2500 Food.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/c0fe3ab3aa06620bab7eaacf51730dd7f53cfa63.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/1f74c4aeff87f617cbbda41a923fd9a97c49fa35.jpg"
+  },
+  {
+    "name": "RegionsTraveledLow",
+    "defaultvalue": 0,
+    "displayName": "Reconnaissance",
+    "hidden": 0,
+    "description": "Travel to 25 regions.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/039cab2c5ee97f8865d4336d2502779a0b15b80d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/abb8db44b1d483db999bf92ea25f13bf4e54bdce.jpg"
+  },
+  {
+    "name": "RegionsTraveledMedium",
+    "defaultvalue": 0,
+    "displayName": "Like a gypsy",
+    "hidden": 0,
+    "description": "Travel to 100 regions.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/039cab2c5ee97f8865d4336d2502779a0b15b80d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/abb8db44b1d483db999bf92ea25f13bf4e54bdce.jpg"
+  },
+  {
+    "name": "RegionsTraveledHigh",
+    "defaultvalue": 0,
+    "displayName": "Globetrotter",
+    "hidden": 0,
+    "description": "Travel to 250 regions.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/a537f50d9e50d61e1f193d7ad6ada63b20e6efe7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/abb8db44b1d483db999bf92ea25f13bf4e54bdce.jpg"
+  },
+  {
+    "name": "HunterRunAmok",
+    "defaultvalue": 0,
+    "displayName": "A hunter's fate",
+    "hidden": 0,
+    "description": "Have a hunter run amok.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/4f323ce9d8046ef81d0032b67978742682cabedd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/95855ac7e429131bb4e265d7c04d17ab7671d627.jpg"
+  },
+  {
+    "name": "HunterStarved",
+    "defaultvalue": 0,
+    "displayName": "Hard times",
+    "hidden": 0,
+    "description": "Lose a hunter to starvation.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/26d84c0086b1a59cdc58b300701ce84ed192c4c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/8298cd6281d94adad22a04497d35be6d03567b30.jpg"
+  },
+  {
+    "name": "SellInShop",
+    "defaultvalue": 0,
+    "displayName": "Businessman",
+    "hidden": 0,
+    "description": "Sell something in a shop.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/cae8be0f3a198a8eae66881fce60317ac69cffa7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/1b191e96c0a94f0691259addbc091d2b69a70415.jpg"
+  },
+  {
+    "name": "CampWithAllTasks",
+    "defaultvalue": 0,
+    "displayName": "All bases covered",
+    "hidden": 0,
+    "description": "Camping while having all types of camping tasks assigned.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/a7938bd5560defd33e1e90243f70031b15a7ceb2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/d73b09e279a21f2010e8989bab35f2480697eea0.jpg"
+  },
+  {
+    "name": "WinWithoutDeaths",
+    "defaultvalue": 0,
+    "displayName": "Not on my watch",
+    "hidden": 0,
+    "description": "Win a game without loosing any hunter (that includes sacrifices).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/05f55aa288c0645439673b11825cbf76fb2daf62.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/66baefafd2fad401c45af1b75087f342814ce749.jpg"
+  },
+  {
+    "name": "CampaignProgressBarcaSon",
+    "defaultvalue": 0,
+    "displayName": "Bearer of bad news",
+    "hidden": 0,
+    "description": "Bring bad news to the encampment.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/5146c3de73ff1620953d902872099d78f8a437fd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/6110c6f6d93393712e80f6d519e08545eb7fb60d.jpg"
+  },
+  {
+    "name": "CampaignProgressBloodVial",
+    "defaultvalue": 0,
+    "displayName": "Secrets written in blood",
+    "hidden": 0,
+    "description": "Uncover a dark secret.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/8193357bb364c55aea14cc84efe777e4ce32cae5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/ff8fa34803cafc452fc8a344af0754740d34a254.jpg"
+  },
+  {
+    "name": "CampaignProgressKeyholder",
+    "defaultvalue": 0,
+    "displayName": "Keyholder",
+    "hidden": 0,
+    "description": "Find out who holds the key.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/8ecb2c55c663d0eed5317085cd3407c4d82e0257.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/820020/0759402e4b165daccc5a15190e98d35a4b83c3e6.jpg"
+  }
+]
