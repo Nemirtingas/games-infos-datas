@@ -41,7 +41,7 @@
     "max": 1000000
   },
   {
-    "name": "SeasonalEventTeam1Points",
+    "name": "OLD_EVENT_STAT_1",
     "displayName": "",
     "type": "int",
     "default": 0,
@@ -52,7 +52,7 @@
     "max": 1000000000
   },
   {
-    "name": "SeasonalEventTeam2Points",
+    "name": "OLD_EVENT_STAT_2",
     "displayName": "",
     "type": "int",
     "default": 0,
@@ -347,5 +347,38 @@
     "maxchange": 20,
     "min": 0,
     "max": 1000000
+  },
+  {
+    "name": "SeasonalEventTeam1Points",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1200,
+    "min": 0,
+    "max": 1000000000
+  },
+  {
+    "name": "SeasonalEventTeam2Points",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1200,
+    "min": 0,
+    "max": 1000000000
+  },
+  {
+    "name": "NumUnlocks",
+    "displayName": "Tokens Used",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000000000
   }
 ]

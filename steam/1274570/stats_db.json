@@ -170,7 +170,7 @@
     "default": 0,
     "incrementonly": true,
     "aggregated": false,
-    "maxchange": 3525,
+    "maxchange": 7900,
     "min": 0
   },
   {
@@ -266,13 +266,357 @@
     "min": 0
   },
   {
-    "name": "STAT_PUMPKINS_COLLECTED",
-    "displayName": "Number of pumpkins collected",
+    "name": "STAT_NUM_NATHAN_STAGGERS",
+    "displayName": "Number of times you have staggered Nathan (The Slaughterhouse)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_POOPS_SEARCHED",
+    "displayName": "Number of poops searched on The Slaughterhouse",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_NUM_BOARS_FRIED",
+    "displayName": "Number of boars fried (The Slaughterhouse)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_NUM_PIGS_DESTROYED",
+    "displayName": "Number of pigs dunked (The Slaughterhouse)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_NUM_CORPSES_FRIED",
+    "displayName": "Number of corpses freed (The Slaughterhouse)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_BARBED_WIRES_COLLECTED",
+    "displayName": "Number of barbed wires collected (The Slaughterhouse)",
     "type": "int",
     "default": 0,
     "incrementonly": true,
     "aggregated": false,
     "min": 0,
-    "max": 40
+    "max": 25
+  },
+  {
+    "name": "STAT_PIGS_LURED",
+    "displayName": "Number of pigs lured (The Slaughterhouse)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_NUM_GOATS_DESTROYED",
+    "displayName": "Number of goats burned (The Farmhouse)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_NUM_RATS_DESTROYED",
+    "displayName": "Number of rats fried (The Asylum)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_ANNA",
+    "displayName": "Number of times knocked out by Anna (The Farmhouse)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_MOLLY",
+    "displayName": "Number of times knocked out by Molly (The Asylum)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_ZARA",
+    "displayName": "Number of times knocked out by Zara (The Inn)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_SAM",
+    "displayName": "Number of times knocked out by Sam (The Town)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_NATHAN",
+    "displayName": "Number of times knocked out by Nathan (The Slaughterhouse)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_DEMON",
+    "displayName": "Number of times knocked out by demons (The Farmhouse)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_INMATE",
+    "displayName": "Number of times knocked out by inmates (The Asylum)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_SPIDER",
+    "displayName": "Number of times knocked out by spiders (The Inn)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_GHOST",
+    "displayName": "Number of times knocked out by ghosts (The Town)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_BOAR",
+    "displayName": "Number of times knocked out by boars (The Slaughterhouse)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_NUM_CROWS_FRIED",
+    "displayName": "Number of crows fried (The Manor)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_NUM_HEADS_BURIED",
+    "displayName": "Number of heads buried (The Manor)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_HEADS_LURED",
+    "displayName": "Number of heads lured by cake (The Manor)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_FEATHERS_COLLECTED",
+    "displayName": "Number of feathers collected (The Manor)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 25
+  },
+  {
+    "name": "STAT_NUM_APRIL_STAGGERS",
+    "displayName": "Number of times you have staggered April (The Manor)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_APRIL",
+    "displayName": "Number of times knocked out by April (The Manor)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_HEADS_CLEANSED",
+    "displayName": "Number of dirty heads cleansed (The Manor)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_NUM_ALCOHOL_USED",
+    "displayName": "Number of times you have used alcohol (The Manor)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_CROW",
+    "displayName": "Number of times knocked out by crows (The Manor)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_PUMPKINS_COLLECTED",
+    "displayName": "Number of pumpkins collected (Halloween)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_PRESENTS_COLLECTED",
+    "displayName": "Number of presents collected (Christmas)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_NUM_WON_EASY",
+    "displayName": "Number of times game has been won in easy mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_KAI",
+    "displayName": "Number of times knocked out by Kai (The Carnival)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_MONKEYS_FRIED",
+    "displayName": "Number of monkeys fried (The Carnival)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_DOLL_HEADS_DESTROYED",
+    "displayName": "Number of doll heads destroyed (The Carnival)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_DOLLS_EXPLODED",
+    "displayName": "Number of dolls blown up by music boxes (The Carnival)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_TICKETS_COLLECTED",
+    "displayName": "Number of tickets collected (The Carnival)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 25
+  },
+  {
+    "name": "STAT_NUM_KAI_STAGGERS",
+    "displayName": "Number of times you have staggered Kai (The Carnival)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_COINS_USED",
+    "displayName": "Number of coins used (The Carnival)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KNOCKOUTS_BY_MONKEY",
+    "displayName": "Number of times knocked out by monkeys (The Carnival)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
   }
 ]

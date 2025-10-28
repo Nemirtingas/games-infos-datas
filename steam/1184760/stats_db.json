@@ -1,0 +1,1426 @@
+[
+  {
+    "name": "rank",
+    "displayName": "Rank",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 4
+  },
+  {
+    "name": "rank_progress",
+    "displayName": "Progress Towards Next Rank",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "longest_game",
+    "displayName": "Longest Game",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "shortest_game",
+    "displayName": "Shortest Game",
+    "type": "int",
+    "default": 100000000000,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "garbage_sent",
+    "displayName": "Garbage Sent",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_0",
+    "displayName": "Shovel Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_0",
+    "displayName": "Shovel Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_0",
+    "displayName": "Shovel Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_1",
+    "displayName": "Treasure Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_1",
+    "displayName": "Treasure Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_1",
+    "displayName": "Treasure Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_2",
+    "displayName": "Mole Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_2",
+    "displayName": "Mole Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_2",
+    "displayName": "Mole Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_3",
+    "displayName": "Shield Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_3",
+    "displayName": "Shield Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_3",
+    "displayName": "Shield Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_4",
+    "displayName": "King Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_4",
+    "displayName": "King Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_4",
+    "displayName": "King Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_5",
+    "displayName": "Specter Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_5",
+    "displayName": "Specter Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_5",
+    "displayName": "Specter Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_6",
+    "displayName": "Plague Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_6",
+    "displayName": "Plague Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_6",
+    "displayName": "Plague Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_7",
+    "displayName": "Tinker Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_7",
+    "displayName": "Tinker Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_7",
+    "displayName": "Tinker Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_8",
+    "displayName": "Propeller Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_8",
+    "displayName": "Propeller Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_8",
+    "displayName": "Propeller Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_9",
+    "displayName": "Polar Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_9",
+    "displayName": "Polar Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_9",
+    "displayName": "Polar Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_10",
+    "displayName": "Black Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_10",
+    "displayName": "Black Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_10",
+    "displayName": "Black Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_11",
+    "displayName": "Scrap Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_11",
+    "displayName": "Scrap Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_11",
+    "displayName": "Scrap Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_12",
+    "displayName": "Prism Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_12",
+    "displayName": "Prism Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_12",
+    "displayName": "Prism Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_13",
+    "displayName": "Puzzle Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_13",
+    "displayName": "Puzzle Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_13",
+    "displayName": "Puzzle Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_14",
+    "displayName": "Mona Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_14",
+    "displayName": "Mona Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_14",
+    "displayName": "Mona Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_15",
+    "displayName": "Enchantress Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_15",
+    "displayName": "Enchantress Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_15",
+    "displayName": "Enchantress Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_16",
+    "displayName": "Chester Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_16",
+    "displayName": "Chester Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_16",
+    "displayName": "Chester Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_17",
+    "displayName": "Percy Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_17",
+    "displayName": "Percy Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_17",
+    "displayName": "Percy Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_18",
+    "displayName": "Shuffle Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_18",
+    "displayName": "Shuffle Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_18",
+    "displayName": "Shuffle Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_19",
+    "displayName": "Random Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_19",
+    "displayName": "Random Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_19",
+    "displayName": "Random Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_20",
+    "displayName": "Shovel Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_20",
+    "displayName": "Shovel Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_20",
+    "displayName": "Shovel Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_21",
+    "displayName": "Treasure Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_21",
+    "displayName": "Treasure Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_21",
+    "displayName": "Treasure Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_22",
+    "displayName": "Mole Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_22",
+    "displayName": "Mole Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_22",
+    "displayName": "Mole Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_23",
+    "displayName": "Shield Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_23",
+    "displayName": "Shield Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_23",
+    "displayName": "Shield Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_24",
+    "displayName": "King Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_24",
+    "displayName": "King Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_24",
+    "displayName": "King Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_25",
+    "displayName": "Specter Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_25",
+    "displayName": "Specter Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_25",
+    "displayName": "Specter Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_26",
+    "displayName": "Plague Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_26",
+    "displayName": "Plague Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_26",
+    "displayName": "Plague Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_27",
+    "displayName": "Tinker Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_27",
+    "displayName": "Tinker Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_27",
+    "displayName": "Tinker Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_28",
+    "displayName": "Propeller Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_28",
+    "displayName": "Propeller Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_28",
+    "displayName": "Propeller Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_29",
+    "displayName": "Polar Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_29",
+    "displayName": "Polar Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_29",
+    "displayName": "Polar Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_30",
+    "displayName": "Black Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_30",
+    "displayName": "Black Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_30",
+    "displayName": "Black Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_31",
+    "displayName": "Scrap Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_31",
+    "displayName": "Scrap Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_31",
+    "displayName": "Scrap Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_32",
+    "displayName": "Prism Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_32",
+    "displayName": "Prism Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_32",
+    "displayName": "Prism Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_33",
+    "displayName": "Shuffle Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_33",
+    "displayName": "Shuffle Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_33",
+    "displayName": "Shuffle Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_34",
+    "displayName": "Mona B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_34",
+    "displayName": "Mona B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_34",
+    "displayName": "Mona B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_35",
+    "displayName": "Enchantress B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_35",
+    "displayName": "Enchantress B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_35",
+    "displayName": "Enchantress B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_36",
+    "displayName": "Chester Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_36",
+    "displayName": "Chester Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_36",
+    "displayName": "Chester Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_37",
+    "displayName": "Tipps Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_37",
+    "displayName": "Tipps Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_37",
+    "displayName": "Tipps Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_38",
+    "displayName": "Kee Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_38",
+    "displayName": "Kee Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_38",
+    "displayName": "Kee Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_39",
+    "displayName": "Tipps B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_39",
+    "displayName": "Tipps B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_39",
+    "displayName": "Tipps B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_40",
+    "displayName": "Kee B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_40",
+    "displayName": "Kee B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_40",
+    "displayName": "Kee B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_41",
+    "displayName": "Percy B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_41",
+    "displayName": "Percy B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_41",
+    "displayName": "Percy B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_42",
+    "displayName": "Drill Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_42",
+    "displayName": "Drill Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_42",
+    "displayName": "Drill Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_43",
+    "displayName": "Drill Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_43",
+    "displayName": "Drill Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_43",
+    "displayName": "Drill Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_44",
+    "displayName": "Stache Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_44",
+    "displayName": "Stache Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_44",
+    "displayName": "Stache Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_45",
+    "displayName": "Guard Knight Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_45",
+    "displayName": "Guard Knight Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_45",
+    "displayName": "Guard Knight Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_46",
+    "displayName": "Beefto Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_46",
+    "displayName": "Beefto Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_46",
+    "displayName": "Beefto Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_47",
+    "displayName": "Donovan Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_47",
+    "displayName": "Donovan Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_47",
+    "displayName": "Donovan Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_48",
+    "displayName": "Polar Spinwulf Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_48",
+    "displayName": "Polar Spinwulf Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_48",
+    "displayName": "Polar Spinwulf Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_49",
+    "displayName": "Schmutz Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_49",
+    "displayName": "Schmutz Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_49",
+    "displayName": "Schmutz Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wins_50",
+    "displayName": "Puzzle Knight B Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "losses_50",
+    "displayName": "Puzzle Knight B Losses",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "draws_50",
+    "displayName": "Puzzle Knight B Draws",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  }
+]

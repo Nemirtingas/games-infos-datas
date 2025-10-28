@@ -1,6 +1,6 @@
 [
   {
-    "name": "stat_map_Chamber",
+    "name": "Mapvote.Chamber",
     "displayName": "Chamber Level Play Count",
     "type": "int",
     "default": 0,
@@ -11,7 +11,7 @@
     "max": 9999999
   },
   {
-    "name": "stat_map_Station",
+    "name": "Mapvote.Station",
     "displayName": "Station Level Play Count",
     "type": "int",
     "default": 0,
@@ -22,7 +22,7 @@
     "max": 9999999
   },
   {
-    "name": "stat_map_Courtyard",
+    "name": "Mapvote.Courtyard",
     "displayName": "Courtyard Level Play Count",
     "type": "int",
     "default": 0,
@@ -33,7 +33,7 @@
     "max": 9999999
   },
   {
-    "name": "stat_map_Rooftops",
+    "name": "Mapvote.Rooftops",
     "displayName": "Rooftops Level Play Count",
     "type": "int",
     "default": 0,
@@ -44,7 +44,7 @@
     "max": 9999999
   },
   {
-    "name": "stat_map_Tavern",
+    "name": "Mapvote.Tavern",
     "displayName": "Tavern Level Play Count",
     "type": "int",
     "default": 0,
@@ -55,7 +55,7 @@
     "max": 9999999
   },
   {
-    "name": "stat_map_Manor",
+    "name": "Mapvote.Manor",
     "displayName": "Manor Level Play Count",
     "type": "int",
     "default": 0,
@@ -66,7 +66,7 @@
     "max": 9999999
   },
   {
-    "name": "stat_map_Riverside",
+    "name": "Mapvote.Riverside",
     "displayName": "Riverside Level Play Count",
     "type": "int",
     "default": 0,
@@ -77,7 +77,7 @@
     "max": 9999999
   },
   {
-    "name": "stat_map_Gym",
+    "name": "Mapvote.Gym",
     "displayName": "Gym Level Play Count",
     "type": "int",
     "default": 0,
@@ -88,15 +88,16 @@
     "max": 9999999
   },
   {
-    "name": "map_",
+    "name": "Mapvote.Shadowbrook",
     "displayName": "",
     "type": "int",
     "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
   },
   {
-    "name": "stat_map_Random",
+    "name": "Mapvote.Random",
     "displayName": "Random Level Play Count",
     "type": "int",
     "default": 0,
@@ -107,12 +108,12 @@
     "max": 9999999
   },
   {
-    "name": "stap_map_11",
-    "displayName": "Total Deathmatch Wins Alchemist",
+    "name": "Mapvote.Forest",
+    "displayName": "",
     "type": "int",
     "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
+    "incrementonly": true,
+    "aggregated": true,
     "maxchange": 1
   },
   {
@@ -190,36 +191,22 @@
     "aggregated": false
   },
   {
-    "name": "map_bamball_01",
+    "name": "Game_StartedUp",
     "displayName": "",
     "type": "int",
     "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
   },
   {
-    "name": "stat_22",
+    "name": "Game_StartedUp_FirstTime",
     "displayName": "",
     "type": "int",
     "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": "stat_23",
-    "displayName": "",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": "stat_24",
-    "displayName": "",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "stat_25",
@@ -1207,6 +1194,2393 @@
     "default": 0,
     "incrementonly": true,
     "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Alchemist_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Alchemist_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Battlepriest_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Battlepriest_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Bomber_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Bomber_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Boxer_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Boxer_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Butcher_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Butcher_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Countess_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Countess_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Engineer_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Engineer_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Monster_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Monster_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_PlagueDoctor_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_PlagueDoctor_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Traveller_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Traveller_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Vampire_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Vampire_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_WitchHunter_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_WitchHunter_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Wraith_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "BB_Wraith_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Total_Win",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Total_Loss",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Total_Played",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Player.Experience",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "Player.Played",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "Alchemist.Kills",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Alchemist.Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Bomber.Kills",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Bomber.Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "BattlePriest.Kills",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "BattlePriest.Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Boxer.Kills",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Boxer.Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Butcher.Kills",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Butcher.Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Countess.Kills",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Countess.Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Engineer.Kills",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Engineer.Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Monster.Kills",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Monster.Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "PlagueDoctor.Kills",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "PlagueDoctor.Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Traveller.Kills",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Traveller.Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Vampire.Kills",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Vampire.Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "WitchHunter.Kills",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "WitchHunter.Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Wraith.Kills",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "Wraith.Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "TT.Attempts.CentralStation.Alchemist",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.CentralStation.Battlepriest",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.CentralStation.Bomber",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.CentralStation.Boxer",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.CentralStation.Butcher",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.CentralStation.Countess",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.CentralStation.Engineer",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.CentralStation.Monster",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.CentralStation.PlagueDoctor",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.CentralStation.Traveller",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.CentralStation.Vampire",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.CentralStation.WitchHunter",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.CentralStation.Wraith",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.HopesEdge.Alchemist",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.HopesEdge.Battlepriest",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.HopesEdge.Bomber",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.HopesEdge.Boxer",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.HopesEdge.Butcher",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.HopesEdge.Countess",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.HopesEdge.Engineer",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.HopesEdge.Monster",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.HopesEdge.PlagueDoctor",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.HopesEdge.Traveller",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.HopesEdge.Vampire",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.HopesEdge.WitchHunter",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "TT.Attempts.HopesEdge.Wraith",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.00.00.Tutorial",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 999999
+  },
+  {
+    "name": "LevelFailed.Campaign.00.00.Tutorial",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.00.00.Crypts",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelFailed.Campaign.00.00.Crypts",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.01.01.Tombs",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelFailed.Campaign.01.01.Tombs",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.01.02.Crest",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelFailed.Campaign.01.02.Crest",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.01.03.Alchemists",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelFailed.Campaign.01.03.Alchemists",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.01.04.Courtyard",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelFailed.Campaign.01.04.Courtyard",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.01.05.Rooftops",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelFailed.Campaign.01.05.Rooftops",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.01.06.Alley",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelFailed.Campaign.01.06.Alley",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Win.Bomber",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Win.Boxer",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Loss.Boxer",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Win.BattlePriest",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Loss.BattlePriest",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Win.Countess",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Loss.Countess",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Win.Butcher",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Loss.Butcher",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Win.Alchemist",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Loss.Alchemist",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Win.Engineer",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Loss.Engineer",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Win.Wraith",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Loss.Wraith",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Win.Vampire",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Loss.Vampire",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Win.WitchHunter",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Loss.WitchHunter",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Win.Traveller",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Loss.Traveller",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Win.PlagueDoctor",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Loss.PlagueDoctor",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Loss.Bomber",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.02.01.TargetSmash",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelFailed.Campaign.02.01.TargetSmash",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.02.02.Hospital",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelFailed.Campaign.02.02.Hospital",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.02.03.Gym",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelFailed.Campaign.02.03.Gym",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.02.04.Church",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelFailed.Campaign.02.04.Church",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.02.05.Manor",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelFailed.Campaign.02.05.Manor",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelComplete.Campaign.02.06.Shrine",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "LevelFailed.Campaign.02.06.Shrine",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.Tutorial_Step1_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_Step2_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_Step3_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_Step4_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_Step5_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_Step6_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_Step7_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_EndedWith_Battlepriest",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_EndedWith_Engineer",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_EndedWith_WitchHunter",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.Tutorial_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.00.Ruins_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.00.Ruins_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.00.Ruins_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.00.Ruins_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.00.Ruins_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.01.00.Ruins_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.01.Tombs_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.01.Tombs_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.01.Tombs_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.01.Tombs_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.01.Tombs_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.01.01.Tombs_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.02.Crest_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.02.Crest_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.02.Crest_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.02.Crest_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.02.Crest_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.01.02.Crest_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.03.Crypts_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.03.Crypts_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.03.Crypts_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.03.Crypts_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.03.Crypts_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.01.03.Crypts_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.04.Alchemists_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.04.Alchemists_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.04.Alchemists_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.04.Alchemists_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.04.Alchemists_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.01.04.Alchemists_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.05.Courtyard_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.05.Courtyard_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.05.Courtyard_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.05.Courtyard_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.05.Courtyard_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.01.05.Courtyard_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.06.Rooftops_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.06.Rooftops_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.06.Rooftops_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.06.Rooftops_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.06.Rooftops_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.01.06.Rooftops_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.07.Alley_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.07.Alley_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.07.Alley_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.07.Alley_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.01.07.Alley_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.01.07.Alley_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.01.TargetSmash_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.01.TargetSmash_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.01.TargetSmash_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.01.TargetSmash_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.01.TargetSmash_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.02.01.TargetSmash_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.02.Hospital_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.02.Hospital_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.02.Hospital_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.02.Hospital_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.02.Hospital_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.02.02.Hospital_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.03.Gym_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.03.Gym_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.03.Gym_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.03.Gym_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.03.Gym_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.02.03.Gym_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.04.Church_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.04.Church_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.04.Church_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.04.Church_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.04.Church_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.02.04.Church_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.05.Manor_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.05.Manor_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.05.Manor_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.05.Manor_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.05.Manor_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.02.05.Manor_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.02.06.Shrine_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.02.06.Shrine_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.02.06.Shrine_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.02.06.Shrine_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.02.06.Shrine_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.02.06.Shrine_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.03.01.Southbank_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.01.Southbank_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.01.Southbank_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.01.Southbank_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.01.Southbank_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.03.01.Southbank_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.02.Steambot_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.02.Steambot_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.02.Steambot_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.02.Steambot_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.02.Steambot_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.03.02.Steambot_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.03.Riverside_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.03.Riverside_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.03.Riverside_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.03.Riverside_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.03.Riverside_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.03.03.Riverside_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.04.Skyport_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.04.Skyport_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.04.Skyport_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.04.Skyport_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.04.Skyport_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.03.04.Skyport_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.05.Shadowbrook_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.05.Shadowbrook_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.05.Shadowbrook_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.05.Shadowbrook_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.05.Shadowbrook_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.03.05.Shadowbrook_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.06.Tower_Started",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.06.Tower_Completed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.06.Tower_Failed",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.06.Tower_Retries",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
+  },
+  {
+    "name": "Campaign.03.06.Tower_Deaths",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "Campaign.03.06.Tower_Quit",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
     "maxchange": 1
   }
 ]

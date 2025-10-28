@@ -17,7 +17,7 @@
   },
   {
     "name": "stat_CounterAgentKilled",
-    "displayName": "Agents Killed",
+    "displayName": "Targets Neutralized",
     "type": "int",
     "default": 0,
     "incrementonly": false,
@@ -25,7 +25,7 @@
   },
   {
     "name": "stat_CounterTargetEliminated",
-    "displayName": "Targets Eliminated",
+    "displayName": "Missions Accomplished",
     "type": "int",
     "default": 0,
     "incrementonly": false,
@@ -38,5 +38,32 @@
     "default": 0,
     "incrementonly": false,
     "aggregated": false
+  },
+  {
+    "name": "stat_TotalGamesPlayed",
+    "displayName": "Total Games Played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "stat_CounterAgenciesCompromised",
+    "displayName": "Agencies Compromised",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "stat_DropAgree",
+    "displayName": "Drop Agreement",
+    "type": "int",
+    "default": 1,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
   }
 ]

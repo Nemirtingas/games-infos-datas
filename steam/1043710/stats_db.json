@@ -4,7 +4,7 @@
     "displayName": "Reloads",
     "type": "int",
     "default": 0,
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false
   },
   {
@@ -12,7 +12,7 @@
     "displayName": "Full Turns",
     "type": "int",
     "default": 0,
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false
   },
   {
@@ -20,7 +20,7 @@
     "displayName": "Unrotated Levels",
     "type": "int",
     "default": 0,
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false
   },
   {
@@ -28,7 +28,7 @@
     "displayName": "Crashes",
     "type": "int",
     "default": 0,
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false
   },
   {
@@ -36,30 +36,6 @@
     "displayName": "Clean Levels",
     "type": "int",
     "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": "st_GAME_ENDS",
-    "displayName": "Game Finished",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": "st_GAME_ENDS_EA",
-    "displayName": "Game Finished (EA)",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": "st_PRERUN_RELEASED_TIME",
-    "displayName": "Prerun Playtime",
-    "type": "float",
-    "default": 0.0,
     "incrementonly": true,
     "aggregated": false
   },
@@ -68,7 +44,31 @@
     "displayName": "Warp Jumps",
     "type": "int",
     "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "st_POLL_VOTE",
+    "displayName": "",
+    "type": "int",
+    "default": -1,
     "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "st_GAME_ENDS",
+    "displayName": "Game Finished",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "st_PRERUN_RELEASED_TIME",
+    "displayName": "Prerun Playtime",
+    "type": "float",
+    "default": 0.0,
+    "incrementonly": true,
     "aggregated": false
   }
 ]
