@@ -72,9 +72,9 @@
     "default": 0,
     "incrementonly": true,
     "aggregated": false,
-    "maxchange": 14,
+    "maxchange": 24,
     "min": 0,
-    "max": 14
+    "max": 24
   },
   {
     "name": "TOTAL_LORE",
@@ -83,9 +83,9 @@
     "default": 0,
     "incrementonly": true,
     "aggregated": false,
-    "maxchange": 100,
+    "maxchange": 170,
     "min": 0,
-    "max": 100
+    "max": 170
   },
   {
     "name": "TOTAL_GOLD_COLLECTED",
@@ -94,9 +94,9 @@
     "default": 0,
     "incrementonly": true,
     "aggregated": false,
-    "maxchange": 10000,
+    "maxchange": 300000,
     "min": 0,
-    "max": 100000
+    "max": 300000
   },
   {
     "name": "TOOL_PURCHASED",
@@ -167,6 +167,259 @@
   {
     "name": "TALGOR_BANISHED",
     "displayName": "Talgor Banished.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "ATAIMON_BANISHED",
+    "displayName": "Ataimon Banished.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "TUTORIAL_COMPLETED",
+    "displayName": "Tutorial Completed.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "WEEKLY_WONDER",
+    "displayName": "Complete all weekly challenges during any week.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "BRUTAL_RELIC_HUNTER",
+    "displayName": "Collect a Relic on Brutal Difficulty.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "AGONY",
+    "displayName": "Collect a Relic with the Agony Modifier on.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "USHABTI_COLLECTED",
+    "displayName": "Total Ushabti Collected.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 50,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "MEJAIS_BANE",
+    "displayName": "Banish Mejai #7.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "ETERNAL_ENTOMBMENT",
+    "displayName": "Become a Mummy.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "RACE_AGAINST_TIME",
+    "displayName": "Complete a round with timed mode on.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "CANT_TOUCH_THIS",
+    "displayName": "Collect a relic without dying.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "NOT_ARCHAEOLOGY",
+    "displayName": "Burn a Mummy.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "COMPLETIONISM",
+    "displayName": "Finish a round with all objectives completed.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "PAGES_TRANSCRIBED",
+    "displayName": "Lore pages transcribed.,",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 170,
+    "min": 0,
+    "max": 170
+  },
+  {
+    "name": "TUNED_EXPLORER",
+    "displayName": "Listen to a different radio station.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "MORTAL_RETURN",
+    "displayName": "Return from the afterlife as human.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "BLAST_PAST",
+    "displayName": "Destroy a wall using TNT.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "POINT_SPENDER",
+    "displayName": "Spend a point in the Points Shop.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "MIRROR_MAKEOVER",
+    "displayName": "Change your appearance in the Mirror.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "INVENTORY_KING",
+    "displayName": "Max out your inventory slots.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "MEJAIS_PREY",
+    "displayName": "Get killed by a Mejai.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "UNEARTHLY_PROOF",
+    "displayName": "Prove the Mejai exist.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "HEALING_FORCE",
+    "displayName": "Use a medkit.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "CLEANUP",
+    "displayName": "Cleaned up after yourself.",
     "type": "int",
     "default": 0,
     "incrementonly": true,
