@@ -1,0 +1,2119 @@
+[
+  {
+    "name": "stat_reset_levels_stats_version",
+    "displayName": "reset the levels stats only, compares to this version and if this is less than the one in the game resets",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "stat_reset_all_version",
+    "displayName": "resets all stats and achievements",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "stat_challenges_completed",
+    "displayName": "Number of completed optimization challenges",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "stat_challenge_optimizations_improved",
+    "displayName": "Number of improved challenge optimizations",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "stat_challenges_completed_bitmask1",
+    "displayName": "bit mask representing the completed challenges(first 32)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "stat_challenges_completed_bitmask2",
+    "displayName": "bit mask representing the completed challenges(33 and onwards)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "stat_challenges_improved_bitmask1",
+    "displayName": "bit mask representing the improved optimizations(first 32)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "stat_challenges_improved_bitmask2",
+    "displayName": "bit mask representing the improved optimizations(33 and onwards)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "stat_levels_solved_1_32",
+    "displayName": "bit mask representing the solved levels from 1 to 32",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "stat_levels_solved_33_64",
+    "displayName": "bit mask representing the solved levels from 33 onwards",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "The Basics components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "The Basics cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 2147483647,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "The Basics footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "The Basics volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Filters components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Filters cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Filters footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Filters volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Great filters components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Great filters cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Great filters footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Great filters volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Beam splitting components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Beam splitting cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Beam splitting footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Beam splitting volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Beam combining components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Beam combining cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Beam combining footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Beam combining volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switch 1 components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switch 1 cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switch 1 footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switch 1 volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switch 2 components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switch 2 cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switch 2 footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switch 2 volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Infinite loop components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Infinite loop cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Infinite loop footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Infinite loop volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "AND components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "AND cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 2147483647,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "AND footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "AND volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "OR components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "OR cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "OR footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "OR volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "NOT components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "NOT cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "NOT footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "NOT volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "XOR components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "XOR cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "XOR footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "XOR volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "NAND components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "NAND cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "NAND footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "NAND volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "NOR components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "NOR cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "NOR footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "NOR volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "XNOR components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "XNOR cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "XNOR footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "XNOR volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Accumulator components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Accumulator cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Accumulator footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Accumulator volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Blue mask components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Blue mask cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Blue mask footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Blue mask volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Complements components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Complements cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Complements footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Complements volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "RGB components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "RGB cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "RGB footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "RGB volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "CMY components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "CMY cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "CMY footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "CMY volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switching components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switching cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switching footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switching volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switching more components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switching more cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switching more footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switching more volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Skip row components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Skip row cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Skip row footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Skip row volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Copy row components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Copy row cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Copy row footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Copy row volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Channel match components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Channel match cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Channel match footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Channel match volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Less components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Less cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Less footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Less volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Red Blue Red components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Red Blue Red cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Red Blue Red footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Red Blue Red volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Bin to Oct components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Bin to Oct cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Bin to Oct footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Bin to Oct volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Oct to Bin components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Oct to Bin cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Oct to Bin footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Oct to Bin volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Merge cells components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Merge cells cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Merge cells footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Merge cells volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "RGB Next color components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "RGB Next color cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "RGB Next color footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "RGB Next color volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Flip-Flop components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Flip-Flop cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Flip-Flop footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Flip-Flop volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Streaks components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Streaks cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Streaks footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Streaks volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Next color components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Next color cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Next color footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Next color volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "X components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "X cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "X footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "X volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Half and Half components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Half and Half cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Half and Half footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Half and Half volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Triangle components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Triangle cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Triangle footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Triangle volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "First 5 Last 5 components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "First 5 Last 5 cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "First 5 Last 5 footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "First 5 Last 5 volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Expand components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Expand cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Expand footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Expand volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Reverse components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Reverse cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Reverse footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Reverse volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Addition components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Addition cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Addition footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Addition volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Subtraction components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Subtraction cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Subtraction footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Subtraction volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switching again components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switching again cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switching again footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Switching again volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Primes components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Primes cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Primes footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Primes volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Backwards components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Backwards cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Backwards cycles_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Backwards footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Backwards volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Splice components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Splice cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Splice cycles_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Splice footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Splice volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Expand 2 components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Expand 2 cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Expand 2 cycles_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Expand 2 footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Expand 2 volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Row reverse components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Row reverse cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Row reverse cycles_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Row reverse footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Row reverse volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Sort components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Sort cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Sort cycles_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Sort footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Sort volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Transpose components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Transpose cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Transpose cycles_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Transpose footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Transpose volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Longest components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Longest cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Longest cycles_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Longest footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Longest volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Compression components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Compression cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Compression cycles_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Compression footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Compression volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Multiplication components_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Multiplication cost_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Multiplication cycles_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Multiplication footprint_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "Multiplication volume_best",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "stat_beginner_levels_solved",
+    "displayName": "Number of beginner levels solved",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "stat_intermediate_levels_solved",
+    "displayName": "Number of intermediate levels solved",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "stat_advanced_levels_solved",
+    "displayName": "Number of advanced levels solved",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "stat_streaming_levels_solved",
+    "displayName": "Number of streaming levels solved",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "stat_non_streaming_levels_solved",
+    "displayName": "Number of non-streaming levels solved",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "stat_levels_solved",
+    "displayName": "Number of levels solved",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  }
+]

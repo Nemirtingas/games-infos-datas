@@ -1,6 +1,6 @@
 [
   {
-    "name": "STAT_DEATH",
+    "name": "STAT_DEATHS",
     "displayName": "Number of deaths",
     "type": "int",
     "default": 0,
@@ -139,22 +139,6 @@
     "aggregated": false
   },
   {
-    "name": "STAT_LONGEST_COMPLETION_TIME",
-    "displayName": "Longest Highscore",
-    "type": "int",
-    "default": 0,
-    "incrementonly": true,
-    "aggregated": false
-  },
-  {
-    "name": "STAT_SHORTEST_COMPLETION_TIME",
-    "displayName": "Shortest HIghscore",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "STAT_KILLED_BY_LASER",
     "displayName": "Amount of deaths caused by lasers",
     "type": "int",
@@ -201,51 +185,6 @@
     "default": 0,
     "incrementonly": true,
     "aggregated": false
-  },
-  {
-    "name": "STAT_PROFILE_SKIN",
-    "displayName": "Current Skin-ID",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0
-  },
-  {
-    "name": "STAT_PROFILE_COLOR",
-    "displayName": "Current Color-ID",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": -3
-  },
-  {
-    "name": "STAT_PROFILE_BOOST",
-    "displayName": "Current Boost-ID",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0
-  },
-  {
-    "name": "STAT_PROFILE_EXPLOSION",
-    "displayName": "Current Explosion-ID",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0
-  },
-  {
-    "name": "STAT_PROFILE_TAG",
-    "displayName": "Current Tag-ID",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0
   },
   {
     "name": "STAT_KEYS_PURCHASED",
@@ -304,6 +243,33 @@
   {
     "name": "STAT_COOP_LEVELS_ALLSTAR",
     "displayName": "Number of Coop levels completed with all 3 stars",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_KILLS",
+    "displayName": "Number of Kills (Multiplayer)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_GAMES_PLAYED",
+    "displayName": "Number of Games  played (Multiplayer)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "STAT_WINS",
+    "displayName": "Number of Wins (Multiplayer)",
     "type": "int",
     "default": 0,
     "incrementonly": true,

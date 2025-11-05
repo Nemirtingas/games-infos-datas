@@ -8,7 +8,7 @@
     "aggregated": false,
     "maxchange": 1,
     "min": 0,
-    "max": 500
+    "max": 5000
   },
   {
     "name": "TurretsBuilt",
@@ -19,7 +19,7 @@
     "aggregated": false,
     "maxchange": 1,
     "min": 0,
-    "max": 500
+    "max": 50000
   },
   {
     "name": "GatesBuilt",
@@ -30,7 +30,7 @@
     "aggregated": false,
     "maxchange": 1,
     "min": 0,
-    "max": 500
+    "max": 5000
   },
   {
     "name": "MetalCollected",
@@ -62,7 +62,7 @@
     "incrementonly": false,
     "aggregated": false,
     "min": 0.0,
-    "max": 1000,
+    "max": 1000000,
     "windowsize": 60.0
   },
   {
@@ -73,7 +73,7 @@
     "incrementonly": false,
     "aggregated": false,
     "min": 0.0,
-    "max": 1000,
+    "max": 1000000,
     "windowsize": 60.0
   },
   {
@@ -85,7 +85,7 @@
     "aggregated": false,
     "maxchange": 1,
     "min": 0,
-    "max": 1000
+    "max": 100000
   },
   {
     "name": "ShreddedItems",
@@ -96,7 +96,7 @@
     "aggregated": false,
     "maxchange": 1,
     "min": 0,
-    "max": 1000
+    "max": 100000
   },
   {
     "name": "KilledBugs",
@@ -118,7 +118,7 @@
     "aggregated": false,
     "maxchange": 1,
     "min": 0,
-    "max": 1000
+    "max": 10000
   },
   {
     "name": "MaxResearch",
@@ -129,7 +129,7 @@
     "aggregated": false,
     "maxchange": 0,
     "min": 0,
-    "max": 50
+    "max": 500
   },
   {
     "name": "Deaths",
@@ -140,7 +140,7 @@
     "aggregated": false,
     "maxchange": 1,
     "min": 0,
-    "max": 100
+    "max": 1000
   },
   {
     "name": "Clones",
@@ -151,7 +151,7 @@
     "aggregated": false,
     "maxchange": 1,
     "min": 0,
-    "max": 100
+    "max": 1000
   },
   {
     "name": "Orbs",
@@ -162,7 +162,7 @@
     "aggregated": false,
     "maxchange": 1,
     "min": 0,
-    "max": 100
+    "max": 1000
   },
   {
     "name": "GamesWon",
@@ -173,7 +173,7 @@
     "aggregated": false,
     "maxchange": 1,
     "min": 0,
-    "max": 1000
+    "max": 10000
   },
   {
     "name": "GamesLost",
@@ -184,7 +184,7 @@
     "aggregated": false,
     "maxchange": 1,
     "min": 0,
-    "max": 1000
+    "max": 10000
   },
   {
     "name": "GlobalGamesWon",
@@ -207,5 +207,27 @@
     "maxchange": 1,
     "min": 0,
     "max": 1000000
+  },
+  {
+    "name": "AvgMetalPerMinute",
+    "displayName": "Average metal per minute",
+    "type": "avgrate",
+    "default": 0.0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0.0,
+    "max": 10000,
+    "windowsize": 60.0
+  },
+  {
+    "name": "AvgLumenPerMinute",
+    "displayName": "Average lumen per minute",
+    "type": "avgrate",
+    "default": 0.0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0.0,
+    "max": 10000,
+    "windowsize": 60.0
   }
 ]

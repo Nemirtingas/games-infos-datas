@@ -25,5 +25,57 @@
     "incrementonly": true,
     "aggregated": false,
     "min": 0
+  },
+  {
+    "name": "elo",
+    "displayName": "ELO",
+    "type": "int",
+    "default": 1000,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 50,
+    "min": 800,
+    "max": 5000
+  },
+  {
+    "name": "online_won",
+    "displayName": "Matches Won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "online_lost",
+    "displayName": "Matches Lost",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "max_elo",
+    "displayName": "Max ELO",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "bad_server",
+    "displayName": "Bad Server",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 3
   }
 ]

@@ -1,0 +1,57 @@
+[
+  {
+    "name": "StatsArena",
+    "displayName": "arena",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
+  },
+  {
+    "name": "kills/hour",
+    "displayName": "kills/hour",
+    "type": "avgrate",
+    "default": 0.0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0.0,
+    "max": 9999,
+    "windowsize": 10.0
+  },
+  {
+    "name": "StatsLaunched",
+    "displayName": "Launched",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
+  },
+  {
+    "name": "StatsLaunchedTest",
+    "displayName": "Launched2",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
+  },
+  {
+    "name": "NumGames",
+    "displayName": "NumGamesDisplay",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999
+  }
+]

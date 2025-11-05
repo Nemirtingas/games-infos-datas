@@ -1,0 +1,338 @@
+[
+  {
+    "name": "player_xp",
+    "displayName": "Player XP",
+    "type": "float",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true
+  },
+  {
+    "name": "player_level",
+    "displayName": "Player Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true
+  },
+  {
+    "name": "player_rank",
+    "displayName": "Player Rank",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "player_golds",
+    "displayName": "Player Golds",
+    "type": "float",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 50000.0
+  },
+  {
+    "name": "player_coins",
+    "displayName": "Player Coins",
+    "type": "float",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 50000.0
+  },
+  {
+    "name": "last_unlocked_level_index",
+    "displayName": "Last unlocked map",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "player_bot_kills",
+    "displayName": "Player Story Enemies Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true
+  },
+  {
+    "name": "player_pvp_kills",
+    "displayName": "Player Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "player_walls_destroyed",
+    "displayName": "Destroyed Walls",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "all_games_played",
+    "displayName": "All games played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "sp_games_played",
+    "displayName": "Singleplayer games played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "mp_games_played",
+    "displayName": "Multiplayer games played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "all_mp_games_won",
+    "displayName": "All Multiplayer Games Won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "all_mp_games_second",
+    "displayName": "All Multiplayer Games Second place",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "all_mp_games_third",
+    "displayName": "All Multiplayer Games third place",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "player_pvp_deaths",
+    "displayName": "Player Deaths",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  },
+  {
+    "name": "init_items_dropped",
+    "displayName": "Init Items Dropped",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "boost_slot_0",
+    "displayName": "Boost slot 0",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "boost_slot_1",
+    "displayName": "Boost slot 1",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "boost_slot_2",
+    "displayName": "Boost slot 2",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "boost_slot_3",
+    "displayName": "Boost slot 3",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "last_menu_message_read",
+    "displayName": "Last menu message read",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "boost_slot_0_countings",
+    "displayName": "Boost Slot 0 countings",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "boost_slot_1_countings",
+    "displayName": "Boost Slot 1 countings",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "boost_slot_2_countings",
+    "displayName": "Boost Slot 2 countings",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "boost_slot_3_countings",
+    "displayName": "Boost Slot 3 countings",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "spray_slot_0",
+    "displayName": "Spray slot 0",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "spray_slot_1",
+    "displayName": "Spray slot 1",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 500000,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "spray_slot_2",
+    "displayName": "Spray slot 2",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 500000,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "spray_slot_3",
+    "displayName": "Spray slot 3",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 500000,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "spray_slot_4",
+    "displayName": "Spray slot 4",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 500000,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "spray_slot_0_countigns",
+    "displayName": "Spray slot 0 countings",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "spray_slot_1_countigns",
+    "displayName": "Spray slot 1 countings",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "spray_slot_2_countigns",
+    "displayName": "Spray slot 2 countings",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "spray_slot_3_countigns",
+    "displayName": "Spray slot 3 countings",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "spray_slot_4_countigns",
+    "displayName": "Spray slot 4 countings",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "spray_slot_actual_id",
+    "displayName": "Spray slot actual",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "played_tutorial",
+    "displayName": "Player played tutorial",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 2
+  }
+]

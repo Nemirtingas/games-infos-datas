@@ -1,0 +1,230 @@
+[
+  {
+    "name": "GOLD_EARNED",
+    "displayName": "Gold earned",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 3000,
+    "min": 0
+  },
+  {
+    "name": "GLORY_EARNED",
+    "displayName": "Glory earned",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0
+  },
+  {
+    "name": "ENEMIES_KILLED",
+    "displayName": "Enemies killed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 20,
+    "min": 0
+  },
+  {
+    "name": "BOSS_KILLED",
+    "displayName": "Boss killed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 0
+  },
+  {
+    "name": "MAP_NODES_COUNT",
+    "displayName": "Map points traveled",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0
+  },
+  {
+    "name": "MAP_NODES_PER_CAMPAIGN",
+    "displayName": "Map points traveled per campaign",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 3.0
+  },
+  {
+    "name": "DAMAGE_DEALT",
+    "displayName": "Damage dealt",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 0
+  },
+  {
+    "name": "TURNS_PER_BATTLE",
+    "displayName": "Turns per battle",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 10.0
+  },
+  {
+    "name": "TIME_PER_BATTLE",
+    "displayName": "Time per battle",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 10.0
+  },
+  {
+    "name": "UNITS_LOST",
+    "displayName": "Heroes lost",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 0
+  },
+  {
+    "name": "UNITS_LOST_PER_CAMPAIGN",
+    "displayName": "Units lost per campaign",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 1.0
+  },
+  {
+    "name": "CONTRACTS_COMPLETED",
+    "displayName": "Missions completed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "CONTRACTS_PER_CAMPAIGN",
+    "displayName": "Missions completed per campaign",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 3.0
+  },
+  {
+    "name": "TIME_PER_CAMPAIGN",
+    "displayName": "Time per campaign",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 1.0
+  },
+  {
+    "name": "ENEMIES_KILLED_PER_CAMPAIGN",
+    "displayName": "Enemies killed per campaign",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 3.0
+  },
+  {
+    "name": "GLORY_PER_CAMPAIGN",
+    "displayName": "Glory per campaign",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 3.0
+  },
+  {
+    "name": "GOLD_PER_CAMPAIGN",
+    "displayName": "Gold per campaign",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 3.0
+  },
+  {
+    "name": "ITEMS_COLLECTED",
+    "displayName": "Items collected",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "ITEMS_PER_CAMPAIGN",
+    "displayName": "Items collected per campaign",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 3.0
+  },
+  {
+    "name": "GOLD_PER_HOUR",
+    "displayName": "Gold earned per hour",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 10.0
+  },
+  {
+    "name": "DAMAGE_DEALT_PER_BATTLE",
+    "displayName": "Damage dealt per battle",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 10.0
+  },
+  {
+    "name": "DAMAGE_HEALED",
+    "displayName": "Healed points",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "DAMAGE_HEALED_PER_BATTLE",
+    "displayName": "Healed points per battle",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 10.0
+  },
+  {
+    "name": "BATTLES_WON",
+    "displayName": "Battles won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "BATTLES_LOST",
+    "displayName": "Battles lost",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
+  }
+]

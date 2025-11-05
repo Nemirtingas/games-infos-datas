@@ -1,11 +1,92 @@
 [
   {
-    "name": "heighest_against_ai",
-    "displayName": "Heighest score against AI",
+    "name": "highest_against_ai",
+    "displayName": "Players total score against the AI",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "highest_ai_score",
+    "displayName": "AI's total score against the Player",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "player_highest_score",
+    "displayName": "Highest Player Score",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "total_player_score",
+    "displayName": "Players total score against the AI",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "total_ai_score",
+    "displayName": "AI's total score against the Player",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "total_survival_score",
+    "displayName": "Players total Survival Mode Score",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "highest_survival_score",
+    "displayName": "Highest Survival Score",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 1
+  },
+  {
+    "name": "given_deluxe_money",
+    "displayName": "",
     "type": "int",
     "default": 0,
     "incrementonly": false,
     "aggregated": false,
-    "min": 1
+    "min": 1,
+    "max": 0
+  },
+  {
+    "name": "current_money",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "given_starter_money",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1,
+    "max": 0
   }
 ]

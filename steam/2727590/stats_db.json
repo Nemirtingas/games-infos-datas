@@ -1,0 +1,52 @@
+[
+  {
+    "name": "minutes_in_flow",
+    "displayName": "time (in minutes) spent in a match of flow mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "points_won_in_flow",
+    "displayName": "points won in flow mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "missions_accomplished",
+    "displayName": "average missions accomplished",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "points_scored_in_flow_avg",
+    "displayName": "average points won during flow mode in last 10h gaming",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 10.0
+  },
+  {
+    "name": "missions_scored_in_flow_avg",
+    "displayName": "missions accomplished during flow mode in last 10h gaming",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 10.0
+  },
+  {
+    "name": "player_minutes_in_flow",
+    "displayName": "minutes spent playing in flow mode (not aggregated)",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  }
+]

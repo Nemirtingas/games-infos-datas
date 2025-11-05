@@ -1,0 +1,770 @@
+[
+  {
+    "name": "TOTAL_GAME_COUNT",
+    "displayName": "Game count",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "TOTAL_GAME_TIME",
+    "displayName": "Game time",
+    "type": "float",
+    "default": 0.0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1.0,
+    "min": 0.0
+  },
+  {
+    "name": "GAME_STARTED_AT_1_PLAYER",
+    "displayName": "Game at one player",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_STARTED_AT_2_PLAYER",
+    "displayName": "Game at two players",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_STARTED_AT_3_PLAYER",
+    "displayName": "Game at three players",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_STARTED_AT_4_PLAYER",
+    "displayName": "Game at four players",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_SNIPER_ALONE",
+    "displayName": "Play Sniper Alone",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_MACHINEGUN_ALONE",
+    "displayName": "Play Machine gun alone",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_PISTOL_ALONE",
+    "displayName": "Play pistol alone",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_RIFLE_ALONE",
+    "displayName": "Play rifle alone",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_ROCKETLAUNCHER_ALONE",
+    "displayName": "Play rocket launcher alone",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_MACHINEPISTOL_ALONE",
+    "displayName": "Play machine pistol alone",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_SHOTGUN_ALONE",
+    "displayName": "Play shotgun alone",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_SNIPER_MULTI",
+    "displayName": "Play sniper in multiplayer",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_MACHINEGUN_MULTI",
+    "displayName": "Play machine gun in multiplayer",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_PISTOL_MULTI",
+    "displayName": "Play pistol in multiplayer",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_RIFLE_MULTI",
+    "displayName": "Play rifle in multiplayer",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_ROCKETLAUNCHER_MULTI",
+    "displayName": "Play rocket launcher in mutliplayer",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_MACHINEPISTOL_MULTI",
+    "displayName": "Play machine pistol in multiplayer",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "PICKED_SHOTGUN_MULTI",
+    "displayName": "Play shotgun in multiplayer",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_ALONE_SNIPER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_ALONE_MACHINEGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_ALONE_PISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_ALONE_RIFLE",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_ALONE_ROCKETLAUNCHER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_ALONE_MACHINEPISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_ALONE_SHOTGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_MULTI_SNIPER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_MULTI_MACHINEGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_MULTI_PISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_MULTI_RIFLE",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_MULTI_ROCKETLAUNCHER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_MULTI_MACHINEPISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "GAME_WIN_MULTI_SHOTGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_0_WIN_MULTI_SNIPER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_0_WIN_MULTI_MACHINEGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_0_WIN_MULTI_PISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_0_WIN_MULTI_RIFLE",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_0_WIN_MULTI_ROCKETLAUNCHER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_0_WIN_MULTI_MACHINEPISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_0_WIN_MULTI_SHOTGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_1_WIN_MULTI_SNIPER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_1_WIN_MULTI_MACHINEGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_1_WIN_MULTI_PISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_1_WIN_MULTI_RIFLE",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_1_WIN_MULTI_ROCKETLAUNCHER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_1_WIN_MULTI_MACHINEPISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_1_WIN_MULTI_SHOTGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_2_WIN_MULTI_SNIPER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_2_WIN_MULTI_MACHINEGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_2_WIN_MULTI_PISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_2_WIN_MULTI_RIFLE",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_2_WIN_MULTI_ROCKETLAUNCHER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_2_WIN_MULTI_MACHINEPISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_2_WIN_MULTI_SHOTGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_3_WIN_MULTI_SNIPER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_3_WIN_MULTI_MACHINEGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_3_WIN_MULTI_PISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_3_WIN_MULTI_RIFLE",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_3_WIN_MULTI_ROCKETLAUNCHER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_3_WIN_MULTI_MACHINEPISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_3_WIN_MULTI_SHOTGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_4_WIN_MULTI_SNIPER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_4_WIN_MULTI_MACHINEGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_4_WIN_MULTI_PISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_4_WIN_MULTI_RIFLE",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_4_WIN_MULTI_ROCKETLAUNCHER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_4_WIN_MULTI_MACHINEPISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_4_WIN_MULTI_SHOTGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_5_WIN_MULTI_SNIPER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_5_WIN_MULTI_MACHINEGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_5_WIN_MULTI_PISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_5_WIN_MULTI_RIFLE",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_5_WIN_MULTI_ROCKETLAUNCHER",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_5_WIN_MULTI_MACHINEPISTOL",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "LEVEL_5_WIN_MULTI_SHOTGUN",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
+  },
+  {
+    "name": "STATS_VERSION",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  }
+]

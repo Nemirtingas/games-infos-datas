@@ -1,37 +1,79 @@
 [
   {
     "name": "FullPlaythrough",
-    "defaultvalue": 0,
-    "displayName": "Number of other achievements"
+    "displayName": "Number of other achievements",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 32
   },
   {
     "name": "BotKillCount",
-    "defaultvalue": 0,
-    "displayName": "Bots killed by player"
+    "displayName": "Bots killed by player",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 20,
+    "min": 0,
+    "max": 500
   },
   {
     "name": "XenosKillCount",
-    "defaultvalue": 0,
-    "displayName": "Xenos killed by player"
+    "displayName": "Xenos killed by player",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 20,
+    "min": 0,
+    "max": 500
   },
   {
     "name": "KnowTheWay",
-    "defaultvalue": 0,
-    "displayName": "Num of reached second level missions"
+    "displayName": "Num of reached second level missions",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 3
   },
   {
     "name": "KilledAllEnemies",
-    "defaultvalue": 0,
-    "displayName": "Defeated each enemy type in the game at least once"
+    "displayName": "Defeated each enemy type in the game at least once",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "PlayedAllMissions",
-    "defaultvalue": 0,
-    "displayName": "Reached every level in the game at least once"
+    "displayName": "Reached every level in the game at least once",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9
   },
   {
     "name": "PlayedAllHeroes",
-    "defaultvalue": 0,
-    "displayName": "Played every hero class at least once"
+    "displayName": "Played every hero class at least once",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 4,
+    "min": 0,
+    "max": 5
   }
 ]

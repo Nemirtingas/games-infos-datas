@@ -1,0 +1,672 @@
+[
+  {
+    "name": "CharacterLevel",
+    "displayName": "Max Character Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "SkillMasteryLevel",
+    "displayName": "Max Skill Mastery Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 30
+  },
+  {
+    "name": "AscendancyLevel",
+    "displayName": "Max Ascendancy Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "ItemsLooted",
+    "displayName": "Items Looted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 10000
+  },
+  {
+    "name": "MythicalItemsLooted",
+    "displayName": "Mythical Items Looted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 500
+  },
+  {
+    "name": "ItemsSalvaged",
+    "displayName": "Items Salvaged",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 20000
+  },
+  {
+    "name": "BossesSlain",
+    "displayName": "Bosses Slain",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 5000
+  },
+  {
+    "name": "MapExpertise",
+    "displayName": "Max Map Expertise",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "GoldObtained",
+    "displayName": "Gold Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1000000000
+  },
+  {
+    "name": "DonationCreditsObtained",
+    "displayName": "Donation Credits Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 10000000
+  },
+  {
+    "name": "RubiesObtained",
+    "displayName": "Rubies Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250000
+  },
+  {
+    "name": "SoulOrbsObtained",
+    "displayName": "Soul Orbs Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 15000
+  },
+  {
+    "name": "ItemsCrafted",
+    "displayName": "Items Crafted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "ItemsRerolled",
+    "displayName": "Items Rerolled",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 500
+  },
+  {
+    "name": "ItemsRandomised",
+    "displayName": "Items Randomised",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "AttributesLocked",
+    "displayName": "Attributes Locked",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 25
+  },
+  {
+    "name": "AttributesUpgraded",
+    "displayName": "Attributes Upgraded",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1000
+  },
+  {
+    "name": "ItemsEnchanted",
+    "displayName": "Items Enchanted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "EnchantRecipesLooted",
+    "displayName": "Enchant Recipes Looted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 40
+  },
+  {
+    "name": "FlaskCrafted",
+    "displayName": "Flasks Crafted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 14
+  },
+  {
+    "name": "MaterialsGathered",
+    "displayName": "Materials Gathered",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1000000
+  },
+  {
+    "name": "CommunityUpgradesAllocated",
+    "displayName": "Community Upgrades Allocated",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 200
+  },
+  {
+    "name": "ToolsLooted",
+    "displayName": "Tools Looted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1000
+  },
+  {
+    "name": "BuildingsUpgraded",
+    "displayName": "Buildings Upgraded",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 15
+  },
+  {
+    "name": "MaterialsObtained",
+    "displayName": "Materials Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 90
+  },
+  {
+    "name": "MonstersSlain",
+    "displayName": "Monsters Slain",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 90
+  },
+  {
+    "name": "WeaponsObtained",
+    "displayName": "Weapons Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 110
+  },
+  {
+    "name": "ArmourObtained",
+    "displayName": "Armour Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 170
+  },
+  {
+    "name": "AccessoriesObtained",
+    "displayName": "Accessories Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 40
+  },
+  {
+    "name": "OffhandsObtained",
+    "displayName": "Offhands Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 25
+  },
+  {
+    "name": "GemsObtained",
+    "displayName": "Gems Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 18
+  },
+  {
+    "name": "BountiesCompleted",
+    "displayName": "Bounties Completed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 500
+  },
+  {
+    "name": "InfamyLevelReached",
+    "displayName": "Infamy Level Reached",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 8
+  },
+  {
+    "name": "BountyEnchantsObtained",
+    "displayName": "Bounty Enchants Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 5
+  },
+  {
+    "name": "PathfinderItemsObtained",
+    "displayName": "Pathfinder Items Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 15
+  },
+  {
+    "name": "FavourObtained",
+    "displayName": "Favour Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 50000
+  },
+  {
+    "name": "BountiesRerolled",
+    "displayName": "Bounties Rerolled",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 25
+  },
+  {
+    "name": "ParagonLevel",
+    "displayName": "Max Paragon Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 10
+  },
+  {
+    "name": "MythicalToolsObtained",
+    "displayName": "Mythical Tools Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 25
+  },
+  {
+    "name": "AgonyMissionsCompleted",
+    "displayName": "Agony Missions Completed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 500
+  },
+  {
+    "name": "AgonyMaxMissionsCompleted",
+    "displayName": "Agony Max Missions Completed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "AgonyInfusionsCompleted",
+    "displayName": "Agony Infusions Completed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "SoulToolsLooted",
+    "displayName": "Soul Tools Looted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "MythicalSoulToolsLooted",
+    "displayName": "Mythical Soul Tools Looted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 25
+  },
+  {
+    "name": "AgonyExclusivesObtained",
+    "displayName": "Agony Exclusives Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 60
+  },
+  {
+    "name": "AgonyEnchantsObtained",
+    "displayName": "Agony Enchants Obtained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 4
+  },
+  {
+    "name": "ReinforcementLevel",
+    "displayName": "Reinforcement Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 10
+  },
+  {
+    "name": "FactionDungeonsCompleted",
+    "displayName": "Faction Dungeons Completed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "DwarvenReputationLevel",
+    "displayName": "Dwarven Reputation Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 4
+  },
+  {
+    "name": "RiverfootReputationLevel",
+    "displayName": "Riverfoot Reputation Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 4
+  },
+  {
+    "name": "ElementalReputationLevel",
+    "displayName": "Elemental Reputation Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 4
+  },
+  {
+    "name": "DruidicReputationLevel",
+    "displayName": "Druidic Reputation Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 4
+  },
+  {
+    "name": "BlessedCount",
+    "displayName": "Blessed Count",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 4
+  },
+  {
+    "name": "DivineItemsLooted",
+    "displayName": "Divine Items Looted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 35
+  },
+  {
+    "name": "RaidsCompleted",
+    "displayName": "Raids Completed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "HeroicRaidsCompleted",
+    "displayName": "Heroic Raids Completed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 10
+  },
+  {
+    "name": "UniqueRank",
+    "displayName": "Unique Rank",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 4
+  },
+  {
+    "name": "RaidDivineItemsLooted",
+    "displayName": "Raid Divine Items Looted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 25
+  },
+  {
+    "name": "EndlessSpiresFloor",
+    "displayName": "Endless Spires Floor",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "EndlessCorridorsFloor",
+    "displayName": "Endless Corridors Floor",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "EndlessWastesFloor",
+    "displayName": "Endless Wastes Floor",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "EndlessDepthsFloor",
+    "displayName": "Endless Depths Floor",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "FatedRevengeLevel",
+    "displayName": "Fated Revenge Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "FatedRestorationLevel",
+    "displayName": "Fated Restoration Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "FatedDestructionLevel",
+    "displayName": "Fated Destruction Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "FatedAggressionLevel",
+    "displayName": "Fated Aggression Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "EndlessDivineItemsLooted",
+    "displayName": "EndlessDivine Items Looted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 20
+  }
+]

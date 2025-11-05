@@ -1,0 +1,802 @@
+[
+  {
+    "name": "STAT_Become_WorldBoss",
+    "displayName": "World Boss Achieved",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "STAT_Headshots",
+    "displayName": "Headshots",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "STAT_Double_Kill",
+    "displayName": "Double Kill",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Triple_Kill",
+    "displayName": "Triple Kill",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Quadro_Kill",
+    "displayName": "Quadro Kill",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Penta_Kill",
+    "displayName": "Penta Kill",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Multi_Kill",
+    "displayName": "Multi Kill",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Comeback",
+    "displayName": "Comeback",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Stop_Killstreak",
+    "displayName": "Stop Killstreak",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Revenge",
+    "displayName": "Revenge",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Marksmans",
+    "displayName": "Marksman",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "STAT_WorldBoss_Deletes",
+    "displayName": "World Boss Deletes",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "STAT_Traitor",
+    "displayName": "Traitor",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Lives_Reset",
+    "displayName": "Lives Reset",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Corruptor_Defused",
+    "displayName": "Corruptor Defused",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 25
+  },
+  {
+    "name": "STAT_Corrupt_Server",
+    "displayName": "Corrupt Server",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 10
+  },
+  {
+    "name": "STAT_Shotgun_Deletes",
+    "displayName": "Shotgun Deletes",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "STAT_Assault_Rifle_Deletes",
+    "displayName": "Assault Rifle Deletes",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "STAT_Burst_Rifle_Deletes",
+    "displayName": "Burst Rifle Deletes",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "STAT_Pistol_Deletes",
+    "displayName": "Pistol Deletes",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "STAT_Revolver_Deletes",
+    "displayName": "Revolver Deletes",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "STAT_Marksman_Rifle_Deletes",
+    "displayName": "Marksman Rifle Deletes",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "STAT_Rocket_Launcher_Deletes",
+    "displayName": "Rocket Launcher",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "STAT_Sniper_Rifle_Deletes",
+    "displayName": "Sniper Rifle Deletes",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "STAT_SMG_Deletes",
+    "displayName": "SMG Deletes",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "STAT_LAZARBEAM_Deletes",
+    "displayName": "LAZARBEAM Deletes",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250
+  },
+  {
+    "name": "STAT_Players_Deleted",
+    "displayName": "Player Deletes",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 10000
+  },
+  {
+    "name": "STAT_BossBucksEarnt",
+    "displayName": "Boss Bucks Earnt",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 10000
+  },
+  {
+    "name": "STAT_Max_Level",
+    "displayName": "Max Level Reached",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Prestige",
+    "displayName": "Prestige",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 25
+  },
+  {
+    "name": "STAT_Delete_WorldBoss_Melee",
+    "displayName": "World Boss Melee Delete",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_MiniNuke_Delete",
+    "displayName": "Delete Player With Mini-Nuke",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_LastChance_Delete",
+    "displayName": "Delete player with Last Chance",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Prestige_Max",
+    "displayName": "Max Prestige",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 15
+  },
+  {
+    "name": "STAT_Corrupt_Hex",
+    "displayName": "Corrupt a HEX",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "STAT_Demote_Player",
+    "displayName": "Demote a player",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Delete_Player_Off_Map",
+    "displayName": "Delete by pushing off map",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Shotgun_SpreadDecrease",
+    "displayName": "Equip a Shotgun with Level 3 Spread Decrease.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Jetpack_Hover_AirborneAggression",
+    "displayName": "Equip a Jetpack, Level 3 Hover and Level 3 Airborne Aggression at the same time.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Refuel_ReloadSpeed",
+    "displayName": "Equip Refuel and Level 3 Reload Speed at the same time.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_ImpulsePunch_LongArms_HeavyHitter",
+    "displayName": "Equip Impulse Punch, Level 3 Long Arms and Level 3 Heavy Hitter at the same time.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_SpeedTread_FastFeet",
+    "displayName": "Use a Speed Tread with Level 3 Fast Feet equipped.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Shotgun_Ratman_ActiveCamo",
+    "displayName": "Equip a Shotgun with Ratman and Active Camo at the same time.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_SniperRifle_QuickScope",
+    "displayName": "Equip a Sniper with Level 3 Quick Scope.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_ExplosiveMagazines_ReloadSpeed",
+    "displayName": "Equip Explosive Magazines and Level 3 Reload Speed at the same time.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_WhataRush_MoreAmmo",
+    "displayName": "Equip What a Rush and Level 3 More Ammo at the same time.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_JuicyGems_GemMagnet",
+    "displayName": "Equip Level 3 Juicy Gems and Level 3 Gem Magnet at the same time.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_ElementalResist_Ignition",
+    "displayName": "Equip Elemental Resist and Ignition at the same time.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_MultiJump_AirDash",
+    "displayName": "Equip Level 3 Multi-Jump and Level 3 Air Dash at the same time.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Generators",
+    "displayName": "Destroy Generators",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "STAT_Drones",
+    "displayName": "Destroy Drones",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "STAT_Grenades",
+    "displayName": "Delete With Grenades",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "STAT_Firebombs",
+    "displayName": "Delete with Firebombs",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "STAT_TeslaCoils",
+    "displayName": "Delete with Tesla Coils",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "STAT_EnergyBombs",
+    "displayName": "Delete with Energy Bombs",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "STAT_Teleporters",
+    "displayName": "Teleporter usage",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "STAT_Mancannons",
+    "displayName": "mancannon usage",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100
+  },
+  {
+    "name": "STAT_Misadventure",
+    "displayName": "die by falling off of map",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Air_30_Seconds",
+    "displayName": "stay in the air for 30 seconds without touching the ground",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_All_Daily_Complete",
+    "displayName": "Complete all active Daily Challenges.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_All_Weekly_Complete",
+    "displayName": "Complete all active Weekly Challenges.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Destroy_BubbleShield",
+    "displayName": "bubble shields destroyed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 10
+  },
+  {
+    "name": "STAT_SpeedTread_Wall",
+    "displayName": "Use a Speed Tread attatched to a wall.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Drone_Melee",
+    "displayName": "melee drone",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_5_Purple_Perks",
+    "displayName": "5 purple perks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_5_Orange_Perks",
+    "displayName": "5 orange perks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_5_Blue_Perks",
+    "displayName": "5 blue perks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_5_Red_Perks",
+    "displayName": "5 red perks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_5_Green_Perks",
+    "displayName": "5 green perks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Drone_Standing_60",
+    "displayName": "stand on drone for 60 seconds",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Overpowered",
+    "displayName": "Reach Level 25 after Prestiging 3 times.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Corruptor_Charged",
+    "displayName": "Charge the Corruptor.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_LeaveServer_25",
+    "displayName": "leave server with 25 kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_LeaveServer_50",
+    "displayName": "leave server with 50",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_LeaveServer_75",
+    "displayName": "leave server with 75",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_LeaveServer_100",
+    "displayName": "leave server 100",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Equip_Skin_Character_Weapon",
+    "displayName": "Equip a skin for character and weapon",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Delete_Supercharged_Explosion",
+    "displayName": "delete a player with supercharged explosion",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Equip_Skin",
+    "displayName": "equip a skin",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "STAT_Store_Item_Purchase",
+    "displayName": "purchase from the store",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  }
+]

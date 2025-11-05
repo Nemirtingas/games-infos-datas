@@ -1,0 +1,515 @@
+[
+  {
+    "name": "stat_win_streak",
+    "displayName": "Current Win Streak",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_win_streak_best",
+    "displayName": "Top Win Streak",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_loss_streak",
+    "displayName": "Current Loss Streak",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_loss_streak_best",
+    "displayName": "Top Loss Streak",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_profile_exp",
+    "displayName": "Player Experience",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_profile_level",
+    "displayName": "Player Level",
+    "type": "int",
+    "default": 1,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 1
+  },
+  {
+    "name": "stat_profile_elo",
+    "displayName": "Player ELO Rating",
+    "type": "int",
+    "default": 1400,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_fire_wins",
+    "displayName": "Fire Set Games Won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_fire_loss",
+    "displayName": "Fire Set Games Lost",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_fire_captured_pieces",
+    "displayName": "Fire - Captured Pieces",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_fire_claimed_tiles",
+    "displayName": "Fire - Claimed Tiles",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_fire_mana_refunded",
+    "displayName": "Fire - Mana Refunded",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_fire_mana_spent",
+    "displayName": "Fire - Mana Spent",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_fire_pieces_played",
+    "displayName": "Fire - Pieces Played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_fire_exp",
+    "displayName": "Fire - Set Experience",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_fire_level",
+    "displayName": "Fire - Set Level",
+    "type": "int",
+    "default": 1,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 1
+  },
+  {
+    "name": "stat_water_wins",
+    "displayName": "Water Set Games Won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_water_loss",
+    "displayName": "Water Set Games Lost",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_water_captured_pieces",
+    "displayName": "Water - Captured Pieces",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_water_claimed_tiles",
+    "displayName": "Water - Claimed Tiles",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_water_mana_refunded",
+    "displayName": "Water - Mana Refunded",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_water_mana_spent",
+    "displayName": "Water - Mana Spent",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_pieces_played",
+    "displayName": "Water - Pieces Played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_water_exp",
+    "displayName": "Water - Set Experience",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_water_level",
+    "displayName": "Water - Set Level",
+    "type": "int",
+    "default": 1,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 1
+  },
+  {
+    "name": "stat_wind_wins",
+    "displayName": "Wind Set Games Won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_wind_loss",
+    "displayName": "Wind Set Games Lost",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_wind_captured_pieces",
+    "displayName": "Wind - Captured Pieces",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_wind_claimed_tiles",
+    "displayName": "Wind - Claimed Tiles",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_wind_mana_refunded",
+    "displayName": "Wind - Mana Refunded",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_wind_mana_spent",
+    "displayName": "Wind - Mana Spent",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_wind_pieces_played",
+    "displayName": "Wind - Pieces Played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_wind_exp",
+    "displayName": "Wind - Set Experience",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_wind_level",
+    "displayName": "Wind - Set Level",
+    "type": "int",
+    "default": 1,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 1
+  },
+  {
+    "name": "stat_earth_wins",
+    "displayName": "Earth Set Games Won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_earth_loss",
+    "displayName": "Earth Set Games Lost",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_earth_captured_pieces",
+    "displayName": "Earth - Captured Pieces",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_earth_claimed_tiles",
+    "displayName": "Earth - Claimed Tiles",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_earth_mana_refunded",
+    "displayName": "Earth - Mana Refunded",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_earth_mana_spent",
+    "displayName": "Earth - Mana Spent",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_earth_pieces_played",
+    "displayName": "Earth - Pieces Played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_earth_exp",
+    "displayName": "Earth - Set Experience",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_earth_level",
+    "displayName": "Earth - Set Level",
+    "type": "int",
+    "default": 1,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 1
+  },
+  {
+    "name": "stat_effect_activations_advance",
+    "displayName": "Effect Activations - Advance",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_effect_activations_capture",
+    "displayName": "Effect Activations - Capture",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_effect_activations_hold",
+    "displayName": "Effect Actions - Hold",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_effect_activations_fortify",
+    "displayName": "Effect Activations - Fortify",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_effect_activations_awaken",
+    "displayName": "Effect Activations - Awaken",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_effect_activations_breaker",
+    "displayName": "Effect Activations - Breaker",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_fire_hours_x100",
+    "displayName": "Fire - Hours Played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_water_hours_x100",
+    "displayName": "Water - Hours Played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_wind_hours_x100",
+    "displayName": "Wind - Hours Played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_earth_hours_x100",
+    "displayName": "Earth - Hours Played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_effect_activations_contact",
+    "displayName": "Effect Activations - Contact",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_effect_activations_flow",
+    "displayName": "Effect Activations - Flow",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_effect_activations_slipstream",
+    "displayName": "Effect Activations - Slipstream",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "stat_effect_activations_formation",
+    "displayName": "Effect Activations - Formation",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  }
+]
