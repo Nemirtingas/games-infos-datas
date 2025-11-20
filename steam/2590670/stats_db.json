@@ -127,7 +127,7 @@
     "type": "int",
     "default": 0,
     "incrementonly": true,
-    "aggregated": true,
+    "aggregated": false,
     "min": 0
   },
   {
@@ -136,15 +136,384 @@
     "type": "int",
     "default": 0,
     "incrementonly": true,
-    "aggregated": true,
+    "aggregated": false,
     "min": 0
   },
   {
-    "name": "stat_BulletSubWay_CountLevel",
-    "displayName": "BulletSubWay_Count_PlayLevel",
+    "name": "stat_BulletSubWay_CountStartLevel",
+    "displayName": "BulletSubWay Count Start Play Level",
     "type": "int",
     "default": 0,
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": false
+  },
+  {
+    "name": "stat_BulletSubWay_CountEndLevel",
+    "displayName": "BulletSubWay_CountEndLevel",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Tower_totalEnemyDeath",
+    "displayName": "Labyrinth Tower Total Enemy Death",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Tower_CountStartLevel",
+    "displayName": "Labyrinth Tower Count Level  Start",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Tower_CountEndLevel",
+    "displayName": "Labyrinth Tower Count Level End",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Labyrinth_tower_enterZone_Climb",
+    "displayName": "Labyrinth Tower enter Climb",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Labyrinth_tower_ExitZone_Start",
+    "displayName": "Labyrinth Tower ExitZone Start",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Labyrinth_tower_enterZone_Labirint",
+    "displayName": "Labyrinth_Tower enter Labirint",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Labyrinth_tower_stat_Labyrinth_tower_ExitZone_Labirint",
+    "displayName": "Labyrinth Tower Exit Labirint",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Labyrinth_tower_enterZone_ExitGame",
+    "displayName": "Labyrinth Tower enter ExitGame",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Tower_EarlyExitLevel",
+    "displayName": "Labyrinth Tower ExitGame or MainMenu",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_EarlyExitLevel",
+    "displayName": "BulletSubWay EarlyExitLevel",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_EnterWagon_00",
+    "displayName": "BulletSubWay EnterWagon Start",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_EnterWagon_09",
+    "displayName": "BulletSubWay EnterWagon_09",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_EnterWagon_08",
+    "displayName": "BulletSubWay EnterWagon_08",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_EnterWagon_07",
+    "displayName": "BulletSubWay EnterWagon_07",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_EnterWagon_06",
+    "displayName": "BulletSubWay EnterWagon_06",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_EnterWagon_05",
+    "displayName": "BulletSubWay EnterWagon_05",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_EnterWagon_04",
+    "displayName": "BulletSubWay EnterWagon_04",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_EnterWagon_03",
+    "displayName": "BulletSubWay EnterWagon_03",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_EnterWagon_02",
+    "displayName": "BulletSubWay EnterWagon_02",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_EnterWagon_01",
+    "displayName": "BulletSubWay EnterWagon_01",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_ExitWagon_00",
+    "displayName": "BulletSubWay_ExitWagon Start",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_ExitWagon_09",
+    "displayName": "BulletSubWay ExitWagon_09",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_ExitWagon_08",
+    "displayName": "BulletSubWay ExitWagon_08",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_ExitWagon_07",
+    "displayName": "BulletSubWay ExitWagon_07",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_ExitWagon_06",
+    "displayName": "BulletSubWay ExitWagon_06",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_ExitWagon_05",
+    "displayName": "BulletSubWay ExitWagon_05",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_ExitWagon_04",
+    "displayName": "BulletSubWay ExitWagon_04",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_ExitWagon_03",
+    "displayName": "BulletSubWay ExitWagon_03",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_ExitWagon_02",
+    "displayName": "BulletSubWay ExitWagon_02",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_ExitWagon_01",
+    "displayName": "BulletSubWay ExitWagon_01",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_KillEnemyWagon_00",
+    "displayName": "BulletSubWay KillEnemyWagon_00",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_KillEnemyWagon_09",
+    "displayName": "BulletSubWay KillEnemyWagon_09",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_KillEnemyWagon_08",
+    "displayName": "BulletSubWay KillEnemyWagon_08",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_KillEnemyWagon_07",
+    "displayName": "BulletSubWay KillEnemyWagon_07",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_KillEnemyWagon_06",
+    "displayName": "BulletSubWay KillEnemyWagon_06",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_KillEnemyWagon_05",
+    "displayName": "BulletSubWay KillEnemyWagon_05",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_KillEnemyWagon_04",
+    "displayName": "BulletSubWay KillEnemyWagon_04",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_KillEnemyWagon_03",
+    "displayName": "BulletSubWay KillEnemyWagon_03",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_KillEnemyWagon_02",
+    "displayName": "BulletSubWay KillEnemyWagon_02",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_KillEnemyWagon_01",
+    "displayName": "BulletSubWay KillEnemyWagon_01",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
   }
 ]
