@@ -23,7 +23,7 @@
     "displayName": "Knight Kills",
     "type": "int",
     "default": 0,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": true,
     "min": 0
   },
@@ -52,7 +52,7 @@
     "displayName": "Gold Earned",
     "type": "int",
     "default": 0,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": true,
     "min": 0
   },
@@ -61,7 +61,7 @@
     "displayName": "Gold Spent",
     "type": "int",
     "default": 0,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": true,
     "min": 0
   },
@@ -70,7 +70,7 @@
     "displayName": "Mage Levels",
     "type": "int",
     "default": 1,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": true,
     "min": 0
   },
@@ -79,7 +79,7 @@
     "displayName": "Barbarian Levels",
     "type": "int",
     "default": 1,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": true,
     "min": 0
   },
@@ -88,7 +88,7 @@
     "displayName": "Knight Levels",
     "type": "int",
     "default": 1,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": true,
     "min": 0
   },
@@ -152,7 +152,7 @@
     "displayName": "Floors Delved",
     "type": "int",
     "default": 0,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": true,
     "min": 0
   },
@@ -172,7 +172,7 @@
     "displayName": "Knight Deaths",
     "type": "int",
     "default": 0,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": true,
     "min": 0
   },
@@ -181,7 +181,7 @@
     "displayName": "Mage Deaths",
     "type": "int",
     "default": 0,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": true,
     "min": 0
   },
@@ -190,7 +190,7 @@
     "displayName": "Barbarian Deaths",
     "type": "int",
     "default": 0,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": true,
     "min": 0
   },
@@ -199,7 +199,7 @@
     "displayName": "Mage Kills",
     "type": "int",
     "default": 0,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": true,
     "min": 0
   },
@@ -208,7 +208,7 @@
     "displayName": "Barbarian Kills",
     "type": "int",
     "default": 0,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": true,
     "min": 0
   },
@@ -528,6 +528,17 @@
     "type": "int",
     "default": 0,
     "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "POTION_LEVEL_RESET",
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
     "aggregated": false,
     "maxchange": 1,
     "min": 0,
