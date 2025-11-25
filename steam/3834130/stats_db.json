@@ -1,0 +1,942 @@
+[
+  {
+    "name": "in_ranked_match",
+    "displayName": "In Ranked Game",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "lp_loss",
+    "displayName": "Rating Loss",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999
+  },
+  {
+    "name": "ranked_wins",
+    "displayName": "Ranked Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999
+  },
+  {
+    "name": "ranked_loss",
+    "displayName": "Ranked Loss",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999
+  },
+  {
+    "name": "games_played",
+    "displayName": "Games Played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 999999
+  },
+  {
+    "name": "enemies_killed",
+    "displayName": "Enemies Slain",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 9999999
+  },
+  {
+    "name": "cheese_crystals",
+    "displayName": "Cheese Crystal",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 9999999
+  },
+  {
+    "name": "prog_reward_checkpoint",
+    "displayName": "Crystal Reward Check",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999
+  },
+  {
+    "name": "dailies_rolled",
+    "displayName": "Daily Roll Check",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "daily_id_1",
+    "displayName": "Daily Number One",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "daily_id_2",
+    "displayName": "Daily Number Two",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 50
+  },
+  {
+    "name": "daily1_finished",
+    "displayName": "Check Daily Progress",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "daily2_finished",
+    "displayName": "Check Daily Progress",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "last_daily_reset",
+    "displayName": "Checking Daily Reset",
+    "type": "int",
+    "default": 11111111,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "xp_boost_until",
+    "displayName": "Checking Xp Ending",
+    "type": "float",
+    "default": 0.0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0.0,
+    "max": 99999999999
+  },
+  {
+    "name": "xp_boost_active",
+    "displayName": "Checking Xp Boost",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "daily_game_win",
+    "displayName": "Checking Daily Game",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "highest_season_rating",
+    "displayName": "Checking Highest Ranked Rating",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 5999
+  },
+  {
+    "name": "total_crystals_earned",
+    "displayName": "Total Crystals Tracking",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 9999999
+  },
+  {
+    "name": "campaign_progress",
+    "displayName": "Tracking Campaign Progression",
+    "type": "int",
+    "default": 1,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1,
+    "max": 999
+  },
+  {
+    "name": "endless_trophies",
+    "displayName": "Tracking Endless Trophies",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999
+  },
+  {
+    "name": "total_wins",
+    "displayName": "Tracking Total Victories",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999999
+  },
+  {
+    "name": "first_login_unix",
+    "displayName": "Tracking First Time Login",
+    "type": "float",
+    "default": 0.0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0.0,
+    "max": 99999999999
+  },
+  {
+    "name": "itemshop_rolled",
+    "displayName": "Checking Itemshop Roll",
+    "type": "int",
+    "default": -1,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "max": 99999
+  },
+  {
+    "name": "itemshop_id_1",
+    "displayName": "Item Number One",
+    "type": "int",
+    "default": -1,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "max": 50
+  },
+  {
+    "name": "itemshop_id_2",
+    "displayName": "Item Number Two",
+    "type": "int",
+    "default": -1,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "max": 50
+  },
+  {
+    "name": "itemshop_id_3",
+    "displayName": "Item Number Three",
+    "type": "int",
+    "default": -1,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "max": 50
+  },
+  {
+    "name": "itemshop_id_4",
+    "displayName": "Item Number Four",
+    "type": "int",
+    "default": -1,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "max": 50
+  },
+  {
+    "name": "last_itemshop_reset",
+    "displayName": "Checking Daily Reset",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "season_reward_checkpoint",
+    "displayName": "Checking Season Rewards",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999999
+  },
+  {
+    "name": "chosen_title",
+    "displayName": "Tracking the Title",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999
+  },
+  {
+    "name": "titles_unlocked",
+    "displayName": "Tracking Title Unlocks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "trinkets_unlocked",
+    "displayName": "Tracking Trinket Unlocks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "units_sold",
+    "displayName": "Tracking Units sold for achievement",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 999999
+  },
+  {
+    "name": "flasks_bought",
+    "displayName": "Tracking flasks buoght for achievement",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999
+  },
+  {
+    "name": "8_min_match",
+    "displayName": "Tracking 8 min matches",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999
+  },
+  {
+    "name": "boss_kills",
+    "displayName": "Tracking boss kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 999999
+  },
+  {
+    "name": "crystal_boost_until",
+    "displayName": "Checking Crystal Boost Ending",
+    "type": "float",
+    "default": 0.0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0.0,
+    "max": 99999999999
+  },
+  {
+    "name": "crystal_surge_active",
+    "displayName": "Checking Crystal Surrge",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "crystal_surge_rewards",
+    "displayName": "Tracking Surge reward amount",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 9999999
+  },
+  {
+    "name": "maps_unlocked",
+    "displayName": "Tracking map Unlocks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "menus_unlocked",
+    "displayName": "Tracking Menu Unlocks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "bullets_unlocked",
+    "displayName": "Tracking Bullet Unlocks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "hamster_skins_unlocked",
+    "displayName": "Tracking Hamster Skin Unlocks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "e_skins_unlocked",
+    "displayName": "Tracking Enemy Skins Unlocked",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "skies_unlocked",
+    "displayName": "Tracking Sky Gadgets Unlocked",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "chosen_menu",
+    "displayName": "Tracking the Chosen Menu",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999
+  },
+  {
+    "name": "chosen_bullet",
+    "displayName": "Tracking the chosen Bullet",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999
+  },
+  {
+    "name": "shop_xp_flasks",
+    "displayName": "Unlock for XP flasks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "chosen_hamsterskin",
+    "displayName": "Tracking the Chosen Hamster Skin",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999
+  },
+  {
+    "name": "chosen_enemyskin",
+    "displayName": "Tracking the Chosen enemy Skin",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999
+  },
+  {
+    "name": "daily_reward_count",
+    "displayName": "Tracking Dailies Count for Reward",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 5
+  },
+  {
+    "name": "check_daily_star",
+    "displayName": "check daily star",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "recruit_code_used",
+    "displayName": "check recruit code usage",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "ranked_seed_1",
+    "displayName": "Checking Ranked Seed 1",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999999999
+  },
+  {
+    "name": "ranked_seed_2",
+    "displayName": "Checking Ranked Seed 2",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999999999
+  },
+  {
+    "name": "ranked_seed_3",
+    "displayName": "Checking Ranked Seed 3",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999999999
+  },
+  {
+    "name": "opponent_mmr1",
+    "displayName": "Checking Ranked Opponent MMR",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 9999
+  },
+  {
+    "name": "opponent_mmr2",
+    "displayName": "Checking Ranked Opponent MMR",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 9999
+  },
+  {
+    "name": "opponent_mmr3",
+    "displayName": "Checking Ranked Opponent MMR",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 9999
+  },
+  {
+    "name": "seasonal_ranked_rewards_claimed",
+    "displayName": "Checking Rank Reward Claim",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "srr_1",
+    "displayName": "seasonal reward 1",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999
+  },
+  {
+    "name": "srr_2",
+    "displayName": "seasonal reward 2",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999
+  },
+  {
+    "name": "srr_3",
+    "displayName": "seasonal reward 3",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999
+  },
+  {
+    "name": "srr_4",
+    "displayName": "seasonal reward 4",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999
+  },
+  {
+    "name": "srr_5",
+    "displayName": "seasonal reward 5",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999
+  },
+  {
+    "name": "srr_6",
+    "displayName": "seasonal reward 6",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999
+  },
+  {
+    "name": "trinkets_unlocked_s2",
+    "displayName": "Tracking Trinket Unlocks S2",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "titles_unlocked_s2",
+    "displayName": "Tracking Title Unlocks S2",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "weapon_codex",
+    "displayName": "Tracking discovered weapons",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "chest_codex",
+    "displayName": "Tracking discovered chests",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "boots_codex",
+    "displayName": "Tracking discovered boots",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "weapon_codex_win",
+    "displayName": "tracking wep wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "chest_codex_win",
+    "displayName": "tracking chest wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "boots_codex_win",
+    "displayName": "tracking passive wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "8_hamu_win",
+    "displayName": "tracking hamu wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 8
+  },
+  {
+    "name": "8_boom_win",
+    "displayName": "tracking boom wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 8
+  },
+  {
+    "name": "engineer_dmg",
+    "displayName": "tracking_engineer_dmg",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "mage_dmg",
+    "displayName": "tracking mage dmg",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "deadeye_dmg",
+    "displayName": "tracking deadeye dmg",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "pyromancer_dmg",
+    "displayName": "tracking pyromancer dmg",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "bladedancer_dmg",
+    "displayName": "tracking bladedancer dmg",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "toxic_dmg",
+    "displayName": "tracking poison dmg",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "burn_dmg",
+    "displayName": "tracking burn dmg",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "day_logins",
+    "displayName": "tracking days logged in",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 999999
+  },
+  {
+    "name": "oneshots_tracking",
+    "displayName": "tracking oneshots",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "dailies_amount_track",
+    "displayName": "trackig the amount of dailies done",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "dmg_to_enemyshields",
+    "displayName": "tracking damage done to enemy shields",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "ig_storebuys",
+    "displayName": "tracking menu store buys",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "tracker_drops",
+    "displayName": "tracking tracker drops",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999
+  },
+  {
+    "name": "class_wins_bitmap",
+    "displayName": "tracking class wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "achi_reward_1",
+    "displayName": "tracking achi reward 1",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "achi_reward_2",
+    "displayName": "tracking achi reward 2",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2147483647
+  },
+  {
+    "name": "ranked_tickets",
+    "displayName": "Tracking the Ranked Tickets",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999
+  }
+]
