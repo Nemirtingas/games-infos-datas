@@ -1,111 +1,6 @@
 [
   {
-    "name": "stat_Gt04L01_00",
-    "displayName": "Shooting gallery",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0
-  },
-  {
-    "name": "stat_Gt04L01_01",
-    "displayName": "Close Quarters Battle",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0
-  },
-  {
-    "name": "stat_Gt04L01_02",
-    "displayName": "Traning Main Game Max Killing",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0
-  },
-  {
-    "name": "stat_Gt03L01_00",
-    "displayName": "Vertical Maze",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0
-  },
-  {
-    "name": "stat_Gt01L01_01",
-    "displayName": "Cubic City",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0
-  },
-  {
-    "name": "stat_Gt01L01_02",
-    "displayName": "Data Center",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0
-  },
-  {
-    "name": "stat_Gt01L01_03",
-    "displayName": "Missile Defense",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0
-  },
-  {
-    "name": "stat_Gt04L02_00",
-    "displayName": "Iron Rain Max Killing",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "min": 0
-  },
-  {
-    "name": "stat_Gt04L02_01",
-    "displayName": "",
-    "type": "int",
-    "default": 0,
-    "incrementonly": true,
-    "aggregated": false
-  },
-  {
-    "name": "stat_Gt04L01_03",
-    "displayName": "",
-    "type": "int",
-    "default": 0,
-    "incrementonly": true,
-    "aggregated": false
-  },
-  {
-    "name": "stat_Gt04L01_04",
-    "displayName": "",
-    "type": "int",
-    "default": 0,
-    "incrementonly": true,
-    "aggregated": false
-  },
-  {
-    "name": "stat_Gt04L01_05",
-    "displayName": "",
-    "type": "int",
-    "default": 0,
-    "incrementonly": true,
-    "aggregated": false,
-    "min": 0
-  },
-  {
-    "name": "stat_Gt04L04_00",
+    "name": "stat_WildWest_totalEnemyDeath",
     "displayName": "Wild West Max Killing",
     "type": "int",
     "default": 0,
@@ -114,16 +9,8 @@
     "min": 0
   },
   {
-    "name": "stat_Gt04L04_01",
-    "displayName": "Wild West Games Round",
-    "type": "int",
-    "default": 0,
-    "incrementonly": true,
-    "aggregated": false
-  },
-  {
-    "name": "stat_Gt02L02",
-    "displayName": "Number of encrypted words",
+    "name": "stat_WildWest_CountStartLevel",
+    "displayName": "Wild West Count Start Level",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -145,11 +32,12 @@
     "type": "int",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0
   },
   {
-    "name": "stat_BulletSubWay_CountEndLevel",
-    "displayName": "BulletSubWay_CountEndLevel",
+    "name": "stat_BulletSubWay_CounWinLevel",
+    "displayName": "BulletSubWay_CounWinLevel",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -157,7 +45,7 @@
     "min": 0
   },
   {
-    "name": "stat_Tower_totalEnemyDeath",
+    "name": "stat_Labyrinth_Tower_totalEnemyDeath",
     "displayName": "Labyrinth Tower Total Enemy Death",
     "type": "int",
     "default": 0,
@@ -166,7 +54,7 @@
     "min": 0
   },
   {
-    "name": "stat_Tower_CountStartLevel",
+    "name": "stat_Labyrinth_Tower_CountStartLevel",
     "displayName": "Labyrinth Tower Count Level  Start",
     "type": "int",
     "default": 0,
@@ -175,8 +63,8 @@
     "min": 0
   },
   {
-    "name": "stat_Tower_CountEndLevel",
-    "displayName": "Labyrinth Tower Count Level End",
+    "name": "stat_Labyrinth_Tower_CountLoseLevel",
+    "displayName": "Labyrinth Tower Count Lose Level",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -211,7 +99,7 @@
     "min": 0
   },
   {
-    "name": "stat_Labyrinth_tower_stat_Labyrinth_tower_ExitZone_Labirint",
+    "name": "_stat_Labyrinth_tower_ExitZone_Labirint",
     "displayName": "Labyrinth Tower Exit Labirint",
     "type": "int",
     "default": 0,
@@ -431,7 +319,7 @@
     "displayName": "BulletSubWay KillEnemyWagon_00",
     "type": "int",
     "default": 0,
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false,
     "min": 0
   },
@@ -510,6 +398,258 @@
   {
     "name": "stat_BulletSubWay_KillEnemyWagon_01",
     "displayName": "BulletSubWay KillEnemyWagon_01",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_CountLoseLevel",
+    "displayName": "BulletSubWay Count Lose Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Labyrinth_Tower_CountWinLevel",
+    "displayName": "Labyrinth Tower Count Win Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_WildWest_CountLoseLevel",
+    "displayName": "WildWest Count Lose Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_WildWest_CountWinLevel",
+    "displayName": "WildWest Count Win Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_WildWest_EarlyExitLevel",
+    "displayName": "WildWest Early Exit Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Global_totalCountShoting",
+    "displayName": "Total Count Shoting",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_MainMenu_CountStartLevel",
+    "displayName": "MainMenu Count Start Game",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_MainMenu_LoadGame",
+    "displayName": "MainMenu Count  LoadGame",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_CQB_CountLoseLevel",
+    "displayName": "CQB Count Lose Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_CQB_CountWinLevel",
+    "displayName": "CQB Count Win Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_CQB_EarlyExitLevel",
+    "displayName": "CQB Early Exit Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_CQB_CountStartLevel",
+    "displayName": "CQB Count Start Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_CQB_totalEnemyDeath",
+    "displayName": "CQB total Enemy Death",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Labyrinth_Tower_CountRestartLevel",
+    "displayName": "Labyrinth Tower Count Restart Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_CQB_CountRestartLevel",
+    "displayName": "CQB Count Restart Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_WildWest_CountRestartLevel",
+    "displayName": "WildWest Count Restart Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_CountRestartLevel",
+    "displayName": "BulletSubWay Count Restart Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Labyrinth_Tower_CountExitGameLevel",
+    "displayName": "Labyrinth Tower Count Exit Game",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_CountExitGameLevel",
+    "displayName": "BulletSubWay Count Exit Game",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_CQB_CountExitGameLevel",
+    "displayName": "CQB Count Exit Game",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_WildWest_CountExitGameLevel",
+    "displayName": "WildWest Count Exit Game",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_Labyrinth_Tower_CountGoMainMenuLevel",
+    "displayName": "Labyrinth Tower Count Go Main Menu Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_BulletSubWay_CountGoMainMenuLevel",
+    "displayName": "BulletSubWay Count Go Main Menu Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_WildWest_CountGoMainMenuLevel",
+    "displayName": "WildWest Count Go Main Menu Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_CQB_CountGoMainMenuLevel",
+    "displayName": "CQB Count Go Main Menu Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_MainMenu_CountRestartLevel",
+    "displayName": "MainMenu Count Restart Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_MainMenu_CountExitGameLevel",
+    "displayName": "MainMenu Count Exit Game Level",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "stat_MainMenuy_CountGoMainMenuLevel",
+    "displayName": "MainMenuy Count Go MainMenu Level",
     "type": "int",
     "default": 0,
     "incrementonly": true,

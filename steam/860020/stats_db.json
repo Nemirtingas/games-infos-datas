@@ -1,22 +1,40 @@
 [
   {
-    "name": "Kills_1",
-    "displayName": "Lifetime Kills",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": true,
-    "maxchange": 31,
-    "min": 1,
-    "max": 31
-  },
-  {
-    "name": "Kills_NPC",
+    "name": "kills_npc",
     "displayName": "Kills, AI",
     "type": "int",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0
+  },
+  {
+    "name": "kills_players",
+    "displayName": "Kills, Players",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 500,
+    "min": 0
+  },
+  {
+    "name": "playcount_online",
+    "displayName": "Online Operations",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
+  },
+  {
+    "name": "playcount_offline",
+    "displayName": "Solo Operations",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true,
     "min": 0
   }
 ]

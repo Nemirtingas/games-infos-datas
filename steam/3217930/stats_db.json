@@ -1,47 +1,92 @@
 [
   {
     "name": "stat_total_kills",
-    "defaultvalue": 0,
-    "displayName": "Total Slaughtered"
+    "displayName": "Total Slaughtered",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0
   },
   {
     "name": "stat_total_steaks",
-    "defaultvalue": 0,
-    "displayName": "Total Steaks"
+    "displayName": "Total Steaks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 10000,
+    "min": 0
   },
   {
     "name": "stat_high_steaks",
-    "defaultvalue": 0,
-    "displayName": "High Steaks"
+    "displayName": "High Steaks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0
   },
   {
     "name": "stat_high_kills",
-    "defaultvalue": 0,
-    "displayName": "Record Slaughter"
+    "displayName": "Record Slaughter",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 10000,
+    "min": 0
   },
   {
     "name": "stat_total_games",
-    "defaultvalue": 0,
-    "displayName": "Total Runs"
+    "displayName": "Total Runs",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 50,
+    "min": 0
   },
   {
     "name": "stat_won_games",
-    "defaultvalue": 0,
-    "displayName": "Titles"
+    "displayName": "Titles",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 5,
+    "min": 0
   },
   {
     "name": "stat_total_items",
-    "defaultvalue": 0,
-    "displayName": "Items Collected"
+    "displayName": "Items Collected",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 500,
+    "min": 0
   },
   {
     "name": "stat_total_cowbells",
-    "defaultvalue": 0,
-    "displayName": "Cowbells Collected"
+    "displayName": "Cowbells Collected",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 500,
+    "min": 0
   },
   {
     "name": "stat_high_damage",
-    "defaultvalue": 0,
-    "displayName": "Max Damage"
+    "displayName": "Max Damage",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 100000,
+    "min": 0
   }
 ]
