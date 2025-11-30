@@ -1,17 +1,31 @@
 [
   {
     "name": "asteroids_lasered",
-    "defaultvalue": 0,
-    "displayName": "Asteroids Destroyed"
+    "displayName": "Asteroids Destroyed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "deaths",
-    "defaultvalue": 0,
-    "displayName": "Deaths"
+    "displayName": "Deaths",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "wins",
-    "defaultvalue": 0,
-    "displayName": "Wins"
+    "displayName": "Wins",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   }
 ]
