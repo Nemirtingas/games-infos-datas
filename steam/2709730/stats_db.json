@@ -227,10 +227,10 @@
   },
   {
     "name": "pvpKills",
-    "displayName": "PvP Kills Steam Client",
+    "displayName": "Offline Player Kills",
     "type": "int",
     "default": 0,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": false
   },
   {
@@ -333,5 +333,727 @@
     "default": 0,
     "incrementonly": true,
     "aggregated": false
+  },
+  {
+    "name": "blocks",
+    "displayName": "Blocks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "damageDealt",
+    "displayName": "Damage Dealt",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "orbsCleared",
+    "displayName": "Orbs Cleared",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "kills",
+    "displayName": "Enemies Slain",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "playerKills",
+    "displayName": "Player Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "offlineBlocks",
+    "displayName": "Offline Blocks",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "offlineDamageDealt",
+    "displayName": "Offline Damage Dealt",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "offlineOrbsCleared",
+    "displayName": "Offline Orbs Cleared",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "offlineKills",
+    "displayName": "Offline Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "kickSlotted",
+    "displayName": "Equipped Kick",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "statsVersion",
+    "displayName": "Steam Stat Version",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "skeleGuardCaptainKills",
+    "displayName": "Fallen Guard Captain Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "openedAbilityMenu",
+    "displayName": "Viewed Abilities",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "visitedInitiation",
+    "displayName": "Visited Initiation",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "visitedEntrance",
+    "displayName": "Visited Entrance",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "visitedBeginnings",
+    "displayName": "Visited Beginnings",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
+  },
+  {
+    "name": "failedRun",
+    "displayName": "Failed Tower Runs",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "towerNpcKills",
+    "displayName": "Tower NPC Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "towerPlayerKills",
+    "displayName": "Tower Player Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "deaths",
+    "displayName": "Player Deaths",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "towerDeaths",
+    "displayName": "Tower Player Deaths",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "towerItemsCrafted",
+    "displayName": "Tower Items Crafted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "towerBlessingsClaimed",
+    "displayName": "Tower Blessings Claimed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "firstRunBindstone",
+    "displayName": "First Run Bindstone",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "tutorialSkipped",
+    "displayName": "Skipped Tutorial",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "iceGolemBossKills",
+    "displayName": "Ancient Ice Golem Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "lostSoulBossKills",
+    "displayName": "Ancient Soul Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "playedTeamfightRound",
+    "displayName": "Teamfights Played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "wonTeamfightRound",
+    "displayName": "Teamfights Won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "teamfightMVPs",
+    "displayName": "Teamfight MVPs",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "friendlyFireKicks",
+    "displayName": "Kicked For Friendly Fire",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "usingThirdPerson",
+    "displayName": "Using Third Person",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "lastCompletionTime",
+    "displayName": "Last Floor Completion",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "defaultedToThird",
+    "displayName": "Defaulted to Third Person",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "duelElo",
+    "displayName": "Duel Elo",
+    "type": "int",
+    "default": 1200,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "rankedDuelsCount",
+    "displayName": "Ranked Duels Count",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "serverRandomAllBlocksPerMinute",
+    "displayName": "Hard Mode Blocks Per Minute",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": "basaltGolemKills",
+    "displayName": "Basa;t Golem Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "defaultedToDragClick",
+    "displayName": "Defaulted To Drag Click",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 2
+  },
+  {
+    "name": "IceWraithKills",
+    "displayName": "Ice Wraith Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "combatTrialNormalCompletions",
+    "displayName": "Combat Trial Normal Completions",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "combatTrialHardCompletions",
+    "displayName": "Combat Trial Hard Completions",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "combatTrialInsaneCompletions",
+    "displayName": "Combat Trial Insane Completions",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "optionalDPAComplete",
+    "displayName": "Optioal DPA Complete",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "optinalBPMComplete",
+    "displayName": "Optional BPM Complete",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "optionalAttackTrainerComplete",
+    "displayName": "Optional Attack Trainer Complete",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "beginningsWeaklingKill",
+    "displayName": "Othari Weakling Beginnings Kill",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "f1EndBossDamage",
+    "displayName": "Floor One Endboss Damage Dealt",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "comboDummyComplete",
+    "displayName": "Combo Dummy Completion",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "visitedTree",
+    "displayName": "Visted the Spirit Tree",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "lesserEssenceCrystalsCrafted",
+    "displayName": "Lesser Essence Crytals Crafted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "extractions",
+    "displayName": "Extractions",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "kataFadingSunSGrades",
+    "displayName": "Kata of the Fading Sun S grades",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "iceGolemKills",
+    "displayName": "Ice Golem Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "glacialOreMined",
+    "displayName": "Glacial Ore Mined",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "basaltOreMined",
+    "displayName": "Basalt Ore Mined",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "caveScavengerKills",
+    "displayName": "Cave Scavenger Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "caveScavangerEliteKills",
+    "displayName": "Cave Dweller Elite Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "lizardKills",
+    "displayName": "lizardKills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "initiateKills",
+    "displayName": "Initiate Cultivator Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "acolyteKills",
+    "displayName": "Flame Acolyte Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "combatTrialBestScore",
+    "displayName": "Combat Trial Best Score",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "greaterEssenceCrystalsCrafted",
+    "displayName": "Greater Essence Crystals Crafted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "greaterUpgradeStoneCrafted",
+    "displayName": "Greater Upgrade Stones Crafted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "lesserUpgradeStoneCrafted",
+    "displayName": "Lesser Upgrade Stones Crafted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "kataBeginningsSGradesOfficial",
+    "displayName": "S Grade the Kata of Beginnings on an Official Server.",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "kataFadingSunSGradesOfficial",
+    "displayName": "S Grade the Kata of the Fading Sun on an Official Server",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "kataBurningSandsSGradesOfficial",
+    "displayName": "S Grade the Kata of the Burning Sands on an Official Server",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "kataMistsSGradesOfficial",
+    "displayName": "S Grade the Kata of Mists on an Official Server",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "caveStalkerKills",
+    "displayName": "Cave Stalker Kills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "minorSkillShardsCrafted",
+    "displayName": "Minor Skill Shards Crafted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "majorSkillShardsCrafted",
+    "displayName": "Major Skill Shards Crafted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "lostSoulKills",
+    "displayName": "Kill Lost Souls",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "skeletonGuardKills",
+    "displayName": "Kill Skeleton Guards",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "tutorialPastDoor",
+    "displayName": "Tutorial Past Door",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "superiorEssenceCrystalsCrafted",
+    "displayName": "Superior Essence Crystals Crafted",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "sunfireOreMined",
+    "displayName": "Sunfire Ore Mined",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "soulBloomHerbGathered",
+    "displayName": "Soul Bloom Gathered",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "emberSeedHerbGathered",
+    "displayName": "Ember Seed Gathered",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
+  },
+  {
+    "name": "alchemyLevel",
+    "displayName": "Alchemy XP",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0
   }
 ]
