@@ -4,15 +4,311 @@
     "displayName": "Maps won",
     "type": "int",
     "default": 0,
-    "incrementonly": true,
+    "incrementonly": false,
     "aggregated": false
   },
   {
-    "name": "stat_trees_planted",
+    "name": "trees_planted",
     "displayName": "Trees planted",
     "type": "int",
     "default": 0,
-    "incrementonly": true,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "coop_map_won",
+    "displayName": "Co-op map won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "time_map_won",
+    "displayName": "Map won in time",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "campaign_map_1_won",
+    "displayName": "CM1 won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "campaign_map_2_won",
+    "displayName": "CM2 won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "campaign_map_3_won",
+    "displayName": "CM3 won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "campaign_map_4_won",
+    "displayName": "CM4 won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "campaign_map_5_won",
+    "displayName": "CM5 won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "campaign_map_6_won",
+    "displayName": "CM6 won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "campaign_map_7_won",
+    "displayName": "CM7 won",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "campaign_completed_difficulty_1",
+    "displayName": "Campaign completed difficulty 1",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "campaign_completed_difficulty_2",
+    "displayName": "Campaign completed difficulty 2",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "campaign_completed_difficulty_3",
+    "displayName": "Campaign completed difficulty 3",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "campaign_completed_difficulty_4",
+    "displayName": "Campaign completed difficulty 4",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "faction_merged",
+    "displayName": "Faction merged",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "four_factions_merged",
+    "displayName": "Four factions merged",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "trade_completed",
+    "displayName": "Trade completed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "all_trades_completed",
+    "displayName": "All trades completed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "build_lightspire",
+    "displayName": "Lightspire built",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "all_buildings_constructed",
+    "displayName": "Every building built",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "farm_field_harvested",
+    "displayName": "Farm fields harvested",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "wood_stored",
+    "displayName": "Wood stored",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "all_mining_deposits_harvested",
+    "displayName": "Deposits harvested",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "all_units_employed",
+    "displayName": "All units",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "enemy_camp_destroyed",
+    "displayName": "Enemy camp destroyed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "all_enemy_camps_destroyed",
+    "displayName": "All camps destroyed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "newborn_rate_reached",
+    "displayName": "Newborn rate",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "population_reached",
+    "displayName": "Population",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "wealth_reached",
+    "displayName": "Wealth",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "all_territory_claimed",
+    "displayName": "Territory claimed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "cycle_light_setting",
+    "displayName": "Light Settings",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "road_length",
+    "displayName": "Road length",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "multiplayer_ping",
+    "displayName": "Multiplayer ping",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "player_building_destroyed",
+    "displayName": "Building destroyed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "cabbage_storage_destroyed",
+    "displayName": "Cabbages destroyed",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "foresters_constructed",
+    "displayName": "Foresters built",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "build_rabbit_statue",
+    "displayName": "Build rabbit statue",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "random_map_won",
+    "displayName": "Win random map",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
     "aggregated": true
   }
 ]
