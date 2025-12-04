@@ -1,32 +1,59 @@
 [
   {
     "name": "games_won",
-    "defaultvalue": 0,
-    "displayName": ""
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "games_lost",
-    "defaultvalue": 0,
-    "displayName": ""
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "elo_rating",
-    "defaultvalue": 1000,
-    "displayName": ""
+    "displayName": "",
+    "type": "int",
+    "default": 1000,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 100,
+    "max": 5000
   },
   {
     "name": "ranked_elo_rating",
-    "defaultvalue": 1000,
-    "displayName": ""
+    "displayName": "",
+    "type": "int",
+    "default": 1000,
+    "incrementonly": false,
+    "aggregated": false,
+    "max": 9999
   },
   {
     "name": "ranked_games_won",
-    "defaultvalue": 0,
-    "displayName": ""
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
   },
   {
     "name": "ranked_games_lost",
-    "defaultvalue": 0,
-    "displayName": ""
+    "displayName": "",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1
   }
 ]
