@@ -367,7 +367,7 @@
     "type": "int",
     "default": 0,
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": false
   },
   {
     "name": "PersistentProfile.CareerStats.ArmorsOwned.Rare",
@@ -375,15 +375,7 @@
     "type": "int",
     "default": 0,
     "incrementonly": false,
-    "aggregated": true
-  },
-  {
-    "name": "PersistentProfile.CareerStats.NumLevel5Classes",
-    "displayName": "Number Of Level 5 Classes",
-    "type": "int",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": true
+    "aggregated": false
   },
   {
     "name": "PersistentProfile.CareerStats.NumLevel10Classes",
@@ -452,6 +444,14 @@
   {
     "name": "PersistentProfile.Resource.Gold",
     "displayName": "Current Gold",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true
+  },
+  {
+    "name": "PersistentProfile.CareerStats.PerfectFrostfangHunts",
+    "displayName": "Perfect Frostfang Hunts",
     "type": "int",
     "default": 0,
     "incrementonly": false,
