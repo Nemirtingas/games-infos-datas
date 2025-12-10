@@ -5,7 +5,8 @@
     "type": "int",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
+    "aggregated": true,
+    "maxchange": 153,
     "min": 0
   },
   {
@@ -14,7 +15,8 @@
     "type": "int",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
+    "aggregated": true,
+    "maxchange": 1,
     "min": 0
   },
   {
@@ -23,7 +25,8 @@
     "type": "int",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
+    "aggregated": true,
+    "maxchange": 1,
     "min": 0
   },
   {
@@ -53,5 +56,15 @@
     "incrementonly": false,
     "aggregated": false,
     "min": 1.0
+  },
+  {
+    "name": "StartedViaSteam",
+    "displayName": "Game-Starts via Steam",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   }
 ]

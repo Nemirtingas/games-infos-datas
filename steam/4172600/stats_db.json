@@ -1,62 +1,111 @@
 [
   {
     "name": "run_played",
-    "defaultvalue": 0,
-    "displayName": "Total Games"
+    "displayName": "Total Games",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "avg_day",
-    "defaultvalue": 0,
-    "displayName": "Average day"
+    "displayName": "Average day",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1.0,
+    "max": 31,
+    "windowsize": 20.0
   },
   {
     "name": "run_whale",
-    "defaultvalue": 0,
-    "displayName": "Whale games"
+    "displayName": "Whale games",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "win_whale",
-    "defaultvalue": 0,
-    "displayName": "Whale Win"
+    "displayName": "Whale Win",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "run_child",
-    "defaultvalue": 0,
-    "displayName": "Child games"
+    "displayName": "Child games",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "win_child",
-    "defaultvalue": 0,
-    "displayName": "Child Win"
+    "displayName": "Child Win",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "run_jeweller",
-    "defaultvalue": 0,
-    "displayName": "Jewel games"
+    "displayName": "Jewel games",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "win_jeweller",
-    "defaultvalue": 0,
-    "displayName": "Jewel Win"
+    "displayName": "Jewel Win",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "day_total",
-    "defaultvalue": 0,
-    "displayName": "Day total"
+    "displayName": "Day total",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0
   },
   {
     "name": "time_played",
-    "defaultvalue": 0,
-    "displayName": "Time played"
+    "displayName": "Time played",
+    "type": "float",
+    "default": 0.0,
+    "incrementonly": true,
+    "aggregated": true
   },
   {
     "name": "time_avg_run",
-    "defaultvalue": 0,
-    "displayName": "TIme average"
+    "displayName": "TIme average",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 20.0
   },
   {
     "name": "time_avg_win",
-    "defaultvalue": 0,
-    "displayName": "Time average win"
+    "displayName": "Time average win",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 10.0
   }
 ]
