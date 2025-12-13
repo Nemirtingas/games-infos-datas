@@ -1,22 +1,44 @@
 [
   {
     "name": "avgScorePerRun",
-    "defaultvalue": 0,
-    "displayName": "Average Score Per Run"
+    "displayName": "Average Score Per Run",
+    "type": "avgrate",
+    "default": 0.0,
+    "incrementonly": false,
+    "aggregated": false,
+    "windowsize": 0.0
   },
   {
     "name": "avgWavePerRun",
-    "defaultvalue": 0,
-    "displayName": "Average Waves Per Run"
+    "displayName": "Average Waves Per Run",
+    "type": "avgrate",
+    "default": 0.0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0.0,
+    "max": 0,
+    "windowsize": 0.0
   },
   {
     "name": "storyState",
-    "defaultvalue": 0,
-    "displayName": "Story Progress"
+    "displayName": "Story Progress",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 0,
+    "min": 0,
+    "max": 0
   },
   {
     "name": "vpStageReached",
-    "defaultvalue": 0,
-    "displayName": "VP Stage Reached"
+    "displayName": "VP Stage Reached",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 0,
+    "min": 0,
+    "max": 0
   }
 ]
