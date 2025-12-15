@@ -2,14 +2,14 @@
   {
     "name": "achievement_0",
     "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/934bab089d8045ad07c2987249537a5b7b4fc6af.jpg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/96237a58ba98b09dd89ec16b1f2e3a86eb004006.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
     "displayName": {
       "english": "Test Achievement",
       "token": "NEW_ACHIEVEMENT_3_0_NAME"
     },
     "description": {
-      "english": "this is a test achievement",
+      "english": "this is a test, please ignore",
       "token": "NEW_ACHIEVEMENT_3_0_DESC"
     }
   },
@@ -23,22 +23,8 @@
       "token": "NEW_ACHIEVEMENT_3_1_NAME"
     },
     "description": {
-      "english": "burn your fingers",
+      "english": "burn yourself on something hot",
       "token": "NEW_ACHIEVEMENT_3_1_DESC"
-    }
-  },
-  {
-    "name": "achievement_2",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/58c5a77d363f769407d51af8964270a8dcf9dd30.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
-    "displayName": {
-      "english": "The Other Side",
-      "token": "NEW_ACHIEVEMENT_3_2_NAME"
-    },
-    "description": {
-      "english": "get a rock to the other side of the refinery",
-      "token": "NEW_ACHIEVEMENT_3_2_DESC"
     }
   },
   {
@@ -47,11 +33,11 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/f047e913ff383aeb2f985ee5129af4b5922b9397.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
     "displayName": {
-      "english": "King Piggy",
+      "english": "King Pig",
       "token": "NEW_ACHIEVEMENT_3_3_NAME"
     },
     "description": {
-      "english": "crown the pig",
+      "english": "crown the swine",
       "token": "NEW_ACHIEVEMENT_3_3_DESC"
     }
   },
@@ -61,7 +47,7 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/78f4fc64fbdd0b1b31e39ac41980194b58701549.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
     "displayName": {
-      "english": "Tilt Proof",
+      "english": "Tilted",
       "token": "NEW_ACHIEVEMENT_3_4_NAME"
     },
     "description": {
@@ -79,7 +65,7 @@
       "token": "NEW_ACHIEVEMENT_3_5_NAME"
     },
     "description": {
-      "english": "transmute a metal",
+      "english": "transmute metal",
       "token": "NEW_ACHIEVEMENT_3_5_DESC"
     }
   },
@@ -93,7 +79,7 @@
       "token": "NEW_ACHIEVEMENT_3_6_NAME"
     },
     "description": {
-      "english": "make Alnico",
+      "english": "discover Alnico",
       "token": "NEW_ACHIEVEMENT_3_6_DESC"
     }
   },
@@ -135,8 +121,13 @@
       "token": "NEW_ACHIEVEMENT_3_9_NAME"
     },
     "description": {
-      "english": "spill 100 bits",
+      "english": "spill a lot of metal",
       "token": "NEW_ACHIEVEMENT_3_9_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1000,
+      "stat_name": "stat_spilled"
     }
   },
   {
@@ -149,8 +140,13 @@
       "token": "NEW_ACHIEVEMENT_3_10_NAME"
     },
     "description": {
-      "english": "crush 1000 rocks",
+      "english": "crush 10,000 rocks",
       "token": "NEW_ACHIEVEMENT_3_10_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 10000,
+      "stat_name": "stat_rocks"
     }
   },
   {
@@ -159,12 +155,17 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/678873db66c9ff8013cf148ea9741582d4a163fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
     "displayName": {
-      "english": "Special Interest",
+      "english": "Workaholic",
       "token": "NEW_ACHIEVEMENT_3_11_NAME"
     },
     "description": {
-      "english": "finish 100 special orders",
+      "english": "complete 100 order scrolls",
       "token": "NEW_ACHIEVEMENT_3_11_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 100,
+      "stat_name": "stat_orders"
     }
   },
   {
@@ -173,26 +174,17 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/17a98fe590de06682e2256d86d9ac6a60d843c79.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
     "displayName": {
-      "english": "We're Rich",
+      "english": "Millionaire",
       "token": "NEW_ACHIEVEMENT_3_12_NAME"
     },
     "description": {
-      "english": "earn 1000000 coins",
+      "english": "earn 1,000,000 copper",
       "token": "NEW_ACHIEVEMENT_3_12_DESC"
-    }
-  },
-  {
-    "name": "achievement_13",
-    "hidden": 0,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/37c87462d2d443e53f642795643d9b0e0be369c9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
-    "displayName": {
-      "english": "Shopping Spree",
-      "token": "NEW_ACHIEVEMENT_3_13_NAME"
     },
-    "description": {
-      "english": "buy 100 things from the merchant",
-      "token": "NEW_ACHIEVEMENT_3_13_DESC"
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 0,
+      "stat_name": "stat_money"
     }
   },
   {
@@ -207,6 +199,11 @@
     "description": {
       "english": "discover every alloy",
       "token": "NEW_ACHIEVEMENT_3_14_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 100,
+      "stat_name": "stat_discover"
     }
   },
   {
@@ -215,26 +212,12 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/37c87462d2d443e53f642795643d9b0e0be369c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
     "displayName": {
-      "english": "Crafted Out of your Mind",
+      "english": "Crafter",
       "token": "NEW_ACHIEVEMENT_3_15_NAME"
     },
     "description": {
-      "english": "make 1 of every craft",
+      "english": "forge at least 1 of every craft",
       "token": "NEW_ACHIEVEMENT_3_15_DESC"
-    }
-  },
-  {
-    "name": "achievement_16",
-    "hidden": 0,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/37c87462d2d443e53f642795643d9b0e0be369c9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
-    "displayName": {
-      "english": "Fully Loaded",
-      "token": "NEW_ACHIEVEMENT_3_16_NAME"
-    },
-    "description": {
-      "english": "have a fully equipped and upgraded workshop",
-      "token": "NEW_ACHIEVEMENT_3_16_DESC"
     }
   },
   {
@@ -243,11 +226,11 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/f7410645496603e2f901a78920c4a07133009a83.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
     "displayName": {
-      "english": "Spider Chef",
+      "english": "Chef",
       "token": "NEW_ACHIEVEMENT_3_17_NAME"
     },
     "description": {
-      "english": "burn 50 spiders",
+      "english": "incinerate 100 spiders",
       "token": "NEW_ACHIEVEMENT_3_17_DESC"
     }
   },
@@ -271,11 +254,11 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/37c87462d2d443e53f642795643d9b0e0be369c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
     "displayName": {
-      "english": "Worthy",
+      "english": "Legend",
       "token": "NEW_ACHIEVEMENT_3_19_NAME"
     },
     "description": {
-      "english": "make each trophy at 100% quality",
+      "english": "forge every trophy at 100% quality",
       "token": "NEW_ACHIEVEMENT_3_19_DESC"
     }
   },
@@ -303,7 +286,7 @@
       "token": "NEW_ACHIEVEMENT_3_21_NAME"
     },
     "description": {
-      "english": "bake a potato",
+      "english": "successfully bake a potato",
       "token": "NEW_ACHIEVEMENT_3_21_DESC"
     }
   },
@@ -397,7 +380,7 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/ff39cf5b6c9fd44a1dbcab9cf31e5e07c93213b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
     "displayName": {
-      "english": "'Yer a Wizard",
+      "english": "Fantastical",
       "token": "NEW_ACHIEVEMENT_3_28_NAME"
     },
     "description": {
@@ -411,7 +394,7 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/37c87462d2d443e53f642795643d9b0e0be369c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
     "displayName": {
-      "english": "Very Demure",
+      "english": "Full Steam Ahead",
       "token": "NEW_ACHIEVEMENT_3_29_NAME"
     },
     "description": {
@@ -425,7 +408,7 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/57b47e4c572c7211b49235f055f5ecf139970f7c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
     "displayName": {
-      "english": "Now You're Cooking",
+      "english": "Now You're Cookin'",
       "token": "NEW_ACHIEVEMENT_3_30_NAME"
     },
     "description": {
@@ -439,40 +422,12 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/37c87462d2d443e53f642795643d9b0e0be369c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
     "displayName": {
-      "english": "Spider Friend",
+      "english": "Pacifist",
       "token": "NEW_ACHIEVEMENT_3_31_NAME"
     },
     "description": {
       "english": "let a spider live for a whole hour",
       "token": "NEW_ACHIEVEMENT_3_31_DESC"
-    }
-  },
-  {
-    "name": "achievement_32",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/37c87462d2d443e53f642795643d9b0e0be369c9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
-    "displayName": {
-      "english": "Make Grandpa Proud",
-      "token": "NEW_ACHIEVEMENT_7_0_NAME"
-    },
-    "description": {
-      "english": "finish the tutorial",
-      "token": "NEW_ACHIEVEMENT_7_0_DESC"
-    }
-  },
-  {
-    "name": "achievement_33",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/37c87462d2d443e53f642795643d9b0e0be369c9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/44b2612b54cc728af4d873f9db2748a381ab7982.jpg",
-    "displayName": {
-      "english": "O Man I Love This Guy",
-      "token": "NEW_ACHIEVEMENT_7_1_NAME"
-    },
-    "description": {
-      "english": "talk to the merchant about everything there is to talk about",
-      "token": "NEW_ACHIEVEMENT_7_1_DESC"
     }
   },
   {
@@ -501,6 +456,48 @@
     "description": {
       "english": "spot the mythical rainbow flower spider",
       "token": "NEW_ACHIEVEMENT_7_5_DESC"
+    }
+  },
+  {
+    "name": "achievement_38",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/",
+    "displayName": {
+      "english": "Maxed Out",
+      "token": "NEW_ACHIEVEMENT_7_6_NAME"
+    },
+    "description": {
+      "english": "fill all refinery banks",
+      "token": "NEW_ACHIEVEMENT_7_6_DESC"
+    }
+  },
+  {
+    "name": "achievement_39",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/",
+    "displayName": {
+      "english": "Quality",
+      "token": "NEW_ACHIEVEMENT_7_7_NAME"
+    },
+    "description": {
+      "english": "create a craft with a quality of at least 120%",
+      "token": "NEW_ACHIEVEMENT_7_7_DESC"
+    }
+  },
+  {
+    "name": "achievement_40",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2381060/",
+    "displayName": {
+      "english": "Exterminator",
+      "token": "NEW_ACHIEVEMENT_7_8_NAME"
+    },
+    "description": {
+      "english": "kill at least 100 critters",
+      "token": "NEW_ACHIEVEMENT_7_8_DESC"
     }
   }
 ]
