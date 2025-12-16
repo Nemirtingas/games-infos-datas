@@ -61,7 +61,7 @@
   },
   {
     "name": "stat_shots_fired",
-    "displayName": "Shots Fired",
+    "displayName": "How many shots player has made",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -260,7 +260,7 @@
   },
   {
     "name": "stat_total_bullets_fired",
-    "displayName": "Total Bullets Fired",
+    "displayName": "How many bullets were fired in total. E.g. shotgun shoot multiple bullets",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -791,5 +791,165 @@
     "maxchange": 1,
     "min": 0,
     "max": 2
+  },
+  {
+    "name": "stat_ribbon_hsm_awarded",
+    "displayName": "Kill X zombies",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0
+  },
+  {
+    "name": "stat_ribbon_tsm_awarded",
+    "displayName": "Spawn X props in ZM",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0
+  },
+  {
+    "name": "stat_ribbon_psm_awarded",
+    "displayName": "Survive one wave in ZM",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0
+  },
+  {
+    "name": "stat_ribbon_nov_awarded",
+    "displayName": "Survive all waves in ZM",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0
+  },
+  {
+    "name": "stat_ribbon_dsm2_awarded",
+    "displayName": "Deal X amount of damage to zombies",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0
+  },
+  {
+    "name": "stat_ribbon_ssm3_awarded",
+    "displayName": "Spot X zombies",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0
+  },
+  {
+    "name": "stat_total_ribbon_score_zm",
+    "displayName": "Total score for getting ribbons in Zombie Mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 10000,
+    "min": 0
+  },
+  {
+    "name": "stat_total_ribbons_awarded_zm",
+    "displayName": "Total Ribbons Awarded in Zombie Mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0
+  },
+  {
+    "name": "stat_kills_zm",
+    "displayName": "Kills in Zombie Mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 500,
+    "min": 0
+  },
+  {
+    "name": "stat_assists_zm",
+    "displayName": "Assists in Zombie Mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0
+  },
+  {
+    "name": "stat_deaths_zm",
+    "displayName": "Deaths in Zombie Mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 500,
+    "min": 0
+  },
+  {
+    "name": "stat_headshots_zm",
+    "displayName": "Headshots in Zombie Mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0
+  },
+  {
+    "name": "stat_damage_zm",
+    "displayName": "Damage dealt in Zombie Mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000000,
+    "min": 0
+  },
+  {
+    "name": "stat_shots_fired_zm",
+    "displayName": "Shots fired in Zombie Mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000000,
+    "min": 0
+  },
+  {
+    "name": "stat_total_bullets_fired_zm",
+    "displayName": "How many bullets were fired in Zombie Mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000000,
+    "min": 0
+  },
+  {
+    "name": "stat_total_bullets_hit_zm",
+    "displayName": "How many bullets hit the target in Zombie Mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 100000,
+    "min": 0
   }
 ]
