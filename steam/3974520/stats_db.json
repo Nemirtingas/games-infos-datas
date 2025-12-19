@@ -1,42 +1,90 @@
 [
   {
     "name": "games_played",
-    "defaultvalue": 0,
-    "displayName": "Games Played"
+    "displayName": "Games Played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 9999999
   },
   {
     "name": "bouts_played",
-    "defaultvalue": 0,
-    "displayName": "Bouts Played"
+    "displayName": "Bouts Played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 50000,
+    "min": 0,
+    "max": 99999999
   },
   {
     "name": "highest_score",
-    "defaultvalue": 0,
-    "displayName": "Highest Score"
+    "displayName": "Highest Score",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 2147483647,
+    "min": 0,
+    "max": 2147483647
   },
   {
     "name": "dice_purchased",
-    "defaultvalue": 0,
-    "displayName": "Dice Purchased"
+    "displayName": "Dice Purchased",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 20000,
+    "min": 0,
+    "max": 999999999
   },
   {
     "name": "relics_purchased",
-    "defaultvalue": 0,
-    "displayName": "Relics Purchased"
+    "displayName": "Relics Purchased",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 999999999
   },
   {
     "name": "spells_purchased",
-    "defaultvalue": 0,
-    "displayName": "Spells Purchased"
+    "displayName": "Spells Purchased",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 20000,
+    "min": 0,
+    "max": 999999999
   },
   {
     "name": "spells_cast",
-    "defaultvalue": 0,
-    "displayName": "Spells Cast"
+    "displayName": "Spells Cast",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 100000,
+    "min": 0,
+    "max": 999999999
   },
   {
     "name": "highest_sub_score",
-    "defaultvalue": 0,
-    "displayName": "Highest Single-Submission Score"
+    "displayName": "Highest Single-Submission Score",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 2147483647,
+    "min": 0,
+    "max": 2147483647
   }
 ]
