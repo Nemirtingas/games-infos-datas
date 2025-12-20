@@ -30,7 +30,7 @@
     "aggregated": false,
     "maxchange": 1000,
     "min": 0,
-    "max": 1000
+    "max": 1000000
   },
   {
     "name": "STAT_MOVE_CROUCH",
@@ -41,7 +41,7 @@
     "aggregated": false,
     "maxchange": 1000,
     "min": 0,
-    "max": 1000
+    "max": 1000000
   },
   {
     "name": "STAT_COOK_MEAT",
@@ -141,5 +141,38 @@
     "maxchange": 1000,
     "min": 0,
     "max": 500000
+  },
+  {
+    "name": "STAT_HIGHEST_CAMP_LEVEL",
+    "displayName": "Highest Camp Center Level",
+    "type": "int",
+    "default": 1,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 8,
+    "min": 1,
+    "max": 8
+  },
+  {
+    "name": "STAT_DAYS_SURVIVED",
+    "displayName": "Number of days the player has survived",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 10000
+  },
+  {
+    "name": "STAT_SCUGLA_QUESTS_COMPLETED",
+    "displayName": "How many times has the player completed scugla's quest",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 10000
   }
 ]

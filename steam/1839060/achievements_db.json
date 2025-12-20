@@ -22,18 +22,18 @@
   },
   {
     "name": "PL_WAS_THERE",
-    "hidden": 0,
+    "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/3559b75af8c938d24e20a560baf650f85c9a3b49.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/092f9e3e37cbc7eb6c7ebde94bb4ae30cc4ec7bc.jpg",
     "displayName": {
       "english": "I was there, 10.000 years ago",
-      "token": "NEW_ACHIEVEMENT_1_1_NAME",
-      "czech": "Byl jsem tam, před 10 000 lety"
+      "czech": "Byl jsem tam, před 10 000 lety",
+      "token": "NEW_ACHIEVEMENT_1_1_NAME"
     },
     "description": {
       "english": "Complete the H&G Era",
-      "token": "NEW_ACHIEVEMENT_1_1_DESC",
-      "czech": "Dokonči éru H&G"
+      "czech": "Dokonči éru H&G",
+      "token": "NEW_ACHIEVEMENT_1_1_DESC"
     }
   },
   {
@@ -68,7 +68,7 @@
       "token": "NEW_ACHIEVEMENT_1_3_NAME"
     },
     "description": {
-      "english": "Roast 100 units of meat",
+      "english": "Roast 100 units of any meat",
       "czech": "Upeč 100 jednotek masa",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
@@ -84,13 +84,13 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/a9e4f42e3801ecc5f899d4112e94bab098959026.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/54487c2a95818d61215ac846095b586f8f43e381.jpg",
     "displayName": {
-      "english": "Master Hunter",
-      "czech": "Mistr lovec",
+      "english": "Top of the food chain",
+      "czech": "Vrchnol potravního řetězce",
       "token": "NEW_ACHIEVEMENT_1_4_NAME"
     },
     "description": {
-      "english": "Kill every type of animal",
-      "czech": "Zabij všechny druhy zvířat",
+      "english": "Kill every carnivorous type of animal",
+      "czech": "Zabij všechny masožravé druhy zvířat",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     }
   },
@@ -105,13 +105,13 @@
       "token": "NEW_ACHIEVEMENT_1_5_NAME"
     },
     "description": {
-      "english": "Run 100 kilometers in total",
-      "czech": "Uběhni celkem 100 kilometrů",
+      "english": "Run 42 kilometers in total",
+      "czech": "Uběhni celkem 42 kilometrů",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
     "stats_thresholds": {
       "min_val": 0,
-      "max_val": 100,
+      "max_val": 42000,
       "stat_name": "STAT_MOVE_RUN"
     }
   },
@@ -126,13 +126,13 @@
       "token": "NEW_ACHIEVEMENT_1_6_NAME"
     },
     "description": {
-      "english": "Sneak for 5 kilometers in total",
-      "czech": "Pliž se celkem 5 kilometrů",
+      "english": "Sneak for 1 kilometers in total",
+      "czech": "Pliž se celkem 1 kilometrů",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
     "stats_thresholds": {
       "min_val": 0,
-      "max_val": 5,
+      "max_val": 1000,
       "stat_name": "STAT_MOVE_CROUCH"
     }
   },
@@ -206,83 +206,77 @@
     }
   },
   {
-    "name": "PL_MONUMENT_INIT",
+    "name": "PL_AGE_OF_EMPIRES",
     "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/21307f0e4d93f8bf0d7ab50c49c284f4df96323f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/19b076d47f048b6e76ba6da2eb2b10f052f83fee.jpg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/7767e8eaab30ad9afefd964ba0590cb970307f6f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/698c09053e3197633f1d29bf1320a1e329581df2.jpg",
     "displayName": {
-      "english": "The Monument",
-      "czech": "Monument",
+      "english": "Age of Empires",
+      "czech": "Age of Empires",
+      "token": "NEW_ACHIEVEMENT_1_11_NAME"
+    },
+    "description": {
+      "english": "Level up Camp Center to 8",
+      "czech": "Vylepši úroveň svého středu tábora na 8",
+      "token": "NEW_ACHIEVEMENT_1_11_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 1,
+      "max_val": 8,
+      "stat_name": "STAT_HIGHEST_CAMP_LEVEL"
+    }
+  },
+  {
+    "name": "PL_DARK_SOULS",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/50ee41398eceb8ccc32f2fff1510efe6a5ac62eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/4ef6a564e7c1343562f5fa992db8071136c0cf19.jpg",
+    "displayName": {
+      "english": "Dark Souls",
+      "czech": "Dark Souls",
       "token": "NEW_ACHIEVEMENT_1_12_NAME"
     },
     "description": {
-      "english": "Restore the Monument",
-      "czech": "Obnov monument",
+      "english": "Kill the Monster Mammoth in Prologue",
+      "czech": "Poraž strašidelného mamuta v prologu",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     }
   },
   {
-    "name": "PL_MONUMENT_WHEELS_OF_FORTUNE",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/7486ea950f8a006653f56fe4918d7d42b652dd83.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/c658a0401fdb310828f2f6be9721d212c95ad69d.jpg",
+    "name": "PL_EXPEDITION",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/972fc9e442c0cfb5eeda5de31f6624a145ebc727.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/11f72a0440d8eb346a48d01458e5199a956aafac.jpg",
     "displayName": {
-      "english": "Wheels of Fortune",
-      "czech": "Kolo štěstí",
+      "english": "Expedition",
+      "czech": "Expedice",
       "token": "NEW_ACHIEVEMENT_1_13_NAME"
     },
     "description": {
-      "english": "Finish the inventor's story line",
-      "czech": "Dokonči vynálezcovu příběhovou linku",
+      "english": "Survive 33 days in Wilderness",
+      "czech": "Přežij 33 dní v divočině",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 33,
+      "stat_name": "STAT_DAYS_SURVIVED"
     }
   },
   {
-    "name": "PL_MONUMENT_SUN_OF_STONES",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/26e1cdb431654235ac4a7a9dbe3c7dcf0616575c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/194bbdb7a4bb96eb3bad1ea247553f5b0b41e308.jpg",
+    "name": "PL_ULTIMATE_SCUGLA",
+    "hidden": 0,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/86659f643541e90b4410b386b0b571ac51ca2665.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/3761b47bebdd0558535f111e249accab7dcd2159.jpg",
     "displayName": {
-      "english": "Sun of Stones",
-      "czech": "Slunce z kamene",
+      "english": "Ultimate Shtchugla",
+      "czech": "Ultimátní Ščugla",
       "token": "NEW_ACHIEVEMENT_1_14_NAME"
     },
     "description": {
-      "english": "Build the Sun of Stone",
-      "czech": "Postav Slunce z kamene",
+      "english": "Become Friends with Shtchugla",
+      "czech": "Spřátel se se Ščuglou",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
-    }
-  },
-  {
-    "name": "PL_MONUMENT_MAMMOTH_SKULL",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/86f7ecafb23c6ca447a96eb88b304a596fce07e2.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/c451466bf90005fed29bbddcad10b051ed42e96d.jpg",
-    "displayName": {
-      "english": "Mammoth Skull",
-      "czech": "Lebka mamuta",
-      "token": "NEW_ACHIEVEMENT_1_15_NAME"
-    },
-    "description": {
-      "english": "Build the Mammoth Skull",
-      "czech": "Postav Lebku mamuta",
-      "token": "NEW_ACHIEVEMENT_1_15_DESC"
-    }
-  },
-  {
-    "name": "PL_MONUMENT_WARRIOR_HELMET",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/a689cf0211762b97cceee0bc42cf137836e6796e.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1839060/66e64518aa766a278ebc266a09f48f0144138f0b.jpg",
-    "displayName": {
-      "english": "Warrior's Helmet",
-      "czech": "Helma válečníka",
-      "token": "NEW_ACHIEVEMENT_1_16_NAME"
-    },
-    "description": {
-      "english": "Build the Warrior's Helmet",
-      "czech": "Postav Helmu válečníka",
-      "token": "NEW_ACHIEVEMENT_1_16_DESC"
     }
   }
 ]
