@@ -1,17 +1,29 @@
 [
   {
     "name": "pad_hit",
-    "defaultvalue": 0,
-    "displayName": "PadHit"
+    "displayName": "PadHit",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "time_c",
-    "defaultvalue": 0,
-    "displayName": "Current Time"
+    "displayName": "Current Time",
+    "type": "float",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false
   },
   {
     "name": "fall_bulbs",
-    "defaultvalue": 0,
-    "displayName": "Fall Bulb"
+    "displayName": "Fall Bulb",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 28
   }
 ]
