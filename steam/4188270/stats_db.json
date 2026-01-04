@@ -1,22 +1,46 @@
 [
   {
     "name": "Slaps",
-    "defaultvalue": 0,
-    "displayName": "Total Number of Slaps"
+    "displayName": "Total Number of Slaps",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": 9999
   },
   {
     "name": "Deaths",
-    "defaultvalue": 0,
-    "displayName": "Total Number of Deaths"
+    "displayName": "Total Number of Deaths",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9999
   },
   {
     "name": "Coins_Spent",
-    "defaultvalue": 0,
-    "displayName": "Total Coins Spent"
+    "displayName": "Total Coins Spent",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": 9999
   },
   {
     "name": "Endless_Rounds",
-    "defaultvalue": 0,
-    "displayName": "Completed Rounds in Endless Mode"
+    "displayName": "Completed Rounds in Endless Mode",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9999
   }
 ]
