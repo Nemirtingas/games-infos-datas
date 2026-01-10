@@ -13,7 +13,7 @@
     "type": "int",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
+    "aggregated": true,
     "maxchange": 1
   },
   {
@@ -22,7 +22,7 @@
     "type": "int",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
+    "aggregated": true,
     "maxchange": 1
   },
   {
@@ -49,7 +49,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "demo_zenmode_complete",
@@ -59,7 +59,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "cc_1_intro",
@@ -69,7 +69,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "cc_1_trick",
@@ -79,7 +79,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "cc_2_alternatingintro",
@@ -89,7 +89,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "cc_2_barrier",
@@ -99,7 +99,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "cc_2_barrierintro",
@@ -109,7 +109,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "cc_2_bellsandwhistles",
@@ -119,7 +119,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "cc_2_disappear",
@@ -129,7 +129,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "cc_2_ontheway",
@@ -139,7 +139,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "cc_2_sort",
@@ -149,7 +149,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "cc_2_teleportintro",
@@ -159,7 +159,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "cc_3_showoff",
@@ -169,7 +169,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "started_playing",
@@ -179,7 +179,7 @@
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
-    "min": 1
+    "max": 1
   },
   {
     "name": "res_1_intro",
@@ -264,6 +264,24 @@
   {
     "name": "res_3_showoff",
     "displayName": "Resets for 3_showoff",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true
+  },
+  {
+    "name": "cc_2_paving",
+    "displayName": "Challenge 2_paving Complete",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "max": 1
+  },
+  {
+    "name": "res_2_paving",
+    "displayName": "Resets for 2_paving",
     "type": "int",
     "default": 0,
     "incrementonly": true,
