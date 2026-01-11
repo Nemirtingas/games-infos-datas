@@ -1,17 +1,35 @@
 [
   {
     "name": "Races",
-    "defaultvalue": 0,
-    "displayName": "Phase Races"
+    "displayName": "Phase Races",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 4
   },
   {
     "name": "Pumpkins",
-    "defaultvalue": 0,
-    "displayName": "Pumpkin Hoarding"
+    "displayName": "Pumpkin Hoarding",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10
   },
   {
     "name": "Bosses",
-    "defaultvalue": 0,
-    "displayName": "BossKills"
+    "displayName": "BossKills",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10
   }
 ]
