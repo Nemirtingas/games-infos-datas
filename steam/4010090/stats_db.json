@@ -1,67 +1,132 @@
 [
   {
     "name": "games",
-    "defaultvalue": 0,
-    "displayName": "Games played"
+    "displayName": "Games played",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "question_risky_max",
-    "defaultvalue": 0,
-    "displayName": "Max simultaneous cards locked"
+    "displayName": "Max simultaneous cards locked",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 9
   },
   {
     "name": "question_risky_lost",
-    "defaultvalue": 0,
-    "displayName": "Cards lost"
+    "displayName": "Cards lost",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 9
   },
   {
     "name": "question_risky_lost_max",
-    "defaultvalue": 0,
-    "displayName": "Cards simultaneously lost"
+    "displayName": "Cards simultaneously lost",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 9
   },
   {
     "name": "question_streak",
-    "defaultvalue": 0,
-    "displayName": "Correct answers in a row"
+    "displayName": "Correct answers in a row",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 9,
+    "min": 0
   },
   {
     "name": "shield_pieces",
-    "defaultvalue": 0,
-    "displayName": "Shield pieces collected"
+    "displayName": "Shield pieces collected",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0
   },
   {
     "name": "shields",
-    "defaultvalue": 0,
-    "displayName": "Shields gained"
+    "displayName": "Shields gained",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "shields_max",
-    "defaultvalue": 0,
-    "displayName": "Simultaneous shields"
+    "displayName": "Simultaneous shields",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "shields_used",
-    "defaultvalue": 0,
-    "displayName": "Shields used"
+    "displayName": "Shields used",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   },
   {
     "name": "shields_unused",
-    "defaultvalue": 0,
-    "displayName": "Unused shields"
+    "displayName": "Unused shields",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 12,
+    "min": 0
   },
   {
     "name": "questions_correct",
-    "defaultvalue": 0,
-    "displayName": "Questions answered correctly"
+    "displayName": "Questions answered correctly",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 9,
+    "min": 0
   },
   {
     "name": "question_final_failed",
-    "defaultvalue": 0,
-    "displayName": "Failed final questions"
+    "displayName": "Failed final questions",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 0,
+    "min": 0
   },
   {
     "name": "questions_failed",
-    "defaultvalue": 0,
-    "displayName": "Failed Questions"
+    "displayName": "Failed Questions",
+    "type": "int",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0
   }
 ]
