@@ -1,17 +1,29 @@
 [
   {
     "name": "FinishGuide",
-    "defaultvalue": 0,
-    "displayName": "完成教程的人数"
+    "displayName": "完成教程的人数",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1
   },
   {
     "name": "AbandonRun",
-    "defaultvalue": 0,
-    "displayName": "放弃游戏的次数"
+    "displayName": "放弃游戏的次数",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true
   },
   {
     "name": "AVGDAYS",
-    "defaultvalue": 0,
-    "displayName": "平均存活天数"
+    "displayName": "平均存活天数",
+    "type": "avgrate",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 4.0,
+    "windowsize": 10.0
   }
 ]
