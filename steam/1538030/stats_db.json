@@ -1,7 +1,7 @@
 [
   {
     "name": "GAME_STARTS",
-    "displayName": "Levels started",
+    "displayName": "Stages started",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -12,7 +12,7 @@
   },
   {
     "name": "COOP_STARTS",
-    "displayName": "Coop games started",
+    "displayName": "Stages started in coop",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -43,7 +43,7 @@
   },
   {
     "name": "GAME_FINISHED",
-    "displayName": "Games finished",
+    "displayName": "Stages finished",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -54,7 +54,7 @@
   },
   {
     "name": "COOP_FINISHED",
-    "displayName": "Coop games finished",
+    "displayName": "Stages finished in coop",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -65,7 +65,7 @@
   },
   {
     "name": "GAME_FINISHED_WITHOUT_DAMAGE",
-    "displayName": "Levels finished without damage",
+    "displayName": "Stages finished without damage",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -76,7 +76,7 @@
   },
   {
     "name": "GAME_FINISHED_HUNDRED_PERCENT",
-    "displayName": "Levels finished with 100%",
+    "displayName": "Stages finished with 100%",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -87,7 +87,7 @@
   },
   {
     "name": "GAME_FINISHED_PERFECT",
-    "displayName": "Levels finished perfectly",
+    "displayName": "Stages finished perfectly",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -117,7 +117,7 @@
   },
   {
     "name": "GAME_HEX_FINISHED",
-    "displayName": "Hexagonal levels finished",
+    "displayName": "Hexagonal stages finished",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -128,7 +128,7 @@
   },
   {
     "name": "GAME_SQUARE_FINISHED",
-    "displayName": "Square levels finished",
+    "displayName": "Square stages finished",
     "type": "int",
     "default": 0,
     "incrementonly": true,
@@ -148,7 +148,117 @@
   },
   {
     "name": "GAME_FINISHED_PACIFIST",
-    "displayName": "Levels finished without firing a bullet",
+    "displayName": "Stages finished without firing a bullet",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000000
+  },
+  {
+    "name": "MAX_LEVEL_REACHED_VERY_EASY",
+    "displayName": "Max level reached on difficulty \"very easy\"",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000000
+  },
+  {
+    "name": "MAX_LEVEL_REACHED_EASY",
+    "displayName": "Max level reached on difficulty \"easy\"",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000000
+  },
+  {
+    "name": "MAX_LEVEL_REACHED_NORMAL",
+    "displayName": "Max level reached on difficulty \"normal\"",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000000
+  },
+  {
+    "name": "MAX_LEVEL_REACHED_HARD",
+    "displayName": "Max level reached on difficulty \"hard\"",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000000
+  },
+  {
+    "name": "MAX_LEVEL_REACHED_VERY_HARD",
+    "displayName": "Max level reached on difficulty \"very hard\"",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000000
+  },
+  {
+    "name": "MAX_STAGE_REACHED_VERY_EASY",
+    "displayName": "Max stage reached on difficulty \"very easy\"",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000000
+  },
+  {
+    "name": "MAX_STAGE_REACHED_EASY",
+    "displayName": "Max stage reached on difficulty \"easy\"",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000000
+  },
+  {
+    "name": "MAX_STAGE_REACHED_NORMAL",
+    "displayName": "Max stage reached on difficulty \"normal\"",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000000
+  },
+  {
+    "name": "MAX_STAGE_REACHED_HARD",
+    "displayName": "Max stage reached on difficulty \"hard\"",
+    "type": "int",
+    "default": 0,
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000000
+  },
+  {
+    "name": "MAX_STAGE_REACHED_VERY_HARD",
+    "displayName": "Max stage reached on difficulty \"very hard\"",
     "type": "int",
     "default": 0,
     "incrementonly": true,
