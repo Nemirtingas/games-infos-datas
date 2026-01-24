@@ -2,7 +2,7 @@
   {
     "name": "targetsKilled",
     "displayName": "Kills",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
@@ -10,7 +10,7 @@
   {
     "name": "enemiesKilled",
     "displayName": "Enemies Killed",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
@@ -18,7 +18,7 @@
   {
     "name": "playersKilled",
     "displayName": "Players Killed",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
@@ -26,39 +26,39 @@
   {
     "name": "damageDealt",
     "displayName": "Damage",
-    "type": "float",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": true,
     "aggregated": true
   },
   {
     "name": "friendlyFireDamageDealt",
     "displayName": "Friendly Fire Damage",
-    "type": "float",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": true,
     "aggregated": true
   },
   {
     "name": "damageTaken",
     "displayName": "Damage Taken",
-    "type": "float",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": true,
     "aggregated": true
   },
   {
     "name": "appliedStatusEffect",
     "displayName": "Applied Damage Effects",
-    "type": "float",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": true,
     "aggregated": true
   },
   {
     "name": "deaths",
     "displayName": "Deaths",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
@@ -66,7 +66,7 @@
   {
     "name": "selfDeaths",
     "displayName": "Self Deaths",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
@@ -74,15 +74,23 @@
   {
     "name": "otherPlayerDeaths",
     "displayName": "Friendly Fire Deaths",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
   },
   {
+    "name": null,
+    "displayName": "",
+    "type": "0",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
     "name": "standardUpgradesCollected",
     "displayName": "Standard Upgrades Collected",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
@@ -90,7 +98,7 @@
   {
     "name": "rareUpgradesCollected",
     "displayName": "Rare Upgrades Collected",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
@@ -98,7 +106,7 @@
   {
     "name": "epicUpgradesCollected",
     "displayName": "Epic Upgrades Collected",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
@@ -106,7 +114,7 @@
   {
     "name": "exoticUpgradesCollected",
     "displayName": "Exotic Upgrades Collected",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
@@ -114,7 +122,7 @@
   {
     "name": "redactedUpgradesCollected",
     "displayName": "[REDACTED] Upgrades Collected",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
@@ -122,7 +130,7 @@
   {
     "name": "upgradesCollected",
     "displayName": "Total Upgrades Collected",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
@@ -130,169 +138,151 @@
   {
     "name": "cycler",
     "displayName": "Cycler Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "bounceshotgun",
     "displayName": "Jackrabbit Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "swarmgun",
     "displayName": "Swarm Gun Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "dmlr",
     "displayName": "DMLR Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "platelauncher",
     "displayName": "Plate Launcher Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "gunshipcannon",
     "displayName": "Gunship Cannon Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "painterbow",
     "displayName": "Painter Bow Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "leadflinger",
     "displayName": "Lead Flinger Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "trident",
     "displayName": "Trident Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "globbler",
     "displayName": "Globbler Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "sniper",
     "displayName": "Sniper Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "carver",
     "displayName": "Carver Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "accelerator",
     "displayName": "Accelerator Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "shocklance",
     "displayName": "Shocklance Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "firegrenade",
     "displayName": "Incendiary Grenade Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "shockgrenade",
     "displayName": "Shock Grenade Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "acidgrenade",
     "displayName": "Acid Grenade Usage Rate",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 30.0
+    "aggregated": false
   },
   {
     "name": "upgradesPerHour",
     "displayName": "Upgrades Per Hour",
-    "type": "avgrate",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "windowsize": 15.0
+    "aggregated": false
   },
   {
     "name": "pipesPushed",
     "displayName": "Pipes Pushed",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
@@ -300,16 +290,15 @@
   {
     "name": "level",
     "displayName": "Player Level",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "min": 0
+    "aggregated": false
   },
   {
     "name": "roachardHiCount",
     "displayName": "Roachard Greetings",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": true
@@ -317,36 +306,41 @@
   {
     "name": "maxCompletedThreat",
     "displayName": "Highest Threat Level",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "min": 0
+    "aggregated": false
+  },
+  {
+    "name": null,
+    "displayName": "",
+    "type": "0",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
   },
   {
     "name": "saxitosPunched",
     "displayName": "Saxitos Punched",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": true,
-    "min": 0
+    "aggregated": true
   },
   {
     "name": "healingDealt",
     "displayName": "Healing Provided",
-    "type": "float",
-    "default": 0.0,
+    "type": "0",
+    "default": 0,
     "incrementonly": true,
     "aggregated": true
   },
   {
     "name": "maxLastPaycheck",
     "displayName": "Max Last Paychecks",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "min": 0
+    "aggregated": false
   }
 ]
