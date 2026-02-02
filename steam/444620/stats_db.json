@@ -2,27 +2,23 @@
   {
     "name": "level",
     "displayName": "Level",
-    "type": "int",
-    "default": 1,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "maxchange": 1,
-    "min": 0,
-    "max": 100
+    "aggregated": false
   },
   {
     "name": "experience",
     "displayName": "Experience",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "max": 1000
+    "aggregated": false
   },
   {
     "name": "tournamentpoints",
     "displayName": "Tournament Points",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": false,
     "aggregated": false
@@ -30,7 +26,7 @@
   {
     "name": "kills",
     "displayName": "Kills",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": false,
     "aggregated": false
@@ -38,7 +34,7 @@
   {
     "name": "deaths",
     "displayName": "Deaths",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": false,
     "aggregated": false
@@ -46,7 +42,7 @@
   {
     "name": "totalgames",
     "displayName": "Total Games",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": false,
     "aggregated": false
@@ -54,18 +50,15 @@
   {
     "name": "characterselected",
     "displayName": "Character Selected",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "maxchange": 30,
-    "min": 1,
-    "max": 30
+    "aggregated": false
   },
   {
     "name": "weaponselected",
     "displayName": "Weapon Selected",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": false,
     "aggregated": false
@@ -73,48 +66,39 @@
   {
     "name": "flagselected",
     "displayName": "Flag Selected",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "maxchange": 30,
-    "min": 1,
-    "max": 30
+    "aggregated": false
   },
   {
     "name": "emblemcolorselected",
     "displayName": "Emblem Color Selected",
-    "type": "int",
-    "default": 1,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "maxchange": 9,
-    "min": 1,
-    "max": 9
+    "aggregated": false
   },
   {
     "name": "flagcolorselected",
     "displayName": "Flag Color Selected",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": false,
-    "aggregated": false,
-    "maxchange": 9,
-    "min": 1,
-    "max": 9
+    "aggregated": false
   },
   {
     "name": "CharactersUnlocked",
     "displayName": "Characters Unlocked",
-    "type": "int",
-    "default": 15,
+    "type": "0",
+    "default": 0,
     "incrementonly": false,
     "aggregated": false
   },
   {
     "name": "WeaponsUnlocked1",
     "displayName": "WeaponsUnlocked1",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": false,
     "aggregated": false
@@ -122,7 +106,7 @@
   {
     "name": "FlagsUnlocked",
     "displayName": "Flags Unlocked",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": false,
     "aggregated": false
@@ -130,7 +114,15 @@
   {
     "name": "WeaponsUnlocked2",
     "displayName": "WeaponsUnlocked2",
-    "type": "int",
+    "type": "0",
+    "default": 0,
+    "incrementonly": false,
+    "aggregated": false
+  },
+  {
+    "name": null,
+    "displayName": "",
+    "type": "0",
     "default": 0,
     "incrementonly": false,
     "aggregated": false
@@ -138,107 +130,87 @@
   {
     "name": "SGLMSFirstPosition",
     "displayName": "StandardGameLastManStanding FirstPosition",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "maxchange": 1,
-    "min": 0
+    "aggregated": false
   },
   {
     "name": "SGLMSSecondPosition",
     "displayName": "StandardGameLastManStanding Second Position",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "maxchange": 1,
-    "min": 0
+    "aggregated": false
   },
   {
     "name": "SGLMSThirdPosition",
     "displayName": "StandardGameLastManStanding Third Position",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "maxchange": 1,
-    "min": 0
+    "aggregated": false
   },
   {
     "name": "SGLMSLastPosition",
     "displayName": "StandardGameLastManStanding Last Position",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "maxchange": 1,
-    "min": 0
+    "aggregated": false
   },
   {
     "name": "SGTVTWins",
     "displayName": "StandardGameTeamVsTeam Wins",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "maxchange": 1,
-    "min": 0
+    "aggregated": false
   },
   {
     "name": "SGTVTLosses",
     "displayName": "StandardGameTeamVsTeam Losses",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "maxchange": 1,
-    "min": 0
+    "aggregated": false
   },
   {
     "name": "CGLMSFirstPosition",
     "displayName": "CompetitiveGamesLastManStanding First Position",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "maxchange": 1,
-    "min": 0
+    "aggregated": false
   },
   {
     "name": "CGLMSSecondPosition",
     "displayName": "CompetitiveGamesLastManStanding Second Position",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "maxchange": 1,
-    "min": 0
+    "aggregated": false
   },
   {
     "name": "CGLMSThirdPosition",
     "displayName": "CompetitiveGamesLastManStanding Third Position",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "maxchange": 1,
-    "min": 0
+    "aggregated": false
   },
   {
     "name": "CGLMSLastPosition",
     "displayName": "CompetitiveGamesLastManStanding Last Position",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "maxchange": 1,
-    "min": 0
+    "aggregated": false
   },
   {
     "name": "HitsAgainstPlayers",
     "displayName": "Successful Hits",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": false
@@ -246,7 +218,7 @@
   {
     "name": "HitsAgainstShields",
     "displayName": "MissedShots",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": false
@@ -254,7 +226,7 @@
   {
     "name": "MeleeHits",
     "displayName": "Melee Hits",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": false
@@ -262,7 +234,7 @@
   {
     "name": "TotalHits",
     "displayName": "Total hits",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": false
@@ -270,7 +242,7 @@
   {
     "name": "HitsAgainstProjectiles",
     "displayName": "Hits Against Projectiles",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
     "aggregated": false
@@ -278,17 +250,15 @@
   {
     "name": "TotalWins",
     "displayName": "Total wins",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": true,
-    "aggregated": false,
-    "maxchange": 1,
-    "min": 0
+    "aggregated": false
   },
   {
     "name": "DLCCoins",
     "displayName": "DLC flags for coins",
-    "type": "int",
+    "type": "0",
     "default": 0,
     "incrementonly": false,
     "aggregated": false
