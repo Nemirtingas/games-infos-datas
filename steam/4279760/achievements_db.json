@@ -1,15 +1,21 @@
 [
   {
     "name": "ACH_FIRSTPLAY",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "はじまりの時"
-    },
     "hidden": 0,
-    "description": {
-      "english": "初回プレイ達成"
-    },
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4279760/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4279760/"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4279760/",
+    "displayName": {
+      "english": "はじまりの時",
+      "token": "NEW_ACHIEVEMENT_2_0_NAME"
+    },
+    "description": {
+      "english": "初回プレイ達成",
+      "token": "NEW_ACHIEVEMENT_2_0_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 1,
+      "stat_name": "STAT_KO_PLAYCOUNT"
+    }
   }
 ]
