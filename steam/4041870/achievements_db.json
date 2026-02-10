@@ -23,7 +23,7 @@
       "token": "NEW_ACHIEVEMENT_1_1_NAME"
     },
     "description": {
-      "english": "Escape the vessel with less than 3 deaths ",
+      "english": "Make it out alive",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     }
   },
@@ -67,6 +67,11 @@
     "description": {
       "english": "200 enemies killed",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 200,
+      "stat_name": "STAT_ENEMIES_KILLED"
     }
   },
   {
@@ -81,6 +86,11 @@
     "description": {
       "english": "400 enemies eliminated",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 400,
+      "stat_name": "STAT_ENEMIES_KILLED"
     }
   },
   {
@@ -95,11 +105,16 @@
     "description": {
       "english": "600 enemies annihilated !",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
+    },
+    "stats_thresholds": {
+      "min_val": 0,
+      "max_val": 600,
+      "stat_name": "STAT_ENEMIES_KILLED"
     }
   },
   {
     "name": "ACH_PACIFIST",
-    "hidden": 0,
+    "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/b10a9a23f4a22c0eeb48524891a1c12c4b5ffc23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/b22130ab6f6a26679c894a3f20b26b49afcfee70.jpg",
     "displayName": {
@@ -107,7 +122,7 @@
       "token": "NEW_ACHIEVEMENT_1_7_NAME"
     },
     "description": {
-      "english": "Escape from a vessel with fewer than 7 enemies killed.",
+      "english": "Escape the vessel with no more than 7 enemies killed",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     }
   },
