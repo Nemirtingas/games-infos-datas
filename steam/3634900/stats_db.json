@@ -2,17 +2,22 @@
   {
     "name": "ParkingComplexDemo_Time",
     "displayName": "Time",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 32000,
+    "min": 1.0,
+    "max": 32000,
+    "default": 32000
   },
   {
     "name": "ParkingComplexDemo_Score",
     "displayName": "Score",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": -999999,
+    "max": 99999,
+    "default": -99999
   }
 ]

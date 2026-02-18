@@ -2,25 +2,34 @@
   {
     "name": "fish_named",
     "displayName": "Fish Named",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "fish_fed",
     "displayName": "Fish Fed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 50,
+    "min": 0,
+    "max": 10000,
+    "default": 0
   },
   {
     "name": "decorations_placed",
     "displayName": "Decorations Placed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 5,
+    "min": 0,
+    "max": 100,
+    "default": 0
   }
 ]

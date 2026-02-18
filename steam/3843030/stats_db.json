@@ -2,201 +2,244 @@
   {
     "name": "TILES",
     "displayName": "Tiles Mined",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "TILES_GLOBAL",
     "displayName": "Tiles Mined Globally",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "FIRST_START",
     "displayName": "First Start",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "RESOURCES",
     "displayName": "Resources Mined",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "RESOURCES_GLOBAL",
     "displayName": "Resources Mined Global",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "DAY",
     "displayName": "Highest Day Reached",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "QUEST_DAY",
     "displayName": "Highest Quest Day Reached",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "PLAY_TIME",
     "displayName": "Total Playtime",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "AVG_GEN_TIME",
     "displayName": "Average Map Gen Time",
-    "type": "0",
-    "default": 0,
+    "type": "avgrate",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 10.0
   },
   {
     "name": "AVG_PLAYTIME_QUEST_DAY",
     "displayName": "Average Playtime Per Quest Day",
-    "type": "0",
-    "default": 0,
+    "type": "avgrate",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 10.0
   },
   {
     "name": "AVG_PLAYTIME_DAY",
     "displayName": "Average Playtime Per Day",
-    "type": "0",
-    "default": 0,
+    "type": "avgrate",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 10.0
   },
   {
     "name": "MONEY",
     "displayName": "Total Money Earned",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "MONEY_GLOBAL",
     "displayName": "Total Money Earned Globally",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "EXP",
     "displayName": "Max Exp Earned",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "EXP_GLOBAL",
     "displayName": "Max Exp Earned Globally",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "AVG_VALUE_DAY",
     "displayName": "Average Sale Value Per Day",
-    "type": "0",
-    "default": 0,
+    "type": "avgrate",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 10.0
   },
   {
     "name": "AVG_VISITORS_DAY",
     "displayName": "Average Visitors Per Day",
-    "type": "0",
-    "default": 0,
+    "type": "avgrate",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 10.0
   },
   {
     "name": "AVG_SALES_DAY",
     "displayName": "Average Sales Per Day",
-    "type": "0",
-    "default": 0,
+    "type": "avgrate",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 10.0
   },
   {
     "name": "AVG_MISSED_DAY",
     "displayName": "Average Misses Per Day",
-    "type": "0",
-    "default": 0,
+    "type": "avgrate",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 10.0
   },
   {
     "name": "AVG_REVENUE_DAY",
     "displayName": "Average Revenue Per Day",
-    "type": "0",
-    "default": 0,
+    "type": "avgrate",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 10.0
   },
   {
     "name": "RECORD_VALUE_DAY",
     "displayName": "Record Value Per Day",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "RECORD_VISITORS_DAY",
     "displayName": "Record Visitors Per Day",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "RECORD_SALES_DAY",
     "displayName": "Record Sales per Day",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "RECORD_MISSED_DAY",
     "displayName": "Record Misses Per Day",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "RECORD_REVENUE_DAY",
     "displayName": "Record Revenue Per Day",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "LEVEL",
+    "displayName": "Max Level Reached",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "LEVEL_GLOBAL",
+    "displayName": "Total Levels Reached Globally",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   }
 ]

@@ -2,41 +2,49 @@
   {
     "name": "ParkingComplexDemo_Time",
     "displayName": "Time",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1.0,
+    "max": 32000,
+    "default": 32000
   },
   {
     "name": "ParkingComplexDemo_Score",
     "displayName": "Score",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": -999999,
+    "max": 99999,
+    "default": -99999
   },
   {
     "name": "OWNS_FULL_GAME",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "TOTAL_BUMPS",
     "displayName": "Total Bumps",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "TOTAL_CRASHES",
     "displayName": "Total Crashes",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   }
 ]

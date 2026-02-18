@@ -2,17 +2,21 @@
   {
     "name": "stat_max_stage",
     "displayName": "CampaignRanking",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 9999999,
+    "default": 0
   },
   {
     "name": "stat_heroes_count",
     "displayName": "stat_heroes_count",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 999,
+    "default": 0
   }
 ]

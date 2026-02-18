@@ -2,49 +2,61 @@
   {
     "name": "bugs_killed",
     "displayName": "Bugs killed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
+    "aggregated": false,
+    "maxchange": 1,
+    "min": null,
+    "max": null,
     "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "windowsize": null
   },
   {
     "name": "max_multi_kill",
     "displayName": "Max multi-kill",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": null,
+    "max": 10,
+    "default": 1,
+    "windowsize": null
   },
   {
     "name": "max_combo",
     "displayName": "Max combo",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 5,
+    "min": null,
+    "max": null,
+    "default": 0,
+    "windowsize": null
   },
   {
     "name": "evil_bugs_killed",
     "displayName": "Evil bugs killed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": null,
+    "max": null,
+    "default": 0,
+    "windowsize": null
   },
   {
     "name": "pvp_rating",
     "displayName": "PvP Rating",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": null,
+    "default": 0,
+    "windowsize": null
   }
 ]

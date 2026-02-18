@@ -2,33 +2,39 @@
   {
     "name": "ELORanking_ELORanking",
     "displayName": "ELO",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 1300
   },
   {
     "name": "RankedRatingDev_RankedRatingDev",
     "displayName": "RankedRatingDev",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 12000,
+    "default": 1
   },
   {
     "name": "Double_Trouble",
     "displayName": "DubleTroubleStat",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "Play_Time",
     "displayName": "PlayTime",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   }
 ]

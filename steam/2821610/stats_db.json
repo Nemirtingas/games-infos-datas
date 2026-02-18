@@ -2,33 +2,38 @@
   {
     "name": "Difficulty_Difficulty",
     "displayName": "Difficulty",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 3,
+    "default": 0
   },
   {
     "name": "PlayTime_PlayTime",
     "displayName": "PlayTime",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Chapter_Chapter",
     "displayName": "Chapter",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1,
+    "max": 10,
+    "default": 1
   },
   {
     "name": "Deaths_Deaths",
     "displayName": "Deaths",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "default": 0
   }
 ]

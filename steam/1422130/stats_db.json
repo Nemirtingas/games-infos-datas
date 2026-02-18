@@ -2,97 +2,100 @@
   {
     "name": "SCORE",
     "displayName": "Score",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "DISTANCE",
     "displayName": "(DEPRECATED) Distance driven",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1000,
+    "default": 0
   },
   {
     "name": "DISPATCHER_TIME",
     "displayName": "Time spent dispatching (in minutes)",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 60,
+    "default": 0
   },
   {
     "name": "DISTANCE_M",
     "displayName": "Distance driven (in meters)",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 50000,
+    "default": 0
   },
   {
     "name": "NightShiftDispatcher_STAT",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "TrainHonk_STAT",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Explorer_STAT",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "ChatPoet_STAT",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "DispatcherAllOutposts_STAT",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "TestTrackSpin_STAT",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "DispatcherAllOutposts_DLC_Lodz_STAT",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Explorer_DLC_Lodz_STAT",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   }
 ]

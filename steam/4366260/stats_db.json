@@ -2,105 +2,127 @@
   {
     "name": "quarters_played",
     "displayName": "Quarters Played",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "max_fed_rate",
     "displayName": "Highest Fed Rate",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 20,
+    "default": 20
   },
   {
     "name": "min_fed_rate",
     "displayName": "Lowest Fed Rate",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 20,
+    "default": 20
   },
   {
     "name": "max_balance_sheet",
     "displayName": "Peak Balance Sheet",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 5000,
+    "default": 0
   },
   {
     "name": "speeches_given",
     "displayName": "Speeches Given",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "scenarios_completed",
     "displayName": "Scenarios Completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "sandbox_completed",
     "displayName": "Sandboxes Completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "historic_completed_volcker",
     "displayName": "Volcker Completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "historic_completed_greenspan",
     "displayName": "Greenspan Completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "historic_completed_bernanke",
     "displayName": "Bernanke Completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "historic_completed_yellen",
     "displayName": "Yellen Completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "historic_completed_powell",
     "displayName": "Powell Completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "volcker_best_grade",
     "displayName": "Volcker Best Grade",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 4,
+    "default": 0
   }
 ]

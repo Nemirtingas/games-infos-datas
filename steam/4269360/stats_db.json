@@ -1,27 +1,50 @@
 [
   {
     "name": "CEILING_HITS",
-    "defaultvalue": 0,
-    "displayName": "Times touched ceiling"
+    "displayName": "Times touched ceiling",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "LONGEST_SLIDE",
-    "defaultvalue": 0,
-    "displayName": "Longest slide"
+    "displayName": "Longest slide",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "CHALLENGES_COMPLETED",
-    "defaultvalue": 0,
-    "displayName": ""
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "UPGRADES_COLLECTED",
-    "defaultvalue": 0,
-    "displayName": ""
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 6,
+    "default": 0
   },
   {
     "name": "TURRETS_ACTIVATED",
-    "defaultvalue": 0,
-    "displayName": ""
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 6,
+    "default": 0
   }
 ]

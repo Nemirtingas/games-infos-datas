@@ -2,25 +2,33 @@
   {
     "name": "hints",
     "displayName": "提示使用数",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 100,
+    "default": 1
   },
   {
     "name": "stat_3",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 200,
+    "default": 0
   },
   {
     "name": "stat_4",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 1,
+    "max": 100,
+    "default": 1
   }
 ]
