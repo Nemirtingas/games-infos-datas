@@ -2,25 +2,34 @@
   {
     "name": "level",
     "displayName": "Level",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 1,
+    "max": 1000,
+    "default": 1
   },
   {
     "name": "exp",
     "displayName": "Experience",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 100000,
+    "default": 0
   },
   {
     "name": "currency",
     "displayName": "Beetle Bucks",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 1000000,
+    "default": 0
   }
 ]

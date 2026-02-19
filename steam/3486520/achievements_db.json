@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_WELCOME_TO_THE_ISLAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/f3da55a0eb9a2b830794ee9f680c89c7584eb2e9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/c40eec5e9c3c814fd905ea6ef36b2dfa6e374962.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_NOMAD_NO_LONGER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/567901922c0ea65d5902ca502ab1c63c02bf66c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/9db1d8653158cf502d0a9ec79cdabcb03d710dea.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_LOOKING_FRESH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/4f1f27b2aa1921b8f3587dd59346905358d83822.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/06def7f3b883b3c18e8fb3671ad22059759093ab.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_CRAFTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/cd9b6b3e0a08e280df25f4526c691c6c135bc5a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/64e0af3b08785df039689be17a5d4b7e0e751f93.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_BLACKSMITH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/77c6a1ca1b416c52d841a8e36160020907ae8cd6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/2030bf08811967791f83da1a5ca073b126495785.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_TROPHY_FISHER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/505e5cf05b972c3145a9639d43e5dcabbe69db47.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/7c07fe5f508a4cd59a4d94051002cf32e1ec7c63.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Catch 100 fish.",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STA_FISH_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STA_FISH_TOTAL",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_TROPHY_HUNTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/d6c7259017994a11675af643353fcd3b7e5da30e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/c8c4f5fa4985e05d8a395d0e7aa70d4829c9c60c.jpg",
     "displayName": {
@@ -101,15 +103,17 @@
       "english": "Kill 100 animals.",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STA_ANIMAL_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STA_ANIMAL_TOTAL",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_ARTIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/56bf7793f1322a1d931bfae5b855534e9e447fcc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/10e0c837e9486b39c5b2ae9544d407d12f36f785.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_STRUCK_GOLD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/09988479c2f8188eaad95ee5047044e3d72eaf1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/3d73fd2801df3e78e410faf5d80988525f44090d.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "ACH_LIVING_LEGEND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/a68f3d2b3b3be811fed0dc8b8a94c8c86af30235.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/025a74345f853806ed451cee43aee52d7bc556cd.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "ACH_ROYALTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/5da41ea23a41cd76e7915f42d89f7a27d123ec71.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/1c613b507308fab2e2d61552a4ac1b88f04a2286.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ACH_PHARMACIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/bf144f235040a7f9a2783b9c2b9679129d966a74.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/64c95b6f4517254386594b7b0d8754506ff4d9a8.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ACH_CHEF",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/bd12ad46923b8a1f9755ee74e85fe59e8d2ecad8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/8c31cc6dec8bea332926484387b472ef8b135aed.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "ACH_UNBREAKABLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/11df0a4c4c1f3dff8a9773d7169c2d28bdc1fc47.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/36bbb72558c0c0e078b07ad2b2e79d67000f3ad5.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "ACH_FEELING_TOASTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/2ce9b04f6219e28394dfdc0cee5d71de07a419dc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/d21985e0e7e4f8572ba8fe318ace954c145ca372.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "ACH_MOZART",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/067cb639e081a4fe2d1eaab79aae270941a48051.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/a602dd161c18e95001bd44b825409c80d39bd099.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "ACH_CHEATER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/27417cbfd3e965e1d70d08049b52809caec1655e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/7776a7e0b31e5d96132ee4bb4565f57f298d1d02.jpg",
     "displayName": {
@@ -249,7 +253,7 @@
   },
   {
     "name": "ACH_HUNTING_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/2543edfee2834c7e0e15ab310121b7224d69e52a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/fc68ce6a29ed1032a80ac010c68576039360c485.jpg",
     "displayName": {
@@ -263,7 +267,7 @@
   },
   {
     "name": "ACH_FISHING_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/30055464fd79a57fc6997769780a6f6ac2b1b3ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/b2635c6f71d7fbc6d8254724ff810ac1228f5add.jpg",
     "displayName": {
@@ -277,7 +281,7 @@
   },
   {
     "name": "ACH_HONEST_WORK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/2f1196b2d292ccbe724fdf1efe3b60edee4e78bf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3486520/1241bd3f4e8314ea037b1ea86258ae8769e52647.jpg",
     "displayName": {
@@ -288,10 +292,12 @@
       "english": "Harvest 30 crops.",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "STA_CROP_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STA_CROP_TOTAL",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   }
 ]

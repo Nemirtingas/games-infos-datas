@@ -1,7 +1,7 @@
 [
   {
     "name": "Accident",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/bc9099f97f5036bdb15154000884882d1a29e4ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/dd938b9cb5cbdc2105ac3d8f5c1f9ba8692eae31.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Plague",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/f981859bbee06e04ba9cb5a17940868a54a7607e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/dd938b9cb5cbdc2105ac3d8f5c1f9ba8692eae31.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "GettingOutOfhand",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/0e627f3e5dca8025cd6958fe6ec77842f8d2c4b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/dd938b9cb5cbdc2105ac3d8f5c1f9ba8692eae31.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Hoarder",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/7c91a98cb5c08e1cc1ba155599cf62c4ad332de3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/2a4bf223067ec80bcbc289637bd419b37565f4e1.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Farmer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/8694d33566e6eef8d7bf2d66581663316f5cc214.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/2a4bf223067ec80bcbc289637bd419b37565f4e1.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Gunsmith",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/1828ac68d77cb05f93b7003200cde58eb80a5ff3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "Purity",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/f9b11e3d8920a7835ecae5db61e732addbd54201.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "Dangerous",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/84f82456b01019283b565ef4cc48382c679fa727.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Kill 100 enemies",
       "token": "NEW_ACHIEVEMENT_5_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "EnemyKilled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EnemyKilled",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "EnemyWastelands",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/80ba81a859e3746b4e6d419188a1186161e56623.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/2a4bf223067ec80bcbc289637bd419b37565f4e1.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Kill 500 enemies",
       "token": "NEW_ACHIEVEMENT_5_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "EnemyKilled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EnemyKilled",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "NightmareWastelands",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/6315a6f38aa2548fd7766a71b4707e5f4197bbdb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/dd938b9cb5cbdc2105ac3d8f5c1f9ba8692eae31.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Kill 1000 enemies",
       "token": "NEW_ACHIEVEMENT_5_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "EnemyKilled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EnemyKilled",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "Traveler",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/493d92424a07044834309b4ed7a676ce357254c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -170,7 +176,7 @@
   },
   {
     "name": "Voyager",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/ffc0fd483c99679b1a627c9713ae68cf2ad356c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "HighNoon",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/7cf38cc5bc77f2bfca928c8b392e05d5bb62fd63.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "BaptismOfFire",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/a711a22b8c749db41400805d0891174cbd6dc515.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "MeetTyphoeus",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/f4830c8cdf105812f04901a55a82a5c515311596.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "DefeatTyphoeus",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/e136e1f842232f52c192f1371ebaea42fe4eb991.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "FaceTheAbomination",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/849c9295e11b1436737df91be550036f5c043044.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "SlayTheAbomination",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/9ce62e0294a2d641cfd9124b856189f9db83a835.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -268,7 +274,7 @@
   },
   {
     "name": "MaximumEfficiency",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/508f9ebf37da886eb6e1bc3c3bcdb6e7ad5adc0a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -282,7 +288,7 @@
   },
   {
     "name": "CloseCall",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/6cc11b5ca78b8e00170f011e3f7639ba34e7feec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -296,7 +302,7 @@
   },
   {
     "name": "Peacemakers",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/a22dbb8343a14fc42f2d8b1da7052e9d474e86ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/dd938b9cb5cbdc2105ac3d8f5c1f9ba8692eae31.jpg",
     "displayName": {
@@ -310,7 +316,7 @@
   },
   {
     "name": "ScienceClub",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/b556b20af61836dd6caa105de82b53dc5b97a646.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/2a4bf223067ec80bcbc289637bd419b37565f4e1.jpg",
     "displayName": {
@@ -324,7 +330,7 @@
   },
   {
     "name": "FreedomFighter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/af149ac52a70bdb2d4d409e8edd8620da3656bb8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/78df52504da93db8ba3e625c2a9c383b423b9822.jpg",
     "displayName": {
@@ -338,7 +344,7 @@
   },
   {
     "name": "Improvements",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/c0cf2d804fb705471099392c51597dc700060af8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/2a4bf223067ec80bcbc289637bd419b37565f4e1.jpg",
     "displayName": {
@@ -352,7 +358,7 @@
   },
   {
     "name": "Family",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/0ca37434d9fc73e74d09a852c7e47169c64a07b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/dd938b9cb5cbdc2105ac3d8f5c1f9ba8692eae31.jpg",
     "displayName": {
@@ -366,7 +372,7 @@
   },
   {
     "name": "Tank",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/fc7204413cdc55ea6857d9be190d0e691da0694d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/2a4bf223067ec80bcbc289637bd419b37565f4e1.jpg",
     "displayName": {
@@ -380,7 +386,7 @@
   },
   {
     "name": "Plane",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/674335e29b1417f8555e091b10e0179ff3938b93.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/2a4bf223067ec80bcbc289637bd419b37565f4e1.jpg",
     "displayName": {
@@ -394,7 +400,7 @@
   },
   {
     "name": "Sculture",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/97561d2d58eeba4a15e9ead73b85f5dd92e9ea35.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/2a4bf223067ec80bcbc289637bd419b37565f4e1.jpg",
     "displayName": {
@@ -408,7 +414,7 @@
   },
   {
     "name": "AkaTotem",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/b352642f6571968c2a069c8470d34e2bbd0e68ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/2a4bf223067ec80bcbc289637bd419b37565f4e1.jpg",
     "displayName": {
@@ -422,7 +428,7 @@
   },
   {
     "name": "ChristmassTree",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/76e59425a95bbda41b9d172585bfa87577e718b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/2a4bf223067ec80bcbc289637bd419b37565f4e1.jpg",
     "displayName": {
@@ -436,7 +442,7 @@
   },
   {
     "name": "AnimalLover",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/22958e9e268912ecf3ea820ca67be1b87e582842.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/2a4bf223067ec80bcbc289637bd419b37565f4e1.jpg",
     "displayName": {
@@ -450,7 +456,7 @@
   },
   {
     "name": "TrueEnding",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/ce5b8f259072db52e00a51566548ce8f2287f064.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1379600/dd938b9cb5cbdc2105ac3d8f5c1f9ba8692eae31.jpg",
     "displayName": {

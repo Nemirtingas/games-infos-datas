@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_JUST_GETTING_STARTED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/411a5cc47f2f97721dc26e56cc8bd07ffccf6c26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/aaaa098dce9d39b9f2e08cee9a69c59f179f4cf1.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_MAKING_IT_RAIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/e8bf5979931f1138e91052b2bc09da95510c17b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/6e7e6274dc7dd15305b3d248b3d0d3c1ce5e44dd.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Collect a total of $100 in coins.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_COINS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_COINS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_FIRST_VICTORY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/8769de1102293f40be2079f3ba355f2a2c28ea7a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/9cb5e049582f0c1eea45e1a1226f44e4a76c75ab.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_DIFFERENT_FEATHERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/dfa8b45eeb9e97dcbdc4b1b57797e40115c64c44.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/e5ad5f5aa951a21c3ead8e41470d88b35e6895b3.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_SMALL_TIME_CHAMPION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/0805df2d4e01b0b8cae951a6083914c2dda8405f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/501244a3d730b1a90759bc4965052d441e1226de.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_FULL_SQUAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/028a9483a11d1493dbda51009f729bf1f0b954ea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/dd47c6de6f75563700e6c5bae1b56714be8afd59.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Expand your roster to the maximum of six ducks on your team",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "STAT_DUCKS_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DUCKS_COUNT",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "ACH_ONE_DUCK_ARMY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/f6b24d3a66740685706fea5fabf9ae96e855cb4a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/a668d797e9ba4d0e304aa3e3fff21e0832a7f7d3.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_CLIFF_HANGER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/42fc209da3d190a8c894abcb4d785a9716843c54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/f58e225bc32fe143bd91ade5f0e14484ad677525.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_DEDICATED_TRAINER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/a8f48b24800d6fedc7493fd5e7d6108cc5be3f95.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/9392b117a95144364bb523983461b50635519417.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Reach the maximum level in any one skill category for the first time",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 150,
-      "stat_name": "STAT_MAX_SKILL_LEVEL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MAX_SKILL_LEVEL",
+        "min_val": 0,
+        "max_val": 150
+      }
+    ]
   },
   {
     "name": "ACH_PLAYING_WITH_FIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/a32ebf3dcd003e7f6b12c60f6687e35a591989ac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/b41f8c03e55cc88c11297d2ff1e2e18005a1e7ac.jpg",
     "displayName": {
@@ -156,7 +162,7 @@
   },
   {
     "name": "ACH_PEAK_PERFORMANCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/1c2b6873927d1d8d661cb66b5cd629b0afdcab4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/65621d416d9790f366a6a896026b7dd14af15c7d.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Train a duck to max out all major skills (running, swimming, flying, climbing, jumping) to level 150",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 600,
-      "stat_name": "STAT_MAJOR_TOTAL_LEVEL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MAJOR_TOTAL_LEVEL",
+        "min_val": 0,
+        "max_val": 600
+      }
+    ]
   },
   {
     "name": "ACH_WORLD_CHAMPION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/4a2ebc828a76b06c8ac3e113851f529cddb39332.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/e76b159714875727e36f678e885f337510408d06.jpg",
     "displayName": {
@@ -189,7 +197,7 @@
   },
   {
     "name": "ACH_YELLOW_ARCADE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/c452a30c3ad5a30e4eb5534546e6d50c0c137c25.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3874050/21588ef4214ab5a4ccf8e8bff2b09fd5d5bcbea5.jpg",
     "displayName": {

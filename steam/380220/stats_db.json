@@ -45,8 +45,8 @@
     "type": "float",
     "incrementonly": true,
     "aggregated": true,
-    "min": 0,
-    "default": 0
+    "min": 0.0,
+    "default": 0.0
   },
   {
     "name": "AvgSpeed",
@@ -54,7 +54,8 @@
     "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "min": 0,
-    "default": 0
+    "min": 0.0,
+    "default": 0.0,
+    "windowsize": 20.0
   }
 ]

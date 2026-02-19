@@ -2,9 +2,12 @@
   {
     "name": "State_StartCount",
     "displayName": "游戏启动次数",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 100
   }
 ]

@@ -2,113 +2,141 @@
   {
     "name": "stat_gpt_requests_number",
     "displayName": "Number of requests made to the ghost.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_gpt_tokens_in",
     "displayName": "Number of input tokens consumed by GPT.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 2000,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_gpt_tokens_out",
     "displayName": "Number of output tokens consumed by GPT.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 2000,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_polly_symbols",
     "displayName": "Number of characters is voiced by AWS Polly.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 8000,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_game_time",
     "displayName": "Time spent in the game.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 120,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_successful_exorcism",
     "displayName": "Number of successful exorcism rituals.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_successful_investigation",
     "displayName": "The number of successful detections of the ghost type.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_number_of_deaths",
     "displayName": "Number of player deaths.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_excellent_exorcism",
     "displayName": "Number of ecxcellent exorcism",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_successful_investigation_in_row",
     "displayName": "The number of successful detections of the ghost type in a row.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_player_lvl",
     "displayName": "Player level.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 1,
+    "default": 1
   },
   {
     "name": "stat_slot_machine_uses",
     "displayName": "Number of slot machine uses.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_bought_crucifix_amount",
     "displayName": "Number of purchased crucifixes.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_total_sessions_played",
     "displayName": "Number of played sessions.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   }
 ]

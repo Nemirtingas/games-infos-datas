@@ -1,7 +1,7 @@
 [
   {
     "name": "tutorial_fail",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/c844896b4eb0cd6010b95a379d1ba3a1b4ccbd4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/4fea2933c4d7f61418f765525e7007c8b6111a00.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "tutorial_success",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/4eca5f67ea3c434b42b1e7b1f75bdbc457a5d7ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/4fea2933c4d7f61418f765525e7007c8b6111a00.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "katsumi_success",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/8dd2b99584d2390158eab77c509cb52ba7473bed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/4fea2933c4d7f61418f765525e7007c8b6111a00.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "mila_success",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/14bd34f64a4ba6c5c4d2452469c60e2078c2c985.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/4fea2933c4d7f61418f765525e7007c8b6111a00.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ayaka_success",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/7a89e4e5fb245af1284a3e83177a8b46ce739603.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/4fea2933c4d7f61418f765525e7007c8b6111a00.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "nodamage",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/5993d3611af45ec2e0529b447f5be72f115c0f8a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/4fea2933c4d7f61418f765525e7007c8b6111a00.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "mila_refuse",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/d7d0fae163317b6558f48df314b1c7804cba809b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/4fea2933c4d7f61418f765525e7007c8b6111a00.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "beg",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/e6355418e651b10f7fa3d3ad672147b532271e1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/4fea2933c4d7f61418f765525e7007c8b6111a00.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "giveup",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/40ab3fa3b8010021f636148c6c7e9fa08b9f0daa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/4fea2933c4d7f61418f765525e7007c8b6111a00.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "allloses",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/92a88141a5e8368cb9ad74f959edf104cbc8aca2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/4fea2933c4d7f61418f765525e7007c8b6111a00.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Lose to every girl in all possible ways.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "stat_loses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_loses",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "alldates",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/d8e0d2e93931194cd99b1361ec66a796a80fe065.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/4fea2933c4d7f61418f765525e7007c8b6111a00.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Watch all the stories in Dates Mode.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "stat_dates"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_dates",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "submissionpath",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/56d7505e747fe0a122684da3ebb47f51754d9e6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2920030/4fea2933c4d7f61418f765525e7007c8b6111a00.jpg",
     "displayName": {
@@ -176,10 +180,12 @@
       "english": "Unlock all achievements.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 11,
-      "stat_name": "stat_submission"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_submission",
+        "min_val": 0,
+        "max_val": 11
+      }
+    ]
   }
 ]

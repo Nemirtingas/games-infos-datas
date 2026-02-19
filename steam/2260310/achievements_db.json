@@ -1,7 +1,7 @@
 [
   {
     "name": "easy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/eda321cac77c4d6570b8731f736dcf2b05ab3149.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/15e67ce43efa3b469f4d81e2e9be35e2e1a9fdc1.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "normal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/68dc615489d4394bf8ec47e874a38eb95e991141.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/c7c45239b5c0ecc08d26922aae179d34a34476d4.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "hard",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/2346e9bc2d42d9062f029f6300c34650f3d4ff73.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/394fda8e51f909f2e5415ceac1d7c2e2aa6b91c0.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "insane",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/c1fbdbfaad0b1751ea095ab67b0c7d57af8cd38c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/67ea8ad1e1da88acc9620db18cc4874e6f6a321f.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "score1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/f475da150d3e8afea19ce91c112e28e7a982bcde.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/1cf9d3f70400b6f0daa08de2eadec3a0b707a837.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "score2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/81e3fe7c3aa9aa6026479d48629615a66cb86947.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/7fc8d575d8b7b23490794ce290e242b1ee8c4850.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "score3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/a79553789d7fdbab456206a37c30d3b28797f0c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/6a217b01b44162b37c44463995412d496026087a.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "score4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/3fce2801be6e2093dca44beccfd8cf02893d109b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/49f5fe65f7b80e9f6f5533d26eb72f18efbab328.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "score5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/4668a7d7486d9f38a9beeb25d5a900fb633025c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/228a2947f1381dce576bf6dd8eaa28856601550a.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "scoutbee1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/53aea2ddef865b6320cf5e84f69988ee4a49def6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/de61ab8d6702fd3c3a0b48e7188235f5b01b99d4.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Destroy 100 Scoutbees.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "s1"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s1",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "scoutbee2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/c3fbc0653b8fa77d2e910642c854bd3199bff212.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/1cb970ce48cff0fbf1cd5f2b91641acdfe813dd4.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Destroy 250 Scoutbees.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "s2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s2",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "scoutbee3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/1275251db668c285b949a2f80327d72d56f2982a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/4a170f5b7da66220dd19665929096451276ce293.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Destroy 500 Scoutbees.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "s3"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s3",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "scoutbee4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/26a68d9b95faeb1e30802e3c7c3ccf72fa595695.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/61ece18d3d43b082f623847c38020a71e965fbbe.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Destroy 750 Scoutbees.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 750,
-      "stat_name": "s4"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s4",
+        "min_val": 0,
+        "max_val": 750
+      }
+    ]
   },
   {
     "name": "scoutbee5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/24a796d34b96800f915d92dc514c5ec27ff1a85d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/2f5f97230ace29aaeea34b920ff5da98be7e0585.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "Destroy 1000 Scoutbees.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "s5"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s5",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "minieager1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/7654be5b49e7bf2c48499bbd12110003c40731d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/f5be558234ce5833ff80ff8dc9c887429abb38eb.jpg",
     "displayName": {
@@ -233,15 +243,17 @@
       "english": "Destroy 100 Minieagers.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "me1"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "me1",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "minieager2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/0e45eb7340dd92ecc55f9de24498add73df806c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/4b473df5c95dd978b0b779a6caf14a24713c9edf.jpg",
     "displayName": {
@@ -252,15 +264,17 @@
       "english": "Destroy 250 Minieagers.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "me2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "me2",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "minieager3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/bbb7e722899f46ade7f9a8d2bea75bde89182c87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/2aee72deb7eac21b9afd771aa79360a016d6c229.jpg",
     "displayName": {
@@ -271,15 +285,17 @@
       "english": "Destroy 500 Minieagers.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "me3"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "me3",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "minieager4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/140573507dcf8ab548559ac765f4021e662b458a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/5f5bf7a1e110495bf97c9e00c83ac6628d808328.jpg",
     "displayName": {
@@ -290,15 +306,17 @@
       "english": "Destroy 750 Minieagers.",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 750,
-      "stat_name": "me4"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "me4",
+        "min_val": 0,
+        "max_val": 750
+      }
+    ]
   },
   {
     "name": "minieager5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/39fa40bcb87e62dcaea54edcdfa25ad144c4a586.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/f686c347c94e39c663524d9625afd693c0bb7242.jpg",
     "displayName": {
@@ -309,15 +327,17 @@
       "english": "Destroy 1000 Minieagers.",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "me5"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "me5",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "minibumblebee1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/0611589b2435f1a97a86b6c3b64211164256ddb6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/ce5b4239280edbc02f7896d28999fb95dc1789ee.jpg",
     "displayName": {
@@ -328,15 +348,17 @@
       "english": "Destroy 100 Minibumblebees.",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "mb1"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mb1",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "minibumblebee2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/a46538bb42c285b50b57efe0ab3c77fa410d7c73.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/987acc4b0a48f9a34623e7d4dc6c56687a67d9c8.jpg",
     "displayName": {
@@ -347,15 +369,17 @@
       "english": "Destroy 250 Minibumblebees.",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "mb2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mb2",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "minibumblebee3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/9b2596619ea57093bbbd384a27846b5a22c98778.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/b488696c139a3cad60be7b5ed9a4fc202420bb95.jpg",
     "displayName": {
@@ -366,15 +390,17 @@
       "english": "Destroy 500 Minibumblebees.",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "mb3"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mb3",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "minibumblebee4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/cfce1394e999648b794cb6aaf28582520bf6155a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/80ea7c6e8d8436a6a9d1db515d1b2cd6f932f47d.jpg",
     "displayName": {
@@ -385,15 +411,17 @@
       "english": "Destroy 750 Minibumblebees.",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 750,
-      "stat_name": "mb4"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mb4",
+        "min_val": 0,
+        "max_val": 750
+      }
+    ]
   },
   {
     "name": "minibumblebee5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/1096c7f66d129eac6501557d9220fe4a508fa328.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/cf49ca31b01b6f9a029d1568623b9bfd69cc5c03.jpg",
     "displayName": {
@@ -404,15 +432,17 @@
       "english": "Destroy 1000 Minibumblebees.",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "mb5"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mb5",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ministinger1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/f8efff0b8a696f79eeafcb861d137ad58a0de7b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/00e0610eebddc1bd97f2c7efd2cf7e1f937bb32c.jpg",
     "displayName": {
@@ -423,15 +453,17 @@
       "english": "Destroy 100 Ministingers.",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "ms1"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ms1",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ministinger2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/92254f6dc2ec2c9ec7aeb14a5263e043e486f3a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/ba7593a82fc1eb846fd86e590bec463b0974267b.jpg",
     "displayName": {
@@ -442,15 +474,17 @@
       "english": "Destroy 250 Ministingers.",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "ms2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ms2",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "ministinger3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/e1820390498e6847333370e617863de0b5d40aa6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/3094a8535a4e72365a7cbc89afe8a42fa1dd7e84.jpg",
     "displayName": {
@@ -461,15 +495,17 @@
       "english": "Destroy 500 Ministingers.",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "ms3"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ms3",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ministinger4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/11daf52f85e79f8c0474b53cf3a39b2e2b3ad942.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/73ca2da201c40b7e10f83425fdc1d4cec36e9105.jpg",
     "displayName": {
@@ -480,15 +516,17 @@
       "english": "Destroy 750 Ministingers.",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 750,
-      "stat_name": "ms4"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ms4",
+        "min_val": 0,
+        "max_val": 750
+      }
+    ]
   },
   {
     "name": "ministinger5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/2c5fd2e92f2ff205ed1df848017b034a5ff73460.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/9c960f5093d3d74016d7ef54835c32870e7255df.jpg",
     "displayName": {
@@ -499,15 +537,17 @@
       "english": "Destroy 1000 Ministingers.",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "ms5"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ms5",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "minijuggernaut1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/06c384dd2de90a01b0eeefb464ef7f4dc5f32389.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/ce0b51aa056b3567cd31f1099769865d0d76528c.jpg",
     "displayName": {
@@ -518,15 +558,17 @@
       "english": "Destroy 100 Minijuggernauts.",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "mj1"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mj1",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "minijuggernaut2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/fa140078d924e1ccf0cb95f3b7e4149f8a56d088.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/ae8c782fb7f99065699e24053979e528bb0bfa34.jpg",
     "displayName": {
@@ -537,15 +579,17 @@
       "english": "Destroy 250 Minijuggernauts.",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "mj2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mj2",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "minijuggernaut3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/7eabfa8618a2409da0d8a6c79054e3a5709163c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/74aed5be6ada7a28dba7e8e1025a36c8e94f824a.jpg",
     "displayName": {
@@ -556,15 +600,17 @@
       "english": "Destroy 500 Minijuggernauts.",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "mj3"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mj3",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "minijuggernaut4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/5c4202912e675292ac1ae47a6701510e29299c40.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/acf96bb581b021b58e21ac11c5522a8a70f87ac1.jpg",
     "displayName": {
@@ -575,15 +621,17 @@
       "english": "Destroy 750 Minijuggernauts.",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 750,
-      "stat_name": "mj4"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mj4",
+        "min_val": 0,
+        "max_val": 750
+      }
+    ]
   },
   {
     "name": "minijuggernaut5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/f5c23602d9ff9905e53936584ff57793d741fcbe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2260310/f02afee60589941baea8a9dcbd641b38e92e847c.jpg",
     "displayName": {
@@ -594,10 +642,12 @@
       "english": "Destroy 1000 Minijuggernauts.",
       "token": "NEW_ACHIEVEMENT_2_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "mj5"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mj5",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "START_GAME",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2052730/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2052730/",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "FIND_10_PROPS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2052730/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2052730/",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "As a hunter, find 10 props",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "PROPS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PROPS",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "FAST_15",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2052730/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2052730/",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "HUNTER_AFTER_HUNTERS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2052730/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2052730/",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "HUNTER_AFTER_HUNTERS10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2052730/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2052730/",
     "displayName": {
@@ -73,15 +75,17 @@
       "english": "Kill 10 hunters",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "HUNTERS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HUNTERS",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "DETECTIVE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2052730/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2052730/",
     "displayName": {
@@ -92,10 +96,12 @@
       "english": "Find 100 props",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "PROPS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PROPS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

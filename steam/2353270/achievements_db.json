@@ -1,7 +1,7 @@
 [
   {
     "name": "FIRST_LAUNCH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/7e2f0a8246905b43e998deaf7b9ec5c94dbd5b02.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/371c8a50c2e2c17613060ed915b370448f4eb46d.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "DANCE_BABY_DANCE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/b3b9c8566c560a5c955402995ec0af39d8f45fb4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/c14e42b1665894385f7fe28588449ab3c3259c1c.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "I_WOULD_WALK_500_MILES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/a4b6b49d5139c6869f1e53ba84e791702c47afeb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/34c70e711b43b4b6190fc340d8402d795cebe8b0.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "I_WOULD_WALK_5000_MORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/94f1002f0747cc44db37f45748fbe7d4a48da03a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/04331bc68df823a95fad37f15ae50ed8f6da6321.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "CURSED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/f1229017119631db15e6623e389d3d482fe73b03.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/a11461c69213b60ef5d760e39f2b0237d1ffc1c6.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "BLESSED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/b6ddbc7a8b0d055582955788935306795136d9d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/16ad6133fd5afd80322796bfcc73fe2efb6f776e.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "TREE_SMASHER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/538835e848ca88c416186b71e07741da5d07cc80.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/17888f4a9d9ed6172e9f865477902f335d971924.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Send 5 Trees flying with the Rocket",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "TREE_SMASHER_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TREE_SMASHER_COUNT",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "TASK_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/b3157c5205becb29da05d531bd69f070f12e96f0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/8988ecb61e2332c8ce27839bf6cc347778620c01.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Complete 5 Random Objectives",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "TASK_MASTER_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TASK_MASTER_COUNT",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "BYE_FROSTY",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/84926f755829d244834477282bc13da1941d7470.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/4837edf2a2d7516d78b49343af5c26e24c5c982a.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Send 5 Snowmen flying with the Rocket",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "BYE_FROSTY_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BYE_FROSTY_COUNT",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "BOOM_BABY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/1743c7777a2fb9fcb821b34357563a0343822a3c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2353270/f98ccd60cb14c59748e0139eb688a2edd8fd323e.jpg",
     "displayName": {
@@ -153,10 +159,12 @@
       "english": "Hit 3 Mines in a row",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "BOOM_BABY_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BOOM_BABY_COUNT",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   }
 ]

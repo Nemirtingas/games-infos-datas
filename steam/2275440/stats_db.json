@@ -2,17 +2,20 @@
   {
     "name": "gamesPlayed",
     "displayName": "Games Started",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "gamesFinished",
     "displayName": "Games Finished",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
   }
 ]

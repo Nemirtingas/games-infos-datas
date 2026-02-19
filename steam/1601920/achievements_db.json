@@ -1,7 +1,7 @@
 [
   {
     "name": "WinFirstGame",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1601920/ebc3d755206a3ac7bccf554ba537eaf213468b4e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1601920/8483e955f40937676deee4453b5f5c5b75641095.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "CompleteTutorial",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1601920/587b75255f4a04cfc1cf00b0a6ee42bf7f55f6b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1601920/b55bde833ed692de8bb22702d22ea2891cebbee9.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ThirtySecondsTargetPractice",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1601920/2413a98dc4178375716f11272f5218b129872287.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1601920/6ca12aaa0dc64e787f74fd8c4ee477fb24fef565.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Play3GamesMM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1601920/3cae61ad02eb8acb8828b3d3a0d8a325f0d5242f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1601920/0968e5079b254b91a7c8fac6819d606ad86e9352.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Play 3 games of Sparkball via Matchmaking",
       "token": "NEW_ACHIEVEMENT_11_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "PlayedGames_PlayedGames"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PlayedGames_PlayedGames",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "Play10GamesMM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1601920/11267719353a15e3a52bc4f98e9bed93998c3935.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1601920/5481aa3a2ade1552a4f9a339767812354a545919.jpg",
     "displayName": {
@@ -73,10 +75,12 @@
       "english": "Play 10 games of Sparkball via Matchmaking",
       "token": "NEW_ACHIEVEMENT_11_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "PlayedGames_PlayedGames"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PlayedGames_PlayedGames",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

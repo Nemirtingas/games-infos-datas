@@ -1,7 +1,7 @@
 [
   {
     "name": "first_stage_finished",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/0fa805a351423b6c7f044f2f94bb45b28d264249.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/39ecae7cfcff7195c6058925ab6ab59acb0f1230.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "all_turrets_unlocked",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/0fa805a351423b6c7f044f2f94bb45b28d264249.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/39ecae7cfcff7195c6058925ab6ab59acb0f1230.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Unlock all turrets.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 2,
-      "max_val": 11,
-      "stat_name": "unlocked_turrets"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "unlocked_turrets",
+        "min_val": 2,
+        "max_val": 11
+      }
+    ]
   },
   {
     "name": "item_equipped_first_time",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/0fa805a351423b6c7f044f2f94bb45b28d264249.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/39ecae7cfcff7195c6058925ab6ab59acb0f1230.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "lootbox_opened_first_time",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/0fa805a351423b6c7f044f2f94bb45b28d264249.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/39ecae7cfcff7195c6058925ab6ab59acb0f1230.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "forge_used_first_time",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/0fa805a351423b6c7f044f2f94bb45b28d264249.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/39ecae7cfcff7195c6058925ab6ab59acb0f1230.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "craft_a_legendary_first_time",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/0fa805a351423b6c7f044f2f94bb45b28d264249.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/39ecae7cfcff7195c6058925ab6ab59acb0f1230.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "unbox_a_legendary_first_time",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/0fa805a351423b6c7f044f2f94bb45b28d264249.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/39ecae7cfcff7195c6058925ab6ab59acb0f1230.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "survive_ten_stages_wo_wall",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/0fa805a351423b6c7f044f2f94bb45b28d264249.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2429530/39ecae7cfcff7195c6058925ab6ab59acb0f1230.jpg",
     "displayName": {
@@ -115,10 +117,12 @@
       "english": "Survive 10 stages without building a single wall.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stages_wo_walls"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stages_wo_walls",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

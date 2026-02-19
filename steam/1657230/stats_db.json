@@ -2,41 +2,46 @@
   {
     "name": "_playerIcon",
     "displayName": "Icon",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "_playerHonor",
     "displayName": "Honor",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "default": 0.0
   },
   {
     "name": "_playerExp",
     "displayName": "Experience",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "default": 0.0
   },
   {
     "name": "_playerLevel",
     "displayName": "Level",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1,
+    "default": 1
   },
   {
     "name": "_playerTotalPlaytime",
     "displayName": "Total playtime",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   }
 ]

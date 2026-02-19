@@ -1,7 +1,7 @@
 [
   {
     "name": "SPY_ABSOLUTE_CARETAKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/89af32cae2881dabbf74438c202dca6d5805e012.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/38d13c0eac91e1b6e8005d6e1e4822bd49b83375.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "SPY_BOTTLE_DESTROYER_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/6f62afb4c0580175ca7faba69924bf03e14fd6c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/847b62c4d839f5615dbdaa50e692f0007140ecb5.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Destroy 50 Bottles Without Exiting The Game.",
       "token": "NEW_ACHIEVEMENT_9_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "num_bottles_destroyed_50"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "num_bottles_destroyed_50",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "SPY_BOTTLE_DESTROYER_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/fdd2e7e19e61c742142c69d0ea2ab8051c70320c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/e640512058384d523dc38b3a6a88a5bb96da748b.jpg",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "Destroy 20 Bottles Without Exiting The Game.",
       "token": "NEW_ACHIEVEMENT_9_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "num_bottles_destroyed_20"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "num_bottles_destroyed_20",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "SPY_LIGHTS_OUT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/74eb3321d051227e6419bb6d48daf55b1a38d276.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/5f7cdf63739a259d3cd9d79edd408638991a1a54.jpg",
     "displayName": {
@@ -67,7 +71,7 @@
   },
   {
     "name": "SPY_NO_SHOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/aa5a91a80b11417931fda888fa271d8e1ba05622.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/d12e3ecf29fcbe95a9cfa3122227281422346729.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "SPY_NO_CROUCH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/3ec0ec1a48384cb1be2aa559503857d5ea677656.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/8f1289ced7a7b862ec62432a4aaf152edb9622da.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "SPY_NO_TABLES_FIXED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/a1985315d49da2df789254cf3d966f5680b8b3a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/4cc80822803097385a84e0832cea69f59d226cf2.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "SPY_WAVE5_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/b327ca6621ba89dfbb146ed9828df9e2f24f13c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/9210df34650ac9f2c8f6cc7099f826407d46852a.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "SPY_WAVE4_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/5737e4e3a12158b40c0b2d0aeccea9b080042cfd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/7c9e5c22037bd590e4d843b9333da44ef73bb26c.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "SPY_WAVE3_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/ba198ddcc6b92e8608e3b201007cd32867c2367a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/620feddaa89883d4942b077fccf42d95cd8598c9.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "SPY_WAVE2_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/2018f5a38dcae02282ec1892398caa18aba2a822.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/bd1339a8be6efed74f91ef5218283c5b81ff3c8a.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "SPY_WAVE1_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/c1ec6b149932c6c4556de102a078ca66850e5fe9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2893310/f3b448528da1009ee13af2325b4994496a24450f.jpg",
     "displayName": {

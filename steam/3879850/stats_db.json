@@ -2,9 +2,12 @@
   {
     "name": "localmoney",
     "displayName": "Credit Contribution",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 50000,
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   }
 ]

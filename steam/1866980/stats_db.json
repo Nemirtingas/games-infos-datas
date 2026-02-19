@@ -1,26 +1,24 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "item_consumed",
     "displayName": "Items Consommés",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 30,
+    "default": 0
   },
   {
     "name": "emote_used",
     "displayName": "Emotes utilisés",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 150,
+    "default": 0
   }
 ]

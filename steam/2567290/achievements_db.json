@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2567290/e1e31adc86e3181d7e7aa7a0a2c80025ba20b066.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2567290/ae84782b4f558968e7f9cfaf8fad0abdf1ac7d7f.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_1",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2567290/95fe0554e0d528ab130dc9754b913db1a03e17bf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2567290/51b40c5d9d9eccd50f14bfc2979ace76f044c813.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACHIEVEMENT_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2567290/f7a8dabaf19389131b7140536df9155c39790876.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2567290/f168af3bae243d9dff43d0bc973fa3a134121469.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACHIEVEMENT_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2567290/f7a8dabaf19389131b7140536df9155c39790876.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2567290/f168af3bae243d9dff43d0bc973fa3a134121469.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACHIEVEMENT_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2567290/cb39431b61630e2bc2db805fd903bf3f264db391.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2567290/7bea99d5178210bd81b476c0a1aaa798e8a3aab9.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Complete all the levels.",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "stat_progress"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_progress",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2567290/70ee67cdf6cc1722d2aaa111fc61838a25102bbf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2567290/48a15da5649d34e2b62244b42d24d862caffc6b4.jpg",
     "displayName": {

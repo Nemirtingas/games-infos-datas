@@ -1,7 +1,7 @@
 [
   {
     "name": "FirstDrop",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/cb9cf29419e87577db16b373187ea22706780b5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/1f123bd55503d2822ffccf213c3dfec3fe705069.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "Lift",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/9d2c9b9b81daddb74f0d8a94e5c84b6ff91d247b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/01849d12b4b7688a3576143800d64b59ffe4ff49.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "Wrench",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/36fdfc1586b6a02161ad026811214caf3ee565af.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/3f333dd2cf27b698476a977224840cd882111ffb.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "Clear",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/341d199519aa887a100aabaa83fd38b5d7fe7a64.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/f8290a389b32d6762682736505bdc43041bfe1e5.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "Ending",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/c4322eb65bcdd95bec619926f1512e5629367791.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/8b6195f8652e059e018413dd98f052c7757fd93c.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "Perfect_First",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/545a758830084bdba3b6a9d94024dd14cc6ad49b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/5424ad0d0bde3abdac19010f431e5c84a0998a8b.jpg",
     "displayName": {
@@ -94,15 +94,17 @@
       "japanese": "ワールド１～４をパーフェクトクリア",
       "token": "NEW_ACHIEVEMENT_2_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "Count_PerfectFirst"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Count_PerfectFirst",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "Perfect_Second",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/0b019dc4478d0925430ceea1d51d636df2bcc77a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/5a404ef84bb4f10a818f7603e1b494c9e351bea2.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "japanese": "ワールド５～８をパーフェクトクリア",
       "token": "NEW_ACHIEVEMENT_2_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "Count_PerfectSecond"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Count_PerfectSecond",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "Perfect_ALL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/c27276e7c3782708befc61f2c1ce436ab527db11.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/59e8c44fc25c23323e93deb620016e3df096b5f9.jpg",
     "displayName": {
@@ -139,7 +143,7 @@
   },
   {
     "name": "Drop_Three",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/8ffe669a7e6c2ee4cbdcdbb4af7c34545eb90927.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/aa36d9f774579372c8205813163f092cb3de4f57.jpg",
     "displayName": {
@@ -155,7 +159,7 @@
   },
   {
     "name": "Total_Ten",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/5f540f4dc5fa743e9a167bf8031cfafb6b81fdae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/9de9e57c436952db66d85d684186a7880ea6220a.jpg",
     "displayName": {
@@ -168,15 +172,17 @@
       "japanese": "タコを累計で10体落とした",
       "token": "NEW_ACHIEVEMENT_2_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Count_DropOct"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Count_DropOct",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Total_Hundred",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/835fd18c1fa334d2356309d1f2b80cae54670cad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/7132472377a9fe1a8b5676eb524658e6cc75e169.jpg",
     "displayName": {
@@ -189,15 +195,17 @@
       "japanese": "タコを累計で100体落とした",
       "token": "NEW_ACHIEVEMENT_2_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Count_DropOct"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Count_DropOct",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Rest",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/10b1ce9b7896456dae9dbd1824f39fea3b8510eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/0f78aa76677fe0bee54092f4be033706bf5a7ddc.jpg",
     "displayName": {
@@ -213,7 +221,7 @@
   },
   {
     "name": "Drop_Player_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/059f6c2d79a4aa8b2213eadf17fa06088a9d9860.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/4daeecda541338a9dcc3146eaa320047db7b1e1f.jpg",
     "displayName": {
@@ -226,15 +234,17 @@
       "japanese": "プレイヤーが5回落下する",
       "token": "NEW_ACHIEVEMENT_2_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "Count_DropPlayer"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Count_DropPlayer",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "Title",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/6e029189ff68f45483571e2510d17a74ecff4afc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/592c33617189b3f0777cfbef8674de0f5647d5ac.jpg",
     "displayName": {
@@ -247,15 +257,17 @@
       "japanese": "全てのタイトルアニメーション（３種）を見る",
       "token": "NEW_ACHIEVEMENT_2_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "Count_TitleAnim"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Count_TitleAnim",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "Hit",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/50662798aab5bcb51212f3a35ce6441bf202fe56.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/b2c0f5055f00329a775450655474cf39f5528bbf.jpg",
     "displayName": {
@@ -268,15 +280,17 @@
       "japanese": "10回タコにぶつかる",
       "token": "NEW_ACHIEVEMENT_2_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Count_Hit"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Count_Hit",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Drop_Player_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/b73e99c1b067af73532b3bb1f236b5cb01b7b8ea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/6b998a56f59afc1292f9cc01d0099d7abe6e02f7.jpg",
     "displayName": {
@@ -289,15 +303,17 @@
       "japanese": "プレイヤーが20回落下する",
       "token": "NEW_ACHIEVEMENT_2_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "Count_DropPlayer"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Count_DropPlayer",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "Dead_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/5175182482a00e2bb5cb84422508511b5eca71f6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/7932ac965a79ac3ce04be56c1660542b64df0bda.jpg",
     "displayName": {
@@ -310,15 +326,17 @@
       "japanese": "3回バッテリーが0になる",
       "token": "NEW_ACHIEVEMENT_2_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "Count_Dead"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Count_Dead",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "SlowClear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/8cace01daa628d028b4983ea76bda401443d720c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/c36975bfbf08df61a40aef82c41834db5c97d769.jpg",
     "displayName": {
@@ -334,7 +352,7 @@
   },
   {
     "name": "Rise",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/0f09984417754f39f4dbe712b293e909fa661259.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/5837856bf0982cb13e7974df1bcc14a9dd5ae499.jpg",
     "displayName": {
@@ -350,7 +368,7 @@
   },
   {
     "name": "AllClear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/2bd91440cf1bb397793f0ace24c9b9b5411ac4cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3204880/0e092f4d327797de0fd93b516443d4742161b07f.jpg",
     "displayName": {

@@ -1,48 +1,50 @@
 [
   {
     "name": "WelcomeToTarkov",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/9783acf1ab6e2cb76b760e5e834e371fc49fc695.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/3a1c14694265d4c0d5fb76f322deb6122c28885c.jpg",
     "displayName": {
       "english": "Welcome to Tarkov",
-      "russian": "Добро пожаловать в Тарков",
       "japanese": "Welcome to Tarkov",
+      "russian": "Добро пожаловать в Тарков",
       "token": "WelcomeToTarkov_NAME"
     },
     "description": {
       "english": "Die in Tarkov for the first time",
-      "russian": "Впервые умереть в Таркове",
       "japanese": "Tarkov で初めて死亡する",
+      "russian": "Впервые умереть в Таркове",
       "token": "WelcomeToTarkov_DESC"
     }
   },
   {
     "name": "PMC_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/67eb68c490578450e61a65966905f5a071545299.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/116bed9dc556e88f8c3c1de7c4df162ba2603a44.jpg",
     "displayName": {
       "english": "PMC",
-      "russian": "ЧВК",
       "japanese": "PMC",
+      "russian": "ЧВК",
       "token": "PMC_NAME"
     },
     "description": {
       "english": "Survive 300 raids while playing as a PMC",
-      "russian": "Выжить в рейдах 300 раз, играя за ЧВК",
       "japanese": "PMC として300回のレイドから生還する",
+      "russian": "Выжить в рейдах 300 раз, играя за ЧВК",
       "token": "PMC_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "PMC"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PMC",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "Traveler_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/fca9037a26c70b9ff96f7da99121f124b81fa444.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/890bff49fca08a278ce987124a43a52ea2fde833.jpg",
     "displayName": {
@@ -58,214 +60,220 @@
   },
   {
     "name": "Vagabond_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/25149aca3ebf2e1d1ea4aeff880f09384f35434d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/0c009c548703a97101c683d48701a069ba0a7df6.jpg",
     "displayName": {
       "english": "Vagabond",
-      "token": "NEW_ACHIEVEMENT_3_3_NAME",
-      "russian": "Проходимец"
+      "russian": "Проходимец",
+      "token": "NEW_ACHIEVEMENT_3_3_NAME"
     },
     "description": {
       "english": "Use the transit from any location",
-      "token": "NEW_ACHIEVEMENT_3_3_DESC",
-      "russian": "Совершить переход на любой локации"
+      "russian": "Совершить переход на любой локации",
+      "token": "NEW_ACHIEVEMENT_3_3_DESC"
     }
   },
   {
     "name": "MakeANotch",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/ab235c855859bcfa75caa6850c2fcdc414c6cb19.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/097c17d50e7e749edcd3b093f9483abfa24f236a.jpg",
     "displayName": {
       "english": "Make a notch",
-      "token": "NEW_ACHIEVEMENT_3_5_NAME",
-      "russian": "Сделать зарубку"
+      "russian": "Сделать зарубку",
+      "token": "NEW_ACHIEVEMENT_3_5_NAME"
     },
     "description": {
       "english": "Eliminate 30 PMC operatives with a melee weapon while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_5_DESC",
-      "russian": "Убить 30 ЧВК оружием ближнего боя, играя за ЧВК"
+      "russian": "Убить 30 ЧВК оружием ближнего боя, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "Make a notch"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Make a notch",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "U-SUCC_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/136d772ee332e0de6a6f33ba5483b41b5c57bc81.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/44e469a7c1360a6882fb4b977c6174f94abc017a.jpg",
     "displayName": {
       "english": "U-SUCC",
-      "token": "NEW_ACHIEVEMENT_3_6_NAME",
-      "russian": "U-SUCC"
+      "russian": "U-SUCC",
+      "token": "NEW_ACHIEVEMENT_3_6_NAME"
     },
     "description": {
       "english": "Eliminate 50 USEC PMC operatives",
-      "token": "NEW_ACHIEVEMENT_3_6_DESC",
-      "russian": "Убить 50 ЧВК USEC"
+      "russian": "Убить 50 ЧВК USEC",
+      "token": "NEW_ACHIEVEMENT_3_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "U-SUCC"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "U-SUCC",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "BEARWithMe",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/0e6c60b8d489ef645534665b66650208c657b006.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/2d409082485d2d225ae2b03f49c3ed7d8bcc3d76.jpg",
     "displayName": {
       "english": "BEAR with me",
-      "token": "NEW_ACHIEVEMENT_3_7_NAME",
-      "russian": "BEAR With Me"
+      "russian": "BEAR With Me",
+      "token": "NEW_ACHIEVEMENT_3_7_NAME"
     },
     "description": {
       "english": "Eliminate 50 BEAR PMC operatives",
-      "token": "NEW_ACHIEVEMENT_3_7_DESC",
-      "russian": "Убить 50 ЧВК BEAR"
+      "russian": "Убить 50 ЧВК BEAR",
+      "token": "NEW_ACHIEVEMENT_3_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "BEAR With Me"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BEAR With Me",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "SCAVFriendPMC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/c3f8d33198aad93719a30ff9adc48920d469d088.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/7e1c5adc389672ce050dccf366993e5f79c267fd.jpg",
     "displayName": {
       "english": "PMC's Best Friend",
-      "token": "NEW_ACHIEVEMENT_3_8_NAME",
-      "russian": "Дикий друг ЧВК"
+      "russian": "Дикий друг ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_8_NAME"
     },
     "description": {
       "english": "Survive and extract from Interchange through the Scav Co-Op extraction while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_8_DESC",
-      "russian": "Выжить и выйти с локации Развязка вместе с Диким, играя за ЧВК"
+      "russian": "Выжить и выйти с локации Развязка вместе с Диким, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_8_DESC"
     }
   },
   {
     "name": "OnStyle",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/fdbafcdf0b03aaf47ca914a86b3e1ca3114c11af.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/c49bcb2d3d2708b4afc12887fa6ffee43f99bb84.jpg",
     "displayName": {
       "english": "Art of Style",
-      "token": "NEW_ACHIEVEMENT_3_9_NAME",
-      "russian": "На стиле"
+      "russian": "На стиле",
+      "token": "NEW_ACHIEVEMENT_3_9_NAME"
     },
     "description": {
       "english": "Neutralize Killa for the first time while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_9_DESC",
-      "russian": "Впервые убить Киллу, играя за ЧВК"
+      "russian": "Впервые убить Киллу, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_9_DESC"
     }
   },
   {
     "name": "CallYourBrother",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/97614b4de1253d029eb85fb19c33145b324ec6c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/c1a27ebcc80a0121ed2f9eb67a480f300727b490.jpg",
     "displayName": {
       "english": "Call your brother",
-      "token": "NEW_ACHIEVEMENT_3_10_NAME",
-      "russian": "Брата позови"
+      "russian": "Брата позови",
+      "token": "NEW_ACHIEVEMENT_3_10_NAME"
     },
     "description": {
       "english": "Neutralize Tagilla for the first time while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_10_DESC",
-      "russian": "Впервые убить Тагиллу, играя за ЧВК"
+      "russian": "Впервые убить Тагиллу, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_10_DESC"
     }
   },
   {
     "name": "SilenceAtTheSawmill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/dbaa3ef7e2dcad6aa309954bd1223c11f43d15b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/d254c67da439f9c59a92412cee42ab45d2d0ab4a.jpg",
     "displayName": {
       "english": "Silence at the sawmill",
-      "token": "NEW_ACHIEVEMENT_3_11_NAME",
-      "russian": "Тишина на лесопилке"
+      "russian": "Тишина на лесопилке",
+      "token": "NEW_ACHIEVEMENT_3_11_NAME"
     },
     "description": {
       "english": "Neutralize Shturman for the first time while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_11_DESC",
-      "russian": "Впервые убить Штурмана, играя за ЧВК"
+      "russian": "Впервые убить Штурмана, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_11_DESC"
     }
   },
   {
     "name": "ResolvedIssue",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/761f546406c74adc6a135207b3c7ff21eccc5df6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/72e3f0a00629483da4fd07ea3b3be411398e9408.jpg",
     "displayName": {
       "english": "Deal to Make",
-      "token": "NEW_ACHIEVEMENT_3_12_NAME",
-      "russian": "Решенный вопрос"
+      "russian": "Решенный вопрос",
+      "token": "NEW_ACHIEVEMENT_3_12_NAME"
     },
     "description": {
       "english": "Neutralize Reshala for the first time while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_12_DESC",
-      "russian": "Впервые убить Решалу, играя за ЧВК"
+      "russian": "Впервые убить Решалу, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_12_DESC"
     }
   },
   {
     "name": "HuntingGluhar",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/52e0d394ae8a46e15850110190acb64382ad2471.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/1ed48ff2a3556583081b6a64276680b38fa68d98.jpg",
     "displayName": {
       "english": "Grouse Hunting",
-      "token": "NEW_ACHIEVEMENT_3_13_NAME",
-      "russian": "Охота на Глухаря"
+      "russian": "Охота на Глухаря",
+      "token": "NEW_ACHIEVEMENT_3_13_NAME"
     },
     "description": {
       "english": "Neutralize Glukhar for the first time while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_13_DESC",
-      "russian": "Впервые убить Глухаря, играя за ЧВК"
+      "russian": "Впервые убить Глухаря, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_13_DESC"
     }
   },
   {
     "name": "SanatoriumOrderly",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/8e862f2a8e3f42a6094fe98c5d90becaf8d82568.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/917a4b19218a97d038030e3ffb120e87c6441894.jpg",
     "displayName": {
       "english": "Sanatorium Orderly",
-      "token": "NEW_ACHIEVEMENT_3_14_NAME",
-      "russian": "Санитар Санатория"
+      "russian": "Санитар Санатория",
+      "token": "NEW_ACHIEVEMENT_3_14_NAME"
     },
     "description": {
       "english": "Neutralize Sanitar for the first time while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_14_DESC",
-      "russian": "Впервые убить Санитара, играя за ЧВК"
+      "russian": "Впервые убить Санитара, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_14_DESC"
     }
   },
   {
     "name": "FunnyGraveyardKeeper",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/be548fdcf80b57899e4d21c80157f1796c8f4f40.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/dbb12fdb8da9d33a9b8048c2219bbb52df16715e.jpg",
     "displayName": {
       "english": "Funny Graveyard Keeper",
-      "token": "NEW_ACHIEVEMENT_3_15_NAME",
-      "russian": "Веселый могильщик"
+      "russian": "Веселый могильщик",
+      "token": "NEW_ACHIEVEMENT_3_15_NAME"
     },
     "description": {
       "english": "Neutralize Kaban for the first time while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_15_DESC",
-      "russian": "Впервые убить Кабана, играя за ЧВК"
+      "russian": "Впервые убить Кабана, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_15_DESC"
     }
   },
   {
     "name": "Trio_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/a89aad4c0f038d661ba808c9e7ec60c76a79a8b5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/3e5c1ef067d3133cc1e2d00dac5d996e2b4b7a01.jpg",
     "displayName": {
@@ -281,249 +289,269 @@
   },
   {
     "name": "Justice_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/68921015ab43b85feefe4fac30df1e2997f68f48.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/955e1f70cee10f84d5ebd3c451c7208a7a1a8a98.jpg",
     "displayName": {
       "english": "Justice",
-      "token": "NEW_ACHIEVEMENT_3_17_NAME",
-      "russian": "Правосудие"
+      "russian": "Правосудие",
+      "token": "NEW_ACHIEVEMENT_3_17_NAME"
     },
     "description": {
       "english": "Neutralize Kollontay for the first time while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_17_DESC",
-      "russian": "Впервые убить Коллонтая, играя за ЧВК"
+      "russian": "Впервые убить Коллонтая, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_17_DESC"
     }
   },
   {
     "name": "TimeCleanMyKarma",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/aa15b9ce5e6c9c84d161f27f9ba366a770bb802a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/0dd530401640c072782b92d6f939e57a4eff2a3f.jpg",
     "displayName": {
       "english": "Time To Clean My Karma",
-      "token": "NEW_ACHIEVEMENT_3_18_NAME",
-      "russian": "Пора почистить карму"
+      "russian": "Пора почистить карму",
+      "token": "NEW_ACHIEVEMENT_3_18_NAME"
     },
     "description": {
       "english": "Neutralize Partisan for the first time while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_18_DESC",
-      "russian": "Впервые убить Партизана, играя за ЧВК"
+      "russian": "Впервые убить Партизана, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_18_DESC"
     }
   },
   {
     "name": "FashionableVerdict",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/3257f15a1a007f886ba9f8caff58acfd7208efd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/7924772ad4c834f2932fbf864ed78f677cea655a.jpg",
     "displayName": {
       "english": "What Not To Wear",
-      "token": "NEW_ACHIEVEMENT_3_19_NAME",
-      "russian": "Модный приговор"
+      "russian": "Модный приговор",
+      "token": "NEW_ACHIEVEMENT_3_19_NAME"
     },
     "description": {
       "english": "Neutralize Killa 15 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_19_DESC",
-      "russian": "Убить Киллу 15 раз, играя за ЧВК"
+      "russian": "Убить Киллу 15 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "Fashionable verdict"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Fashionable verdict",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "ScytheOnAHammer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/e4a3a89acbde34b44ddba9ad94ed68d7af0c76d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/f6cbefc5cd00eaac1a8800f6daf1821bff819f8d.jpg",
     "displayName": {
       "english": "Hammer and Scythe",
-      "token": "NEW_ACHIEVEMENT_3_20_NAME",
-      "russian": "Коса на молот"
+      "russian": "Коса на молот",
+      "token": "NEW_ACHIEVEMENT_3_20_NAME"
     },
     "description": {
       "english": "Neutralize Tagilla 15 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_20_DESC",
-      "russian": "Убить Тагиллу 15 раз, играя за ЧВК"
+      "russian": "Убить Тагиллу 15 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "Scythe on a hammer"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Scythe on a hammer",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "SawmillKing",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/b37adc0b1d912dfa9aac1831cf847047f912ea8c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/34f0c9562a2eafbd28344e535fd827c24ac9e6d7.jpg",
     "displayName": {
       "english": "King of the Sawmill",
-      "token": "NEW_ACHIEVEMENT_3_21_NAME",
-      "russian": "Царь лесопилки"
+      "russian": "Царь лесопилки",
+      "token": "NEW_ACHIEVEMENT_3_21_NAME"
     },
     "description": {
       "english": "Neutralize Shturman 15 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_21_DESC",
-      "russian": "Убить Штурмана 15 раз, играя за ЧВК"
+      "russian": "Убить Штурмана 15 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "Sawmill King"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Sawmill King",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "ThisIsATarkovShowdown",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/58c2bcd3d2e85ef48ba2026729a27c4f8905a31c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/14b5ad514c5e43251320833b464953890341c2bb.jpg",
     "displayName": {
       "english": "This is a Tarkov showdown",
-      "token": "NEW_ACHIEVEMENT_3_22_NAME",
-      "russian": "Это разборка Тарковская"
+      "russian": "Это разборка Тарковская",
+      "token": "NEW_ACHIEVEMENT_3_22_NAME"
     },
     "description": {
       "english": "Neutralize Reshala 15 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_22_DESC",
-      "russian": "Убить Решалу 15 раз, играя за ЧВК"
+      "russian": "Убить Решалу 15 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "This is a Tarkov showdown"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "This is a Tarkov showdown",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "AnotherVisyak",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/e0fb857396d85d3ab544093dcb51edb09fd6ad44.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/5879043f0c76af03596dcd988331f61c66db60a1.jpg",
     "displayName": {
       "english": "Another Cold Case",
-      "token": "NEW_ACHIEVEMENT_3_23_NAME",
-      "russian": "Еще один висяк"
+      "russian": "Еще один висяк",
+      "token": "NEW_ACHIEVEMENT_3_23_NAME"
     },
     "description": {
       "english": "Neutralize Glukhar 15 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_23_DESC",
-      "russian": "Убить Глухаря 15 раз, играя за ЧВК"
+      "russian": "Убить Глухаря 15 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "Another visyak"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Another visyak",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "WhoCalledTheDoctor?",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/7a1cd44910f5d5cb0906b00b96435662e80a2d00.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/3acd4ee9ae1149d374ae88b439ba85c95cb31ca3.jpg",
     "displayName": {
       "english": "Who Called the Doctor?",
-      "token": "NEW_ACHIEVEMENT_3_24_NAME",
-      "russian": "Кто вызывал доктора?"
+      "russian": "Кто вызывал доктора?",
+      "token": "NEW_ACHIEVEMENT_3_24_NAME"
     },
     "description": {
       "english": "Neutralize Sanitar 15 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_24_DESC",
-      "russian": "Убить Санитара 15 раз, играя за ЧВК"
+      "russian": "Убить Санитара 15 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "Who called the doctor?"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Who called the doctor?",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "OldSkillsAreNotLost",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/4d061b56cce1d77a7ebc9556da53cd9a4edc5bf8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/63c6c73f5e34bd021bef761c5e8978478bb931d8.jpg",
     "displayName": {
       "english": "Old Dog With Old tricks",
-      "token": "NEW_ACHIEVEMENT_3_25_NAME",
-      "russian": "Старые навыки не пропадают"
+      "russian": "Старые навыки не пропадают",
+      "token": "NEW_ACHIEVEMENT_3_25_NAME"
     },
     "description": {
       "english": "Neutralize Kaban 15 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_25_DESC",
-      "russian": "Убить Кабана 15 раз, играя за ЧВК"
+      "russian": "Убить Кабана 15 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "Old skills are not lost"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Old skills are not lost",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "IHearTheViceOfDarkness",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/e693b673b631a9039492dbe6966f2c5dd750eefa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/b5a655b3187ba6dda9322463a53e6e31dee08125.jpg",
     "displayName": {
       "english": "I Hear the Voice of Darkness",
-      "token": "NEW_ACHIEVEMENT_3_26_NAME",
-      "russian": "Я слышу голос Тьмы"
+      "russian": "Я слышу голос Тьмы",
+      "token": "NEW_ACHIEVEMENT_3_26_NAME"
     },
     "description": {
       "english": "Neutralize Knight 15 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_26_DESC",
-      "russian": "Убить Knight 15 раз, играя за ЧВК"
+      "russian": "Убить Knight 15 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "I hear the voice of darkness"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "I hear the voice of darkness",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "OriginallyFromTheRedBook",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/868065bd49b49d1fe7bd87e03378a3f7caa5c2a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/bcaad9e0bced4686e3b8c84f28bea7f480329bcb.jpg",
     "displayName": {
       "english": "The Red Book",
-      "token": "NEW_ACHIEVEMENT_3_27_NAME",
-      "russian": "Родом из Красной Книги"
+      "russian": "Родом из Красной Книги",
+      "token": "NEW_ACHIEVEMENT_3_27_NAME"
     },
     "description": {
       "english": "Neutralize Birdeye 15 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_27_DESC",
-      "russian": "Убить Birdeye 15 раз, играя за ЧВК"
+      "russian": "Убить Birdeye 15 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "Originally from the Red Book"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Originally from the Red Book",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "SmokeThePeacePpe",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/fd01cca62cb95a21a32ba9a7a4d2f701a7e471ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/95028171afd72087afd4bf881080d952c6ebbdde.jpg",
     "displayName": {
       "english": "Smoke the Peace Pipe",
-      "token": "NEW_ACHIEVEMENT_3_28_NAME",
-      "russian": "Раскурить трубку мира"
+      "russian": "Раскурить трубку мира",
+      "token": "NEW_ACHIEVEMENT_3_28_NAME"
     },
     "description": {
       "english": "Neutralize Big Pipe 15 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_28_DESC",
-      "russian": "Убить Big Pipe 15 раз, играя за ЧВК"
+      "russian": "Убить Big Pipe 15 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "Smoke the peace pipe"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Smoke the peace pipe",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "ReadyForAnything",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/e93f1372e92cbd86b742a6db496ba02a337159d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/c5c2d8b256c9d7c936c2f69046f14f75e59b5023.jpg",
     "displayName": {
@@ -536,15 +564,17 @@
       "russian": "Выжить в 10 рейдах подряд, играя за ЧВК",
       "token": "NEW_ACHIEVEMENT_3_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Ready for anything"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Ready for anything",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "TheKingIsDead-LongLiveTheKing!",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/f235de44722866a235c3702af214e1c410a65be9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/924e6c6318c49c1dec064b60905ac55b56babd14.jpg",
     "displayName": {
@@ -560,65 +590,69 @@
   },
   {
     "name": "TrueCrime",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/6ce959d03dc48d5aae0491ebc3414c8c08457e87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/ae81d9ab07c0c9fd6003609502f47b6d87453cab.jpg",
     "displayName": {
       "english": "True Crime",
-      "token": "NEW_ACHIEVEMENT_3_31_NAME",
-      "russian": "Улицы и разбитые фонари"
+      "russian": "Улицы и разбитые фонари",
+      "token": "NEW_ACHIEVEMENT_3_31_NAME"
     },
     "description": {
       "english": "Neutralize Kollontay 15 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_3_31_DESC",
-      "russian": "Убить Коллонтая 15 раз, играя за ЧВК"
+      "russian": "Убить Коллонтая 15 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_3_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "True Crime"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "True Crime",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "SamsaraWheelSpinsAgain",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/08370a85e635d5777184f280df2c637a104007d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/08c90ef631098f2f20855e5f118c8dadc5a259e5.jpg",
     "displayName": {
       "english": "Samsara Wheel Spins Again",
-      "token": "NEW_ACHIEVEMENT_31_0_NAME",
-      "russian": "Колесо Сансары"
+      "russian": "Колесо Сансары",
+      "token": "NEW_ACHIEVEMENT_31_0_NAME"
     },
     "description": {
       "english": "Neutralize Partisan 15 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_31_0_DESC",
-      "russian": "Убить Партизана 15 раз, играя за ЧВК"
+      "russian": "Убить Партизана 15 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_31_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "Samsara wheel spins again"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Samsara wheel spins again",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "Gunsmith_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/fd2e14bf5b9bada2b7060623f62bece18ae8b4b3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/5f7a6994bc0f7cf1141dabe6e7c7ed15ed8586cc.jpg",
     "displayName": {
       "english": "Jack of All Trades",
-      "token": "NEW_ACHIEVEMENT_31_1_NAME",
-      "russian": "Мастер на все руки"
+      "russian": "Мастер на все руки",
+      "token": "NEW_ACHIEVEMENT_31_1_NAME"
     },
     "description": {
       "english": "Complete all of Gunsmith series tasks",
-      "token": "NEW_ACHIEVEMENT_31_1_DESC",
-      "russian": "Выполнить всю цепочку заданий Оружейник"
+      "russian": "Выполнить всю цепочку заданий Оружейник",
+      "token": "NEW_ACHIEVEMENT_31_1_DESC"
     }
   },
   {
     "name": "AllWheelDrive",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/808224a35be2208837effed9bb0db4c9a3248e9e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/97c0e504110047a3f63c5cff4b506431707ce8dd.jpg",
     "displayName": {
@@ -634,7 +668,7 @@
   },
   {
     "name": "AllOnRed",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/6e2ee6f2ca4fc7eb9ccd7676c109b7712145be34.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/179b97b2ae4a5bf9f0fc043bf865e06bfa16c1e7.jpg",
     "displayName": {
@@ -650,7 +684,7 @@
   },
   {
     "name": "StarCalledSun",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/868c3223ce79c9846d2d9a089ca86766dd68c3d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/dccb829427805703f2f820c7b81929b4092a88cf.jpg",
     "displayName": {
@@ -666,7 +700,7 @@
   },
   {
     "name": "Marathon_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/346e06facc35e90f1b917d881d56c6538e69905c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/d616255d8daeb6d4b74c604c331b80176bdb22a7.jpg",
     "displayName": {
@@ -682,60 +716,62 @@
   },
   {
     "name": "Kappa_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/6a4f572aa68649058cf3dc9524181e142536dbbe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/764dd42f7da8d06dc22a806b5f4a0500aba4ba51.jpg",
     "displayName": {
       "english": "The Kappa Path",
-      "token": "NEW_ACHIEVEMENT_31_6_NAME",
-      "russian": "Путь Каппа"
+      "russian": "Путь Каппа",
+      "token": "NEW_ACHIEVEMENT_31_6_NAME"
     },
     "description": {
       "english": "Obtain Secure container Kappa",
-      "token": "NEW_ACHIEVEMENT_31_6_DESC",
-      "russian": "Получить защищенный контейнер Каппа"
+      "russian": "Получить защищенный контейнер Каппа",
+      "token": "NEW_ACHIEVEMENT_31_6_DESC"
     }
   },
   {
     "name": "MasterOfUltra",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/61d33708247df8f74052051e0f7a7960b03b9b23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/516fb3a12665ec8ef9ae8a760251101b35ddb181.jpg",
     "displayName": {
       "english": "Master of ULTRA",
-      "token": "NEW_ACHIEVEMENT_31_7_NAME",
-      "russian": "Хозяин Ультры"
+      "russian": "Хозяин Ультры",
+      "token": "NEW_ACHIEVEMENT_31_7_NAME"
     },
     "description": {
       "english": "Neutralize Killa 100 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_31_7_DESC",
-      "russian": "Убить Киллу 100 раз, играя за ЧВК"
+      "russian": "Убить Киллу 100 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_31_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Master of Ultra"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Master of Ultra",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Firefly_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/237674ca8245024f5d25c2f49e1990113dcecffa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/c6c7d12dcbe4e90a287a336b9f9445c84bda0ca8.jpg",
     "displayName": {
       "english": "Firefly",
-      "token": "NEW_ACHIEVEMENT_31_8_NAME",
-      "russian": "Мотылёк"
+      "russian": "Мотылёк",
+      "token": "NEW_ACHIEVEMENT_31_8_NAME"
     },
     "description": {
       "english": "Meet Lightkeeper for the first time while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_31_8_DESC",
-      "russian": "Впервые добраться до Смотрителя, играя за ЧВК"
+      "russian": "Впервые добраться до Смотрителя, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_31_8_DESC"
     }
   },
   {
     "name": "Snowball_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/9923f60c949b0aeff582ab7761545ceba24f3c70.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/d8acc813951849bb204fb46e3a0c9cbcfe732574.jpg",
     "displayName": {
@@ -751,113 +787,117 @@
   },
   {
     "name": "UnderTheFly",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/505de47d83bfad1c0e9a4d8179b321ded9d442e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/1e6c243d64d2d1075d118cff179ae16603174bb2.jpg",
     "displayName": {
       "english": "Drunken Master",
-      "token": "NEW_ACHIEVEMENT_31_10_NAME",
-      "russian": "Под мухой"
+      "russian": "Под мухой",
+      "token": "NEW_ACHIEVEMENT_31_10_NAME"
     },
     "description": {
       "english": "Eliminate a PMC operative with a headshot while under the alcohol effect while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_31_10_DESC",
-      "russian": "Убить бойца ЧВК в голову, находясь под эффектом алкоголя"
+      "russian": "Убить бойца ЧВК в голову, находясь под эффектом алкоголя",
+      "token": "NEW_ACHIEVEMENT_31_10_DESC"
     }
   },
   {
     "name": "ThatWhatSheSaid",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/53df12b3f0ab60ec3e03a81d60d54463fb398fe4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/09f3f06faf8fee40a466b98a392f6ad7b43533aa.jpg",
     "displayName": {
       "english": "That's What She Said",
-      "token": "NEW_ACHIEVEMENT_31_11_NAME",
-      "russian": "That's What She Said"
+      "russian": "That's What She Said",
+      "token": "NEW_ACHIEVEMENT_31_11_NAME"
     },
     "description": {
       "english": "Search the office in Factory while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_31_11_DESC",
-      "russian": "Впервые осмотреть офис на локации Завод, играя за ЧВК"
+      "russian": "Впервые осмотреть офис на локации Завод, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_31_11_DESC"
     }
   },
   {
     "name": "NotInTheEyebrowButInTheEye",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/d60ab55f6b2e2900ac13156e294e51cde254d7ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/53c44de2be77f454e8d8652c6d5a18cf4c191ffa.jpg",
     "displayName": {
       "english": "Now That's a Good Shot",
-      "token": "NEW_ACHIEVEMENT_31_12_NAME",
-      "russian": "Не в бровь, а в глаз"
+      "russian": "Не в бровь, а в глаз",
+      "token": "NEW_ACHIEVEMENT_31_12_NAME"
     },
     "description": {
       "english": "Neutralize Zryachiy 15 times while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_31_12_DESC",
-      "russian": "Убить Зрячего 15 раз, играя за ЧВК"
+      "russian": "Убить Зрячего 15 раз, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_31_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "Not in the eyebrow, but in the eye"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Not in the eyebrow, but in the eye",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "BlindFury",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/959bb93229df030fd05a89ca9c61a2f66fe629ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/926070e9f779bbe6d37f245f2f4d6e7d0fd422e6.jpg",
     "displayName": {
       "english": "Blind Fury",
-      "token": "NEW_ACHIEVEMENT_31_14_NAME",
-      "russian": "Слепая ярость"
+      "russian": "Слепая ярость",
+      "token": "NEW_ACHIEVEMENT_31_14_NAME"
     },
     "description": {
       "english": "Eliminate any enemy while suffering from the Flash effect while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_31_14_DESC",
-      "russian": "Убить противника, находясь под ослеплением светошумовой гранаты, играя за ЧВК"
+      "russian": "Убить противника, находясь под ослеплением светошумовой гранаты, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_31_14_DESC"
     }
   },
   {
     "name": "John'sHeir",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/a01d36de4f4bc31e50d2e704be2327e8f7cc25d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/f54c675f4c44359739bf3468c6f6ab0acde22c3c.jpg",
     "displayName": {
       "english": "John's Heir",
-      "token": "NEW_ACHIEVEMENT_31_15_NAME",
-      "russian": "Наследник Джона"
+      "russian": "Наследник Джона",
+      "token": "NEW_ACHIEVEMENT_31_15_NAME"
     },
     "description": {
       "english": "Eliminate 4 PMC operatives with a headshot while using a pistol in a single raid while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_31_15_DESC",
-      "russian": "Убить 4 ЧВК в голову за один рейд из пистолета, играя за ЧВК"
+      "russian": "Убить 4 ЧВК в голову за один рейд из пистолета, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_31_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "John's heir"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "John's heir",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "YouAreNotMyBrother",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/0cbf8c282fef859174e862424dbdb08be52dd291.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/1cc4e377bb367c01c4823d0d679256394d2be540.jpg",
     "displayName": {
       "english": "You Are Not My Brother",
-      "token": "NEW_ACHIEVEMENT_31_16_NAME",
-      "russian": "Не брат ты мне..."
+      "russian": "Не брат ты мне...",
+      "token": "NEW_ACHIEVEMENT_31_16_NAME"
     },
     "description": {
       "english": "Eliminate a Scav while playing as a Scav",
-      "token": "NEW_ACHIEVEMENT_31_16_DESC",
-      "russian": "Убить Дикого, играя за Дикого"
+      "russian": "Убить Дикого, играя за Дикого",
+      "token": "NEW_ACHIEVEMENT_31_16_DESC"
     }
   },
   {
     "name": "Chris'sHeir",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/df4d606a9fab4372d83387d949879affcf00294f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/5e7e4df9c53ace71028275f0bd15a0e13bdbac0e.jpg",
     "displayName": {
@@ -873,519 +913,521 @@
   },
   {
     "name": "Prestige1_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/95aa90f09fb09ff16e49ba5f451db2eaea05d3d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Prestigious",
-      "token": "NEW_ACHIEVEMENT_31_18_NAME",
-      "russian": "Престиж"
+      "russian": "Престиж",
+      "token": "NEW_ACHIEVEMENT_31_18_NAME"
     },
     "description": {
       "english": "Earn the Prestige level 1",
-      "token": "NEW_ACHIEVEMENT_31_18_DESC",
-      "russian": "Получить первый уровень Престижа"
+      "russian": "Получить первый уровень Престижа",
+      "token": "NEW_ACHIEVEMENT_31_18_DESC"
     }
   },
   {
     "name": "Prestige2_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/6d20751d4cc47b242bcb711b800e522cc9c71840.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "More Prestigious",
-      "token": "NEW_ACHIEVEMENT_31_19_NAME",
-      "russian": "Престиж"
+      "russian": "Престиж",
+      "token": "NEW_ACHIEVEMENT_31_19_NAME"
     },
     "description": {
       "english": "Earn the Prestige level 2",
-      "token": "NEW_ACHIEVEMENT_31_19_DESC",
-      "russian": "Получить второй уровень Престижа"
+      "russian": "Получить второй уровень Престижа",
+      "token": "NEW_ACHIEVEMENT_31_19_DESC"
     }
   },
   {
     "name": "Prestige3_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/2749525eae6a2d26ad55b985a220443832ee227c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Keeping Up the Pace",
-      "token": "NEW_ACHIEVEMENT_31_20_NAME",
-      "russian": "Не сбавляя темп"
+      "russian": "Не сбавляя темп",
+      "token": "NEW_ACHIEVEMENT_31_20_NAME"
     },
     "description": {
       "english": "Earn the Prestige level 3",
-      "token": "NEW_ACHIEVEMENT_31_20_DESC",
-      "russian": "Получить третий уровень Престижа"
+      "russian": "Получить третий уровень Престижа",
+      "token": "NEW_ACHIEVEMENT_31_20_DESC"
     }
   },
   {
     "name": "Prestige4_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/5867450162d6a685aab7d4cc23657b2e3559059e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Higher and Higher",
-      "token": "NEW_ACHIEVEMENT_31_21_NAME",
-      "russian": "Всё выше и выше"
+      "russian": "Всё выше и выше",
+      "token": "NEW_ACHIEVEMENT_31_21_NAME"
     },
     "description": {
       "english": "Earn the Prestige level 4",
-      "token": "NEW_ACHIEVEMENT_31_21_DESC",
-      "russian": "Получить четвертый уровень Престижа"
+      "russian": "Получить четвертый уровень Престижа",
+      "token": "NEW_ACHIEVEMENT_31_21_DESC"
     }
   },
   {
     "name": "BlindLightkeeper",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/9746e1cc01c3204e271c50e0272655f7b3e254bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/fc7a40f1c773436c69c9955374c63d3c335b4d04.jpg",
     "displayName": {
       "english": "The Blind Watcher",
-      "token": "NEW_ACHIEVEMENT_31_24_NAME",
-      "russian": "Слепой смотритель"
+      "russian": "Слепой смотритель",
+      "token": "NEW_ACHIEVEMENT_31_24_NAME"
     },
     "description": {
       "english": "Neutralize Zryachiy for the first time while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_31_24_DESC",
-      "russian": "Впервые убить Зрячего, играя за ЧВК"
+      "russian": "Впервые убить Зрячего, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_31_24_DESC"
     }
   },
   {
     "name": "KillerOfKillers",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/b3a91b0691d6e906b16a20575fe82e42762ce432.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/dde959fe957772594e239fa5e4ac16ff6a66ab2f.jpg",
     "displayName": {
       "english": "Killer of Killers",
-      "token": "NEW_ACHIEVEMENT_31_25_NAME",
-      "russian": "Убийца убийц"
+      "russian": "Убийца убийц",
+      "token": "NEW_ACHIEVEMENT_31_25_NAME"
     },
     "description": {
       "english": "Eliminate one of the hooded men with their own knife at night time while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_31_25_DESC",
-      "russian": "Убить одного из людей в капюшонах ночью его же ножом, играя за ЧВК"
+      "russian": "Убить одного из людей в капюшонах ночью его же ножом, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_31_25_DESC"
     }
   },
   {
     "name": "Lost_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/73cd362dc521f19af8329a2ffd54d870a386fe63.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/76e5efa011370865a660951663ac85335900db83.jpg",
     "displayName": {
       "english": "Lost",
-      "token": "NEW_ACHIEVEMENT_31_26_NAME",
-      "russian": "Остаться в живых"
+      "russian": "Остаться в живых",
+      "token": "NEW_ACHIEVEMENT_31_26_NAME"
     },
     "description": {
       "english": "Locate the crashed plane on Woods while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_31_26_DESC",
-      "russian": "Найти остатки самолета на локации Лес, играя за ЧВК"
+      "russian": "Найти остатки самолета на локации Лес, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_31_26_DESC"
     }
   },
   {
     "name": "Killer7",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/ddfb71de32b9eca9e58d77ab2a956596a22c5669.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/4163633bcee59751c60bea3634c25156dd3ad381.jpg",
     "displayName": {
       "english": "Killer7",
-      "token": "NEW_ACHIEVEMENT_31_27_NAME",
-      "russian": "Killer 7"
+      "russian": "Killer 7",
+      "token": "NEW_ACHIEVEMENT_31_27_NAME"
     },
     "description": {
       "english": "Eliminate 7 PMC operatives in a single raid while playing as a PMC",
-      "token": "NEW_ACHIEVEMENT_31_27_DESC",
-      "russian": "Убить 7 ЧВК в одном рейде, играя за ЧВК"
+      "russian": "Убить 7 ЧВК в одном рейде, играя за ЧВК",
+      "token": "NEW_ACHIEVEMENT_31_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "Killer 7"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Killer 7",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "TheFirstTimeAlwaysHurts",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/ccc58d682c33ff44a94fb8e43fd1dd6290340261.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/242f0c636209388f30b0aa40e9a87824790481ce.jpg",
     "displayName": {
       "english": "First Time Always Hurts",
-      "token": "NEW_ACHIEVEMENT_31_28_NAME",
-      "russian": "Первый раз всегда больно"
+      "russian": "Первый раз всегда больно",
+      "token": "NEW_ACHIEVEMENT_31_28_NAME"
     },
     "description": {
       "english": "Survive a raid without the Run-through status for the first time",
-      "token": "NEW_ACHIEVEMENT_31_28_DESC",
-      "russian": "Впервые выжить в рейде без статуса "
+      "russian": "Впервые выжить в рейде без статуса ",
+      "token": "NEW_ACHIEVEMENT_31_28_DESC"
     }
   },
   {
     "name": "ManOfHisWord",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/2b3bef79438c34525eebc00645cd773de609ecfe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Man of His Word",
-      "token": "NEW_ACHIEVEMENT_31_29_NAME",
-      "russian": "Слово мужчины"
+      "russian": "Слово мужчины",
+      "token": "NEW_ACHIEVEMENT_31_29_NAME"
     },
     "description": {
       "english": "Complete the task given to you to the end",
-      "token": "NEW_ACHIEVEMENT_31_29_DESC",
-      "russian": "Выполнить свою задачу до конца"
+      "russian": "Выполнить свою задачу до конца",
+      "token": "NEW_ACHIEVEMENT_31_29_DESC"
     }
   },
   {
     "name": "JustBusiness",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/7b1b3cf6eb6a876c03b1258ff1dba7f6388b2a84.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Just Business",
-      "token": "NEW_ACHIEVEMENT_31_30_NAME",
-      "russian": "Просто бизнес"
+      "russian": "Просто бизнес",
+      "token": "NEW_ACHIEVEMENT_31_30_NAME"
     },
     "description": {
       "english": "Double-cross Prapor",
-      "token": "NEW_ACHIEVEMENT_31_30_DESC",
-      "russian": "Опрокинуть Прапора"
+      "russian": "Опрокинуть Прапора",
+      "token": "NEW_ACHIEVEMENT_31_30_DESC"
     }
   },
   {
     "name": "Pathfinder_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/3c129bf8d3d2643d3e053d0097a50b279fc0d7d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Pathfinder",
-      "token": "NEW_ACHIEVEMENT_31_31_NAME",
-      "russian": "Прогулка"
+      "russian": "Прогулка",
+      "token": "NEW_ACHIEVEMENT_31_31_NAME"
     },
     "description": {
       "english": "Fully explore Tarkov and its inhabitants",
-      "token": "NEW_ACHIEVEMENT_31_31_DESC",
-      "russian": "Полностью изучить Тарков и его жителей"
+      "russian": "Полностью изучить Тарков и его жителей",
+      "token": "NEW_ACHIEVEMENT_31_31_DESC"
     }
   },
   {
     "name": "Inferno_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/8d9b413a83fea4065ef901abddd76c0d8ce90c55.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Inferno",
-      "token": "NEW_ACHIEVEMENT_33_0_NAME",
-      "russian": "Гори!"
+      "russian": "Гори!",
+      "token": "NEW_ACHIEVEMENT_33_0_NAME"
     },
     "description": {
       "english": "Learn everything about the Blue Fire",
-      "token": "NEW_ACHIEVEMENT_33_0_DESC",
-      "russian": "Выяснить всё про Синий Огонь"
+      "russian": "Выяснить всё про Синий Огонь",
+      "token": "NEW_ACHIEVEMENT_33_0_DESC"
     }
   },
   {
     "name": "TrailOfBreadcrumbs",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/717eb4a38b861793aa4e9c384fb78460a9eae655.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Trail of Breadcrumbs",
-      "token": "NEW_ACHIEVEMENT_33_1_NAME",
-      "russian": "Дорога из хлебных крошек"
+      "russian": "Дорога из хлебных крошек",
+      "token": "NEW_ACHIEVEMENT_33_1_NAME"
     },
     "description": {
       "english": "Find traces of a mysterious organization in Tarkov",
-      "token": "NEW_ACHIEVEMENT_33_1_DESC",
-      "russian": "Найти следы загадочной организации в Таркове"
+      "russian": "Найти следы загадочной организации в Таркове",
+      "token": "NEW_ACHIEVEMENT_33_1_DESC"
     }
   },
   {
     "name": "ThroughAnother'sEyes",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/259ae850973ce2f1ece30554bb9886066bdc8e3a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Through Another's Eyes",
-      "token": "NEW_ACHIEVEMENT_33_2_NAME",
-      "russian": "Чужими Глазами"
+      "russian": "Чужими Глазами",
+      "token": "NEW_ACHIEVEMENT_33_2_NAME"
     },
     "description": {
       "english": "Discover what the cultists were really after",
-      "token": "NEW_ACHIEVEMENT_33_2_DESC",
-      "russian": "Узнать, что именно искали сектанты"
+      "russian": "Узнать, что именно искали сектанты",
+      "token": "NEW_ACHIEVEMENT_33_2_DESC"
     }
   },
   {
     "name": "PayYourDebt",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/d659e5bcea5aaea2837362ac3f95e2b618bcadd2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Pay Your Debt",
-      "token": "NEW_ACHIEVEMENT_33_3_NAME",
-      "russian": "Верни долг"
+      "russian": "Верни долг",
+      "token": "NEW_ACHIEVEMENT_33_3_NAME"
     },
     "description": {
       "english": "Learn what happened to Kozlov",
-      "token": "NEW_ACHIEVEMENT_33_3_DESC",
-      "russian": "Узнать, что случилось с Козловым"
+      "russian": "Узнать, что случилось с Козловым",
+      "token": "NEW_ACHIEVEMENT_33_3_DESC"
     }
   },
   {
     "name": "Theseus_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/f80dbc0ac39b03d4d978fe27216b1d15d07d83dc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Theseus",
-      "token": "NEW_ACHIEVEMENT_33_4_NAME",
-      "russian": "Тесей"
+      "russian": "Тесей",
+      "token": "NEW_ACHIEVEMENT_33_4_NAME"
     },
     "description": {
       "english": "Uncover the secret of The Labyrinth",
-      "token": "NEW_ACHIEVEMENT_33_4_DESC",
-      "russian": "Раскрыть тайну Лабиринта"
+      "russian": "Раскрыть тайну Лабиринта",
+      "token": "NEW_ACHIEVEMENT_33_4_DESC"
     }
   },
   {
     "name": "ThisIsAllNotCoincidence",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/a9474f04224b891bf6e53b231269cb216688f1c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "This Is All (Not) Coincidence",
-      "token": "NEW_ACHIEVEMENT_33_5_NAME",
-      "russian": "Это всё (не) случайность"
+      "russian": "Это всё (не) случайность",
+      "token": "NEW_ACHIEVEMENT_33_5_NAME"
     },
     "description": {
       "english": "Find out what happened to a certain BEAR squad",
-      "token": "NEW_ACHIEVEMENT_33_5_DESC",
-      "russian": "Узнать, что произошло с отрядом BEAR"
+      "russian": "Узнать, что произошло с отрядом BEAR",
+      "token": "NEW_ACHIEVEMENT_33_5_DESC"
     }
   },
   {
     "name": "EnoughOfYourGames",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/2b530057c5e4d356d88bc2b5e44845f9b771525e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Enough of Your Games!",
-      "token": "NEW_ACHIEVEMENT_33_6_NAME",
-      "russian": "Достаточно твоих игр!"
+      "russian": "Достаточно твоих игр!",
+      "token": "NEW_ACHIEVEMENT_33_6_NAME"
     },
     "description": {
       "english": "Refuse to fall for Mr. Kerman's schemes",
-      "token": "NEW_ACHIEVEMENT_33_6_DESC",
-      "russian": "Не пойти на поводу у мистера Кермана"
+      "russian": "Не пойти на поводу у мистера Кермана",
+      "token": "NEW_ACHIEVEMENT_33_6_DESC"
     }
   },
   {
     "name": "EasyWay",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/9b102a7761670945fd20b40115767de2efbc18e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Easy Way",
-      "token": "NEW_ACHIEVEMENT_33_7_NAME",
-      "russian": "Лёгкий путь"
+      "russian": "Лёгкий путь",
+      "token": "NEW_ACHIEVEMENT_33_7_NAME"
     },
     "description": {
       "english": "Use the instructions given by TerraGroup. Wonder what could go wrong?",
-      "token": "NEW_ACHIEVEMENT_33_7_DESC",
-      "russian": "Использовать инструкцию от TerraGroup. Что может пойти не так?"
+      "russian": "Использовать инструкцию от TerraGroup. Что может пойти не так?",
+      "token": "NEW_ACHIEVEMENT_33_7_DESC"
     }
   },
   {
     "name": "U-Turn_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/db8fc32c842886121f4c3561acc8c02b417d3761.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "U-Turn",
-      "token": "NEW_ACHIEVEMENT_33_8_NAME",
-      "russian": "Поворот не туда"
+      "russian": "Поворот не туда",
+      "token": "NEW_ACHIEVEMENT_33_8_NAME"
     },
     "description": {
       "english": "Agree to the job only to change your mind after",
-      "token": "NEW_ACHIEVEMENT_33_8_DESC",
-      "russian": "Сначала согласиться на дело, но потом передумать"
+      "russian": "Сначала согласиться на дело, но потом передумать",
+      "token": "NEW_ACHIEVEMENT_33_8_DESC"
     }
   },
   {
     "name": "WillItBlow",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/29c88470c580a952156921f13121f142924115c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Will It Blow?",
-      "token": "NEW_ACHIEVEMENT_33_9_NAME",
-      "russian": "Рванёт?"
+      "russian": "Рванёт?",
+      "token": "NEW_ACHIEVEMENT_33_9_NAME"
     },
     "description": {
       "english": "Hand the case with dangerous contents to the wrong people. You clearly had no other choice!",
-      "token": "NEW_ACHIEVEMENT_33_9_DESC",
-      "russian": "Отдать чемодан с опасным содержимым не в те руки. У тебя просто не было выбора!"
+      "russian": "Отдать чемодан с опасным содержимым не в те руки. У тебя просто не было выбора!",
+      "token": "NEW_ACHIEVEMENT_33_9_DESC"
     }
   },
   {
     "name": "LittleTriumphs",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/d81d4fe9d36f99b0b56905c9507d243e785479e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Little Triumphs",
-      "token": "NEW_ACHIEVEMENT_33_10_NAME",
-      "russian": "Мелочь, а приятно"
+      "russian": "Мелочь, а приятно",
+      "token": "NEW_ACHIEVEMENT_33_10_NAME"
     },
     "description": {
       "english": "Gather evidence of all of TerraGroup's \"minor\" misdeeds",
-      "token": "NEW_ACHIEVEMENT_33_10_DESC",
-      "russian": "Добыть доказательства всех мелких прегрешений TerraGroup"
+      "russian": "Добыть доказательства всех мелких прегрешений TerraGroup",
+      "token": "NEW_ACHIEVEMENT_33_10_DESC"
     }
   },
   {
     "name": "IAmSpeed",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/e9ecef7218c83841cd6c0dbca3baacb3b440fefd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "I Am Speed",
-      "token": "NEW_ACHIEVEMENT_33_11_NAME",
-      "russian": "Я скорость"
+      "russian": "Я скорость",
+      "token": "NEW_ACHIEVEMENT_33_11_NAME"
     },
     "description": {
       "english": "Complete Prapor's tasks within three days",
-      "token": "NEW_ACHIEVEMENT_33_11_DESC",
-      "russian": "Уложиться в три дня, выполняя задания Прапора"
+      "russian": "Уложиться в три дня, выполняя задания Прапора",
+      "token": "NEW_ACHIEVEMENT_33_11_DESC"
     }
   },
   {
     "name": "BetterServed",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/929761806101e46f80d14fc77c159b4999bf8aad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Better Served",
-      "token": "NEW_ACHIEVEMENT_33_12_NAME",
-      "russian": "Себе нужнее"
+      "russian": "Себе нужнее",
+      "token": "NEW_ACHIEVEMENT_33_12_NAME"
     },
     "description": {
       "english": "Refuse to sell TerraGroup technology",
-      "token": "NEW_ACHIEVEMENT_33_12_DESC",
-      "russian": "Отказаться от продажи технологий TerraGroup"
+      "russian": "Отказаться от продажи технологий TerraGroup",
+      "token": "NEW_ACHIEVEMENT_33_12_DESC"
     }
   },
   {
     "name": "WhenTheLightFades",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/0f8100587bb77ee4a1030cb0641177e5f583390d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "When the Light Fades",
-      "token": "NEW_ACHIEVEMENT_33_13_NAME",
-      "russian": "И свет погас"
+      "russian": "И свет погас",
+      "token": "NEW_ACHIEVEMENT_33_13_NAME"
     },
     "description": {
       "english": "Free Tarkov from the priests' eyes",
-      "token": "NEW_ACHIEVEMENT_33_13_DESC",
-      "russian": "Обезопасить Тарков от наблюдения жрецов"
+      "russian": "Обезопасить Тарков от наблюдения жрецов",
+      "token": "NEW_ACHIEVEMENT_33_13_DESC"
     }
   },
   {
     "name": "Story1_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/67f2d2707408bb164a52c6a2724f746124f19b86.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Survivor",
-      "token": "NEW_ACHIEVEMENT_33_14_NAME",
-      "russian": "Выживший"
+      "russian": "Выживший",
+      "token": "NEW_ACHIEVEMENT_33_14_NAME"
     },
     "description": {
       "english": "Escape from Tarkov no matter the cost",
-      "token": "NEW_ACHIEVEMENT_33_14_DESC",
-      "russian": "Сбежать из Таркова во что бы то ни стало"
+      "russian": "Сбежать из Таркова во что бы то ни стало",
+      "token": "NEW_ACHIEVEMENT_33_14_DESC"
     }
   },
   {
     "name": "Story2_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/e46de578e0e0bddcbbabba37b5618a9e6bb815eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Fallen",
-      "token": "NEW_ACHIEVEMENT_33_15_NAME",
-      "russian": "Падший"
+      "russian": "Падший",
+      "token": "NEW_ACHIEVEMENT_33_15_NAME"
     },
     "description": {
       "english": "Escape from Tarkov only to fall in the darkness",
-      "token": "NEW_ACHIEVEMENT_33_15_DESC",
-      "russian": "Сбежать из Таркова, чтобы сорваться во тьму"
+      "russian": "Сбежать из Таркова, чтобы сорваться во тьму",
+      "token": "NEW_ACHIEVEMENT_33_15_DESC"
     }
   },
   {
     "name": "Story3_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/0c05d7802557ce33d4a7904f9cb1507a1c980cac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Debtor",
-      "token": "NEW_ACHIEVEMENT_33_16_NAME",
-      "russian": "Должник"
+      "russian": "Должник",
+      "token": "NEW_ACHIEVEMENT_33_16_NAME"
     },
     "description": {
       "english": "Escape from Tarkov without ever escaping from yourself",
-      "token": "NEW_ACHIEVEMENT_33_16_DESC",
-      "russian": "Сбежать из Таркова, так и не убежав от самого себя"
+      "russian": "Сбежать из Таркова, так и не убежав от самого себя",
+      "token": "NEW_ACHIEVEMENT_33_16_DESC"
     }
   },
   {
     "name": "Story4_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/3acadf793b12eb83cb7d3d177ace83ddb47c17ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Savior",
-      "token": "NEW_ACHIEVEMENT_33_17_NAME",
-      "russian": "Спаситель"
+      "russian": "Спаситель",
+      "token": "NEW_ACHIEVEMENT_33_17_NAME"
     },
     "description": {
       "english": "Escape from Tarkov to save the humanity",
-      "token": "NEW_ACHIEVEMENT_33_17_DESC",
-      "russian": "Сбежать из Таркова, чтобы спасти человечество"
+      "russian": "Сбежать из Таркова, чтобы спасти человечество",
+      "token": "NEW_ACHIEVEMENT_33_17_DESC"
     }
   },
   {
     "name": "Prestige5_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/d6ee1b6b701d29353313137386dc58ad0f84e696.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "Five Plus",
-      "token": "NEW_ACHIEVEMENT_33_22_NAME",
-      "russian": "На пятёрку"
+      "russian": "На пятёрку",
+      "token": "NEW_ACHIEVEMENT_33_22_NAME"
     },
     "description": {
       "english": "Earn the Prestige level 5",
-      "token": "NEW_ACHIEVEMENT_33_22_DESC",
-      "russian": "Получить пятый уровень Престижа"
+      "russian": "Получить пятый уровень Престижа",
+      "token": "NEW_ACHIEVEMENT_33_22_DESC"
     }
   },
   {
     "name": "Prestige6_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/559b3665f9bf82c3de016fad198286b23c5b6161.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3932890/eb850feafa44d33dec59b6103388459a87da347e.jpg",
     "displayName": {
       "english": "No Limit To Perfection",
-      "token": "NEW_ACHIEVEMENT_33_23_NAME",
-      "russian": "Нет предела совершенству"
+      "russian": "Нет предела совершенству",
+      "token": "NEW_ACHIEVEMENT_33_23_NAME"
     },
     "description": {
       "english": "Earn the Prestige level 6",
-      "token": "NEW_ACHIEVEMENT_33_23_DESC",
-      "russian": "Получить шестой уровень Престижа"
+      "russian": "Получить шестой уровень Престижа",
+      "token": "NEW_ACHIEVEMENT_33_23_DESC"
     }
   }
 ]

@@ -1,27 +1,48 @@
 [
   {
     "name": "num_gameover",
-    "defaultvalue": 0,
-    "displayName": "Gameover Count"
+    "displayName": "Gameover Count",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
   },
   {
     "name": "num_equipment",
-    "defaultvalue": 0,
-    "displayName": "Equipment Comp"
+    "displayName": "Equipment Comp",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "default": 0
   },
   {
     "name": "num_cat",
-    "defaultvalue": 1,
-    "displayName": "CatLevel"
+    "displayName": "CatLevel",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1,
+    "max": 6,
+    "default": 1
   },
   {
     "name": "num_golem",
-    "defaultvalue": 1,
-    "displayName": "GolemLevel"
+    "displayName": "GolemLevel",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1,
+    "max": 6,
+    "default": 1
   },
   {
     "name": "num_fairy",
-    "defaultvalue": 1,
-    "displayName": "FairyLevel"
+    "displayName": "FairyLevel",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 1,
+    "max": 6,
+    "default": 1
   }
 ]

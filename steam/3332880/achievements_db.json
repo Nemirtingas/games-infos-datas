@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_ENTER_HUB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/9b262e7d55c1bc5d8236ec8be78dc224aefb6cbe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/bb4f94627fb98eb634d66dfd6953a9df3fd0a373.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_BREAK_BLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/b3ae1d621881b66f10e3d9c3cd294b2a61ed7cd2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/2ff2283c939def0dde608479f503db2d3dd3cf6f.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Match a total of 1000 blocks",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "BREAK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BREAK",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_UNLOCK_SKIN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/cedb44180920d99d20877d0183879fa97cb52ed6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/99e255f5ef950faf8c2101b4ceab3ba6dbf28bbd.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_UNLOCK_MUSEUM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/4b601e76deb2a1f975190e88f9224801dfd28843.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/3b88a05ef53113d4ffa5e99898c82cc216cb973e.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_COMPLETE_MUSEUM",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/6a6efff5f20207593615289184f2e80bd446f9c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/9966a6e6c6ab7651a27d2bf1d48317a86e8b1080.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_PAY_GODS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/bee5dbde364c4c3bf99862d2fd4e8ca131fbf9ae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/688a9e0ad4b35e4f41fdcf38dcfe7c912b453aec.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_WILD_STAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/35028f1792f7b1d02b34c413d8bda6906e4c2678.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/d43126dd3928538a4288100d81d316a17d914b4f.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_HEALTH_UP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/60797fb8dc9086d4336e14372aa40e4648c9bb47.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/f1c89e6f07fe7268ca5b3cad726d16f5062ccb7e.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_HATCH_EGG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/705fd51cb87867a7f9c1ae2c067bbd7a45189d10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/2446afdcecf58e3965c14c56a1e71fca6336aaf2.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACH_HATCH_MORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/bd5ec5d9480688eabfb8e27dc40c5fda59436441.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/eb211d7b6d34095e4530f302d7dedf5d81b21ab1.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Hatch 300 eggs",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "EGGS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EGGS",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ACH_COMPLETE_WELL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/6f335abc1898dbbddf33754ddc9f2192d08248ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/bddf2263d16356b459bac7bc746c301db56b6e05.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ACH_COMPLETE_LEPRECHAUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/00c13e5b221f802741833a1b05c1c5737a47a2c8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/1a83559bd674d4d7dd92b9628f78e22a513dd71e.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ACH_BREAK_MORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/9d657b501c32459b18dc0b4ce70b3318d5229d8f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/d3085750a3373cc6fcd9acf6bf91a714174a1776.jpg",
     "displayName": {
@@ -190,15 +194,17 @@
       "english": "Match a total of 10,000 blocks",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "BREAK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BREAK",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ACH_HATCH_SOME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/523746888545e6cbbd0fbd79047cddd2da1bdc10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/e147bc82a63e981ea48301b980da409c86072254.jpg",
     "displayName": {
@@ -209,15 +215,17 @@
       "english": "Hatch 100 eggs",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "EGGS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EGGS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_MAX_BLOCKMAGICIAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/c7b4023cce2b8dfdf8b6c7453cce2fbac7d5dfb2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/817da3a188398bf73daf03242f27e37def46606e.jpg",
     "displayName": {
@@ -231,7 +239,7 @@
   },
   {
     "name": "ACH_THOUSAND_RESOURCES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/6a7540313cd8e00c503dbdb6b395e24e41f8cd98.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/8b801ebb9d3ac248e808efc2370d6faf1284a08d.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "ACH_UNLOCK_AMMONITE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/62ee45ae86aa27d1c2b94e7ee627d893ca81e31d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/4813f63291d96bc0650f5953c13c2cc74099ebaf.jpg",
     "displayName": {
@@ -259,7 +267,7 @@
   },
   {
     "name": "ACH_HUNDRED_CHESTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/59af6b1fd87cbee7affe02b767467ca9b2557fdc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3332880/1e686fb8976848380846aefa0b91fba66d84dbb1.jpg",
     "displayName": {
@@ -270,10 +278,12 @@
       "english": "Open 100 chests in the hub",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "CHEST"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CHEST",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

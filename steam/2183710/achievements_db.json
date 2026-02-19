@@ -1,7 +1,7 @@
 [
   {
     "name": "THREE_IN_ROW_ANY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/a09528ba16603927be2a04fb265e8c20b637c83c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/a668226ae17064670b075809b218b2801f7f28ff.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "THREE_IN_ROW_LINE1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/985bcc9495f4bc6555687f2d2423b989d2c846d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/ea95b8efca93eb82de2db34bbebf5ae94f8a14ae.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "THREE_IN_ROW_LINE2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/5511e438166149b56fb4c7ce052d4cf1582080c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/eafd56102757b3c22235358859249b3f1ff1e00a.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "THREE_IN_ROW_LINE3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/32d2d4fcc3620b7ebf166fceb2542ecda4389215.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/b85cd49d1b0039deb245b4bed84bca4917fa0e8d.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "WILD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/b786a8df205aa091f74d19949508c9217f3bd035.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/d64b918421f3f0579eb090830da529f127b08422.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "RED_BLACK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/48d67bf28fc83d98207903bb4fc78e05bf7c00f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/0e29bc9f29f0e048b37b5f226d6473441d88309e.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "CASH_OUT_5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/5f9594ccd6cdc065253764fecb1dd60e02998a6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/4563d2c72a405f0e671cbb986e0680d8fd3b1da5.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "CASH_OUT_50000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/4c9fb9b403768393682aebafb97981d1568d1d0c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/579c39a1f7dc33c6f3222b0e692d16d67b8f558b.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "GREAT_WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/cb3888c192c64e406967b4092d535d18efbf6bfe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/d6406e2437167246fd29460a77f7549931cf8f15.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Get a GREAT WIN ten times",
       "token": "NEW_ACHIEVEMENT_5_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_greatwin"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_greatwin",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "JACKPOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/0bdd8d793a86dbe89310c03b36a9a2e4d7aad84c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/884260574faa90677e0f6632c191a316477f8e00.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Get a JACKPOT five times",
       "token": "NEW_ACHIEVEMENT_5_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "stat_jackpot"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_jackpot",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "FREE_SPINS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/340a4a2a11b3234465e2b01641f98026a2ee8e6b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/0c1512a7d4c68008a258dab7b260f56b092fc202.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Clock up 100 free spins",
       "token": "NEW_ACHIEVEMENT_5_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_freespin"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_freespin",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "BONUS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/fc1f06a2e663c66b6fad4f6416489d2c7e7b0c80.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183710/84a8b7c3422f4bc5b1f2f4d108975180ec3b9b85.jpg",
     "displayName": {
@@ -181,10 +187,12 @@
       "english": "Collect 50 bonuses",
       "token": "NEW_ACHIEVEMENT_5_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "stat_bonus"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_bonus",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   }
 ]

@@ -46,8 +46,9 @@
     "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "min": 0,
-    "default": 0
+    "min": 0.0,
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "shotEffectiveness",
@@ -55,9 +56,10 @@
     "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "min": 0,
-    "max": 1000000,
-    "default": 0
+    "min": 0.0,
+    "max": 1000000.0,
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "skillRating",
@@ -65,8 +67,8 @@
     "type": "float",
     "incrementonly": false,
     "aggregated": false,
-    "maxchange": 100,
-    "default": 1000
+    "maxchange": 100.0,
+    "default": 1000.0
   },
   {
     "name": "profileHandle_hi",

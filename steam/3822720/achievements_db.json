@@ -1,7 +1,7 @@
 [
   {
     "name": "beat_developer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/2608d51d7596e4c918f070ebcf16a34b76ba3349.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/e06cdb46333a164e6bd673602bcb0932c18a5d58.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ascension",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/a2fe2dca36b935a712a4d043272bf9283b655bd8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/e06cdb46333a164e6bd673602bcb0932c18a5d58.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "crispy_wizard",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/84ab5d59a6968a1fe4be133aa59897f0e6646641.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/e06cdb46333a164e6bd673602bcb0932c18a5d58.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "treasures_and_glory",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/1584c52d81c453c9a7d5edd8bea260ba9c9be1f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/e06cdb46333a164e6bd673602bcb0932c18a5d58.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "defeat_sorcerer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/a26db02445774f55d0682341a264853e87f8e5fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/e06cdb46333a164e6bd673602bcb0932c18a5d58.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "defeat_skull",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/1de89f9a2f8002c1187778c688821a311779ce3b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/e06cdb46333a164e6bd673602bcb0932c18a5d58.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "defeat_slimehead",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/368eb10c86191a59817527fa448aa4dcd8a65d42.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/e06cdb46333a164e6bd673602bcb0932c18a5d58.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "defeat_tikigolem",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/e71fb4bceaf8475c367e1df8a3eff4f617a4af64.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/e06cdb46333a164e6bd673602bcb0932c18a5d58.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "reach_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/c1f0e3f1086b454541a0b550655ec15da34cbdf5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/e06cdb46333a164e6bd673602bcb0932c18a5d58.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "total_200",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/734b42706df8b9e1a461af68a09d258591981d64.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/e06cdb46333a164e6bd673602bcb0932c18a5d58.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Survive 200 waves total.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "wave_total"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "wave_total",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "total_400",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/52a69d99d4c48dd3b2357632b1576253b74a6346.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/e06cdb46333a164e6bd673602bcb0932c18a5d58.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Survive 400 waves total.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 400,
-      "stat_name": "wave_total"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "wave_total",
+        "min_val": 0,
+        "max_val": 400
+      }
+    ]
   },
   {
     "name": "total_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/197e149cb2e2f96ac71ed5071cf85b32c03c8379.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3822720/e06cdb46333a164e6bd673602bcb0932c18a5d58.jpg",
     "displayName": {
@@ -176,10 +180,12 @@
       "english": "Survive 1000 waves total.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "wave_total"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "wave_total",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

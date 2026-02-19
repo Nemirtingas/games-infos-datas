@@ -1,7 +1,7 @@
 [
   {
     "name": "FIRST_MATCH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3026250/a217044c7685daf2e770115584f4bf33eada5313.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3026250/c04cfabce7ee12470382a1af182c370e706916f7.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "STAMINA_EMPTY",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3026250/de7026381083135a73f4a469a834d21ce48456a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3026250/c04cfabce7ee12470382a1af182c370e706916f7.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "QTE_MASTER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3026250/a217044c7685daf2e770115584f4bf33eada5313.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3026250/c04cfabce7ee12470382a1af182c370e706916f7.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Trigger QTE successfully for 50 times",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "QTE_TIMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "QTE_TIMES",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "SHOTGUN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3026250/5e7721246fedfa2408d2f6b26439e7f921601979.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3026250/b4485bafd446a2c7684c28b3cf427c36d4b45ccf.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "TRAP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3026250/5e7721246fedfa2408d2f6b26439e7f921601979.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3026250/b4485bafd446a2c7684c28b3cf427c36d4b45ccf.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "PAWS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3026250/5e7721246fedfa2408d2f6b26439e7f921601979.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3026250/b4485bafd446a2c7684c28b3cf427c36d4b45ccf.jpg",
     "displayName": {

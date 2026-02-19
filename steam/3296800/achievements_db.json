@@ -1,7 +1,7 @@
 [
   {
     "name": "LOGGED_IN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3296800/af2c3be8ea38a53a4cd98721c852ce1eebbf02bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3296800/884102ddeec9bb057d7dede8e92f4ec670a8ab3b.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "SEASON_DOUBLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3296800/af2c3be8ea38a53a4cd98721c852ce1eebbf02bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3296800/884102ddeec9bb057d7dede8e92f4ec670a8ab3b.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Doubled investment in a single season.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "seasonprofit"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "seasonprofit",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "LIFETIME_MILLION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3296800/276935b38851d125c04493175d0524d5929a4145.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3296800/38b1ad9d543432739a9fc8e0094b21430c26b75e.jpg",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "Earned one million in all-time profits.",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "lifeprofit"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "lifeprofit",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "PREMIUM_NEWS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3296800/31b4f61c5a63f191e3490282f271565584c2965d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3296800/23ea1f62969cd3650011cf98ce7822fed16c6f93.jpg",
     "displayName": {
@@ -67,7 +71,7 @@
   },
   {
     "name": "SEASON_MILLION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3296800/914cc8d63216dd51735804448b473cb542b1fdf2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3296800/5ea25826dbfc8cabe39d884611095a217408f53f.jpg",
     "displayName": {
@@ -78,10 +82,12 @@
       "english": "Earn one million profit in a single season.",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "seasonprofit"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "seasonprofit",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   }
 ]

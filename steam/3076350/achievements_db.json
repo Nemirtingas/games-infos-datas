@@ -1,7 +1,7 @@
 [
   {
     "name": "NEW_ACHIEVEMENT_1_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/bd87b25919643ec99b63466b0d27dfadcff91fad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/bd87b25919643ec99b63466b0d27dfadcff91fad.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/b2bf7d00e975b7613a953ae6eb2a0ea7e7711eac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/b2bf7d00e975b7613a953ae6eb2a0ea7e7711eac.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/bda0124bf18602c7d7f2886d3bb029ebec0597eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/bda0124bf18602c7d7f2886d3bb029ebec0597eb.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/8753efacefdfd803eb74e02f480ce1b2e32fc5a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/8753efacefdfd803eb74e02f480ce1b2e32fc5a8.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/b98d712aa03d0c0b98b64318342c3e870c60536c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/b98d712aa03d0c0b98b64318342c3e870c60536c.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/dd4984ac2de817b93f3a009eb702018b9e49f240.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/dd4984ac2de817b93f3a009eb702018b9e49f240.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/93a8d7a0e70bc382a7e4f39892c8ad60f1ae0185.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/93a8d7a0e70bc382a7e4f39892c8ad60f1ae0185.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Spin the lucky wheel 10 times.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "lucky_wheel_spins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "lucky_wheel_spins",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_8",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/039230a26098b81a27df1567476cf37cc57de3bf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/039230a26098b81a27df1567476cf37cc57de3bf.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Spin the lucky wheel 100 times.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "lucky_wheel_spins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "lucky_wheel_spins",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_9",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/faa15e9dc5c36517e9a58fde63c678e9cb1c5a35.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/faa15e9dc5c36517e9a58fde63c678e9cb1c5a35.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Spin the lucky wheel 250 times.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "lucky_wheel_spins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "lucky_wheel_spins",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/eb250e3983dedb7ccbe6d93a7aa96598536afd9b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/eb250e3983dedb7ccbe6d93a7aa96598536afd9b.jpg",
     "displayName": {
@@ -153,15 +159,17 @@
       "english": "Spin the lucky wheel 500 times.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "lucky_wheel_spins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "lucky_wheel_spins",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_11",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/ec8b678284bb2f09ed8331c9422bc9682fbd3fbb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/ec8b678284bb2f09ed8331c9422bc9682fbd3fbb.jpg",
     "displayName": {
@@ -172,15 +180,17 @@
       "english": "Spin the lucky wheel 1'000 times.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "lucky_wheel_spins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "lucky_wheel_spins",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "FAVORITE_SHELF",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/43eb1f875f6cc3e60cdfb8c5773273d5b4f6d5fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/43eb1f875f6cc3e60cdfb8c5773273d5b4f6d5fb.jpg",
     "displayName": {
@@ -194,7 +204,7 @@
   },
   {
     "name": "LOTTERY_PARTICIPATION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/e74d7b9fa1a30baac45f4d2a7d9c374b4549f92b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3076350/e74d7b9fa1a30baac45f4d2a7d9c374b4549f92b.jpg",
     "displayName": {

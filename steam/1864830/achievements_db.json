@@ -1,97 +1,103 @@
 [
   {
     "name": "CreatorAchievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1864830/cea13dce90ace6004a4cfa45af0d0c0213cc4e2f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1864830/621b9c9b81952a0d043576c0e78bf55d84457bb5.jpg",
     "displayName": {
       "english": "Creator",
+      "japanese": "クリエイター",
       "schinese": "创作者",
       "tchinese": "創作者",
-      "japanese": "クリエイター",
       "token": "NEW_ACHIEVEMENT_1_2_NAME"
     },
     "description": {
       "english": "Open the game editor",
+      "japanese": "ゲームエディタを開く",
       "schinese": "开启游戏编辑器",
       "tchinese": "開啟遊戲編輯器",
-      "japanese": "ゲームエディタを開く",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     }
   },
   {
     "name": "Win_Normal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1864830/cea13dce90ace6004a4cfa45af0d0c0213cc4e2f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1864830/621b9c9b81952a0d043576c0e78bf55d84457bb5.jpg",
     "displayName": {
       "english": "A piece of cake",
+      "japanese": "朝飯前",
       "schinese": "小菜一碟",
       "tchinese": "小菜一碟",
-      "japanese": "朝飯前",
       "token": "NEW_ACHIEVEMENT_1_3_NAME"
     },
     "description": {
       "english": "Defeat 10 normal enemies.",
+      "japanese": "通常の敵を10回倒す",
       "schinese": "战胜十次普通敌人",
       "tchinese": "戰勝十次普通敵人",
-      "japanese": "通常の敵を10回倒す",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "Win_EnemyType_Normal"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Win_EnemyType_Normal",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Win_Elite",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1864830/cea13dce90ace6004a4cfa45af0d0c0213cc4e2f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1864830/621b9c9b81952a0d043576c0e78bf55d84457bb5.jpg",
     "displayName": {
       "english": "A small test of skills",
+      "japanese": "試し斬り",
       "schinese": "牛刀小试",
       "tchinese": "牛刀小試",
-      "japanese": "試し斬り",
       "token": "NEW_ACHIEVEMENT_1_4_NAME"
     },
     "description": {
       "english": "Defeat 10 elite enemies",
+      "japanese": "エリートの敵を10回倒す",
       "schinese": "战胜十次菁英敌人",
       "tchinese": "戰勝十次菁英敵人",
-      "japanese": "エリートの敵を10回倒す",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "Win_EnemyType_Elite"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Win_EnemyType_Elite",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Win_Boss",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1864830/cea13dce90ace6004a4cfa45af0d0c0213cc4e2f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1864830/621b9c9b81952a0d043576c0e78bf55d84457bb5.jpg",
     "displayName": {
       "english": "Boss Slayer",
+      "japanese": "ボススレイヤー",
       "schinese": "Boss杀手",
       "tchinese": "Boss殺手",
-      "japanese": "ボススレイヤー",
       "token": "NEW_ACHIEVEMENT_1_6_NAME"
     },
     "description": {
       "english": "Defeat 10 Bosses",
+      "japanese": "ボスを10回倒す",
       "schinese": "战胜十次Boss",
       "tchinese": "戰勝十次Boss",
-      "japanese": "ボスを10回倒す",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "Win_EnemyType_Boss"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Win_EnemyType_Boss",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   }
 ]

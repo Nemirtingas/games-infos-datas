@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_ACAB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/fec9621c78ef865415a1232c9625231c98a7ff1f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/70e7e5f66c140e6d382bb349069ab01d352cb8b6.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_BASKETBALL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/cd43ff0690c97127796304f33fb92d16bf8eef6f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/49cf5015e826852b5138f9a29227326b91f70964.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_FEEDDUCKS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/8bd12071cd6343cf11ee61379fd335b19d7f52e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/f64474155cf754719fb93913dd1d3738290573b1.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_CHEATER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/4b265729320c5341b68aa10462fb28ba41901bc3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/a33016f319f549e5a6a5305418f070088faca16b.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_OVERTIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/38e80e4bf4404bbfc4d59534d37acec0c0810e32.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/a6a61abe22758c7593ed9379a8f1fe60933aa15f.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_ALLRIDERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/d2046fa28e2ab1f042521b0471e573252b797a40.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/5a79b674d02eb6843e8b8e64937066a28c759ef7.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_BALLSOFF",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/91ac6217d8a2d26a43c3178b6462133c954ac9d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/0cd54bf31aecad6472e7a4a28c5dfd67d2d2f331.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_COMBO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/df6761efdb9106fae63c8f7a2bfc99261b53f37d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/55154ae5bb36b068e2ccedb4d0dcf6725acefadb.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_TONY",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/cd5614a494d5fec5bb0cda6461b87a3a8234e0d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/46bc3d643e70af9b367014b4f68b738bde4c3d91.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "ACH_NICE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/1ceea6b85222bf19a01b82c7bcb8421654f90b6f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204900/458682c00a96cb9a21a9f08a5b4f58c6ceb4dc46.jpg",
     "displayName": {
@@ -138,10 +138,12 @@
       "english": "Bail 69 times",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 69,
-      "stat_name": "STAT_BAILS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_BAILS",
+        "min_val": 0,
+        "max_val": 69
+      }
+    ]
   }
 ]

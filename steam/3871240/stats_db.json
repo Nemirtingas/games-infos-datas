@@ -2,17 +2,22 @@
   {
     "name": "pad_hit",
     "displayName": "PadHit",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 5,
+    "min": 0,
+    "max": 3000000,
+    "default": 0
   },
   {
     "name": "time",
     "displayName": "Time",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 9999999.0,
+    "default": 0.0
   }
 ]

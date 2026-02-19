@@ -1,7 +1,7 @@
 [
   {
     "name": "CONTRACT_SIGNED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/9fe65f562e61d71a41422ed6c90f531cc28c0edd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/e9476d6fb839aefe862d1790fb1655a8a8a4a8b3.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "DIED_FIRST_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/4757d4cd85f6b59a60f4122254fd2db5c24a8ede.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/52bdd78c5b31dbedd4c34a518c7051e09cadb412.jpg",
     "displayName": {
@@ -30,15 +30,17 @@
       "polish": "Spokojnie, za pierwszym razem często tak bywa. Spróbuj jeszcze raz, diablice lubią wytrwałych.",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "stat_deaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_deaths",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "DIED_100_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/049b173526ef935b93d46ba7484e1c1cea8d1d77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/a436ac5afc77361ece670ed1e4dea8d39ebdfbd1.jpg",
     "displayName": {
@@ -51,15 +53,17 @@
       "polish": "Zginąłeś 100 razy. Albo jesteś masochistą, albo naprawdę, naprawdę chcesz zaimponować tej diablicy na końcu.",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_deaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_deaths",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "COMPLETE_LOBBY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/58226230ae8914b7602cfde8886b1ff948446edd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/40b078975d2cec055186ddec00a0c4585760c453.jpg",
     "displayName": {
@@ -75,7 +79,7 @@
   },
   {
     "name": "COMPLETE_CARNIVAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/c9ddfeb8b737b37123f60fe3eeef9664f88ad639.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/e185735fdfe4b6e225fe400c127a229072047080.jpg",
     "displayName": {
@@ -91,7 +95,7 @@
   },
   {
     "name": "COMPLETE_KITCHEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/2e3b7a996195288094ce0fb1dc4b87bc8115bc2e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/cf27079a93ae211feda027e8f4dfab9b8b9cc4b9.jpg",
     "displayName": {
@@ -107,7 +111,7 @@
   },
   {
     "name": "COMPLETE_FORTRESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/ea62fb88ddb7fe50de515ce94411c2a49052123c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/9fd3f7d4a7149f148820ac6e7531e4a1911dcd68.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "COMPLETE_MAIN_STORY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/423d5c6027be5a9e4933f8a872357ba11e425e13.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/11bf9a6f59e000b68dba0a7d73b208a24295ae79.jpg",
     "displayName": {
@@ -139,7 +143,7 @@
   },
   {
     "name": "NO_DAMAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/02817663790132dcd1fd83273d6ada796d375632.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/5cbd1b71acffb2df9e36fdc559a3d145106c13c8.jpg",
     "displayName": {
@@ -155,7 +159,7 @@
   },
   {
     "name": "SPEEDRUNNER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/bcae6931c0937c3d19ca852e700118ab4663f28a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/bcae94cb62cf097778770e6383bf161e5d4b47b6.jpg",
     "displayName": {
@@ -171,7 +175,7 @@
   },
   {
     "name": "SECRET_FOUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/a3e1db1a844de7a90177357cad3627abb9526739.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/1e0569bf2d00111cc3de0a708f26db70781e3c39.jpg",
     "displayName": {
@@ -187,7 +191,7 @@
   },
   {
     "name": "COLLECT_ALL_PENTAGRAMS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/bf9e07e3fd06f596514f1894711cd9605dd857c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/d4f219c48b492eb30545c65f5809e8ad14361a42.jpg",
     "displayName": {
@@ -203,7 +207,7 @@
   },
   {
     "name": "COLLECT_666_SOULS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/93587f2bfc129fbc3ce37b8317f51d6eda5f9a83.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/6f3d4c5e5304e797863a4d9e0354a16be89ca43d.jpg",
     "displayName": {
@@ -216,15 +220,17 @@
       "polish": "Zgromadź 666 dusz. Taka kolekcja to niezły afrodyzjak. Diablice już ustawiają się w kolejce po twoje... duszki.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 666,
-      "stat_name": "stat_souls"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_souls",
+        "min_val": 0,
+        "max_val": 666
+      }
+    ]
   },
   {
     "name": "DRESS_HACHI_FULL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/6598f56b217551f8d2a64ffa4393d4f8a68ad072.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/d7b2c9c5b17e10885499570c67dd0e294e7f1fdd.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "TALK_ALL_GIRLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/46f68bfd3d376b8731f1ee313b048ed4472f1919.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3769400/26720fe5614e35fe3cbd706b7f9b6648e8d3c98e.jpg",
     "displayName": {

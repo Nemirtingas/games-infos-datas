@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FIRST_SPARK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/afa38b64861bb1b0e733642b88ff19debd8791c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/03dfec31f64f2ebdc8985cf29a9461c12b9e2ea3.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_CHECKPOINT_CHAMP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/423973627e0cdd9296d6edbd955e2e02f526894e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/2a67a9968e43b5b8719edad31bdd37689747e5eb.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Reach 10 different checkpoints.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "checkpoints_reached"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "checkpoints_reached",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_FIRST_DELIVERY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/231bdcb5f3a3a183bf86d99735191836355d410c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/b5c4562571be9c75abdd56ebb7fe513b5cf9fd1b.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_IRON_ROUTINE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/fa24cfeaf3e7e40f60275eccbe4d9dbbc0a95ce6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/87e3ca57b6ac5f70aadcaafa519a59c229801394.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_WALLRUNNER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/0b839768061d2e23399cc8ecae3392342de08e88.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/4e895503095f6486c45daa4d850d71472c8bac2d.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_GRAPPLE_GOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/633ed97acbe3ca9c710ea3a06543f5640fa89ede.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/5cf0d15105942c078606d7d64659bed9bb3dd1b4.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_JUMPPAD_JUNKIE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/028ce21ae68958e336d63a1939c979ccfeaf50f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/99cfa8a00b59207c2ab79e04367a0c8990e7f29d.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_ON_THE_BUZZER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/d7a13617a19f97143fce6178d765d874dd59f7e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/fa04b52567d72e98c77045ef26ebc5c3890df123.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_METRONOME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/9df4cf0ada404072914d464c9cd7db803ebbad98.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/71e2a2683777fdb6e1b53cd5dd95ef9d3b541e92.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACH_GRAVITY_LOVES_YOU",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/74cc8400f049774016eb9ba2f7955b4b62d1fda5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/d3fde5f24a8f40217387d9b366189d3019f2f43d.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Fall to your doom 25 times.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "falls_to_death"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "falls_to_death",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACH_PADDED_GROUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/29af19c23e4d18f7c60ec08ded110ffefec30743.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/3f4119dd382fb8db286a2d76e7a7cb08bd88ce6d.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Die to fast-fall 10 times.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "fastfall_deaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "fastfall_deaths",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_OOPS_ALL_BOOMS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/41c78aa1011e8bc4dba2151674538b1f84f295cc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/9697945292950ed01030931512972345bf81034e.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Trigger 10 bomb explosions.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "bomb_explosions"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "bomb_explosions",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_SILENT_RUN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/9a9d49c40f0abde2acbc3520545f21fc0ef66960.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/4558eb00ac4a5e188d5f148a8dcc74c505da51d2.jpg",
     "displayName": {
@@ -203,7 +211,7 @@
   },
   {
     "name": "ACH_RAM_BANTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/065fed78caf04b0d6a665bb5d25fa1addc5ccc8d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/b9925b7c858f12507b6ce397d7c83fd98d4f0de0.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "Trigger 10 unique Komutan R.A.M. quips.",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "ram_banter_triggers"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ram_banter_triggers",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_MARATHONER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/76d6215b8283e1549a99cddb89a35c5012c18a60.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/8db9e5745ae63c90d7a5b1b1567cc434975cbd17.jpg",
     "displayName": {
@@ -236,7 +246,7 @@
   },
   {
     "name": "ACH_BEST_TRAINING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/2969e9f2361bbf964d94989eed3fbb3dc7dd1ec0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3673320/a0fb27fdd73047aae2457fe804e149f1956a20a0.jpg",
     "displayName": {

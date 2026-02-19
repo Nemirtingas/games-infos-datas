@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_GOAL_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776660/",
     "displayName": {
@@ -11,10 +11,12 @@
     "description": {
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "ACH_GOAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_GOAL",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

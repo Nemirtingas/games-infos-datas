@@ -1,7 +1,7 @@
 [
   {
     "name": "HELLO WORLD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1243310/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1243310/",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "YOUR FIRST ACHIEVEMENT",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "Kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Kills",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "Welcome to Turret!",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1243310/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1243310/",
     "displayName": {
@@ -31,15 +33,17 @@
       "english": "Lets get ready to rumble!",
       "token": "NEW_ACHIEVEMENT_2_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "Logins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Logins",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "Tank Buster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1243310/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1243310/",
     "displayName": {
@@ -50,10 +54,12 @@
       "english": "Killed 5 Tanks",
       "token": "NEW_ACHIEVEMENT_2_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 400,
-      "stat_name": "Kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Kills",
+        "min_val": 1,
+        "max_val": 400
+      }
+    ]
   }
 ]

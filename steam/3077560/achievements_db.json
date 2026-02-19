@@ -1,7 +1,7 @@
 [
   {
     "name": "Started",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/a014b801ac656f5a6a3ac1064bf2dd3dcfdb46be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/1141f35f04bad4173d682575c32d5ef4f1b61147.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "First_Step",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/5e381b7f0108f0386c2902ae3441f92f8826ceb8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/505019e492e1168c428a2c8aa982673d47b7322f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Untouchable",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/9614f7668ea56facd12de356b2cceda8fac6f82e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/2bc5456a3cd0c5e05df72ccc776c6a0994402047.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Totems_Are_for_Wimps",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/348e9036feb3c61479b05dc9afcfd09d3db5e0c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/e51d3bfab3da69b010ce489214c85f68b7f4b3a9.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Speedrunner",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/b753c56baac43b5f0cbf2616dc2ead8cca3bdf44.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/23c48bab01e954f1b56072eeb0d6f39af5d04204.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Stealth_Escape",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/2875144efa8e224700ce0376d3fb0d43885dab87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/5b2ec70fb1e04107e869dce3f338c995f6546d73.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "Maze_Conqueror_B",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/4f9b00438a9be3607f1c528a7b9d72e4dff67678.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/2d459a387eb6a76fe55a3d1259dfc3defd687a7b.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "Maze_Conqueror_S",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/aa39ee6485a464b2f3891993ae1a29268a2bc3c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/8d662059f1a9b2fce3008779208bdb7c0776f405.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "Maze_Conqueror_G",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/da1de6ef416b141dd99da4d8364516adcbdfb488.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/2c71c2faf3afcc695588482730ea59c8b23ccd53.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "Persistent_One",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/2693d3e1be9317ae63ab69b194bc1cf8442b1b62.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/8937d2d1ad2a154e2df04ca516f853c1b9ebd5ea.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Restart the first level more than 30 times.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "Level_1_start_Level_1_start"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Level_1_start_Level_1_start",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "Thrill_Seeker_Bronze",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/0a4b48b68c02261b1ff8f9d0d6f5c74866270985.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/7dac20e743c894362cf26e47e322813933c606a8.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Triggering 25 traps.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "Triggered_Traps_Stat_Triggered_Traps_Stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Triggered_Traps_Stat_Triggered_Traps_Stat",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "Thrill_Seeker_Silver",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/84962b18cf4c75e0a306a1cc32c59544737c1aef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/56213f2df6f30b227e8beeae711b66a920a71a56.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Triggering 50 traps.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "Triggered_Traps_Stat_Triggered_Traps_Stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Triggered_Traps_Stat_Triggered_Traps_Stat",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "Thrill_Seeker_Gold",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/02301f95cdfa2ad499adea7576ff2ab9f259228e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/aad643d204a8024a8d453449660a60713c74a8c8.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Triggering 100 traps.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Triggered_Traps_Stat_Triggered_Traps_Stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Triggered_Traps_Stat_Triggered_Traps_Stat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Persistent_Two",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/38cf25f276279d971f4d0f621ada0de57696aa79.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/ce0052270bb5b0ddd49b4afb536775cdbb39a8b4.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "Restart the second level more than 30 times.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "Level_2_start_Level_2_start"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Level_2_start_Level_2_start",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "Persistent_Three",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/59a4dce0f546c04170569d203df4b572fb60396c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077560/9e30a34442a91baa228abc4054945781b671d440.jpg",
     "displayName": {
@@ -233,10 +243,12 @@
       "english": "Restart the third level more than 30 times.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "Level_3_start_Level_3_start"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Level_3_start_Level_3_start",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   }
 ]

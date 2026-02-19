@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_Shift1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/5f94282083d0e9051c23378bc120a19780575814.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/be908f69cb7546925d643c17efb7c392b015b568.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_Shift2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/87ad145ec7e9bef56b640de64afb52b7241ca6d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/abf50540898e99bf113b3e616f0d407d1e771779.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_Shift3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/ba54f38f88aaf46047a492bfcc01bdaf005c6710.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/968a7916abd9b2b2999f87836961556056a0bf88.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_Shift4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/df7a2f6b039a0c27cd792fe1e92f706a520c7632.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/67b7c42b5fa656c97c7021aba2218fcd4e9bef54.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_Shift5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/0b0aa4770ac2a385105311c2923b5340ab89ef0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/001f7decee11c139f8f04642b3fb643124997cbe.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_Shift6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/b44f279c9272788cb88fb08bb483e5e6cc389015.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/bd70eeda7f879f792d26cd78df9978da2b3b94f4.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_Shift7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/ea38da83ea5bb6a152954f60f9636253f48c1d6c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/e1cbe416eec959491d8223b2d57b3f7a23ab089c.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_Notes",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/615b4c4f17ea5331c44ebb569a1750ff486ecd29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/a308e41d0ddc71e45b5bd93ac66a3ed4cc39c901.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_Rejuv",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/4f3b66ee346d2e70c7b92ce74e66c5cdd02523bf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/a171b731b53a77da42529e3e8f251bc6aae8943f.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Rejuvinate 100 Bodies",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Bodies_Bodies"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Bodies_Bodies",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_Taser",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/435a050837c8c6d997d881d1863d5501fdb4cc67.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/fe211223c0b7539d9e9900a92b99510809a3ec5e.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Shock Your Coworkers 100 Times ",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TaserHits_TaserHits"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TaserHits_TaserHits",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_NoTaser",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/dcb6c2903d3bc79ee67659d6c19f8bd7b85e48c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/dcb6c2903d3bc79ee67659d6c19f8bd7b85e48c6.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ACH_ZombieMaster",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/5d49d6d754af9c15ab4c3cf9f8fd090a9ad53035.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3703170/5d49d6d754af9c15ab4c3cf9f8fd090a9ad53035.jpg",
     "displayName": {

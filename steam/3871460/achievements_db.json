@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_LEVEL_COMPLETE_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3871460/18481f38142313c56b288312f40d09e8cfd1e4e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3871460/5d406b3f08dd2bc7ebf47f7c322f5448bad41a49.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_CAT_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3871460/bb27793cf2dc2e410d4b50f923b133f828400c5d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3871460/8ce30b9d75676e354da46b4b2e30c0ba12743ead.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Pet the kitty 5 times.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "ac1"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ac1",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_COINS_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3871460/e51fb789dbeac5c99dbc8b22a4ed9282d62d0882.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3871460/5f3f639512820caf898f628608a4fecf7a3a71a5.jpg",
     "displayName": {
@@ -45,10 +47,12 @@
       "english": "Collect all the coins in every level.",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 27,
-      "stat_name": "acoins1"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "acoins1",
+        "min_val": 0,
+        "max_val": 27
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVMENT_BOSS_SPIDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/d425d230ad190512f695c9594e16c8e52234925a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "ACHIEVEMENT_BOSS_GOLEM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/d92c1fc93a1956677ff95c366931de0884257741.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "ACHIEVEMENT_BOSS_DEATH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/8852c00b1d2d0d5cb6125e1f5ea37e65b778a5a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "ACHIEVEMENT_BOSS_TROLL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/ad348b9b0aea6e6e1a406b4a29b238758833a89f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "ACHIEVEMENT_BOSS_SEWERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/510e8745908a7462fdc9323483c55e943c6757d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "ACHIEVEMENT_BOSS_DRAKE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/c2082c4a18355d6ef154424147a940e9d6f9080e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -97,7 +97,7 @@
   },
   {
     "name": "ACHIEVEMENT_BOSS_KNIGHT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/eaa15372854a4af3bb5d26a5a0e6b648df889b8e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACHIEVEMENT_BOSS_SKELETON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/5484ee466f8d929fec177131faa77047faae16bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -129,7 +129,7 @@
   },
   {
     "name": "ACHIEVEMENT_BOSS_FOREST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9ad7470ed980f4c7dbaa97a4a09b679afcf01dac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -145,7 +145,7 @@
   },
   {
     "name": "ACHIEVEMENT_CRAFTING_MASTER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/bfb38f97805ef5f4fb3764060251d45221839a25.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -158,15 +158,17 @@
       "german": "Stelle 500 Gegenstände her.",
       "token": "NEW_ACHIEVEMENT_2_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "crafts"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "crafts",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_CRAFTING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/4a3a952a0a61b57f032de6fbc1be2207e774a09a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -179,15 +181,17 @@
       "german": "Stelle 100 Gegenstände her.",
       "token": "NEW_ACHIEVEMENT_2_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "crafts"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "crafts",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_CRAFTING_ADVANCED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9acaa232efa86a7539f03e2110ee359e80a06c1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -200,15 +204,17 @@
       "german": "Stelle 300 Gegenstände her.",
       "token": "NEW_ACHIEVEMENT_2_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "crafts"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "crafts",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_SPIDERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/8625feaea792d96bce59e41fd998c76606af9a3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -221,15 +227,17 @@
       "german": "Töte 100 Spinnen.",
       "token": "NEW_ACHIEVEMENT_2_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "spiders"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spiders",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_HARD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/d43fe2125c3f9868eff146daf9d9b7e1b5d698c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "ACHIEVEMENT_NGPLUS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/0a78e61958aa12190dac894bbc60c7f5332c6fe3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -261,7 +269,7 @@
   },
   {
     "name": "ACHIEVEMENT_BOSS_ALL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/3e80473831cf7e96cb52971fd37a543b2ecc378e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -277,7 +285,7 @@
   },
   {
     "name": "ACHIEVEMENT_DAMAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/de682952dee0e8e6659558cd23fa1c3286754510.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -290,15 +298,17 @@
       "german": "Füge 1.000.000 Schaden zu.",
       "token": "NEW_ACHIEVEMENT_2_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "damage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "damage",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_NODEATH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/a292c1784d8583d3334da8590e8c9e487e1379c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {
@@ -314,7 +324,7 @@
   },
   {
     "name": "ACHIEVEMENT_LEVEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/1f2cb58415b01022efe8ed029a7053ee41088e67.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2227040/9a29740d05d9f8803ac29bf9d2a5922502a927a4.jpg",
     "displayName": {

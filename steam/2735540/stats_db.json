@@ -2,25 +2,34 @@
   {
     "name": "STAT_DEATHS",
     "displayName": "Deaths",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "STAT_MONEY_SPENT",
     "displayName": "Money Spent",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 100000,
+    "default": 0
   },
   {
     "name": "STAT_RANDOMS_PURCHASED",
     "displayName": "Randoms Purchased",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100,
+    "default": 0
   }
 ]

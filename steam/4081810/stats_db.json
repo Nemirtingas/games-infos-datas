@@ -1,66 +1,76 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "GAMES_PLAYED",
     "displayName": "전체 플레이 수",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "GAMES_FINISHED",
     "displayName": "정상 정료된 게임 수",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "SUDDEN_END_COUNT",
     "displayName": "중도 포기 또는 탈주로 끝난 게임 수",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "S_ACH_PLAY_2MODE_3GAMES",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 5,
+    "default": 0
   },
   {
     "name": "S_ACH_PLAY_3MODE_3GAMES",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 5,
+    "default": 0
   },
   {
     "name": "S_ACH_PLAY_RANDOM_3GAMES",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 5,
+    "default": 0
   },
   {
     "name": "S_ACH_WIN_SPC_5",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 5,
+    "default": 0
   }
 ]

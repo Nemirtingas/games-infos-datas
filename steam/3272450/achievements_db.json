@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_HOLE_IN_ONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/e38dd1e22cb09b90a54c849055b24e6f92784168.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/51ee9a8c4f0af4fb405490d02db2145cc81fb11c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_MULTIVERSE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/f26ee2fad2b435e4529e6a2c28e7b97a87d4ab12.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/e4ef22471dc3e2e21410d8b2a427a6b7afba6423.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_STYLISH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/333543a0ba7e81e03b77e535e6e4fa8c93e3fba9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/ed49177e92de77a96737f78891fbee1e78412d35.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_HIDDEN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/86b3a35633852a95b05798b167a944bd1e5b35a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/6496d910d07a9f10b2f7eba28e57e93ed8c53351.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_PERFECT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/ab6b884a811d4d53ecff98d75e0de3c5de544b2a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/59e85b8285347f6739c8acfee9cda3d8fe3ea0bd.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_PERFECTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/302e4d12b9dcf07c9b54059ad4fa8cba128dbb34.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/fa09be898ca9424d98340e4363160cd094a2d02c.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_CHALLENGER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/6f5140fb25768df09027d35a23d4e128e813a688.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/e02ea1e327c8e21dd22938caffe9ebf4ee1e74ea.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_HAND_OF_GOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/3de7e309ab326e79bd22793baf6e86c802592b72.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/e617667be6c6e65e64bc66a8fe887169c3d143f7.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_FAILURE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/e86f868560ab032bb5218f0854d713f86bc15459.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/80f2c175a85ae9eeb63f67f1ffa1767fbb72703f.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "ACH_GRAND_GOLFER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/9da1833c5ea49f0987518094af7a1237d7159c01.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/d03d034dc5929e6c9939af04d07edc26ebdcddeb.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Hit 1000 shots",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STT_TOTAL_SHOTS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STT_TOTAL_SHOTS",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_COLLECTOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/24cedf600dcf9798d971ab111ce74841b8b5c156.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3272450/8ce288f66cf45eeb70ae3136494f7c8e66e7eef8.jpg",
     "displayName": {
@@ -157,10 +159,12 @@
       "english": "Collect all cosmetics",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "STT_TOTAL_COSMETICS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STT_TOTAL_COSMETICS",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   }
 ]

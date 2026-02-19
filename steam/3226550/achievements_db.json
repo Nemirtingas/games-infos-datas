@@ -1,7 +1,7 @@
 [
   {
     "name": "cat1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3226550/187ec2e148417667a36660f2c977d985452d87af.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3226550/fa5e8edfe900665cf114f7369010fd417d4aef6f.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "pet100",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3226550/288ee7d5ad8db7706225b982a9bdcb7ef9806af5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3226550/741db832eafc4ca590f04c68a8fa183e15bd5e7b.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Faça carinho no gato 100 vezes",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "cat100"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cat100",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "call",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3226550/61a2188333c91a2c6aeb74068e9ce38aef3d716f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3226550/d6d79fb0d4a67b7f64787a13477b43cabdf4ee87.jpg",
     "displayName": {

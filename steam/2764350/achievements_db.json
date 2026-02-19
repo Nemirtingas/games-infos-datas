@@ -1,7 +1,7 @@
 [
   {
     "name": "POINTS_ACH_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/caf55dced16fc3ca09b5c508ee620808497f09ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/e6f8984f040873e85b99f72fac84419e4f2b10b6.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "POINTS_ACH_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/6023a1cca2c61157826b5cb089598194d90e7fee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/e6f8984f040873e85b99f72fac84419e4f2b10b6.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "POINTS_ACH_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/18b51734572670d2acc19eceeb624bd701e35011.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/e6f8984f040873e85b99f72fac84419e4f2b10b6.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "POINTS_ACH_4",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/8594ae01b9a18c0572ac743c9d399455adbeda12.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/e6f8984f040873e85b99f72fac84419e4f2b10b6.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ALL_SECTORS_ACH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "PIECES_ACH_1",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/9c88ffb28af5278f941a1bd1e1dd9bb4bfa7ee6c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/e6f8984f040873e85b99f72fac84419e4f2b10b6.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Place 666 pieces. What, did you hexpect all achievement names to be puns?",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 666,
-      "stat_name": "PIECES_PLACED_STAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PIECES_PLACED_STAT",
+        "min_val": 0,
+        "max_val": 666
+      }
+    ]
   },
   {
     "name": "GAME_ALMOST_OVER_ACH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "STALL_ACH_1",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "TIME_PLAYED_ACH_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/5e96efe3547faea4e0eec9bf8b808ca56416f01e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/e6f8984f040873e85b99f72fac84419e4f2b10b6.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ALL_IN_ONE_SECTOR_ACH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2764350/e6f8984f040873e85b99f72fac84419e4f2b10b6.jpg",
     "displayName": {

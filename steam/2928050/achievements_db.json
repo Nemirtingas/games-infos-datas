@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_Heart_Of_Stone",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/0b4d560664088e39dc017b1525e4777c857e48f2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/b231437881c378ae7b42969428dda7eb02a571cb.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_Heart_Of_Passion",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/52b178c275f52bf589fad6f23e377ab8f0b67205.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/3710f386a89ade3ae43e874d5f49d06e9b7097de.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_Heart_Of_Gods",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/f6314fb3b9371028dae53311edcdeff2a193fe93.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/3d953a295a7b1a8a884ee21254469c66d79e0b88.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_Heart_Of_Duty",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/73bb94f09bf1f6800aa273a889f1677b2725bf05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/983254631c84337d176ea94a2c3a929b84166f0b.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_Soul_And_Paw",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/5651ef6e29501b9df667773b205df3cb8da96416.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/c0af7dbd0f54c436f1bd294c68237e204726c468.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_Happy_Ever_Until_After",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/556b43875430c88c34e418eb1215cc262e7f99fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/c0af7dbd0f54c436f1bd294c68237e204726c468.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_Nothing_But_Business",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/3241fd716237187b76646c961aeaa8c9f24bffbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/accb03d2b78f77cad090b2f5e96a700bc2c1fe06.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_Die_First_Time",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/605ed6cf5e0859d550455e49fefb62f3600228e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/62024767f4ec829be0194b60fd2b4dfb70bb7623.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_Tutorial_Maybe",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/a3f3fddceae34dc5b344db4c6a9b61411d2f561c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/bb58789b9d66c7da73ceb1700ef63c39afb595e4.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Die 10 times in a mini-game",
       "token": "NEW_ACHIEVEMENT_2_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Minigame_Deaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Minigame_Deaths",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_That_Was_Unexpected",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/22de10e19faa95663aaa378dc5ccd357c7329a7c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/299305debce2b10046a50ee265974862f60305bf.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "ACH_Trained_Surviver",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/0074e429e1dc7fd7333b80194471d900b67633c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/0026ca42ddbce3a6701ebff3fc3e707b21f387fa.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "ACH_Time_Danser",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/75fa03647b056e271a47090cd1422210b476da0e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/3a7a28133aaf0997e9f5eaf9866b0b854f2efcbf.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "ACH_Sweet_Dreams",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/bdaf19664d284c6de97537f2a052ab4cb434fc3b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/bf6ac754a021e4fd62a411076fb4aae0486ca68f.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "ACH_Annoying_Voice",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/4a97b821e06e5f05eff50916b759dfedf829f9eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/cfc31fde6888b49d0d989cc3a8e2137d3fa2f954.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "ACH_Smell_Of_Charms",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/7c999abf56090d0aa9437d28f1f6d4a14278d961.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/60d3ee5b1a9cb73d955419eaeb9de44c2e1c5a4f.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "ACH_Promise_Of_Freedom",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/86e012345e411eaee87873a847bea6688c2b00d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/1bb544e372e20fb54ffbe52f6db791e616e57c66.jpg",
     "displayName": {
@@ -230,7 +232,7 @@
   },
   {
     "name": "ACH_In_And_Out",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/1d7505433c61a93d36eaabe470c37c4ac25352cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/d354b13cda762cb8772da54cda83328b1a8e2720.jpg",
     "displayName": {
@@ -244,7 +246,7 @@
   },
   {
     "name": "ACH_Deal_Maker",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/50b3eb20bd307059ba9798ba16fd0b31cac919d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/b4ee93cc7a2613ffb7fe44215089e0a3caf24fec.jpg",
     "displayName": {
@@ -258,7 +260,7 @@
   },
   {
     "name": "ACH_Feast_In_Time",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/e69c41cebaec873964c162653106b6d7ea18fe87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/accb03d2b78f77cad090b2f5e96a700bc2c1fe06.jpg",
     "displayName": {
@@ -272,7 +274,7 @@
   },
   {
     "name": "ACH_Permanent_Death",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/accb03d2b78f77cad090b2f5e96a700bc2c1fe06.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2928050/711106b5cf0c46a757ecfce533932fdbab3c550e.jpg",
     "displayName": {

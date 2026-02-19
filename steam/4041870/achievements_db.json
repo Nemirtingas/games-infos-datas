@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_BOSSfw",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/59dee7656b11627ad42f95497aae49110e0b19ae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/e644e726fd8a170c4b4066e2486c4e13ba4048b6.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_SURVIVOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/3994ffbfc64b1032d2233b593f54b3470d426d11.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/0fbf4cc340f5f8358538eb41d27b366135a1ec62.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_TINFOIL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/156a2cc6500906c2649cb971302b3cdfc02d2fdd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/e644e726fd8a170c4b4066e2486c4e13ba4048b6.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_ARV",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/d3e584f56f874fa00f76d49f71377a7a977d09b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/cd5ada13e8d3e2395f76b4120e733d9c9f8cdb71.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_KILL_200",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/939682679e980a7dafda1dee42948c261912f5ce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/922fb2e5e4e42a57c47fc8fd95acdd93b700a66b.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "200 enemies killed",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "STAT_ENEMIES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ENEMIES_KILLED",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ACH_KILL_400",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/09da5fa218daeb413f5f1b40a527a3dbea7641d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/78d7b09d48a149decac7abe0e11865406a478338.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "400 enemies eliminated",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 400,
-      "stat_name": "STAT_ENEMIES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ENEMIES_KILLED",
+        "min_val": 0,
+        "max_val": 400
+      }
+    ]
   },
   {
     "name": "ACH_KILL_600",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/28fa0385fdad07fdcd9fb6bdb5b1848c0a51540d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/b406e22af1610e4d0edb0748a293e55a31783b29.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "600 enemies annihilated !",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 600,
-      "stat_name": "STAT_ENEMIES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ENEMIES_KILLED",
+        "min_val": 0,
+        "max_val": 600
+      }
+    ]
   },
   {
     "name": "ACH_PACIFIST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/b10a9a23f4a22c0eeb48524891a1c12c4b5ffc23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/b22130ab6f6a26679c894a3f20b26b49afcfee70.jpg",
     "displayName": {
@@ -128,7 +134,7 @@
   },
   {
     "name": "ACH_STOLEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/d6e9ab1b9f7a641896530a443ab0c0cdf5116ac9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/e644e726fd8a170c4b4066e2486c4e13ba4048b6.jpg",
     "displayName": {
@@ -142,7 +148,7 @@
   },
   {
     "name": "ACH_EXTREME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/c71af01ef6bd65ece880a7557b49bd467a238a95.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4041870/ce60818f27133e69f058e85fa47346bb64bc95b6.jpg",
     "displayName": {

@@ -2,33 +2,45 @@
   {
     "name": "ach_healed_health",
     "displayName": "Uleczone punkty życia",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 200,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "ach_healed_radiation",
     "displayName": "Wleczone punkty radjacji",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 200,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "ach_heard_auditions_music",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 3,
+    "default": 0
   },
   {
     "name": "ach_heard_auditions_freedom",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 3,
+    "default": 0
   }
 ]

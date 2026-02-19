@@ -2,81 +2,94 @@
   {
     "name": "total_games_played",
     "displayName": "Games Played",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "total_score",
     "displayName": "Total Score",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "best_score",
     "displayName": "Best Score",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "total_kills",
     "displayName": "Total Kills",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "total_time_survived",
     "displayName": "Total Time Survived",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "highest_wave",
     "displayName": "Highest Wave",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "total_deaths",
     "displayName": "Total Deaths",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "milestone_bosses_defeated",
     "displayName": "Milestone Bosses Defeated",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "highest_score",
     "displayName": "Highest Score",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "max": 999999999,
+    "default": 0
   },
   {
     "name": "total_kills_lifetime",
     "displayName": "Total Kills (Lifetime)",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "max": 999999999,
+    "default": 0
   }
 ]

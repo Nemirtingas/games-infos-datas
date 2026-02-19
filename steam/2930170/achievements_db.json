@@ -1,7 +1,7 @@
 [
   {
     "name": "REACH_DESERT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/23a6352de946e94669b2aac073a78311ea83f0be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/6dbaf0a7aa74cc35a1264cd1589ac4aa5e5bc005.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "REACH_CAVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/3bc7b679dc85a36869efb900814b1a2eaea2bb8b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/948a62e7e58cbe15d32d4f6e5d21dab3cc0d8c9e.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "REACH_SNOW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/ea3c5e6751473155c662912e8530bfbd9fe39014.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/293c9a6079bbb71aaf0615b6fa06deb919a3b92a.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "REACH_MISTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/20d17942e2dffb4c7d2fe7c52714c1209164e8a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/1a06d5f3be3579bd89fb9d0998bdb3793fa6cdaa.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "REACH_VOLCANO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/d3192099f5d3909a40fb16fa1bd1fafe8fbecab6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/b3a1f9549b310671739bec8d5056c238196fbd7b.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "HORSE_FIRST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/7ecba0d90ff86925cb1e0ba6193718645d7e2a3f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/16f3e57afcad04863cec21ad6ea76293c79f0c09.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "HORSE_PROGRESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/57816eec7c86bc4df57d5d009d40efa43fb0284c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/f3117bbffc4dcba9547e281a5d8ce5cca76180c7.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Collect 20 horses.",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "HORSES_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HORSES_COLLECTED",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "HORSE_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/e661bf2919bb54e654f021a79b292ba3b6a1c439.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/cfc726269e44f3ac85d459e3098d57612d976a41.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "SAVE_FIRST_SHEEP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/d4049c6fb3f1a67454acb57fedb0d3c52c4efa61.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/cbb1abb2a17e3bf0a33d0e5931d5f75454c9e2d2.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "COMPLETE_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/9a7bddc76134ff2031349e132add1a0bbbbcf7a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2930170/e82ed49c41531f9cae391246e5c2a18762eec1cf.jpg",
     "displayName": {

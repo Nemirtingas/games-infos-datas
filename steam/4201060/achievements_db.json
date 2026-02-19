@@ -1,7 +1,7 @@
 [
   {
     "name": "hacker",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4201060/3e69fa78c277abad01f118f2f1d542a5f30e0d4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4201060/6e7049ec26806c471e2f283732404799595bd8e0.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "brutal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4201060/e837d3a26cd4fd43b69f713c7e61115cdda0e46f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4201060/71b7da9e69c56f75209fffdb5fec7b9da77bdf4f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "standard",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4201060/3e773d13c95fd72f49e7a85cd99f5278a4218804.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4201060/96f138cbe5948a57b67d5fc48cc48058dc442299.jpg",
     "displayName": {
@@ -40,10 +40,12 @@
       "english": "Win 200 games of Standard Play",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "gamesWon"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "gamesWon",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   }
 ]

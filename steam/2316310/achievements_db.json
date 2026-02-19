@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_STARTCUTSCENE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/b7ee3e76febd8bed7baab3b467d10b6c53298955.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/ff9cb4564c0aafda2453b9a4032869ac4073c2d3.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_TREEPUNCH100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/6fdcf20c60432404664176623bc1d11725ea554a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/837318a9915a6a41172c1933e2e6b7e0cfe46e42.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Punch 100 trees unprovoked!",
       "token": "NEW_ACHIEVEMENT_11_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 100,
-      "stat_name": "STAT_TREESPUNCHED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TREESPUNCHED",
+        "min_val": 100,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_KILL_TREEBOSS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/fbf58417eb1fd6b5c8fa7a240ea043ff40e97af0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/dc5805264ba4ad533991f41c64d8bdaee479d57f.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_ROCKIESTROCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/6f525b2618ede76cc486cf6fc929d2f8846a1979.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/42190bd2092633ec5571d877e9659a71edd634cd.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_RUINSENTERED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/12515025c634584abc44a73346f3d9bbb7e5c699.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/8cf0d724e1aff4616ede5fcc318eaca4ea473183.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_KILL_CHAMPION",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/ad91e49b3119d3154ad56170b74cb28ed3068b0e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/90a7734f31957d70835f7ce34aa7583fda8962c3.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_SOILTHROW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/c012bbbb4b3ebae38b077dd34a39f33c138803d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/b434d90e833b524a670040d1ab2807e9fb5dc894.jpg",
     "displayName": {
@@ -101,15 +103,17 @@
       "english": "Be a true ranger class by throwing 100 soil across all save files",
       "token": "NEW_ACHIEVEMENT_11_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 100,
-      "stat_name": "STAT_SOILTHROWN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SOILTHROWN",
+        "min_val": 100,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_KILL_WOODENBEAST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/944651fcbd420a7c2bb9fcd6bbf950eea0943431.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/d9f73e33b9129841706fe1c6c3b2ffd8e2d794a0.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_KILL_SUPERGOLEM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/90cc1e78a2b1d738ec4c760d033cfa4005688cd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/d7be420a635cb2b72de9618b974d4139259f1ce8.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "ACH_PROFESSOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/902439a054e12596f859efd792287feeb77eff45.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/316a622e28f91093c0a7cae0b3269267f32a308b.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "ACH_KILL_BRAWNYBLONK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/ae47a94f9c3d85709950734018b39758d0d1e80c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/fa35db1db292e600ba136d8bf469ebe54ad0de57.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ACH_ADRENALINE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/678ba7c6155bb947e9a5dc2f7ad1f6e28c2cd832.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/cd72e47e3d137746ff2f9e8f2ddda7f3c0863370.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ACH_KILL_RAMAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/36fd80eb05f32d2b9e002a669fb369f80f7ff8d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/bcdfe3c4b6a831b54762f138949f12bf3a38199b.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "ACH_KILL_OWLBOMINATION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/c32232cd126ed53c3cd22c46e046980d32c0868c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/a366884133cce9aadda410d826aea3b4c209427e.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "ACH_KILL_WYRM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/5d3fa22bc4f6e8c91d732758de28a0da8070e34e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/8ad126c07f2f2e257854d7fb1345b48f138fa8fd.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "ACH_DIE100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/74e0af8846fa2edf2303e98f532da6685a3f420b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/f42b4621d5c26128a3fc929387733aff357aa3d7.jpg",
     "displayName": {
@@ -232,15 +236,17 @@
       "english": "Die 100 times over all save files. Get good. ",
       "token": "NEW_ACHIEVEMENT_11_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 100,
-      "stat_name": "STAT_DEATHS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DEATHS",
+        "min_val": 100,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_TRAVELLER_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/a54d3005b9d0868ba4c83388b285c8e160ac8dff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/b7a504c652916a9177a844810e1c50ced7ef5c6f.jpg",
     "displayName": {
@@ -251,15 +257,17 @@
       "english": "Explore 10 planets across all save files. Quite the journey!",
       "token": "NEW_ACHIEVEMENT_11_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 10,
-      "stat_name": "STAT_PLANETSEXPLORED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PLANETSEXPLORED",
+        "min_val": 10,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_TRAVELLER_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/adce3e2f86cd4e702d740c60a81c10088a341c7e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/33383bcd0723a60315837bd56664dd652a649089.jpg",
     "displayName": {
@@ -270,15 +278,17 @@
       "english": "Explore 50 planets across all save files. A journey like no other!",
       "token": "NEW_ACHIEVEMENT_11_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 50,
-      "max_val": 50,
-      "stat_name": "STAT_PLANETSEXPLORED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PLANETSEXPLORED",
+        "min_val": 50,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_CAVES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/05cdc9d997d9c8c9c9d43d7c7014ee6d3502a2ae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/8303481b5802e38cd95940fefccdf640b3b5eb3d.jpg",
     "displayName": {
@@ -289,15 +299,17 @@
       "english": "Explore 30 different caves. You must love the darkness.",
       "token": "NEW_ACHIEVEMENT_11_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 30,
-      "max_val": 30,
-      "stat_name": "STAT_CAVESENTERED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CAVESENTERED",
+        "min_val": 30,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_TOILETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/5046ab9fdf438f63aba7d7279d93531d6b920e81.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/4ad7e41f13cc0ffb6de4eeb28b246c2dc51a9b08.jpg",
     "displayName": {
@@ -311,7 +323,7 @@
   },
   {
     "name": "ACH_SHADOWCONTRACT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/5daf364c784a7a662bcdfcf11dc8c6f0f34026d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/520a5e43ab38f06a96a163a46a03fb84fb7f5130.jpg",
     "displayName": {
@@ -325,7 +337,7 @@
   },
   {
     "name": "ACH_MECHSUIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/b9edd6333687310bccaa9167dcadf116a14af43f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/34e3b542598bcee5c1121afb77efa6932d53ee19.jpg",
     "displayName": {
@@ -339,7 +351,7 @@
   },
   {
     "name": "ACH_FARMER_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/ed63d6ae17a8794bf744c3506e862280e2944505.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/98ccdad600617ac1b0d2899b3b010a6c0eb278ac.jpg",
     "displayName": {
@@ -350,15 +362,17 @@
       "english": "Grow 50 plants. Quite the growth spurt!",
       "token": "NEW_ACHIEVEMENT_11_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 50,
-      "max_val": 50,
-      "stat_name": "STAT_PLANTSGROWN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PLANTSGROWN",
+        "min_val": 50,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_FARMER_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/87917967add39c6247970b5ce2f54f616fcce37c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/4033daccf288b774d95bb55948ee916e45ffd977.jpg",
     "displayName": {
@@ -369,15 +383,17 @@
       "english": "Make your mark on history by growing 100 plants!",
       "token": "NEW_ACHIEVEMENT_11_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 100,
-      "stat_name": "STAT_PLANTSGROWN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PLANTSGROWN",
+        "min_val": 100,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_KILL_TEMPEST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/36543c87846d336a40b16f2ae6fc678176132e93.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/7302405a26dfeec2955d553537f970c6649e3f34.jpg",
     "displayName": {
@@ -391,7 +407,7 @@
   },
   {
     "name": "ACH_FOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/d85cfc106b5e7b264f4e3839df047c0dc8ce65cd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/587efb6e346f42d7366957c01089924e8c58ab55.jpg",
     "displayName": {
@@ -402,15 +418,17 @@
       "english": "Cook 75 dishes to satiate your limitless hunger",
       "token": "NEW_ACHIEVEMENT_11_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 75,
-      "max_val": 75,
-      "stat_name": "STAT_DISHESCOOKED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DISHESCOOKED",
+        "min_val": 75,
+        "max_val": 75
+      }
+    ]
   },
   {
     "name": "ACH_PLANET_LUSH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/bf5f3189eafbbed27d0efe3e1bc2a4e7cf698050.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/2b7411c59b1e21d732c7caeb770350294f6f8c8d.jpg",
     "displayName": {
@@ -424,7 +442,7 @@
   },
   {
     "name": "ACH_PLANET_ARID",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/79b19fb6620df65672cd92ad87823856914859e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/11c5bf80c032fb68e877daedd257462860786fef.jpg",
     "displayName": {
@@ -438,7 +456,7 @@
   },
   {
     "name": "ACH_PLANET_BIZARRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/fe9382b1a40e2200c0fe38b1ce81bb5d8a22607a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/5a9116e12b3bc718f28fcccefdc1b8d367b88d62.jpg",
     "displayName": {
@@ -452,7 +470,7 @@
   },
   {
     "name": "ACH_PLANET_GLACIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/2187117414e5215dcd59ef4d1cb766f7dbfb71c8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/e15edca99bb9822a84cdcdf8bb46eb94dd19463f.jpg",
     "displayName": {
@@ -466,7 +484,7 @@
   },
   {
     "name": "ACH_PLANET_MOLTEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/6643523fbfc5fdb83220664acbc54eac541b02bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/af8bf95f9647c25b005c8eb95ffc10edf861b2ff.jpg",
     "displayName": {
@@ -480,7 +498,7 @@
   },
   {
     "name": "ACH_PLANET_RADIATED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/3f85e09b65d074f29f212f7f8bad74d3b3df93b4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/65bf56bf3a882cb4cc2daa37e0a63897eff1b34b.jpg",
     "displayName": {
@@ -494,7 +512,7 @@
   },
   {
     "name": "ACH_PLANET_ROCKY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/44f5efb2cecb0a2108ee32c8aed5ea7be1112359.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/f8007464456bfe517a15d09b748a9a4383ed6430.jpg",
     "displayName": {
@@ -508,7 +526,7 @@
   },
   {
     "name": "ACH_POTIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/82b97c2db8a0a9c7342a47b97e4238908c355219.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/88d74840c3326f05e91ac4f12a98c540878421f4.jpg",
     "displayName": {
@@ -519,15 +537,17 @@
       "english": "Brew 30 potions. Lets hope none of them make you explode.",
       "token": "NEW_ACHIEVEMENT_12_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 30,
-      "max_val": 30,
-      "stat_name": "STAT_POTIONSBREWED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_POTIONSBREWED",
+        "min_val": 30,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_NUKE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/f25650f957709f5b59799c24f27aedf9968d9ae1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/b5f5b2ee8fc56ab6012dc9bcd729f66228c5ec82.jpg",
     "displayName": {
@@ -541,7 +561,7 @@
   },
   {
     "name": "ACH_TRADER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/ba03f05e1d079e0a8ed2e846ecf6b9f1d921a43b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/71b3e315095abf3f05910267f388ad75a1143a17.jpg",
     "displayName": {
@@ -552,15 +572,17 @@
       "english": "Buy 75 items from the local townspeople. A true capitalist.",
       "token": "NEW_ACHIEVEMENT_12_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 75,
-      "max_val": 75,
-      "stat_name": "STAT_ITEMSBOUGHT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ITEMSBOUGHT",
+        "min_val": 75,
+        "max_val": 75
+      }
+    ]
   },
   {
     "name": "ACH_THORNS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/373bd1757bcbdee84211d66c781ab84510adf96c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/b091bd2cb0351d564a183c9721cdc17cce7ccbe5.jpg",
     "displayName": {
@@ -574,7 +596,7 @@
   },
   {
     "name": "ACH_MONEY_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/4234b756d493ec328251d214abbf7c448d37f8b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/1e0b6ab17b3f38cc7502126fb4ed1f4c09f53b54.jpg",
     "displayName": {
@@ -588,7 +610,7 @@
   },
   {
     "name": "ACH_MONEY_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/8fe1061d5e6649920ee87cfc52a0934ae67be2b8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/e2aacb231c29b42226c5ea809f2409c526489884.jpg",
     "displayName": {
@@ -602,7 +624,7 @@
   },
   {
     "name": "ACH_ENGINEER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/bd7af574621bf77c2aa005b81a39feef28a19f41.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/184843d8b7cbd0951a8524d16a836fa83e6d2cbd.jpg",
     "displayName": {
@@ -616,7 +638,7 @@
   },
   {
     "name": "ACH_LAVADROWN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/b4ee5ea3834fe8a2fbc6f0447e19d2bbf4b7ff6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/bb3da3dd84e0555e9443fa20d6106da9c9e4eb50.jpg",
     "displayName": {
@@ -630,7 +652,7 @@
   },
   {
     "name": "ACH_PROFKICKED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/d77d71aa004e6dca2dbaa94b3aefac18894441de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/a3a2b450e0563a54c3faf09ac175b19882b84794.jpg",
     "displayName": {
@@ -644,7 +666,7 @@
   },
   {
     "name": "ACH_KILL_EXCALIBUR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/a9b9b72533b0d6654a8ffb3fa1451e05407c776b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/1b67f6d346097e3c7a1d82e5711e9a3bc19b6326.jpg",
     "displayName": {
@@ -658,7 +680,7 @@
   },
   {
     "name": "ACH_HEADSHOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/c41356e0d1dbd1756abb02094daa58d6ce117962.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/e4e991e5ec4c8fead5bc2a8423fa94139b0875ce.jpg",
     "displayName": {
@@ -669,15 +691,17 @@
       "english": "Prove your skills by scoring 100 headshots",
       "token": "NEW_ACHIEVEMENT_12_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 100,
-      "stat_name": "STAT_HEADSHOTS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_HEADSHOTS",
+        "min_val": 100,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_MELON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/3193d5e043800eed5a861c4d49fc213c440fd719.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/4adbbcc9c4b6049cb6fe3e11f4a61c9c8aefecfe.jpg",
     "displayName": {
@@ -688,15 +712,17 @@
       "english": "Use the Peashooter to fire 50 watermelons (wait how do they fit in the gun huh what why",
       "token": "NEW_ACHIEVEMENT_12_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 50,
-      "max_val": 50,
-      "stat_name": "STAT_MELONSSHOT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MELONSSHOT",
+        "min_val": 50,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_KILL_SLIMEBOSS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/794a43068cbfced28029ea3eb8e0cefac0f54a73.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/2cfb5b33fd51cacd0efafd6305ecb229f19f305b.jpg",
     "displayName": {
@@ -710,7 +736,7 @@
   },
   {
     "name": "ACH_KILL_GORLEX",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/d655c95ddd56419966dd49de4d6e0428e7d3b04f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/2c9a2104d1c97689cb2820d799f1b3af2e313aae.jpg",
     "displayName": {
@@ -724,7 +750,7 @@
   },
   {
     "name": "ACH_KILL_PUCHANMAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/4dcf0ff6b930bcebacc4a8c28874f7afc20e0776.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/29b9451fbfd51415783e81b081b1d23c870eafc0.jpg",
     "displayName": {
@@ -738,7 +764,7 @@
   },
   {
     "name": "ACH_KILL_INTRINITY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/d7b25dc09a0db457fb18874e4e27eeb6fb5c7fba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/c51846b0a80eeeeb6c4c3915be5f446ec6570c66.jpg",
     "displayName": {
@@ -752,7 +778,7 @@
   },
   {
     "name": "ACH_COINSHOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/c1a3f988f3a353b4c60e0ba23ff8bce99ce34680.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2316310/4bcaf388a140265a8ddf68f831c6d773793c07bd.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "lasergun",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/9cbec0d73dcc537cc525c60516730013c50c504c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/a726257d7b20413fa63b0d23fb983d721b1eab29.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "shotgun",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/a716c1f2cdc5666646eee88f7d744c4e79f18db0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/ae41e390f7959d518615280edc9b744a139b4487.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "healthpotion",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/7c6f055e945d578f5b54d646a25a821e2d9d2581.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/03e6be60e715f62e3b977b46c7f37da95ae9506d.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "speedpotion",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/ef2e3391e600ca9570904cc27f99a7678bddec4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/12134032a7444edef25b5ba265ff9b9668f45b51.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "onestar",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/3e2735348393293395bdc68cdd4fb37b79e9951c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/b7bce0a015a4df85ac5076f1c29566f16aa0d99c.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "twostar",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/28760ba476614288914d383257bd9ee5eb0417db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/2c588e8464b11da578ac1f25ea36e2f6989188ec.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "threestar",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/bdb8504e6b6a18558cb2446d24ac585c956840b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/06430ed23830bcc370101c81a9e24816a874c833.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "boss",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/7328e5750c17fdb13a88d2828109353213a408f7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/2002cceb0324c7aff9509ef71ace9b162201ef0b.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "kills",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/33b9226e16c84bc9eb0a833baab68c738e3493e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/98d9f6f35feff14337705fa7f0015272ba2d70d1.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Defeated one hundred enemies.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "killcount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "killcount",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "egg",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/a94b2e062c85686bb80492634bb43bc2dfffa98e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/a73ad7e333bd248a562d4c559ec59915d1e543f6.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "NPC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/62831d22954013e384397c293890f06151b9f94d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/0e69f1e644d8fd5cf189bc4e53d942e39b97537f.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "gal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/cfd0ab9d0a9fe3dff37eb64668e007856d9a2f94.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/e0c7eb14cd9c6ce178d01cdd737b3e6e50eb5923.jpg",
     "displayName": {
@@ -171,15 +173,17 @@
       "english": "Collected the five missing flowers.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "flowers"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "flowers",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "drunkard",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/36f03507928ef1f53992ef155b7a2d488bd6233c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/1ba50a4b0189b1f75bba3fdf748f489d86e5ffb4.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "statue",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/0fd0d4b279072cc37238d8641a095d112b5c3baf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/5aa7e2986d5c2b685fe2e138c805a31319ae6ece.jpg",
     "displayName": {
@@ -204,15 +208,17 @@
       "english": "Collected all of the missing pieces for the statue.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "pieces"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "pieces",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "bottles",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/45b2639f8d03bbaf515feee3e6378483c9373ad5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/9130ba1ead584375c09ef09375d1b51d3431d120.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "desert",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/2ced01f8f46bd155fabce189a41c14459fe605be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/65c32f463643d6e690b7a7a08fbbe1e73d11ad41.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "river",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/dda29fe7a10622994016a6e3ca40e3ea34a25168.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/4f73533655dfaf2b3824abce2be3efc716b92e3b.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "canyon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/64172d5bd1f5d86f73e44bc56e482be6c7edb7af.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3513270/c515f6679f94b0a2f949590687089ce0dbeb1063.jpg",
     "displayName": {

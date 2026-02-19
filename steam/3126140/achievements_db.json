@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_ESCAPE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_RADAR",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_HEAT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_EMP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_PRO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_SPEED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_QUARANTINE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_INFESTED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_RIP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "ACH_RECKLESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Activate five Motion Sensors",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "SensorsTriggered_SensorsTriggered"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SensorsTriggered_SensorsTriggered",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_JUKED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Closely sneak past three monsters",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "EnemiesJuked_EnemiesJuked"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EnemiesJuked_EnemiesJuked",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACH_SLOW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ACH_ELECTRICIAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -190,15 +194,17 @@
       "english": "Use the EMP five times",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "EmpUses_EmpUses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EmpUses_EmpUses",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_LORE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/dbcbdb5830a1a11bf10063973aa965b100168275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126140/7da6f994f2612526cab6723601e28eb3e41759ee.jpg",
     "displayName": {
@@ -209,10 +215,12 @@
       "english": "Read a bunch on logs",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 23,
-      "stat_name": "LogsRead_LogsRead"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LogsRead_LogsRead",
+        "min_val": 0,
+        "max_val": 23
+      }
+    ]
   }
 ]

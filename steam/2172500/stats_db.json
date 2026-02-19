@@ -1,50 +1,52 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "ITEMS_FOUND",
     "displayName": "Consumable Items Found",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 21,
+    "default": 0
   },
   {
     "name": "ZARU_ENTRIES",
     "displayName": "Zaru's Diary Entries",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 9,
+    "default": 0
   },
   {
     "name": "COMBATS",
     "displayName": "Combats Completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 7,
+    "default": 0
   },
   {
     "name": "SECONDS_FOCUSING",
     "displayName": "Seconds Spent Focusing",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 300,
+    "default": 0
   },
   {
     "name": "ACHIEVEMENTS_UNLOCKED",
     "displayName": "Achievements unlocked by player",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 20,
+    "default": 0
   }
 ]

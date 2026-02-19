@@ -1,7 +1,7 @@
 [
   {
     "name": "comp_first_lvl",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/f20370d6033e65ef5257a42d3a1d85212b0eb205.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/7fed505db06e8c6416ad0680c916535e3b33e84c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "comp_summer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/5d22d48a4c62226b71f51d51f32e1a4b699e2f3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/aafe6f58046b15895e9142953983c5e48edf2d8a.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "comp_autumn",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/c135b4367b85608a032325003aeb831e6674c31a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/551674b1d43a104a69f31a17757cfb8c98281c59.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "comp_winter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/07dd773aea555bef4378a0a923493a00ee5e1e09.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/96aecdf777fb7e79dc134b2ba773ad9b24a1c3f9.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "comp_spring",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/5bc2d32d9df8717b348b03f39deab87db7d504b8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/f5151cc9956132598842ce34de400e83c10e16b2.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "comp_all",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/297623be91c0f865f739b531079c6bed910cb344.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/bd87fc6b60313f3ccf3477f7353fa0be94800438.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "hoglets_10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/e3ab41e0eecba7c5c096a955d1bba6778b07f487.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/2942bdd79c8ae67ac9de9feb9dae73b65a50ff32.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Brought home 10 hoglets.",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "hoglets"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "hoglets",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "hoglets_100",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/0e81e2eff4d1b13206e366779e524439dc2888e7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/64a3688b5e31323f1afb56608c384a420b6eac54.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Brought home 100 hoglets.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "hoglets"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "hoglets",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "barks_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/0f55ebc192def07feff79f0dc692416ee12aaa38.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/24a5e79335d1caacf524e65289159b65983141a7.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Squeak 10 times.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "barks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "barks",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "finished_game",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/189ed3860b437abcac73d6811dcf96b4f65287b3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2759760/4c2fcbba773d3ee1d44661bded04a53c176341d3.jpg",
     "displayName": {

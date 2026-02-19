@@ -1,7 +1,7 @@
 [
   {
     "name": "SetSails",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "CaptureShip",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Conqueror",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "DefeatCatBellyBay",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "DefeatHedgehogPassage",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "DefeatedByPractiseShip",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "NaturalTalent",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "Commodore",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "NoOneLeftBehind",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Collect 100 crew members and get them back on board.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "StatCrewCollected_StatCrewCollected"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "StatCrewCollected_StatCrewCollected",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Mastership",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "Infamous",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Defeat 66 enemy ships.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 66,
-      "stat_name": "StatShipsDefeated_StatShipsDefeated"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "StatShipsDefeated_StatShipsDefeated",
+        "min_val": 0,
+        "max_val": 66
+      }
+    ]
   },
   {
     "name": "Skipjack",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Set sail 20 times from Mouse Island",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "StatRuns_StatRuns"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "StatRuns_StatRuns",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ATrueHero",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "EndlessMode10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "EndlessMode20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/7b521398b9aede3f67d7ab7417a1493c16ab5bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2887350/6016a7710c20eadba8c7c0c615dd362fb0873d7c.jpg",
     "displayName": {

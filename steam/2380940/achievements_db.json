@@ -1,7 +1,7 @@
 [
   {
     "name": "_firstStandard",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/fdf4c3f62d571390d9aa45dc80bc5ac1dfade226.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/4ecb7af90d6ba9e26083b51848662841b9638ee6.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "_firstKillingSpree",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/8eeeff91d0bce3d2aa470db6c9e54fea75f35c7c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/754cfadbcc1d05f199c2d4f43e3ca9e424d51abb.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "_firstAssassin",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/4d8f5efb794ef2146661dd81593ac92d1a2d4565.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/66289031f4309e2b8822dee35aaab60fb8fa5aa5.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "_firstFindAndDestroy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/d65de4d610cfa7c9b2505c05da165b4b4150f84b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/4d28824ec1d3d950bddf8c605a0d79b54400849e.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "_firstCasuality",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/2ede82f991538f4342e79a8042c4f07c3dfe2880.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/1329abf04505a37d0da12c413c36aa5411c36dfc.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "_firstTarget",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/7c822dfcc67829a438e0e67a6723182a77cb75a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/023d67e0cd738e16e7390b4fe0cb7627c5dcf2d3.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "_firstProfessional",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/2cff9f36708ee5a42bb8e8bfd8c5086482d2b94f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/f67a52c1086bb1e59f67657ef35b63bb1ad74dd9.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "_firstElite",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/c3ba803f501db4be8af0aa38e7eda600d27ef8b7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/7c4fecf2cd8bca669b24e493d25e18d7284ee77e.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "_firstBuy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/dda0e489feaa6370e99fb3d893a93cdf22ac6b49.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/bacfd754f75a3a751e243fab38e3b4dbf8919e84.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "_500casualities",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/9a573831731e1831d272be63ac56ff0b8624aab2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/c14317450d26ffda77002a7734fb8400550950c3.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Eliminate 500 civilians",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "_civilianKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "_civilianKills",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "_200targets",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/ab9ba818caffd42eb7e8b59350947efaa3a78dc0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/b8aca37908e5b441580539f62dee51f49b819854.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Eliminate 200 targets",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "_targetKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "_targetKills",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "_allMoney",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/3c7a953efcec2bd239870cf218b94ef31659195b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/250b21743a0d6a9d1302940191dd7fdb2c26685b.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Earn 8000 cash",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8000,
-      "stat_name": "_moneyEarned"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "_moneyEarned",
+        "min_val": 0,
+        "max_val": 8000
+      }
+    ]
   },
   {
     "name": "_allBuy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/81d047addfce7aed4e0a751c4de4fbd3d7e2bca9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/c541d9a1091a0f04658383a8e2475b74748a59dd.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Buy all weapon part",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 16,
-      "stat_name": "_partsBuyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "_partsBuyed",
+        "min_val": 0,
+        "max_val": 16
+      }
+    ]
   },
   {
     "name": "_24levels",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/8e28395a7318dae5e564a3fa3d6fb21953f67908.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/b570405588ce78b73bcf5c9c67b4b06d0269f540.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "Complete 24 missions",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 24,
-      "stat_name": "_levelsCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "_levelsCompleted",
+        "min_val": 0,
+        "max_val": 24
+      }
+    ]
   },
   {
     "name": "_48levels",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/33709a767619ad421882fd55067ad2b286f89f89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/2b20be27f3e9ca48667ee06ec68946e6754b6920.jpg",
     "displayName": {
@@ -233,15 +243,17 @@
       "english": "Complete 48 missions",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 48,
-      "stat_name": "_levelsCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "_levelsCompleted",
+        "min_val": 0,
+        "max_val": 48
+      }
+    ]
   },
   {
     "name": "_72levels",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/feced77f460902d7132245925b8ff1bc7daccb63.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/1ef8eafca58ba37689da68a5eba262dce26cf537.jpg",
     "displayName": {
@@ -252,15 +264,17 @@
       "english": "Complete 72 missions",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 72,
-      "stat_name": "_levelsCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "_levelsCompleted",
+        "min_val": 0,
+        "max_val": 72
+      }
+    ]
   },
   {
     "name": "_50watch",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/88a41b9ccaacd3e53bc975dd9e8a18170a47948d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/85773592cab9d6b5731da90af7e93e593623def0.jpg",
     "displayName": {
@@ -271,15 +285,17 @@
       "english": "Destroy 50 watchs",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "_destroyedWatchs"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "_destroyedWatchs",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "_50ammo",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/f31eb831998f6e35cc70d818f73c1db3c561be0a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/f40928c975b8afca3c4acfd3780fd03692ddd8e5.jpg",
     "displayName": {
@@ -290,15 +306,17 @@
       "english": "Collect 50 Ammo packs",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "_destroyedAmmo"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "_destroyedAmmo",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "_50cars",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/1e10969a1cf855aaec88b8cfc35f5b5b5ddd0f5e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/9827d8886e071fb7ddeb485fcb39800f98095dbc.jpg",
     "displayName": {
@@ -309,15 +327,17 @@
       "english": "Destroy 50 cars",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "_destroyedCars"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "_destroyedCars",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "_standard15Kills",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/be3ebd159abb1bcca69b6d54678e46a26ad08f89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/77fd83fbe01f82705a6d1a92a411d6d0069e08b6.jpg",
     "displayName": {
@@ -331,7 +351,7 @@
   },
   {
     "name": "_killingSpree50Kills",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/71a940e2028d46f767a0b25104bb683a05f6164c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/e0e922e8d2785f90a08e8918ae869332f9aa55e5.jpg",
     "displayName": {
@@ -345,7 +365,7 @@
   },
   {
     "name": "_assassin15Kills",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/541c40eb95f8ccf1b31fea0db63624b4d55159fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/969c42fcff5d885bd282b7a68ba9b1d14a12d105.jpg",
     "displayName": {
@@ -359,7 +379,7 @@
   },
   {
     "name": "_findAndDestroy15sec",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/934ca097d9fc11186f0e905de63baf323941b018.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/91777034c5e1f9e3c50667481e06734f0512e0a2.jpg",
     "displayName": {
@@ -373,7 +393,7 @@
   },
   {
     "name": "_6with1shot",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/a01860d631ac6d8b4343bbae042d0f03f0efa1ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/70a92d95a64498eefbf74fd41754c8b080978e61.jpg",
     "displayName": {
@@ -387,7 +407,7 @@
   },
   {
     "name": "_1secLeft",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/36f0cca7f2580cbfb5e7084e5ffc4371b7d934e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/52d277aa24f3a66480ef6aaf9259c66d9feec06b.jpg",
     "displayName": {
@@ -401,7 +421,7 @@
   },
   {
     "name": "_2targets1bullet",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/befb77351a486879a0f7a860e25091b650e81a4b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/41b773491f910991a0d3f53bc263f942451cf2ef.jpg",
     "displayName": {
@@ -415,7 +435,7 @@
   },
   {
     "name": "_noZoom",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/d1b119b76e9bd446b14476831e8801041388f82d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/1e508f6e05239c1fb080bf495a34a990b0e53cb8.jpg",
     "displayName": {
@@ -429,7 +449,7 @@
   },
   {
     "name": "_fiveCase",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/d6ca8e6f7a9e60179b4cec487e4e69a1df11a496.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/814ccdf590f28cfc4075435fcbc87e2571077887.jpg",
     "displayName": {
@@ -443,7 +463,7 @@
   },
   {
     "name": "_allGold",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/82d85a5f93511dcc2ae397dad1df5f1739f17860.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/0b7f409e39982aa9557e6d0175e3b68a1de74dd6.jpg",
     "displayName": {
@@ -457,7 +477,7 @@
   },
   {
     "name": "_whortIt",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/459e9d194cd6e2a44eee3b5f23676a0baf96be94.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380940/cbdf34f6fbdde24fb5e5a4487dd0e3e70a06f2a7.jpg",
     "displayName": {

@@ -29,7 +29,7 @@
     "type": "float",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0
+    "default": 0.0
   },
   {
     "name": "killed-per-hour",
@@ -37,7 +37,8 @@
     "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "level",

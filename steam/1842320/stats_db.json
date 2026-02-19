@@ -1,34 +1,35 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "FALL_DEATH_COUNT",
     "displayName": "Risk-Taker",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "PARRY_COUNT",
     "displayName": "Master of Parrying",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "COIN_COUNT",
     "displayName": "Wealthy Adventurer",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   }
 ]

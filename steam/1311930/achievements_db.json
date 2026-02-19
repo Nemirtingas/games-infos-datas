@@ -1,7 +1,7 @@
 [
   {
     "name": "Start game",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1311930/852038a1b586e54fba77807fd0f17ea957c8dd57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1311930/852038a1b586e54fba77807fd0f17ea957c8dd57.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "Start game",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 0,
-      "stat_name": "stat_2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_2",
+        "min_val": 0,
+        "max_val": 0
+      }
+    ]
   }
 ]

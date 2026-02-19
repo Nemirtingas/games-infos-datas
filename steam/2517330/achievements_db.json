@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_REALM1_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/2fde7737a049130849f4999bc0e2b4b0c40916ce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/99ea1a1fca632eb999247969dce82592032ece87.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_REALM2_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/4224e36e495c8fef54d3d087267008f291db5ae4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/197da127ba67f9ea0923889dcac62f532dbab094.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_REALM3_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/e98cb7ca73078a47823d587aa0ccf1969f7bf207.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/e12f84f7fef4f21f6be4c8743ff12a78c1e72035.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_REALM4_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/96011c9f2b5ef5984585dd07c44fd49a03c50390.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/f959aa65295d239e3eaa27a41d4a843abc7f5dd7.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_REALM5_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/b4afdced1af172a67a005595a0de72218ea1c264.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/d5532e4dabdcb9b352c6ddd7144d557aaec1e231.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_FINISH_RUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/5c9af360f42e55d1c2933f2d53f7d4fc60bd4c7a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/22a86e02c6526d8f408aaeab2cfa6b3bd751eb91.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_SHAMAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/9a850b58b70b770b941f28ed2179a4e78d973520.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/cc666522b99e702d84fbef3139c64b44efba8e51.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_MAXIMALIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/d65c63b797569ffc8c4e4258ef95c19988a92b16.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/7f570183e788367d7ef3cbfef0227221f6346492.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_FIRST_KILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/bb9f6d2420f90c7b9ab095f965daeb433e8564d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/8cd1a003a96efa4bd907bf5e52975bb5399e3f49.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "ACH_100_KILLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/2ccabb228227867cb6eeac9dbd1102a2e1fa9572.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/30e92905603679d851c61f4f706d7c7eb4589a21.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Kill 100 enemies.",
       "token": "NEW_ACHIEVEMENT_4_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kills",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_1K_KILLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/a25bc55eff1dda4c51779396f21c4adfc109d8a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/4fb57a7e699311fa3ad75d0a019e04fa75603b6b.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Kill 1000 enemies.",
       "token": "NEW_ACHIEVEMENT_4_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kills",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_10K_KILLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/b9c99668e63b132227029b24c5f55bd3829e4930.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/cb000d523785b12bea737f1658c6898058b9dba1.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Kill 10000 enemies.",
       "token": "NEW_ACHIEVEMENT_4_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kills",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ACH_TREASURER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/1bc19a50c0ccccdf191f8e462b1fa2a86fa892d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/6c505745888aa126cf76ebf03b38c539968b1bdf.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Collect 1K gold.",
       "token": "NEW_ACHIEVEMENT_4_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "gold"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "gold",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_GOLD_DIGGER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/94b0abd0eec2741a6ea6005edce546115d80659f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/c3b419ea943b9464f839bc511d08abfa2605763a.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "Collect 10K gold.",
       "token": "NEW_ACHIEVEMENT_4_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "gold"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "gold",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ACH_MONEYBAGS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/7bff046679116380aaddd24ad1c5c5821482cd9d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2517330/1144ed6db44f4315a3155fd4cc0a545634694e62.jpg",
     "displayName": {
@@ -233,10 +243,12 @@
       "english": "Collect 50K gold.",
       "token": "NEW_ACHIEVEMENT_4_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50000,
-      "stat_name": "gold"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "gold",
+        "min_val": 0,
+        "max_val": 50000
+      }
+    ]
   }
 ]

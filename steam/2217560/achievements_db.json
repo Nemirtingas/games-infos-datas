@@ -1,7 +1,7 @@
 [
   {
     "name": "Level3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/800dd1ded737103ec1f35e0dcd1c4647aaaad568.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/263488cfa7fb4a274277c1b562ae4744709e2ab8.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "Level6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/934f75e0f5eda0c4bf62605f81da04e9e1210442.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/908a25a9369e624717b20045eb42e2514158e109.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "Level9",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/ad631980f1397752b69ff18c3f468a053fa494d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/d9e7f477a22801c53fcf2961d8c12f2b9ace52fd.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "Level12",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/65ccc8d79e41571e400b844022137a8bb2dc0677.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/35d5cbe248f73a29bc5db16c0161f78b8ea917ca.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "100%",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/8b77fdecfc5059a2ff117d02918bb7dbba0014ce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/00e572d5ff8ec6364a8253b8b0755a7f8dacef82.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "Damage",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/9db57d64e9e67f195d58c0e59f56ea1e85bb485f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/5807e9dea66f17706782280d23eba6ea7b61cf26.jpg",
     "displayName": {
@@ -94,15 +94,17 @@
       "french": "Vous avez, à répétition, manqué de respect au vigile.",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "DamageStat_DamageStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DamageStat_DamageStat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Warming",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/01e7812762d9e7acfb37c702b73f7863660ec360.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/9d3fe0d44f0167e86478124888ff7dbecb8d929d.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "Escape",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/0272bd75c78d801884edf5626cafe6c2dfd7eb17.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/36e1d5a4529f04bdbf27742dff1e429f4bde7699.jpg",
     "displayName": {
@@ -134,7 +136,7 @@
   },
   {
     "name": "PurblePlace",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/1cf1c9db1395e3e909448b8b7bea77a80b38ab49.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/ffda209ba9734676e8d2b40f27260165608beeb3.jpg",
     "displayName": {
@@ -150,7 +152,7 @@
   },
   {
     "name": "Stuck",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/71c1d14f663f032652a5356122af047d20b98cc1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/4eb2aecad6ad038b516e88fb0b4ae5aab641d639.jpg",
     "displayName": {
@@ -166,7 +168,7 @@
   },
   {
     "name": "Pro",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/9e9611d57074c07a090f982dd5d88cb08eec683a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/12d3ea0371a6ed56a3c78334a76071173ddfd9a9.jpg",
     "displayName": {
@@ -182,7 +184,7 @@
   },
   {
     "name": "Level15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/938389c5dfefea17492f5e6ba22fa5ded862ffd5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/79ffce6c0569e821da50514b36054204940c1c97.jpg",
     "displayName": {
@@ -198,7 +200,7 @@
   },
   {
     "name": "Level18",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/e2f8e6bc9c271fc2bd3ce44169343ab12558fb99.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2217560/8a3eaba0d183fe29a1d6d781fc0fac94f6db2f2a.jpg",
     "displayName": {

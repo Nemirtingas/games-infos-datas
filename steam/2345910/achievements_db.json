@@ -1,7 +1,7 @@
 [
   {
     "name": "HARD_CAMPAIGN_VICTORY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2345910/2a075f3b9623f0c4b6d72e0e7a871c65bf10c2df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2345910/005f33369e39b0df51049e3d4488f5a896677360.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "Defeat Nidhogg the World Eater on a Challenging campaign",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 999,
-      "stat_name": "hard_campaign_wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "hard_campaign_wins",
+        "min_val": 1,
+        "max_val": 999
+      }
+    ]
   }
 ]

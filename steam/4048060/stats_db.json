@@ -2,17 +2,21 @@
   {
     "name": "ghost_types_encountered",
     "displayName": "Unique Ghost encounters",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 4,
+    "default": 0
   },
   {
     "name": "total_pellets_eaten",
     "displayName": "Total Eaten Pellets",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   }
 ]

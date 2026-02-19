@@ -1,7 +1,7 @@
 [
   {
     "name": "SKY_HIGH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/a202b0aff022a6bda4036f02d5e2a48b28cc0836.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/97ec51daaf2a4907306e9a863f5442427c71c0f3.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Blasted a car past the cumulus clouds",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "STAT_SKY_HIGH"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SKY_HIGH",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ALL_WET",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/19ead6ce8766d6c11b6f6bf2f072687084b1ab9a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/b3b8de4d982f176c3ee3a8542e5570f9754082f6.jpg",
     "displayName": {
@@ -34,7 +36,7 @@
   },
   {
     "name": "PERFECT_PARK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/21a54e352d1c21370fa028a1db7efa3f4136e590.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/23f66ec427bfb4f6dc4876d248c29c2ffa30e434.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "RIDICULOUSLY_HEAVY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/da82b027c785c8fdec2527c93a16c6ff9f182c22.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/b2ab5feb6ad9176d5deac1f2a5443319e9eda401.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "WORLD_TOUR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/735f203898872ce04e5c234c1a8783d528400c3c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/ddc4959c1ab476e8aaaa6e7252ab5eb7d2b3ef72.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "CUSTOMIZED_RIDE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/3a6d327dc70bfb991bf327082545f91a4b63ae61.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/467d1a8a8e11b0cb1fd67251cf1e5138048cdfc1.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "HATS_EVERYWHERE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/0cedb1c6277a25ea2dbdba41ad084dae2209c785.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/36127df2f03ae3bd9fa50f8aa57408135cdc34b6.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "AI_OVERLORDS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/3ae62075248cc2073eec454e6f78e909ee2cbdc7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/42849c25ba50908ffa3851edae7c56f8d60a0527.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "PARK_WITH_FRIENDS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/7387a06e43757b06fb3d4bcb004ac3ac429ef148.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/841b9688c352aa39466a71f8cf9a1bcfa8018dd5.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "BULLSEYE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/52886a5dd607458be12547524d34376b9c0350e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/f067001e7333b19ffdb5c93fb76f20f663049772.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "GOODBYE_CRUEL_WORLD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/0acb704e41167a2d0b4af4feb1db7460dca7ded4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/2eeaab6cf496a591ea0cace6eeef54957edaf294.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "BUS_STOP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/7cbb0196aa4d4d87687b08a7121f728258d5535b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/3ec13223f0b0bd37ada40bb30e752467ea4d7664.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "BAD_BUS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/d8c4816cabfbdb081e303faf6cbd71ea31baccb3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/2822c3a04331435076e28b05d2b43bcdae7c49ad.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "LETS_NOT_GET_HEAVY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/5453b86c14fea51db332d59a086f686cab05b396.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/1e461c65eb9499d6a4d635c90fe8782897c3c41d.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "DO_WHAT_NOW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/f3737bcbce4d164fce32860c6d63402d9eb60e2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/2cef0487893491de84a7165d0ec100e74094e1d6.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "IN_IT_TOGETHER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/1d3fe00d8aad7ed5514826948afd0aa45f5b9f3a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/9d07d725653caea8e933c4d40d93ebe778721e78.jpg",
     "displayName": {
@@ -230,7 +232,7 @@
   },
   {
     "name": "FULL_LOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/ad9d6cb12a6b703c3918618d2d2e216c88d5cf75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/689ba474b6b7458f2f48375bf0a20cff2eb2f08d.jpg",
     "displayName": {
@@ -244,7 +246,7 @@
   },
   {
     "name": "PARTY_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/e65dd2b53baa8e4ae2a4b28b6975bc6f690fd1bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2310990/873ec5cc5c83f11cb79d2fad405eb547f34ed742.jpg",
     "displayName": {

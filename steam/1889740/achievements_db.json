@@ -1,7 +1,7 @@
 [
   {
     "name": "AllTrophies",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/60ebe384238126ff0a85f482d2ab502ae6ac0139.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/fc1bf90754c54d173d7d37d0f709d0dc981176cc.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Complete_NoHints",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/5313e7f3102241b8a87e0a8c52a0bde35930dd32.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/fcd3320b9bba51018d79351bf147d03c1cbc36be.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Complete_Fast",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/48c8615fb789589d5d9c841c6c72c9ff5fee64d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/2991377260a176273225459f1522ca07655ae7e5.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Secret_All",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/db34c25bd4a6ec8afbabd34ef6f31f745bae717f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/4f716cba15485a197df139715f1cdf6354234371.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Collect_All",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/c467805c03fad0a83c0adb89846e8412cf042d05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/bd84ef6f4a29725b4bd5458956e5b868c0bbf61e.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Find all the origami",
       "token": "NEW_ACHIEVEMENT_13_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 39,
-      "stat_name": "STAT_COLLECT_ALL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_COLLECT_ALL",
+        "min_val": 0,
+        "max_val": 39
+      }
+    ]
   },
   {
     "name": "Collect_Home",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/4a52b2f95cfb594045e12d363be5cacbd0450569.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/4aae7d60cf053e73a84f00d024fb182a06f3cc45.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Collect all Home origami",
       "token": "NEW_ACHIEVEMENT_13_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "STAT_COLLECT_HOME"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_COLLECT_HOME",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   },
   {
     "name": "Collect_Cave",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/4505ccf5615d6f37211c35d6be8d6dfa918b97cd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/4b47d67791a1f5870468aedd09899022593bf909.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Collect all Cave origami",
       "token": "NEW_ACHIEVEMENT_13_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_COLLECT_CAVE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_COLLECT_CAVE",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "Collect_Swamp",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/4b2cfebb0ff2c6fbd1f702c73638bcb8376b7264.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/556224dd09ee5a530240c81dbf77b0ff95592b66.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Collect all Swamp origami",
       "token": "NEW_ACHIEVEMENT_13_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_COLLECT_SWAMP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_COLLECT_SWAMP",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "Collect_Forest",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/29680099071c053339610d1ec735550cb2cba6f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/01666ff7eb2e3696a47dc220ce107111c6b47369.jpg",
     "displayName": {
@@ -144,15 +152,17 @@
       "english": "Collect all Forest origami",
       "token": "NEW_ACHIEVEMENT_13_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_COLLECT_FOREST"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_COLLECT_FOREST",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "Collect_Autumn",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/3ad30d847f9ff32f7febc0cf8130e437d2652a57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/08754fc83f90b5be9fadf15d7c4f18bb9b6fc477.jpg",
     "displayName": {
@@ -163,15 +173,17 @@
       "english": "Collect all Autumn origami",
       "token": "NEW_ACHIEVEMENT_13_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "STAT_COLLECT_AUTUMN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_COLLECT_AUTUMN",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   },
   {
     "name": "Collect_Ruins",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/f7919a1f2be17fe8ffd492cfded55bc689c73838.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/5b2b20425c9667e514034a24cc04f27e33ae06fa.jpg",
     "displayName": {
@@ -182,15 +194,17 @@
       "english": "Collect all Ruins origami",
       "token": "NEW_ACHIEVEMENT_13_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_COLLECT_RUINS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_COLLECT_RUINS",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "Collect_Temple",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/1c19e29dc048cb55d1992c18fe499fa6d0259129.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/40802d06d68166222027d1f7b7f29ddb63a9f29a.jpg",
     "displayName": {
@@ -201,15 +215,17 @@
       "english": "Collect all Temple origami",
       "token": "NEW_ACHIEVEMENT_13_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_COLLECT_TEMPLE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_COLLECT_TEMPLE",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "Collect_Ocean",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/cc96b984b82083877a641fbf1bcbd237d6a7d3df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/883b676b898c4f3793b2d76232e81ee36622006c.jpg",
     "displayName": {
@@ -220,15 +236,17 @@
       "english": "Collect all Ocean origami",
       "token": "NEW_ACHIEVEMENT_13_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_COLLECT_OCEAN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_COLLECT_OCEAN",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "Collect_City",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/84019b439314a44817ab171c7348b97ecb31f0b8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/c79e16f44a62d704e4a8441864dd310561435be6.jpg",
     "displayName": {
@@ -239,15 +257,17 @@
       "english": "Collect all City origami",
       "token": "NEW_ACHIEVEMENT_13_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_COLLECT_CITY"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_COLLECT_CITY",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "Complete_Home",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/00cd12fe0d65e6e415955575344393555d00664d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/a5457fb9ca94861ae4cd6344fcf25ea008c88392.jpg",
     "displayName": {
@@ -261,7 +281,7 @@
   },
   {
     "name": "Complete_Cave",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/c4886d179f6c07a3254f271f931ddf2187c6d987.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/fcc8d665e616e56bd59180ba6c490f5f74071dd4.jpg",
     "displayName": {
@@ -275,7 +295,7 @@
   },
   {
     "name": "Complete_Swamp",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/a09efdeb989de2f4455a6c2130835e625c9b8bce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/5473348de6919152d170c7ad26a3ff33b0b656f3.jpg",
     "displayName": {
@@ -289,7 +309,7 @@
   },
   {
     "name": "Complete_Forest",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/2e31a0212de7c0f986951dfcf07c7fa826fe068e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/dac88a507db0fa126dafece691f3fc8f0a195a0b.jpg",
     "displayName": {
@@ -303,7 +323,7 @@
   },
   {
     "name": "Complete_Autumn",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/b08d8cd504f299668fbbe96e59e287cb572044e0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/a06f37ff45e9eeaa67eed0a9cf5e121c8b73b9dc.jpg",
     "displayName": {
@@ -317,7 +337,7 @@
   },
   {
     "name": "Complete_Ruins",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/ec9e4f4589fee8264836fd328ab578e61ce9af49.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/1222e250b3178e4e5a785de926564d4ac09d0734.jpg",
     "displayName": {
@@ -331,7 +351,7 @@
   },
   {
     "name": "Complete_Temple",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/6565edeab9f198c87d949eddddc8bf177109ee67.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/f7d6f7da95446081d1fdf014ca09817990e0e89f.jpg",
     "displayName": {
@@ -345,7 +365,7 @@
   },
   {
     "name": "Complete_Ocean",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/6fe79af5adb2e6c8ed0cb6a63c93d3c3106d07b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/05079851db94a8094afd747ed2eb2582fc6f9ac2.jpg",
     "displayName": {
@@ -359,7 +379,7 @@
   },
   {
     "name": "Complete_City",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/c135b7b517a64c714d9c6bf90d9c29ece01797c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/2d29c6ab451f0a57e64880c0c2e66efc9c428053.jpg",
     "displayName": {
@@ -373,7 +393,7 @@
   },
   {
     "name": "Complete_Graduate",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/06086c46b745818e8060746be9613d5ea20be66b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/fbccabc13546d6dd66a7685910b3318cef6c83be.jpg",
     "displayName": {
@@ -387,7 +407,7 @@
   },
   {
     "name": "Secret_Cat",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/4ac00bba1d9e441e761b2f6c0d73c1719bb41ce5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/9e894d48c8f632e36329fa1424f9b88966c1368a.jpg",
     "displayName": {
@@ -401,7 +421,7 @@
   },
   {
     "name": "Secret_Brother",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/8f0e6c8aedbb7e037b03ff2e0a3d6c1a681bebb9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/bd81b71c41713209e5e5e26121074bcac3146fcd.jpg",
     "displayName": {
@@ -415,7 +435,7 @@
   },
   {
     "name": "Secret_Hue",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/df8eb98c93e1aecdb7a9f488c69acca725ce3656.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/42f89909b69acfbf696800cb04273157d27d21e9.jpg",
     "displayName": {
@@ -429,7 +449,7 @@
   },
   {
     "name": "Secret_Snowman",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/3cad01fc0b66389e3ad518f5f95af85257794968.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/4c7a74dafe8f0fa0cec33600a94d1c54ca2af1d7.jpg",
     "displayName": {
@@ -443,7 +463,7 @@
   },
   {
     "name": "Secret_Rock",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/f1da84c3848e0c850a736bd82d435a62b6df5c48.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/f05467628931ffe91298082e8197e1a432a953d8.jpg",
     "displayName": {
@@ -457,7 +477,7 @@
   },
   {
     "name": "Secret_Vase",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/25c53422946f6ec75c4410c3fa4a31010f5b8c91.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/189a0c7d04eab4a4371d6b931f6bbc42f71b75c2.jpg",
     "displayName": {
@@ -471,7 +491,7 @@
   },
   {
     "name": "Secret_Photo",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/1748fec58a84e1100470792c3fe881690d666f7c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/ee6a60a5992dea2b4b919fa1f14529e74aadfd86.jpg",
     "displayName": {
@@ -485,7 +505,7 @@
   },
   {
     "name": "Secret_Comfy",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/4decce7b749165f8936e823d992c28c25117a751.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/dbaf04d0cca78ca23ee42e3b6f2b38769a81e007.jpg",
     "displayName": {
@@ -499,7 +519,7 @@
   },
   {
     "name": "Secret_Sky",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/26acc5b3b0ab0acfd961a2a2f351a9d1d672db8e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/d4072e4b7d43a95c9b4f9adf77d15c8c9574afb4.jpg",
     "displayName": {
@@ -513,7 +533,7 @@
   },
   {
     "name": "Secret_Winslow",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/604a105c82555a2cb359d224051c3e4645c2ec06.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/f519ca4ead357370fe8586ce9b219922dbfbb7c8.jpg",
     "displayName": {
@@ -527,7 +547,7 @@
   },
   {
     "name": "Secret_Frog",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/a0da077f1b45baddbf7ce359dadb60ffa8f3d68a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1889740/fbfe2dd02ea818470743cc4ff8a1d274aa0c7b8d.jpg",
     "displayName": {

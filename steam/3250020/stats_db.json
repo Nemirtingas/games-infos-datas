@@ -1,50 +1,46 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "ID_03_StackingTheFuel_Stat",
     "displayName": "Dropped Fuel Canisters in Submarine",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 4,
+    "default": 0
   },
   {
     "name": "ID_04_HoarderOfFuel_Stat",
     "displayName": "Dropped Fuel Canisters in Submarine",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "ID_33_PutOutAllFires_Stat",
     "displayName": "Fires Put Out",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 6,
+    "min": 0,
+    "max": 6,
+    "default": 0
   },
   {
     "name": "ID_21_EnergyOverload_Stat",
     "displayName": "Batteries Used",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10,
+    "default": 0
   }
 ]

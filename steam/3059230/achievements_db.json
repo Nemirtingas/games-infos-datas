@@ -1,7 +1,7 @@
 [
   {
     "name": "RDR_Test_Achiv_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3059230/cbdbbec775d73e684b27cc639aeb1dd464a8d520.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3059230/cbdbbec775d73e684b27cc639aeb1dd464a8d520.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "RDR_Test_Achiv_02",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3059230/2100a04e088a26c5129c922997d6c3d72434c380.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3059230/2100a04e088a26c5129c922997d6c3d72434c380.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Throw and hit 100 fireball",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "lunchFireBall_lunchFireBall"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "lunchFireBall_lunchFireBall",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "RDR_Test_Achiv_03",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3059230/8bea930ebcd812d3fefb996030d98eedb50edb62.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3059230/8bea930ebcd812d3fefb996030d98eedb50edb62.jpg",
     "displayName": {
@@ -45,10 +47,12 @@
       "english": "Throw and hit 100 iceball",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "LunchIceBall_LunchIceBall"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LunchIceBall_LunchIceBall",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

@@ -2,25 +2,34 @@
   {
     "name": "STAT_JUSOU_COIN",
     "displayName": "Coin Collector",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 12,
+    "default": 0
   },
   {
     "name": "STAT_JUSOU_SOUL",
     "displayName": "Soul Collector",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 63,
+    "default": 0
   },
   {
     "name": "STAT_JUSOU_PERFECT",
     "displayName": "Perfection",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 29,
+    "default": 0
   }
 ]

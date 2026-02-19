@@ -1,7 +1,7 @@
 [
   {
     "name": "GroupRankMaster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/30dcad670fb42ad1ec6037778cfd00b8b3f3cf0b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/24178e4cbeb235219ae9506bbb37c9b52e821090.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "GroupRankHero",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/e2d4f72d611c500ed6356146929cff79354f4828.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/24178e4cbeb235219ae9506bbb37c9b52e821090.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "GroupRankDemigod",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/563a7b82214cab6915e37a86689417fc515f56c8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/24178e4cbeb235219ae9506bbb37c9b52e821090.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "SoloRankMaster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/30dcad670fb42ad1ec6037778cfd00b8b3f3cf0b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/24178e4cbeb235219ae9506bbb37c9b52e821090.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "SoloRankHero",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/e2d4f72d611c500ed6356146929cff79354f4828.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/24178e4cbeb235219ae9506bbb37c9b52e821090.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "SoloRankDemigod",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/563a7b82214cab6915e37a86689417fc515f56c8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/24178e4cbeb235219ae9506bbb37c9b52e821090.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ChosenOfHermes",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/8dff1e70287832efc470e18e7741110fbbc1e287.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/b366fe6d7dbb8e9b0c1cf32735f24334b109d638.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Group - One Mile Sprinted",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1610,
-      "stat_name": "GroupDistSprinted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupDistSprinted",
+        "min_val": 0,
+        "max_val": 1610
+      }
+    ]
   },
   {
     "name": "ChosenofHera",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/4607ad9c4709289f5ab5b10ac8e594baf98b88bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/c8f486a04e7078d28bdb0cb2b0f768a2c5953cf2.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Group - One Mile Flown",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1610,
-      "stat_name": "GroupDistFlown"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupDistFlown",
+        "min_val": 0,
+        "max_val": 1610
+      }
+    ]
   },
   {
     "name": "ChosenOfHercules",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/a1da0de3a29c25fe06c6628909ae0eb337ec19bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/11b5eda16a2f43b549dbb80b1e36ad7af7728dae.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Group - 100 Walls Destroyed",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "GroupWallsDestroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupWallsDestroyed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ChosenOfArtemis",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/2eeb520c4eef0ccfa04cd46e04b775ee59467e3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/55dc6cd27b8462ff2107d9e6f69d9d7a92d798e8.jpg",
     "displayName": {
@@ -153,15 +159,17 @@
       "english": "Group - 500 Targets Hit",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "GroupArcheryTargetsHit"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupArcheryTargetsHit",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ChosenOfApollo",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/c413a6452dade3af10756bfd42bd68c58af806d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/42ce37b69c57e6c5e45a6a9b7960e656dc7bce6c.jpg",
     "displayName": {
@@ -172,15 +180,17 @@
       "english": "Group - 200 Bullseyes",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "GroupArcheryBullseyes"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupArcheryBullseyes",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ChosenOfAres",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/f49b09ecff75f7d614e9644860a89cbce2cd898f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/4c60b2249ed2b86226115ec89906d6f908fa8373.jpg",
     "displayName": {
@@ -191,15 +201,17 @@
       "english": "Group - 500 Enemies Punched",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "GroupEnemiesPunched"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupEnemiesPunched",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ChosenOfAthena",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/6943556fe756b9fa1206190bcab973a2136a53fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/4a844ae254d9617c2e4668423a4197a885c83df5.jpg",
     "displayName": {
@@ -210,15 +222,17 @@
       "english": "Group - 500 Dodges",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "GroupDodgesAndDucks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupDodgesAndDucks",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ChosenOfHephaestus",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/6ea153b6df184e769ea77291fb7f830d6f5374c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/d4a7cea29ecc6572204ed200ee40cfe7e88b25de.jpg",
     "displayName": {
@@ -229,15 +243,17 @@
       "english": "Group - 500 Gates Lifted",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "GroupGatesBypassed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupGatesBypassed",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "SoloSprint10mi",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/7e6df60ed8c77057be0685c6f4e12c25f5b83b2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/ffff508ba327005f07f07cdf0fe5e95b8447992e.jpg",
     "displayName": {
@@ -248,15 +264,17 @@
       "english": "Solo - Sprinted 10+ miles",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 16094,
-      "stat_name": "SoloDistSprinted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SoloDistSprinted",
+        "min_val": 0,
+        "max_val": 16094
+      }
+    ]
   },
   {
     "name": "GroupSprint10mi",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/b6da8ce715c73f959f9f93c3664fbb92335c8c0f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/655954dd0b16fef53db4990298916a2a5e0dff8d.jpg",
     "displayName": {
@@ -267,15 +285,17 @@
       "english": "Group - Sprinted 10+ miles",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 16094,
-      "stat_name": "GroupDistSprinted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupDistSprinted",
+        "min_val": 0,
+        "max_val": 16094
+      }
+    ]
   },
   {
     "name": "SoloFly10mi",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/b3d6c9d9db620e2e371e6673237798b5b9f1cf50.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/b52eb1e8f2f4d13d3a42da06ddd11b8e406d9867.jpg",
     "displayName": {
@@ -286,15 +306,17 @@
       "english": "Solo - Fly 10+ miles",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 16094,
-      "stat_name": "SoloDistFlown"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SoloDistFlown",
+        "min_val": 0,
+        "max_val": 16094
+      }
+    ]
   },
   {
     "name": "GroupFly10mi",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/389f086167d5ccfd97bca66cb946e547a1622607.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/d0ac331e02cce2fd645980f2ebb958de93efa692.jpg",
     "displayName": {
@@ -305,15 +327,17 @@
       "english": "Group - Fly 10+ miles",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 16094,
-      "stat_name": "GroupDistFlown"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupDistFlown",
+        "min_val": 0,
+        "max_val": 16094
+      }
+    ]
   },
   {
     "name": "SoloWallPunch1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/bd402d56dc841c606021c55f56674b3671c07f39.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/4fcb3f110b689dff6585aaf2207717b79921a1b5.jpg",
     "displayName": {
@@ -324,15 +348,17 @@
       "english": "Solo - 1000+ Walls Destroyed",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "SoloWallsDestroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SoloWallsDestroyed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "GroupWallPunch1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/154ed8e137a6b32778ac6630ea084a604834359d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/bb06efdcc35382270631e3103bc2c4ea05476ee5.jpg",
     "displayName": {
@@ -343,15 +369,17 @@
       "english": "Group - 1000+ Walls Destroyed",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "GroupWallsDestroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupWallsDestroyed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "SoloTargetsHit5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/56e16d62de0f8fb4d3c1129503b1c97e0181b1d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/d4df9aba2cb8456d68afdf3c7af203f4b80fa875.jpg",
     "displayName": {
@@ -362,15 +390,17 @@
       "english": "Solo - 5000+ Targets Hit",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "SoloArcheryTargetsHit"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SoloArcheryTargetsHit",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "GroupTargetsHit5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/47386a1c6119fc6329ed3c13942ead0db167c19d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/a292049832c498e94c2388ca1f0252d6b682ba84.jpg",
     "displayName": {
@@ -381,15 +411,17 @@
       "english": "Group - 5000+ Targets Hit",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "SoloArcheryTargetsHit"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SoloArcheryTargetsHit",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "SoloPunches5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/784f2c97c67103f4c889228e841ce0cc93057e24.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/c2a7f979243acf0d5bd3c225670e32e51c15c0b5.jpg",
     "displayName": {
@@ -400,15 +432,17 @@
       "english": "Solo - 5000+ Enemies Punched",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "SoloEnemiesPunched"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SoloEnemiesPunched",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "GroupPunches5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/4667978332e3f9786fe86081db53f52c5a880d88.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/af63e6d0f7f2b50454e7096ccd419dbeaff5ba54.jpg",
     "displayName": {
@@ -419,15 +453,17 @@
       "english": "Group - 5000+ Enemies Punched",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "GroupEnemiesPunched"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupEnemiesPunched",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "SoloDodges5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/8b6142abc33379f649ffe29bf03a13efcd611c38.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/92bce3ad5ff9aa928a57120c420e49a8f62ba646.jpg",
     "displayName": {
@@ -438,15 +474,17 @@
       "english": "Solo - 5000+ Dodges",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "SoloDodgesAndDucks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SoloDodgesAndDucks",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "GroupDodges5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/7ff91c5ea090d76d9cc77ff9759b368c18a70501.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/f038c72fb89e4aabb252423edf07f0402c0e5161.jpg",
     "displayName": {
@@ -457,15 +495,17 @@
       "english": "Group - 5000+ Dodges",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "GroupDodgesAndDucks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupDodgesAndDucks",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "SoloGates5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/e1c6782b1600ead8f8a1192728dd2d0c2b4aed64.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/b3c02b92d9f6d70ab466aad2dc9d591599763e87.jpg",
     "displayName": {
@@ -476,15 +516,17 @@
       "english": "Solo - 5000+ Gates Lifted",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "SoloGatesBypassed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SoloGatesBypassed",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "GroupGates5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/84f4af2f504390667334ec20ba4e160f4f7fd473.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1910250/4fea2bd7233e82195d65ccd4ffc8cad7a49638bb.jpg",
     "displayName": {
@@ -495,10 +537,12 @@
       "english": "Group - 5000+ Gates Lifted",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "GroupGatesBypassed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GroupGatesBypassed",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   }
 ]

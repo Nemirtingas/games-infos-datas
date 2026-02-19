@@ -2,33 +2,45 @@
   {
     "name": "AllRakesKilled",
     "displayName": "Rakes Killed by Everyone",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 99999,
+    "default": 0
   },
   {
     "name": "RakesKilled",
     "displayName": "Rakes Killed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "ShotsFired",
     "displayName": "Shots Fired",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 999999,
+    "default": 0
   },
   {
     "name": "CampaignsCompleted",
     "displayName": "Campaigns Completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9999,
+    "default": 0
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "CNT_FIRST_BALLOON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/11c5661e63836416201af794860c4476ede85c8d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/ef2ed2c0a140e8642e326038f98dd12e3860808e.jpg",
     "displayName": {
@@ -14,15 +14,17 @@
       "schinese": "你打破了你的第一个气球！干得好！",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "TOTAL_POP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_POP",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "SPD_3_IN_3000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/7559072dc1fedf0cfac3a3c514747f8f74cccef4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/af5585bc05bc4d30f30354cfd8be7292fbc49ae9.jpg",
     "displayName": {
@@ -38,7 +40,7 @@
   },
   {
     "name": "CNT_TEN_BALLOONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/43fbcbc146c1796a00647500f2eab9b754818514.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/61848bd24d41e8ba351933911b050176f4a2c6ac.jpg",
     "displayName": {
@@ -51,78 +53,86 @@
       "schinese": "打破10个气球。",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "TOTAL_POP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_POP",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "CNT_BALLOON_NEMESIS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/42d4ea4d01afbebeb689e5725f8f4d133f75109b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/40c67f8c049f8438edfb38649f78dd10d6e78469.jpg",
     "displayName": {
       "english": "Balloon Nemesis",
-      "token": "NEW_ACHIEVEMENT_1_3_NAME",
-      "schinese": "气球仇人"
+      "schinese": "气球仇人",
+      "token": "NEW_ACHIEVEMENT_1_3_NAME"
     },
     "description": {
       "english": "Reach a combo of 100 popped balloons.",
-      "token": "NEW_ACHIEVEMENT_1_3_DESC",
-      "schinese": "打破100个气球。"
+      "schinese": "打破100个气球。",
+      "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TOTAL_POP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_POP",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "CNT_BALLOON_BANE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/71481cdf5d88dbd99cf2e91f86c7a0401d446438.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/2d9e8d7a0ac5589a7abbc844afdefb4393059cd2.jpg",
     "displayName": {
       "english": "Balloon's Bane",
-      "token": "NEW_ACHIEVEMENT_1_4_NAME",
-      "schinese": "气球克星"
+      "schinese": "气球克星",
+      "token": "NEW_ACHIEVEMENT_1_4_NAME"
     },
     "description": {
       "english": "Pop a total of 1,000 balloons.",
-      "token": "NEW_ACHIEVEMENT_1_4_DESC",
-      "schinese": "打破1000个气球。"
+      "schinese": "打破1000个气球。",
+      "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "TOTAL_POP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_POP",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "CNT_BALLOON_KILLER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/18ba3a55a8c4ae470a296a2aedc76fec33aab939.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/b6b067c92dbc3bbf68e54cc5fb4b743a1cc32913.jpg",
     "displayName": {
       "english": "Balloon Killer",
-      "token": "NEW_ACHIEVEMENT_1_5_NAME",
-      "schinese": "气球杀手"
+      "schinese": "气球杀手",
+      "token": "NEW_ACHIEVEMENT_1_5_NAME"
     },
     "description": {
       "english": "Pop 10,000 balloons in total.",
-      "token": "NEW_ACHIEVEMENT_1_5_DESC",
-      "schinese": "打破10000个气球。"
+      "schinese": "打破10000个气球。",
+      "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "TOTAL_POP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_POP",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "SPD_10_IN_10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/31d88b201ae69fdbd8e964ac013e3f7044010450.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/347f3b586a3dc4d55f95845bdf0c9c6adc1dde53.jpg",
     "displayName": {
@@ -138,7 +148,7 @@
   },
   {
     "name": "SPDFIRST_20_IN_25000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/44e66ed99679c0d197298b185363ef480ce429d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/59c3e1eb08b1bfcfd577dbde199128475ed2016f.jpg",
     "displayName": {
@@ -154,7 +164,7 @@
   },
   {
     "name": "CTNSESSION_120000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/f535cd96308b98a7837b36a5cff9c2a4edd784b8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/f5fafe90e4405b5c3d631d7ba0b179477fa75382.jpg",
     "displayName": {
@@ -170,7 +180,7 @@
   },
   {
     "name": "CNTSESSION_500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/6dfb9ca0f7ca5a395ac37d11066be657911815eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/cade92b2682a9ccd8c3ad0655df0bc6befdfc148.jpg",
     "displayName": {
@@ -186,7 +196,7 @@
   },
   {
     "name": "CTNSESSION_600000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/4f1ddbefc498378abd814c2e8334130c72d81e22.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/7bf7eebd85f091ed589c185bb3925dae7c58f0c3.jpg",
     "displayName": {
@@ -202,7 +212,7 @@
   },
   {
     "name": "TIMETOTAL_1200000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/873819b069e70d65d0457940035b3f11835a36f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/2eae3f7f0ea39a037052e43f540237f35a374729.jpg",
     "displayName": {
@@ -215,15 +225,17 @@
       "schinese": "游戏总时长达到20分钟。",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1200,
-      "stat_name": "TOTAL_SEC"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_SEC",
+        "min_val": 0,
+        "max_val": 1200
+      }
+    ]
   },
   {
     "name": "TIMETOTAL_2700000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/a0b4f0bd79b81adbb4dacc02aac8f30fb0a60b00.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/8863f167824f3e8e6ea10c7d9e82e1aed60ee8e3.jpg",
     "displayName": {
@@ -236,15 +248,17 @@
       "schinese": "游戏总时长达到45分钟。",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2700,
-      "stat_name": "TOTAL_SEC"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_SEC",
+        "min_val": 0,
+        "max_val": 2700
+      }
+    ]
   },
   {
     "name": "TIMETOTAL_3540000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/0afdc4d92b83039330818a6a6c00e0eb1cfe9726.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/cca87d717bbef2193dd6f05f5fd1450ee7357e00.jpg",
     "displayName": {
@@ -257,15 +271,17 @@
       "schinese": "游戏总时长达到59分钟",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3540,
-      "stat_name": "TOTAL_SEC"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_SEC",
+        "min_val": 0,
+        "max_val": 3540
+      }
+    ]
   },
   {
     "name": "TIMETOTAL_3600000",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/9ed1e53f2b9944dedaae7612d5e4db49c99c5021.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2900540/35da819be0f95398931f38a63f6b1e844cf711b5.jpg",
     "displayName": {
@@ -278,10 +294,12 @@
       "schinese": "游戏总时长达到60分钟",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3600,
-      "stat_name": "TOTAL_SEC"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_SEC",
+        "min_val": 0,
+        "max_val": 3600
+      }
+    ]
   }
 ]

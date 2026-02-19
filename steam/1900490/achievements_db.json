@@ -1,7 +1,7 @@
 [
   {
     "name": "ACV_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/fcff7135995109f8db7679e73ea1b31bdece49fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/2468ab893c790ec1ebf569a5ae1877d19228a1e9.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACV_02",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/f7c46b9611e003a0f5e5ca1c703e4d882824af1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/ff7a94bb1c83f54c28cfd0416964ee0dd1f54763.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACV_03",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/ff3e6d70b43e214e396d6c86f60f148acfbd11bf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/7b6358823df4a71fdcfc021df7ea494dc03690f5.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACV_04",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/4bb5c1dc3ce893f52a18bb7c8189ba72ff0860a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/a1913513710a15481851ada0856a013912b15e3e.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACV_05",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/e4ae7c2d4aa6a4dd00ef2babc2833b4a4d184b81.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/9640c1fb2e4d4bfb337913943663825fac094243.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACV_06",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/aeb5f756e402914b0b8c4142d6a528bd82198699.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/b673052607ccb1d9e886fb466fc9a8206e6cba82.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACV_07",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/b7ce183fea2b9d164794ca50da84d0d6ae9cff55.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/b2f948c1304a884550d718bbbf3b124e40488d4a.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACV_08",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/494729086d2290492946869f0dd06e6dd1b43886.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/bd6f2cc2c8eab005fe80681502760a51818f6694.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Finish the level 10 times.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "S_GAMES_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "S_GAMES_WON",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACV_09",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/75108aba76787c8bfce7fce749c033dac5c0bae3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/44a0270a6f876bddf3291e5556dd3b3c93300e59.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Finish the level 50 times.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "S_GAMES_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "S_GAMES_WON",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACV_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/b93b7ebb0ae5f2e4927f579fa926e13fbf05ae59.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/13f77b7526d4685f2cb4ba5feee4846cc33bb64a.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Finish the level 100 times.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "S_GAMES_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "S_GAMES_WON",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACV_11",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/27670ab25038b0adc7fd50e1e4d9440a8f9de3d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/9d2ed6cc925b2ba602beea25e72a68aa56d13dab.jpg",
     "displayName": {
@@ -170,7 +176,7 @@
   },
   {
     "name": "ACV_12",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/46d3437530cab368d043ea1a0e2d86af096786e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/61d34fdb554c663276151b2cdda2a97418941bd4.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "ACV_13",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/e1e5a6e515aa6ff981fc4fb3228ed8a9f44f3220.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/94382ea8341bf31967e4f1d4e517e12536b19e28.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "ACV_14",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/7af418dc6510d8c5d6176a56b4c6b8257c280d22.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/8c7afc80203c64543870854e5458b2c6647cd2d7.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "ACV_15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/0a7ae018d0997a0340f6c25a6c319aef5c241fa4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/51b204f09747c60f65a6f989e99607eb4b0176a0.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "ACV_16",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/adbd250d9a8fdcc9fad97e0ae400a67ca2b9bbf5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/de0ba9a999761086115ca6b3271d2b742f805c65.jpg",
     "displayName": {
@@ -237,15 +243,17 @@
       "english": "Die 30 times.",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "S_DEATHS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "S_DEATHS",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACV_17",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/4297ba672166d28f6cdad634f2a00374a889506a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/b1c93775c70f3f2b7781a4c1ae81274dae912b00.jpg",
     "displayName": {
@@ -256,15 +264,17 @@
       "english": "Die 300 times.",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "S_DEATHS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "S_DEATHS",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ACV_18",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/9414669a79f531f1942a9fa8a5fae11a08670cc1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/6eea14456fb4ea6b2a5ef55e82353535b7058be4.jpg",
     "displayName": {
@@ -275,15 +285,17 @@
       "english": "Die 600 times.",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 600,
-      "stat_name": "S_DEATHS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "S_DEATHS",
+        "min_val": 0,
+        "max_val": 600
+      }
+    ]
   },
   {
     "name": "ACV_19",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/a0ab2ad64b752e08b63456fdcc708aad1628fa70.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/be2930d10b9f67af986fa6e60f6814d3f472cb1d.jpg",
     "displayName": {
@@ -297,7 +309,7 @@
   },
   {
     "name": "ACV_20",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/1ad386a2e86966613d2b0a593c62eed324ef2bbe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/4511ae4ecf4196ecf770480959a9fd6f72ccf704.jpg",
     "displayName": {
@@ -311,7 +323,7 @@
   },
   {
     "name": "ACV_21",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/a30521a1a32c32509cdc93b72b2eb36e1b7313c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/71a0e8486f02b112a5c946900b982e85ac61d4e9.jpg",
     "displayName": {
@@ -325,7 +337,7 @@
   },
   {
     "name": "ACV_22",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/8900832ef62a3e42fa91aa4b405c38fa8c447fc4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/8d9d0e296db2119a73dd895ded3a2f6e6eb9228f.jpg",
     "displayName": {
@@ -339,7 +351,7 @@
   },
   {
     "name": "ACV_23",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/8cce9e775b400e3ad92b10822f1326bc1ba211ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1900490/77dcbf548ffaa2494bee44f3ec0b1cecfbe0e6a0.jpg",
     "displayName": {

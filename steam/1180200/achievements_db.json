@@ -1,7 +1,7 @@
 [
   {
     "name": "Currency",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1180200/296e4640cc8d6317fea108896d40433378bdf4a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1180200/9152b2228ebeb1b20f955379bc1956c132eeb4d0.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "幸存者拥有的通用货币，可跨服使用。",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "currency"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "currency",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

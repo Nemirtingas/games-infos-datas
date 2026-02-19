@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_01_START_SAGA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/775e825a1a54b548bedc4a5f968743e951c08617.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_02_TUTORIAL_FINISHED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/55f226036426add4439d62be3583532410bf8809.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACHIEVEMENT_03_I_FOUND_A_STATION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/9cc9f2f70d35b69a593d413d0d8c5445a4a34952.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACHIEVEMENT_04_I_FOUND_A_PLANET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/4d04c8a13ee57d509ef3f8bdd7ee258962493a01.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACHIEVEMENT_05_I_FOUND_AN_OUTPOST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/9ec2c4222c0d09f29f33a4c8dd587d500c563e47.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACHIEVEMENT_06_TINY_FLEET_COMMANDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/685a0561b4b5f9c21c933d013f2bbf3fb0e09767.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Have 1 Mercenary in your Fleet",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "stat_fleet_mercenaries"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_mercenaries",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_07_SMALL_FLEET_COMMANDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/1dfcbda658f496b42649b9153a4f7f8c8349067a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -101,15 +103,17 @@
       "english": "Have 5 Mercenary in your Fleet",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "stat_fleet_mercenaries"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_mercenaries",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_08_MEDIUM_FLEET_COMMANDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/bdeb55520a0a4f66a66fb6cb19cae940f56680e0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -120,15 +124,17 @@
       "english": "Have 10 Mercenary in your Fleet",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_fleet_mercenaries"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_mercenaries",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_09_BIG_FLEET_COMMANDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/9ffc67ffdd49e39e7abb323ab597a74b8f846925.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -139,15 +145,17 @@
       "english": "Have 25 Mercenary in your Fleet",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "stat_fleet_mercenaries"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_mercenaries",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_10_HUGE_FLEET_COMMANDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/e2539a5440eb9249d957536d4e433c2a30042c4a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -161,7 +169,7 @@
   },
   {
     "name": "ACHIEVEMENT_11_ARMADA_COMMANDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/cad0a407ad5eab4c6398c087dd017c8a45a5f7f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -175,7 +183,7 @@
   },
   {
     "name": "ACHIEVEMENT_12_A_FIRST_SHIP_I_LOST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/3cff57cfbdcc1093eb55d82689699a28db1427ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -186,15 +194,17 @@
       "english": "Loose 1 Mercenary",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "stat_fleet_loses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_loses",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_13_A_FEW_SHIPS_I_LOST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/ad35edff20637c2592008074a0998129f92a8333.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -205,15 +215,17 @@
       "english": "Loose 5 Mercenary",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "stat_fleet_loses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_loses",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_14_PAINFULL_LOSS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/ddbdbd999a35b68ed06d1d6c01cca2714096611b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -224,15 +236,17 @@
       "english": "Loose 100 Mercenary",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_fleet_loses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_loses",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_15_CASUALTIES_INCREASED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/ec5e8f7a23d11e357fbed27a0ca36fad9131eca6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -243,15 +257,17 @@
       "english": "Loose 250 Mercenary",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "stat_fleet_loses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_loses",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_16_ENTIRE_FLEETS_ARE_LOST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a0a35d9a4c15e387611632eabf60f54c054ca988.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -262,15 +278,17 @@
       "english": "Loose 500 Mercenary",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "stat_fleet_loses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_loses",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_17_GAMBIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/41c639821cc54b021fe1fbe6b130976140d9b005.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -281,15 +299,17 @@
       "english": "Loose 1000 Mercenary",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "stat_fleet_loses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_loses",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_18_MY_FIRST_TARGET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/57a2b7b948c0b5876716b6cfb0ceb597c8b42c9f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -300,15 +320,17 @@
       "english": "Destroy 1 Enemy ship",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "stat_fleet_destruction"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_destruction",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_19_A_FEW_SHIPS_I_ANIHILATED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/37c8345fe29520bb11f84286c5544b0d4871aad4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -319,15 +341,17 @@
       "english": "Destroy 10 Enemy ships",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_fleet_destruction"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_destruction",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_20_I_KNOW_HOW_TO_SHOOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/d3776e694a0006d1164d3f243a3aaceb0612eae3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -338,15 +362,17 @@
       "english": "Destroy 100 Enemy ships",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_fleet_destruction"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_destruction",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_21_DESTRUCTION_IS_MY_NAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/f62e9b2869f470c893b20701e0dd595a9f117945.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -357,15 +383,17 @@
       "english": "Destroy 250 Enemy ships",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "stat_fleet_destruction"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_destruction",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_22_GUNS_OF_THE_STARS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/08ae403886fcbe043ec5262334ec5de32e63cea1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -376,15 +404,17 @@
       "english": "Destroy 500 Enemy ships",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "stat_fleet_destruction"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_destruction",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_23_GALAXY_WILL_BURN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/2b6a25daf8d4245124306e07cb6a839cf96bba17.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -395,15 +425,17 @@
       "english": "Destroy 1000 Enemy ships",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "stat_fleet_destruction"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fleet_destruction",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_24_CAN_I_CONTROL_IT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/45f148f304df1afe0d947cbe9d76e998dee8b6ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -414,15 +446,17 @@
       "english": "Conquer 1 Space Object",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "stat_sectors_gained"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_sectors_gained",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_25_WE_ARE_GROWING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -433,15 +467,17 @@
       "english": "Conquer 3 Space Objects",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "stat_sectors_gained"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_sectors_gained",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_26_A_NEW_FORCE_ARISING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/ec6b63a8bee586820d8e7c9edcbd0a394a245660.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -452,15 +488,17 @@
       "english": "Conquer 8 Space Objects",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "stat_sectors_gained"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_sectors_gained",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_27_EMPIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/9e4322ead453d12041a1588f0d254c1a22d28f41.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -471,15 +509,17 @@
       "english": "Conquer 15 Space Objects",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "stat_sectors_gained"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_sectors_gained",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_28_GALAXY_WILL_BE_OURS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/d8593c1bd3cf911cad60d1f7a01e0cfeff7416c8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {
@@ -490,15 +530,17 @@
       "english": "Conquer 20 Space Objects",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "stat_sectors_gained"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_sectors_gained",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_29_VENI_VIDI_VICI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/73ff243fdfb3362a5e4298f26778a0f29966f528.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2375480/a709f4147451c24aad0d09eda49cdad7b2b29480.jpg",
     "displayName": {

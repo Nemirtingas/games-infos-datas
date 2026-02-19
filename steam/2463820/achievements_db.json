@@ -1,7 +1,7 @@
 [
   {
     "name": "You're Fired...",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2463820/33a1874826271c4ac15cba02e9eaf1d14ae28584.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2463820/b4399d2f7bcff1a394b5f79a5df0b8732a069d6c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Worst On The Job",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2463820/c0b967e748bc68ba1663e788e652d7920228d147.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2463820/86e78191b3fbd9aa2d199b5eb778c710149e0f58.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "You've died 100 times?! That's a lot of paperwork",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Deaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Deaths",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Formal Warning",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2463820/d790a1df8bdaa95ad2cb32e9a7bad5709930f507.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2463820/6867de8ae9db123afbbb2773bb33a979bcd77b26.jpg",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "You've died 50 times. Come to my office",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "Deaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Deaths",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "Let’s stick to the fax",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2463820/ea28fe3921e9eae3869d8b2dc1dfaf7da15112f7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2463820/e8c8b104347a2e719e2099327fa9daa0a54d7fd6.jpg",
     "displayName": {
@@ -67,7 +71,7 @@
   },
   {
     "name": "Intern",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2463820/ebea6a5903c56f80812470756c1dcfbb5ce320ac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2463820/05887ed482eb2ea9c634aef9814ad431b8e6fc60.jpg",
     "displayName": {
@@ -78,10 +82,12 @@
       "english": "(Online Only) You've won! maybe you'll make it yet, rookie",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "Wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Wins",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

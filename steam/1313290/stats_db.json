@@ -2,25 +2,31 @@
   {
     "name": "STAT_NUM_SCOUTED_TILES",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 7,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_NUM_BANDIT_ARRESTED",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 50,
+    "default": 0
   },
   {
     "name": "ACHIEVEMENT_VERSION",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 1
   }
 ]

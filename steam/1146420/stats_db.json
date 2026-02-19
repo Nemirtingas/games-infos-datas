@@ -2,25 +2,34 @@
   {
     "name": "Kills",
     "displayName": "Ships Destroyed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": 1000000,
+    "default": 0
   },
   {
     "name": "Sectors",
     "displayName": "Sectors Explored",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 100,
+    "default": 1
   },
   {
     "name": "Relics",
     "displayName": "Relics found",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 24,
+    "default": 0
   }
 ]

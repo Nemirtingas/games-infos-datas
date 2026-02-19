@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_UltimateLoser",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/34d6977404704b27c0b2200bdc330f0655babfeb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/43aba2e1de88d10e199c528a376d5020f6db0084.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_Royalty",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/71fffee847c5f6965229df8d6fe8891f4d57c0a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/a9092de94f68f23c242bb8d00db8a3eb38946334.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_Architect",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/82200d53cf58fe20fd875f6a60944a2e2fbd2cbc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/61c381d8790444739e75d7139a1cd8a6df985273.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Build 25 kingdoms",
       "token": "NEW_ACHIEVEMENT_15_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "kingdoms"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kingdoms",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACH_Mason",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/828fe3cb63218aaf6abd272fdda54b266a5398e0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/3f7ed2dfd0a9f499d350c5f4f51ce663e58d969f.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "Build 10 kingdoms",
       "token": "NEW_ACHIEVEMENT_15_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "kingdoms"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kingdoms",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_Engineer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/a9c999d8e80041528518ad38a37253f6fd92711f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/17383f4e183a671cb7b5d523e74a0c3c2e201b80.jpg",
     "displayName": {
@@ -78,15 +82,17 @@
       "english": "Build 100 kingdoms",
       "token": "NEW_ACHIEVEMENT_15_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "kingdoms"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kingdoms",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_Investor",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/e587ced498e85eac827c3ea19e5dd6899547016f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/a99030d31eb5bad7c5852f03516e251db9b66004.jpg",
     "displayName": {
@@ -100,7 +106,7 @@
   },
   {
     "name": "ACH_PieceOfCake",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/83db46f36e27d5dceb6fd50ec00da143948a3543.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3205460/8d2a009e417559faeb192847287f74b6935d570b.jpg",
     "displayName": {
@@ -111,10 +117,12 @@
       "english": "Survive your first day",
       "token": "NEW_ACHIEVEMENT_15_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "days"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "days",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

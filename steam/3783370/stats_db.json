@@ -2,65 +2,89 @@
   {
     "name": "Deaths",
     "displayName": "Lives Wasted",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 999999969,
+    "default": 0
   },
   {
     "name": "Time",
     "displayName": "Time Wasted",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 100000.0,
+    "min": 0.0,
+    "max": 1E+09,
+    "default": 0.0
   },
   {
     "name": "Clears",
     "displayName": "Total Clears",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 6969,
+    "default": 0
   },
   {
     "name": "Boss",
     "displayName": "Number of Bosses Defeated",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 6969,
+    "default": 0
   },
   {
     "name": "Game_over",
     "displayName": "Total Skill Issues",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 111111,
+    "default": 0
   },
   {
     "name": "Speedrun",
     "displayName": "Fastest completion time",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 100000.0,
+    "min": 0.0,
+    "max": 100000000.0,
+    "default": 0.0
   },
   {
     "name": "Least_deaths",
     "displayName": "Minimum deaths in a single run",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 9999999,
+    "default": 0
   },
   {
     "name": "Deathless",
     "displayName": "Total No-Death Runs",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 999999,
+    "default": 0
   }
 ]

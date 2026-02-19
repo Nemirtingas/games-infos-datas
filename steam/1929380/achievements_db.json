@@ -1,7 +1,7 @@
 [
   {
     "name": "FINISH_L1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1929380/e072277c3905934242a4b92f4b9533bbf16128d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1929380/8f3a6ed5b8b0da4e6e0fd60c9bfb841ecb67eae1.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Enter the tele-fog at the end of level of the first level",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "HIGH_LEVEL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HIGH_LEVEL",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1929380/d52e7de45fdfb7a63d267bb3bc1fbfe88c935f47.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1929380/028bdae1055abbe775b3bd97b1773cccb8643973.jpg",
     "displayName": {
@@ -31,10 +33,12 @@
       "english": "Get through level 16 and claim victory",
       "token": "NEW_ACHIEVEMENT_2_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 17,
-      "max_val": 17,
-      "stat_name": "HIGH_LEVEL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HIGH_LEVEL",
+        "min_val": 17,
+        "max_val": 17
+      }
+    ]
   }
 ]

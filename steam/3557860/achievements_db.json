@@ -1,7 +1,7 @@
 [
   {
     "name": "PROFESSIONAL_FISHERMAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3557860/1fbaa75f7f50695d3cda4fc671927f9a1e409250.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3557860/99b1b54ac9969d88e2b13cd3bd005d0270444db5.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "TRUE_CAT_LOVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3557860/6e73644b2ec70079bb425118ec08f9bb451dbc9d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3557860/b795310c5c1e5f3708374e2c217fed9c1913df1c.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "FAT_CAT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3557860/76d52f67d950447b49209499109b315707f4c9c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3557860/e7f610fa6de1a6db9cc90386491ba24dc65b110c.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "DEDICATED_CAT_SERVANT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3557860/c2d26f57f5071877e96ca353f5abf3a12f05e7c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3557860/1675254ba27286dfb253d8b99de87d90c18b2286.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Fed 10 cans.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "CANS_FED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CANS_FED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "BRAINWASHED_CAT_SERVANT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3557860/634b2889b68a18fe20d72aed88a8cabfb94294c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3557860/30220123b2f621436a78d400b14202a831702fd3.jpg",
     "displayName": {
@@ -73,10 +75,12 @@
       "english": "Fed 100 cans. I live to serve. Meow is law.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "CANS_FED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CANS_FED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "testach",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380600/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2380600/",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "You've won a bread trophy!",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "teststat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "teststat",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   }
 ]

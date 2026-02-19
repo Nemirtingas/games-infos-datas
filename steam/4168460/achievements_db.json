@@ -1,7 +1,7 @@
 [
   {
     "name": "beat_the_periphery",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4168460/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4168460/",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "killed_10_enemies",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4168460/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4168460/",
     "displayName": {
@@ -26,10 +26,12 @@
       "english": "You killed 10 enemies",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "enemys_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemys_killed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

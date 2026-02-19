@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_HUMBUG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/cf43c7e133d0683806788dd2728f38fe7ac2c407.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/d5a43f0a2c2efb6e11779d9f0761e0e85ce1813e.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_COMPLETIONIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/0365a86e43982c40c5125aafd662dc9318979a95.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/5598aecee5d4baf9915442d5314657d49f99fd3a.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Collect all 13 Achievements",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 13,
-      "stat_name": "achievements_won"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "achievements_won",
+        "min_val": 0,
+        "max_val": 13
+      }
+    ]
   },
   {
     "name": "ACH_LEADERBOARD10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/80835d3d2f65148e27814ecf25ddf40ffcab7f4e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/514be6d7d8768aeb5bc333184aa2733f5145021a.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_LEADERBOARD50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/38551690a488c29843cac1cdcdc3e8d2b10729a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/4411d40cf2f74112507417281b54f8d8933748fb.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_CREDITS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/cc101438610ea399d69e1a736a38ed3803cbc897.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/0ac2680d930db8a6c6a17b61c0612a3fcff18ebb.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_BOMB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/34433917b0bcd0acc74f3f3a0e6e6975545e40f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/d6d2de51665c7f59e997d3896d17c6689df24fdb.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_SPECIALTIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/c08ee7fdb026e595f3ceacc3e95b68910b502a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/cd799ff50033caac680e18cb398ad74ef077e9b8.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_NICKOFTIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/002fc86f68b807ae38a49189df89d64ee5ee8c43.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/636c4f15a9a6ee6eab45b9f7c7ea338d6095d205.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_PUDDING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/a3f842a17a693f7d66a4b172ed92f8b7bec66e04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/1d4afc30ea2e4804c8a946d7cad03f032196b8ce.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACH_12LEVELS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/bd0963fec033466f96fdcfa0e2bb194da1e50995.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/5aa750a1d40bd25f38caca74c46deb1f1b82265d.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Complete all 12 levels in 12 Gifts of Christmas",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 12,
-      "stat_name": "collector_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "collector_level",
+        "min_val": 0,
+        "max_val": 12
+      }
+    ]
   },
   {
     "name": "ACH_HIGHFIVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/cdfc782c321a6101cd34b106ef8f8fda33ce23c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/3ea52e14d15263230c9b2f84199ebc0910376ebe.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ACH_POWERUP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/129aac8a94401bf7a165c50eeb8ec0ce4699747d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/c344b9f72e463ff48f419ff8d6920aa670d000c3.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ACH_FIRSTSYMBOL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/ad5ee250826889a03e1f91e4d668ddc882f936bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/4ea7002acec3fb61780018937a6b3503f0db27fd.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "ACH_RIGHTONTIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/8231ac2bb711a172cefe686588c7428bc4f8aa05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2509650/b62a7f9c49f056561e93a49c2ebaaaeda04c87ee.jpg",
     "displayName": {

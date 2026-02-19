@@ -2,41 +2,49 @@
   {
     "name": "STAT_MAX_RANK",
     "displayName": "Max Rank",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1,
+    "default": 0
   },
   {
     "name": "STAT_MAX_FREERANK",
     "displayName": "Max Free Rank",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1,
+    "default": 0
   },
   {
     "name": "STAT_VIEWED_AFFECTION",
     "displayName": "View Affection Event",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "STAT_CHOSE_STORY",
     "displayName": "Story Mode",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "STAT_CHOSE_QUICK",
     "displayName": "Quick Start Mode",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
   }
 ]

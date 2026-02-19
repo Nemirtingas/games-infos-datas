@@ -1,7 +1,7 @@
 [
   {
     "name": "StartFish",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3243860/e178a81966e903b864c1e0c62827fb50f21c6e9f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3243860/efb3713bde441f9dc06ad28d4a45273fc3c4d1d4.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "you start fishing",
       "token": "NEW_ACHIEVEMENT_5_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "FishMan"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FishMan",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_WIN_ONE_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1898630/b48a9f199290f6ef0c3316e7e86be9ba6d6fa1d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1898630/0d329fcf220674e33250aa5151161a9ff24822c2.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_WIN_100_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1898630/6edf24abbc673d9dd6c1b13bc661c710f7e4e40c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1898630/4620a3533ba95c60532a8b5a65ab2eee12063336.jpg",
     "displayName": {
@@ -26,10 +26,12 @@
       "english": "Win 5 Games",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "Win_Win"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Win_Win",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   }
 ]

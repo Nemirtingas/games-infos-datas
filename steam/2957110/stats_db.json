@@ -2,25 +2,28 @@
   {
     "name": "level",
     "displayName": "Level",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "max": 120,
+    "default": 1
   },
   {
     "name": "coins_looted",
     "displayName": "Coins Looted",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "items_collected",
     "displayName": "Items Collected",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "max": 6666,
+    "default": 0
   }
 ]

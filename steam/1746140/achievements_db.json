@@ -1,7 +1,7 @@
 [
   {
     "name": "BAPTISM_OF_FIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/68b74aa1e593c439973f68bd1ad694930e2f23d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/8de142b3d5f577f7bf1af1ccfbbe539010756cae.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "TUTORIAL_PASSED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/2f2a844c076e88865d147e86043391155084990d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/9cf465b03682c1b3bdf47cfa6cb7707097690f9c.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "LONG_RUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/af75d4f8f4fcdc2466b7d16f78ef8f4d9ef2fbfb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/e52feb26834a1bee3feb845e0f26cb7799a609ab.jpg",
     "displayName": {
@@ -46,15 +46,17 @@
       "russian": "Дойдите до 30й волны",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "MAX_WAVE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MAX_WAVE",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "KILLER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/ea0f943bfacd9c9b3eeab983595a88b73ae9abcf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/c09a9f4fbd17c7dd3566382e873bd2d2de717911.jpg",
     "displayName": {
@@ -67,15 +69,17 @@
       "russian": "Убейте 5000 врагов",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "TOTAL_KILLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_KILLS",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "MERCENARY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/67efd7dbf98ff707eb43ccb27e292fa1541c883c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/0139f2eee8c87be2c4b8d6446311e919baf0e8cc.jpg",
     "displayName": {
@@ -88,15 +92,17 @@
       "russian": "Убейте 100 врагов с 4 турелями",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TOTAL_GUNSHIP_KILLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_GUNSHIP_KILLS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "SAPPER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/01442fdaa60eeb01b2bf1dc60090ae841e3f8d7e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/e01f53f39ecd302d6eb70a20e61d4e0a010a3cbb.jpg",
     "displayName": {
@@ -109,15 +115,17 @@
       "russian": "Убейте 50 врагов с взрывающимися снарядами",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "TOTAL_BOMBARD_KILLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_BOMBARD_KILLS",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "SCIENTIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/15556318c547755753b8cd901e2db04f1b262275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/e33a24962f8f92d215a2fb17f9253301244754aa.jpg",
     "displayName": {
@@ -130,15 +138,17 @@
       "russian": "Активируйте 5 астероидов-лабораторий за одну игру",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "MAX_LAB_ASTEROIDS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MAX_LAB_ASTEROIDS",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "MINER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/95647eb8bb478b0d31134edef104fbf02967c07b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/bba74b7318fe86ebe6f4760fa0d02a34207d57d0.jpg",
     "displayName": {
@@ -151,15 +161,17 @@
       "russian": "Активируйте 5 астероидов-шахт за одну игру",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "MAX_MINE_ASTEROIDS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MAX_MINE_ASTEROIDS",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ENGINEER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/2a34671ed51b8f9f637798a97ef0f3cd98e02b22.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/af0de98fe058db5f44ae5aed2c4781e56c65fa44.jpg",
     "displayName": {
@@ -172,15 +184,17 @@
       "russian": "Активируйте 5 астероидов-фабрик дронов за одну игру",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "MAX_DRONE_ASTEROIDS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MAX_DRONE_ASTEROIDS",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "SUICIDE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/97089a237a27a42e0c16e6fc85f6813093d3a3c8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/1631547df754467fe38972559f59f7e0a791a96b.jpg",
     "displayName": {
@@ -196,7 +210,7 @@
   },
   {
     "name": "PILOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/e28dc0e5bff2a9319498ed02804bec62d7399bb0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/d3efc17142abef348a1bb75dba5b591009c5ab3d.jpg",
     "displayName": {
@@ -209,15 +223,17 @@
       "russian": "Пролетите 1000000 единиц дальности за игру",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "MAX_DISTANCE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MAX_DISTANCE",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "GREAT_POWER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/27a5ce395e248aefdc6b95d72794d40cabb130d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/57eb5ff3affe0fd5cdfbf122afd8693616d2fc00.jpg",
     "displayName": {
@@ -230,15 +246,17 @@
       "russian": "Купить все улучшения",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "MAX_UPGRADES_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MAX_UPGRADES_COUNT",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "COLONIZER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/75150cc5dbc1cb3136c5020d5614c71d5fc5a72b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/c589ecc1264f8399051c9c2c93e6c77d834edac2.jpg",
     "displayName": {
@@ -251,15 +269,17 @@
       "russian": "Колонизировать 25 астероидов",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "MAX_ASTEROIDS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MAX_ASTEROIDS",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "RESEARCHER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/54b660bd27f5563514e15d55887ecc6ed8a1fcdb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/1ab8b3ee6be515da8d0a78c220d82397d6135fbb.jpg",
     "displayName": {
@@ -272,15 +292,17 @@
       "russian": "Исследовать все исследования",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 161,
-      "stat_name": "MAX_RESEARCH_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MAX_RESEARCH_COUNT",
+        "min_val": 0,
+        "max_val": 161
+      }
+    ]
   },
   {
     "name": "SPENDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/56c930588b02180412d794f80c1a324788b0e0cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/ed0ba2df85014e1c7da33f3d77827da993cf1634.jpg",
     "displayName": {
@@ -293,15 +315,17 @@
       "russian": "Потратить 5000 золота на снаряды за игру",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "MAX_GOLD_FOR_BULLETS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MAX_GOLD_FOR_BULLETS",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "GETTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/4db49312289875ca58142bda74274e17b40e765a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/dfafda6a3ec31f32e2bc1a94f32475bfbc4b5bd9.jpg",
     "displayName": {
@@ -314,15 +338,17 @@
       "russian": "Получить 50000 золота за игру",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50000,
-      "stat_name": "MAX_GOLD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MAX_GOLD",
+        "min_val": 0,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "WORKAHOLIC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/042f789b886600bc9d9f72507928589bb5631a11.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1746140/6ed4147a7da6f1a4e0ee36a72a143ba6dacbb148.jpg",
     "displayName": {
@@ -335,10 +361,12 @@
       "russian": "Получить 1000000 золота",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "TOTAL_GOLD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_GOLD",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   }
 ]

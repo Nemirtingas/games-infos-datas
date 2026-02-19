@@ -1,7 +1,7 @@
 [
   {
     "name": "1_Novice_Combatant",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/4499f17ac982385b2cdff9166e9f96bc063b1460.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/b53629fc56e9856a0f75ab9bdc3574c3433346f4.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "2_Seasoned_Fighter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/71e29aa1fe61c58348e97f647650fffd14e24f03.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/adac2e449a675a33dd3aba8e8b9e1f1dab928e1f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "3_Mighty_Warrior",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/17a7d5a6088a6da1c45ddf62ed69fb3ba0e56b78.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/fc3f1863ae9fc7316e5228610979db2d39544324.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "4_Legendary_Slayer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/3e5a7e1d698efc476973db40ead61cc8f825985b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/c4a5c8771e205a643debae1ccc9ef31b275aaa9e.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "5_Titanic_Annihilator",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/ef1821b906c53ce6fcb823acbfc7b15491d215f9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/ae63b3cfaf13ab4132b9c7a6f0b44b024ba85b04.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "6_Penny_Pincher",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/9a20dfa8d9d40460427b536199f6e4ae72c0ae95.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/7f356279e5f77616f5a6c81f1a5ab1c3873554e3.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Loot 50 copper in total.",
       "token": "NEW_ACHIEVEMENT_3_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "LOOTED_COPPER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LOOTED_COPPER",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "7_Silver_Scavenger",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/c2ad0a94aeedc1107cb1bb45368a9675ce88adc1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/adb8c6b83b7f107b8f321c26aa7a0b501fd95169.jpg",
     "displayName": {
@@ -101,15 +103,17 @@
       "english": "Loot 50 silver in total.",
       "token": "NEW_ACHIEVEMENT_3_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "LOOTED_SILVER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LOOTED_SILVER",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "8_Fortune_Hunter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/cd27bf378728e3429757203d512f85dfe9ed884e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/705c6a791f0d07d6cc1b45de248d527ba2689be5.jpg",
     "displayName": {
@@ -120,15 +124,17 @@
       "english": "Loot 2 gold in total.",
       "token": "NEW_ACHIEVEMENT_3_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "LOOTED_GOLD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LOOTED_GOLD",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   },
   {
     "name": "9_Treasure_Hunter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/086ba2bb048709781c3882ffe5bc11d531b7a08d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/f92acec7e66684aad68ee23aead4f73406880ef1.jpg",
     "displayName": {
@@ -139,15 +145,17 @@
       "english": "Loot 5 gold in total.",
       "token": "NEW_ACHIEVEMENT_3_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 2,
-      "max_val": 5,
-      "stat_name": "LOOTED_GOLD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LOOTED_GOLD",
+        "min_val": 2,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "10_Plunderer_of_Kings",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/ad413feb4e9f405903a8dc4b4b1f27c715e2228e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/f54e2eeb4012884d6928b89a3edc373b36b7c032.jpg",
     "displayName": {
@@ -158,15 +166,17 @@
       "english": "Loot 20 gold in total.",
       "token": "NEW_ACHIEVEMENT_3_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 5,
-      "max_val": 20,
-      "stat_name": "LOOTED_GOLD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LOOTED_GOLD",
+        "min_val": 5,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "11_Wayfarer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/780f7ff90a0f4b664525d260a7ea7f031f324082.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/8bddf16298cd657768c8418cdb4bd9a613473a5a.jpg",
     "displayName": {
@@ -177,15 +187,17 @@
       "english": "Enter 5 unqiue zones.",
       "token": "NEW_ACHIEVEMENT_3_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "BG_DISCOVERED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BG_DISCOVERED",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "12_Pathfinder",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/4d08109eb0dd4690eb22392a8e1f3a443f6dba46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/2447d96626fe681e14a70f04a4a5521d2b3d78e8.jpg",
     "displayName": {
@@ -196,15 +208,17 @@
       "english": "Enter 10 unqiue zones.",
       "token": "NEW_ACHIEVEMENT_3_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 5,
-      "max_val": 10,
-      "stat_name": "BG_DISCOVERED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BG_DISCOVERED",
+        "min_val": 5,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "13_Discoverer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/fe035b03bd4e8a4bee4f076699c5ce2b453f8ddf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/36dcd8bc3c02c458a989090367c093faf89bb79a.jpg",
     "displayName": {
@@ -215,15 +229,17 @@
       "english": "Enter 15 unqiue zones.",
       "token": "NEW_ACHIEVEMENT_3_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 15,
-      "stat_name": "BG_DISCOVERED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BG_DISCOVERED",
+        "min_val": 10,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "14_Explorer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/16790a7db393f7bf00eb28578ac75897b1aba2a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/39143456f8dc20b3dfe78c662536e19f1bb00c22.jpg",
     "displayName": {
@@ -234,15 +250,17 @@
       "english": "Enter 20 unqiue zones.",
       "token": "NEW_ACHIEVEMENT_3_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 15,
-      "max_val": 20,
-      "stat_name": "BG_DISCOVERED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BG_DISCOVERED",
+        "min_val": 15,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "15_Novice_Crafter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/449f3a223e20634c4d76afeca7522e6ab06a0381.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/f98fa6f1ca57908209db78ad2c608de523a83195.jpg",
     "displayName": {
@@ -253,15 +271,17 @@
       "english": "Craft 5 items.",
       "token": "NEW_ACHIEVEMENT_3_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "CRAFTED_ITEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CRAFTED_ITEMS",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "16_Apprentice_Crafter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/4ab6267b91d6e8e4f282c992d312f7151bc78419.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/3db1e93ed57df6b4aa0c491fe4ed737eae4adc59.jpg",
     "displayName": {
@@ -272,15 +292,17 @@
       "english": "Craft 15 items.",
       "token": "NEW_ACHIEVEMENT_3_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 5,
-      "max_val": 15,
-      "stat_name": "CRAFTED_ITEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CRAFTED_ITEMS",
+        "min_val": 5,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "17_Skilled_Smith",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/8e5f344747271b06f251772514b6f93c386d6283.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/110fb2e975f1a70e397bfb9349381cc7e6235d5a.jpg",
     "displayName": {
@@ -291,15 +313,17 @@
       "english": "Craft 50 items.",
       "token": "NEW_ACHIEVEMENT_3_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 15,
-      "max_val": 50,
-      "stat_name": "CRAFTED_ITEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CRAFTED_ITEMS",
+        "min_val": 15,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "18_Artisan_Craftsman",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/caf42c257b2c6f1b6d76f2826ea7b387b34d2a44.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/695f495076510bbeeaa4b4d15c32e49b8c9e4af3.jpg",
     "displayName": {
@@ -310,15 +334,17 @@
       "english": "Craft 100 items.",
       "token": "NEW_ACHIEVEMENT_3_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 50,
-      "max_val": 100,
-      "stat_name": "CRAFTED_ITEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CRAFTED_ITEMS",
+        "min_val": 50,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "19_Grand_Artificer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/feb1c9a95efbd6dca139430a891956dd9ea5bcd2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/a89ed5b28d442960ac4d5fbe2679acbd2727f6d7.jpg",
     "displayName": {
@@ -329,15 +355,17 @@
       "english": "Craft 250 items.",
       "token": "NEW_ACHIEVEMENT_3_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 250,
-      "stat_name": "CRAFTED_ITEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CRAFTED_ITEMS",
+        "min_val": 100,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "20_Eternal_Artisan",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/2aa48c24ac71e69e7a569cf94789b374beef747b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/2bbc46d6102716ed0c7841ca10031b5d162f3df1.jpg",
     "displayName": {
@@ -348,15 +376,17 @@
       "english": "Craft 500 items.",
       "token": "NEW_ACHIEVEMENT_3_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 250,
-      "max_val": 500,
-      "stat_name": "CRAFTED_ITEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CRAFTED_ITEMS",
+        "min_val": 250,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "21_Master_of_the_Craft",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/b42a548d9b2d93de803ac586793eab4f938dc7f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/5003410b1d02db2f1af89099bffee9160ba1dcf3.jpg",
     "displayName": {
@@ -367,15 +397,17 @@
       "english": "Craft 1000 items.",
       "token": "NEW_ACHIEVEMENT_3_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 500,
-      "max_val": 1000,
-      "stat_name": "CRAFTED_ITEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CRAFTED_ITEMS",
+        "min_val": 500,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "22_Novice_Duelist",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/0ff2c1c63659254576fe47ed1bdf4e93594d7e63.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/d07e2548af181c41ec3d83b088e1a65eda0552be.jpg",
     "displayName": {
@@ -386,15 +418,17 @@
       "english": "Win 5 PvP matches.",
       "token": "NEW_ACHIEVEMENT_3_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "DUELS_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DUELS_WON",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "23_Initiate_Fighter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/5d38ba81a38ef83ae26fc3cebf5764fe2838765d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/11bc2205b562be4c940225772d6dfa58e203fd8c.jpg",
     "displayName": {
@@ -405,15 +439,17 @@
       "english": "Win 25 PvP matches.",
       "token": "NEW_ACHIEVEMENT_3_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 5,
-      "max_val": 25,
-      "stat_name": "DUELS_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DUELS_WON",
+        "min_val": 5,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "24_Challenger",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/3abe710ee2c198c9a63f882bde5084523969352d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/1154d297f140efeeba0930ce19dba613c7ac2563.jpg",
     "displayName": {
@@ -424,15 +460,17 @@
       "english": "Win 100 PvP matches.",
       "token": "NEW_ACHIEVEMENT_3_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 25,
-      "max_val": 100,
-      "stat_name": "DUELS_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DUELS_WON",
+        "min_val": 25,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "25_Seasoned_Gladiator",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/09f3ccc4ee022568d28034a26de26a0b0c537223.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/9289e55a273a4cffaa8ef56245b1436cd34f917d.jpg",
     "displayName": {
@@ -443,15 +481,17 @@
       "english": "Win 250 PvP matches.",
       "token": "NEW_ACHIEVEMENT_3_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 250,
-      "stat_name": "DUELS_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DUELS_WON",
+        "min_val": 100,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "26_Veteran_Gladiator",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/58ee5d8b344d0724a8c021f639a8d5a74c23c159.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/4b2c76ab4c042142a1f270868c57232a25c59fc2.jpg",
     "displayName": {
@@ -462,15 +502,17 @@
       "english": "Win 500 PvP matches.",
       "token": "NEW_ACHIEVEMENT_3_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 250,
-      "max_val": 500,
-      "stat_name": "DUELS_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DUELS_WON",
+        "min_val": 250,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "27_Master_Duelist",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/42fc878a8a73194f0b58f37421b83efd3bbebc36.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/eafd6ed5dd21d1be4e717cd6269bad70dd1b08ee.jpg",
     "displayName": {
@@ -481,15 +523,17 @@
       "english": "Win 1000 PvP matches.",
       "token": "NEW_ACHIEVEMENT_3_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 500,
-      "max_val": 1000,
-      "stat_name": "DUELS_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DUELS_WON",
+        "min_val": 500,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "28_Heroic_Battlemaster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/3bc4b76b281bfc7fc03b812ffe7318b04869a82e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/34ab930b334a4c872a82bdc030f940897a3cf0f6.jpg",
     "displayName": {
@@ -500,15 +544,17 @@
       "english": "Win 2500 PvP matches.",
       "token": "NEW_ACHIEVEMENT_3_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1000,
-      "max_val": 2500,
-      "stat_name": "DUELS_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DUELS_WON",
+        "min_val": 1000,
+        "max_val": 2500
+      }
+    ]
   },
   {
     "name": "29_Legendary_Gladiator",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/a38729257c1bb60e59cf02ee4fd83fe6e128a596.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/2661b518be0de597c8cd2460d46d193044f152c1.jpg",
     "displayName": {
@@ -519,15 +565,17 @@
       "english": "Win 5000 PvP matches.",
       "token": "NEW_ACHIEVEMENT_3_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 2500,
-      "max_val": 5000,
-      "stat_name": "DUELS_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DUELS_WON",
+        "min_val": 2500,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "30_Battlemaster_of_Chillpine",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/87d0bf1c7e1f3baddc52bd9be3295bd0577a3069.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/1f21f4eb271c45106616479c139ab021fc74a57e.jpg",
     "displayName": {
@@ -538,15 +586,17 @@
       "english": "Defeat all bosses in Chillpine Forest in master mode (except rare bosses).",
       "token": "NEW_ACHIEVEMENT_3_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "CP_BOSS_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CP_BOSS_COUNT",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "31_Battlemaster_of_Glenwood",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/953ad31ab96d097df53dff39c2aa6a3ae1d54eba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/1094aaa3e6cd1e8918813b621e6e36c1c37d4eee.jpg",
     "displayName": {
@@ -557,15 +607,17 @@
       "english": "Defeat all bosses in Glenwood in master mode (except rare bosses).",
       "token": "NEW_ACHIEVEMENT_3_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 11,
-      "stat_name": "GW_BOSS_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GW_BOSS_COUNT",
+        "min_val": 0,
+        "max_val": 11
+      }
+    ]
   },
   {
     "name": "32_Battlemaster_of_Rustridge",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/38cca378e768fcd6806d9afdc7b0a229401ac29e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/33a06d8f25931d2b4d342f02b618a288db914cb6.jpg",
     "displayName": {
@@ -576,15 +628,17 @@
       "english": "Defeat Lord Gerrimonde and Ogre King Drek'Gor.",
       "token": "NEW_ACHIEVEMENT_3_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "RR_BOSS_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RR_BOSS_COUNT",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   },
   {
     "name": "33_Battlemaster_of_Aqora",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/4b8d1839be201bacbfd0988a92ebcccf77c6a5ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/16bdd3be7d18ecf304b83147c258107ec570092a.jpg",
     "displayName": {
@@ -595,15 +649,17 @@
       "english": "Complete Battlemaster of Chillpine, Battlemaster of Glenwood, and Battlemaster of Rustridge.",
       "token": "NEW_ACHIEVEMENT_4_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "BATTLE_MASTER_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BATTLE_MASTER_COUNT",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "34_Loremaster_of_Wintervale",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/9cfa7d95f91da4185b89d301b08de323a5c99520.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/670a4455c2adf9fcecc6af68434bdf65f5250f27.jpg",
     "displayName": {
@@ -617,7 +673,7 @@
   },
   {
     "name": "35_Loremaster_of_Chillpine",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/2ac3b0a256e45109055df9d04e92f4908f9d95fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/a0b4967e81de60366e7fa2ce60be3abcd8c5fb2c.jpg",
     "displayName": {
@@ -631,7 +687,7 @@
   },
   {
     "name": "36_Loremaster_of_Glenwood",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/7b32dc118979d995566f1d35e9e3ddf3aebfb791.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/b48ec5655d12eb8987dc56e6daf67d83997cef22.jpg",
     "displayName": {
@@ -645,7 +701,7 @@
   },
   {
     "name": "37_Loremaster_of_Rustridge",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/a42704359b50f85d762d8fe5f1cc26ca1c91e307.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/6db33d8acd938858d86b3a564fe068ab45328101.jpg",
     "displayName": {
@@ -659,7 +715,7 @@
   },
   {
     "name": "38_Loremaster_of_Aqora",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/2d1565f55ba606379ff6bbe822836eed130a7531.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/cbc1233a95f34e3b99138b55c23c0486bd19f48c.jpg",
     "displayName": {
@@ -673,7 +729,7 @@
   },
   {
     "name": "39_Novice_Merchant",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/53388ad059a8a714c25089bfcb3c072a373cb205.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/0a40743e9ab64ca83af654a16251607694aa92e7.jpg",
     "displayName": {
@@ -687,7 +743,7 @@
   },
   {
     "name": "40_Auction_Apprentice",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/b6a4b5f9393fe22a914993829b4cba829f240b02.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/341b5df4dff3f189594f86d9bf5a01ba38e792ef.jpg",
     "displayName": {
@@ -701,7 +757,7 @@
   },
   {
     "name": "41_Master_Trader",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/4f0574273bedf854f1c5a7d3d210e9aae21d11f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/891c07ef78b539504a6489c1f76507e4f62a260a.jpg",
     "displayName": {
@@ -715,7 +771,7 @@
   },
   {
     "name": "42_Auction_House_Tycoon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/ea8b8bf2542c2e3561258496826a877fbb0028de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/9c9801bb560708e23dc4c4c9eb4fb261db5b4efa.jpg",
     "displayName": {
@@ -729,7 +785,7 @@
   },
   {
     "name": "43_Gemstone_Novice",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/9992e7d386e4371165d56763df8ad7c6ed1a8aac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/a80b0997c6943978637466de5f9ce55a6bf871ca.jpg",
     "displayName": {
@@ -743,7 +799,7 @@
   },
   {
     "name": "44_Gemstone_Enthusiast",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/d2e14c70d3cb773bf78a7f4fe210a5bda6f87ca7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/634effad270e62c385de416902ebdfc0d688163c.jpg",
     "displayName": {
@@ -757,7 +813,7 @@
   },
   {
     "name": "45_Gemstone_Aficionado",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/4f0aa34bbcb4f65332ca2a978514bd212c230359.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/6fc1546e8a3c3245bf8470c5cf36b4857d9296fd.jpg",
     "displayName": {
@@ -771,7 +827,7 @@
   },
   {
     "name": "46_Gemstone_Master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/2793b63bf36c68475cd3ea48ca99e1bf699f9189.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/080d07af5e5d6ebf1ccb3c2af35c09ccf4d21b16.jpg",
     "displayName": {
@@ -785,7 +841,7 @@
   },
   {
     "name": "47_Rare_Relic_Seeker",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/3ec430e29e238856488e3f165af6821e9782120f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/53da1e0e63cdf531912df9190b0df4eafcd429a9.jpg",
     "displayName": {
@@ -799,7 +855,7 @@
   },
   {
     "name": "48_Novice_Collector",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/68c5e74c2e84a7d076ca8024de3175c9534e1ed2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/7b2503ef02e69d230b7d2e734b8a6af7ee1f7030.jpg",
     "displayName": {
@@ -813,7 +869,7 @@
   },
   {
     "name": "49_Enthusiastic_Collector",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/57bdfdb606a279bc96faca0b1bcfc69710046ad9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/e37b80a86222dce3c88948e3edc4babb2ec7de6d.jpg",
     "displayName": {
@@ -827,7 +883,7 @@
   },
   {
     "name": "50_Dedicated_Collector",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/5a2fbf43d4f04d10dfe9e7167f03728aeb0b4966.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/f3999880df66e34f63bb7c5b8aab29f278dfb210.jpg",
     "displayName": {
@@ -841,7 +897,7 @@
   },
   {
     "name": "51_Legendary_Collector",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/dfd1c25ba25d79b86086a4c567d30e5d5dd3d3ea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/7c46badb1680b372d61fc93e3a839f367c92c5e3.jpg",
     "displayName": {
@@ -855,7 +911,7 @@
   },
   {
     "name": "52_Seasoned_Connoisseur",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/88b3d62d5ed51f533ef2b950b104705ebfdf5400.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/1d828abe7ec9a9260ca86b5cf6cba1f222029aed.jpg",
     "displayName": {
@@ -869,7 +925,7 @@
   },
   {
     "name": "53_Masterful_Archivist",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/64b9c4688627fd892f9e743fd4811478099d949f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/12823244ee2cee11a3faf42548af6a5c6f237b94.jpg",
     "displayName": {
@@ -883,7 +939,7 @@
   },
   {
     "name": "54_Illustrious_Aficionado",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/870ed2a3c10b4b8a049d00f8c5008c40b237e8b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/1e320ab505655373c2ddd1aad97d17626301db02.jpg",
     "displayName": {
@@ -897,7 +953,7 @@
   },
   {
     "name": "55_Fabled_Treasure_Hunter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/41851ef91453dd39ad5655379c97254db7b6de69.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/e335277456c59a300eb5426cb0edaf87509a1dfa.jpg",
     "displayName": {
@@ -911,7 +967,7 @@
   },
   {
     "name": "56_Resource_Scavenger",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/0eb43220fcdef5d2217a1e189e833ce86e9c7d59.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/a3763dcf91d9e0b6ce9a0f3f00c0595bcccdf87a.jpg",
     "displayName": {
@@ -925,7 +981,7 @@
   },
   {
     "name": "57_Gathering_Apprentice",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/df09a555422c9ec749d951169f651464424fc279.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/ab219fca904ac0092d7d137dff876307409fcf6b.jpg",
     "displayName": {
@@ -939,7 +995,7 @@
   },
   {
     "name": "58_Resource_Expert",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/09cc805622ca8846ebee114ee122c964181311b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/2fb7abeecdd4095bdceaa39f37062bce2542da69.jpg",
     "displayName": {
@@ -953,7 +1009,7 @@
   },
   {
     "name": "59_Resource_Connoisseur",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/7add6f550abdf7639cdc6ff0817a6cb7a42dd007.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/f53d66c66afa041a63777a70c5a93a04f61479eb.jpg",
     "displayName": {
@@ -967,7 +1023,7 @@
   },
   {
     "name": "60_Master_Gatherer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/0dcedb95503201cce851ec163d605a065b8f2740.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/59e3a9795b2799afcd8e8819024855aae98b277f.jpg",
     "displayName": {
@@ -981,7 +1037,7 @@
   },
   {
     "name": "61_Grand_Master_Gatherer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/ac011ba2b64564d8176afe46b487e8e972314e19.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/48dcc3b6cd580d69706abd18636dc3ef1f40d3a8.jpg",
     "displayName": {
@@ -995,7 +1051,7 @@
   },
   {
     "name": "62_Perfect_Paragon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/6e5d8ebd340e267cab4b0d04557f896569b9574e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/8b0b8cd8ae13e0899e635b9df450251e0a759b13.jpg",
     "displayName": {
@@ -1009,7 +1065,7 @@
   },
   {
     "name": "63_Blade_Fury",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/d22f0353b9ad7aaa6f17d8983c911d927b0f4b6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/94a6548d6a1ef5229762ec9e1bec80aa36914714.jpg",
     "displayName": {
@@ -1023,7 +1079,7 @@
   },
   {
     "name": "64_Master_Potion_Brewer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/474ae732b1c010c3459037ff16f64e382867e3bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/064df935978c8d49a2005936add208d1a4d5eb36.jpg",
     "displayName": {
@@ -1037,7 +1093,7 @@
   },
   {
     "name": "65_Tactical_Genius",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/57d7d1520f980d3daeb9813fcade11fd5ec6d1a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/f98b86791a81d2d5afb509ed5d54d4beaf6f4a6a.jpg",
     "displayName": {
@@ -1051,7 +1107,7 @@
   },
   {
     "name": "66_Tactical_Mastermind",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/2bf1d31900882fcd29376d52a94675dc7ec0e26a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/89ca04bf13676c32e948cb06d1937d8fbed9d49d.jpg",
     "displayName": {
@@ -1065,7 +1121,7 @@
   },
   {
     "name": "67_Mighty_Conqueror",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/fc2f5282afaffbe341f6412d433ba0fcad19d572.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/5c970ab73a7908223d2bcce9cbe5a2947522a151.jpg",
     "displayName": {
@@ -1079,7 +1135,7 @@
   },
   {
     "name": "68_Last_Stand",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/7a7131a2228d99e210b9a5ba3a3b90397ccbc161.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/0077352d329b24c509f9abefd1d3f1dd48bb23cf.jpg",
     "displayName": {
@@ -1093,7 +1149,7 @@
   },
   {
     "name": "69_In_the_Face_of_Peril",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/4d0041524df9141b15ebacb048172415d1f0070b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/76667a39ab0f72020bbc28b33b92fd2acf656784.jpg",
     "displayName": {
@@ -1107,7 +1163,7 @@
   },
   {
     "name": "70_Divine_Intervention",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/e5063b62c1d2752ff56c1b17e318439f2a482ba0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/728c057b9418f417d3b650bfae3523a67bbbbd6c.jpg",
     "displayName": {
@@ -1121,7 +1177,7 @@
   },
   {
     "name": "71_Legacy_of_the_Dwarves",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/65e9aacf6c852bf815ce42335948f037238989c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/db53314fecc58172e105658be7fd25983d906a92.jpg",
     "displayName": {
@@ -1135,7 +1191,7 @@
   },
   {
     "name": "72_Old_World_Relic",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/0f050f4e6168bb60a2934a048ac0a04b70a22707.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/5f4ae30cbfcab197e50877c3cb341fe3369d1504.jpg",
     "displayName": {
@@ -1149,7 +1205,7 @@
   },
   {
     "name": "73_Old_World_Artifact",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/8b1ce4152807aadf733ecf04a59625995369b9d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/a6bc28cdff5fd13819eb58e0f021dd329b8eadd3.jpg",
     "displayName": {
@@ -1163,7 +1219,7 @@
   },
   {
     "name": "74_Aqora_Relic",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/1ac3c06633b88c8ffd6a2aedd5e976d6eeb6a3e7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/5139a5368a2ee169d0bcd674559c315b044a2848.jpg",
     "displayName": {
@@ -1177,7 +1233,7 @@
   },
   {
     "name": "75_Aqora_Artifact",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/54f487f7e4c99ef1ea80be906b721c703b19758a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/a12b84e6a08336c8c2986df35e950d9d2041ee78.jpg",
     "displayName": {
@@ -1191,7 +1247,7 @@
   },
   {
     "name": "76_Artifact_Archaeologist",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/d5f908acd353c7cc41f8fa21426b7174b70709b4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/fa5524b831794a2cb8cadd6e41a9fd9fd8bda969.jpg",
     "displayName": {
@@ -1205,7 +1261,7 @@
   },
   {
     "name": "77_Adventurer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/35bf71a8f40d1d9c2402f56932cdc5e53eb5df21.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/70f9a6ee23c6616acf573bfa45f6d14330e7203e.jpg",
     "displayName": {
@@ -1219,7 +1275,7 @@
   },
   {
     "name": "78_Seasoned_Adventurer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/f0c62e5f97913dc30d6e1b10803a6826c571499a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/2b922f5ff559da710cf66fea1d2c3e9db66e0860.jpg",
     "displayName": {
@@ -1233,7 +1289,7 @@
   },
   {
     "name": "79_Veteran_Adventurer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/369058aa059b8fdbc581c75e2e604858365d8dbb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/c64d7a9cf7be3808c8f05bad1275f9a8c9fd2cd3.jpg",
     "displayName": {
@@ -1247,7 +1303,7 @@
   },
   {
     "name": "80_Double_Kill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/3bd1fdb06f98baec559f24200110b469da7947ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/1d0a2d43737fc21895966e119722b126ab650925.jpg",
     "displayName": {
@@ -1261,7 +1317,7 @@
   },
   {
     "name": "81_Triple_KIll",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/2d4803968cbdc0f751ad80be258cd292142cf51e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/41142b15f304cf63ec93d2a847adaedcbeaa638a.jpg",
     "displayName": {
@@ -1275,7 +1331,7 @@
   },
   {
     "name": "82_Quadra_Kill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/6998f4a66e6de690fa5ea88af9521257c57de9dd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/f8da927cfd4dda2cd2f9ead53b0cb65902f67f87.jpg",
     "displayName": {
@@ -1289,7 +1345,7 @@
   },
   {
     "name": "83_Penta_Kill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/c52319f5e689ab7f9e3af26dda8a4d313d5b682f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/6272972d25e1b79ae9c8481203f7503f9e57b3d2.jpg",
     "displayName": {
@@ -1303,7 +1359,7 @@
   },
   {
     "name": "84_Phantom_Fork",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/22f31cf090ac762497e8636ae24267c89f1fcc11.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/fc240faf55f4085bda0d887dd2b1a818f74942ce.jpg",
     "displayName": {
@@ -1317,7 +1373,7 @@
   },
   {
     "name": "85_Archery_Alignment",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/8b42fb65410e958f22ae6cf91ac07ca51355d4ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/92feef1b7c73591897750078e83f07f647da21cc.jpg",
     "displayName": {
@@ -1331,7 +1387,7 @@
   },
   {
     "name": "86_Triple_Rampage",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/a99ced30d5f853054d6c6a8bedde8df52f83ff77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/c0d9e3ff7bb236c33e5fec95a989698d252acdf3.jpg",
     "displayName": {
@@ -1345,7 +1401,7 @@
   },
   {
     "name": "87_Vengeance",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/2eeb9b1c0ec29c2acf64f270ecb63d0059cc962e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/a0c6897295ed190fa4239450c709d77636e57c3f.jpg",
     "displayName": {
@@ -1359,7 +1415,7 @@
   },
   {
     "name": "88_Critical_Cascade",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/7406b90a90335642fde68dfbfa3a7356ce422572.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/7fd08ada99693d167f18dd5c54c127dafa93e4ed.jpg",
     "displayName": {
@@ -1373,7 +1429,7 @@
   },
   {
     "name": "89_Tactician",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/2bb7a3d4c9ac7b78d52e52dfdee0da21a283a5aa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/c150cbf2cb37780b274a08ec87a0cd009e99a6fb.jpg",
     "displayName": {
@@ -1387,7 +1443,7 @@
   },
   {
     "name": "90_Tactical_Trailblazer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/42354967056a1b58aa3771ea4d2102f61c8cf1fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/8608cf81523900d0b3a411a94eb9e02a803308b9.jpg",
     "displayName": {
@@ -1401,7 +1457,7 @@
   },
   {
     "name": "91_Sharp_Strategy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/cb4f0861985c178e10f20769c45701e5bc63fa12.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/d6e6f7b2132e43026a61e4682d22b316a979411c.jpg",
     "displayName": {
@@ -1415,7 +1471,7 @@
   },
   {
     "name": "92_Wizards_Wisdom",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/6e41203e1302cb59defb686dca7aec870f6c3722.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/0f60a2349f9044a87ef106b83cdf1c6d7b04e4fe.jpg",
     "displayName": {
@@ -1429,7 +1485,7 @@
   },
   {
     "name": "93_Spell_Surge",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/d2572b98894f96b18a3c1d7da4d85306065a84f2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2409580/78491afe3beb243f5c5c18152d37871217b00170.jpg",
     "displayName": {

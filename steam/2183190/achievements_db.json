@@ -1,7 +1,7 @@
 [
   {
     "name": "FIN1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183190/f63a7ce1fd7311777ba8d273a3ed0e1cfba18c0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183190/b01c4eb3a08dce0d0ebcc718db40ce022f387799.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Finish with clothes on",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "fin1"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "fin1",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "FIN2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183190/f38457c36dec975c326a4031deb5b1c093e18d0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2183190/173d64b088212bdc24f6cb3871754b8301b32282.jpg",
     "displayName": {
@@ -31,10 +33,12 @@
       "english": "finish naked",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "fin2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "fin2",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

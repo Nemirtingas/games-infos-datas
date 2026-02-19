@@ -1,7 +1,7 @@
 [
   {
     "name": "FIRST_CHECKPOINT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/9b47e934ecddddf068812f3a4d632409df4d28e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/b03546f1b2c7d7041cbf62d99acefea06cc39491.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "FALLING_STAR",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/ad383bb7f5328231de7b0176c3498626cc488b46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/dca7f15670b5267186e6dd6a71eb8059bb482a7d.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "You have fallen 10 times",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "FALLING_FALLING"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FALLING_FALLING",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "REACH_DESERT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/b70858cd68634f7d46f3ff4b10f4d48d83d8ac5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/230513fb9df96fb4f491f4d288592f0bd9328f6d.jpg",
     "displayName": {
@@ -47,7 +49,7 @@
   },
   {
     "name": "REACH_ARCTIC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/20a5eaaa4a446810371dbed4f6148e0832490b19.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/fb5a6520d2a886f3626d84860a9826d2d0950fab.jpg",
     "displayName": {
@@ -60,7 +62,7 @@
   },
   {
     "name": "ARTIFACT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/eb156d217955a80741264fa60bd0ef1ae2a89f09.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/16970478ff36354b9bc342f17d345ccde6501de0.jpg",
     "displayName": {
@@ -74,7 +76,7 @@
   },
   {
     "name": "COMPLETE_EASY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/9ca181b66e821c7d63e702ce5a7dc6e0c5166b07.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/01d81cfd5cf1424eabf542abca40a10b3de3ae1f.jpg",
     "displayName": {
@@ -88,7 +90,7 @@
   },
   {
     "name": "COMPLETE_NORMAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/7d37c8bb9a00759aed525d1f02d82c43d422cded.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/01d81cfd5cf1424eabf542abca40a10b3de3ae1f.jpg",
     "displayName": {
@@ -102,7 +104,7 @@
   },
   {
     "name": "COMPLETE_HARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/83446663d2c56edef64d2a9c5e07297d8f6152e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/01d81cfd5cf1424eabf542abca40a10b3de3ae1f.jpg",
     "displayName": {
@@ -116,7 +118,7 @@
   },
   {
     "name": "RECALLING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/5cf4b68da2d2a45001e757d246eb2cd685d4151d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3151160/c761f681dc830e4ee20780fd9c537e5c9d327ee6.jpg",
     "displayName": {
@@ -127,10 +129,12 @@
       "english": "Recall 1000 times.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "RECALL_RECALL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RECALL_RECALL",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

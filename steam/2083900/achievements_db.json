@@ -1,7 +1,7 @@
 [
   {
     "name": "VICTORY_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/8cb61467035787f0ca929bf6a2675c91d135a2d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/4624f3b343208ebddecc18fd43fc710af3e5b4c7.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "VICTORY_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/78bb08cb9d40eaf4d458e4c1aec6529126965894.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/bc632b921cda26cd980e3384e6d7727dfbadeed4.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "VICTORY_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/42db8be2e6d5135a40aa3743307f505e5e425d82.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/7167b3ff555da8f420d82639cf8deeee1a8f596f.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "VICTORY_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/15347102f29d9d26b2daab67aea00a54d1ac4c0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/43af2dc78a52ff88bb658a4acdfb75cf40685efe.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "VICTORY_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/6614ce79badbe4a3d75cd3dd467e7a0f33071061.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/f7b0ea6b594658d6449d0da393c01cd00c2fd970.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "VICTORY_6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/a70e56f65bb024e042ba869b6a44cba20e730509.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/c3c6a9eeb5da563015948a2ae0d71616605764af.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "SURVIVE_32_MINUTES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/940a567fc2e377a3baab460249da7f2710ac101a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/0ac0434ab0df54dfa031f162fd2ee68722ee8f92.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "PLAYER_LEVEL_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/29306151643a86a7a8f6c05ec67915e70d364d68.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/38177e3a3908f08bee4236c66c9128135da4c4a3.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Reach Player Level 5",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 5,
-      "stat_name": "PLAYER_LEVEL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PLAYER_LEVEL",
+        "min_val": 1,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "PLAYER_LEVEL_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/741a5bef07ae7958165aef2160d7107697e63cc6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/f01200f133fbeb69b9f2d455c4b37e5b70d88e57.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Reach Player Level 10",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "PLAYER_LEVEL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PLAYER_LEVEL",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "PLAYER_LEVEL_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/049e9fa3a690ba6549174f1954bd775df38114df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/9935501c0fa64c6b9009a7b6327c4a051bba524e.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Reach Player Level 20",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 20,
-      "stat_name": "PLAYER_LEVEL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PLAYER_LEVEL",
+        "min_val": 1,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "REROLL_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/71abdef5073ea6bd7cbd6355d5e93c41b6916c7c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/1ae4638bfeb48b1a063f7a062a9466801dd68469.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Reroll the shop 1,000 times",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "SHOP_REROLLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SHOP_REROLLS",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "MAX_TIER_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/a5e3f709b20c4536bb1a3ec49af01e53b3be30ca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/5f854d7c38e4c39563c19ffabd435e12a1a86147.jpg",
     "displayName": {
@@ -189,7 +197,7 @@
   },
   {
     "name": "KILL_ONE_HUNDRED_THOUSAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/0ec9d969fcd9279bc1d2f91ee9f3ddfd3f341163.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/01baf99230dfecc7a1ca276ddcd8ab37008541df.jpg",
     "displayName": {
@@ -200,15 +208,17 @@
       "english": "Defeat 100,000 enemies",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "ENEMIES_DEFEATED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ENEMIES_DEFEATED",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "KILL_ONE_MILLION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/c9367054eb669c42dbec4eae6535aa58d49b0a98.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/a50906b7ecefd43c768638947a87491dccd8f0ba.jpg",
     "displayName": {
@@ -219,15 +229,17 @@
       "english": "Defeat 1,000,000 enemies",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "ENEMIES_DEFEATED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ENEMIES_DEFEATED",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "KILL_1000_ZAPPERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/cf1930cd8d4b0c6cd8f5e04f3dd58b6aa85f0c07.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2083900/2282f27080fae5e55473449af51d4daf287749fc.jpg",
     "displayName": {
@@ -238,10 +250,12 @@
       "english": "Defeat 1,000 Zapper enemies",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "ZAPPERS_DEFEATED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ZAPPERS_DEFEATED",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

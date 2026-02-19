@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_STAIRS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/b1fc9b3e4801dafbfcfe83fe9e55cecc220f7145.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/52d2417293c64ab39607894ae477587c673a79de.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_5KILLED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/b1fc9b3e4801dafbfcfe83fe9e55cecc220f7145.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/52d2417293c64ab39607894ae477587c673a79de.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Five enemies down as you take your first steps into legend. The dungeon whispers your name with apprehension.",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "EnemiesKilled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EnemiesKilled",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_Lisa",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/b2a3f003620a9166aa6c61fe9ce9cab5c389ebcc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/52d2417293c64ab39607894ae477587c673a79de.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_Golbin",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/af4fa53d2d13d7f8390bc7bb532e910a59572b6d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/52d2417293c64ab39607894ae477587c673a79de.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_Scream",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/e056e210eb3d56e77bc7e2a2fff865058e623bb6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/52d2417293c64ab39607894ae477587c673a79de.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_Fluffy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/8df2ce9373bd8f63f32db2c0af20a4b2ad23035e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/52d2417293c64ab39607894ae477587c673a79de.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_Joel",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/2d492a1d742621c5451aef0798add213cbcc93b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/52d2417293c64ab39607894ae477587c673a79de.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_Laurence",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/338b9b8678fe1fb990a6e76ad108f81e09c45e8c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/52d2417293c64ab39607894ae477587c673a79de.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_Brionion",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/9316afc4ddf716cb13e5ea1a64c2d5d433bc447f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/52d2417293c64ab39607894ae477587c673a79de.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACH_20KILLED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/b1fc9b3e4801dafbfcfe83fe9e55cecc220f7145.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/52d2417293c64ab39607894ae477587c673a79de.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "20 foes vanquished, marking your ascent from novice to feared warrior within the dungeon's shadowy halls.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "EnemiesKilled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EnemiesKilled",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_50KILLED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/b1fc9b3e4801dafbfcfe83fe9e55cecc220f7145.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/52d2417293c64ab39607894ae477587c673a79de.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Halfway to triple digits and the dungeon's monsters are starting to fear you more than the dark. 50 notches on your belt, and counting.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "EnemiesKilled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EnemiesKilled",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_100KILLED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/b1fc9b3e4801dafbfcfe83fe9e55cecc220f7145.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2719400/52d2417293c64ab39607894ae477587c673a79de.jpg",
     "displayName": {
@@ -181,10 +187,12 @@
       "english": "100 monsters dispatched to the abyss. Legends will tell of the hero who walked into the darkness and made the dungeon tremble.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "EnemiesKilled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EnemiesKilled",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

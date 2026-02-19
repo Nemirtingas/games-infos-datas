@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_Level 1-1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700650/4d86e2f74ff8fe5cb0abb13ab75e4e91a2439ebc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700650/63bdc77747375b826247bfcaad9b2a1ad95d88a8.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_Level 1-3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700650/4d86e2f74ff8fe5cb0abb13ab75e4e91a2439ebc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700650/63bdc77747375b826247bfcaad9b2a1ad95d88a8.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_Level 2-3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700650/4d86e2f74ff8fe5cb0abb13ab75e4e91a2439ebc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700650/63bdc77747375b826247bfcaad9b2a1ad95d88a8.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_Level 3-4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700650/4d86e2f74ff8fe5cb0abb13ab75e4e91a2439ebc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700650/63bdc77747375b826247bfcaad9b2a1ad95d88a8.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_AllCores",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700650/4d86e2f74ff8fe5cb0abb13ab75e4e91a2439ebc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700650/63bdc77747375b826247bfcaad9b2a1ad95d88a8.jpg",
     "displayName": {
@@ -68,10 +68,12 @@
       "english": "Secure all cheese cores",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 33,
-      "stat_name": "stat_cores"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_cores",
+        "min_val": 0,
+        "max_val": 33
+      }
+    ]
   }
 ]

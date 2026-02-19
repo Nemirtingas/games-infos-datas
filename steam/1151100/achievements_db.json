@@ -1,7 +1,7 @@
 [
   {
     "name": "CHAPTER_1_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/e7ff52f7578f0b0f21d31a76ae30f65ec2c4c6cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/405e02f2301253419fc26f891f43d4780c07311c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "CHAPTER_2_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/a603464a5a4f31570d107f88a809fd88e9c53ea8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/dc68a1e21cfcea957d780b82e01d72f4b1be9285.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "CHAPTER_3_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/a55f05458f9aa6500666f650f8a7c24faaa0e121.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/049f666396d1a7e32d2d8a2192ef6dfae308722e.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "CHAPTER_4_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/d6817bf94ddc30dd4cbe356c1e738900b393f50f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/cdc27e4bffff8b8afe5cd3a1fae0c6f5b3a4fd19.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "CHAPTER_5_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/58e739feb073905ffd74f90a572b427540e67b47.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/12e3f765111f3df38b8da08bd76a4e8b27f7906e.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "CHAPTER_6_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/b13f59755b74e4a71588787c40400a4265e30055.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/497af69f7aa1fd728499e7ef7429cc4563012a20.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "BANK_MULTI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/c53e458de68fa49235b3949a6eb198ef427ea55f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/3b085f85e7b379ec12470b8f2b3594d57b794803.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "BIG_SPENDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/cf1206427c7dda5d58885a2d6bc72c5495965a62.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/24097828b4f0994bdf5e9e779b1bbdc9469d6e77.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Spend 10000 seeds in the shop.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "seeds_spent"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "seeds_spent",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "SURVIVAL_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/c7ba636da422a4c5059dab96df21e21257c5cd5c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/8e2655ba2b160d9185da5e9d0f30c9c2640557ac.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "SUNFLOWERS_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/3efd0bbeae9286d32e4c6050b5c9dc255665fb64.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/d06013921dae65e69696bfdb3c82072005b09a43.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "SUNFLOWERS_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/f0b0322241e8ec724d393d8901b0f4caf8e35b18.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/889c3b43f871177c20e45d8d1910a99d4acea7d2.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "SUNFLOWERS_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/77c7cf463ca6243fcefa189af7524d6240b765b4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/08fdd557d42c3d11723ccfb11bb4e0731084361b.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "ALL_MUSIC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/728e1d4c33c3088a18c84497abe9541a8c83f259.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/ae0f8b75932920fa96fee7e5b1571559b96f83ab.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "MANY_MATCHES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/4fc1e7b8db8835548b3a7976d0b0dcb5b4ac97e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151100/6ae3e50d454a0aca51903acbdaa81a967c13b424.jpg",
     "displayName": {
@@ -199,10 +201,12 @@
       "english": "Unlock Carl the lackey in the shop by playing 50 matches.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "matches_played"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "matches_played",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   }
 ]

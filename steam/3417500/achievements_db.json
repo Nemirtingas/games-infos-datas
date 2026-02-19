@@ -1,7 +1,7 @@
 [
   {
     "name": "First_Steps",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Leave_Start_Area",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "First_Cop_Car",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Destroy_100_Cop_Cars",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "You destroyed 100 police cars",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Cop_Cars"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Cop_Cars",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Destry_100_Homes",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "displayName": {
@@ -73,15 +75,17 @@
       "english": "Destroyed 100 homes",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Houses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Houses",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "First_Home",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "Destroyed_News_Copter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "Start_100_Times",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3417500/",
     "displayName": {
@@ -120,10 +124,12 @@
       "english": "Start the game 100 times",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Starteds"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Starteds",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

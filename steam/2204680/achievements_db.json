@@ -1,7 +1,7 @@
 [
   {
     "name": "achievement_beginner",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204680/c5e4dddc80e3aa7138f56cd9b24d316899f8e293.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204680/0942d0b45a6cd1c6d5704be91727a8bae2917a3c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "achievement_winner",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204680/e28f61aa66322adb228f57a44806c164dd72b58d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204680/3afbf16a22027faa0ec718119cfd10ff07c5cd00.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "The case is closed!",
       "token": "NEW_ACHIEVEMENT_5_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 24,
-      "stat_name": "LevelsPassed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LevelsPassed",
+        "min_val": 0,
+        "max_val": 24
+      }
+    ]
   },
   {
     "name": "achievement_gentleman",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204680/875371464febf393b7ebff8806b87da40a5c8bf1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204680/638d066378d891dd0e040598c8572771b3d9e971.jpg",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "10 levels without a mistake!",
       "token": "NEW_ACHIEVEMENT_5_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "LevelsWithoutBlackScreen"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LevelsWithoutBlackScreen",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "achievement_calm",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204680/f6ea29029b2227f7c749de4035f26466084eecfb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204680/7f4978532fc01f00981307bac1c2bba3de8c6d7c.jpg",
     "displayName": {
@@ -64,15 +68,17 @@
       "english": "10 levels without hints",
       "token": "NEW_ACHIEVEMENT_5_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "LevelsWithoutHint"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LevelsWithoutHint",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "achievement_superman",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204680/f87373cd61e7cdfa9b42aa95aac1df8529d7c45f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2204680/b45b22c009ccebbe7952b6b6f07c91fdbacc27b5.jpg",
     "displayName": {
@@ -83,10 +89,12 @@
       "english": "10 levels with ALL stars",
       "token": "NEW_ACHIEVEMENT_5_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "MaxStarsLevels"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MaxStarsLevels",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

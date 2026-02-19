@@ -1,7 +1,7 @@
 [
   {
     "name": "PLAY_THE_GAME",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/cd0a703385bfbdab09c021f797b9ee8fbbb4b36d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/ec1b13e63e68a45264fa5e2320d231668413c87b.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "APPLE_150",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/2f9505fc365a498b345518782cbc293639b7c9f9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/0626f2be6abbcbd6df94b4c2e1a54d2e7db78a1e.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "APPLE_GOLD50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/3dadf2760009ca38e12b4fa7599d86fadc0d1ef3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/c05e518ff61f7405faf7afd91d0ae258a441e2ba.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "PASOS_SNAKE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/9846adb8de3050b105c54c41a05a65754f702bbe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/ff7b4f332a01ffbb74d2747ba53c39f0343e702c.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Walked 1 million steps",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "PASOS_SNAKESTAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PASOS_SNAKESTAT",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "SCORE_300_NORMAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/fc1ed6c49bd53e7ae2a20dd5882705e8f63da131.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/026354422f6a6a5bc939eb080a882a8ac1dd0767.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "SCORE_50_NORMAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/c54308d712189d2defc2fae53df43c917ec7ce2a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/6b5fd8bc6783791265ae72e2897679973526da37.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "SCORE_100_NORMAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/fb1bfbb93e3fa0b11d785c407157ec5bf74755c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/22cd1341cc1bbcafa994a150cfe595de5701f38b.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "SCORE_150_NORMAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/419b68b6036246f07232ee4996e3285de7dea6d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/5bbb7a114d6c70c08052188350e1e55ed1757b2d.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "VUELTAS_RACE_LOGRO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/7d8dd8574b6de7b2beb7efa8bc61666bb34b7ec4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/03c241a43a1e1d01aa9c16df6b93cbc80d241306.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Get 500 Laps in Time Trial Mode",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "VUELTAS_RACE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "VUELTAS_RACE",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "CREATOR_CREDITS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/2d0224ebb93736ad798bb80d15acb842bea2610c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/4e553a130ebbd65a075afa578fdc281a20ba019a.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "VUELTAS_RACE100_LOGRO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/1a096a3ed47f57e08afb6c85db1b98cdf47d7487.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/cf4a22cd92b656fa70fa6fdcc563a7ed61d1fe49.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Get 100 laps in Time Trial Mode",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "VUELTAS_RACE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "VUELTAS_RACE",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "VUELTAS_RACE10_LOGRO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/44cc21b4fb6b0e0ec0be4a58a7d5bd58a969907a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/0dbc4bfd97a655ea9f660f60b586acffd03152ba.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Get 10 laps in Time Trial Mode",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "VUELTAS_RACE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "VUELTAS_RACE",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "SONG_SEC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/2a43c2eb42a8e2a8a5a01ee71042b6b164468320.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/1209944951e341ea846f9e2d7bd09a4a95f0c46b.jpg",
     "displayName": {
@@ -203,7 +211,7 @@
   },
   {
     "name": "APPLE_200",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/14e60b5f24caf6e89a668d6450e80d2d7081d864.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/d1aaae6528d28001a14b5d3864114e49be117a8b.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "APPLE_GOLD75",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/32f2fb7475adf7fabaacf2942e9ca495f9f400ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/e652c70596b2ae49eb49b5e2f2b5e9d55a24fb02.jpg",
     "displayName": {
@@ -231,7 +239,7 @@
   },
   {
     "name": "MY_FIRST_APPLE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/89d2e2e0b797a293663d372b16dfb06761e62990.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/27e89e7836943d50029135a069aea732ad624b6b.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "MY_FIRST_APPLE_GOLD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/ece934d01f8468b9fd31470734539f35b9f989ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/a2f34aad158ea56f6874ec9b8942c2241a61a10f.jpg",
     "displayName": {
@@ -259,7 +267,7 @@
   },
   {
     "name": "MY_FIRST_PORTAL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/616f4a66d2c0134ea6b5c38844546e5cf167058d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/93cbeec9a24ac96385279abb4ca1df1eaf392f11.jpg",
     "displayName": {
@@ -273,7 +281,7 @@
   },
   {
     "name": "MY_FIRST_SCORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/ce4563c4f924c061c08da3e0c8c49a96a9bc7b86.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/b1bc84a3bf35d8e0fa7ec0ac74686ce886baf97c.jpg",
     "displayName": {
@@ -287,7 +295,7 @@
   },
   {
     "name": "MAX_SPEED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/5e6d4812b0a6ebeef5265a5fb7fae3bdac799204.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/9def6da5eb071bd04f2328b034bb262902c04bd2.jpg",
     "displayName": {
@@ -301,7 +309,7 @@
   },
   {
     "name": "CRASH_25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/84e31dd6ab7ba4e2c780dfd4634100dc7fecf491.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/c0c1d855d33f9b57b7968335d98ac95e26bdd350.jpg",
     "displayName": {
@@ -312,15 +320,17 @@
       "english": "Bonked 25 times",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "CRASH_VAR"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CRASH_VAR",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "CRASH_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/ea8a6405a854206fdc859ef8833fd83601e1f9ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/8f13a3e653c1c0136f3e79a362ee08fd26d77f78.jpg",
     "displayName": {
@@ -331,15 +341,17 @@
       "english": "Bonked 100 times",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "CRASH_VAR"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CRASH_VAR",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "HARROWIN_EVENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/4af2dda2a652f9835a93c4c3c480e30da09488b4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/1f87c3c32f150aa75122f1ac4ab1a2a8cf50bbae.jpg",
     "displayName": {
@@ -353,7 +365,7 @@
   },
   {
     "name": "CRISMAS_EVENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/43171594fe2f0a88908fb51d6b293bb4432d5f19.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/b383988a9d29d5ce3d768c7f076c774c29882c38.jpg",
     "displayName": {
@@ -367,7 +379,7 @@
   },
   {
     "name": "DOUBLE_APPLES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/2721b33422ad03cbb328972747dda031894e8a4f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/54238268e2d63fb6edf8351b7234dbf7c718661a.jpg",
     "displayName": {
@@ -381,7 +393,7 @@
   },
   {
     "name": "FIRST_RANK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/19d7e66ae3a9d98d4f32f75b5191027a9921fb39.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/302578e1d55e327029f9b07c2a0a6f0c69eff2b5.jpg",
     "displayName": {
@@ -395,7 +407,7 @@
   },
   {
     "name": "MY_FIRST_SCORE_GLOBAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/c7987577d918ab6f0727847d4859f2cdd1ca1139.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/b1bc84a3bf35d8e0fa7ec0ac74686ce886baf97c.jpg",
     "displayName": {
@@ -409,7 +421,7 @@
   },
   {
     "name": "VALVE_REFERENCE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/b3bf81a900674408ee5231caf4bf528945eb42c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/e90baf5d4799606d611af57507a8146af42a0e08.jpg",
     "displayName": {
@@ -423,7 +435,7 @@
   },
   {
     "name": "GET_1000SCOREBONUS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/50aed0afef21d35062961029675898c736346611.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/09ba384b48179880f5516ce259c28defbefd3586.jpg",
     "displayName": {
@@ -437,7 +449,7 @@
   },
   {
     "name": "GET_2000SCOREBONUS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/7b0d966b2f0bfd98cc9075cde0fdbb5c72526bd7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/09ba384b48179880f5516ce259c28defbefd3586.jpg",
     "displayName": {
@@ -451,7 +463,7 @@
   },
   {
     "name": "GET_BONUSMODE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/6eec91257ccd49f9eac2581db438eaba25c3ad34.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2673330/caafd30cfea6e89807cfab97434ce60a7752b541.jpg",
     "displayName": {

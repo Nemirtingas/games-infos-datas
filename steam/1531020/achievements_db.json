@@ -1,7 +1,7 @@
 [
   {
     "name": "StartedSpectre",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/07bec33595fc16c431bf1c2668bc170fa30547e7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/bc6a11a2d3f11a3d03491513998006b332f69dbd.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "HackThePlanet",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/bc6a11a2d3f11a3d03491513998006b332f69dbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/bc6a11a2d3f11a3d03491513998006b332f69dbd.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_RigZZZy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/8729b7f621c918d9916b68780488903c408058ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/8729b7f621c918d9916b68780488903c408058ff.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_C4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/9c8783ca242b338257a6a6c236f9bab45aa05e4a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/9c8783ca242b338257a6a6c236f9bab45aa05e4a.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_Teamwork",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/fd10200a7d3bd322afa4c8be2b32b2f769ff6c33.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/fd10200a7d3bd322afa4c8be2b32b2f769ff6c33.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_SilentButDeadly",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/8f9509b30dcb22318fc1d60058a4eb7e1de52914.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/8f9509b30dcb22318fc1d60058a4eb7e1de52914.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_ApexPredator",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/079e97d7ebddf632236c8e4610f9408384077745.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/079e97d7ebddf632236c8e4610f9408384077745.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_TwoSpiesOneBang",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/d75ca1024321849dc742b9c6539fd492e2ea3fbb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/d75ca1024321849dc742b9c6539fd492e2ea3fbb.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_Error404",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/6a0224b33ad64f85c95ff60b88613c8bf8e29649.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/6a0224b33ad64f85c95ff60b88613c8bf8e29649.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "ACH_BecomeDeath",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/c08f424b5d2186f7bb3dbfc2a53463e50e78f322.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/c08f424b5d2186f7bb3dbfc2a53463e50e78f322.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Accumulate a total of 500 kills as a Reaper",
       "token": "NEW_ACHIEVEMENT_8_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "TotalReaperKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalReaperKills",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACH_1920",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/8042358fa532eecae8d3b46b5436dca5e57eddd5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/8042358fa532eecae8d3b46b5436dca5e57eddd5.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "ACH_BNIB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/a59da66e00265c69fad065a5a6d4d7a8efd6364c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/a59da66e00265c69fad065a5a6d4d7a8efd6364c.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "ACH_TwoForTwo",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/0abd4516ab99e17fe600313756fd7ab47b927db9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/0abd4516ab99e17fe600313756fd7ab47b927db9.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "ACH_SuddenDeath",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/3738b5a97a3d2a26b88f854065734379bc9f2022.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1531020/3738b5a97a3d2a26b88f854065734379bc9f2022.jpg",
     "displayName": {

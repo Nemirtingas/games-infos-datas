@@ -1,7 +1,7 @@
 [
   {
     "name": "MINE_ANYTHING_1",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/2705ae121ed6bc5f6ed67cee1e17a43fa1c6e2c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/a31d5333ee4e3730e0b1ed6c7c022bedb903567f.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "LEAVE_EARTH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/8d78b3a3ee7a452fc3b614dfe845f7d8a9ecdcfa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/d532b29e6f7c91de013a40b7fbb886c6ad2ee55f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACCEPT_RECRUIT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/1499c40318e3f1fc5d1e555f96ec612e8921e489.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/c2ff88e33ad7c6f04c992378c927924d0c59d36d.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "OWN_STATION",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/08fb9e0c408047431fc2ae8a6251410be4c1716d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/71377a5f58c6efb897e0406dde8828002fa7f7ab.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "SURVIVE_FOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/93e58e1f5c63d437f42eef2199e6f36a5d31edc1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/0d4848d78a2b2ead0d49cfb9ca9cfc719a5cb759.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Produce 1 000 kg of food",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "PRODUCED_FOOD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PRODUCED_FOOD",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "SURVIVE_WATER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/327ba09de68f6114e6e0811687ced69d2b7034ab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/98bdc292a8680a4368c1020adcd98247a672ebed.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Produce 1 000 kg of water",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "PRODUCED_WATER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PRODUCED_WATER",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "MINE_MINERAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/d642e751c010e731e164c2c4c958f9f815a415a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/7ada1b7fc198e7caf66166e492f5959d10383ef5.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Mine 10 000 kg of Mineral",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "MINED_MINERAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MINED_MINERAL",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "MINE_ICE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/a408536686c7c5cfe2ff2ef7995a752c736365df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/215c0acbca0813d616ce40a834c129122b4de599.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Mine 10 000 kg of Ice",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "MINED_ICE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MINED_ICE",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "MINE_IRON_ORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/0eb19228493059c0e20b6990b06d71333433b566.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/99abc7ee6a195d7c1c0aaca8e4e8b2ac4c67aa26.jpg",
     "displayName": {
@@ -144,15 +152,17 @@
       "english": "Mine 10 000 kg of Iron Ore",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "MINED_IRON_ORE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MINED_IRON_ORE",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "REJECT_RECRUIT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/cbc59d9fc99dc0b873156c8f508356fe6026fc91.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/cd7da1690a836ee8a1e88e180b8409c6eed98a9d.jpg",
     "displayName": {
@@ -166,7 +176,7 @@
   },
   {
     "name": "WASTE_EJECTED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/0135e118d0db1b108ac302874bc83e682a678b83.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/b8506afe19db02b586393f9cc8b56df4d1d9cd78.jpg",
     "displayName": {
@@ -177,15 +187,17 @@
       "english": "Eject 10 000 kg of waste water",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "EJECTED_WASTE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EJECTED_WASTE",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "FIRST_VISITOR",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/740f37bfbc4467f26f46311f1efab38bcf575cb1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/fd033bc9f5e64a8932c92bd0dcb6efa537964ba1.jpg",
     "displayName": {
@@ -196,15 +208,17 @@
       "english": "Have first visitor",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "VISITORS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "VISITORS",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "TENTH_VISITOR",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/34b5c68531630d03aa992a1b0779ad2e94aff9c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/172cf219dc92e679c620bd02632f9d96f2b6faca.jpg",
     "displayName": {
@@ -215,15 +229,17 @@
       "english": "Have 10 visitors",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "VISITORS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "VISITORS",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ANY_REPAYMENT_TO_BLACK_CORP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/59c6b1bb0e8e319cfe5a359941744e3de29fd122.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/b1dd0e9b6fc833c843084137f1d5f73025737a68.jpg",
     "displayName": {
@@ -237,7 +253,7 @@
   },
   {
     "name": "TRADE_500_AT_ONCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/04fdf930a582773fb7af5e961f5de5c268593988.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/c4d3c9d06392837344926660fa6fb170009d86e9.jpg",
     "displayName": {
@@ -248,15 +264,17 @@
       "english": "Make a single trade of 500 kg",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "BIGGEST_TRADE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BIGGEST_TRADE",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "REMOVE_ALL_SCRAP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/24320a0aef5fd355664981f2bf87fb3d9e986c6b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/802af3b347898c232c920028aa193f42eab3ccba.jpg",
     "displayName": {
@@ -270,7 +288,7 @@
   },
   {
     "name": "FINISH_QUESTLINE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/8d5aa9ff4d79ba7693aae4b76a931dc320bf5af2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/6a0d3909bc7f95474579ba5c8ba7a89a79f020bd.jpg",
     "displayName": {
@@ -284,7 +302,7 @@
   },
   {
     "name": "BUILD_100_PIPES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/b635085048811206cb8b21356378b303cb368d15.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/216b65590c74a3a63f17f1dc4f2381da00c63a32.jpg",
     "displayName": {
@@ -295,15 +313,17 @@
       "english": "Build 100 Pipes.",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "PIPES_BUILD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PIPES_BUILD",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "BUILD_1_MODULES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/3a3b48fbe80ec53a3db338701251308845c0e073.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/48a104f3df940578a9ccad081310686b189b43d5.jpg",
     "displayName": {
@@ -314,15 +334,17 @@
       "english": "Build 1st Module",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "MODULES_BUILD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MODULES_BUILD",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "BUILD_15_MODULES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/3fef25ed4dd0a6907db1e546b806c4d942294249.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/8c11762b1fd4eed01f56e938ce6e20afb30aeb2b.jpg",
     "displayName": {
@@ -333,15 +355,17 @@
       "english": "Build 15 Modules",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "MODULES_BUILD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MODULES_BUILD",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "BUILD_100_MODULES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/6d67117c3bb828c1a024958ffffbf7de93e43184.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/9d93612b9fef5f123352cc9fca00777872baa964.jpg",
     "displayName": {
@@ -352,15 +376,17 @@
       "english": "Build 100 Modules",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "MODULES_BUILD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MODULES_BUILD",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "RESEARCH_1ST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/645cd6eaa66a7f906674842cb3371654b541d29e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/ea7c29cc7ea682b584c454613c014cf346945dd9.jpg",
     "displayName": {
@@ -374,7 +400,7 @@
   },
   {
     "name": "RESEARCH_ALL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/e721d1aca0975e402d02225f1d07f3ec1ce8d1d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/8a8fda12ee9ee75fb194a7743de2e682737c51c4.jpg",
     "displayName": {
@@ -388,7 +414,7 @@
   },
   {
     "name": "FIRST_DESTROYED_PIRATE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/8445c478473e779321fb6a099f42e2299ea78ea2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1403740/7668ce4c07ae1f2fc59a7a0f2bb1258b67c1a793.jpg",
     "displayName": {

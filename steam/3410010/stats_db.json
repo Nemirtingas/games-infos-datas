@@ -2,17 +2,23 @@
   {
     "name": "unitsSlain",
     "displayName": "Units Slain",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 10000,
+    "default": 0
   },
   {
     "name": "shopPurchases",
     "displayName": "Shop Purchases",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100,
+    "default": 0
   }
 ]

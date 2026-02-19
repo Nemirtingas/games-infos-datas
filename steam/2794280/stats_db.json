@@ -1,82 +1,90 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "kills_kills",
     "displayName": "Blobs Killed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 50000,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "cardsplayed_cardsplayed",
     "displayName": "Cards Played",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "gamesplayed_gamesplayed",
     "displayName": "Games Played",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "spellscast_spellscast",
     "displayName": "Spells Cast",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "victories_victories",
     "displayName": "Victories",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "defeats_defeats",
     "displayName": "Defeats",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "difficultybeaten_difficultybeaten",
     "displayName": "Difficulty Beaten",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "wavereached_wavereached",
     "displayName": "Wave Reached",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "levelunlocked_levelunlocked",
     "displayName": "Card Level",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_BACK_TO_THE_ICE_AGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/7c27b05d9199549c11eccf07a9844c4f8974ac3f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/a6b92ed40f26556eaf8abcb25d3739e0e7c95070.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_THIS_DOESNT_FEEL_SAFE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/cf7223d9886e5049a8a2bee6b3507cce4423629b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/14f9cec95270b8f92454e0dd6e1d115eb9a0f690.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_I_HAVE_LEGS_THANK_YOU",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/7804c8bd6ca31a2c69853842253f2d4668a9fb1f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/be7e1ba6172c8be7f8a957b7495e6f3fab1d0216.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_NEED_DIRECTIONS_FOR_THE_PINEAPPLE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/4a348590582ed4124c72a330d224901ae93ab6ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/1f94825106a101b288a4a8afde2cf72e667b8359.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_METHANE_EVERYWHERE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/e0c554b6f613828339db21b15ba08357280340c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/a33a8cdfaa2a6f8c6fd1315bdbcbd5663c307eb4.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Fart 1M times",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "FartCountStat_FartCountStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FartCountStat_FartCountStat",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "ACH_DONT_PUSH_TOO_HARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/f502b544ccf61c0fc482544ac84cd1aa2562188a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/2f890c4e3c79e5c00c905a7f0d03d54c19edd28f.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_HEY_BABE_IM_MOTO_LOCO",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/377c234cc3f6cef4db892e7f447bf7da5880b5c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/1d6d7a27f3a406b01bee3e706f2d6227ee038fab.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_NEW_TYPE_OF_INFLUENCER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/887c76df4c44509f82c627bc282a338b1d3898b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/3bc1ce2ea87373eaeb9323548518f91fba2cbc76.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_GEN_ALPHA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/21893471b92aaa10d420fb75dce5bedd02a22e1e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/5e344086cb10e7a7fc58c4ad4f1fca074058480f.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Take 100 selfies",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "SelfieCountStat_SelfieCountStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SelfieCountStat_SelfieCountStat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_AND_HIS_NAME_IS_VON_GENA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/7ec6109409a372ab93bb0d4432042f2274c135e2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/908475a7a00ee4a919bc11a9b4a81c7a892836ed.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "ACH_ESCARGOTS__LA_BOURGUIGNONNE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/1c3d9f9e67fc1c15a4515055a5674c31670f7d1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/d23d4b97be8d74da7be9e989371ddad43cef8275.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ACH_SMELLY_FOOD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/97b0762cebb1a5c1030dbb424be0003a99eb4777.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/72038ef118633b2aa4f012757fdbaec787d6613f.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ACH_MILK_ME_AT_LAST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/426951c383d1203be27a10412d259ec78d92874a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/e2e64b69df3373b80fdc263d6eb9e7241931ebca.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "ACH_IM_NOT_CLEANING_THAT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/944f233a50359606c6274ff793a93f2213285b44.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/5215a822fc3aca2033711bbcb63bff7a8f1d7a25.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "ACH_GONE_BANANAS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/db835222a1aec55611ea7a1bdf1ac687f3e282bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/36b2ac566a678f7cc647940f6fe7ebec6bd80c91.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "ACH_WOAAAH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/13913f575c97695285e6c5e4bb1403c699ce0565.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/70cb2bb93d944c76384303602d6405c64c337307.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "ACH_WE_LOVE_POOP_BALLS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/378e4bad4f6cad4b6c8325e0bbf5cc05b0f370ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/171bc90500fed690d166517ca7756eab30892908.jpg",
     "displayName": {
@@ -249,7 +253,7 @@
   },
   {
     "name": "ACH_HEY_STICK_WITH_ME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/adb506c18752c2ba9d79f4e2f51e21dae5ad141b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/f624aafe741ebc51f074e9f51e08e178584236b3.jpg",
     "displayName": {
@@ -263,7 +267,7 @@
   },
   {
     "name": "ACH_LETS_HONOR_HISTORY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/cd9cfb4f45f9baff698acca3fd191dbf58c050b4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/a3868c5d8d9a8c07198f61f2e3b0f7d173e54d79.jpg",
     "displayName": {
@@ -277,7 +281,7 @@
   },
   {
     "name": "ACH_DINOBOSS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/7110cb73b86b142b674ec945c867e87807cb713d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/cbc10c127e5786aa1983f437ed5116b7b633fee6.jpg",
     "displayName": {
@@ -291,7 +295,7 @@
   },
   {
     "name": "ACH_FRANKENSTOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/fda471fda54daa4335831f5ce0f79b16e9694d2b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/b598ba796bb19783005d215729f2a324169a596b.jpg",
     "displayName": {
@@ -305,7 +309,7 @@
   },
   {
     "name": "ACH_KEEP_THE_DOCTOR_AWAY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/aa47d8bb83e9056bbcba86e39d0d7c15dfe620e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/59e2c9e5a434f719ffe270db17f87bc566e41685.jpg",
     "displayName": {
@@ -319,7 +323,7 @@
   },
   {
     "name": "ACH_BURP_SOUNDS_ENABLED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/7f94bbf43c762bb9a068087fc1a74e145563a03f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/6a6e2c5aa7ad3c1a2f3d8d59f04a71c1dc1d4f75.jpg",
     "displayName": {
@@ -333,7 +337,7 @@
   },
   {
     "name": "ACH_THE_HOLY_GRAIL_OF_GASTRONOMY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/9e8bdfe75a1acee789406cf857236032035a5f1e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/a1918e10f9f082cc50d7adc6f8963de726c57c41.jpg",
     "displayName": {
@@ -347,7 +351,7 @@
   },
   {
     "name": "ACH_MASS_DESTRUCTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/5040219d7ef0ad57438a6782709efbc10e16ff7c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/66f7f62eb217eaf6231a732e91665445b77b280f.jpg",
     "displayName": {
@@ -361,7 +365,7 @@
   },
   {
     "name": "ACH_THE_SILENT_FART",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/3af50109ba5a78990163b248719d312abc6e7679.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/c6a43b89abc6263816b3fa33014f89733efd53cf.jpg",
     "displayName": {
@@ -375,7 +379,7 @@
   },
   {
     "name": "ACH_THE_SOLID_FART",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/e87d02a07781d0bebf1c33887559bbbbb206ba99.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/70d555c89300cb5a4b35e371871b5890253a7579.jpg",
     "displayName": {
@@ -389,7 +393,7 @@
   },
   {
     "name": "ACH_THE_SOPPING_FART",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/e8bee240f7ec378427e79fa3b80c41034ebd1e04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/782da8edaceacab0399cb43ddcf3a51ed9b2b5b7.jpg",
     "displayName": {
@@ -403,7 +407,7 @@
   },
   {
     "name": "ACH_THE_GODFARTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/ad02113dc4163ac1582c1d4b21ad2d228baec45d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/6e0d77a53e39057d89c862d20be8220a855a5e97.jpg",
     "displayName": {
@@ -417,7 +421,7 @@
   },
   {
     "name": "ACH_GOLD_DIGGER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/f761659042dc44d0a97b877773a194d342c8d563.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/0bda2d473b764e35f5cb759eec477fbc7be175bf.jpg",
     "displayName": {
@@ -431,7 +435,7 @@
   },
   {
     "name": "ACH_FFFARTASTIC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/3292622c388f936ca57944b0f0736097673123ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3216700/6a336c270c8b927b801f3fd925bd75f79063be8d.jpg",
     "displayName": {

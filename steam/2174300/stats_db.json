@@ -2,353 +2,368 @@
   {
     "name": "puzzles_cleared",
     "displayName": "Puzzles cleared",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 5,
+    "default": 0
   },
   {
     "name": "puzzles_challenged",
     "displayName": "Puzzles cleared in challenge mode",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "default": 0
   },
   {
     "name": "academy_pcross",
     "displayName": "Academy courses cleared for Piczle Cross",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 4,
+    "default": 0
   },
   {
     "name": "academy_pccross",
     "displayName": "Academy courses cleared for Piczle Color Cross",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 3,
+    "default": 0
   },
   {
     "name": "academy_pcross_quiz",
     "displayName": "Quizzes Piczle Cross",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "academy_pccross_quiz",
     "displayName": "Quizzes Piczle Color Cross",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "academy_pcols",
     "displayName": "Academy courses cleared for Piczle Colors",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "academy_cols_quiz",
     "displayName": "Quizzes Piczle Colors",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "academy_plines",
     "displayName": "Academy courses cleared for Piczle Lines",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "academy_plines_quiz",
     "displayName": "Quizzes Piczle Lines",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "academy_pblocks",
     "displayName": "Academy courses cleared for Piczle Blocks",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "academy_pblocks_quiz",
     "displayName": "Quizzes Piczle Blocks",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "workshop_create",
     "displayName": "Puzzle creator",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "workshop_publish",
     "displayName": "Puzzle publisher",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "workshop_play",
     "displayName": "Workshop puzzle player",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "dailies",
     "displayName": "Daily puzzles",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "dailystreak",
     "displayName": "Daily puzzles streak",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "events",
     "displayName": "Seasonal event packs",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "draw_block",
     "displayName": "Cells filled",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "draw_mark",
     "displayName": "Cells marked",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "draw_erase",
     "displayName": "Cells erased",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "draw_doodle",
     "displayName": "Doodles doodled",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "undo",
     "displayName": "Undos",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "redo",
     "displayName": "Redos",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "autocorrect",
     "displayName": "Autocorrected",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "findmistakes",
     "displayName": "Find mistakes",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "reset",
     "displayName": "Puzzles reset",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "focus",
     "displayName": "Focus mode",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "roulettes",
     "displayName": "Clue roulettes",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "PiczleCross",
     "displayName": "Piczle Cross puzzles cleared",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "PiczleCross_Collage",
     "displayName": "Piczle Cross collages cleared",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "PiczleCross_Challenge",
     "displayName": "Piczle Cross puzzles challenged",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "PiczleCross_CollageChallenge",
     "displayName": "Piczle Cross collages challenged",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "PiczleCross_packs",
     "displayName": "Piczle Cross packs cleared",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "PiczleColorCross",
     "displayName": "Piczle Color Cross puzzles cleared",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "PiczleColorCross_Collage",
     "displayName": "Piczle Color Cross collages cleared",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "PiczleColorCross_Challenge",
     "displayName": "Piczle Color Cross puzzles challenged",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "PiczleColorCross_CollageChallenge",
     "displayName": "Piczle Color Cross collages challenged",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "PiczleColorCross_packs",
     "displayName": "Piczle Color Cross packs cleared",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "player_level",
     "displayName": "Player level",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 1
   },
   {
     "name": "ws_published",
     "displayName": "Workshop puzzles published",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "ws_played",
     "displayName": "Workshop puzzles played",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "PiczleLines",
     "displayName": "Piczle Lines puzzles cleared",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "PiczleLines_packs",
     "displayName": "Piczle Lines packs cleared",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   }
 ]

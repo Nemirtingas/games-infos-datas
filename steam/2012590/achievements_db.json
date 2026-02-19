@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_FIRSTGOAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2012590/0c59c1455e4dc6043ad63b41e685934aeb1436b3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2012590/94d148d54a25a2e3570f1d14cfbc1ccf46ac2c18.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Get your first goal!",
       "token": "NEW_ACHIEVEMENT_5_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "STAT_GOALS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GOALS",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_THOUSANDGOALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2012590/0c59c1455e4dc6043ad63b41e685934aeb1436b3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2012590/94d148d54a25a2e3570f1d14cfbc1ccf46ac2c18.jpg",
     "displayName": {
@@ -31,10 +33,12 @@
       "english": "Score one thousand goals!",
       "token": "NEW_ACHIEVEMENT_5_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1000,
-      "max_val": 1000,
-      "stat_name": "STAT_GOALS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GOALS",
+        "min_val": 1000,
+        "max_val": 1000
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_COLLECTED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/84957ac5098d8a180be800cba9a880b7df9dba01.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/10043c13ec5d057a983f8925776cb2827ac09dcc.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_COLLECTED2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/63c06f84e81d4c9f6073f748e225d54a4d941398.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/d99c99f99fe99e4d6d58325ac835cae48b5dfe20.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_COLLECTED3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/a85eea258542304d32bdcfcafbbef2bb39b5d112.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/bee10e20b3daa8a477bc40b35c0d309ddfa210e1.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_COLLECTED4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/5e8025ce038cc5cbad9dd49daf3facd58a604daa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/ab38d97f624ceb3c9106e910b1de71fa5b5c5d48.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "WANTSYOU",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/7614e97b393a16b4b3e2cc8ac3de86f2e0e2a989.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/392bb6707e426510adfab69260d296a1cdeabd9d.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_COLLECTED5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/1bd5e8d0e45e7b7b06d6b3a8202b4c13e5b5499d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/ad876d49447007ea4b11b562550741c44a68c86d.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_COLLECTED6",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/f740924b2d75af44ba72368def7ab7c56783ccd7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/c95eec30dc59953e171b0a6529f14ae23dc5a6fc.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_COLLECTED7",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/d0460b373088dffa3426856149a2bac0b7499752.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/e12e82d7e42eb7f6015438d2a7a0da127ddb52ce.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_COLLECTED8",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/e6818be9d11818de97a0d00c097dc34161e32fb1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/fb2f55d2269be9fa649715dda5c3a07be20cbab6.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Fall in Gay Zombie's Lava 1,000 times In one run",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "LavaStat_LavaStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LavaStat_LavaStat",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_COLLECTED9",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/d61c023b4585fbc5a06fe9121ee6387b2ba933fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3545310/95413d185b7044e88a1901b7876ddf4f12673c13.jpg",
     "displayName": {
@@ -143,10 +145,12 @@
       "english": "Play Misery Avenue for 2 hours in one run",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7200,
-      "stat_name": "TimeStat_TimeStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TimeStat_TimeStat",
+        "min_val": 0,
+        "max_val": 7200
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "coward",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "deity_of_industry",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "deity_of_nature",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "deity_of_oceans",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "deity_of_order",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "riddles_in_the_dark",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "roll_out",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Roll 1,000 times",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "num_rolls"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "num_rolls",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "storyteller",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "tenacious",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Die 100 times",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "num_deaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "num_deaths",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "treasarrrr",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "tree_hugger",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "undefeated",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "with_the_fishes",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "just_a_flesh_wound",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/7ac2c09910f1fefbfc6520fc455b78c9fb5e360b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/0203079a321ba58627408f6dea66e7f15b506f8d.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "mideus",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/5a215d49e1cb89b3e24fa076500ea060c9b0310c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1230000/44b714705e6236a944d4a99a26bca396fce2546b.jpg",
     "displayName": {

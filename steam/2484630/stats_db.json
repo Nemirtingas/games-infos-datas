@@ -2,49 +2,61 @@
   {
     "name": "LvUP",
     "displayName": "历史最高等级",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 1,
+    "max": 100000,
+    "default": 1
   },
   {
     "name": "KillMonster",
     "displayName": "击杀怪物数量",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 1,
+    "max": "MAX_INT",
+    "default": 1
   },
   {
     "name": "KillBoss",
     "displayName": "击杀BOSS数量",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 1,
+    "max": "MAX_INT",
+    "default": 1
   },
   {
     "name": "EndlessLv",
     "displayName": "[无尽的战斗]最高层数",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 1,
+    "max": 100000,
+    "default": 1
   },
   {
     "name": "LimitLv",
     "displayName": "[极限挑战]最高层数",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 1,
+    "max": 20000,
+    "default": 1
   },
   {
     "name": "CollectTreasure",
     "displayName": "打开[宝藏]数量",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 1,
+    "max": "MAX_INT",
+    "default": 1
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "first_generator",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "first_upgrade",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "first_prestige",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "first_restart",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "first_reward",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "first_interest_invest",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "first_interest_claim",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "first_score",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "first_world",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "theend",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -141,7 +141,7 @@
   },
   {
     "name": "money1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -152,15 +152,17 @@
       "english": "Earn 1K money",
       "token": "NEW_ACHIEVEMENT_10_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "money"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "money",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "money2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -171,15 +173,17 @@
       "english": "Earn 1M money",
       "token": "NEW_ACHIEVEMENT_10_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "money"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "money",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "money3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -190,15 +194,17 @@
       "english": "Earn 1B money",
       "token": "NEW_ACHIEVEMENT_10_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000000,
-      "stat_name": "money"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "money",
+        "min_val": 0,
+        "max_val": 1000000000
+      }
+    ]
   },
   {
     "name": "money4",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -209,15 +215,17 @@
       "english": "Earn 1T money",
       "token": "NEW_ACHIEVEMENT_10_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000000000,
-      "stat_name": "money"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "money",
+        "min_val": 0,
+        "max_val": 1000000000000
+      }
+    ]
   },
   {
     "name": "money5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -228,15 +236,17 @@
       "english": "Earn 1Qa money",
       "token": "NEW_ACHIEVEMENT_10_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000000000000,
-      "stat_name": "money"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "money",
+        "min_val": 0,
+        "max_val": 1000000000000000
+      }
+    ]
   },
   {
     "name": "money6",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -247,15 +257,17 @@
       "english": "Earn 1Qi money",
       "token": "NEW_ACHIEVEMENT_10_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000000000000000,
-      "stat_name": "money"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "money",
+        "min_val": 0,
+        "max_val": 1000000000000000000
+      }
+    ]
   },
   {
     "name": "money7",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -266,15 +278,17 @@
       "english": "Earn 1Sx money",
       "token": "NEW_ACHIEVEMENT_10_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 0,
-      "stat_name": "money"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "money",
+        "min_val": 0,
+        "max_val": 0
+      }
+    ]
   },
   {
     "name": "money8",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -285,15 +299,17 @@
       "english": "Earn 1Sp money",
       "token": "NEW_ACHIEVEMENT_10_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 0,
-      "stat_name": "money"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "money",
+        "min_val": 0,
+        "max_val": 0
+      }
+    ]
   },
   {
     "name": "money9",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -304,15 +320,17 @@
       "english": "Earn 1Oc money",
       "token": "NEW_ACHIEVEMENT_10_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 0,
-      "stat_name": "money"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "money",
+        "min_val": 0,
+        "max_val": 0
+      }
+    ]
   },
   {
     "name": "money10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -323,15 +341,17 @@
       "english": "Earn 1No money",
       "token": "NEW_ACHIEVEMENT_10_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 0,
-      "stat_name": "money"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "money",
+        "min_val": 0,
+        "max_val": 0
+      }
+    ]
   },
   {
     "name": "upgrade1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -342,15 +362,17 @@
       "english": "Earn 5 upgrade points",
       "token": "NEW_ACHIEVEMENT_10_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "upgrade"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "upgrade2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -361,15 +383,17 @@
       "english": "Earn 10 upgrade points",
       "token": "NEW_ACHIEVEMENT_10_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "upgrade"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "upgrade3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -380,15 +404,17 @@
       "english": "Earn 20 upgrade points",
       "token": "NEW_ACHIEVEMENT_10_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "upgrade"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "upgrade4",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -399,15 +425,17 @@
       "english": "Earn 40 upgrade points",
       "token": "NEW_ACHIEVEMENT_10_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "upgrade"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "upgrade5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -418,15 +446,17 @@
       "english": "Earn 80 upgrade points",
       "token": "NEW_ACHIEVEMENT_10_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 80,
-      "stat_name": "upgrade"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade",
+        "min_val": 0,
+        "max_val": 80
+      }
+    ]
   },
   {
     "name": "upgrade6",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -437,15 +467,17 @@
       "english": "Earn 160 upgrade points",
       "token": "NEW_ACHIEVEMENT_10_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 160,
-      "stat_name": "upgrade"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade",
+        "min_val": 0,
+        "max_val": 160
+      }
+    ]
   },
   {
     "name": "upgrade7",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -456,15 +488,17 @@
       "english": "Earn 320 upgrade points",
       "token": "NEW_ACHIEVEMENT_10_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 320,
-      "stat_name": "upgrade"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade",
+        "min_val": 0,
+        "max_val": 320
+      }
+    ]
   },
   {
     "name": "upgrade8",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -475,15 +509,17 @@
       "english": "Earn 640 upgrade points",
       "token": "NEW_ACHIEVEMENT_10_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 640,
-      "stat_name": "upgrade"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade",
+        "min_val": 0,
+        "max_val": 640
+      }
+    ]
   },
   {
     "name": "upgrade9",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -494,15 +530,17 @@
       "english": "Earn 1280 upgrade points",
       "token": "NEW_ACHIEVEMENT_10_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1280,
-      "stat_name": "upgrade"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade",
+        "min_val": 0,
+        "max_val": 1280
+      }
+    ]
   },
   {
     "name": "upgrade10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -513,15 +551,17 @@
       "english": "Earn 2560 upgrade points",
       "token": "NEW_ACHIEVEMENT_10_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2560,
-      "stat_name": "upgrade"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade",
+        "min_val": 0,
+        "max_val": 2560
+      }
+    ]
   },
   {
     "name": "prestige1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -532,15 +572,17 @@
       "english": "Earn 2 prestige points",
       "token": "NEW_ACHIEVEMENT_10_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "prestige"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   },
   {
     "name": "prestige2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -551,15 +593,17 @@
       "english": "Earn 4 prestige points",
       "token": "NEW_ACHIEVEMENT_10_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "prestige"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "prestige3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -570,15 +614,17 @@
       "english": "Earn 8 prestige points",
       "token": "NEW_ACHIEVEMENT_11_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "prestige"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "prestige4",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -589,15 +635,17 @@
       "english": "Earn 16 prestige points",
       "token": "NEW_ACHIEVEMENT_11_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 16,
-      "stat_name": "prestige"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige",
+        "min_val": 0,
+        "max_val": 16
+      }
+    ]
   },
   {
     "name": "prestige5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -608,15 +656,17 @@
       "english": "Earn 32 prestige points",
       "token": "NEW_ACHIEVEMENT_11_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 32,
-      "stat_name": "prestige"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige",
+        "min_val": 0,
+        "max_val": 32
+      }
+    ]
   },
   {
     "name": "prestige6",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -627,15 +677,17 @@
       "english": "Earn 64 prestige points",
       "token": "NEW_ACHIEVEMENT_11_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 64,
-      "stat_name": "prestige"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige",
+        "min_val": 0,
+        "max_val": 64
+      }
+    ]
   },
   {
     "name": "prestige7",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -646,15 +698,17 @@
       "english": "Earn 128 prestige points",
       "token": "NEW_ACHIEVEMENT_11_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 128,
-      "stat_name": "prestige"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige",
+        "min_val": 0,
+        "max_val": 128
+      }
+    ]
   },
   {
     "name": "prestige8",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -665,15 +719,17 @@
       "english": "Earn 256 prestige points",
       "token": "NEW_ACHIEVEMENT_11_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 256,
-      "stat_name": "prestige"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige",
+        "min_val": 0,
+        "max_val": 256
+      }
+    ]
   },
   {
     "name": "prestige9",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -684,15 +740,17 @@
       "english": "Earn 512 prestige points",
       "token": "NEW_ACHIEVEMENT_11_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 512,
-      "stat_name": "prestige"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige",
+        "min_val": 0,
+        "max_val": 512
+      }
+    ]
   },
   {
     "name": "prestige10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -703,15 +761,17 @@
       "english": "Earn 1024 prestige points",
       "token": "NEW_ACHIEVEMENT_11_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1024,
-      "stat_name": "prestige"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige",
+        "min_val": 0,
+        "max_val": 1024
+      }
+    ]
   },
   {
     "name": "generators1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -722,15 +782,17 @@
       "english": "Buy 50 generators upgrades",
       "token": "NEW_ACHIEVEMENT_11_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "generator_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "generator_purchases",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "generators2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -741,15 +803,17 @@
       "english": "Buy 100 generators upgrades",
       "token": "NEW_ACHIEVEMENT_11_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "generator_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "generator_purchases",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "generators3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -760,15 +824,17 @@
       "english": "Buy 200 generators upgrades",
       "token": "NEW_ACHIEVEMENT_11_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "generator_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "generator_purchases",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "generators4",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -779,15 +845,17 @@
       "english": "Buy 400 generators upgrades",
       "token": "NEW_ACHIEVEMENT_11_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 400,
-      "stat_name": "generator_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "generator_purchases",
+        "min_val": 0,
+        "max_val": 400
+      }
+    ]
   },
   {
     "name": "generators5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -798,15 +866,17 @@
       "english": "Buy 800 generators upgrades",
       "token": "NEW_ACHIEVEMENT_11_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 800,
-      "stat_name": "generator_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "generator_purchases",
+        "min_val": 0,
+        "max_val": 800
+      }
+    ]
   },
   {
     "name": "generators6",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -817,15 +887,17 @@
       "english": "Buy 1600 generators upgrades",
       "token": "NEW_ACHIEVEMENT_11_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1600,
-      "stat_name": "generator_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "generator_purchases",
+        "min_val": 0,
+        "max_val": 1600
+      }
+    ]
   },
   {
     "name": "generators7",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -836,15 +908,17 @@
       "english": "Buy 3200 generators upgrades",
       "token": "NEW_ACHIEVEMENT_11_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3200,
-      "stat_name": "generator_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "generator_purchases",
+        "min_val": 0,
+        "max_val": 3200
+      }
+    ]
   },
   {
     "name": "generators8",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -855,15 +929,17 @@
       "english": "Buy 6400 generators upgrades",
       "token": "NEW_ACHIEVEMENT_11_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6400,
-      "stat_name": "generator_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "generator_purchases",
+        "min_val": 0,
+        "max_val": 6400
+      }
+    ]
   },
   {
     "name": "generators9",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -874,15 +950,17 @@
       "english": "Buy 12800 generators upgrades",
       "token": "NEW_ACHIEVEMENT_11_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 12800,
-      "stat_name": "generator_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "generator_purchases",
+        "min_val": 0,
+        "max_val": 12800
+      }
+    ]
   },
   {
     "name": "generators10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -893,15 +971,17 @@
       "english": "Buy 25600 generators upgrades",
       "token": "NEW_ACHIEVEMENT_11_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25600,
-      "stat_name": "generator_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "generator_purchases",
+        "min_val": 0,
+        "max_val": 25600
+      }
+    ]
   },
   {
     "name": "upgrades1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -912,15 +992,17 @@
       "english": "Buy 10 upgrades",
       "token": "NEW_ACHIEVEMENT_11_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "upgrade_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade_purchases",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "upgrades2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -931,15 +1013,17 @@
       "english": "Buy 20 upgrades",
       "token": "NEW_ACHIEVEMENT_11_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "upgrade_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade_purchases",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "upgrades3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -950,15 +1034,17 @@
       "english": "Buy 40 upgrades",
       "token": "NEW_ACHIEVEMENT_11_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "upgrade_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade_purchases",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "upgrades4",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -969,15 +1055,17 @@
       "english": "Buy 80 upgrades",
       "token": "NEW_ACHIEVEMENT_11_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 80,
-      "stat_name": "upgrade_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade_purchases",
+        "min_val": 0,
+        "max_val": 80
+      }
+    ]
   },
   {
     "name": "upgrades5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -988,15 +1076,17 @@
       "english": "Buy 160 upgrades",
       "token": "NEW_ACHIEVEMENT_11_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 160,
-      "stat_name": "upgrade_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade_purchases",
+        "min_val": 0,
+        "max_val": 160
+      }
+    ]
   },
   {
     "name": "upgrades6",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1007,15 +1097,17 @@
       "english": "Buy 320 upgrades",
       "token": "NEW_ACHIEVEMENT_11_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 320,
-      "stat_name": "upgrade_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade_purchases",
+        "min_val": 0,
+        "max_val": 320
+      }
+    ]
   },
   {
     "name": "upgrades7",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1026,15 +1118,17 @@
       "english": "Buy 640 upgrades",
       "token": "NEW_ACHIEVEMENT_11_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 640,
-      "stat_name": "upgrade_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade_purchases",
+        "min_val": 0,
+        "max_val": 640
+      }
+    ]
   },
   {
     "name": "upgrades8",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1045,15 +1139,17 @@
       "english": "Buy 1280 upgrades",
       "token": "NEW_ACHIEVEMENT_11_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1280,
-      "stat_name": "upgrade_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade_purchases",
+        "min_val": 0,
+        "max_val": 1280
+      }
+    ]
   },
   {
     "name": "upgrades9",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1064,15 +1160,17 @@
       "english": "Buy 2560 upgrades",
       "token": "NEW_ACHIEVEMENT_11_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2560,
-      "stat_name": "upgrade_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade_purchases",
+        "min_val": 0,
+        "max_val": 2560
+      }
+    ]
   },
   {
     "name": "upgrades10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1083,15 +1181,17 @@
       "english": "Buy 5120 upgrades",
       "token": "NEW_ACHIEVEMENT_11_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5120,
-      "stat_name": "upgrade_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "upgrade_purchases",
+        "min_val": 0,
+        "max_val": 5120
+      }
+    ]
   },
   {
     "name": "prestiges_upgrades1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1102,15 +1202,17 @@
       "english": "Buy 5 prestige upgrades",
       "token": "NEW_ACHIEVEMENT_11_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "prestige_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige_purchases",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "prestiges_upgrades2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1121,15 +1223,17 @@
       "english": "Buy 10 prestige upgrades",
       "token": "NEW_ACHIEVEMENT_11_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "prestige_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige_purchases",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "prestiges_upgrades3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1140,15 +1244,17 @@
       "english": "Buy 20 prestige upgrades",
       "token": "NEW_ACHIEVEMENT_11_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "prestige_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige_purchases",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "prestiges_upgrades4",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1159,15 +1265,17 @@
       "english": "Buy 40 prestige upgrades",
       "token": "NEW_ACHIEVEMENT_12_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "prestige_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige_purchases",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "prestiges_upgrades5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1178,15 +1286,17 @@
       "english": "Buy 80 prestige upgrades",
       "token": "NEW_ACHIEVEMENT_12_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 80,
-      "stat_name": "prestige_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige_purchases",
+        "min_val": 0,
+        "max_val": 80
+      }
+    ]
   },
   {
     "name": "prestiges_upgrades6",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1197,15 +1307,17 @@
       "english": "Buy 160 prestige upgrades",
       "token": "NEW_ACHIEVEMENT_12_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 160,
-      "stat_name": "prestige_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige_purchases",
+        "min_val": 0,
+        "max_val": 160
+      }
+    ]
   },
   {
     "name": "prestiges_upgrades7",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1216,15 +1328,17 @@
       "english": "Buy 320 prestige upgrades",
       "token": "NEW_ACHIEVEMENT_12_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 320,
-      "stat_name": "prestige_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige_purchases",
+        "min_val": 0,
+        "max_val": 320
+      }
+    ]
   },
   {
     "name": "prestiges_upgrades8",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1235,15 +1349,17 @@
       "english": "Buy 640 prestige upgrades",
       "token": "NEW_ACHIEVEMENT_12_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 640,
-      "stat_name": "prestige_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige_purchases",
+        "min_val": 0,
+        "max_val": 640
+      }
+    ]
   },
   {
     "name": "prestiges_upgrades9",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1254,15 +1370,17 @@
       "english": "Buy 1280 prestige upgrades",
       "token": "NEW_ACHIEVEMENT_12_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1280,
-      "stat_name": "prestige_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige_purchases",
+        "min_val": 0,
+        "max_val": 1280
+      }
+    ]
   },
   {
     "name": "prestige_upgrades10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1273,15 +1391,17 @@
       "english": "Buy 2560 prestige upgrades",
       "token": "NEW_ACHIEVEMENT_12_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2560,
-      "stat_name": "prestige_purchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "prestige_purchases",
+        "min_val": 0,
+        "max_val": 2560
+      }
+    ]
   },
   {
     "name": "rewards1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1292,15 +1412,17 @@
       "english": "Claim 1 reward",
       "token": "NEW_ACHIEVEMENT_12_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "rewards"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rewards",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "rewards2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1311,15 +1433,17 @@
       "english": "Claim 2 rewards",
       "token": "NEW_ACHIEVEMENT_12_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "rewards"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rewards",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   },
   {
     "name": "rewards3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1330,15 +1454,17 @@
       "english": "Claim 4 rewards",
       "token": "NEW_ACHIEVEMENT_12_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "rewards"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rewards",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "rewards4",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1349,15 +1475,17 @@
       "english": "Claim 8 rewards",
       "token": "NEW_ACHIEVEMENT_12_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "rewards"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rewards",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "rewards5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1368,15 +1496,17 @@
       "english": "Claim 16 rewards",
       "token": "NEW_ACHIEVEMENT_12_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 16,
-      "stat_name": "rewards"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rewards",
+        "min_val": 0,
+        "max_val": 16
+      }
+    ]
   },
   {
     "name": "rewards6",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1387,15 +1517,17 @@
       "english": "Claim 32 rewards",
       "token": "NEW_ACHIEVEMENT_12_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 32,
-      "stat_name": "rewards"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rewards",
+        "min_val": 0,
+        "max_val": 32
+      }
+    ]
   },
   {
     "name": "rewards7",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1406,15 +1538,17 @@
       "english": "Claim 64 rewards",
       "token": "NEW_ACHIEVEMENT_12_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 64,
-      "stat_name": "rewards"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rewards",
+        "min_val": 0,
+        "max_val": 64
+      }
+    ]
   },
   {
     "name": "rewards8",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1425,15 +1559,17 @@
       "english": "Claim 128 rewards",
       "token": "NEW_ACHIEVEMENT_12_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 128,
-      "stat_name": "rewards"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rewards",
+        "min_val": 0,
+        "max_val": 128
+      }
+    ]
   },
   {
     "name": "rewards9",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1444,15 +1580,17 @@
       "english": "Claim 256 rewards",
       "token": "NEW_ACHIEVEMENT_12_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 256,
-      "stat_name": "rewards"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rewards",
+        "min_val": 0,
+        "max_val": 256
+      }
+    ]
   },
   {
     "name": "rewards10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1463,15 +1601,17 @@
       "english": "Claim 512 rewards",
       "token": "NEW_ACHIEVEMENT_12_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 512,
-      "stat_name": "rewards"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rewards",
+        "min_val": 0,
+        "max_val": 512
+      }
+    ]
   },
   {
     "name": "interest1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1482,15 +1622,17 @@
       "english": "Claim 2 interest rewards",
       "token": "NEW_ACHIEVEMENT_12_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "interest"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "interest",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   },
   {
     "name": "interest2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1501,15 +1643,17 @@
       "english": "Claim 4 interest rewards",
       "token": "NEW_ACHIEVEMENT_12_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "interest"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "interest",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "interest3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1520,15 +1664,17 @@
       "english": "Claim 8 interest rewards",
       "token": "NEW_ACHIEVEMENT_12_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "interest"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "interest",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "interest4",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1539,15 +1685,17 @@
       "english": "Claim 16 interest rewards",
       "token": "NEW_ACHIEVEMENT_12_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 16,
-      "stat_name": "interest"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "interest",
+        "min_val": 0,
+        "max_val": 16
+      }
+    ]
   },
   {
     "name": "interest5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1558,15 +1706,17 @@
       "english": "Claim 32 interest rewards",
       "token": "NEW_ACHIEVEMENT_12_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 32,
-      "stat_name": "interest"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "interest",
+        "min_val": 0,
+        "max_val": 32
+      }
+    ]
   },
   {
     "name": "interest6",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1577,15 +1727,17 @@
       "english": "Claim 64 interest rewards",
       "token": "NEW_ACHIEVEMENT_12_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 64,
-      "stat_name": "interest"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "interest",
+        "min_val": 0,
+        "max_val": 64
+      }
+    ]
   },
   {
     "name": "interest7",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1596,15 +1748,17 @@
       "english": "Claim 128 interest rewards",
       "token": "NEW_ACHIEVEMENT_12_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 128,
-      "stat_name": "interest"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "interest",
+        "min_val": 0,
+        "max_val": 128
+      }
+    ]
   },
   {
     "name": "interest8",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1615,15 +1769,17 @@
       "english": "Claim 256 interest rewards",
       "token": "NEW_ACHIEVEMENT_12_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 256,
-      "stat_name": "interest"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "interest",
+        "min_val": 0,
+        "max_val": 256
+      }
+    ]
   },
   {
     "name": "interest9",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1634,15 +1790,17 @@
       "english": "Claim 512 interest rewards",
       "token": "NEW_ACHIEVEMENT_12_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 512,
-      "stat_name": "interest"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "interest",
+        "min_val": 0,
+        "max_val": 512
+      }
+    ]
   },
   {
     "name": "interest10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1653,15 +1811,17 @@
       "english": "Claim 1024 interest rewards",
       "token": "NEW_ACHIEVEMENT_12_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1024,
-      "stat_name": "interest"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "interest",
+        "min_val": 0,
+        "max_val": 1024
+      }
+    ]
   },
   {
     "name": "time1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1672,15 +1832,17 @@
       "english": "Play for 1 hour",
       "token": "NEW_ACHIEVEMENT_12_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 60,
-      "stat_name": "time"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "time",
+        "min_val": 0,
+        "max_val": 60
+      }
+    ]
   },
   {
     "name": "time2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1691,15 +1853,17 @@
       "english": "Play for 2 hours",
       "token": "NEW_ACHIEVEMENT_12_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 120,
-      "stat_name": "time"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "time",
+        "min_val": 0,
+        "max_val": 120
+      }
+    ]
   },
   {
     "name": "time3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1710,15 +1874,17 @@
       "english": "Play for 3 hours",
       "token": "NEW_ACHIEVEMENT_12_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 180,
-      "stat_name": "time"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "time",
+        "min_val": 0,
+        "max_val": 180
+      }
+    ]
   },
   {
     "name": "time4",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1729,15 +1895,17 @@
       "english": "Play for 4 hours",
       "token": "NEW_ACHIEVEMENT_12_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 240,
-      "stat_name": "time"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "time",
+        "min_val": 0,
+        "max_val": 240
+      }
+    ]
   },
   {
     "name": "time5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1748,15 +1916,17 @@
       "english": "Play for 5 hours",
       "token": "NEW_ACHIEVEMENT_12_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "time"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "time",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "time6",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1767,15 +1937,17 @@
       "english": "Play for 6 hours",
       "token": "NEW_ACHIEVEMENT_13_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 360,
-      "stat_name": "time"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "time",
+        "min_val": 0,
+        "max_val": 360
+      }
+    ]
   },
   {
     "name": "time7",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1786,15 +1958,17 @@
       "english": "Play for 7 hours",
       "token": "NEW_ACHIEVEMENT_13_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 420,
-      "stat_name": "time"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "time",
+        "min_val": 0,
+        "max_val": 420
+      }
+    ]
   },
   {
     "name": "time8",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1805,15 +1979,17 @@
       "english": "Play for 8 hours",
       "token": "NEW_ACHIEVEMENT_13_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 480,
-      "stat_name": "time"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "time",
+        "min_val": 0,
+        "max_val": 480
+      }
+    ]
   },
   {
     "name": "time9",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1824,15 +2000,17 @@
       "english": "Play for 9 hours",
       "token": "NEW_ACHIEVEMENT_13_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 540,
-      "stat_name": "time"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "time",
+        "min_val": 0,
+        "max_val": 540
+      }
+    ]
   },
   {
     "name": "time10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/b129dd839b0d03351befd34952979508a2cbd648.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2506120/ca51f484fc0088c87b750486975873aee7057df0.jpg",
     "displayName": {
@@ -1843,10 +2021,12 @@
       "english": "Play for 10 hours",
       "token": "NEW_ACHIEVEMENT_13_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 600,
-      "stat_name": "time"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "time",
+        "min_val": 0,
+        "max_val": 600
+      }
+    ]
   }
 ]

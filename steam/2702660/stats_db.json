@@ -2,113 +2,122 @@
   {
     "name": "pain_global",
     "displayName": "Pain Inflicted",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 20,
+    "default": 0
   },
   {
     "name": "hours_global",
     "displayName": "Global Hours Waited",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "default": 0
   },
   {
     "name": "approved_global",
     "displayName": "Global Approvals",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 100,
+    "default": 0
   },
   {
     "name": "rejected_global",
     "displayName": "Global Rejections",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 100,
+    "default": 0
   },
   {
     "name": "approved_local",
     "displayName": "Approved Proposals",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 100,
+    "default": 0
   },
   {
     "name": "rejected_local",
     "displayName": "Rejected Approvals",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 100,
+    "default": 0
   },
   {
     "name": "machines_killed",
     "displayName": "Machines Killed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
   },
   {
     "name": "seconds_local",
     "displayName": "Seconds Waited",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "coin_local",
     "displayName": "Coin Team",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "heads_global",
     "displayName": "Global Heads",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 2,
+    "default": 0
   },
   {
     "name": "tails_global",
     "displayName": "Global Tails",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 2,
+    "default": 0
   },
   {
     "name": "space_distance",
     "displayName": "Space Distance",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "default": 0
   },
   {
     "name": "ids_global",
     "displayName": "Global Ids",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "default": 0
   },
   {
     "name": "clovers_global",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
   }
 ]

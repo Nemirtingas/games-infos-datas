@@ -2,257 +2,282 @@
   {
     "name": "kills_npc",
     "displayName": "Kills, AI",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "kills_players",
     "displayName": "Kills, Players",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 500,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "playcount_online",
     "displayName": "Online Operations",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "playcount_offline",
     "displayName": "Solo Operations",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "playcount_bulls",
     "displayName": "Operations completed as Bulls",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "playcount_dragons",
     "displayName": "Operations completed as Dragons",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "playcount_spartans",
     "displayName": "Operations completed as Spartans",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "playcount_tigers",
     "displayName": "Operations completed as Tigers",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "playtime_offline",
     "displayName": "Solo play time",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "playtime_online",
     "displayName": "Online play time",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "deaths_players",
     "displayName": "Deaths to players, online",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "deaths_npcs",
     "displayName": "Deaths to AI, solo",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "deaths_other",
     "displayName": "Workplace accidents",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "wincount_bulls",
     "displayName": "Bulls victories",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "wincount_dragons",
     "displayName": "Dragons victories",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "wincount_spartans",
     "displayName": "Spartans victories",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "wincount_tigers",
     "displayName": "Tigers victories",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "longest_fall",
     "displayName": "Longest fall (m)",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "shots_fired",
     "displayName": "Shots fired (moving average)",
-    "type": "0",
-    "default": 0,
+    "type": "avgrate",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0.0,
+    "windowsize": 300.0
   },
   {
     "name": "shots_hit",
     "displayName": "Shots hit (moving average)",
-    "type": "0",
-    "default": 0,
+    "type": "avgrate",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0.0,
+    "windowsize": 300.0
   },
   {
     "name": "kills_wpn_pistol",
     "displayName": "Kills, Pistol",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "kills_wpn_rifle",
     "displayName": "Kills, Rifle",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "kills_wpn_dmr",
     "displayName": "Kills, DMR",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "kills_wpn_sniper",
     "displayName": "Kills, Sniper",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "kills_wpn_lmg",
     "displayName": "Kills, LMG",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "kills_wpn_smg",
     "displayName": "Kills, SMG",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "kills_wpn_gl",
     "displayName": "Kills, GL",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "kills_wpn_rpg",
     "displayName": "Kills, RPG",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "kills_wpn_melee",
     "displayName": "Kills, melee",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "kills_wpn_shotgun",
     "displayName": "Kills, Shotgun",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "shots_fired_total",
     "displayName": "Shots fired, total",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "shots_hit_total",
     "displayName": "Shots hit, total",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   }
 ]

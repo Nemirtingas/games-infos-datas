@@ -1,7 +1,7 @@
 [
   {
     "name": "ach_Normal_Diff_Complete",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073510/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073510/",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ach_Expert_Diff_Complete",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073510/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073510/",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ach_Master_Diff_Complete",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073510/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073510/",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ach_Nightmare_Diff_Complete",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073510/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073510/",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ach_Critical_Attack_1_Times",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073510/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073510/",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Achieved a Critical Attack 1x",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "stat_Critical_Attacks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_Critical_Attacks",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ach_Draw_Attack_1_Times",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073510/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073510/",
     "displayName": {
@@ -87,10 +89,12 @@
       "english": "Achieved a Draw 1x",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "stat_Draw_Attacks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_Draw_Attacks",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   }
 ]

@@ -2,33 +2,44 @@
   {
     "name": "stat_Tags",
     "displayName": "Corruptions",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 9999,
+    "default": 0
   },
   {
     "name": "Saves",
     "displayName": "Saves",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 9999,
+    "default": 0
   },
   {
     "name": "FallCancels",
     "displayName": "Fall Cancels",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 9999,
+    "default": 0
   },
   {
     "name": "Level",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10,
+    "max": 50,
+    "default": 1
   }
 ]

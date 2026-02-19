@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_DowsingRods",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/4138d10f5701601a8fdce5ab89ee52e46dc8857b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/944a60dec847bc56177c25626e4585baa85a993d.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_Crucifix",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/391d64337dc200cdba6e714132c4f215d1374db1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/0577b186db0d939c646d8ef6cd8473f3b619d9fa.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACHIEVEMENT_Death",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/7df89e8d4bd3aaf9699b3d8624429f1b1d4adc15.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/fa0f7e587b4a985ad2c68e4da69dfbefe89447e8.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACHIEVEMENT_Speedrun",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/57da47b301e8cb264a2dc9592ebbd39bd2bfa1a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/e45279b72b671e3f43b8bd22e60a5b37dcaf31a5.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACHIEVEMENT_GuessCorrect",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/1356851bce79b40ead7323169791b011538b9a32.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/4adcf6156f04be305c82bf248df0ee748199b656.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACHIEVEMENT_Perfect",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/b53eec4b9373cd26cde2156c81d2348859cf8b68.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/7c5b276f288e7218babb153d5ba830d91c0a4138.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACHIEVEMENT_TooDeep",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/088ff9b1e932f7e346c9fb94ce3e82685f82b50c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/49506c73dd4171c1c00075aefe5ed887f95709d2.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Complete 25 Rounds",
       "token": "NEW_ACHIEVEMENT_10_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "stat_roundsplayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_roundsplayed",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_Insanity",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/f1a6e415a57e6c7239fc1b2cb1851b0685fbc2c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/126577a4739b08c20de15a0ce8cdb127591faeec.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Complete 50 Rounds",
       "token": "NEW_ACHIEVEMENT_10_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "stat_roundsplayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_roundsplayed",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_Eternal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/76e07c129afd5cdf1f5595a38daa33f168fc8e57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/e9fff038161f10552c90093b2c515723135a7944.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Complete 100 Rounds",
       "token": "NEW_ACHIEVEMENT_10_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_roundsplayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_roundsplayed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_WeDontTalk",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/8838a58c1f5b4b2c8fc08c64e0ff4e6934af58d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541890/e60b3dced49becc932ec15864f5be94352a8d7c3.jpg",
     "displayName": {

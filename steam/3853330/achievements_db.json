@@ -1,7 +1,7 @@
 [
   {
     "name": "NEVER_GIVE_UP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/f2f564203336c7ccbc25b21d7e5b837cafe1988a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/74f229a4068021131ac4a9d505af2bccade53084.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "GET_STARTED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/51b8cbf67d2fb307fdd121d43e83db34a1dbb759.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/2714c179deaf6b8de438510298fc7607d926487a.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "IM_RICH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/b37085b5fa393f0d3c1be20759d573c893b4efdd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/8929ca286b44c1c3778597161798c25dbbd260fe.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "WEATHERED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/cfcbe7f3639cfc9a2ed717e5845e46b48762cbca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/1f5cb00077dac1958e7d2e0026cfe057d3d846b1.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "BUFF_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/4cad94d556b95b6c1af2da4eeb44dcd582411122.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/8a940a7e1135ed3e667aea6ed2787f9c997f3b5e.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "FIRST_VICTORY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/ffaf8dffbbf9eb7285f2b2745e87621722dff512.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/ff980bce83eaff20709ac13bc9e42aa196263fa3.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "WORD_LEARNER_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/68ee836e1fdfbe23e77b5c05dd7b5010e727fec9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/bbcbad04e2315098e40ad72f3bda08157bd59b92.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "累计学习100个单词",
       "token": "NEW_ACHIEVEMENT_5_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "LEARNED_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LEARNED_COUNT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "WORD_LEARNER_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/0d1716e6282568e3b860bdfcc824fb6f5f5b5c8c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/cf4981fe28c2237c6a6c8658907a6bd51b564b45.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "累计学习1000个单词",
       "token": "NEW_ACHIEVEMENT_5_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "LEARNED_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LEARNED_COUNT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "WORD_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/5aa909adfff44923281dac7a8856316b4518172a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/73a3633b395d462e6590f4897218cfa47935de1b.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "学霸",
       "token": "NEW_ACHIEVEMENT_5_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3000,
-      "stat_name": "LEARNED_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LEARNED_COUNT",
+        "min_val": 0,
+        "max_val": 3000
+      }
+    ]
   },
   {
     "name": "PERSEVERANCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/2440980e928525328e051531ec1fdeb236dcc866.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/2b640465366a170525618513957f538de46d1f1b.jpg",
     "displayName": {
@@ -156,7 +162,7 @@
   },
   {
     "name": "ENDLESS_IMPROVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/80bf55f01e7eb2f840827acd0e61190c847ceb60.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/3aba6fa8f4afb5fa5db86d551f34a1debb1fb9f2.jpg",
     "displayName": {
@@ -170,7 +176,7 @@
   },
   {
     "name": "TOP_TEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/86f708c6509c4ed3ae007921058d59931b347553.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/a6f94431fd6218881452c6af5b585ba4afca69df.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "CHAMPION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/f640220868aacb60e61e771cd3dc07a51a47c8f2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/e0801fe6ae308c7f36d25ef773380fa82bc18dd6.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "FAST_TYPIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/7fdcb6ed1a657a75ae948b81fb24590dd9a4754c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/62e7a2d71b83b0a2c08fdd904e16a84f98cd2d34.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "SCORE_10K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/25d2b844ca270ebfc447c94a96ea1d315b57d02d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/825704432c617fc23cc1d7fad73cc83df17f760b.jpg",
     "displayName": {
@@ -223,15 +229,17 @@
       "english": "单局得分达到10000",
       "token": "NEW_ACHIEVEMENT_5_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "GLOBAL_SCORE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GLOBAL_SCORE",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "SCORE_100K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/09dc35c06b189a4e59f0e43d55b37460ccecd15a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/02584dbc751a9724dd1e711eee9392ee9b2881f3.jpg",
     "displayName": {
@@ -242,15 +250,17 @@
       "english": "单局得分达到100000",
       "token": "NEW_ACHIEVEMENT_5_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "GLOBAL_SCORE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GLOBAL_SCORE",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "SCORE_1M",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/6d8f9d939cba6141ad4acbe4b5185e1b8855b494.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/0147bb7f5545aadae495a80c3ffd27fd84e35bdd.jpg",
     "displayName": {
@@ -261,15 +271,17 @@
       "english": "单局得分达到1000000",
       "token": "NEW_ACHIEVEMENT_5_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "GLOBAL_SCORE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GLOBAL_SCORE",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "PERFECT_SCORE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/a4a1bbc56d47a2482b2b20c5e811d96c343fa751.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/c183eb060199f5bae5654723d11fae49d2b97b64.jpg",
     "displayName": {
@@ -280,15 +292,17 @@
       "english": "达成满分99999999",
       "token": "NEW_ACHIEVEMENT_5_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 99999999,
-      "stat_name": "GLOBAL_SCORE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GLOBAL_SCORE",
+        "min_val": 0,
+        "max_val": 99999999
+      }
+    ]
   },
   {
     "name": "COMBO_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/35be42f296ded4fb46d51ba31ed0175cc1b9b9b8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/83f55176dc16ab94debcf2ff75ec9c8b9c732853.jpg",
     "displayName": {
@@ -299,15 +313,17 @@
       "english": "标准模式下完成20连击",
       "token": "NEW_ACHIEVEMENT_5_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "COMBO_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COMBO_COUNT",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "COMBO_KING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/ec560274c7105379e3a1462220b7d739bf6369fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/3b21bb8de450e8d39827f0a045a19aed92470757.jpg",
     "displayName": {
@@ -318,15 +334,17 @@
       "english": "标准模式下完成100连击",
       "token": "NEW_ACHIEVEMENT_5_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "COMBO_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COMBO_COUNT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "CLOSE_CALL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/5ec6862a5f2bcad11aeeb747c698bc5982338986.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/522f90bb07b4d369f6054c29e671b5d3074e808c.jpg",
     "displayName": {
@@ -340,7 +358,7 @@
   },
   {
     "name": "MASTER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/66bf851ac5b4ee2edb3ef0fc345caa74a769a823.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3853330/016698dc4429bce125760a7b8da66643a2df7d12.jpg",
     "displayName": {
@@ -351,10 +369,12 @@
       "english": "标准模式下通关10次",
       "token": "NEW_ACHIEVEMENT_5_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "COMPLETION_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COMPLETION_COUNT",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

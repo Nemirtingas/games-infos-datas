@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_Ending_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2789060/873feb3cad60b0e3e4c7d970a530489687e9c63f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2789060/4b0a984ce96ec7888749e3f28efdd9d12603f4bd.jpg",
     "displayName": {
@@ -19,7 +19,7 @@
   },
   {
     "name": "ACHIEVEMENT_Ending_2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2789060/0ada49cc164180c998a80194530eb0f9fdc47513.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2789060/0f82d3b4dfa63665ca2fce4478024758c52866dd.jpg",
     "displayName": {
@@ -37,7 +37,7 @@
   },
   {
     "name": "ACHIEVEMENT_49",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2789060/09b310ec42658d7ed448c545bd678ef0a9fd36cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2789060/d45f81371fa97650089213beb8267437a5e49d6d.jpg",
     "displayName": {
@@ -52,15 +52,17 @@
       "tchinese": "到達山頂49次",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 49,
-      "stat_name": "Ending1Times"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Ending1Times",
+        "min_val": 0,
+        "max_val": 49
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_81",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2789060/ca57eff4cda05fdac60a5439d6e839811e78ffc0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2789060/2217b31192c09b95e12ae2938103030a7f6fa359.jpg",
     "displayName": {
@@ -75,10 +77,12 @@
       "tchinese": "到達山頂81次",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 81,
-      "stat_name": "Ending1Times"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Ending1Times",
+        "min_val": 0,
+        "max_val": 81
+      }
+    ]
   }
 ]

@@ -2,17 +2,21 @@
   {
     "name": "total_playtime",
     "displayName": "Total Playtime (minutes)",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 999999,
+    "default": 0
   },
   {
     "name": "sessions_played",
     "displayName": "Sessions Played",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1,
+    "max": 99999,
+    "default": 1
   }
 ]

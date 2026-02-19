@@ -1,7 +1,7 @@
 [
   {
     "name": "WORLD_1_COMPLETE_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/edd5a7118ec0e66c581c78f63d3f2b1066c59a6d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "WORLD_1_BONUS_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/209d5f6a45674a4ef7c417d1b3d58b40a5a64b10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "WORLD_1_BOSS_DEFEATED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/f381a2d2456857bdf8f351c7cdac594e133c6c12.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "WORLD_2_COMPLETE_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/795f747726a49dd78952367408c24bfee6686b98.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "WORLD_2_BONUS_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/c4bfc0d7cf277889258cc3b8dfa2eb485ee85489.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "WORLD_2_BOSS_DEFEATED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/885aa28fb964b599a371a824a8b25824d685466d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "SKIN_UNLOCKED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/4667da593cb9a8109ff8ef18b245c9530dc21565.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "GAME_COMPLETE_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/84ba3fb38286aea8df9dddfeca64608d3eea374c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "COLLECTIBLES_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/7f407c908552811cc3080b7c89ce1d8010849660.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "SWIM_TIME_COMPLETE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/4667da593cb9a8109ff8ef18b245c9530dc21565.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": " Swim in the water for 15 minutes total.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 900,
-      "stat_name": "SWIM_TIME_SECONDS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SWIM_TIME_SECONDS",
+        "min_val": 0,
+        "max_val": 900
+      }
+    ]
   },
   {
     "name": "KILL_COUNT_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/43debdfa866e4f17b1039dddadbb4aad7ae23c41.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Defeat 100 enemies.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "KILL_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KILL_COUNT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "DEATH_COUNT_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/3281fa3137c87505f5575cbdc2c13421a51fcbae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Die 50 times.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "DEATH_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DEATH_COUNT",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "WORLD_3_BOSS_DEFEATED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/5ea25d6f5742dd60a829a4838b85e6b8bb6e654d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "WORLD_4_BOSS_DEFEATED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/ec2c6a5b801e3ee79470f253894aa31a591c875b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "LEVEL_1_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/9829e1128cef026f08add7f9ddf7be3b5fb61ec5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "DEATH_FALL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/4667da593cb9a8109ff8ef18b245c9530dc21565.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "DEATH_FIRE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/bb67c464382580ddb87e8fd14882b20ed9c67152.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "DEATH_FREEZE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/0d656a5089ceca3537b2b879c3c5893563e07b86.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -268,7 +274,7 @@
   },
   {
     "name": "WORLD_3_BONUS_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/0ab35dfa1b8f1e4bb2130a638c38c3af727d4744.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -282,7 +288,7 @@
   },
   {
     "name": "WORLD_4_BONUS_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/b1c4c596ce8a97e12a25c88bf59c859152072690.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -296,7 +302,7 @@
   },
   {
     "name": "WORLD_3_COMPLETE_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/59baa07974d9af978bf8956d195083833b1c799e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -310,7 +316,7 @@
   },
   {
     "name": "WORLD_4_COMPLETE_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/be9c4b76047e57535af8254fb46aca13c85ee194.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -324,7 +330,7 @@
   },
   {
     "name": "DEATH_PROJECTILE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/be715bce3ec48bd214e9a6deadc1494ae3770843.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -338,7 +344,7 @@
   },
   {
     "name": "SWING_COUNT_COMPLETE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/4667da593cb9a8109ff8ef18b245c9530dc21565.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -349,15 +355,17 @@
       "english": "Swing 500 times.",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "SWING_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SWING_COUNT",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "STEP_COUNT_COMPLETE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/4667da593cb9a8109ff8ef18b245c9530dc21565.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -368,15 +376,17 @@
       "english": "Travel over 40 kilometers.",
       "token": "NEW_ACHIEVEMENT_8_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40000,
-      "stat_name": "STEP_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STEP_COUNT",
+        "min_val": 0,
+        "max_val": 40000
+      }
+    ]
   },
   {
     "name": "WHIP_COUNT_COMPLETE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/4667da593cb9a8109ff8ef18b245c9530dc21565.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {
@@ -387,15 +397,17 @@
       "english": "Use the whip 200 times.",
       "token": "NEW_ACHIEVEMENT_8_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "WHIP_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "WHIP_COUNT",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "OVERACHIEVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/311b413ab931b4e0aa6ed8776099f56477d62826.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2063310/8dba9314e389c4138fe36295ba73ccbaf66bf0d5.jpg",
     "displayName": {

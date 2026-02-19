@@ -1,7 +1,7 @@
 [
   {
     "name": "first_date",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/f5f88e956e633676f9065c2fc8a5cef1493bb5e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/3703f5b924c25a2dc49408554849e99fade69e15.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Proposal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/b59ed44a1a39351ce6a9b3098cfe25e0c74a9157.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/5a2eda8cd6fbdf4ac7dd900e80d573cc40651fe7.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Books",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/8d3811b868758a05809216048aed29d7e2d0ba55.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/9da05a45ae77802e2b3197dc3376c5b962d1bb75.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Coffee",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/66091656c2e1df71d77fdb787aa72acfcdc2e224.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/1c64c2e1dc1174afdd197c04fc2522320cf4e24d.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "hospital",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/ff94fd80af950fe121bb3c6d87de16912451c205.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/60c269fb4d577afee0cede9e0ff19239f1c414a2.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "alive",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/2b958606236419c7edcf377cb92e5622240e9237.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/e00f93768dc2cdae2dc1e106881c93baf24b16b9.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "dinos",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/c34b3d9d78cbf641f0da8cd8a46066c76f0d3a09.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/5eda0fa4dff81c68d5c70c3ccc497ee31e429044.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Gotta catch'em All",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "chompy_collected"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "chompy_collected",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "robot",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/7fa25ccac4f02b2a329938bb816e0f03fc157ba8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/96acb7213c24702b396e985c8604c6ff0a464e46.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "hard_puzzle",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/97a3498473114db1960d1d54cfb2a1b6317e55ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/bcc7ae1dfd90b749be427f46980126e275327683.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "thief",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/4e7c17f6fcc3aeabfbbc2513aaa9727fa33dbe98.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/5245e8059176fd08035066075a3e5c830f10852d.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Crack all the Codes",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "locks_opened"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "locks_opened",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "chess",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/e1e2c2789ef86f81c7de67b335631dff7e0763d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/c800d12178d8517f3f31cc09a4c2d4f7739967ae.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "Bo",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/d61da0e3ebfe0a3c85f398b3ba6defb57310803c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3067970/5a31e42b9ee8b8aa4b3cc62a75ad9d351b252643.jpg",
     "displayName": {

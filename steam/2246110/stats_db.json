@@ -1,66 +1,57 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "stat_comleted_question",
     "displayName": "問題クリア数",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 9999,
+    "min": 0,
+    "max": 99999,
+    "default": 0
   },
   {
     "name": "stat_comleted_question_onedraw",
     "displayName": "問題1手クリア数",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 9999,
+    "min": 0,
+    "max": 99999,
+    "default": 0
   },
   {
     "name": "stat_draw_length",
     "displayName": "総描画距離",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": "MAX_INT",
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "stat_retry_count",
     "displayName": "リトライ回数",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": "MAX_INT",
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "stat_completed_stage",
     "displayName": "ステージクリア数",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 999,
+    "min": 0,
+    "max": 99999,
+    "default": 0
   }
 ]

@@ -2,17 +2,19 @@
   {
     "name": "total_player_score",
     "displayName": "Players total score against the AI",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1,
+    "default": 1
   },
   {
     "name": "total_ai_score",
     "displayName": "AI's total score against the Player",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1,
+    "default": 1
   }
 ]

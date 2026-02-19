@@ -2,41 +2,56 @@
   {
     "name": "killsOrcs",
     "displayName": "Orcs defeated",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 10000000,
+    "default": 0
   },
   {
     "name": "deathsDwarves",
     "displayName": "Dwarves fallen",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10000000,
+    "default": 0
   },
   {
     "name": "lootAcquired",
     "displayName": "Loot acquired",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 10000000,
+    "default": 0
   },
   {
     "name": "battlesWon",
     "displayName": "Battles won",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 10000000,
+    "default": 0
   },
   {
     "name": "maxShopTier",
     "displayName": "Shop Tier reached",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 1,
+    "max": 10000,
+    "default": 0
   }
 ]

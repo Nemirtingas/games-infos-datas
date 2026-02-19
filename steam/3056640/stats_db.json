@@ -2,25 +2,34 @@
   {
     "name": "STAT_Secret_CornerClick",
     "displayName": "Corner Clicks",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "STAT_Secret_TotalClicks",
     "displayName": "Total Clicks",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "STAT_Secret_NoYouKeepIt",
     "displayName": "000 Removed Amount",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   }
 ]

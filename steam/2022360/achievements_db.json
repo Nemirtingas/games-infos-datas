@@ -1,7 +1,7 @@
 [
   {
     "name": "helpPanel",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/aa4cfe5132cfbdac2bebc92680c1d53a568c41f6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "discordButton",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/bc5e2a6c42f50ffe050ae7cea3ffba8d0e6d490c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "TowersMap",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/4774962427a4cdb15f58dc148fa668fcc87aa553.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "TempleMap",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/005f2e1b570fd8c668bd12fdf138cef48c665454.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "PrisonMap",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/dae5589f36a59d60d29a0e200ca60951acb794ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ParadiseMap",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/972280d4ab527b589f8ccede6664fddea7d2aba2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "CityMap",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/9f248a62faad712e2dcde90311230fd53a34d426.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "CastleMap",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/6320b6161ab186d9836302e2da215a9ee64654f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ChurchMap",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/af731f260c5b21e98f1fd82419906729066c1163.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "TowersPlayed10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/6e8f947ddd119686592f90d251d381f47480087a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Played Towers 10 times",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "TowersPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TowersPlayed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "TowersPlayed100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/6ec5d1f67b1bd91d31ae06ecc81dbe25f1644c5e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Played Towers 100 times",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TowersPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TowersPlayed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "TemplePlayed10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/f9c4bbeae7d854d891bc845316c5acd7ed5ea60e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Played Temple 10 times",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "TemplePlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TemplePlayed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "TemplePlayed100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/99370a6540c8f7ffd154449462f26b75d3c39580.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Played Temple 100 times",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TemplePlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TemplePlayed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "PrisonPlayed10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/749ea860c13cf9c878146eda4eb7717a9066e167.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "Played Prison 10 times",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "PrisonPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PrisonPlayed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "PrisonPlayed100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/ea33c12c4fe7e94bc507b04933c211da6614ae0c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -233,15 +243,17 @@
       "english": "Played Prison 100 times",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "PrisonPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PrisonPlayed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ParadisePlayed10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5bb25951ae06d735baa3ed191f0aaccb93545c82.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -252,15 +264,17 @@
       "english": "Played Paradise 10 times",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "ParadisePlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ParadisePlayed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ParadisePlayed100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/743ad8749174fd69ef8de351d4324ca168aa2ea1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -271,15 +285,17 @@
       "english": "Played paradise 100 times",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "ParadisePlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ParadisePlayed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "CityPlayed10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/7291f7286aad8657ac696e9eb7003704f9bfc6cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -290,15 +306,17 @@
       "english": "Played City 10 times",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "CityPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CityPlayed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "CityPlayed100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/fa586806381a0dff143d4bcd3060d1f467f5026e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -309,15 +327,17 @@
       "english": "Played City 100 times",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "CityPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CityPlayed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "CastlePlayed10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/0edec4f7647b234b58d7ece02a901bd196c81ce3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -328,15 +348,17 @@
       "english": "Played Castle 10 times",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "CastlePlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CastlePlayed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "CastlePlayed100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/2251f1acf440f0a6ef35c2fc6419dfe9da51abb8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -347,15 +369,17 @@
       "english": "Played Castle 100 times",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "CastlePlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CastlePlayed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "TotalMatches10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/b2f9f2cd5b38124a6fd91eb8e85de0089292b4d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -366,15 +390,17 @@
       "english": "Played 10 total matches",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "TotalMatches"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalMatches",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "TotalMatches100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/cd51e1c35919bb9ed4a28c80fd266c1d35def6be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -385,15 +411,17 @@
       "english": "Played 100 total matches",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TotalMatches"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalMatches",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "TotalMatches1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/b4a0d5fda4a83e50bd88d8d5edaeb2728ae23f3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -404,15 +432,17 @@
       "english": "Played 1000 total matches",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "TotalMatches"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalMatches",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "Totalmatches10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/d2e8eb29b89c7cc941e66db9b692acf50a9dc364.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -423,15 +453,17 @@
       "english": "Played 10000 total matches",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "TotalMatches"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalMatches",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "AngelDamage10,000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/0c66a82493a6a51f0bf916942a6e75b5a65810d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -442,15 +474,17 @@
       "english": "Dealt 10000 damage as Angel",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "AngelDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "AngelDamage",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "AngelDamage100,000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/a6deb61cda4dfc2353617be774b61b5b835c9a90.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -461,15 +495,17 @@
       "english": "Dealt 100000 damage as Angel",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "AngelDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "AngelDamage",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "AngelDamage1,000,000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/fdfab52c8d7a1c10333c5a1e16676cf43d18f836.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -480,15 +516,17 @@
       "english": "Dealt 1000000 damage as Angel",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "AngelDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "AngelDamage",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "SkeletonDamage10,000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/ee2749e2eb4f34669fb49595fa2c653593b17511.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -499,15 +537,17 @@
       "english": "Dealt 10000 damage as Skeleton",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "SkeletonDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SkeletonDamage",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "SkeletonDamage100,000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/244f2f5245b7e32ee153c56628e82a9a0f40501d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -518,15 +558,17 @@
       "english": "Dealt 100000 damage as Skeleton",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "SkeletonDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SkeletonDamage",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "SkeletonDamage1,000,000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/8c2b005866d63cf385d39526f5d4e899a1f53ad8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -537,15 +579,17 @@
       "english": "Dealt 1000000 damage as Skeleton",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "SkeletonDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SkeletonDamage",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "RifleDamage1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/b684301fdc24c77da91c7d45797b8de38ab815fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -556,15 +600,17 @@
       "english": "Dealt 1000 damage with Rifle",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "RifleDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RifleDamage",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "RifleDamage10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/59eccf854f24aeef12af02fbbf250cc5460bb80e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -575,15 +621,17 @@
       "english": "Dealt 10000 damage with Rifle",
       "token": "NEW_ACHIEVEMENT_18_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "RifleDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RifleDamage",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "RifleDamage100000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/fb36521c2af4485560bd0feb1b2af922b9762066.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -594,15 +642,17 @@
       "english": "Dealt 100000 damage with Rifle",
       "token": "NEW_ACHIEVEMENT_18_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "RifleDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RifleDamage",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "ShotgunDamage1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/addda0ede9f44b0033404df85200c37c3be204f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -613,15 +663,17 @@
       "english": "Dealt 1000 damage with Shotgun",
       "token": "NEW_ACHIEVEMENT_18_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "ShotgunDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ShotgunDamage",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ShotgunDamage10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/d99f350c9164e2dfaeb59a103540a873c1c8811b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -632,15 +684,17 @@
       "english": "Dealt 10000 damage with Shotgun",
       "token": "NEW_ACHIEVEMENT_18_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "ShotgunDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ShotgunDamage",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ShotgunDamage100000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/17e327dc0b337cc6d3553174f5b50d9279968f66.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -651,15 +705,17 @@
       "english": "Dealt 100000 damage with Shotgun",
       "token": "NEW_ACHIEVEMENT_18_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "ShotgunDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ShotgunDamage",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "SniperDamage1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/f037495d641f5d9e254364171d6af09d1afabb60.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -670,15 +726,17 @@
       "english": "Dealt 1000 damage with Sniper",
       "token": "NEW_ACHIEVEMENT_18_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "SniperDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SniperDamage",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "SniperDamage10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/b2d309fe645fe44ffe5d8012294f3336b72fdc96.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -689,15 +747,17 @@
       "english": "Dealt 10000 damage with Sniper",
       "token": "NEW_ACHIEVEMENT_18_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "SniperDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SniperDamage",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "SniperDamage100000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/63f4d669c84916d59d0ac88621b5b45322872634.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -708,15 +768,17 @@
       "english": "Dealt 100000 damage with Sniper",
       "token": "NEW_ACHIEVEMENT_18_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "SniperDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SniperDamage",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "RocketlauncherDamage1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/a1515b7d0155abbdc98f0ed3ad17fb2de41f845f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -727,15 +789,17 @@
       "english": "Dealt 1000 damage with Rocket launcher",
       "token": "NEW_ACHIEVEMENT_18_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "RocketlauncherDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RocketlauncherDamage",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "RocketlauncherDamage10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5870c4ca291bc8728621e98b3ef8e8a7d7b3eecb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -746,15 +810,17 @@
       "english": "Dealt 10000 damage with Rocket launcher",
       "token": "NEW_ACHIEVEMENT_18_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "RocketlauncherDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RocketlauncherDamage",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "RocketlauncherDamage100000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/2b9af900a13d1e90bfbb0ee36c1d1d34aed9ebad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -765,15 +831,17 @@
       "english": "Dealt 100000 damage with Rocket launcher",
       "token": "NEW_ACHIEVEMENT_18_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "RocketlauncherDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RocketlauncherDamage",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "GrenadelauncherDamage1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/be7a480dc8e36f98fe688ba6a3509a397c7bacfb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -784,15 +852,17 @@
       "english": "Dealt 1000 damage with Grenade launcher",
       "token": "NEW_ACHIEVEMENT_18_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "GrenadelauncherDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GrenadelauncherDamage",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "GrenadelauncherDamage10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/b2ba35566ebaa1b566fd1c0008b3f693db0ef13a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -803,15 +873,17 @@
       "english": "Dealt 10000 damage with Grenade launcher",
       "token": "NEW_ACHIEVEMENT_18_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "GrenadelauncherDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GrenadelauncherDamage",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "GrenadelauncherDamage100000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/530cfdff1da4b893a4092bb3cc3fa02e3507ae65.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -822,15 +894,17 @@
       "english": "Dealt 100000 damage with Grenade launcher",
       "token": "NEW_ACHIEVEMENT_18_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "GrenadelauncherDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GrenadelauncherDamage",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "changeSkin",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/f5b23915673089458919435366acb1cd9c12fb16.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -844,7 +918,7 @@
   },
   {
     "name": "PlayerLevel20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/ee2749e2eb4f34669fb49595fa2c653593b17511.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -855,15 +929,17 @@
       "english": "Reached player level 20",
       "token": "NEW_ACHIEVEMENT_18_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "PlayerLevel"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PlayerLevel",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "PlayerLevel50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/244f2f5245b7e32ee153c56628e82a9a0f40501d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -874,15 +950,17 @@
       "english": "Reached player level 50",
       "token": "NEW_ACHIEVEMENT_18_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "PlayerLevel"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PlayerLevel",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "PlayerLevel100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/8c2b005866d63cf385d39526f5d4e899a1f53ad8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -893,15 +971,17 @@
       "english": "Reached player level 100",
       "token": "NEW_ACHIEVEMENT_18_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "PlayerLevel"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PlayerLevel",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ChurchPlayed10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/cd46615a2b2e0d2d9f1685daa5588138f6aff9e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -912,15 +992,17 @@
       "english": "Played \"Church\" 10 times!",
       "token": "NEW_ACHIEVEMENT_18_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "ChurchPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ChurchPlayed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ChurchPlayed100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/c4f61c10e455fd2ca5db20c16b641a6c85ffefec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -931,15 +1013,17 @@
       "english": "Played \"Church\" 100 times!",
       "token": "NEW_ACHIEVEMENT_18_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "ChurchPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ChurchPlayed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Pirate ShipMap",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/1c289eab9ef004c106398a3ca876e073507c9fae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -953,7 +1037,7 @@
   },
   {
     "name": "PirateShip10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/ea7d1f67cf3cc9ab9c4fb84c53eb73623f19b4fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -964,15 +1048,17 @@
       "english": "Played \"Pirate Ship\" 10 times!",
       "token": "NEW_ACHIEVEMENT_18_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Pirate ShipPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Pirate ShipPlayed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "PirateShip100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/4794517c76f8dde00c1ec197fbb9baeeb16cf7d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2022360/5d32e57164541045da7bf7cc0815355d7db68990.jpg",
     "displayName": {
@@ -983,10 +1069,12 @@
       "english": "Played \"Pirate Ship\" 100 times!",
       "token": "NEW_ACHIEVEMENT_18_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Pirate ShipPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Pirate ShipPlayed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

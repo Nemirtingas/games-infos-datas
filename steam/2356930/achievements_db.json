@@ -1,7 +1,7 @@
 [
   {
     "name": "EndBoss",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/284a939fa1efe62fcd340c0f9ad4fc4e68260222.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/218d9755a76cb462b0196ac32b28544568e52f37.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Nuke",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/500a48e118ca2ae5cc2462a080710448ba303257.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/5609649714a43145f6dfb8eeefc738db58c44333.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Die",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/534e62e0241d2f954f538a0b57be24688962e064.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/1d3241117a5a60c2658a2a2c10d9f8224c15c16b.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Die 10 times",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Deaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Deaths",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "KillingSpree",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/27b2d4aadba3a6f4b5bd646cdd2f989d30478a31.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/219df11d4fd5b67b62d3b0308b9916a0374779eb.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "Get 100 Kills",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Kills",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Rampage",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/b62d16739079ea105dff1329e6dbe26d04a267ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/e1e37c6a3df7c461380387d70afa8231f752c6f0.jpg",
     "displayName": {
@@ -78,15 +82,17 @@
       "english": "Get 1000 Kills",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "Kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Kills",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "KillingMachine",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/3683670513526b510bcda2f56fba6d5d5eb0ef76.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/2f32e7a7fb8ca3ec6156fe6fcc769416c09914b0.jpg",
     "displayName": {
@@ -97,15 +103,17 @@
       "english": "Get 10000 Kills",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "Kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Kills",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Reset",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/7a565d7f6f0a573fd0bb146e3a5c352e0ab17137.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/086bf61ea8529ef26c94122e815fbbaa910dfcd5.jpg",
     "displayName": {
@@ -119,7 +127,7 @@
   },
   {
     "name": "FullyUpgraded",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/d487ee8cbe69708fb6b5e23a7787ee9473bf73ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/1d5d5dd9c2eb481e36a49e5372478d7230b4956d.jpg",
     "displayName": {
@@ -133,7 +141,7 @@
   },
   {
     "name": "MaximumThreat",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/4b0c28e1a5c0d4d491aa8ad273384035aca99901.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/66f546166951bf5268c81c0be5f260e37bc0be51.jpg",
     "displayName": {
@@ -147,7 +155,7 @@
   },
   {
     "name": "C3B",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/1e59d476854600651c2844e063c8fa9086c4d7cd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/352ca7a156217492f0d1b99ed954eaadd53aa74f.jpg",
     "displayName": {
@@ -161,7 +169,7 @@
   },
   {
     "name": "AnneMary",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/f2ad69c4125365bcb2a53ad29202c724f5ca48e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/e0cbc00b1f2a3bca36d2cf3b74b5510bc66d4091.jpg",
     "displayName": {
@@ -175,7 +183,7 @@
   },
   {
     "name": "OverHealExplosion",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/4e3eaa90ad932617666b0dbb3b5a17aca5c31116.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/1aa3354db630f0161bf107806d6c7ade6687bad1.jpg",
     "displayName": {
@@ -189,7 +197,7 @@
   },
   {
     "name": "RarityUpgrading",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/d73087027b6c0cf09339a4573c9bcecdbe423152.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/7b405e31f2f40fafd0b1932d994fe1519cc050a3.jpg",
     "displayName": {
@@ -203,7 +211,7 @@
   },
   {
     "name": "StunResetMeleeCooldown",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/78b8b18bd0b746fcdf85ba17fada99c10bfeee46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/d7e0609cd54ab97f324f383a0e7e6fd7a53c72bb.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "FirstCFG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/a686f43de635b1583c67489975f188956d11e5d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356930/e4f482907cc11589f93a3c6e5b69d3b93cadc22d.jpg",
     "displayName": {

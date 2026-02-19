@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_USE_SHOP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/1278cefbd9c6436942bd291d51bf01d73a94d681.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/8e67ebb573a8dd11dec9fe5151d8555768ab68bc.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "ACH_USE_MONEY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/1278cefbd9c6436942bd291d51bf01d73a94d681.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/8e67ebb573a8dd11dec9fe5151d8555768ab68bc.jpg",
     "displayName": {
@@ -30,15 +30,17 @@
       "koreana": "상점에서 많은 돈을 썼다.",
       "token": "NEW_ACHIEVEMENT_3_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "UseMoneyAmount_UseMoneyAmount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "UseMoneyAmount_UseMoneyAmount",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_CLEAR_STAGE_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/1278cefbd9c6436942bd291d51bf01d73a94d681.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/8e67ebb573a8dd11dec9fe5151d8555768ab68bc.jpg",
     "displayName": {
@@ -54,7 +56,7 @@
   },
   {
     "name": "ACH_CLEAR_STAGE_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/1278cefbd9c6436942bd291d51bf01d73a94d681.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/8e67ebb573a8dd11dec9fe5151d8555768ab68bc.jpg",
     "displayName": {
@@ -70,7 +72,7 @@
   },
   {
     "name": "ACH_KILL_ENEMY_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/1278cefbd9c6436942bd291d51bf01d73a94d681.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/8e67ebb573a8dd11dec9fe5151d8555768ab68bc.jpg",
     "displayName": {
@@ -83,15 +85,17 @@
       "koreana": "많은 적들을 쓰러뜨렸다.",
       "token": "NEW_ACHIEVEMENT_3_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "KillEnemyAmount_KillEnemyAmount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillEnemyAmount_KillEnemyAmount",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_CLEAR_STAGE_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/1278cefbd9c6436942bd291d51bf01d73a94d681.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/8e67ebb573a8dd11dec9fe5151d8555768ab68bc.jpg",
     "displayName": {
@@ -107,7 +111,7 @@
   },
   {
     "name": "ACH_GET_MONEY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/b8f87846103768bd14e16edd12e9901c7a95623e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/67baaf740c5bb5721b0890a8eb13592d018ab44f.jpg",
     "displayName": {
@@ -120,15 +124,17 @@
       "koreana": "많은 돈을 모았다.",
       "token": "NEW_ACHIEVEMENT_3_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2000,
-      "stat_name": "GetMoneyAmount_GetMoneyAmount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GetMoneyAmount_GetMoneyAmount",
+        "min_val": 0,
+        "max_val": 2000
+      }
+    ]
   },
   {
     "name": "ACH_KILL_ENEMY_200",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/b8f87846103768bd14e16edd12e9901c7a95623e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/67baaf740c5bb5721b0890a8eb13592d018ab44f.jpg",
     "displayName": {
@@ -141,15 +147,17 @@
       "koreana": "무수히 많은 적들을 쓰러뜨렸다.",
       "token": "NEW_ACHIEVEMENT_3_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "KillEnemyAmount_KillEnemyAmount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillEnemyAmount_KillEnemyAmount",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ACH_PLAY_GAME_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/3fd05345c8fe776a126dc6114edb4d5b2872ecd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/c15af5af1a5470e0ade62cd6c4ee8c8047e44379.jpg",
     "displayName": {
@@ -162,15 +170,17 @@
       "koreana": "게임을 처음 플레이했다.",
       "token": "NEW_ACHIEVEMENT_3_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "NewGameAmount_NewGameAmount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NewGameAmount_NewGameAmount",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_PLAY_GAME_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/3fd05345c8fe776a126dc6114edb4d5b2872ecd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/c15af5af1a5470e0ade62cd6c4ee8c8047e44379.jpg",
     "displayName": {
@@ -183,15 +193,17 @@
       "koreana": "게임을 많이 플레이했다.",
       "token": "NEW_ACHIEVEMENT_3_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "NewGameAmount_NewGameAmount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NewGameAmount_NewGameAmount",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_NO_WEAPON_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/3fd05345c8fe776a126dc6114edb4d5b2872ecd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/c15af5af1a5470e0ade62cd6c4ee8c8047e44379.jpg",
     "displayName": {
@@ -207,7 +219,7 @@
   },
   {
     "name": "ACH_NO_BLUE_POTION_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/3fd05345c8fe776a126dc6114edb4d5b2872ecd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/c15af5af1a5470e0ade62cd6c4ee8c8047e44379.jpg",
     "displayName": {
@@ -223,7 +235,7 @@
   },
   {
     "name": "ACH_NO_RED_POTION_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/3fd05345c8fe776a126dc6114edb4d5b2872ecd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/c15af5af1a5470e0ade62cd6c4ee8c8047e44379.jpg",
     "displayName": {
@@ -239,7 +251,7 @@
   },
   {
     "name": "ACH_NO_ITEM_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/3fd05345c8fe776a126dc6114edb4d5b2872ecd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918600/c15af5af1a5470e0ade62cd6c4ee8c8047e44379.jpg",
     "displayName": {

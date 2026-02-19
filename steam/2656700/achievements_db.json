@@ -1,7 +1,7 @@
 [
   {
     "name": "Kill police test",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2656700/668e01b92f0a1ad8b05b26ad435c802270513c8a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2656700/f55d817a2d56557ec22e3e762eae8d68e4eb3cc4.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "Kill 2 police",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "Police_Kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Police_Kills",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   }
 ]

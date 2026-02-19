@@ -1,7 +1,7 @@
 [
   {
     "name": "MUSHROOM_SIX_SPICY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2473790/dba0445f302dfc68f53440574e97476b5b8c9407.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2473790/dfe21ead3c8ff043a416df089f808d83d8b94d7e.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "OCEAN_SIX_SPICY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2473790/f6cc6ef12612aab2dea766002dfc923848185e80.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2473790/1501e4e21dd3325129676b2b20607e91b2185895.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "HEARTFUL_SACRIFICE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2473790/0978fa93c91030f7a05dcad2c52485d5bf0b5a5d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2473790/f48d094a77ffff6469e07c0887e6fde23e713f22.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "LOSS_FLAG",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2473790/bb9af409188505d16b78e16c31873265d04a782c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2473790/5599385289ae254dfb8c839c9483d3f46b99df95.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "10_K_ENEMY_KILLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2473790/f2a3a54af41c3bb5fc0bc2041aa965afde58fb2e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2473790/f210ad5a2e0c4287611387a8c428dcaec73ab7e2.jpg",
     "displayName": {
@@ -68,10 +68,12 @@
       "english": "Kill 10,000 enemies!",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "enemy_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemy_kills",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   }
 ]

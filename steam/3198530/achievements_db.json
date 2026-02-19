@@ -1,7 +1,7 @@
 [
   {
     "name": "level_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/51f716b572f43e8d1f04496fe248c52cb61e7e4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/390faa6518ccf0e233c8aae5595b0ec500a3767c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "level_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/2965f94463f5c0e98524fc1b4477b16bfb7543cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/34016c19bfa1b7a93247603d196ba93819a77e4b.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "level_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/e7c5e576a430930d01954052c10148112aad85fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/9d5176264f87ce1cc90e6385230f3c7093722832.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "found_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/6e345b4e49bc059a3ab25c0c523fbcfee6e8c8ab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/c01f5b965572dab063b609e17f6868d615fb0103.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Shipped 1 item",
       "token": "NEW_ACHIEVEMENT_2_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "items_found"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "items_found",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "found_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/d3fe586f3084b1ab8bf9aab3a18f36b9a3fd8bb0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/6c3d7908b241a1c8d80e9114f8ebac4fc2da2922.jpg",
     "displayName": {
@@ -73,15 +75,17 @@
       "english": "Shipped 10 items",
       "token": "NEW_ACHIEVEMENT_2_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "items_found"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "items_found",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "found_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/6b9302e7fbab9375b8be733e9a3a0250135bc66d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/6477ab696da68d751a0cfc03f6379041bc4624f9.jpg",
     "displayName": {
@@ -92,15 +96,17 @@
       "english": "Shipped 50 items",
       "token": "NEW_ACHIEVEMENT_2_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "items_found"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "items_found",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "found_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/cadd82b742a42e42d8f01ee537d230e7458e00fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3198530/fa253871b990f6c78384b6d624ed6d06ff70ffac.jpg",
     "displayName": {
@@ -111,10 +117,12 @@
       "english": "Shipped 100 items",
       "token": "NEW_ACHIEVEMENT_2_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "items_found"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "items_found",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

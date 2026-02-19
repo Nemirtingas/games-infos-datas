@@ -1,7 +1,7 @@
 [
   {
     "name": "CRAFT_COMPONENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/14b1d9b229a5e20a2751efd1f96f49e8dcf48539.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "OPEN_HATCH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/310b74b2d1bf685e4ac19f7204b9e53b344983a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "LOWER_BRIDGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/7bb23b185f79df5a95182ebb6c3f5aad62d36305.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "PUSH_TREE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/9f938749291952e6a43770f444f752f24e107850.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "CAR_FALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/4c141ea92b8d51053b04ec31c346204a93c25c33.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "REVIVE_PLAYER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/5ba2ffd3fd49cd3311e4118e79a921072c392048.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "CLOSE_TO_BOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/74e8a24394ff6763295310b06c96bac6f30484b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "FAR_FROM_BOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/11c361a364f0010c91bb9692366a9a8447da7078.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "FINISH_CIRCUITS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/169d64e2b3857a26f291d3b6f7d14e8376d44217.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Complete a total of 50 computer circuits",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "CIRCUITS_COMPLETED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CIRCUITS_COMPLETED",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "MIND_UPLOAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/e4609d0b54d507c5d2a13d49d14682948aa4d55c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "FALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/c90ab8dfd5fe074c5fe11b7bc1bd6924765f926f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Fall a total of 1,000 meters",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "METERS_FALLEN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "METERS_FALLEN",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "WALK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/f72c24ceaae8f2f4f2bf7d041c0cdd7ba4c25845.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Walk or run a total of 42,195 meters",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 42195,
-      "stat_name": "METERS_RAN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "METERS_RAN",
+        "min_val": 0,
+        "max_val": 42195
+      }
+    ]
   },
   {
     "name": "STAND_STILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/df6b5d2c8f36bf5d2e972e0825eeade48f27f69e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "MAX_POWERUPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/1730cfdbe3ac3d4a072e37bc1f430b68a9130222.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "POWERUP_AFTER_EXIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/6aaf1d804dbfe5140a25f2c11f29bc99a7129738.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "VERY_CLOSE_TO_BOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/f2ab78eb55a77365656dc174fadb86ea793f30e2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "LONG_CHASE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/bfa2c63da5e7c0aaa7c8935e144f9f0931b87f0c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -251,15 +257,17 @@
       "english": "Be in chase for a total of 15 minutes across all playthroughs",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 900,
-      "stat_name": "SECONDS_CHASED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SECONDS_CHASED",
+        "min_val": 0,
+        "max_val": 900
+      }
+    ]
   },
   {
     "name": "LEVEL_FIVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/39bc72c7cffa7da0ffe89d73b88c46dce2118012.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -270,15 +278,17 @@
       "english": "Reach level 5",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "CURRENT_LEVEL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CURRENT_LEVEL",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "LEVEL_TEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/d5d582a80c6c98caa0243cf945ebf92cd0750425.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -289,15 +299,17 @@
       "english": "Reach level 10",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "CURRENT_LEVEL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CURRENT_LEVEL",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "LEVEL_TWENTY_FIVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/3aa52e24573e16d21371fe8e9757e7af2cd3f18a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -308,15 +320,17 @@
       "english": "Reach level 25",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "CURRENT_LEVEL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CURRENT_LEVEL",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ENVELOPE_NAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/d51fb48bb22cacc66899bfe5d4fd85ff33235502.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -330,7 +344,7 @@
   },
   {
     "name": "WIN_LESS_FIFTEEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/a2af0a08c3e9808a37e3d90af00769e713c5a85c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -344,7 +358,7 @@
   },
   {
     "name": "WIN_LESS_TWELVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/807b73d86daa74921f9c34c2fbd4e422882fb4f0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -358,7 +372,7 @@
   },
   {
     "name": "WIN_LESS_TEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/43139177e9a56f66f4ecb8a9ce8c4093cc2e377a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -372,7 +386,7 @@
   },
   {
     "name": "ESCAPE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/2389db33b7c72fc4a8e97623533cb1168d8e8c64.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {
@@ -386,7 +400,7 @@
   },
   {
     "name": "TEAMWORK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/e01893de292816d59d9afa7be4b7feca5f800467.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3230330/fea43fa5368dee59cf55621a897309d89ae04f6d.jpg",
     "displayName": {

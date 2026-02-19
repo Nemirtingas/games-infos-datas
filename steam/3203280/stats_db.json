@@ -1,74 +1,68 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "RestockStat_RestockStat",
     "displayName": "RestockStat",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 5,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "CheckoutStat_CheckoutStat",
     "displayName": "CheckoutStat",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "PARKINGSPOT_STAT",
     "displayName": "Parkingspot",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 2,
+    "min": 0,
+    "max": 48,
+    "default": 0
   },
   {
     "name": "LevelStat_LevelStat",
     "displayName": "LevelStat",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "BUYBOXES_STAT",
     "displayName": "BoxesPurchased",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "BuyBoxStat_BuyBoxStat",
     "displayName": "BoxesPurchased",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   }
 ]

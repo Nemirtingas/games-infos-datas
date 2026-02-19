@@ -2,33 +2,31 @@
   {
     "name": "STAT_JUMPS",
     "displayName": "Jump Count",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "STAT_MAPS_COMPLETE",
     "displayName": "Maps Completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "VERSION",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "default": 1
   }
 ]

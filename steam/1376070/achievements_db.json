@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_STORY_LVL_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1376070/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1376070/",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_MTCH_10_V2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1376070/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1376070/",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Play your first 10 matches",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "MTCHS_PLYD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MTCHS_PLYD",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_SPARK_10_V2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1376070/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1376070/",
     "displayName": {
@@ -45,10 +47,12 @@
       "english": "Perform your first 10 spark cancels",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "SPRK_CNCL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SPRK_CNCL",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

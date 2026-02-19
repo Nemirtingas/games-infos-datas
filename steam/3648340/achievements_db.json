@@ -1,7 +1,7 @@
 [
   {
     "name": "FOE_ACHIEVEMENT_EARLYACCESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3648340/eef48467b638b08043c0173ea8536c4cbbd04df1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3648340/4d601a114390e146f83041d15c6dfa2d1f9d9b9c.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "GET THE GAME IN EARLY ACCESS",
       "token": "NEW_ACHIEVEMENT_7_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "LIFETIMESTAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LIFETIMESTAT",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

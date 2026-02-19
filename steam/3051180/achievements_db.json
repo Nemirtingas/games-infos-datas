@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_WIN_COUNTRYSIDE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/be1fbd23e165b5ee3f69bf007c58768b563c731f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/e7e7c470ff9c93a48beff2049c4adb10c78cb1c0.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_WIN_OUTSKIRTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/60f312896ebca714423f342a3dd97a277bc6e8aa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/e7e7c470ff9c93a48beff2049c4adb10c78cb1c0.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_WIN_SUBURB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/60ad0feef514241e6441ecea1c3c6731ab0631e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/e7e7c470ff9c93a48beff2049c4adb10c78cb1c0.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_WIN_FARMSIDE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/f54579db78bf878ab020be3a949e97a0cd874a42.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/e7e7c470ff9c93a48beff2049c4adb10c78cb1c0.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_WIN_MANSION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/ad60866a840ceeeb64e3ff7089334ca55dd4a7bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/e7e7c470ff9c93a48beff2049c4adb10c78cb1c0.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_ENDING_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/1d44713da6a7c67b8046b0ccf647b7eff759a1e9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/e7e7c470ff9c93a48beff2049c4adb10c78cb1c0.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_MONEY_10K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/a38fa810dcfb272782dfe6da3e6b216f1aa52342.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/e7e7c470ff9c93a48beff2049c4adb10c78cb1c0.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Earn a total of $10,000",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "moneyEarned"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "moneyEarned",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ACH_EXORCIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/aec7e1fd9db3e3e0e2d9d56f5172ff28ecae68ab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/e7e7c470ff9c93a48beff2049c4adb10c78cb1c0.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_HARDCORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/9aff58183ea333b39ae6035736c3c802c1203f9a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/e7e7c470ff9c93a48beff2049c4adb10c78cb1c0.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACH_WIN_LAKESIDE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/e26c89eae72da2999ebaf8284b4dd088c50c463b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3051180/e7e7c470ff9c93a48beff2049c4adb10c78cb1c0.jpg",
     "displayName": {

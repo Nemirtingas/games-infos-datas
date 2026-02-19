@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_SURVIVE_ONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/0050110f2bdf3498428aa29bd1f35bf5e742288d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/3c874aee788196ce872ac3ecb76912c7d70cdba4.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_SURVIVE_FIVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/8e6e05d3838c7e5cd8daa7f9a7804bc78f22027a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/11dff23e8f883567791442f7c8c91054778cd734.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_SURVIVE_TEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/3bc96fd21519fe932199ace9ede39173737005b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/2f20aa302ba4523c1cb24b7a033408838a1239b6.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_KILL_TEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/d7791a99eb4bfdfa4195873c175d131a69d9698b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/bdd1305a4ff673886a85d226489511f6015388f8.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_KILL_FIFTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/d85a5fb64f46773e7c628f5cd492e1abb3d04e4f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/fc81816e7443a5a7b1c3cd18e96cec84f742de7a.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_KILL_ONE_HUNDRED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/244ba52c0c9bfc79d041ed960d9d4b0fb785ff00.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/a905d2847c41d865675e5ee6e7da24a625272065.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_KILL_BEFORE_THROW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/93213db0ddb181e1e72286810c6e2eff1ec1978c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/3b16d171e6d9f7abf4f63731fd6a35c6312335ea.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_NO_DAMAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/57656656345b2ea33246d0cb0fb59c97df405a35.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/7004fc3dfb9fee7ec6326ebee06807d62d909a21.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_TRY_KILL_PARATROOPER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/c12a09e658d662e52ddc51d4d50a9863b0a260b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/3c76dffe3f7845bd7816edb4ae28b7562e3e9d01.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "ACH_KILL_WITH_GRENADES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/447a09a71e995b26dcc3bfe1265f9cdc55867e51.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3213810/3c76dffe3f7845bd7816edb4ae28b7562e3e9d01.jpg",
     "displayName": {
@@ -138,10 +138,12 @@
       "english": "Kill 10 enemies with grenades",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "grenade_kill_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "grenade_kill_count",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

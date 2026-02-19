@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FIRST_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1966660/3ccb6c75731e64fb1f5057e4df40baf570680ad6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1966660/e6f5a1d4e8b565ac13794736aa8ddea9cad31f67.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_ZOMBIES_KILLED_BRONZE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1966660/f162c538546a87a9d50c236bc25094d2b7c5677f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1966660/e9eca96a054aad5c560ae2427b88caa815276a7f.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Congrats, you won't be dead before the second course!",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "ZOMBIE_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ZOMBIE_KILLED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_ZOMBIES_KILLED_SILVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1966660/8572e583abd8be9c57a09f899b4bf5c7a61ea0c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1966660/6ab7d7db57e7dac57959bfa6d3186296f0c7d59e.jpg",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "Just a warmup",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "ZOMBIE_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ZOMBIE_KILLED",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACH_ZOMBIES_KILLED_GOLD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1966660/009a1a7804fc2f9744689772138c7cb875fb060b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1966660/58bc8d5d17fb99561adab780ea2e75ce82c3a4ca.jpg",
     "displayName": {
@@ -64,10 +68,12 @@
       "english": "Headhunter!",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "ZOMBIE_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ZOMBIE_KILLED",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

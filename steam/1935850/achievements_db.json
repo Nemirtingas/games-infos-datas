@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_Prodigy",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1935850/427fdea6efb4659de5bf13843eaee62ed13f774d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1935850/1dfa8b8b729eb5c3da0990c76c0c1a0e77e4c54c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_KnowYourWay",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1935850/73d9970c6ddcf00582448ab0928dc346dd932d68.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1935850/4213286030bb7f05c6f6db6aff59940a0d3ad934.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACHIEVEMENT_Geek",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1935850/8bb2e77fca2fdc85f088a3b1c72a154946be6952.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1935850/97e029a897891f61b199ffc6737ae2211da40d55.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACHIEVEMENT_Tagger25",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1935850/d4ea0d18ed3ef550857de9e25d1d21cc84543bf0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1935850/f9090c7ac3ed937c3ee43455aad7b2fdfb59fef6.jpg",
     "displayName": {
@@ -54,10 +54,12 @@
       "english": "Drop 25 Taggs!",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "Taggs"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Taggs",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   }
 ]

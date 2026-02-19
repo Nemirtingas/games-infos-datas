@@ -1,7 +1,7 @@
 [
   {
     "name": "KILL_FIRST_ENEMY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/166174514588911440a5c06d55f6a7869bd5c4f7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/11c3a707a6de7ce0dea12be22bc20aa6759ef760.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "WIN_ONE_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/45937a757f403a67132adb42701b6dfa2ebbf0df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/11c3a707a6de7ce0dea12be22bc20aa6759ef760.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "WIN_WITH_PIERCER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/d0ad5de9455ed3da016055b7c5306ae15db4b09f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/11c3a707a6de7ce0dea12be22bc20aa6759ef760.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "WIN_WITH_MELEE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/6d3407e1525f97f79e467602395d407b78cff073.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/11c3a707a6de7ce0dea12be22bc20aa6759ef760.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "KILL_MANY_ENEMIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/74b2efb28721289587c0166ad30acebbf5397b53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/11c3a707a6de7ce0dea12be22bc20aa6759ef760.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "That... that's a lot...",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "enemies_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemies_killed",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "PACIFIST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/2aeee94af633e442813c275939dbb0c9dc63c925.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/11c3a707a6de7ce0dea12be22bc20aa6759ef760.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "NO_SOUND",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/8e443bf2803bfd80f9f952397d6f0de5885e4e08.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/11c3a707a6de7ce0dea12be22bc20aa6759ef760.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "SETTING_SCROLL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/0af3c94cb36876acf93c78c996c7d0cbe6865103.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/11c3a707a6de7ce0dea12be22bc20aa6759ef760.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "DIE_MANY_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/025785a10811e72303b43256e60ce897574f43bd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/11c3a707a6de7ce0dea12be22bc20aa6759ef760.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "That's your 5th death...",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "times_died"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "times_died",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "KILL_ENEMIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/691aa27f8a213e14773aa7ca5e57daf4566faf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/11c3a707a6de7ce0dea12be22bc20aa6759ef760.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Well that's quite a few...",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "enemies_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemies_killed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "DIE_MORE_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/ebd912ebd309fb35288b9902c8ff0557a0e61b3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/11c3a707a6de7ce0dea12be22bc20aa6759ef760.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "You'll eventually get them.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "times_died"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "times_died",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "DIE_TOO_MUCH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/d9ae97fce3597d4d2825633779143b0753939a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/11c3a707a6de7ce0dea12be22bc20aa6759ef760.jpg",
     "displayName": {
@@ -186,15 +194,17 @@
       "english": "You've died 25 times. Maybe it's time to try a different strategy?",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "times_died"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "times_died",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "DISCOVER_SECRET",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/f2b0a08a66e35ff37b0058307465ca021f8c5cea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3142630/11c3a707a6de7ce0dea12be22bc20aa6759ef760.jpg",
     "displayName": {

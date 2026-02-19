@@ -1,7 +1,7 @@
 [
   {
     "name": "MAP_DESERT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/5bffe7b31ae8c05e5ea5d4755015cb7e5fd2fdfc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/0cff14d8d6c01a79e00cabf0dfc18c412fdbf8b5.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "MAP_TROPICAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/8cd6cf1190f658d1eddbfa3e465ca9af33239ffd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/3fe536bf056ffa3c1e14891810317aaa0e1db0fb.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "MAP_FARM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/f31d18526763860903d5c01304157a1efbf3878f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/aa6dc6a122ba4c131ef603cdacbef9b571414bcd.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "MAP_CIRCUIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/4a6db04a917de1edc41d8a40c138e7ba6927e2b4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/af654be7675f660aad62d8e9c1cee27f82eb4e70.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "MAP_SPACE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/07ef9736f61141aa65dff2ef884d5d15cea03f98.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/bc1cddc6c5011c2cb9d8358ad528e1111b4e1521.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "MAP_MATRIX",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/c5dc331f9f1308646af98c4f20bf0496578d8f4e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/2bd36562ee105ccaf2dab259700699e392eac1ac.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "MAP_TUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/77547f028e7acb7e27988a8dc996c8276e7680a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/6cdc89501eebf5d78746b3388b2251429fd2cf75.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "UNLOCK_GOLDEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/e59c1ee921467ad3d85b8964d9c5e0b7b6e9e030.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/de445d098a4335dc35c8d66ada50b3ccbd375e49.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ABILITIES_GUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/95594a5ded3f20f59fbec1dc8ff6f5b6216bf0b3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/1eb07fe9d08c35a784564fb1779e30638a648d45.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Take down a total of 20 racers using the gatling gun.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "GUN_KILLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GUN_KILLS",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ABILITIES_DRIFT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/1d12d8d36acb9f805c199333369dc1ffb61ec364.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/88f91d32465de5acc07982e6fa4c63dfab232f10.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Use the Drift Boost ability a total of 35 times.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 35,
-      "stat_name": "DRIFT_BOOSTS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DRIFT_BOOSTS",
+        "min_val": 0,
+        "max_val": 35
+      }
+    ]
   },
   {
     "name": "ABILITIES_REPAIR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/a41b86eba01d8bd73a43952e85b244c99a181bb2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/6b0510e169cd0738d6e4e7829e1688f9c125c698.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Use the Quick Repair ability a total of 15 times.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "REPAIR"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "REPAIR",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "NO_ABILITY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/18becde53e64530e521ab75336de49b6c4bfb2a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/7f955aed9109109f8937688aa5cb643dde4e1503.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "BRONZE_TROPHY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/85acb365642d3141a5ab1ec60c6bf8801db6ba7d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/418c1721906bdae4477d5ea1388798ad21325625.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "SILVER_TROPHY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/e5900b465ffe1a5782fe2ccf2df34cb3573ba366.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/7fe68c2fb8771e5c65e93986ebd01a03171bec76.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "GOLD_TROPHY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/91268fe67ca5d147f698e3ac4e2d02e081e41279.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/125e738089f3bdd86470416dd6e6c8aa8b1fa0d2.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "CHARGED_ABILITY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/584cc480b8944d16a20492f214406643a1182341.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/8a637e1436c497d671803ab19cabbfc816a1b5de.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "MULTIPLAYER_START",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/343db2ad2ef4a1fc669452c52cc042c4f15888cc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/5c3df7422e8e0af2e61514801f3e3c1d3f4c8e38.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "CREDITS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/69ffc030bb4bb537e148b24cf669d0bf613d617a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/43a877ef427648f57aa204d8955d36e5c7cdbf38.jpg",
     "displayName": {
@@ -268,7 +274,7 @@
   },
   {
     "name": "DEATH_FIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/904f8b9fa07d0d3962f09dd491928f6568682c7f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3564440/5d504c2831b93d87c4d8bb429c8e910b49a6673b.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_OpenGame",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/3d529e39c2761dcd1ba338bb1f8c97a32a868c75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/43034084eaeec42b04cc2ce93083e92256907608.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_Death",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/57cc1eee8fc8c3260c5d60a2be784732e3f4bb46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/5826129425bee97328d611d923163278d131114a.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_Meal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/02362342bc6fa6b7a71764eeb3d9d033ef6a00d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/56b2a455c89eaf42a740c136a1b90a34da8e5c7c.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_Rose",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/084b5aa0b3a68feff7c06c5174ed6630c8e5abba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/42f2503e2a9ce66af8092816fc36f9c6a94e9c7e.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Collect and use all three invincibility roses.",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "ROSE_ROSE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ROSE_ROSE",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACH_Mushroom",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/56c6157c96548621c8d959ae6ba858797ce92b80.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/a3e55ae1620fa705f9f55925089e46ae8552d818.jpg",
     "displayName": {
@@ -73,15 +75,17 @@
       "english": "Collect all the mushrooms in the game.",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 11,
-      "stat_name": "MUSHROOM_MUSHROOM"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MUSHROOM_MUSHROOM",
+        "min_val": 0,
+        "max_val": 11
+      }
+    ]
   },
   {
     "name": "ACH_Golden",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/97d14c8c93c758d2ed8c27c7e57ba664e582e8ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/ab10dab0bd65ff79f5c1d91bf3c98e7358feeee0.jpg",
     "displayName": {
@@ -92,15 +96,17 @@
       "english": "Beat the game three times. We're glad you love this game!",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "BEATGAME_BEATGAME"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BEATGAME_BEATGAME",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACH_SuperSecret",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/fb05b488659992bf96e1fa054919bf31c00786e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3136930/7655d1363d1cacb65ac410c7ca8e5cf3ad8176d2.jpg",
     "displayName": {

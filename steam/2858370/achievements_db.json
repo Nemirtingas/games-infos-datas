@@ -1,7 +1,7 @@
 [
   {
     "name": "HERMIT_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/de01e6e08b59602c7098355f7ff2e2e3d853211f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/1555670add26ab4ebc81ac7300c6fe6496703ad9.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "CHECK_ENGINE_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/e32110662dfe2d80b064833f2d4a6686ee0408a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/2d78695edbf50fec992bda7d4982220ef9edeb7e.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "STEER_BY_AIR_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/3cecfa9ae73d6494cd919c480b176f3fd6189b06.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/b7ac6a32243e886954c61ac5c20b88cfd96489c0.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "LETS_DANCE_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/7241f54f46999c6671131d4be212875fa04fa9e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/2e6e6a15e3080064be5da5d948cfc53c04a149e7.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "TOUCHING_THE_SKY_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/3acc49da3b8dc76097c8e113152431cd53f6056a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/df8a01bea50e84291bb72565f7d615cf5fe76928.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "A_TEN_THOUSAND_WORDS_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/585f5b34e1418a3a39534d053522186b9b4f63db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/7cedd36dabf0b469c9b8f5d88095faf8377300ba.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Capture 10 photos using a photo camera",
       "token": "NEW_ACHIEVEMENT_23_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Photocamera_shots_total"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Photocamera_shots_total",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "28_STAB_WOUNDS_ACHIEVEMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/72838232c71d4e831277235542a413b66e44cab3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/94b72b906e6b0c7884031464d6a33b5999c21fad.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "SCREW_IT_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/22a9cd3aa04b0bb596ffb080fc28ba9447f7746e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/9b084fa54f73aa9a31759ab1da16574aab800b2e.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Use Impact Driver 100 times",
       "token": "NEW_ACHIEVEMENT_23_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "ImpactDriver_used"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ImpactDriver_used",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACCESORY_ADDICTION_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/4753f1957d759f3eb9c02be7bc71cb6c97fb8300.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/39ca5236acbed135ac42ea9e7e8e10ab0559c54b.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Attach a gun attachment 250 times",
       "token": "NEW_ACHIEVEMENT_23_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "Attachments_attached_total"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Attachments_attached_total",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "WHAT_DOES_THIS_BUTTON_DO_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/91477a8ee89cc5fa5e0587968666d138e626636d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/90e618fe128bfd3df8584982ce91cb265cecc0e2.jpg",
     "displayName": {
@@ -156,7 +162,7 @@
   },
   {
     "name": "STICKY_SITUATION_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/ba88fd8060aa7306657aff5582839072cd59c926.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/dee873d88b065c3e8581083e24a767880c2179dd.jpg",
     "displayName": {
@@ -170,7 +176,7 @@
   },
   {
     "name": "RESTART_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/a6b2c34afa96f3eb23847a11786e006b40a07ebe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/6899bc0209218e95e99ed0b3c5051e4185440003.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Restart the level 10 times in total",
       "token": "NEW_ACHIEVEMENT_23_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Level_restarted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Level_restarted",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "GAME_START_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/65e35cf1588f0053f0ebd699bd00b6f5ab5ef3c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/fc1f06b4bb7396e575979de6652bc799ca21bd1f.jpg",
     "displayName": {
@@ -200,15 +208,17 @@
       "english": "Launch the Game 10 times",
       "token": "NEW_ACHIEVEMENT_23_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Game_started"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Game_started",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "EXPLOSIVE_PERSONALITY_ACHIEVEMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/f7a0e2112b5b66c2f3529244c1281d5d0857a3db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/b81abae983169a625068788190e555f8d28b6648.jpg",
     "displayName": {
@@ -219,15 +229,17 @@
       "english": "Explode 100 Grenades",
       "token": "NEW_ACHIEVEMENT_23_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Grenade_exploded"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Grenade_exploded",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "CLAYMORE_TRIGGERED_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/006abd09cf73b19f134097229c0201b748983347.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/858f0bc0cb92f5c6e56715bc6bb2b533131f96e7.jpg",
     "displayName": {
@@ -238,15 +250,17 @@
       "english": "Trigger 100 claymores",
       "token": "NEW_ACHIEVEMENT_23_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Claymore_triggered"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Claymore_triggered",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "SIEGE_HARD_10_WAVES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/f20472c43f1de62cc670c7003da22fcfe8bbc481.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/e72df1f0bc4d90aad34382699d5dca170efb8dd5.jpg",
     "displayName": {
@@ -260,7 +274,7 @@
   },
   {
     "name": "NPCS_KILLED_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/25d3a4623d355921f6e0e68e596194cf3a87b5ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/9db0ac439708b95336e9a22f36654050f0fef181.jpg",
     "displayName": {
@@ -271,15 +285,17 @@
       "english": "Kill 100 NPCs",
       "token": "NEW_ACHIEVEMENT_23_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Npcs_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Npcs_killed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "NPCS_KILLED_500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/1804324a2d09c13bd775a3ae7b475bf06b34a2fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/67581cf877200638c2a9a381d5cc69fe4c9d51c8.jpg",
     "displayName": {
@@ -290,15 +306,17 @@
       "english": "Kill 500 NPCs",
       "token": "NEW_ACHIEVEMENT_23_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "Npcs_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Npcs_killed",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "NPCS_KILLED_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/6dbe18da284a30dab1cbe415faecc2fa72ec84c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/2bee96a8d3f293fb86793a7bbecaab00c752994e.jpg",
     "displayName": {
@@ -309,15 +327,17 @@
       "english": "Kill 1,000 NPCs",
       "token": "NEW_ACHIEVEMENT_23_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "Npcs_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Npcs_killed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "SIEGE_INSANE_10_WAVES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/644410cf5a5b855ec60b9ae40077ee5c70c574ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/8f76af33be2d690167a213ff131d500a7c1d9c08.jpg",
     "displayName": {
@@ -331,7 +351,7 @@
   },
   {
     "name": "SIEGE_BABY_10_WAVES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/33711981d545006d972abbe075511c61356ff6d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/673c038183d7c75ebbc5676b21ebaae280ccaff6.jpg",
     "displayName": {
@@ -345,7 +365,7 @@
   },
   {
     "name": "SUICIDE_BOMBER_01_SECOND",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/2de18f65a88b6ede2e454681547283d4bf2bf156.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/4997df86fada6487fdeb96a8e8f6d0f5d5838fe7.jpg",
     "displayName": {
@@ -359,7 +379,7 @@
   },
   {
     "name": "VOXEL_THIEF",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/f66e82b54762939d7706940ba4d8688c0a286e20.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2858370/03ca3fa29f07a987d91484307d7c807b3510a798.jpg",
     "displayName": {
@@ -370,10 +390,12 @@
       "english": "Steal 100,000 Voxels",
       "token": "NEW_ACHIEVEMENT_23_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "Voxels_stolen"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Voxels_stolen",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   }
 ]

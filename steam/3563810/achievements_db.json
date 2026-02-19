@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_OPEN_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/316c3c066485550eb01c54a597831796222ad0cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/8848efc1bf14fb544a0646839c9924b462ed7900.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_LEVEL1_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/631a3590f56e3f1ad862289d2b09265f83cf8bc0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/8848efc1bf14fb544a0646839c9924b462ed7900.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_LEVEL2_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/4d5abcc6976e289c56d3d3657067813a23f1f3ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/8848efc1bf14fb544a0646839c9924b462ed7900.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_LEVEL3_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/0db992cd967d61ec60857ad938afa1cbe2cef54b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/8848efc1bf14fb544a0646839c9924b462ed7900.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_LEVEL4_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/4c7847474eac156bc477d16dcb01451b9ed74bcb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/8848efc1bf14fb544a0646839c9924b462ed7900.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_LEVEL5_COMPLETE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/22d4d950a229e276f868e67a8c4975d4592272b3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/8848efc1bf14fb544a0646839c9924b462ed7900.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_LEVEL6_COMPLETE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/62a74abba3caaef866112cd2bd80083b26b90d0a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/8848efc1bf14fb544a0646839c9924b462ed7900.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_ACTION_KICK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/ac193e2ce28a01bae617248200a58372faffd19f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/8848efc1bf14fb544a0646839c9924b462ed7900.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Use Melee on the Speed Unreals 100 Times.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "SpdKik_SpdKik"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SpdKik_SpdKik",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_SURVIVAL_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/a8dd36f42c0a192cebb654b7c77e3851d007612b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3563810/8848efc1bf14fb544a0646839c9924b462ed7900.jpg",
     "displayName": {

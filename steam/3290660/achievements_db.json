@@ -1,7 +1,7 @@
 [
   {
     "name": "PCS_SWORDFISH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/1f1604e1cb4c272e2d1d3d2262e08867678e2c7b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "PCS_FIRST_TRANSACTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/fad73df751d2249dcb552124314b3bbaeedb53de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "PCS_FIRST_UPGRADE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/fcbaaea843f5aef66f624c1fda0f6fca15b3b2d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "PCS_FIRST_SKILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/07f50c26eb0b14b074c6da4cb0b43277dbcd4954.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Unlocking first skill",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "SKILLS_UNLOCKED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SKILLS_UNLOCKED",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "PCS_LANDLUBBER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/12e50b55fe70556a7b07165ffbcdea15e32a5d6d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "PCS_DECKHAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/4ea5a81ab4a4d1ead2e69b8c5347a324614a6ff8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "PCS_BUCCANEER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/e38ce2df7c0c021538dde359c704da16bd559813.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "PCS_SEA_CAPTAIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/e22b8d6a9a4bb7aa02edafea76212d072171bafe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "PCS_ALL_UPGRADES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/76ffac526ea7084176f80143546fb5215794724c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Unlocking all upgrades",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 28,
-      "stat_name": "UPG_UNLOCKED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "UPG_UNLOCKED",
+        "min_val": 0,
+        "max_val": 28
+      }
+    ]
   },
   {
     "name": "PCS_TUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/62a029cb841624de81af819a0d7cdeefe3c8696d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Completing tutorial",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 34,
-      "stat_name": "TUT_STEPS_COMPLETE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TUT_STEPS_COMPLETE",
+        "min_val": 0,
+        "max_val": 34
+      }
+    ]
   },
   {
     "name": "PCS_DAMNED_CHEST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/56e8350f59fd275ac8ac8f985c53c2b3ee323dbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Collecting one million and one coins for the Chest of the Damned",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000001,
-      "stat_name": "COINS_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COINS_COLLECTED",
+        "min_val": 0,
+        "max_val": 1000001
+      }
+    ]
   },
   {
     "name": "PCS_FIRST_ORDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/409522c2852e336b94156e13765630f37abecc16.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -189,7 +197,7 @@
   },
   {
     "name": "PCS_FIRST_BREW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/8322f6d2a50327f7ead45d9b7901d99323b46b23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -203,7 +211,7 @@
   },
   {
     "name": "PCS_WORKERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/c1966a253c13c44449e52a250257b8a67036fdad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "PCS_TIME_IS_MONEY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/7bc427d08718f57ead2537a6c3d4925fd5922feb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -228,15 +236,17 @@
       "english": "Putting 100 products up for sale at once",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "ITEMS_ON_SALE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ITEMS_ON_SALE",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "PCS_UPGRADE_ALEMBIC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/067d6b27ffd3e879c21f5a0da54a68a5601acfe4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -247,15 +257,17 @@
       "english": "Unlocking every alembic upgrade",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "ALEMBIC_UPG_UNLOCKED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ALEMBIC_UPG_UNLOCKED",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "PCS_UPGRADE_RAFT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/1ed4a7c22b340c719ab52f62693989878bd989e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -266,15 +278,17 @@
       "english": "Unlocking every raft upgrade",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "RAFT_UPG_UNLOCKED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RAFT_UPG_UNLOCKED",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "PCS_UPGRADE_WORKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/08e04c482419ed2dffd86b6d11c5b8c3edd1e0b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -285,15 +299,17 @@
       "english": "Unlocking every worker upgrade",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "WORKER_UPG_UNLOCKED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "WORKER_UPG_UNLOCKED",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "PCS_UPGRADE_PORT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/5e71b3ab3ff564f61e932fb27a137acaffdab9d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -304,15 +320,17 @@
       "english": "Unlocking every port upgrade",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "PORT_UPG_UNLOCKED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PORT_UPG_UNLOCKED",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "PCS_UPGRADE_TRADE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/ef82cda6a1f70fa012f6aa7792294134322b3851.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -323,15 +341,17 @@
       "english": "Unlocking every trade upgrade",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9,
-      "stat_name": "TRADE_UPG_UNLOCKED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TRADE_UPG_UNLOCKED",
+        "min_val": 0,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "PCS_SLEEP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/e0a6407fcd8b91e90a62395bace8c2911eb62430.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -345,7 +365,7 @@
   },
   {
     "name": "PCS_FIRST_TREASURE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/ef97715faa50334045ca617473e272e28fca7834.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -359,7 +379,7 @@
   },
   {
     "name": "PCS_FIRST_FISH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/eb5f6e77b584e7bd9a58f65eef93d5b7b4c01df5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -373,7 +393,7 @@
   },
   {
     "name": "PCS_FIRST_PLANT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/80e394d16c10576175ec3c86e04519a796baab31.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -387,7 +407,7 @@
   },
   {
     "name": "PCS_ALL_BOTTLES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/ebcec8bd7f74a8ff7c28c544d2f529a6f9273383.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -398,15 +418,17 @@
       "english": "Buying all alcohol bottles",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 18,
-      "stat_name": "BOTTLES_UNLOCKED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BOTTLES_UNLOCKED",
+        "min_val": 0,
+        "max_val": 18
+      }
+    ]
   },
   {
     "name": "PCS_ONE_GOLD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/cc00e79fe6d889c9475e80529f23b71d4890567c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -420,7 +442,7 @@
   },
   {
     "name": "PCS_PERFECT_CHANGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/43b519cfe5e119d29a552c29c8b464cc1820969e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -434,7 +456,7 @@
   },
   {
     "name": "PCS_BIG_CHANGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/74ef77d3dd98aa550df290265600d0f2c465769d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -448,7 +470,7 @@
   },
   {
     "name": "PCS_SMALL_CHANGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/4991881a93428a6dcc6c4ffc779da2f243ca623c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -462,7 +484,7 @@
   },
   {
     "name": "PCS_TOWER_CLIMB",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/b2df014c95c6ea02cf0e70cde80793956512f39d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {
@@ -476,7 +498,7 @@
   },
   {
     "name": "PCS_MASS_PRODUCTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/3b07c06679ba6a2f81b0da48d9173d0e247de505.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3290660/9a43ba2399ba57aa0b0fe6fb3b936f7431b3339d.jpg",
     "displayName": {

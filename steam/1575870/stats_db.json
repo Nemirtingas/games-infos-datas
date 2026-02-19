@@ -2,385 +2,393 @@
   {
     "name": "Kills",
     "displayName": "Éliminations",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "Deaths",
     "displayName": "Deaths",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_global_kills",
     "displayName": "World eliminations",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Score",
     "displayName": "Score",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "PrecisionPerRound",
     "displayName": "Précision moyenne",
-    "type": "0",
-    "default": 0,
+    "type": "avgrate",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 1.0,
+    "default": 1.0,
+    "windowsize": 24.0
   },
   {
     "name": "KnifeKills",
     "displayName": "Éliminations au couteau",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Assists",
     "displayName": "Assistances",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "TotalDistanceTravelledKm",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "default": 0.0
   },
   {
     "name": "TotalFallHeightKm",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "default": 0.0
   },
   {
     "name": "GrenadeKills",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "GhostTimeInHours",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "BulletsFired",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "ScaredPlayers",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "UsedGrenades",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "WonGames",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "UsedGrapplinHooks",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "PlayedGames",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "GrenadeAttached",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "TotalJumpNumber",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "TotalHeadshots",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "TotalSkillAdded",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "TotalHitDash",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "KnifeThrown",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "TP",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "DecoyKills",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "SLAMKills",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "CramponsKills",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "HealthPack",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "KillBounce",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "KillKamikaze",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Decoys",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "StolenHealth",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "KillThroughWalls",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "XP",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "TargetDown",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "AutoRepair",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Skills_MaxEquiped",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Kill_ChargedSpray",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Broke_Extinguisher",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Broke_ExplosiveBarrel",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Kill_Laser",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Kill_GrapplingHook",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Kill_ReloadThrow",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Kill_Boomerang",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Kill_ControlledExplosion",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Broke_Pumpkins",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Broke_Presents",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Kill_RifleButt",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   }
 ]

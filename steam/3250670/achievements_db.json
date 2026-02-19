@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_LAUNCH_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/a244b373f357efc1c1968406b78d02150ff7ef9a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/258f2c74b4b04954f981da4e765192a2bffa122f.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_FIRST_CLASSIC_ROUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/0fb147360d30308634ab72370404ac53e41ab0d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/2807f31b8fd7e159cfde47a4f234dc339e123626.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_FIRST_ROULETTE_ROUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/409d3988bd91d13870777d5761292d3365c5c53e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/83f14f781364d794300eacff6fa5bf414d7d5894.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_FIRST_REVEAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/c1f7a372ef04b9c46b0f310948dc2d31f51df17e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/9c6f991fc837e0d747769814c6f9846586c1d49b.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_TEN_REVEALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/0b7a7bf37590cdd8269ff1a887da94c0750b6776.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/5f84c8b88100bceadfb2f85b09959162d270f778.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Reveal 10 fakers",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_FAKERS_REVEALED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_FAKERS_REVEALED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_FIFTY_REVEALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/b78a073b381a83f9fbab708a16fdfbffae9c04a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/0e7dbd730891f6243c088847500860b0037d46db.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Reveal 50 Fakers",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_FAKERS_REVEALED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_FAKERS_REVEALED",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_ONE_HUNDRED_REVEALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/ebc6407c83eb0985673f90e006987a05b1883157.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/0588be9359430d42b13dee9e604cc77fa44473a7.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Reveal 100 Fakers",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_FAKERS_REVEALED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_FAKERS_REVEALED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_CLASSIC_TEN_REVEALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/0d82570c397f0bb53dd12704601a0d85c7b3577f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/1709ef52a827831f8ce1a99813dde45c1c90ce9c.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Reveal 10 Fakers in Classic Mode",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_CLASSIC_FAKERS_REVEALED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CLASSIC_FAKERS_REVEALED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_CLASSIC_FIFTY_REVEALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/a700bbec9b752b4ec13fd9e6f65526006196daec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/1f5ef41665de002356474fa9dfe4edac98be0d8f.jpg",
     "displayName": {
@@ -144,15 +152,17 @@
       "english": "Reveal 50 Fakers in Classic Mode",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_CLASSIC_FAKERS_REVEALED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CLASSIC_FAKERS_REVEALED",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_CLASSIC_ONE_HUNDRED_REVEALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/a528180f101018066f6dc634b44299d79c38673b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/0d6e361003aa8ed563f9070d009dbe53e5cb27bc.jpg",
     "displayName": {
@@ -163,15 +173,17 @@
       "english": "Reveal 100 Fakers in Classic Mode",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_CLASSIC_FAKERS_REVEALED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CLASSIC_FAKERS_REVEALED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_THREE_HUNDRED_REVEALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/f1c1607140755f96771dc6f08d181f996c9739d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/4fb62e397521c025669f9f4a95dc94159165942f.jpg",
     "displayName": {
@@ -182,15 +194,17 @@
       "english": "Reveal 300 Fakers",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "STAT_FAKERS_REVEALED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_FAKERS_REVEALED",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ACH_FIRST_ROULETTE_REVEAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/27f8ef25ba95f60523e1a075340aa94693a45a85.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/bef1eafc7f7316358405a908233d30e3b85f78f2.jpg",
     "displayName": {
@@ -204,7 +218,7 @@
   },
   {
     "name": "ACH_ROULETTE_TEN_REVEALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/4ff4de6a6bdc901dbd99479dcc8e931734aaab7b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/f57944f76741d44832247352bba820909b028f54.jpg",
     "displayName": {
@@ -215,15 +229,17 @@
       "english": "Reveal 10 Fakers in Roulette Mode",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_ROULETTE_FAKERS_REVEALED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ROULETTE_FAKERS_REVEALED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_ROULETTE_FIFTY_REVEALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/c6015aa3dba3c5638aaa1ed4d17cc9c6140e6b6a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/39436fb6940817d35e5e98655a2f2c09c58abfcf.jpg",
     "displayName": {
@@ -234,15 +250,17 @@
       "english": "Reveal 50 Fakers in Roulette Mode",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_ROULETTE_FAKERS_REVEALED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ROULETTE_FAKERS_REVEALED",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_ROULETTE_ONE_HUNDRED_REVEALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/a93fe749401b552855ef12868b94e7ff2a8d88df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/d84eda894707ff855763ea78ce72850065300b55.jpg",
     "displayName": {
@@ -253,15 +271,17 @@
       "english": "Reveal 100 Fakers in Roulette Mode",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_ROULETTE_FAKERS_REVEALED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ROULETTE_FAKERS_REVEALED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_CLASSIC_FAKER_SURVIVE_ROUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/1a84c95a0c8e82c428170114a0f6998ffa6e0732.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/a9dff5f595041150e288a46b32bb1e682b5f990b.jpg",
     "displayName": {
@@ -275,7 +295,7 @@
   },
   {
     "name": "ACH_CLASSIC_LAST_FAKER_SURVIVE_ROUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/083041a3cc36cfdf2c2c154c4a1357c979d023f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/e4ad63b9cf4c070199b33431c6e17a4498b1574f.jpg",
     "displayName": {
@@ -289,7 +309,7 @@
   },
   {
     "name": "ACH_CLASSIC_FAKER_NO_MASK_WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/ffe9f0187053c8968d8886382a51e29f63626686.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/6c4e9a28f1aec634ffe41d85585abbf3420549cf.jpg",
     "displayName": {
@@ -303,7 +323,7 @@
   },
   {
     "name": "ACH_CLASSIC_FIRST_SHOT_EARLY_REVEAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/d4eea98e5b69a78184c3cfeffb403b3000fc1ef0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/4ab7dd610a3f23da0d1475d8f9b64a9d4cfb037d.jpg",
     "displayName": {
@@ -317,7 +337,7 @@
   },
   {
     "name": "ACH_CLASSIC_SURVIVE_WHILE_SUS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/4e42e7b9390f047400227eba476c36bbfa5cc784.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/bdc1846bae687e8dee85dc8e1aeee00e10864c67.jpg",
     "displayName": {
@@ -331,7 +351,7 @@
   },
   {
     "name": "ACH_CLASSIC_SURVIVE_WHILE_NOT_SUS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/0591a083b7fcfd79d9113391688f9004434ab2f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/f0774a85b59f80007c83f4e6799f2b9560840863.jpg",
     "displayName": {
@@ -345,7 +365,7 @@
   },
   {
     "name": "ACH_KILL_20_BOTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/a90c532429e9dd882d215addc908090e1ee4d2de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/41c85067b9605b967601dfa0f0ec51550b4e000e.jpg",
     "displayName": {
@@ -356,15 +376,17 @@
       "english": "Reveal 20 mob bots",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "STAT_BOT_REVEALS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_BOT_REVEALS",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_CLASSIC_WIN_LAST_SECONDS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/ca3d05813ac5b6461e41fa8596a4fb4003557711.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/71550b6028693de8a1188adfe4cb943f531ade07.jpg",
     "displayName": {
@@ -378,7 +400,7 @@
   },
   {
     "name": "ACH_100_WINS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/da087637c589a642d17b8fd6acb0a531a77b8621.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/06a4935542244266eaa5d546953d0e2b001892d7.jpg",
     "displayName": {
@@ -389,15 +411,17 @@
       "english": "Win 100 rounds (any game mode)",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_WINS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_FIRST_MASK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/383509d1ad9889a9b23c62b19862b4c66306701e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/be6fadf50f5b802cce5c7f9b4d3c7c8abbaf28fb.jpg",
     "displayName": {
@@ -411,7 +435,7 @@
   },
   {
     "name": "ACH_100_MASKS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/1b064da808065123423886fc7a9ae2a15bd1cd22.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/f5a8542adb3748c277be950cf24c1c36378695c8.jpg",
     "displayName": {
@@ -422,15 +446,17 @@
       "english": "Collect 100 masks in Classic Mode",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_MASKS_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MASKS_COLLECTED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_OPEN_MOB_CREATOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/255b6e8e2cc13cd77d9ad981208032c647c40de5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/8d816e1edbafb4a7f64bae68abe1ec4f5cebbf89.jpg",
     "displayName": {
@@ -444,7 +470,7 @@
   },
   {
     "name": "ACH_PUBLISH_MOB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/c8cc7a4669110d83623fd8b2fb972439d727c007.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/67e702e7b8e4f37fb1e2e3a39a05908ae395d641.jpg",
     "displayName": {
@@ -458,7 +484,7 @@
   },
   {
     "name": "ACH_SUS_TAG_REVEAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/89c16162804c8c31819a99bac3e2f60ff4edf35d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/af252650250f837e5cd8eb6681809d15da6ff519.jpg",
     "displayName": {
@@ -472,7 +498,7 @@
   },
   {
     "name": "ACH_ROULETTE_WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/bdba5d139334d66fc9d46e3a276ddb5d742bb09d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/bdba5d139334d66fc9d46e3a276ddb5d742bb09d.jpg",
     "displayName": {
@@ -486,7 +512,7 @@
   },
   {
     "name": "ACH_CLASSIC_HUNTER_WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/011587303d2ffcf188cc841b75d95210ccec4a04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3250670/5ff4c23187fcf746f34fe5932a1282843b9e3532.jpg",
     "displayName": {

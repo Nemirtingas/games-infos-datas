@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_COMPLETIONIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/9451043bcbe8cd96ada06173e28431ee441d580e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_3_TOUCHDOWN_DAY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/aa26ae1208a7d669df5f88ef2a56b2c5c2bef7ac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_5_TOUCHDOWN_DAY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/403e0b68f3aa26bcbfa9c87a01c97ef9b8b9b2e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_7_TOUCHDOWN_DAY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/b1ea49850184113fd7869709f43d332cc8562780.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_500_PASSING_YARDS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/819415922392b80ec7e23c4c670a9e1360c48d5d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_NO_PICKS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/78d47c1786cbdae7c0a81f196fb2ba29011b5029.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_CHAIN_MOVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/8a5ca78b173339a9170cee3b442b41567e8361f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_CANT_BE_STOPPED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/3e8c685002bf5398781e067ee812c2244ed1fc36.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_LIKE_BRETT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/b7a152d008f7491872f9286394440b723692cf10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Beat all 32 Teams",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 32,
-      "stat_name": "stat_teams_defeated"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_teams_defeated",
+        "min_val": 0,
+        "max_val": 32
+      }
+    ]
   },
   {
     "name": "ACH_UPPER_ECHELON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/6d30fd83c2a1b5097fe319e412b5ca085a041b2e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Win +10 Games in a season",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_season_wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_season_wins",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_NOT_TODAY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/aea34d17b1d03b1103d2a1e15a8e1ed9e3412681.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ACH_40_TD_SEASON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/4359369a1720d0fc48db8fe3d4a0d6ac6269dbb1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Throw 40 TD Passes in a season",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "stat_season_TD_passes"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_season_TD_passes",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "ACH_30_TD_SEASON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/f2270591d13e4be09d18f8a3d6dbf1443c59ac50.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Throw 30 TD Passes in a season",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "stat_season_TD_passes"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_season_TD_passes",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_THE_MAGICIAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/bf6745c2756220128e670b69de4e136a18392ebe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "5477 yards thrown",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5477,
-      "stat_name": "stat_yards_thrown"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_yards_thrown",
+        "min_val": 0,
+        "max_val": 5477
+      }
+    ]
   },
   {
     "name": "ACH_THROWINGS_A_BREES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/3863ed2a9caa79e327d5804392590e2935f781d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -233,15 +243,17 @@
       "english": "Throw for 80358 yards",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 80358,
-      "stat_name": "stat_yards_thrown"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_yards_thrown",
+        "min_val": 0,
+        "max_val": 80358
+      }
+    ]
   },
   {
     "name": "ACH_PLAYOFF_BOUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/30f69a555349846925dac5708b3f3039c74f6a89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -255,7 +267,7 @@
   },
   {
     "name": "ACH_DIVISION_CHAMP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/e303246d93e3db4079c05a183ff9d3a19ffd9b8e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -269,7 +281,7 @@
   },
   {
     "name": "ACH_CONFERENCE_CHAMP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/cb5ce1930c9100276dd3692fe805aa278ffbc097.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -283,7 +295,7 @@
   },
   {
     "name": "ACH_SUPER_BOWL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/f2b3754b4db40d4cdf305bd8c0944a3da0e52b26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -297,7 +309,7 @@
   },
   {
     "name": "ACH_MASTER_TACTICIAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/7381a052b906a4cc3380a607deb8958cd29f36e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -308,15 +320,17 @@
       "english": "Complete 7142 Passes",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7142,
-      "stat_name": "stat_complete_passes"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_complete_passes",
+        "min_val": 0,
+        "max_val": 7142
+      }
+    ]
   },
   {
     "name": "ACH_IN_CONTROL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/7fae51a42401acbffd1ae6bae0f65193138a8de8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -330,7 +344,7 @@
   },
   {
     "name": "ACH_250_PASSING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/d342a8c5b4b171094d22122e237ade2b725742eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -344,7 +358,7 @@
   },
   {
     "name": "ACH_HAWKEYE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/209c72868692cd1548919602147d6aa3cae60c60.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -358,7 +372,7 @@
   },
   {
     "name": "ACH_DEADEYE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/21e170987508cb42623d4b7fd76fa7a7b183da9e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -372,7 +386,7 @@
   },
   {
     "name": "ACH_300_PASSING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/ac50d16fa234f545160e7621da12994ec8387061.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -386,7 +400,7 @@
   },
   {
     "name": "ACH_400_PASSING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/cbe3586be2a44326450d5c5655e8759aa9e2dabd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -400,7 +414,7 @@
   },
   {
     "name": "ACH_6_INTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/46bce9dddd499bb689beed042efbd6d3949a3282.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -414,7 +428,7 @@
   },
   {
     "name": "ACH_4K_CLUB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/048d9476b2a591975d8f90d03a73c8a6b73412be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -425,15 +439,17 @@
       "english": "4000 Passing Yards Thrown in a Season",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4000,
-      "stat_name": "stat_season_yards_thrown"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_season_yards_thrown",
+        "min_val": 0,
+        "max_val": 4000
+      }
+    ]
   },
   {
     "name": "ACH_3K_CLUB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/4d1b7baaa2be3787c03840b3d59d44ad108f0aec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2165690/2eff2983570c9ca4e706c1120bf4a604ca71ead7.jpg",
     "displayName": {
@@ -444,10 +460,12 @@
       "english": "3000 yards thrown in a Season",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3000,
-      "stat_name": "stat_season_yards_thrown"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_season_yards_thrown",
+        "min_val": 0,
+        "max_val": 3000
+      }
+    ]
   }
 ]

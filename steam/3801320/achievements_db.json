@@ -1,7 +1,7 @@
 [
   {
     "name": "COLLECTIBLES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/87b7d237b4f370604c04bc2f67c34b8e15cf6c09.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/f456528de64d0ffdaa656daf23c80cf788cc6489.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "TUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/72def274dc7767cb135026852941b07723d31e05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/64120f6c5dee1f3b34d2ef12a90d036ad6dd01a0.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "GLIDE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/fae601bab776e9c01e12bf82f52e415beeb72372.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/408591e56b8d64c26cc68156d02d3859cab497fb.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "LEVEL_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/a42bf48ee69c0af9ffd008cd466358fb265b4121.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/f2a37a928cd29a53c5293b10c913b5dec6ad105f.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "LEVEL_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/62dc480dfb8fe3efd11e9c8f2a51c331cf252916.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/3f573a72d5371523e0d326085d6f671cf5bb5224.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "LEVEL_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/bc6fb4784cd176b898266414597328e49ee32afb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/14078db9f15eb1cea0e3fe2a524ccebd2f296b04.jpg",
     "displayName": {
@@ -97,7 +97,7 @@
   },
   {
     "name": "LEVER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/4c55c1381042135d561f1bf98419ccf20bb58708.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/286d94425aba80a14dddf53a848f79e6217fa2c2.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "INVISIBLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/df05a85c3e150a78677f6f3467104d84fdd9f0a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/390f65ad812855707ef29ae49ec13c2b2e2bc9e5.jpg",
     "displayName": {
@@ -129,7 +129,7 @@
   },
   {
     "name": "FLYNG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/ee06062510f7a345a8054f2fa88c87fe146e08fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/dc010ce711f911e7361286cbaed67413e1f30c6b.jpg",
     "displayName": {
@@ -142,15 +142,17 @@
       "french": "Planer pendant au moins 10 minutes",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_FLYNG"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_FLYNG",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "DEAD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/dc660e5c7fca8a4b45811f97e2cd5d4a602951ac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/d8057335c3abebaef5dfbb6241d04b6b734ce4a6.jpg",
     "displayName": {
@@ -163,15 +165,17 @@
       "french": "Mourir 50 fois",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_DEAD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DEAD",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "END",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/8d30d899d84b85a6cba8caee8dbff4812cc1f194.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/6f5c82f943f4f37703df219167b4202b4e12d859.jpg",
     "displayName": {
@@ -187,7 +191,7 @@
   },
   {
     "name": "TRYHARD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/a743fbf31ec92cdd08a037e99c028dc616f74106.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3801320/440ca6e939c29c68520bcf35e4c7c211a2b5e3c2.jpg",
     "displayName": {

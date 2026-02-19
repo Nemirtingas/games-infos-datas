@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_SPIDER_FIRST_SIGHT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/33d5fa2767c2b7ce4bab8648091ee0afa882de83.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/06bba7f31b5f159814bd13346413dc0957ab73c7.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_POWER_BACK_ON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/096abc1da9c1f7252427da0bcd106302e1d36778.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/06bba7f31b5f159814bd13346413dc0957ab73c7.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_ESCAPE_TERRARIUM",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/5c6df6c1e7d93ac0762bb4c830dc050e3d4c706f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/06bba7f31b5f159814bd13346413dc0957ab73c7.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_CREATE_TOXIC_SOLUTION",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/83c0de5b70f39309c78f135d04d08f23d2346ad2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/06bba7f31b5f159814bd13346413dc0957ab73c7.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_ESCAPE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/2fd0ab01d7c4f9b920901d77fe2a6e6797d50946.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/06bba7f31b5f159814bd13346413dc0957ab73c7.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_WEB_ESCAPE_OFFICE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/fd1d6812fc6d233238be9174662e7626bc57aa67.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/06bba7f31b5f159814bd13346413dc0957ab73c7.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_THROW_OBJECTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/fc79d3b71355a74c9ee368d884e3543f1176c807.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/06bba7f31b5f159814bd13346413dc0957ab73c7.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Throw 20 Objects.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "ThrowStat_ThrowStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ThrowStat_ThrowStat",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_ORBWEAVER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/e3083b4ec08f977a2b1cf2e24cf0576ae028bf1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/06bba7f31b5f159814bd13346413dc0957ab73c7.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_PICKUP_LARGEST_WEIGHT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/f1937b836a345f393085c64228e071370f5f981c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/06bba7f31b5f159814bd13346413dc0957ab73c7.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACH_COLLECT_ALL_COLLECTIBLES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/b5eb1fee266d23b847858f6e71fab1f0b8a811ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/06bba7f31b5f159814bd13346413dc0957ab73c7.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Collect all Collectible Notes.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "CollectibleStat_CollectibleStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CollectibleStat_CollectibleStat",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_ARRIVE_MAINTENANCE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/b1dff4b222bde480bfa550bf372d5568eabba935.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/06bba7f31b5f159814bd13346413dc0957ab73c7.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ACH_ARRIVE_OFFICE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/13309c9956982e8e6d419d253f243df1b73b6489.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/06bba7f31b5f159814bd13346413dc0957ab73c7.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ACH_TAKE_KEYCARD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/d287c2cfc6de0c14cf61f256ffdd9335822c2f40.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3814680/06bba7f31b5f159814bd13346413dc0957ab73c7.jpg",
     "displayName": {

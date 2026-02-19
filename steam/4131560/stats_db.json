@@ -2,17 +2,23 @@
   {
     "name": "HEADS_SMASHED",
     "displayName": "Heads Smashed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9001,
+    "default": 0
   },
   {
     "name": "DEATHS",
     "displayName": "Total Deaths",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 128,
+    "default": 0
   }
 ]

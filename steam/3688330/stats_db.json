@@ -2,25 +2,30 @@
   {
     "name": "FishCaught",
     "displayName": "Total Fish Catched",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "TokensObtained",
     "displayName": "Total Tokens Obtained",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "TrashObtained",
     "displayName": "Total Trash Obtained",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   }
 ]

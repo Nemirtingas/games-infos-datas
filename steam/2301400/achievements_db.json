@@ -1,7 +1,7 @@
 [
   {
     "name": "BEAVER_REUNITED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/ba9bf5081dce618c342c0138450bf8d12d2dd023.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/68bece5c2a97ec176baa93208ace2f733275e234.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "TOWN_HALL_BUILT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/65773a53df57bf7cc57c87d103991eae895a20cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/c7d23f26691c3c5fd0b62e2412c98485ac043e7a.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "MAGIC_UNLOCKED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/e1f05426d27434d6b64b6ff3c67a02927fcad6a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/707294ba217ad289fc2c8bd7fad13ca74d48c492.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Learn all spells in a single playthrough",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "SPELLS_LEARNED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SPELLS_LEARNED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "DOG_ACHIEVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/5bac88b40caf24a49eb59f6c3625b6184ab1739a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/efb077e8d3251d967dcfef4b7f6ee74b8d6e23a9.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "Reunite with an old canine companion",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "DOG_FOUND"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DOG_FOUND",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "GOAT_ACHIEVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/cab3c245d09d6955ef60944121e8efcf8dbb0f84.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/ff42085d0f77b8f092884d280773c82fe1c1a42c.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "UMBREO_FOUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/8d450f2a450a56fdd1c2043e820f21b9e1fc6002.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/ac66f5e65fe4522a1932cbd3e2488e0ecd31ad2a.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "DWARVEN_WARRIOR_HELPED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/16b9c9f4caf70104011ae92f2718dee2db640247.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/c637a38ab43b211e0090b56f58f6eb0c21aad6d5.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "DINOSAUR_DEFEATED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/8bbf261ad0699348a0ffeb48c5501b2c96a1b395.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/78a61b486c1aa63083cdfec5e7fb055d5b15868d.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "LIBRARY_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/5b2df981e098f09cdcaaa08b40568446772b21b5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/9e2f5d4c958ea351b8ccfd0d73ed67d4d0a26619.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Fill the library with all of the ancient tablets",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "TABLETS_FOUND"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TABLETS_FOUND",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "DESTRUCTION_ENDING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/851344bf8f12aeada5f5f76e7a422d4695e70472.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/b1816abdc3d9ab7832a4397238c3c2e3f48c9578.jpg",
     "displayName": {
@@ -156,7 +162,7 @@
   },
   {
     "name": "PROSPEROUS_ENDING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/aba3b018c08f9c9b67cb5a30b1e6804f61ad0d58.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/f3d30c37d0189f37b9ce70129c45409c4aa75313.jpg",
     "displayName": {
@@ -170,7 +176,7 @@
   },
   {
     "name": "BRUNA_ENDING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/71ac78ac179bee9f2bd5e1215829e3fde8f8dbc2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/d01a1fbfbdf264b59c813f412e69ce8bb54d644d.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "QUICK_ENDING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/7091cb1ee7dc5f442cbe9d43c5e3c48a55cb28e9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/2b29e33d7d5656d36d5ddf3c179a75196e3f666d.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "FALLEN_ADVENTURER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/5cd04cae39e091f581147eb04eba80151dcf9957.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/dc16b3dba8b5060e7c1c86d211067c75903ef60e.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "SHOE_IMP_FOUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/9867326d4e12e1c6be138986209d7763dcc58e8d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2301400/f351f9ad547eabe08d1b15c0e780c414107db391.jpg",
     "displayName": {

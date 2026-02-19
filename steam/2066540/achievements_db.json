@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_DRIVER_LEVEL_ONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/7e2d127667adca15e5104e028d81a680125b6b04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/800afc8a3feadb2ce9ceb48d9f1b23c6a15b7e69.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_FIRST_PUBLIC_LINE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/eb43d673c2355d04f216bcbd92af885f74cd83dc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/3f5ea9231fe60aadba1c650945fd3cce04a1f22c.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_COMPLETED_LINE_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/b4fde9615467f1913f476be5101affb0a140d16c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/cde69012f0b283e51af314526c189432c4d6ff99.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_COMPLETED_LINE_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/7ab5b7a2863abf8332589135b7de777650937570.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/80114491349b433d3c2f000bbc2f663cb4fe1d50.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_COMPLETED_LINE_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/3e5746929f49275fcb652e4cb2a406b620d94ecc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/d597cb91b90fb7ac77fa8cb014d8be15a70bc09e.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_COMPLETED_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/dd39f7bb177a8c598a56eec13afb1a491f1ad8f7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/bf40ea7906b4127505603451f8d591777779fed8.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Drive all lines",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "STAT_LINES_COMPLETED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_LINES_COMPLETED",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACH_START_AT_DEPO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/f85881c7f206613a99d9beec45fdea6ad1fbbe85.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/16c4b14dc6039b2f1e65f2acfe57bc8af8759dc4.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_VISIT_ALL_STATIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/28338e4a70ef3863650fb6df58d5ecc244394dc6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/4ffcd6991249653bc5d9ccf63a32b8ec26919981.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Stopped at all stations",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 19,
-      "stat_name": "STAT_STATIONS_VISITED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_STATIONS_VISITED",
+        "min_val": 0,
+        "max_val": 19
+      }
+    ]
   },
   {
     "name": "ACH_USE_AUTO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/1ed722b8d2fbcfc7e053cdd1ecffa644f60174c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/1c098f95d152c25b564af82c265fa6c57d05c6fc.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "ACH_SUPER_STOP_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/e1dff6d2985d6c5d154821972bea83c424580ee8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/17b4e5ee506722380d917342ee2e8c7947ef0a8d.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Achieve super stop 50 times",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_SUPER_STOPS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SUPER_STOPS",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_SUPER_STOP_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/c887b746a3750b061ca471cefffdd9a85b4a8e17.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/2ea0834d472c178d07c66127e86509b386acb5e1.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Achieve super stop 100 times",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_SUPER_STOPS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SUPER_STOPS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_SUPER_DEP_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/7f170fd14849ff1be7dc5e62e9f4c82373a4c5d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/d99dce51098388afae8d18675a4649e5ef3cbd8a.jpg",
     "displayName": {
@@ -186,15 +194,17 @@
       "english": "Depart on time 50 times",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_SUPER_DEPS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SUPER_DEPS",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_SUPER_DEP_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/c230a1f8d072725337230894e91b3f135469b03e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/6e87cd4ef6c95632e40bef4ec378ee5c5a71c945.jpg",
     "displayName": {
@@ -205,15 +215,17 @@
       "english": "Depart on time 100 times",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_SUPER_DEPS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SUPER_DEPS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_EMSTOP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/dc33f9836adce827ac75d0b33820a9ce8aef3a45.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066540/ef7cc4a60986b1341d21b01fd0f4b6fc55b0c756.jpg",
     "displayName": {

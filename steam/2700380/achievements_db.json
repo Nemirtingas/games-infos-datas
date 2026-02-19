@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_Level1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/e1ca8fdea7323bd6c44c2aeff52cec7f7fd70d41.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/f394b814938492757d351f9bef8ad666dc36157b.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_Level2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/8ca65a58e56fb0cd022475c9117c9b5e42d0fd1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/0f4bf76f0166d96fab16f0d80e1c6e58d95f3300.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_Level3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/7417155df0327516196a02fdcbeddc0842b67029.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/c4956960ecce4582f83440caf4b4f6d48c30611a.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_Level4",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/1ae1e6b73a4f53bec805f24616033f3fcc7def91.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/f49dcdbed1c232aa1ab880e57ff5a995b6660adc.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_LevelSpeedRun",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/f99ebccb92de4dfdd0457029739cf8f91a544b12.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/6dc582d0bf1f35345d665f9b7990f18ca6af0bb2.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_Turret20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/40fb966b03fa23f3d4beb68800cbd32aa730ab37.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/bb8a855184384307c2a3ba1b77a22c2b153ca527.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Destroy 30 Turrets",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "TurretStat_TurretStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TurretStat_TurretStat",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_Turret50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/19856631981430d9f7e6e080c0e9815b32340403.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/1b2632ca73d196b5413731508686aec77c7867c9.jpg",
     "displayName": {
@@ -101,15 +103,17 @@
       "english": "Destroy 75 Turrets",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 75,
-      "stat_name": "TurretStat_TurretStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TurretStat_TurretStat",
+        "min_val": 0,
+        "max_val": 75
+      }
+    ]
   },
   {
     "name": "ACH_Line",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/a602a21004d64f0dd8f2db7f3a4539448db82500.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2700380/c0e884755db28597462ef39e44b273675db29cc6.jpg",
     "displayName": {

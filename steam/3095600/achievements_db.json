@@ -1,7 +1,7 @@
 [
   {
     "name": "pioneer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/485945f1ef7ba69a3c3ff2c3eda26fc5fe589a82.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/458b66c1c2116061462a880adea5205aaf1e3129.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "PandaManFirstVictory",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/2f9b88e7b4fd0f859e5eb17c68c6b246ae4faa9a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/f65731b8d0e0d27c5b7446546a7632d28a2f3809.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "Treasure",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/c69c75c59aa212e7815fc1a9e7fe75f9e4d1bf14.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/da3541886a95fc34a529f88fe1b48215572aa20c.jpg",
     "displayName": {
@@ -46,15 +46,17 @@
       "schinese": "游戏里累计收获10000钱钱",
       "token": "NEW_ACHIEVEMENT_2_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "GetMoney"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GetMoney",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Masterofunarmedcombat",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/9d2493e4a133f900479d285bb42ceb8531ee0292.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/d8049ec36457a41b742ae757881179257b16e366.jpg",
     "displayName": {
@@ -70,7 +72,7 @@
   },
   {
     "name": "anuncrownedkingjournalist",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/df036f380de7003bc80494ebdedc8bfd97cc98a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/f17a29f1dd789ab556dadeb487e0ddf2d4175124.jpg",
     "displayName": {
@@ -86,7 +88,7 @@
   },
   {
     "name": "MagicMaster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/8d1e5cd4401f159dc23c4cb70e16391ff3f4271d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/d28ce1993d3ba95087e3fb31a243c9b9e67c0e81.jpg",
     "displayName": {
@@ -102,7 +104,7 @@
   },
   {
     "name": "revive",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/0dc839e27991f8b6414706feb5db8e13071aa178.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/64868e1fdfa4cab9bef36decd24c0bf813992714.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "SourceofLife",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/094e44ba559b903dee399a1f58af1fa4d0019900.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/a29defef1068a1d0345894c1d355f00ab9302d96.jpg",
     "displayName": {
@@ -134,7 +136,7 @@
   },
   {
     "name": "Artisexplosion",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/2f67deed6c72de83d0bb6a8eb2256b6cc8f81639.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/e0c425e3ba2666962f49736c740cdbead3fd9009.jpg",
     "displayName": {
@@ -150,7 +152,7 @@
   },
   {
     "name": "Killtenthousandpeople",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/f213feb57cfa064fe028efb4242d53971e3dfcf1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/12ea7bbe9696b70542d5948f0ab47471289ea974.jpg",
     "displayName": {
@@ -163,15 +165,17 @@
       "schinese": "近战击杀10000名敌人",
       "token": "NEW_ACHIEVEMENT_2_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "Meleekill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Meleekill",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "WeaponMaster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/71a8f91b6ce3c0381fc67fa0ce463f32495a84dd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/d65adb37442ef8475b4829b2117cc1d53d468a10.jpg",
     "displayName": {
@@ -187,7 +191,7 @@
   },
   {
     "name": "TeamBattleMeatShield",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/06a8390e2f724f8c4adbd164e6b4590ac067c890.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/38c01a4136300e154f1b9a924419434f04b0072e.jpg",
     "displayName": {
@@ -200,15 +204,17 @@
       "schinese": "角色受到伤害达到1000点",
       "token": "NEW_ACHIEVEMENT_2_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "BearDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BearDamage",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "musclesofiron",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/c20235ed540887f2e23dea6db848781188511e5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/1673c6673ba0e5a7a288a73eef311df8e08320c4.jpg",
     "displayName": {
@@ -224,7 +230,7 @@
   },
   {
     "name": "TreeofLife",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/2c6613a9bfdf80fb01f22a439a9f5801e65f12b7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/1648c21fc78c2b4fe2874c2f4c7ec1be09d28c7d.jpg",
     "displayName": {
@@ -237,15 +243,17 @@
       "schinese": "生命累计回复1500点以上",
       "token": "NEW_ACHIEVEMENT_2_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1500,
-      "stat_name": "HPrecovery"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HPrecovery",
+        "min_val": 0,
+        "max_val": 1500
+      }
+    ]
   },
   {
     "name": "Humanoidfortress",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/676abae6a378e0c47873b90302d552b7c746d3cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/42833129de5d3cfa7dbfbda5b439486e089762af.jpg",
     "displayName": {
@@ -261,7 +269,7 @@
   },
   {
     "name": "Toweringgiant",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/9af56d0f91c10b34e5cc3ae67cf1f748eff92f3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/0f71d235e88d6a16c08fd2059bdb51dee5010a52.jpg",
     "displayName": {
@@ -277,7 +285,7 @@
   },
   {
     "name": "Commercialgiant",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/1fdc17982394be0aed1a4e7134aaa58a9bafaeb7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/c99d71b3803f785082744a20774504b1fead3062.jpg",
     "displayName": {
@@ -290,15 +298,17 @@
       "schinese": "在游戏中累计收获30000钱钱",
       "token": "NEW_ACHIEVEMENT_2_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30000,
-      "stat_name": "GetMoney"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GetMoney",
+        "min_val": 0,
+        "max_val": 30000
+      }
+    ]
   },
   {
     "name": "TheFlash",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/2435a501fb45da22878959abc79804201b91b605.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/6c26c49e83567df661a0fc0bb574637c658c5810.jpg",
     "displayName": {
@@ -314,7 +324,7 @@
   },
   {
     "name": "BOSSSlayer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/7859cd1aa6928d5cb1f28c7e50214e98ab46bd35.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/ffdaa8482b5fe4d8265ba9f96bf706eb4436114d.jpg",
     "displayName": {
@@ -327,15 +337,17 @@
       "schinese": "击杀5次boss或者精英",
       "token": "NEW_ACHIEVEMENT_2_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "BossKill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BossKill",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "eagleeye",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/756d9e3e3ca9111a9790556d3e3ec7dcc523e673.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/eca647e2d5219fbccd719b0fdb162af3e02c89f9.jpg",
     "displayName": {
@@ -348,15 +360,17 @@
       "schinese": "远程武器击杀怪物10000只",
       "token": "NEW_ACHIEVEMENT_2_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "Remotekill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Remotekill",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Upgrade",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/6d78aa0532ca8240e8b97eb8ddf756678a941987.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/f943aaed6fc96fd3276d0a4b6aaafe96bb498cce.jpg",
     "displayName": {
@@ -372,7 +386,7 @@
   },
   {
     "name": "Warlord",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/f64d4f9437350eaf5b1ea4fc2c8a0e7323d488cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/8885901f78a8c307777f65af85cf61868d394b05.jpg",
     "displayName": {
@@ -385,15 +399,17 @@
       "schinese": "在游戏中杀死100000只敌人",
       "token": "NEW_ACHIEVEMENT_2_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "KillNum"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillNum",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "Thestartingpointthejourney",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/df97259c1899eddd1c1fdac7afe8ec6ccd25f662.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/75e2e8437620c592bfd8df8fafa69df2f36bb7d2.jpg",
     "displayName": {
@@ -409,7 +425,7 @@
   },
   {
     "name": "eatanythingandeverything",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/abecfcac427b087a8a958de9062f56308cb5b65c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/94d1fcf618680fe58c47a1aa0d1d9bf40e3bbbaf.jpg",
     "displayName": {
@@ -422,15 +438,17 @@
       "schinese": "在游戏中累计吃掉100个汉堡",
       "token": "NEW_ACHIEVEMENT_2_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "EatNum"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EatNum",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ReversetheHeavenlyGang",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/f350a601e57e6e55e208ccbb600e978daf7d5f46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/da3cb87339af380bf682f863e7efaa6ce639facb.jpg",
     "displayName": {
@@ -446,7 +464,7 @@
   },
   {
     "name": "TheKingofMonsters",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/00201c5579c826918bbf845ed8302c99a79fef86.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/bfb15d4051ea6727b643cef4cbf301d7f67346e3.jpg",
     "displayName": {
@@ -459,15 +477,17 @@
       "schinese": "在游戏中累计杀死300000只敌人",
       "token": "NEW_ACHIEVEMENT_2_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300000,
-      "stat_name": "KillNum"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillNum",
+        "min_val": 0,
+        "max_val": 300000
+      }
+    ]
   },
   {
     "name": "TheGiftofFate",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/bdfb89971dcd45d0f59954dd01006f4e687f8b3b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/010f12960e8a4f95e92080bc621af29681d96d85.jpg",
     "displayName": {
@@ -483,7 +503,7 @@
   },
   {
     "name": "worshipmoneylikehislife",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/dfa56364c65a9489ddebd2466ce93318d46a0c3f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/a4273cbb6f24c44ca986ca9cad5ed6d53ec61f52.jpg",
     "displayName": {
@@ -496,15 +516,17 @@
       "schinese": "在游戏中累计收获50000钱钱",
       "token": "NEW_ACHIEVEMENT_2_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50000,
-      "stat_name": "GetMoney"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GetMoney",
+        "min_val": 0,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "UndergroundFinancialEmpire",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/5e50992641c95b9a60a1421e4ce56196357d5ec0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/5c03686579e3729d9e58d02090d23e7a5127abf9.jpg",
     "displayName": {
@@ -517,15 +539,17 @@
       "schinese": "在游戏中累计收获100000钱钱",
       "token": "NEW_ACHIEVEMENT_2_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "GetMoney"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GetMoney",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "generalist",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/4c3c7fd184fa61158906acf79a79ea50d58c5013.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/219d453313a464c55515a227ad6f8f1e792b8f99.jpg",
     "displayName": {
@@ -541,7 +565,7 @@
   },
   {
     "name": "Chase",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/15dad5a6afc766e6bf4f28aba79c8253c8c78d44.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/1b5dc67f8559565a447bbe521cecc9c2513be170.jpg",
     "displayName": {
@@ -554,15 +578,17 @@
       "schinese": "在游戏中累计杀死500000只敌人",
       "token": "NEW_ACHIEVEMENT_2_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500000,
-      "stat_name": "KillNum"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillNum",
+        "min_val": 0,
+        "max_val": 500000
+      }
+    ]
   },
   {
     "name": "Thetreasureissummoning",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/818410984a736685e810f0cce9cffef51ef4cc5c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/e88c59e7d59775d0e46c2eef5f4662fb999b3bf2.jpg",
     "displayName": {
@@ -575,15 +601,17 @@
       "schinese": "在游戏中累计获得100个宝箱",
       "token": "NEW_ACHIEVEMENT_2_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "GetBox"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GetBox",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "hitthetargetateveryshot",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/71a900a2c964bb6203edf37a1337d168dcee99ac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/4c3824868e508a51fb1c43adc98c982e7d53f462.jpg",
     "displayName": {
@@ -599,7 +627,7 @@
   },
   {
     "name": "Tobullythefewwiththemany",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/1cc5eb458b837f9ca8189608467e875792e45398.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/303b4984f6e0ff40935598680b9e2a0a5128e738.jpg",
     "displayName": {
@@ -612,15 +640,17 @@
       "schinese": "在游戏中累计召唤1000个召唤物",
       "token": "NEW_ACHIEVEMENT_4_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "call"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "call",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "Asunsetlikecolor",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/eb2cde28e47ba081ecc58f47d12eae4c45712c9d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/c30865071d45e7970b36e8e49e809b9beb993b6b.jpg",
     "displayName": {
@@ -636,7 +666,7 @@
   },
   {
     "name": "greatcatastrophe",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/45ecf27f9b66cce005711e6eabd71be8cfa9d5b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/e990b81ca92c5cabf64df35cfa97a905669df1ef.jpg",
     "displayName": {
@@ -652,7 +682,7 @@
   },
   {
     "name": "voodoo",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/8ecfb3cc580acf5076f42dcdd1e5961655b3f7e2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/0bce21178058dd86a2c07e2f5ab262849d500a57.jpg",
     "displayName": {
@@ -668,7 +698,7 @@
   },
   {
     "name": "precisionguided",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/161c6c500c9d2c69f891fe1a6d7d513e1e9f365c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/a353354722b8d647331a70790e298e790ace6883.jpg",
     "displayName": {
@@ -684,7 +714,7 @@
   },
   {
     "name": "Hellisalsonothingness",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/edd734c6fd98e414692743556f667aaa941e6fa7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/8c8714bdf25bcef9e1a8c754d20946e71e7f9d3d.jpg",
     "displayName": {
@@ -700,7 +730,7 @@
   },
   {
     "name": "Coronation",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/ddcb64b49e67d588d417a20683432cccd9c96b92.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/cc646f560e254a0edd89c9a093ae83651ba7d817.jpg",
     "displayName": {
@@ -716,7 +746,7 @@
   },
   {
     "name": "Bloodmustatoneforblood",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/b9f5cd3ab6c2d3f279a020370800ad214218e3c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/676ff63de34ee963c96fd05560fde9da26388c81.jpg",
     "displayName": {
@@ -732,7 +762,7 @@
   },
   {
     "name": "GreatDiscountsforCustomers",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/08220191dabdc452e5fe530b49becc6179c41f32.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/0b853077378e27be27442bd2ded05a05946a376b.jpg",
     "displayName": {
@@ -748,7 +778,7 @@
   },
   {
     "name": "AwakeningIntelligenceWeapons",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/cd5db37de28b1cf363e8c2f16f3a01e7750f72c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/12f53b90062aa01ea0a8ea531cb70d5031271088.jpg",
     "displayName": {
@@ -764,7 +794,7 @@
   },
   {
     "name": "Angelsdescendeduponme",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/c533b35cf362075fc1aebcebb4d1a45554d7c4ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/6d25de730bb63f3ee682ef12be7cba9898c5a345.jpg",
     "displayName": {
@@ -780,7 +810,7 @@
   },
   {
     "name": "treecomestolifeagain",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/1e3e7d68d9d2192e66baadf49bab355982f5ff44.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/a2f75a4253321ce4c642313d901db27321290e8f.jpg",
     "displayName": {
@@ -796,7 +826,7 @@
   },
   {
     "name": "Lifegrowthhappiness",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/2be97a33a867daa6d0737a3d99131b26b3addfff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/6546082fff81c423210b964e23a630213ce6057b.jpg",
     "displayName": {
@@ -812,7 +842,7 @@
   },
   {
     "name": "LuckyStrikeTechnique",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/3aa74d1650211a38506ba6b11018f7159cb2b4ca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/b6346dec9eef09db92d9603f335d1c60fd9bdf55.jpg",
     "displayName": {
@@ -828,7 +858,7 @@
   },
   {
     "name": "SecretTreasureintheLake",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/02abc0272ed0c138d3753914ef880d0c57e5767f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/0954e6cf3a18dfe7f085369bed9587627b20b833.jpg",
     "displayName": {
@@ -841,15 +871,17 @@
       "schinese": "累计获得150个宝箱",
       "token": "NEW_ACHIEVEMENT_4_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 150,
-      "stat_name": "GetBox"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GetBox",
+        "min_val": 0,
+        "max_val": 150
+      }
+    ]
   },
   {
     "name": "RepaymentBlood",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/05972db7b1d2e0768a157546fab65776970b8deb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/676ff63de34ee963c96fd05560fde9da26388c81.jpg",
     "displayName": {
@@ -865,7 +897,7 @@
   },
   {
     "name": "Flamesareburning",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/e3abf54790f8c20354aab72e6919ce0b8d91419b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/dc5021b364b916fa34f6fbf1f6c3f61b4c04d0d3.jpg",
     "displayName": {
@@ -878,15 +910,17 @@
       "schinese": "累计承受伤害3000",
       "token": "NEW_ACHIEVEMENT_4_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3000,
-      "stat_name": "BearDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BearDamage",
+        "min_val": 0,
+        "max_val": 3000
+      }
+    ]
   },
   {
     "name": "punishmentmetedoutbyGod",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/8ab17efc882c68e50110af15b13619f7d3a352f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/3430d647bbefbb300664c4d947df4cf0968e2fda.jpg",
     "displayName": {
@@ -902,7 +936,7 @@
   },
   {
     "name": "Devouringthings",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/1299ebe3f91ff6fb0aa17aedaca6073c5d006980.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/cbaa5ce9b20dfe69f759a3493fbdf47d5ea3c46d.jpg",
     "displayName": {
@@ -915,15 +949,17 @@
       "schinese": "累计承受伤害10000",
       "token": "NEW_ACHIEVEMENT_4_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "BearDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BearDamage",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Dualcultivationphysicalmethods",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/91821c1520015ae56bf89a01b3d38515d7525c08.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/54678b0182944041face874d08ddcd8fbdd6b70f.jpg",
     "displayName": {
@@ -939,7 +975,7 @@
   },
   {
     "name": "LostTreasure",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/5afcbe72ada08701f2109e3622a82e9daa849b2d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/ea1b698bed97e0763d81a074b1d566aef3ef4caf.jpg",
     "displayName": {
@@ -952,15 +988,17 @@
       "schinese": "累计获得300宝箱",
       "token": "NEW_ACHIEVEMENT_4_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "GetBox"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GetBox",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "gourmet",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/c28728d4bb48c5b4e946276e14e6be2a97b908a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/c4b79bbb17fdf60c47f4ce58a33c8ac645fd287a.jpg",
     "displayName": {
@@ -973,15 +1011,17 @@
       "schinese": "近战击杀20000名敌人",
       "token": "NEW_ACHIEVEMENT_4_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20000,
-      "stat_name": "Meleekill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Meleekill",
+        "min_val": 0,
+        "max_val": 20000
+      }
+    ]
   },
   {
     "name": "Dragonslayingwarrior",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/3de8ab21c75e8436366b56596e49d9fd0143ebb2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/1f519f134a386a3d2d113debfe8452b8e9345731.jpg",
     "displayName": {
@@ -994,15 +1034,17 @@
       "schinese": "远程武器击杀怪物20000只",
       "token": "NEW_ACHIEVEMENT_4_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20000,
-      "stat_name": "Remotekill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Remotekill",
+        "min_val": 0,
+        "max_val": 20000
+      }
+    ]
   },
   {
     "name": "Practicemakesperfect",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/c33ca8f137cf85fa5c65ec79f18f4f539d86be89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/639c892a80ef3131e04f2c5910252de6c7f163a5.jpg",
     "displayName": {
@@ -1018,7 +1060,7 @@
   },
   {
     "name": "Battlefieldfirstaid",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/6ee52164d0fccb5a9b4a65e99c835f327c2d466a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/a75567c52ce42575c6f6ca2d2395c84929b3ca16.jpg",
     "displayName": {
@@ -1031,15 +1073,17 @@
       "schinese": "在游戏中累计恢复生命值达到3000",
       "token": "NEW_ACHIEVEMENT_4_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3000,
-      "stat_name": "HPrecovery"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HPrecovery",
+        "min_val": 0,
+        "max_val": 3000
+      }
+    ]
   },
   {
     "name": "PrecisionManufacturing",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/e52cbdf479df3eea689751e04060480a8f409d30.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/fdb0a7cf69ed61f28e030e5b59e2d98229c6e394.jpg",
     "displayName": {
@@ -1055,7 +1099,7 @@
   },
   {
     "name": "MartialArtsSupreme",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/a57cad944528f1733deecafaef9ff3279fe3018e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/db3bb960ce045f0d917b98e70acd4cd542b74270.jpg",
     "displayName": {
@@ -1068,15 +1112,17 @@
       "schinese": "近战击杀25000名敌人",
       "token": "NEW_ACHIEVEMENT_4_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25000,
-      "stat_name": "Meleekill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Meleekill",
+        "min_val": 0,
+        "max_val": 25000
+      }
+    ]
   },
   {
     "name": "temptationsnakes",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/08f7dab4246edabdc1083e37f3db77a8779e4133.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/74d73df43db4309c981a7e9d08fe8cee174012e3.jpg",
     "displayName": {
@@ -1092,7 +1138,7 @@
   },
   {
     "name": "Deathknocking",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/72395ca4e84ff7c43653c467018ad91d87705f13.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/6709ef1d99d0f5e174c3d21d7e1f1a91753b4c56.jpg",
     "displayName": {
@@ -1105,15 +1151,17 @@
       "schinese": "在游戏中，累计死亡40次",
       "token": "NEW_ACHIEVEMENT_4_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "DeathNum"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DeathNum",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "Silentrecitation",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/ec4a7be15e85b3b23ee2aff9ae2c62f7ed8be601.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/a737bcab3bc8050e1942c05f9d34929866deb2ba.jpg",
     "displayName": {
@@ -1129,7 +1177,7 @@
   },
   {
     "name": "HolyLightabove",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/fda5cd13146c691f93ccc37ec732f7c9654226bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/e3b29e9248d910c15b2a1edb93655efe48b0a74e.jpg",
     "displayName": {
@@ -1142,15 +1190,17 @@
       "schinese": "在游戏中累计恢复生命值达到4000",
       "token": "NEW_ACHIEVEMENT_4_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4000,
-      "stat_name": "HPrecovery"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HPrecovery",
+        "min_val": 0,
+        "max_val": 4000
+      }
+    ]
   },
   {
     "name": "Toanothermeintheworld",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/6e804a3b2196da60583badd67818e5e0023991f0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/fc9d821b3d8c35af5ca830041bf54f66039ce012.jpg",
     "displayName": {
@@ -1163,15 +1213,17 @@
       "schinese": "在游戏中，累计召唤3000次召唤物",
       "token": "NEW_ACHIEVEMENT_5_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3000,
-      "stat_name": "Remotekill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Remotekill",
+        "min_val": 0,
+        "max_val": 3000
+      }
+    ]
   },
   {
     "name": "HellFineWine",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/5cc937dfcb15dba6eeb2b95484e3aaf0f88cd63e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3095600/f0c78bfcc993cd71ede930ded043daab541ff438.jpg",
     "displayName": {

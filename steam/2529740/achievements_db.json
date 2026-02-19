@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_WORLD_RECORD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2529740/4c9abc70a6bf2605c453a312219abbd9dbf4c16a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2529740/ffd4121e52b5b8d79433932979e1490985ff1a97.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_SAVED_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2529740/8f0f82455335ab5326eb16508788121135748008.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2529740/28803f64677834db8af7ac92bd4d3b4acf9b7462.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Total of 1000 chickens saved.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "SAVED_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SAVED_COUNT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_SAVED_10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2529740/dd2872a3f295fac79430d7a9213575adda6504fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2529740/36cf2d0aa6f3dfdbfccc2c8de47f7d5be4ee594b.jpg",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "Total of 10,000 chickens saved.",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "SAVED_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SAVED_COUNT",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ACH_KILL_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2529740/de8bf0da447eaee1f629bad95aa5b92cd71aaaf7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2529740/bdd0e54620088924d420076513cd747bfd86fb20.jpg",
     "displayName": {
@@ -64,15 +68,17 @@
       "english": "Total of 1000 predators killed.",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "KILL_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KILL_COUNT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_KILL_10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2529740/8c88c9f7c3b8b48783f1d45e8300e642edb06688.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2529740/9449beb152f620bfaa3a40d2def578b715c7602f.jpg",
     "displayName": {
@@ -83,10 +89,12 @@
       "english": "Total of 10,000 predators killed.",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "KILL_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KILL_COUNT",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   }
 ]

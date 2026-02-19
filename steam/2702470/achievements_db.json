@@ -1,7 +1,7 @@
 [
   {
     "name": "NEW_ACHIEVEMENT_1_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/9097239a4c621f56b4d770104be112c1c4ca9495.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/a94949da596d3171fc3d063b0534e752050bf578.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/51387e93c23ef825448e77fb3a68d21a3f7fb6fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/1bad7d77fb1b2fd8ce84c13b7e9849bc4efaac65.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/94e1d1f261aa87aaa9b33559a055169edd6a8357.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/bab803a1d4dc98008b0f38e0073b32eaf41d3c85.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/65f32319ab64c97af113cb2b0f4add65e5b29af2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/0722e8ca354746702af1203cd953a4baf9142d56.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/03b4e7269b08ea304b71721070da331de7f14e9a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/059ce6f8acebc1ffe539b26aa5d7d12ead5c7b29.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_8",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/27d3253e55369b69bc05967f8246f19d75d16b66.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/43547fa84b82abc612756e87cf082a92ee97784a.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_9",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/63b9855826793577b94f85ded57b356f0cf81f22.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/f9d9d70aaec77d22a89654d1c1a92027b6cc2b0d.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/831b7ca6b5e2870cc3c831c2fb795e6c57972e9b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/ee2e83152bbfc421788f1dd47d7570066b1ac61e.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_11",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/4f936d77e1011711a7404c4939d124255fec02a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/09880490f4b601e244e13e9f7f84f37de307644d.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Kill 100 Zombie",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_3"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_3",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_12",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/bdab8dcea02d768fef36cfc89e57dc71dafb951a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/20824a0927608f21880f359378b67b19b1b4567b.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Gather 1000 Wood",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "stat_4"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_4",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_13",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/ad55dc49b4b16a46d6761df6db99ae634904f105.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/b5e2a1c337087a6ef1733275b8105544cf62a0fc.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Gather 1000 Stone",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "stat_5"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_5",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_14",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/828ab61a4c90ae4897912f9f1d343beb1739c2e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/4e44c835e834efc7e61317af143b44c0acf6215e.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Gather 1000 Token",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "stat_6"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_6",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/86bdd1d13eb06a7d0def38e40e4e70f7ec9fbf2a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/468c783122e59bd6bd48802729aaa52b3a1350e9.jpg",
     "displayName": {
@@ -200,15 +208,17 @@
       "english": "Gather 5 Blueprints",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "stat_7"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_7",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_16",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/9b0783ebb2d0ff3ffed36b21860b9abfe7404d95.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/a4dae23d64dd7e1c0a70769bc430c15d0b7bce40.jpg",
     "displayName": {
@@ -219,15 +229,17 @@
       "english": "Discover 10 Buildings",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_8"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_8",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_17",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/509b56c92d5c6b173d58a23da636d8a57a9863aa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/3166280ab1a5ee483a1007e5662e0cf20a4f5a18.jpg",
     "displayName": {
@@ -238,15 +250,17 @@
       "english": "Kill 100 Birds",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_9"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_9",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_18",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/f61087e646ff3001b7353ad5461529bceb46b5e0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/8383ea688b69ab7fc4a30f8ef2e929149269cf3a.jpg",
     "displayName": {
@@ -257,15 +271,17 @@
       "english": "Kill 50 Fish",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "stat_10"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_10",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_19",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/2eb471c0c990e0a6e5e9fb1e75bb19e6169eb7b4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/e71ddb8c44317bcdbc41b6a31d44b1126caa15a6.jpg",
     "displayName": {
@@ -279,7 +295,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/36954f5e0c9d3df57fa234383d5a1c60ba5c3d4a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/74204a8ab2319d9faf08240dad27beca6c0a301d.jpg",
     "displayName": {
@@ -293,7 +309,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_21",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/ec75c34ec93a391a20c1ad86beab3ba5e66f16ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/36b53c8be53a4d1d8425563b2a88fd45b0fe0fb5.jpg",
     "displayName": {
@@ -307,7 +323,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_22",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/715a5dc8854701721d6929a7aed2a44ea8c2b673.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/58799561aa8b6843e124ae287185e214dff0a88f.jpg",
     "displayName": {
@@ -321,7 +337,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_23",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/5544313a19f79d23a691a4a756dd10ef093dd475.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/aa2c0f1ac9807505e2c41f4eef5f9edd79f5aeec.jpg",
     "displayName": {
@@ -335,7 +351,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_24",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/804f9febef67ffd2efe4abde3cccf2a570da6645.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/50886f365428158057f464ef20b82c2ea05edb4f.jpg",
     "displayName": {
@@ -349,7 +365,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/a71ed195843ede51942a88d72fea7f6a2abd2b4a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/6938a7264c86fc25ec39ca2da26589f95d4bbdbb.jpg",
     "displayName": {
@@ -363,7 +379,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_26",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/b9aa2ef11f0d3290f519a41041d0dab51dd466b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/4b2d1e24812d93a39c5ebd306830fa59db868ab6.jpg",
     "displayName": {
@@ -377,7 +393,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_27",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/6f1b50db6fd28731780da4546286c8e9efdfd135.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/00a333ecd453d953a3ff7f78e29b1969ed50905e.jpg",
     "displayName": {
@@ -391,7 +407,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_28",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/e77584635ef9b395795c71f624bbf95b81732fcf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/2d65ca5568d0b8d549ed7c0fcec0270f5eccaa9b.jpg",
     "displayName": {
@@ -405,7 +421,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_29",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/6921be60a37d35f820ac068f77b039aabf63c9dc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/c04e7d090bc4c1fbd27d25b53cec19178bf24a78.jpg",
     "displayName": {
@@ -419,7 +435,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_30",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/6d6529edcde24d8ddbf3e19c1a00f97f43d4c975.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/43ed6a8e6a070a64d47baba4b510321d6db2b6d6.jpg",
     "displayName": {
@@ -433,7 +449,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_31",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/9bcbd1d14a5215a1b079ebad2021ef0edcee6cd8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/2218add9fe877446e7da2e0e4f87ae241773386a.jpg",
     "displayName": {
@@ -447,7 +463,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_11_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/f1d32f16a59bbb10b45bdbdddc2047bc330ee7d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2702470/02e2c7bb4c89db51ee86ec2b2ffd9e1ca7de8aa8.jpg",
     "displayName": {

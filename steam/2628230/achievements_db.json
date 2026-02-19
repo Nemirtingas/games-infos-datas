@@ -1,7 +1,7 @@
 [
   {
     "name": "FIRST_STEP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "POWER_OF_FIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "HEART_OF_ICE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "LORD_OF_LIGHTNING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "UNITY_WITH_NATURE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "DARK_MAGIC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "MASTER_OF_AIR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "AQUATIC_POWER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "COMBINATOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Create 10 elemental Reactions",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "REACTIONS_CREATED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "REACTIONS_CREATED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "COMBINATOR_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Create 250 elemental Reactions",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "REACTIONS_CREATED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "REACTIONS_CREATED",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "LEGENDARY_SORCERER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "INVULNERABLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "BRUTAL_MAGICIAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -190,15 +194,17 @@
       "english": "Kill 1000 Enemies",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "ENEMIES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ENEMIES_KILLED",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "LORD_OF_MAGIC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -209,15 +215,17 @@
       "english": "Kill 5000 Enemies",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "ENEMIES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ENEMIES_KILLED",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "LOOT_COLLECTOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -228,15 +236,17 @@
       "english": "Collect 100 Modifiers",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "MODIFIERS_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MODIFIERS_COLLECTED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "MAGICIAN_RESEARCHER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -247,15 +257,17 @@
       "english": "Pass 3 Locations",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "BIOMES_CLEARED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BIOMES_CLEARED",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "FRIENDS_FOREVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -269,7 +281,7 @@
   },
   {
     "name": "TEAM_PLAYER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -283,7 +295,7 @@
   },
   {
     "name": "ELEMENTAL_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -297,7 +309,7 @@
   },
   {
     "name": "TIME_WIZARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -311,7 +323,7 @@
   },
   {
     "name": "BOSS_SLAYER_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -322,15 +334,17 @@
       "english": "Kill Mighty Ent",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "BOSSES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BOSSES_KILLED",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "BOSS_SLAYER_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -341,15 +355,17 @@
       "english": "Kill Genie",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "BOSSES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BOSSES_KILLED",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   },
   {
     "name": "BOSS_SLAYER_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -360,15 +376,17 @@
       "english": "Kill Dark Mage",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "BOSSES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BOSSES_KILLED",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "BOSS_HUNTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/56ffa5ae2953512482d655e4cc209040e56ca2cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2628230/f673893e6e232965cb63bf0c39d176a949ef3f20.jpg",
     "displayName": {
@@ -379,10 +397,12 @@
       "english": "Kill Felix",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "BOSSES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BOSSES_KILLED",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   }
 ]

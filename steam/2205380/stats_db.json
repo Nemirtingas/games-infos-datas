@@ -1,50 +1,57 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "STAT_ENEMY",
     "displayName": "Total enemies destroyed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10000,
+    "min": 0,
+    "max": 10000,
+    "default": 0
   },
   {
     "name": "STAT_MULTI",
     "displayName": "Multiplayer games won",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "STAT_SPENT",
     "displayName": "Money spent",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1000000,
+    "min": 0,
+    "max": 1000000,
+    "default": 0
   },
   {
     "name": "STAT_STREAK_START",
     "displayName": "Start day of current play streak",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": "MAX_INT",
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "STAT_STREAK_LENGTH",
     "displayName": "Length of the current play streak",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": -1,
+    "max": 30,
+    "default": -1
   }
 ]

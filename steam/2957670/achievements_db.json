@@ -1,7 +1,7 @@
 [
   {
     "name": "COMPLETED_CHAPTER_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/618c5eec4f0eb7ef1680a1b141faab7593c55a0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/3433d7d8243202e5b22272c1c7ea2d7a8c0aea24.jpg",
     "displayName": {
@@ -19,7 +19,7 @@
   },
   {
     "name": "COMPLETED_CHAPTER_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/a7231adae2e563edcc922879e9853f42e01e66b7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/d6d13057d11233f94758f5b062f4c09159b04cc8.jpg",
     "displayName": {
@@ -37,7 +37,7 @@
   },
   {
     "name": "COMPLETED_CHAPTER_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/29f4c0f091d682253892b11a1a50c391d57b5b36.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/b5e6ccd1cfb14458ce867ebd57bfaa48847a28b9.jpg",
     "displayName": {
@@ -55,7 +55,7 @@
   },
   {
     "name": "COMPLETED_CHAPTER_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/df5e19902094d1c1e504deef77594108891cb012.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/08d4614a0a8db3420ebc91c1cce2050e7ee060b8.jpg",
     "displayName": {
@@ -73,7 +73,7 @@
   },
   {
     "name": "COMPLETED_CHAPTER_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/ad7b19836032ae9f48a012147092c2ad013032cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/71e7a4aa8c8d7a394f29bfcd1f8c50b373b1bd8d.jpg",
     "displayName": {
@@ -91,7 +91,7 @@
   },
   {
     "name": "COMPLETED_CHAPTER_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/f5af1cc0a38c02d23fac0f1550c08c110d5db485.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/435e354fdbb425a36c81ea0e8ba84b86e00ccdaa.jpg",
     "displayName": {
@@ -109,7 +109,7 @@
   },
   {
     "name": "GOT_ALL_SPELLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/2aade730156c60f4dd398fd760bde742e3ca12d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/36515fa600d7d8040ccd48f34c372759e9b3d65a.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "CAST_CRC_SPELLS_N_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/e5120a288401f1c94ecb4f9ec1be72106d920c4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/1c73d302802730a3a4246e7c21f18f5221392899.jpg",
     "displayName": {
@@ -142,15 +142,17 @@
       "tchinese": "使用明心咒總次數達30次",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "CAST_CRC_SPELLS_TIMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CAST_CRC_SPELLS_TIMES",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "REPEL_FLYING_SKULL_DEMON_N_TIMES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/fdd696f420a88c7effa6390541175a4da135e785.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/6110ee774dde1417a0605c46df714595fe04580f.jpg",
     "displayName": {
@@ -165,15 +167,17 @@
       "tchinese": "對飛顱妖進行驅離行動超過4次",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "REPEL_FLYING_SKULL_DEMON_TIMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "REPEL_FLYING_SKULL_DEMON_TIMES",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "FIRST_CRAFTING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/3aacf830fb8be38dec3587ee3352d75256a30158.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/19c2f9ab6bfbf05f4f8026da8be7b37a20118a1d.jpg",
     "displayName": {
@@ -191,7 +195,7 @@
   },
   {
     "name": "MET_ALL_GOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/3f9a9e90a342908c14bd8ba095ff936a66be1ade.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/e977f94f60ea3aa5d78af3ead4c18dd813b16e79.jpg",
     "displayName": {
@@ -209,7 +213,7 @@
   },
   {
     "name": "SUCCESS_QTE_N_TIMES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/fa336ff88539ac08da7224eaa2d647942b48a6a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/4a109100ae6d212233df14323ca5987663a045c4.jpg",
     "displayName": {
@@ -224,15 +228,17 @@
       "tchinese": "成功甩開被鬼怪QTE攻擊總次數超過20次",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "SUCCESS_QTE_TIMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SUCCESS_QTE_TIMES",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "GOT_ALL_DOCUMENTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/947a5ce120f9a3bcccdb6904e0559f72d2307fa4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/ce9a58deb74cca4decc4fefbc22584648c21612e.jpg",
     "displayName": {
@@ -250,7 +256,7 @@
   },
   {
     "name": "GOT_ALL_KEY_ITEMS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/ce941470f8898ac7a6cf2c265b019c2314b7b98d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/ae50c3829140a614fa6a2207dc38cd8874695c84.jpg",
     "displayName": {
@@ -268,7 +274,7 @@
   },
   {
     "name": "REPEL_GHOSTS_N_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/a743186170e810799b7988a93e56f888c1e723b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/b9a525a803a7fef43b3b3a729ee0c8a0e8aa91d7.jpg",
     "displayName": {
@@ -283,15 +289,17 @@
       "tchinese": "成功驅離鬼怪總數達10次",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "REPEL_GHOSTS_TIMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "REPEL_GHOSTS_TIMES",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "FIRST_USE_SHRINE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/1822e2a768a6e3c51f829c317cd9b2fb3404ec0e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/f0c518c7d7a1aaffa1c4801dce206c515331d949.jpg",
     "displayName": {
@@ -309,7 +317,7 @@
   },
   {
     "name": "GOT_ALL_MATERIALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/18c4dbfec59e678a90f000b124984d0b22faf1d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/814db0ea387b4f3464d083f2476a229be1debe12.jpg",
     "displayName": {
@@ -327,7 +335,7 @@
   },
   {
     "name": "GOT_ITEMS_N_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/c2ff908ba3e8763d50d130cdfe28ca704700963c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/19ea859020b3e5651dadbb3772a184e18d90fd63.jpg",
     "displayName": {
@@ -342,15 +350,17 @@
       "tchinese": "拾取物品總次數超過150次",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 150,
-      "stat_name": "GOT_ITEMS_TIMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GOT_ITEMS_TIMES",
+        "min_val": 0,
+        "max_val": 150
+      }
+    ]
   },
   {
     "name": "COMPLETED_GAME_WITH_LIMIT_CAST_SPELLS_30_TIMES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/c26d9c71c50dfa69da96cca26bf5f53994e16bf9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/9be8a4aa6e76bcc421fb120d640145b9dddfe26a.jpg",
     "displayName": {
@@ -368,7 +378,7 @@
   },
   {
     "name": "COMPLETED_GAME_WITH_LIMIT_CAST_SPELLS_50_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/22dc518a6f68226dd835ce2f9497660262b322fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/dd6aba999fae6ae3c44ea8c197b7cdf5ad69543b.jpg",
     "displayName": {
@@ -386,7 +396,7 @@
   },
   {
     "name": "GOT_ALL_COLLECTIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/b4f2c3e48b4a131f04fadff8a1d5200322d68a4a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/0eac0c1767b500aa0a5e5d7b9c01c19868990556.jpg",
     "displayName": {
@@ -404,7 +414,7 @@
   },
   {
     "name": "HIDE_AWAY_GHOSTS_N_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/42aa2077adb88a8b3f1d6a5a4445d6fc9e5371fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/c94aff670ba41f8611030ee5af235601fff01050.jpg",
     "displayName": {
@@ -419,15 +429,17 @@
       "tchinese": "躲進衣櫃總次數達到10次",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "HIDE_AWAY_GHOSTS_TIMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HIDE_AWAY_GHOSTS_TIMES",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "GOT_ALL_TAMAGOTCHI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/7ea9e6646b43483e82c61934a925428be3470da6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/2a530d33c9237bd741f5194754a8feb874598191.jpg",
     "displayName": {
@@ -445,7 +457,7 @@
   },
   {
     "name": "GOT_ALL_REFRIGERATOR_MAGNETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/cbe34a96c54304a733a7fd84a287068552f2d05c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/ab0dad63b9e70c2c6a2afd1f18b01f1b095f8716.jpg",
     "displayName": {
@@ -463,7 +475,7 @@
   },
   {
     "name": "GOT_ALL_LUCKY_BRACELETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/500dd7337a4768e1b3ae35b2ee334f8c2b610e5e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/bb3ebf5bc32a3bdf66927095ea12941dcca0cb9e.jpg",
     "displayName": {
@@ -481,7 +493,7 @@
   },
   {
     "name": "PUPPET_TALISMAN_DESTORYED_BY_GHOSTS_N_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/0e013216afd8244537787a1685e1ae946f558af1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/8f58e38d306cc457f0a954840f7fdf713718143b.jpg",
     "displayName": {
@@ -496,15 +508,17 @@
       "tchinese": "成功使用虛儡符引誘鬼怪攻擊累計10次",
       "token": "NEW_ACHIEVEMENT_15_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "PUPPET_TALISMAN_DESTORYED_BY_GHOSTS_TIMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PUPPET_TALISMAN_DESTORYED_BY_GHOSTS_TIMES",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "GHOSTS_HIT_BY_EST_SPELL_N_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/350c780b382a6bbc52235c6d7adc4c65a9de20c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/d4f2b829851defec420f6eb91c616b819ad6759c.jpg",
     "displayName": {
@@ -519,15 +533,17 @@
       "tchinese": "成功使用封煞符定住鬼怪累計10次",
       "token": "NEW_ACHIEVEMENT_15_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "GHOSTS_HIT_BY_EST_SPELL_TIMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GHOSTS_HIT_BY_EST_SPELL_TIMES",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "MOTIONLESS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/f44921f76ba28ed39627ee76c01b7e5355ac448a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/47dd4db1774dc677709f71432ef54b643f7251ef.jpg",
     "displayName": {
@@ -545,7 +561,7 @@
   },
   {
     "name": "CHEN_SHOU_NIANG_SECOND_CHANCE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/5a40092f9e495d98354aca7610e085326011dda9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2957670/7737027c3f12088099a443c3f1081d91493a84d2.jpg",
     "displayName": {

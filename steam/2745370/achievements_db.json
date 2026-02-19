@@ -1,7 +1,7 @@
 [
   {
     "name": "RabbitHole",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/7a23cad998f725e2a414580247dea7de6848d71e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/8ce220d92da255df4dc479703ce97d775e6c5bf5.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "MudBoss",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/cc8b780a7bba84cfedd4ad96c78f364b43fec5d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/a60cf7de39a69707479275b60ea2a98a2d4ed91e.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Parkour",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/af4ba3b05afd8a7b81866db7dffa3b4c0c344fad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/807bb92b0f68e9954d072c0bcb37015e3ea327a4.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ParkourGold",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/e7f500017ab4fe30382ee8d534edec5494832cf4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/2ffc9cedc815f7527b6c8908fad2218ebbb4eaa0.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Flowers",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/fda4512ad872e184ae4d9e2022683a3ff4773114.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/155be7e8fc32a6bca3c789ea9e6557a6d63b3271.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Water every growable flower",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "Flowers_Flowers"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Flowers_Flowers",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "EnableExtra",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/9b2abbb2dcb18bb1e2c9a1d9aae9d27803714e9f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/d7af94c961f29107293630095c5d7a1ba681d8ab.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "AllExtras",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/9101547a44136a6651e3a6c024ec1d519dd5c242.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/ec252ae95a840435748f7c1827dd1d9c14507734.jpg",
     "displayName": {
@@ -101,15 +103,17 @@
       "english": "Get all extra collectibles",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 13,
-      "stat_name": "AllExtras_AllExtras"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "AllExtras_AllExtras",
+        "min_val": 0,
+        "max_val": 13
+      }
+    ]
   },
   {
     "name": "AllCheats",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/8f76543602b9b8236f2c3d554012c04e327e76f2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2745370/fc823590e1fba2ccf4e094e5f10636eee6dd8821.jpg",
     "displayName": {
@@ -120,10 +124,12 @@
       "english": "Unlock all cheat collectibles",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "AllCheats_AllCheats"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "AllCheats_AllCheats",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   }
 ]

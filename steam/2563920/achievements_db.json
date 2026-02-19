@@ -1,7 +1,7 @@
 [
   {
     "name": "LETS_RIVER_001",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/39fe0756dd24e6b8d2da25aa11451d3624bf3ce9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/cbc13324ebdb1c73caa735987b85a595a23123e7.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "LETS_RIVER_002",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/0a22b455925f72155420433bbe33f2f1632659a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/1376fa92cacd39dbd8c938ebe98fd0c6280b9510.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "LETS_RIVER_003",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/e3eb38f2357e266bad9d0067a8b6d381d8a58f07.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/dee0adeb0c4371884e764849245fb1214ca49328.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "LETS_RIVER_004",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/704ac633739c42033e3096467fab051c3733b460.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/1b624797a8c7f56276f270a0e2855af7b27ae924.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "LETS_RIVER_005",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/bd2bf0317225cf0eca7c643fa4035544a42ed39a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/1dfc8918ac72fc4baa31ff9357c7969520a496d8.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "COMP_001",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/83de4334f99f3b1633b0bfa9a5290322220dd608.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/265b0b6b59f0dd10b5e36028014fbf4b08e59a50.jpg",
     "displayName": {
@@ -94,15 +94,17 @@
       "japanese": "全ての衣装をコンプリートした",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "cloth_cnt"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cloth_cnt",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "COMP_002",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/4bc67554b8c08501c57d9c01545b836ff5e5cd78.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/5119ea332c16b3638cb33d90db7a6b4352945424.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "japanese": "全ての魚を釣った",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 27,
-      "stat_name": "fish_cnt"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "fish_cnt",
+        "min_val": 0,
+        "max_val": 27
+      }
+    ]
   },
   {
     "name": "COMP_003",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/e5f0cfbd4c7c5e95629354bb2b5093e71e0ad8ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2563920/983709cc934a9c5e77a5a5d354d0819c11afa404.jpg",
     "displayName": {
@@ -136,10 +140,12 @@
       "japanese": "全てのウオノエを獲得した",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "uonoe_cnt"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "uonoe_cnt",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   }
 ]

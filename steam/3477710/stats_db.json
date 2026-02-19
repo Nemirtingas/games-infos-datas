@@ -2,25 +2,31 @@
   {
     "name": "games_won",
     "displayName": "Games Won",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "games_dealt",
     "displayName": "Games Dealt",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "moves_made",
     "displayName": "Moves Made",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 999,
+    "min": 0,
+    "default": 0
   }
 ]

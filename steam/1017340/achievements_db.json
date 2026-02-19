@@ -1,7 +1,7 @@
 [
   {
     "name": "Welcome",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/c120b8d63c737ec2b6ca848eb67f857ddf92a410.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/92e7c5dfb51d733b94590ee9581eb61dc9f2045b.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Beginner",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/1f9653e3247d4c483ce424a5359ef1786f49de1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/7b352845af59fc0d58beef9f6c759c45098a315c.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Advanced",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/44ad9ae5dcaa3f8ff7dce7f83caa8b2ff4e85ac5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/fbb5d47582036e95e75ca853c056e46d32b46848.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Expert",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/54b5fc598822cc366db73074305e21eb421fe574.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/a49fafa23a54a5aaa0f34651ea74823215a78773.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "100kTourons",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/89fa0511f4688e6a02fd50112e57e428740b1ae2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/21b2771b96f3fd6516700ed7fcd2c8f2c4756dc3.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Gain 100 000 Turons",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100000,
-      "max_val": 100000,
-      "stat_name": "Tourons"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Tourons",
+        "min_val": 100000,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "100kExp",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/77c729ed987c25eb20f34d2b5f0166c84e375569.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/5e899ea28ada2e7f0119cb2eb41d847cde331b2c.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "You reach the top score for a month",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100000,
-      "max_val": 100000,
-      "stat_name": "FitPoints"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FitPoints",
+        "min_val": 100000,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "Sacrifice",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/12dfc9a5b6cbe2ef8e6992afd0169cd6c0076ac2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/036a949cd96aaec67f5c637e1d9a0255bf6ec5f3.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "you filled the cauldron with your blood during Halloween.",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 100,
-      "stat_name": "Filled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Filled",
+        "min_val": 100,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Beloved",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/af0a3f02ef15f358e2d059b9c078ede8156fa46b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1017340/a9c11251bb067abe0cb58d88d7613cf9d6eccf47.jpg",
     "displayName": {

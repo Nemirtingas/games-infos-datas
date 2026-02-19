@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FINISH_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/f7c22c81d7dfa62b35aa45a688512a407bcc42c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/bf3e760679d619a39239ab448c78f3158844040c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_EXHAUST_DIALOGUES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/960a3e446bf6d953eea97879b9cc003787a65979.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/e8f4cd480056cccdcb8385c8b03fe22172117c19.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_SAVE_PAVLO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/013990c8d73d96e5fc2b8077c5e8283b4d78bec1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/d40c67265fc1bc1e3c50509758742ee3db452f7d.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_ALL_CHARMS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/bb80f68cfbf6006ae64724351ad73f643a2ad8cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/6d91a5fbc419408f44fd40026f9ef13ab672d3c3.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_DEFEAT_INK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/c661c4a038ddc9455c0adce55feb6d2b9e3b20b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/8637a9eb799b473398a7a2e7b3f35fa6c5e66666.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_DEFEAT_LETO",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/c0db81bab77eecd204bf8a9c93b2c5d6ed5170a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/4c48e59e8507385e83083eb616084206648da700.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_FIRST_DEATH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/c0bbced111d5cd97a3dd4175ec82d0fb9f26f19a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/1d303444e4ac4b19c7285d7ea80a131a3e526896.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_ALL_UPGRADES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/a8004850efe4091b94106ad5ae52a3f72382a0fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/684364d127c7244a47047c18595b4c545c22c64a.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_SPEND_INK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/6a5473770e21532f2d811a90f4934e7270caa34c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/6982ffbaab8992f9919ae6460db1df00de6569a7.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Spend a 1000 Ink",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_INK_SPENT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_INK_SPENT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_MARTHA",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/b1c5ab6a2f2c3f2d63f0458aea8e6add3732f56d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3006080/35222bb8b7acbe260eae1e7392ecb33f32a3c337.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "win_a_game",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4037230/1b3d7609e0bf99d0d85fb9e2bda6a741373bf2ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4037230/8f175317e6a18621648f57ab20aed24f97c019e4.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Win a game.",
       "token": "NEW_ACHIEVEMENT_10_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "total_wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_wins",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "steal_100_ducklings",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4037230/4e4deb87293ac2f4e0aed6bd60cf2738e0e9cef3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4037230/4a0fb6e19d2167b135ab60fed0e99d92e5060278.jpg",
     "displayName": {
@@ -31,10 +33,12 @@
       "english": "Steal 100 Ducklings",
       "token": "NEW_ACHIEVEMENT_10_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 100,
-      "stat_name": "total_ducks_stole"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_ducks_stole",
+        "min_val": 100,
+        "max_val": 100
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_WIN_DEMO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_FULL_ARMY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACHIEVEMENT_TWENTY_GOLD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACHIEVEMENT_TIER_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACHIEVEMENT_PRESTIGE_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACHIEVEMENT_PRESTIGE_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACHIEVEMENT_FULL_GEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACHIEVEMENT_SACK_CITY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACHIEVEMENT_ROLL_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "ACHIEVEMENT_SHOP_PURCHASES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Make 10 purchases from the shop",
       "token": "NEW_ACHIEVEMENT_2_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "shopPurchases"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "shopPurchases",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_MAX_DIFFICULTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "ACHIEVEMENT_IRON_LEGION_COLLECTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "ACHIEVEMENT_HIGH_KILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "ACHIEVEMENT_COLLECTION_GEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "ACHIEVEMENT_COLLECTION_CONSUMABLES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "ACHIEVEMENT_SELL_ALCHEMY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -230,7 +232,7 @@
   },
   {
     "name": "ACHIEVEMENT_SLAY_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/278d86743fa12f6cafccdd041aaf7dc8a425cf29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3410010/af141263c81652996e34abf9abcd09fccc662fe4.jpg",
     "displayName": {
@@ -241,10 +243,12 @@
       "english": "Slay 1000 enemies in manual campaign battles",
       "token": "NEW_ACHIEVEMENT_2_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "unitsSlain"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "unitsSlain",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

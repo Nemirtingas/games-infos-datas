@@ -1,7 +1,7 @@
 [
   {
     "name": "LEVEL_1_FINISHED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/26cb346f1a0a0705d962fca811057cc110bae9b5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/383fb7fa6d9131b3382954e559ae30583ee09f1f.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "GET_STUCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/edec0fcaf32411bdeff80706a082c05b09ddd162.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/9c56dd86c820b392c8168791373d636a0aacab20.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "UNDO_MOVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/5513a8f80945b885c7bfbc35595116f958c18ddb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/03e2c3243ab3ebc56400ee9c068e4bf9d257ab0f.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ONE_MINUTE_DONT_MOVE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/844366727e31a0e9cf1cad4ed69f7a829c28ab9c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/36590ac00147da56f3acfc110667ea26911baa3b.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "1000_STEP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/d3e16b1cf2b330612273174cf774e7d90fbb59c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/b3ce638689e853fa7e87f702a6a36e0171f1ad2b.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Bunny or kangaroo? Oh, its a Frog!",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "jump_count_x_25"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "jump_count_x_25",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "MILL_FIRST_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/0788365bfbe405a4476378ce4eb8caf2e0c72a21.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/b0f8f3a4cdb2cc01758c1be85d18f012842c262b.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "FINISH_ONE_ONLINE_MAP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/3d4d5d7189f1d63d81688fdc3fddcb81750eb107.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/4c1d1d198923718a0033a93ca018172e07b9722c.jpg",
     "displayName": {
@@ -101,15 +103,17 @@
       "english": "Another player’s brain trap... and you actually escaped? Genius!",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "solved_online_puzzles"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "solved_online_puzzles",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "USE_MIRROR_FIRST_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/0e1333b574716dd3d5bf2985905f54fefa787bee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/64eade1cfc87398336e08ca9af1ecd64bc5c3c3b.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "USE_PORTAL_FIRST_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/61523420c2a837cf250729b7bfc8f52c14e3a595.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/5c9049232453dd4dd7dad258595dd24ef7ccd465.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "OPEN_UP_A_BRIDGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/d8d19b620ca2fdec79ca75635789e3a739226758.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/ef3295134f808d2443e1de50cad1ca1c5b014932.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "FINISH_10_MAP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/06bccf321b415aa19705ea48b0859dc5ad302f99.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/ab79cc4da072f956d13203baeb87e29864afd341.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Ten maps down! Are you leveling up already?",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "solved_puzzles"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "solved_puzzles",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "FINISH_HUB_MAPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/48792742e8b1816f448354f20104f3563da8c4d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/c0a8cb3b0f4f29b546f60df698f0739743931d8a.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "You've conquered the base game!",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 32,
-      "stat_name": "solved_puzzles"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "solved_puzzles",
+        "min_val": 0,
+        "max_val": 32
+      }
+    ]
   },
   {
     "name": "TALK_WITH_THE_WIZARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/92f08b0c3ceb06525dedce519ae862e916c50292.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2674200/476a10c919365bd5fd0f5553828af23c140dc79f.jpg",
     "displayName": {

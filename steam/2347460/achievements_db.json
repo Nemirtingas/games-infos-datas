@@ -1,7 +1,7 @@
 [
   {
     "name": "New_Start",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/49d61bc5f93f6b20a1891a5b3b048f6e722b73b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/aabc309d7687f92e16d6a1a68873fdc5da67ee65.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "Survived_10_Min",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/d1733f3dffb7e4cae7e29cd044ebe66bd23f3fbc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/54bc6fe056ecce6b5c774e0d32bda3df5f46aa5e.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "Survived_20_Min",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/b0c044a3d1ec9bd1d3730cf9d158d08c750b4987.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/9170c8f54d4940c0ba9b5f5ce82990a9b11e57e6.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "Survived_30_Min",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/8b2e07f236349f06d0579a3c4c2499a8a97f626b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/639c47589631d25afbd0dfe928060a9fc44e4a87.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "Healing_1000_HP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/709f9cda67181c1df7338eef4f9992e5a113f331.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/07d5d75069d5579700557d0a02a031d2269fc36f.jpg",
     "displayName": {
@@ -78,15 +78,17 @@
       "tchinese": "回復10,000點生命",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "Healing"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Healing",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Killing_10000_Enemy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/f02319faaf1950931be891a3eb5447eedfd43c69.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/3bad4ff0e4bec8d836c60dfef68336913a497fff.jpg",
     "displayName": {
@@ -99,15 +101,17 @@
       "tchinese": "擊殺10,000個敵人",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "Killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Killed",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Killing_100000_Enemy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/26c7c3a986e60aa617bf8aa057f88e9af2237901.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/3bad4ff0e4bec8d836c60dfef68336913a497fff.jpg",
     "displayName": {
@@ -120,15 +124,17 @@
       "tchinese": "擊殺100,000個敵人",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "Killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Killed",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "Killing_1000000_Enemy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/074f8a668a5616418163ce5d114c4fbebbce0148.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/3bad4ff0e4bec8d836c60dfef68336913a497fff.jpg",
     "displayName": {
@@ -141,15 +147,17 @@
       "tchinese": "擊殺1,000,000個敵人",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "Killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Killed",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "Unlock_Character_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/851b99f1f68c2fc1d9e90d51896a9e15cb238397.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/f9065e4db28eaf2986a05b2f67e9a3b20a14780d.jpg",
     "displayName": {
@@ -165,7 +173,7 @@
   },
   {
     "name": "Unlock_Character_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/5cc6eb1b2a7956af651fc355e3edcfde8930db57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/f367e5505ad0adf68e817c97ad46fddab20eef0c.jpg",
     "displayName": {
@@ -181,7 +189,7 @@
   },
   {
     "name": "Unlock_Map_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/5925e5b1e1a49a3a14b58fd126e0edd77b06de7b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/3d4fb4a613907f2aee9520ddb28d61615fe8f95f.jpg",
     "displayName": {
@@ -197,7 +205,7 @@
   },
   {
     "name": "Collect_Elements_Weapon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/10b0a01d7de2bec2764ca8e89ce078d0bb8d9858.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/8d9c3f8758fb7c978326ec5ffa7367090ee14fd5.jpg",
     "displayName": {
@@ -213,7 +221,7 @@
   },
   {
     "name": "Collect_Fireball_SP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/39209c4bfb928f3e469005a5cef73fb8635fa7d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/529b9ca15422f2a940af967fd8cfb03901c3efd6.jpg",
     "displayName": {
@@ -229,7 +237,7 @@
   },
   {
     "name": "Collect_IceSpell_SP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/1f73c25c4050125faffcbe83f786236fa1222dd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/edbdd5c818ba2e79d5a0f01e0ac62fab13934492.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "Collect_Poker_SP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/b3f77935570f7dd5a2bb486ac62a2c84c8719710.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/431a3af9935ca2b6a33dd5c12a04f1581ee5ac69.jpg",
     "displayName": {
@@ -261,7 +269,7 @@
   },
   {
     "name": "Collect_Sword_SP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/ce8d1767131d0c2d3b7db43c99fc298bfc22d01e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/4814838529aa460b49f58ebf9bcf96f22af95c80.jpg",
     "displayName": {
@@ -277,7 +285,7 @@
   },
   {
     "name": "Collect_Corssbow_SP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/65f28b9563f315745f570aa01d3f02250ec0d48f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/935102db3be874617583f2a163476e7d71f70e14.jpg",
     "displayName": {
@@ -293,7 +301,7 @@
   },
   {
     "name": "Collect_Trap_SP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/7d4ceb0d7b1d34e44deafdba658a77014f581b0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/499e3956b1ce51981db28ada84edb4531ede1b7f.jpg",
     "displayName": {
@@ -309,7 +317,7 @@
   },
   {
     "name": "Gold_10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/743d97c0c5201e2ae5dc268bb026770122048f84.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/d9d68f29b2ab85621017e3b6f7f9233680d0801a.jpg",
     "displayName": {
@@ -322,15 +330,17 @@
       "tchinese": "收集10,000金幣",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "Gold"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Gold",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Gold_100000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/45e54e0f38744c572f9059bae9dbbe0ccc54b0ea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/979249e54da92449f072778dcb00c9ae2db8f2d6.jpg",
     "displayName": {
@@ -343,15 +353,17 @@
       "tchinese": "收集100,000金幣",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "Gold"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Gold",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "Gold_1000000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/65c40f7797dc385919bbb5f6bc679becb7481523.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/697cc77befc678c26dab9afa799f769106debd2c.jpg",
     "displayName": {
@@ -364,15 +376,17 @@
       "tchinese": "收集1,000,000金幣",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "Gold"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Gold",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "One_Man_Army",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/75c290ac906f20114ff2172125922c71453e2421.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/a2c5c118adebb7b7f9bc039ca61395f48b8e080f.jpg",
     "displayName": {
@@ -388,7 +402,7 @@
   },
   {
     "name": "Kill_Boss_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/827e9ccd5466cefc5b3746a9bbe1f56c889edfa8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/3b9a9f7a50bc44ead3592354b374f0953a096572.jpg",
     "displayName": {
@@ -404,7 +418,7 @@
   },
   {
     "name": "Kill_Boss_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/4bc1f6a7d90b8f73b5e1ea18376bcc13b4ae4ef1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/3b9a9f7a50bc44ead3592354b374f0953a096572.jpg",
     "displayName": {
@@ -420,7 +434,7 @@
   },
   {
     "name": "Kill_Boss_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/d8f761b18c44a1b1febbdf82e09887f036c0bc82.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/3b9a9f7a50bc44ead3592354b374f0953a096572.jpg",
     "displayName": {
@@ -436,7 +450,7 @@
   },
   {
     "name": "Kill_Boss_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/9e5f4f49cce79bcb1b75740e06d7bf385badca14.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/3b9a9f7a50bc44ead3592354b374f0953a096572.jpg",
     "displayName": {
@@ -452,7 +466,7 @@
   },
   {
     "name": "Skip_At_Level0",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/ddddcf36a2a1eb48f337d49f261cdbdd7caee6c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/dbf22d0064618bc242c011e1d8de15da06d2f62f.jpg",
     "displayName": {
@@ -468,7 +482,7 @@
   },
   {
     "name": "Unlock_Map_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/87d0e4e9afef70054bd6cc72058d4c5132cf7dc7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/7397a7135656da6b5e446c919a173d74c19c0fdc.jpg",
     "displayName": {
@@ -484,7 +498,7 @@
   },
   {
     "name": "Kill_Boss_5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/cf11e645d3f821a7d951b20a7caa22342e825f62.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/7d931238733d30cb595c7c7a09f0b4146f50dffd.jpg",
     "displayName": {
@@ -500,7 +514,7 @@
   },
   {
     "name": "Discover_Boss_5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/6b81843770dfe4de0f10bbe96382e00f75cda3a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/866b4d6211ec83736ea94b0585cc4b13b4791aff.jpg",
     "displayName": {
@@ -516,7 +530,7 @@
   },
   {
     "name": "Discover_Lamp",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/df95a1f827ec169e058ce8ee93aea9e1c66ad5e9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/96e9981ec43bfdd18760b3f0db74625cc930731e.jpg",
     "displayName": {
@@ -532,7 +546,7 @@
   },
   {
     "name": "Unlock_Character_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/04ac6f08284b5b40edbe58c0bea496f707ef7987.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/a8179b265e2b4d31e1c078fae84195acdd3f025e.jpg",
     "displayName": {
@@ -548,7 +562,7 @@
   },
   {
     "name": "Kill_Boss_6",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/2cdaea6b60fbdb13f497cb421c4cc02242ec1301.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/7d931238733d30cb595c7c7a09f0b4146f50dffd.jpg",
     "displayName": {
@@ -564,7 +578,7 @@
   },
   {
     "name": "Discover_Boss_6",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/3480c33974a49ea6bc1ab31bd6193a9692259f39.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2347460/dbead943accbfa19e369cde4fe0fec7add824242.jpg",
     "displayName": {

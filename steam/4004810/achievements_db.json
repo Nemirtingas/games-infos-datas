@@ -1,7 +1,7 @@
 [
   {
     "name": "LEVEL_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/5859070300a9161bc12068fc26e8f62522f16328.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/add3753f14854e84ae165f39f13bc5437e385c2f.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "LEVEL_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/371b56ae83d9ebb0dcd09f94dcc8923a34cb0639.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/add3753f14854e84ae165f39f13bc5437e385c2f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "LEVEL_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/2475024b0719266526521d9e92199d18ae3c68bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/add3753f14854e84ae165f39f13bc5437e385c2f.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "LEVEL_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/ff21954ecf338b8f2efa1623fbbba59bdbcc87a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/add3753f14854e84ae165f39f13bc5437e385c2f.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "LEVEL_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/473b72f60a873dcdd51a4a9f597e7d36c330bc2a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/add3753f14854e84ae165f39f13bc5437e385c2f.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "LEVEL_6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/6d92b23c9641d684e3a918267cb80983a713d568.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/add3753f14854e84ae165f39f13bc5437e385c2f.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "LEVEL_7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/91ac932f6892415e3fb68a094462a73f62d1c6a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/add3753f14854e84ae165f39f13bc5437e385c2f.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "LEVEL_8",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/e565a3795ec1f13a07df75d2a40d897cc26a354b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/add3753f14854e84ae165f39f13bc5437e385c2f.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "LEVEL_9",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/245de74b66d93e1fde5fd461c4382ec14b9b84db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/add3753f14854e84ae165f39f13bc5437e385c2f.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "FOUND_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/e99ddea894d03efb50added8f64ee230f850dcb3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/add3753f14854e84ae165f39f13bc5437e385c2f.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Find a difference",
       "token": "NEW_ACHIEVEMENT_2_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "dinosFound"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "dinosFound",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "FOUND_25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/30c150831b5a70c36c37dada1f973e1c332cf439.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/add3753f14854e84ae165f39f13bc5437e385c2f.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Find 25 differences",
       "token": "NEW_ACHIEVEMENT_2_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "dinosFound"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "dinosFound",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "FOUND_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/459974b8957c126d26b1cc1eb7ccada39cd36d89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/add3753f14854e84ae165f39f13bc5437e385c2f.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Find 50 differences",
       "token": "NEW_ACHIEVEMENT_2_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "dinosFound"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "dinosFound",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "FOUND_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/36f4eebb0c92e95c922c756e6fbd2bee424cee53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004810/add3753f14854e84ae165f39f13bc5437e385c2f.jpg",
     "displayName": {
@@ -195,10 +201,12 @@
       "english": "Find 100 differences",
       "token": "NEW_ACHIEVEMENT_2_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "dinosFound"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "dinosFound",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

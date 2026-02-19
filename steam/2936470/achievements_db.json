@@ -1,7 +1,7 @@
 [
   {
     "name": "0_FirstBlood",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/62c224e12b9138ba4a60714e224ad68a104aed12.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "1_GoldenMountain",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/fccce4c717d66bb464206f11de3c08771da9a0d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "2_BloodGold",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/090ae957e12504c14b81dfa7dfc85ca2facb59ea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "3_CoalMine",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/0c1fae349c5f91d35a11ed44a962b3c0bf2b2767.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "4_Confederates",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bc3a175e7d73fc5b345a6e586af957f8e964d454.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "5_LastRide",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/df59653597203f175e0176cd9f0b100397042255.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "6_TruthLife",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/24d0b9a39c2b2e55e2db227cfaa30a0538ffe352.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "7_Avenger",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bdf0d214bfdab83bb9173cd817f27cff3ae19204.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Kill 50 ennemies",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "KillStat_KillStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillStat_KillStat",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "8_YankeeSoldier",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/2986dca9986f23e12377bfdcbfdf8a7c3222bab4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Kill 100 ennemies",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "KillStat_KillStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillStat_KillStat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "9_Gravedigger",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/8f6f0479cb89fba7dff3d7340b22687e86753374.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Kill 200 ennemies",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "KillStat_KillStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillStat_KillStat",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "10_Nurse",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/f582fefcddb2400c77da0132ed893a77a3723434.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Heal 10 soldiers",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "MedicStat_MedicStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MedicStat_MedicStat",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "11_Medic",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/8d82601792e6f97046a3d73d015579fb19565e1e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -186,15 +194,17 @@
       "english": "Heal 50 soldiers",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "MedicStat_MedicStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MedicStat_MedicStat",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "12_Surgeon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/284a0e5f781137d03b75a4a7beb7ed553543d549.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -205,15 +215,17 @@
       "english": "Heal 100 soldiers",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "MedicStat_MedicStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MedicStat_MedicStat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "13_EagleEye",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/8391e2ecc745699e10bde0c95765c92df4ba46b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -224,15 +236,17 @@
       "english": "25 kills with the captain's special ability",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "AbilityKill_AbilityKill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "AbilityKill_AbilityKill",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "14_Faster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/88b60be4031b6ff66f60fe031e536685626e9911.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -243,15 +257,17 @@
       "english": "50 kills with the captain's special ability",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "AbilityKill_AbilityKill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "AbilityKill_AbilityKill",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "15_Trigger",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/a730bd8e39dcf51d123b976f701c6bb98b304cd0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -262,15 +278,17 @@
       "english": "100 kills with the captain's special ability",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "AbilityKill_AbilityKill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "AbilityKill_AbilityKill",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "16_Fistful",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/69fa41761b790f0655fa5e083cbd04cfd042f2de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -281,15 +299,17 @@
       "english": "50 kills using dynamite",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "DynaKill_DynaKill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DynaKill_DynaKill",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "17_Duck",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/31c612c7c3fa48557825ba80de88fe0ca3eebbc1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2936470/bd9149ef35bad2627fd9492bb7e935963dfc0512.jpg",
     "displayName": {
@@ -300,10 +320,12 @@
       "english": "100 kills using dynamite",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "DynaKill_DynaKill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DynaKill_DynaKill",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

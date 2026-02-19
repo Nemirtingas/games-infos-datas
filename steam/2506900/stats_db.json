@@ -2,33 +2,39 @@
   {
     "name": "WonFights",
     "displayName": "Victories",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "PlayingAfterDemoEnd",
     "displayName": "Cheating",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "DeadGobs",
     "displayName": "Dead Gobs",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "AllDeadGobs",
     "displayName": "Party wiped out",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   }
 ]

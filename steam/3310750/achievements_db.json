@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_ORDERS_COMPLETE_FIRST_ORDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/736afcdb3b3c834cb6f8509a39acd8d2aeddde9e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/210075ed2773cfa08d55c0e7d9c54d4fbc549ec1.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_PLAYER_MOP_WHACK_CUSTOMER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/7a519ee7b7cdd1b8935250ed42fb8eb83761e057.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/d547d4fd837df626f1e96a7dc9dd5f213a698946.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACHIEVEMENT_PLAYER_MOP_WHACK_THIEF",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/e8fe9fb259dc1168aa84e7d44116d11cf52ec456.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/48a9252f3ca26da54b5ac9aaa6ae314b6e33c719.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACHIEVEMENT_ORDERS_COMPLETE_TEN_ORDERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/b938cd9b1a1d7c30aea05095862be8b34b6107aa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/37fcb4aa23ab020ff41c6ce9734cdb87a5354922.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Complete 10 orders",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_ORDERS_TOTAL_COMPLETED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ORDERS_TOTAL_COMPLETED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_ORDERS_COMPLETE_HUNDRED_ORDERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/d7c8a990649e4e063dabb790f7081549d6d0e950.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/01294a197dbd0be68f836c5c6d063ed6a65520c0.jpg",
     "displayName": {
@@ -73,15 +75,17 @@
       "english": "Complete 100 orders",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_ORDERS_TOTAL_COMPLETED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ORDERS_TOTAL_COMPLETED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_ORDERS_EARN_1000MK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/8d520e1401b6840f55e664f84289210ad2420cc7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/eb6f43e808ea387364a59f63c110837e1ae98c38.jpg",
     "displayName": {
@@ -92,15 +96,17 @@
       "english": "Earn 1,000 mk from orders",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_ORDERS_EARN_MK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ORDERS_EARN_MK",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_ORDERS_EARN_3000MK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/073c52026736d8bf7f2f5bf9619a5566388529a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/febde59c8144517f236f8a6f15ffbe997bb45e8d.jpg",
     "displayName": {
@@ -111,15 +117,17 @@
       "english": "Earn 3,000 mk from orders",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3000,
-      "stat_name": "STAT_ORDERS_EARN_MK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ORDERS_EARN_MK",
+        "min_val": 0,
+        "max_val": 3000
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_ORDERS_EARN_500MK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/34bb00a49c8644b74510d3fd59bb7548583037ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/821c86e03b901d776e711a9e62c1963115b77560.jpg",
     "displayName": {
@@ -130,15 +138,17 @@
       "english": "Earn 5,000 mk from orders",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "STAT_ORDERS_EARN_MK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ORDERS_EARN_MK",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_ORDERS_ANYTHING_YOU_WANT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/d47a9c6e231da97ed1a9d50b51bda138c72961eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/2af1d910ea58dc5ed82e761260004878d2fbd960.jpg",
     "displayName": {
@@ -152,7 +162,7 @@
   },
   {
     "name": "ACHIEVEMENT_PLAYER_MADE_ROWDY_CUSTOMER_LEAVE_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/47cbaf30d1c319146646b40d17c3032aa243b7d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/cb082721c4197efd2cb46eecbd4932b30672b00f.jpg",
     "displayName": {
@@ -166,7 +176,7 @@
   },
   {
     "name": "ACHIEVEMENT_RED_EYE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/99d1b40af4d4c7c845ce38edb518be277ef9b09c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/024567450185057a86850d5153a0876490658ae0.jpg",
     "displayName": {
@@ -180,7 +190,7 @@
   },
   {
     "name": "ACHIEVEMENT_LOYALTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/b3da00df2301c4e11eac150a64cc4c897ebfe261.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/8a1b612e37bec12ae5e8f6b290edc2ea6baab33f.jpg",
     "displayName": {
@@ -194,7 +204,7 @@
   },
   {
     "name": "ACHIEVEMENT_FULL_LOYALTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/21aa733ac0fbf57ac633266ea4d98cc25a63356f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3310750/27d09b5003e95d81f9493e62c070bcf6e8795b7f.jpg",
     "displayName": {

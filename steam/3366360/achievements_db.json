@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_UNLOCK_RIN_DOOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/7ba2911403ca0e9acc72705af42c719973f8e755.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/d5c31d8b5f9a6e30aa52cfb4042daa92c8dd4889.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_POWER_RESTORED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/8d51e8ba80d73715bc8f71f953d8ecc746f73fd0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/dcff503d927df8ee1352ba239283cbaa3b266630.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_ALL_PHONE_CALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/dae8c1195c87e832c04b7228be72e0fce6747a5d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/34de1bb53378f70d5efe750d379129b0b3aad333.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "拨打所有你能找到的电话号码",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "STAT_PHONES_CALLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PHONES_CALLED",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "ACH_RIN_TASK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/868ba1ff475ec204fb1d2018b535fe2681db2fc6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/d0e74431d7b33a6e0a5b401c304281a4dacbd9a5.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_WU_TASK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/36e589c7a9eaeb87a8ca6c1b496e344c6690fc1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/2d6c9ea5d3090d52f836cba967b090258b3acb1d.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_MAY_TASK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/5e2f9c172d356ba243c4583603f08dc61f386cb6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/2307a9c75e5fe234ebfadcc21262ed79bac53ef5.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_FIND_COAL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/10ecb33d0e59ebac9173af3b699f09e0ec71815d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/0a54a30d0e3f9c57c1c581ac37f47ef290ab9ed1.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_USE_GAME_COIN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/c5cb23ad2d86f2d865e428e0d39cdce5b262243e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3366360/ec59fb4e36de1dc3a0f893e12bcb905466d20f52.jpg",
     "displayName": {

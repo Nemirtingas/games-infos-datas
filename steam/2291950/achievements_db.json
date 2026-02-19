@@ -1,7 +1,7 @@
 [
   {
     "name": "MEMORY_ORBS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2291950/0a787757c9d7314d94f2870f09313921f499cd84.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2291950/86f283a8af8e5c43d070a7438a174e1f754a0878.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "You found all three memories",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "MEMORY_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MEMORY_COLLECTED",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "DESTROY_EARTH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2291950/4602ec6827c4892d51dea1baae4cbc9cdd6e6fb1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2291950/31b8a5852fb8eb0681d62a9801a45ee57b041d3a.jpg",
     "displayName": {
@@ -34,7 +36,7 @@
   },
   {
     "name": "STAY_AS_GOD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2291950/a6bc247d8b3168994c5a987cad531cbb811d29fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2291950/ccd9b76ebb18d0bc92eca9d4844eb41bccf36898.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "STRENGTH_COLLECTED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2291950/aed3582b4e5d9a091bc2261b142c4ebe2064d4a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2291950/0c7763bd7c53cbe2bb61fa787f89313114f286d0.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "FIRE_COLLECTED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2291950/4d4d7d954b72eb10c673daecb119ea021f50165c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2291950/523ecc1bbeea74974c47439a9f54f8cfaf228e89.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "TELEPORT_COLLECTED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2291950/a3e2b06ff199c5a65b7fe0df5e2bbba80c3021c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2291950/792ad961d9e2f33aa27bdc5e07ac927e7f41b31a.jpg",
     "displayName": {

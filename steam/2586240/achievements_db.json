@@ -1,7 +1,7 @@
 [
   {
     "name": "teleport_achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2586240/02beaedc488a733919873d095f8dcd23b6264304.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2586240/b824b8a3fc3dfc6967cf51de16d6dae16a454e7e.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "bank_achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2586240/0b75c928d78a591eda712df50b1305accb379867.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2586240/f66e5f39a79604789ebea01ee9f49d0b24612826.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "lives_achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2586240/9f8ea07b5598ae360d2d08eb9b773129c6e5fbae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2586240/252819789541073232093011a831c6d1c9c7a96d.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "smite_achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2586240/ce74d6a22202cbbb9424f1a95c5f2fc98c03d3af.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2586240/8b18032cfd767f4bbc0d3705ff290c71f326991d.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Call down lightning 100 times.",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "total_smites"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_smites",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "egg_achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2586240/8a0a2613e3f04f5ee28e0962db64d7f8f0ed20ca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2586240/f7e4ec67777628a942f90ef1c238493aced50ad3.jpg",
     "displayName": {
@@ -73,10 +75,12 @@
       "english": "Deal 1000 damage with eggs.",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "total_egg_dmg"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_egg_dmg",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

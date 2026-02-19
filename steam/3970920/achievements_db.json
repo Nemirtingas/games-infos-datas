@@ -1,7 +1,7 @@
 [
   {
     "name": "Level_NoHint",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/09896e42fac4f33f97f9fea4364c2b671050dab4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Level_Under_3min",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/572e3cab4fbbbc46de71904cba63bb61719ebb75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Complete_Level_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/aa3a0858fdf5b25c04216bf582e1f2afd6de3706.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Complete_Level_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/356a01f7839ad231a6801fdec583510a1fcba63c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Complete_Level_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/52474e8ab20e6fe4f8d446af23bba621ae0f16c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Complete_Level_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/2d973c30fa34f94ebfd9f0949ec4b23a7c982b67.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "Complete_Level_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4373ae490efdd7fce6c312d10986e1313b2cc39b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "Collect_100_Cats",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/858e34481d85c6d355ab7b361ed7b1b8e6a52a9e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Collect 100 cats during your journey.",
       "token": "NEW_ACHIEVEMENT_3_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "cats"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cats",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Collect_200_Cats",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/cee42568c8d11a89d4e6f03360155c2667c8627d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Collect 200 cats shining like gold.",
       "token": "NEW_ACHIEVEMENT_3_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "cats"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cats",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "Collect_300_Cats",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/249f8bff746ae5b7037eb489589cd8761a5cc288.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Collect 300 cats in the lost city.",
       "token": "NEW_ACHIEVEMENT_3_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "cats"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cats",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "Collect_400_Cats",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/84d18ec9a8365b8fc702eda4a50e718f5018d990.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Collect 400 cats, the ultimate feline treasure.",
       "token": "NEW_ACHIEVEMENT_3_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 400,
-      "stat_name": "cats"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cats",
+        "min_val": 0,
+        "max_val": 400
+      }
+    ]
   },
   {
     "name": "Collect_3_SpecialCats",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/d5845b43e126d2da0ababe366c0bfb0a00a4dcf6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -186,15 +194,17 @@
       "english": "Find 3 special cats hidden in El Dorado.",
       "token": "NEW_ACHIEVEMENT_3_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "specialCats"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "specialCats",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "Collect_6_SpecialCats",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4224dc47904df70f477c3c824e71ec38bb0e7b72.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -205,15 +215,17 @@
       "english": "Collect 6 special cats shimmering with ancient power.",
       "token": "NEW_ACHIEVEMENT_3_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "specialCats"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "specialCats",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "Collect_9_SpecialCats",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/473dc2dbde8aa77e9c46f9ac81ece2066bf17446.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -224,15 +236,17 @@
       "english": "Discover 9 special cats within the ruins.",
       "token": "NEW_ACHIEVEMENT_3_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9,
-      "stat_name": "specialCats"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "specialCats",
+        "min_val": 0,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "Collect_12_SpecialCats",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/f6de91b19fec9c4457920ce1fbf2cd6bd069dedf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -243,15 +257,17 @@
       "english": "Gather 12 special cats guarding the golden city.",
       "token": "NEW_ACHIEVEMENT_3_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 12,
-      "stat_name": "specialCats"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "specialCats",
+        "min_val": 0,
+        "max_val": 12
+      }
+    ]
   },
   {
     "name": "Collect_15_SpecialCats",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/d8f35186ad78264fb4f58f088a9ca5207b659c81.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3970920/4549a46dff823b67ada94284456e3bb5961b3c45.jpg",
     "displayName": {
@@ -262,10 +278,12 @@
       "english": "Collect all 15 special cats of El Dorado.",
       "token": "NEW_ACHIEVEMENT_3_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "specialCats"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "specialCats",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   }
 ]

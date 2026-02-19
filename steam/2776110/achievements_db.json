@@ -1,7 +1,7 @@
 [
   {
     "name": "FIRST_UNIT_PRODUCED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ALL_UNIT_TYPES_ALIVE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "PRODUCE_ALL_UNIT_TYPES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "WIN_AGAINST_COMPUTER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "WIN_AGAINST_COMPUTER_ALL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "MISS_SHOT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "DESTROY_ALL_BUILDINGS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "CAPTURE_ALL_FLAGS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "KILL_UNITS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2776110/",
     "displayName": {
@@ -124,10 +124,12 @@
       "english": "Kill 100 enemy units in total.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "UnitsKilled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "UnitsKilled",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

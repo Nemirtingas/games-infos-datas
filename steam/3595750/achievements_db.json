@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "FIRST_BOSS_DEFEATED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Defeat your first Abyssal Lord.",
       "token": "NEW_ACHIEVEMENT_3_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "BOSS_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BOSS_KILLED",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "DROP_ITEM_PICKED_UP_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "Collect 100 dropped items to survive.",
       "token": "NEW_ACHIEVEMENT_3_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "DROP_ITEM_PICKED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DROP_ITEM_PICKED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "FIRST_WEAPON_MAXED_OUT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -64,15 +68,17 @@
       "english": "Fully upgrade a weapon to its peak power.",
       "token": "NEW_ACHIEVEMENT_3_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "MAX_WEAPON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MAX_WEAPON",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "DOODADS_DESTROYED_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -83,15 +89,17 @@
       "english": "Destroy 100 objects in your path.",
       "token": "NEW_ACHIEVEMENT_3_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "DOODADS_DESTROYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DOODADS_DESTROYED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "WEAPON_DAMAGE_DEALT_10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -102,15 +110,17 @@
       "english": "Deal 10,000 damage with your weapons.",
       "token": "NEW_ACHIEVEMENT_3_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "DAMAGE_DEALT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DAMAGE_DEALT",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "BOSS_DEFEATED_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -121,15 +131,17 @@
       "english": "Slay 10 bosses and prove your might.",
       "token": "NEW_ACHIEVEMENT_3_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "BOSS_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BOSS_KILLED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "MINI_BOSSES_KILLED_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -140,15 +152,17 @@
       "english": "Defeat 10 mini-bosses that stand in your way.",
       "token": "NEW_ACHIEVEMENT_3_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "MINI_BOSS_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MINI_BOSS_KILLED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "MONSTERS_KILLED_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -159,15 +173,17 @@
       "english": "Slay 1,000 monsters and leave only ruin.",
       "token": "NEW_ACHIEVEMENT_3_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "MONSTER_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MONSTER_KILLED",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "SURVIVE_NO_DAMAGE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -178,15 +194,17 @@
       "english": "Survive a level without taking damage.",
       "token": "NEW_ACHIEVEMENT_3_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "SURVIVE_WITHOUT_BEING_HIT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SURVIVE_WITHOUT_BEING_HIT",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "GOLD_COLLECTED_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -197,15 +215,17 @@
       "english": "Collect 10,000 gold from the abyss.",
       "token": "NEW_ACHIEVEMENT_3_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "GOLD_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GOLD_COLLECTED",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "REVIVED_FROM_DEATH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -216,15 +236,17 @@
       "english": "Return from the brink of death.",
       "token": "NEW_ACHIEVEMENT_3_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "REVIVED_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "REVIVED_COUNT",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ULTIMATE_ACTIVATED_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -235,15 +257,17 @@
       "english": "Activate your ultimate ability 10 times.",
       "token": "NEW_ACHIEVEMENT_3_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "ULTIMATE_ACTIVATED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ULTIMATE_ACTIVATED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "SOLO_RUN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -257,7 +281,7 @@
   },
   {
     "name": "DUO_RUN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -271,7 +295,7 @@
   },
   {
     "name": "MAP1_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {
@@ -285,7 +309,7 @@
   },
   {
     "name": "MAP2_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3595750/",
     "displayName": {

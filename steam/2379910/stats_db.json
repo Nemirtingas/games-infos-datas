@@ -2,25 +2,30 @@
   {
     "name": "tiles_created",
     "displayName": "Building Made",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "default": 0
   },
   {
     "name": "props_created",
     "displayName": "Props Made",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "default": 0
   },
   {
     "name": "logos_unlocked",
     "displayName": "Logos Unlocked",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 0,
+    "min": 0,
+    "max": 5,
+    "default": 0
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "OAT_BEGIN_WAY_BACK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/d4abcb6e384396ef9b38ee2225b34f989224d427.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/143d951356893ca9a6d3b210558f59d9a4cac822.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "OAT_CHILD_IN_CAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/97f8d316d1555d850bb967bb3ccad36b9edcc0a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/9633da81c0b74d5580d8bd37c5be88960da0c32e.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "OAT_WOLF_TEASE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/6fde7b56d929d8cc11f489b328bd17908b8eea55.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/7b5418512c3846f912acce188c66db5c308792fb.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "OAT_FINISH_PART_ONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/9cce14f492f59ae594bbab432bacd1f82d3ea2cd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/46b7c252e7370e8fd8504bfb4bc1773f16d9e938.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "OAT_FINISH_PART_TWO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/84c426731e3293db52b384f317d1aaa9276e62db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/df5a296a21c5b3f1e1c2b6c8822b211746b28543.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "OAT_FINISH_PART_THREE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/8e3498989e16b34561f55b980f1ef8e129353c39.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/887cbe613b7709f69d0e74649b65545325b4bca7.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "OAT_END_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/2a7da6bbd11f62c3713a92f1b4e30715d6784fb4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/13d06b111514dace0124c23ec672d463f8e0f0fd.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "OAT_MANDRAKES_SECRET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/b3fe8ec62b067bb901c3d7d302c0ca7b7a065258.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/0d6de487b9ee798a5d645fbe82a91a6445126050.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "OAT_TRACASSIN_NAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/dd16c90e351d069556ec313ddce625e35a866bb7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/3194b96bd3b03b8cc4c2cafc4f444b6c7223d7d3.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "OAT_ALL_COLLECTABLES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/503e0ffc8b6a72b8bfa8d3ac98c18221ab8788e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/d83adc83be2c75c5688d86ddadadd6f6fad71097.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Find all collectables",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 64,
-      "stat_name": "COLLECTABLES_COLLECTABLES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COLLECTABLES_COLLECTABLES",
+        "min_val": 0,
+        "max_val": 64
+      }
+    ]
   },
   {
     "name": "OAT_LIGHTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/7b0b28322de7d7cd0b35b6f5e868cbe23ae1d0e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/1360472f9e824c75dc35b3b0773c53b72b2296f1.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "OAT_SLINGSHOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/3395a48f9ead8a0184f8008b171cbec5c57389d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/215e8e7792e281791aa1b02157c8b80f3ff2b264.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "OAT_SPINDLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/625e3d84a85dd67ba5b7910bdc12f6777cabaf69.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/e96661be0c4f13d881b5104729ec8cce6d783979.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "OAT_GIANTBOOTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/7b37e3c3e1c0e3ea46cf5475f85d6c7d505445cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/ecf04c36c45f3e6c49c12155657cca73fe1e88d7.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "OAT_PICKAXE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/ef3dce1abaf1c9a766de32c822fd3bd822412e77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/87661e6e14dc08f33e8f4f0106cab4ab5bacad75.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "OAT_ALARMCLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/c7b6d3dfc37db4178c471e18ab1aae1b8cbb00d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/6c668cf44e7aac73d704753687347f80f68b1f70.jpg",
     "displayName": {
@@ -230,7 +232,7 @@
   },
   {
     "name": "OAT_FALL_WET_RIVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/6f993abdabcb447e8a58f80502a1ae0de1aae577.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/d9e24cbf86c9385689ddb5530487629180229761.jpg",
     "displayName": {
@@ -244,7 +246,7 @@
   },
   {
     "name": "OAT_PINOCCHIO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/659f0e0da9b128332037c1e7cbb1520d2d86a9bf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/f2d920f73b60ed248785984ee59eaad839132d0e.jpg",
     "displayName": {
@@ -258,7 +260,7 @@
   },
   {
     "name": "OAT_HIDDEN_WALL_SECRET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/2eee3f521bf10204c6dcf0551df8b267000e9212.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/96cba5925cefb39cf6ffaef416caa9e280e7d42e.jpg",
     "displayName": {
@@ -272,7 +274,7 @@
   },
   {
     "name": "OAT_CHILD_SECRET_HIDING_PLACE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/3fab9fb41367ca30e54742e0f54521358163e86b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/53242395472e8339411a421c6d80ba91b3522d60.jpg",
     "displayName": {
@@ -286,7 +288,7 @@
   },
   {
     "name": "OAT_CATCH_LADY_BUG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/a5e7b3b777468304b3df03cd7efca98f54e43127.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/926e1caba15b2d999199906998e31ee580abb4f5.jpg",
     "displayName": {
@@ -297,15 +299,17 @@
       "english": "Try to catch all 5 ladybugs",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "LADYBUG_LADYBUG"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LADYBUG_LADYBUG",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "OAT_MOVING_BARREL_CHALLENGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/f84d69d2e8ec50c59baa01032340a0f4f8ec83ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032690/2026def388fe3c6487c806628a159367c02a008b.jpg",
     "displayName": {

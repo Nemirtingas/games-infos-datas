@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_UNLOCK_SCHOLAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/5421fec27dafdebfe120bf8f6a857626f0a356a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/d14fb7a46755df6260a9892c0b8b461565964336.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_UNLOCK_KNIGHT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/651f44990ea73af94f6ac8313399b0b937eb65fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/940ef2b3d54d2ca6d3648bf0e14c384df664f73f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_UNLOCK_DRAGONKIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/6241b9ca295a75f50b72c94d5479e7affa8fd627.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/da11e11a09a1829a4068fb812417c8cfbeb1bfb0.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_UNLOCK_SLIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/2fb1401de6dd06b9ae29a2619d21a2d6e679a1e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/e8084de39a3de5b6d156e0573e5daf50f7f0637d.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Kill 1000 Slimes",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_SLIMES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SLIMES_KILLED",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_UNLOCK_BERSERKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/7256a36ec96000ba56bd30f62028954e159c052f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/1840145cae2a27013c5e3893a129182c5cccbbda.jpg",
     "displayName": {
@@ -73,15 +75,17 @@
       "english": "Deal 1,000,000 damage",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "STAT_DAMAGE_DEALT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DAMAGE_DEALT",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "ACH_UNLOCK_GOLEM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/ee9457ba301f6889cca86a2e8ef113ade2a85b82.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/8a9b715b910aa1ec358f493f5ebac2db3080bc7a.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "ACH_UNLOCK_PEASANT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/8327d2d085c9d16f9f5da8d39c0689536cbfc3e7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/99b4e370bb5a885d193d89e3605ed62f5d61c2af.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_UNLOCK_WITCH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/727932ab594ebb3b1bda98fa7baadf5b72650cb7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/afe3709372cf19db3e5e0c70e22840d3c8a70c59.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_UNLOCK_PIXL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/5f125aa1fc5084b946ebad66992666048e8659f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/07358de36b70c770e12d5b6d80f7bc9b13b874e9.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Drop through platforms 100 times",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_PLATFORMS_DROPPED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PLATFORMS_DROPPED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_UNLOCK_ARCHSTAFF",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/d086cd3bd55746b0e16fc3de9e61de3990559f54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/33548f174ca875f66e1c0509331f2331c5c678c4.jpg",
     "displayName": {
@@ -156,7 +162,7 @@
   },
   {
     "name": "ACH_UNLOCK_BERPOTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/79d0580ccfaebe0096568401daad647ea1ed01dd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/b63482a949a8d252b24215f1a69a597f17d4c89d.jpg",
     "displayName": {
@@ -170,7 +176,7 @@
   },
   {
     "name": "ACH_UNLOCK_SCHOLARBOOK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/263886661b7b3f953a0aa3b4ee04527bcf9c8c93.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/3fd26baa1153d046010312706f074659d87d5098.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "ACH_UNLOCK_WITCHCAULDRON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/f7bf4031f6c2c37e4aeee442a6e58a5cc0fe5f12.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/ebd8ccf190a93c053827d766a1c03526204cb284.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "ACH_UNLOCK_GOLEMCORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/106f107f424be40f36f113a507794eb40b99b931.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/d86b92de976ddaad481af7b15c55fba3138b58c4.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "ACH_UNLOCK_HIGHMITER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/c45106939c59cc1441f6e10c3c852bd7361b7b38.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/68888de4beaa46914a41c5fb429373a729295d0c.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "ACH_UNLOCK_MYSTICGLOW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/e8fce740bf7506c182faee7cc797ec8033bd81fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/67515155f0849bd6d17678cedbdd8cb605dcfb2b.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "ACH_UNLOCK_APPROBE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/1d9993aa3da5381feb770b23eadb6db022b3b88c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/d63a2a29f9fe730938d1f0dd3cc3a15308efce3d.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "ACH_UNLOCK_DRAGONSCALES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/7b2b97156352b074b26aa4fe1058482ab0b5acee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/a1ef7933e0fb7645854a395e565eae539f1f64b4.jpg",
     "displayName": {
@@ -268,7 +274,7 @@
   },
   {
     "name": "ACH_UNLOCK_SLIMEBOTTLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/770c572f8293f5c00ca6014a3f4f8f72d2c7e67f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/45e5fe6882f3d668ac6cb015c06b145507c861ed.jpg",
     "displayName": {
@@ -282,7 +288,7 @@
   },
   {
     "name": "ACH_UNLOCK_KNIGHTSHIELD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/06878648b90f37741aaf2e377548471309331b80.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/f55b8a9a6cbf26603b43b6dc287184a3c7b36d29.jpg",
     "displayName": {
@@ -296,7 +302,7 @@
   },
   {
     "name": "ACH_UNLOCK_ELFHOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/d8176bf331724096a1965b37ac7de8400f502bf4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/58643ebd73b0ced6508602c99a03208456a316ce.jpg",
     "displayName": {
@@ -310,7 +316,7 @@
   },
   {
     "name": "ACH_UNLOCK_PITCHFORK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/450fec82deaecb2ba9b5a62253588ba9c421b63c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/33f4696bb44258da61a3a90e3ff76630bd728002.jpg",
     "displayName": {
@@ -324,7 +330,7 @@
   },
   {
     "name": "ACH_UNLOCK_HALFLING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/86e698d5a41f532083444b716756862da7228092.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/96689f759b693002a274194b74b453f37955e5b3.jpg",
     "displayName": {
@@ -338,7 +344,7 @@
   },
   {
     "name": "ACH_UNLOCK_ELITE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/85a331a5edc88fb08de81f221eb7b28256ac6f8d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/792c0b3ff0c8890380deab210f369c690632077f.jpg",
     "displayName": {
@@ -352,7 +358,7 @@
   },
   {
     "name": "ACH_UNLOCK_CYCLOPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/03165fd3048e750248995d924b1d8b9de804727e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/2fe5f8f18093e3af7f9b197f5bad38457b47a7c2.jpg",
     "displayName": {
@@ -366,7 +372,7 @@
   },
   {
     "name": "ACH_UNLOCK_MONK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/b17205b4172622c3b7f3d052ede817e1d45d3dd0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/aa257e802e74e701aaca86853f1a1ee59080b057.jpg",
     "displayName": {
@@ -380,7 +386,7 @@
   },
   {
     "name": "ACH_UNLOCK_HALFLINGORCHID",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/1be210874e0b6a68b0e33278d364d069436cbb4b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/e212df58de8c283f97205608f5746dac5c4849a4.jpg",
     "displayName": {
@@ -394,7 +400,7 @@
   },
   {
     "name": "ACH_UNLOCK_ELITEGLASSES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/67533524db3103aecf36c7afc6373184c492bc9c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/b544c9678201c708ad36735108191997621aa621.jpg",
     "displayName": {
@@ -408,7 +414,7 @@
   },
   {
     "name": "ACH_UNLOCK_CYCLOPSCLUB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/f6616783ccf713ff294ba065e0cecef40a1bcbe2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/3c1bebb2377d23519388355cea25084abc4bf8fd.jpg",
     "displayName": {
@@ -422,7 +428,7 @@
   },
   {
     "name": "ACH_UNLOCK_MONKBLINDFOLD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/4dfc7d7af264bd1b9f96d015ba8434d38cd8bd05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2556670/f7265de126df6a6dfbf99bbe74af26db66dd24bd.jpg",
     "displayName": {

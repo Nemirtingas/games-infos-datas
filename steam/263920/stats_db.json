@@ -84,8 +84,8 @@
     "aggregated": true,
     "maxchange": 10000000,
     "min": 0,
-    "max": 10000000000,
-    "default": 0.0
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "GLOBAL_PVP_KILLS",
@@ -238,8 +238,8 @@
     "aggregated": false,
     "maxchange": 10000000,
     "min": 0,
-    "max": 10000000000,
-    "default": 0.0
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "PVP_KILLS",
@@ -324,9 +324,9 @@
     "type": "float",
     "incrementonly": true,
     "aggregated": false,
-    "maxchange": 1000,
-    "min": 0,
-    "max": 1000,
+    "maxchange": 1000.0,
+    "min": 0.0,
+    "max": 1000.0,
     "default": 0.0
   },
   {
@@ -368,9 +368,9 @@
     "type": "float",
     "incrementonly": true,
     "aggregated": false,
-    "maxchange": 10000,
-    "min": 0,
-    "max": 10000,
+    "maxchange": 10000.0,
+    "min": 0.0,
+    "max": 10000.0,
     "default": 0.0
   },
   {
@@ -390,8 +390,8 @@
     "type": "float",
     "incrementonly": true,
     "aggregated": true,
-    "maxchange": 1000,
-    "max": 1000000000,
+    "maxchange": 1000.0,
+    "max": 1E+09,
     "default": 0.0
   },
   {

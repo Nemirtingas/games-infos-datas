@@ -1,7 +1,7 @@
 [
   {
     "name": "HEALING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3147610/af127e542660ee4f34de087f6bdac798ce940326.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3147610/61c64897ceeabc75e9e35cf5bc4ffaa01eaad75d.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ALL_MOTOR",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3147610/a9b5e42ddfe8a051dec5560255c0458c0cfc497f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3147610/054e7e3265fcb9bd0dde6e0a99494b20b1e2507b.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ALL_HELM",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3147610/091af3a071cd6918d36355b272d53706b97e19b3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3147610/cb37757fba6ab598ce6373272ee562acd4e9e419.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ALL_PHONE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3147610/675cb85667b0651b2a3390d4341eccce27ac67fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3147610/2fc885a74ac4db0ba43294aea51a9812d9a58d59.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "STYLISH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3147610/f6024ab3bec656e9b957773f1c634266a1866313.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3147610/01a51ecc1e38f52a98d57620be649e17b798be6f.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "FIRST1M",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3147610/6cc3571d6c9bf54578f4065490741592a93e318d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3147610/1887d5be7865b86f856156ad4b93487bd8ccb9c0.jpg",
     "displayName": {
@@ -82,10 +82,12 @@
       "english": "Reach first 1 million from order fee",
       "token": "NEW_ACHIEVEMENT_7_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10000,
-      "max_val": 1000000,
-      "stat_name": "order_income"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "order_income",
+        "min_val": 10000,
+        "max_val": 1000000
+      }
+    ]
   }
 ]

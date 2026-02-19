@@ -1,7 +1,7 @@
 [
   {
     "name": "FINISH_ANY_LEVEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/b030171b3b246f77e1d1692911ac9eef2534f9c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/2bcc9a3757540a9bb152729b4021943c4a7c5e61.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "NATURE_RESTORED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/fd9861303a0d7ecfe5c6e2919ef2311c6e7ed88d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/0f3cd9010e7c9b2f7770692c17dae435d34a9b4e.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "SEEDLING_STARTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/90d2072970ec7ca1e0b1c5e3a940fd5a2d6b27b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/1e48cb15bc6e9eaff7fb020003ea94ce5ec572e9.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "BLOOMING_EXPERT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/ebd64dcda8019fa4911d40d48fbd98ca07316bd9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/bfa0801ce266ffc0258bff3d2afade1ddfd7cc16.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "WILDRISE_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/b8b6189853d874f386ec84e94effb0587c012da1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/0cb17a06e004cc31c039aa7ec1b8970b19bb79b6.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "FLOWER_POWER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/5939436fb0426d18eb892ee8b29275834ae13efa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/3cc2d8a8c73bafe5cfe0ff983fd8e79fac42ab20.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Use Wildflower 100 times",
       "token": "NEW_ACHIEVEMENT_6_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "FLOWER_POWER_PROGRESS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FLOWER_POWER_PROGRESS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "BLAST_BOTANIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/919499c5095db62842a5377f313595d6f6f6f012.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/73ac71aaa59fbdb17af7a474072ebc9e5c791fe0.jpg",
     "displayName": {
@@ -101,15 +103,17 @@
       "english": "Use Mana Bomb 100 times",
       "token": "NEW_ACHIEVEMENT_6_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "BLAST_BOTANIST_PROGRESS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BLAST_BOTANIST_PROGRESS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "CONCRETE_CRACKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/f8860508f3b281fe37d0bca3b07d584b401873f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/9ab5131c3116abcb082aad8eb147f3771fed1fee.jpg",
     "displayName": {
@@ -120,15 +124,17 @@
       "english": "Clear 100 concrete tiles",
       "token": "NEW_ACHIEVEMENT_6_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "CONCRETE_CRACKER_PROGRESS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CONCRETE_CRACKER_PROGRESS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "NATURE_RISES_AGAIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/fceb5db531ba47e53890f9912a38657ec156b158.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/91ace076eb1f3beb711119760872c6431f37dc28.jpg",
     "displayName": {
@@ -139,15 +145,17 @@
       "english": "Clear 1000 concrete tiles",
       "token": "NEW_ACHIEVEMENT_6_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "NATURE_RISES_AGAIN_PROGRESS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NATURE_RISES_AGAIN_PROGRESS",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "FIRST_RENEWAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/cece2b32978e620b2d60a09886df25d9621351c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/ed9db164a671499c10a20c08f53c7dc7131385cd.jpg",
     "displayName": {
@@ -161,7 +169,7 @@
   },
   {
     "name": "PROFICIENT_GARDENER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/07501505daead83f61561d216688b5c86955871c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/69c898c2edccd2e5326f0bcd3abe3f9503b51bf6.jpg",
     "displayName": {
@@ -175,7 +183,7 @@
   },
   {
     "name": "NATURE_IS_TOUGH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/465d599eddf7af6585b928f093f123081a016f64.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/19fb1ada8fcff5d9a0ead9dbb41c4de1bb06bf80.jpg",
     "displayName": {
@@ -189,7 +197,7 @@
   },
   {
     "name": "ADORABLE_GUARDIAN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/2ff1bf6cd079092c19157768bd58d90a18cf85ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/2d367e147279845505bb6a4860b5d902b6807e33.jpg",
     "displayName": {
@@ -200,15 +208,17 @@
       "english": "Click on Floofi 100 times",
       "token": "NEW_ACHIEVEMENT_6_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "ADORABLE_GUARDIAN_PROGRESS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ADORABLE_GUARDIAN_PROGRESS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "AGAINST_ALL_ODDS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/2b4dd09620960e2679e3a796ed0542264b0b67a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/783fd68e817e232867ae2393edf68c8c6fc04df4.jpg",
     "displayName": {
@@ -222,7 +232,7 @@
   },
   {
     "name": "PERFECTIONIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/c4aeb44b77551c673df23c330a250c3d1888a512.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225790/f6c53e0554f15f836e0520486ee516b7d900d235.jpg",
     "displayName": {

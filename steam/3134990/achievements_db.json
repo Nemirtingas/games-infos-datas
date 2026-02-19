@@ -1,7 +1,7 @@
 [
   {
     "name": "DressCatfish",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/18a964c4e18f0d4ede178ace4691c7822b28f12b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/4dad587f1ab67f284838b362589ae2527564fe86.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "DressWhaleShark1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/73ec2096941bc0bf1ad5400025bcce86d7fe14f7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/6bf6de9d725d70b8331029adc06e36a6f8fe87d8.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "DressWhaleShark2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/c97f85ef5161726194b0fdffdf52b122b0b52f68.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/1d1a73825e40a0556d3015f5899f29743addc02a.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "DressShark",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/fc80c8c52b6d8a4d711dc5831394ce0feb3a13ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/db46e1bfd7e195d1463b22791504b10b288f5b07.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "DressClownfish",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/7365943bd3ce052ea07d31e5407a2a790984d918.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/255620b9b8f89926d9ff93ca08d46619b08777bb.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "DressSalmon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/102786ba2f17585a49285b8cd3edfa4bb204b243.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/b14b7b2b45352fd9d0b3e8d79c35951f7875fc34.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "DressSeahorse",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/1cc889f7dfd345dd543ae56fa45e8eb23a6ad057.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/1a05f4f776291a3b17781fbe5cc85f2ae4cb8652.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "DressPufferfish",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/d77861b6b68cbb33c3dfb9d5e2c1e41f04b3f7ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/322b074573e1770a664c297597fdfc11e21a1d01.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ManyParts",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/97d27af62d97586599233ea61b2a00da3c1a2459.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/393159637fe0c8052d176c4d43ed1db7c7d57ffc.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Create 200 parts!",
       "token": "NEW_ACHIEVEMENT_5_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "PartsCreated"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PartsCreated",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ManyFish",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/429e9f89d0b0404f58510f35888149be2047468d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/3898db30bd56f628761658a1df7a64960f36db9a.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Dress 20 fish!",
       "token": "NEW_ACHIEVEMENT_5_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "FishDressed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FishDressed",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "OneOfEachPart",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/915d36fa0753905a53f7be337fe77c4089059344.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/9196056498d36b3fba397e42be179e5304ad45be.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "Shimple",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/4e2284adaed0f40dec56c83f8a5dae071fe774c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/d74d93dbb37f9e4c38a35a440d4530e64547a356.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "Gothfish",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/1072df363066e83fe990884ed884a322fd8a59fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/e4796d3cf1e363f8f610ba542e4bffaf8cd292f4.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "Snowfish",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/09552a6b7fca17c911276337df6430df5c8c016b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/ea5256dd3746553e1d84c422c01ed9ad1e1b1058.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "Brightfish",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/8c4af59c69307362d9badab27ac14aed70e0a4e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/4e1920275c3a7324d8a4051adaa8d90c857f2006.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "Piratefish",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/bedd26fd6b2e2306e51cc06650ebe293c457f6df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/136b5c8d941571a10e5a23ba66a661b060abb048.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "Soup",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/91b8260bf0012069acc00818dd3ae462ae579ec3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/1476429265c836f72d5349b1f14ef0b81dd0ab15.jpg",
     "displayName": {
@@ -249,7 +253,7 @@
   },
   {
     "name": "SoupSoupSoup",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/6c069aec09a6fa91c4839b5582e24875bcd86cc0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/dd27bd9808c464cea1143ffc870f4248012e622c.jpg",
     "displayName": {
@@ -263,7 +267,7 @@
   },
   {
     "name": "KissFish",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/6e750315852ed778b46f0296e890826d495b81ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/57d322876a0e13710b8489dc0b2b51b522ad7753.jpg",
     "displayName": {
@@ -277,7 +281,7 @@
   },
   {
     "name": "KissFishMore",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/8dab28a0b39bcf5ac5eab7c6f4270f3fd5c4d185.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/ca52c9362aa8eeed989b8eb28feaf1702e56e05f.jpg",
     "displayName": {
@@ -288,15 +292,17 @@
       "english": "Kiss the fish 100 times!",
       "token": "NEW_ACHIEVEMENT_5_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "FishKissed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FishKissed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ProgressFish",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/39695a0b329625b32df3d4f234a6bb3600aa5e46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/0717b8d2c5b157d6e82a8aa614814f4b7b54f0fa.jpg",
     "displayName": {
@@ -310,7 +316,7 @@
   },
   {
     "name": "MakePicture",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/fb2a1ccdb6938199451c7036f3ba055565e53d6f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/28d56551203f5b6ffc3d4459d23bd3c2de70726c.jpg",
     "displayName": {
@@ -324,7 +330,7 @@
   },
   {
     "name": "MakeSticker",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/9bbfbc3d92a5f6df10a593d13496cfd24c0d595f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/46a99dea8abde8a8ee105a99389f9b8d4cb9852b.jpg",
     "displayName": {
@@ -338,7 +344,7 @@
   },
   {
     "name": "CursorTeeth",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/6c058f70997729327b8eb482db6143cb257eb996.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3134990/0429ac5bd8268b926531889a920d20faa44820e3.jpg",
     "displayName": {

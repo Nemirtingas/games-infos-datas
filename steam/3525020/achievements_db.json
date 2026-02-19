@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_IM_FREE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/7a5acb57bae4b9557f3e5fa092506516300af1c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/d7ad2eecf53cc8295b95656bd2263236b81b1ee4.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "ACH_STE_SMOKE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/0a4be1a293a4105a2985456e131bb5ac685ab90b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/21020d29fbf10e51b04287153a70bf511312da56.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "ACH_MKE_SHAKE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/1c4e3281a54f01501b6c894a909afdbdf30f7cd3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/bf48650c83628fb405d25d1af966ae3bd09526ea.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "ACH_VIP_ACCESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/52705ce01f9df0bb70ce03fc074498551e320f46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/9f12c48f9b32fab4979f783c23abccc392351c3d.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "ACH_TRU_FIRST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/91cddabcd7dc13feda360f5fa0dc3eb2c0b9f674.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/31eefd1b16ee201043bbff642ed1c6cf6d4a66a2.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "ACH_MAST_PERFORM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/44e18c835abed6966c63e22b07d49f01d78ee975.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/88c0cc6b5eeb3f06448c90b11af38d923b8f9d30.jpg",
     "displayName": {
@@ -97,7 +97,7 @@
   },
   {
     "name": "ACH_PEO_UNITED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/30e0cbefde162805546f8e1665d6504078b2dd2f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/db829b0839591d3766cb20f70625854f41bb9764.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_HAP_AFTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/46e7fde37de8f04e465a1103669c53a2138f687a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/af263cf5a518ac0ca256238a9fafdd92823f8343.jpg",
     "displayName": {
@@ -129,7 +129,7 @@
   },
   {
     "name": "ACH_TRE_HUNTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/42554f3a3bd8ed8c1c4b3ba55e4d1d9a806bd414.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/031722880496bb0141a9fe96b48d12b86033f267.jpg",
     "displayName": {
@@ -145,7 +145,7 @@
   },
   {
     "name": "ACH_MEN_PLEASE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/02801da95c90995aa6e4dda78f9f31a9cd9f074f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/3b87ffdd6d68031df2c3f7b0dcd833f5b8fc90bf.jpg",
     "displayName": {
@@ -158,15 +158,17 @@
       "spanish": "Escucha todas las sugerencias del camarero.",
       "token": "ACH_MEN_PLEASE_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "STAT_MEN_PLEASE_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MEN_PLEASE_COUNT",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "ACH_OPE_ISH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/2f13a7b6ffe1af5595a60de47f1fa7ec522bab62.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/b724fac75566e8eb16de71cad6ec0ee74d6eaea5.jpg",
     "displayName": {
@@ -179,15 +181,17 @@
       "spanish": "Canta 5 veces.",
       "token": "ACH_OPE_ISH_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_OPE_ISH_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_OPE_ISH_COUNT",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_DIO_SYNDROME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/2cf41ad1bdc734323d846011f9b56b39da6684ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/5c0e644cc1d343f3ce6b94a988bd665b69c18179.jpg",
     "displayName": {
@@ -200,15 +204,17 @@
       "spanish": "Recoge todos los objetos.",
       "token": "ACH_DIO_SYNDROME_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 24,
-      "stat_name": "STAT_DIO_SYNDROME_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DIO_SYNDROME_COUNT",
+        "min_val": 0,
+        "max_val": 24
+      }
+    ]
   },
   {
     "name": "ACH_GRA_RAMBLES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/6ab62d8336119cf30ff3f9bd40bb8e6a431674a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/26b43169c1d03a7f5ed18a94d72d8fb1704de3db.jpg",
     "displayName": {
@@ -221,15 +227,17 @@
       "spanish": "Escucha todo lo que tiene que decir Arnoldo Casimiro.",
       "token": "ACH_GRA_RAMBLES_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9,
-      "stat_name": "STAT_GRA_RAMBLES_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GRA_RAMBLES_COUNT",
+        "min_val": 0,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "ACH_MAP_MAKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/eefcaeea3ab66d44ff186f314b656f3cf66d98d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/1383afa4395108c745d29961c95d44153a5fad20.jpg",
     "displayName": {
@@ -242,15 +250,17 @@
       "spanish": "Desbloquea todas las localizaciones en el mapa.",
       "token": "ACH_MAP_MAKER_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_MAP_MAKER_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MAP_MAKER_COUNT",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_SHA_HOUND",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/50979f3a281ec4279a6f44fed1ca393adcebf2ac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3525020/28fdabced562f42e9cc81261a4e10abc2158985d.jpg",
     "displayName": {

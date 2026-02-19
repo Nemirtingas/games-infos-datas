@@ -2,57 +2,65 @@
   {
     "name": "enemies_destroyed",
     "displayName": "Enemies Destroyed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 99999,
+    "min": 0,
+    "max": 99999,
+    "default": 0
   },
   {
     "name": "repairs_performed",
     "displayName": "Repairs Performed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "kilometers_travelled",
     "displayName": "Kilometers Travelled",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 0.0,
+    "min": 0.0,
+    "default": 0.0
   },
   {
     "name": "missions_completed",
     "displayName": "Total Missions Completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "money_made",
     "displayName": "Profit Made by Trading",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "default": 0
   },
   {
     "name": "engine_hours",
     "displayName": "Hours Logged",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "default": 0.0
   },
   {
     "name": "gauntlets_completed",
     "displayName": "Gauntlet Scenarios Completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   }
 ]

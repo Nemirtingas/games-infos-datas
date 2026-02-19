@@ -1,34 +1,35 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "DF_RUNS",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "DF_ENTRIES",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": "MAX_INT",
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "DF_TIME",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": "MAX_INT",
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   }
 ]

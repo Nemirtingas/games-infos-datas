@@ -1,7 +1,7 @@
 [
   {
     "name": "Win_Casual",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/3adc92015cb073c00618ff18e15d60fdd1df860c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/7d849d14b195dcdacaf30c3a131c195f7cc123e2.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Win_Normal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/9cb998dfa9228833b20c22ec4fefa4f4d229fd87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/2339688381ed60a8a89027ff771f447a790fe866.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Win_Hard",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/cd58ea41783b17bcc89713096203e0eac99aa7c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/63ea92ed3565aa97249428f95b165f11303419af.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Win_Extreme",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/d16b41545fb6123beeb1fd7eba03cb9956198c14.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/ea313b2ea45f83fcbd3396bad108ccb83bd4f043.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Win_Hardcore",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/172536a952997bced73fac325dfcbe5a90cf26a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/3d68fdc4c1c7409ee19d8e46f995e784bd14eca0.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Win_Nightmare",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/565d0101d3af89f6210f4166f6e5419ca321525d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/f933d37a50922e75d736ff88f81251cea51a1ec9.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "SoulCollector",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/4fadc145aa36bbf0548e30a81e314bcf4cfb0d70.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/a4cfb00626731227534607b36c3d7154f74c5688.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Get 500. You're starting to feel the weight of the souls ",
       "token": "NEW_ACHIEVEMENT_4_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "Souls"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Souls",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "SoulCollector_II",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/13a4f09d1932926e167d03b116944be95791081a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/21c4a8d7eca7bee7d7396b65e66e275bd804b975.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Get 2K. You've gathered a significant amount of souls",
       "token": "NEW_ACHIEVEMENT_4_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 500,
-      "max_val": 2000,
-      "stat_name": "Souls"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Souls",
+        "min_val": 500,
+        "max_val": 2000
+      }
+    ]
   },
   {
     "name": "SoulCollector_III",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/cfb992ac7cb9612e6d98a5f1df51b0652aa44102.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/49e161d65207960a7f62173ec5c331c2955a2a8b.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "10k. Okey, I hope you've put such a large number of souls to good use...",
       "token": "NEW_ACHIEVEMENT_4_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 2000,
-      "max_val": 10000,
-      "stat_name": "Souls"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Souls",
+        "min_val": 2000,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "EnemyKiller_I",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/6a877d617f2d57b49faf446b1257958b92e1892a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/a316ca4ad52578e14d69f8efccf8d04ad8daf8cb.jpg",
     "displayName": {
@@ -153,15 +159,17 @@
       "english": "Kill 200 enemies. We could make you a fumigator.",
       "token": "NEW_ACHIEVEMENT_4_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "KillEnemies"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillEnemies",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "EnemyKiller_II",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/5c57fd4320e4dcb06d58542e86bb724b74f303cc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/df5e499cb1c456064cad091f741c2545cdf5ce85.jpg",
     "displayName": {
@@ -172,15 +180,17 @@
       "english": "1k enemies killed. You can be a hitman.",
       "token": "NEW_ACHIEVEMENT_4_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 200,
-      "max_val": 1000,
-      "stat_name": "KillEnemies"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillEnemies",
+        "min_val": 200,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "EnemyKiller_III",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/7599c62163c1ac4913a93f0ca327091f27cc3356.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/f13db4faf16ca38192ad9d93e7432f2ba77a4d58.jpg",
     "displayName": {
@@ -191,15 +201,17 @@
       "english": "10k Enemies eliminated. There's a place in heaven for people like you.",
       "token": "NEW_ACHIEVEMENT_4_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1000,
-      "max_val": 5000,
-      "stat_name": "KillEnemies"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillEnemies",
+        "min_val": 1000,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "BountyHunter_I",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/2377ace84e4ff5c2be8157acb5555a4d071c7466.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/ac8ae53faede29be0dbff9394641f48df39887fd.jpg",
     "displayName": {
@@ -210,15 +222,17 @@
       "english": "Loot 10 Items. It's like having a metal detector",
       "token": "NEW_ACHIEVEMENT_4_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "LootItems"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LootItems",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "BountyHunter_II",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/599e99c455f18b2a052563e03a85da96eb155e75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/5b0d60aa1b585bdd58c526f42a4ce1137727319d.jpg",
     "displayName": {
@@ -229,15 +243,17 @@
       "english": "Your hands are a little dirty... but they are full of treasures.",
       "token": "NEW_ACHIEVEMENT_4_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 50,
-      "stat_name": "LootItems"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LootItems",
+        "min_val": 10,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "BountyHunter_III",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/3e631a84c94e5fcb742a185c7b5a5f166e245c26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/653b8c93f00c488afdcdf140794e3d2bc0c11586.jpg",
     "displayName": {
@@ -248,15 +264,17 @@
       "english": "Is there anything you can't find?",
       "token": "NEW_ACHIEVEMENT_4_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 50,
-      "max_val": 200,
-      "stat_name": "LootItems"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LootItems",
+        "min_val": 50,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "BuyItems",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/4e77a01946eb2d1e2d6bf268eb3fe4c1819c5e52.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/304387137de965ea16bb443019ba123505b27693.jpg",
     "displayName": {
@@ -270,7 +288,7 @@
   },
   {
     "name": "GetMaxLevelWeapon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/0c829ceae9903c54462ae5a63d610af17e7705e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/ef1e125ec6beec9a3f4d00da3d7330428c03e758.jpg",
     "displayName": {
@@ -284,7 +302,7 @@
   },
   {
     "name": "Unlock_Lakota",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/106f0d39171b184510d3150c338065d36b6b3ba5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/577eb7985987a293c3bc6de6d79f70140318a251.jpg",
     "displayName": {
@@ -298,7 +316,7 @@
   },
   {
     "name": "Unlock_Gaucho",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/4287597f4c1636f7af0d59fd54d0a1614d041f9f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/a5cc520394ba1c07b0fcf983f6f5313494010407.jpg",
     "displayName": {
@@ -312,7 +330,7 @@
   },
   {
     "name": "DamageDone",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/598142daf106556970f52d37ab6452d56f848c61.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/2d23c4be94a6676f1d30232eb24bcacbc8f503c6.jpg",
     "displayName": {
@@ -326,7 +344,7 @@
   },
   {
     "name": "TreasureHunter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/849fcbac16a92df17ba57a599bce68418e2de0b4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/81bc1dd6b895829e0bab3e8dda5f1f0981aedb8d.jpg",
     "displayName": {
@@ -340,7 +358,7 @@
   },
   {
     "name": "Win_Samurai",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/6d5bcff99898c68d107e50a5b9b224f60a26b65e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/0d25f255d5691ae7b994ee5fa21ed63e83a245d6.jpg",
     "displayName": {
@@ -354,7 +372,7 @@
   },
   {
     "name": "Win_SwissGuard",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/48762551f07e9596cd9254eb747720d34a048518.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/b43008f3092c1226df0aa6b93ea8ef8fb0761fae.jpg",
     "displayName": {
@@ -368,7 +386,7 @@
   },
   {
     "name": "Win_Exorcist",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/4254cc65166434ef294c5e0315318708971b5d1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/87144bfb764265e846f3e75847e59252f65ab938.jpg",
     "displayName": {
@@ -382,7 +400,7 @@
   },
   {
     "name": "Win_LakotaWarrior",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/04cbd804eb9768df83822d9755a2edcfee251bb4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/b1aae740b222666a904693cdeeb7eec3c14e03c6.jpg",
     "displayName": {
@@ -396,7 +414,7 @@
   },
   {
     "name": "Win_ShaolinMonk",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/72906c6dae0272a4028f21456d9fa3f210bd916a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/cb7a0ea974e85c2b1f8db2dc8e4167aa26f5587a.jpg",
     "displayName": {
@@ -410,7 +428,7 @@
   },
   {
     "name": "Win_Gaucho",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/6d23a8826d63033b0251d450508b52487ce97064.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/f13542f10a5c0d9a4997c22edba4d50c3a413603.jpg",
     "displayName": {
@@ -424,7 +442,7 @@
   },
   {
     "name": "YourFirstDeath",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/ae6fdbb4cef42dbac31f8f76ecfcb4c8292728d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2376450/04dfc2b4439a31d69fdb1bf4e85f893d376dbf32.jpg",
     "displayName": {

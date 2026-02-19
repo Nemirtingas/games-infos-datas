@@ -2,49 +2,60 @@
   {
     "name": "stat_1_GamesPlayed",
     "displayName": "Games Played",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9999,
+    "default": 0
   },
   {
     "name": "TestButtonPresses_TestButtonPresses",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "HighestButton_HighestButton",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "DestroyWindows",
     "displayName": "Windows destroyed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "KillCounter",
     "displayName": "Players knocked out",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "WinCounter",
     "displayName": "Games won",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 500,
+    "default": 0
   }
 ]

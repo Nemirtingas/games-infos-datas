@@ -1,7 +1,7 @@
 [
   {
     "name": "FirstTime",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1814720/e333c1e96a9378b6b8cd5dabfe7e03fc1ebf5b75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1814720/71321b3e4114a3d5da4d1af46ca098a99fbe25a2.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "FirstCutscene",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1814720/29bf0c6f1b1c4f42e26d5f17baea09ebd68a9db5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1814720/3217accf103b5060a741fd2b48fad85b6cec6f41.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "level 1",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "CutScenes"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CutScenes",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "Ocult",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1814720/74950f1c9537ef1ac92b0de79e6beb2b75f9e983.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1814720/4122921315aebafb5bfab3bb87a9ab33cac6ea6f.jpg",
     "displayName": {

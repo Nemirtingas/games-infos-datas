@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_STE_Home",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2522370/6cda6fceb3a832fa6d8d41bac3689798f3f4047c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2522370/f3b4776db244b335639286fd348d438c81b51514.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "Complete Game",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "Home_Home"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Home_Home",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "NO_TURNING_BACK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/24f7dc021557506943d073aba671a23a9ce38da6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/41b9cc1f9c7e6bfa58fa36f8332b49cb27e4edf0.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "CHAIN_BREAKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/18c53fbf6e1e78700e42a729007a2a6c51499caa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/991c4909a1951bdbfa3528859c41d4bcad53c9b8.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "BOARD_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/fd56ae48e22c577d1d5ee4e84f0e982c94f1f8fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/620fe6eb2dd39de4d8b3a5707d0dde3cc449c5d6.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "SHINING_ARMOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/d78ff66c98e1554cbb70f92c15055cbac25b6bbc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/83156ab8e71432d6de58e9d05678e603bb886cd4.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "SO_BELOW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/7eb6c74075f352b37993274baf0c8d7622e2a9b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/4f355f1b8c9897cffb0d1278c47c8cd8eb55a876.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ESCAPED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/f37d539f9e6f0000f9997c431e0724ca0de4ea0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/2d41981e04e2a5a3b85e9d3e1ecc1defc2d5cf1f.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "COLLECTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/08e601694f630c833b2acf5c389db75909a3e1eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2242310/41b3d6c317662ce52bda87334028de20b38e69c1.jpg",
     "displayName": {
@@ -96,10 +96,12 @@
       "english": "Collected all the ancient coins.",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "COLLECTIBLES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COLLECTIBLES",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   }
 ]

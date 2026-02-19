@@ -1,314 +1,435 @@
 [
   {
     "name": "allEpisodesHard",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Legend"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Complete all episodes on maximum difficulty"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/1b35904c0b68835097baa50afbba46cf3968b626.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/177005a0da30a770b892f08eda9255e51a861da5.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/177005a0da30a770b892f08eda9255e51a861da5.jpg",
+    "displayName": {
+      "english": "Legend",
+      "russian": "Легенда",
+      "token": "allEpisodesHard_name"
+    },
+    "description": {
+      "english": "Complete all episodes on maximum difficulty",
+      "russian": "Пройди все эпизоды на максимальной сложности",
+      "token": "allEpisodesHard_desc"
+    }
   },
   {
     "name": "allWeaponUnlock",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Collector"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Unlock all weapons"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/41924a86590ac99ad46e4bc2b1c15111e68d5155.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/c95c950b13fdf59c91a6d7228d6c7e8ea89d8a4f.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/c95c950b13fdf59c91a6d7228d6c7e8ea89d8a4f.jpg",
+    "displayName": {
+      "english": "Collector",
+      "russian": "Коллекционер",
+      "token": "allWeaponUnlock_name"
+    },
+    "description": {
+      "english": "Unlock all weapons",
+      "russian": "Разблокируй всё оружие",
+      "token": "allWeaponUnlock_desc"
+    }
   },
   {
     "name": "killAnyDropObject",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Heads up!"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Kill a zombie with a falling object"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/8b6390483e3897311e81b557e69c48b39275a43f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/6d419fa1a00259fc2cd7d10234e1d138e1d38276.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/6d419fa1a00259fc2cd7d10234e1d138e1d38276.jpg",
+    "displayName": {
+      "english": "Heads up!",
+      "russian": "Береги голову",
+      "token": "killAnyDropObject_name"
+    },
+    "description": {
+      "english": "Kill a zombie with a falling object",
+      "russian": "Убей зомби, уронив на него что-то тяжелое",
+      "token": "killAnyDropObject_desc"
+    }
   },
   {
     "name": "pushAny1000",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Don't Touch Me"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Push back 1000 zombies"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/af2aa36127cc6000df3b97f7bbbb9554f6c68041.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/314ebf1405253368a804d34057f784bf9c84e16a.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/314ebf1405253368a804d34057f784bf9c84e16a.jpg",
+    "displayName": {
+      "english": "Don't Touch Me",
+      "russian": "Не подходи",
+      "token": "pushAny1000_name"
+    },
+    "description": {
+      "english": "Push back 1000 zombies",
+      "russian": "Оттолкни 1000 зомби",
+      "token": "pushAny1000_desc"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "pushAny1000_stat",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "anyNoDying",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Not Today"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Complete a mission without dying"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/e8572af464a3e5ddd98815d9a40746ca48c20559.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/992aa9547b26271889a0297bad8d3f006b065265.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/992aa9547b26271889a0297bad8d3f006b065265.jpg",
+    "displayName": {
+      "english": "Not Today",
+      "russian": "Не сегодня",
+      "token": "anyNoDying_name"
+    },
+    "description": {
+      "english": "Complete a mission without dying",
+      "russian": "Пройди любую миссию ни разу не умерев",
+      "token": "anyNoDying_desc"
+    }
   },
   {
     "name": "grenadePinTeeth",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Got my hands full"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Pull a grenade pin with your teeth"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/c42c1cf19ac91abf19de29b0c7db1519ed655354.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/f17f17b25adf5a775e1aa861261090fed2212d60.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/f17f17b25adf5a775e1aa861261090fed2212d60.jpg",
+    "displayName": {
+      "english": "Got my hands full",
+      "russian": "Руки заняты",
+      "token": "grenadePinTeeth_name"
+    },
+    "description": {
+      "english": "Pull a grenade pin with your teeth",
+      "russian": "Вытащи чеку гранаты зубами",
+      "token": "grenadePinTeeth_desc"
+    }
   },
   {
     "name": "lockWithButt",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "What's a key?"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Break a lock with a weapon butt"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/5143a5828d6cf53f39988abf2bd85854dac8a998.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/ac4ff6b5b173ef90f100603570b01a8d31074d0f.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/ac4ff6b5b173ef90f100603570b01a8d31074d0f.jpg",
+    "displayName": {
+      "english": "What's a key?",
+      "russian": "Ключ? Какой ключ?",
+      "token": "lockWithButt_name"
+    },
+    "description": {
+      "english": "Break a lock with a weapon butt",
+      "russian": "Разбей замок прикладом",
+      "token": "lockWithButt_desc"
+    }
   },
   {
     "name": "anyHardNoDying",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "You Only Live Once"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Complete any mission on maximum difficulty without dying"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/ff9add761923b7e265228b6e2716b06c0b1e362f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/c135ec5ae4fe711b6d245f2e53a2fd87cd4c4ce9.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/c135ec5ae4fe711b6d245f2e53a2fd87cd4c4ce9.jpg",
+    "displayName": {
+      "english": "You Only Live Once",
+      "russian": "Живем один раз",
+      "token": "anyHardNoDying_name"
+    },
+    "description": {
+      "english": "Complete any mission on maximum difficulty without dying",
+      "russian": "Пройди любую миссию на максимальной сложности ни разу не умерев",
+      "token": "anyHardNoDying_desc"
+    }
   },
   {
     "name": "newyorkHard",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Get to the choppa!"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Complete the New York episode on the Hard level difficulty"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/8a54d5c21b616c67e2df1f9105bf275bce794519.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/e27ff45cb7643a0f9ab5eafa28e2b2b4b75d7063.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/e27ff45cb7643a0f9ab5eafa28e2b2b4b75d7063.jpg",
+    "displayName": {
+      "english": "Get to the choppa!",
+      "russian": "Бегите к вертолёту!",
+      "token": "newyorkHard_name"
+    },
+    "description": {
+      "english": "Complete the New York episode on the Hard level difficulty",
+      "russian": "Пройди эпизод Нью-Йорк на максимальной сложности",
+      "token": "newyorkHard_desc"
+    }
   },
   {
     "name": "marseilleHard",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "From Marseille with Love"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Complete the Marseille episode on the Hard level difficulty"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/0d2a5662fd2225b77929f1ee863e574236528afb.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/cbf30eb06e9692b9fd6e20d6404cf1cc61a91275.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/cbf30eb06e9692b9fd6e20d6404cf1cc61a91275.jpg",
+    "displayName": {
+      "english": "From Marseille with Love",
+      "russian": "Из Марселя с любовью",
+      "token": "marseilleHard_name"
+    },
+    "description": {
+      "english": "Complete the Marseille episode on the Hard level difficulty",
+      "russian": "Пройди эпизод Марсель на максимальной сложности",
+      "token": "marseilleHard_desc"
+    }
   },
   {
     "name": "tokyoHard",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Onmyoji"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Complete the Tokyo episode on the Hard level difficulty"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/3c70d12db90a8efd82f73bf039e187cb2a00e702.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/de80dbb44f1d5a0f280c3184c2302320ec184bcc.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/de80dbb44f1d5a0f280c3184c2302320ec184bcc.jpg",
+    "displayName": {
+      "english": "Onmyoji",
+      "russian": "Онмедзи",
+      "token": "tokyoHard_name"
+    },
+    "description": {
+      "english": "Complete the Tokyo episode on the Hard level difficulty",
+      "russian": "Пройди эпизод Токио на максимальной сложности",
+      "token": "tokyoHard_desc"
+    }
   },
   {
     "name": "killAnyExplosion100",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Limb Shower"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Kill 100 zombies with explosive damage"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/f94a4779860f59820b6e3b7609f7e7ed92f042ea.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/468fa0fa31548b566668fbd6b1dec9edb33f3d38.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/468fa0fa31548b566668fbd6b1dec9edb33f3d38.jpg",
+    "displayName": {
+      "english": "Limb Shower",
+      "russian": "Мясной фейерверк",
+      "token": "killAnyExplosion100_name"
+    },
+    "description": {
+      "english": "Kill 100 zombies with explosive damage",
+      "russian": "Убей 100 зомби при помощи взрывов",
+      "token": "killAnyExplosion100_desc"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "killAnyExplosion100_stat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "KillAny100000",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Exterminator"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Kill 100.000 zombies"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/0466b293f756ce0bf822810b7f1268e9b0779908.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/bd655e573118e66f3800a5e49312dd87c87d6637.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/bd655e573118e66f3800a5e49312dd87c87d6637.jpg",
+    "displayName": {
+      "english": "Exterminator",
+      "russian": "Истребитель",
+      "token": "KillAny100000_name"
+    },
+    "description": {
+      "english": "Kill 100.000 zombies",
+      "russian": "Убей 100 000 зомби",
+      "token": "KillAny100000_desc"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "KillAny100000_stat",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "killEnemyBarrel",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "KABOOM"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Kill a zombie with a barrel explosion"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/718bc745ab4d99d444f903ce63010f9c869bc76c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/a1f0837432d286e253659fa0c5808efd2afa5a4d.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/a1f0837432d286e253659fa0c5808efd2afa5a4d.jpg",
+    "displayName": {
+      "english": "KABOOM",
+      "russian": "Бум!",
+      "token": "killEnemyBarrel_name"
+    },
+    "description": {
+      "english": "Kill a zombie with a barrel explosion",
+      "russian": "Убей зомби взрывом бочки",
+      "token": "killEnemyBarrel_desc"
+    }
   },
   {
     "name": "killInfector30",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Disinfector"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Kill 50 Infectors"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/1e5afc9e06c68b91435c18c97b0315ae670d0406.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/2a883d6593ac4bd9d601a7a9723bc3c843a718d2.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/2a883d6593ac4bd9d601a7a9723bc3c843a718d2.jpg",
+    "displayName": {
+      "english": "Disinfector",
+      "russian": "Дезинфектор",
+      "token": "killInfector30_name"
+    },
+    "description": {
+      "english": "Kill 50 Infectors",
+      "russian": "Убей 50 инфекторов",
+      "token": "killInfector30_desc"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "killInfector30_stat",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "killScreamer30",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Silent Knight"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Kill 50 Screamers"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/14cee86d2b62622cbb8633e9c946d20c1f555cf4.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/2f8bd45c3c1059f3abec697194876ac851b3c3e9.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/2f8bd45c3c1059f3abec697194876ac851b3c3e9.jpg",
+    "displayName": {
+      "english": "Silent Knight",
+      "russian": "Страж тишины",
+      "token": "killScreamer30_name"
+    },
+    "description": {
+      "english": "Kill 50 Screamers",
+      "russian": "Убей 50 скримеров",
+      "token": "killScreamer30_desc"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "killScreamer30_stat",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "killGasbag30",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Air Cleaner"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Kill 50 Gasbags"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/2a8487b29e5dcda1cb4d9230c914c262e3fc9800.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/ebe494fc91f0141c54dd7bd90c46991fed2866f8.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/ebe494fc91f0141c54dd7bd90c46991fed2866f8.jpg",
+    "displayName": {
+      "english": "Air Cleaner",
+      "russian": "Очиститель воздуха",
+      "token": "killGasbag30_name"
+    },
+    "description": {
+      "english": "Kill 50 Gasbags",
+      "russian": "Убей 50 газбагов",
+      "token": "killGasbag30_desc"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "killGasbag30_stat",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "killBomber30",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Sapper"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Kill 50 Bombers"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/ed7e90360356d3bab62eea69d8b7ca1e28f91b79.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/a2aef7c2bf69cdf8456b24f9080cfc591c21245d.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/a2aef7c2bf69cdf8456b24f9080cfc591c21245d.jpg",
+    "displayName": {
+      "english": "Sapper",
+      "russian": "Сапер",
+      "token": "killBomber30_name"
+    },
+    "description": {
+      "english": "Kill 50 Bombers",
+      "russian": "Убей 50 бомберов",
+      "token": "killBomber30_desc"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "killBomber30_stat",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "tutorial",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Not a rookie anymore"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Complete the Tutorial"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/04eee126f83465a386cabee82ab88e1c8e88b99d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/73ccb8638d9976e2311d85b32181c124c120e0fc.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/73ccb8638d9976e2311d85b32181c124c120e0fc.jpg",
+    "displayName": {
+      "english": "Not a rookie anymore",
+      "russian": "Больше не новичок",
+      "token": "tutorial_name"
+    },
+    "description": {
+      "english": "Complete the Tutorial",
+      "russian": "Пройди туториал",
+      "token": "tutorial_desc"
+    }
   },
   {
     "name": "playerLvl10",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Professional"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Reach player level 10"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/6c73b084b3bf0f16db4c66d7e18847ce5740b090.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/2bbd7ba844b567f42d3a3e30dcf5215c082ebb6c.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/2bbd7ba844b567f42d3a3e30dcf5215c082ebb6c.jpg",
+    "displayName": {
+      "english": "Professional",
+      "russian": "Профессионал",
+      "token": "playerLvl10_name"
+    },
+    "description": {
+      "english": "Reach player level 10",
+      "russian": "Достигни 10 уровня",
+      "token": "playerLvl10_desc"
+    }
   },
   {
     "name": "allEpisodes",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "I'm Here for the Story"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Complete all episodes on any difficulty"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/400874d5bd0a0bc235a5cbc0a7fedfcf6286cd5d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/ec96b15811ecbf15ff255baf27a521ef9d0ff62c.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/ec96b15811ecbf15ff255baf27a521ef9d0ff62c.jpg",
+    "displayName": {
+      "english": "I'm Here for the Story",
+      "russian": "Я здесь ради сюжета",
+      "token": "allEpisodes_name"
+    },
+    "description": {
+      "english": "Complete all episodes on any difficulty",
+      "russian": "Пройди все эпизоды на любом уровне сложности",
+      "token": "allEpisodes_desc"
+    }
   },
   {
     "name": "newyorkAnyDif",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Hero of Men"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Complete the New York episode on any difficulty"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/9acfc6e90a1a7b2332a321944b6f55bfb48d23fd.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/754803bcc7403aa6f112ddfb5004502d815b15dd.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/754803bcc7403aa6f112ddfb5004502d815b15dd.jpg",
+    "displayName": {
+      "english": "Hero of Men",
+      "russian": "Герой человечества",
+      "token": "newyorkAnyDif_name"
+    },
+    "description": {
+      "english": "Complete the New York episode on any difficulty",
+      "russian": "Пройди эпизод Нью-Йорк на любом уровне сложности",
+      "token": "newyorkAnyDif_desc"
+    }
   },
   {
     "name": "marseilleAnyDif",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Scientist Apprentice"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Complete the Marseille episode on any difficulty"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/85671414b38b69c83c1114b2a76b42f97e5e7d18.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/ea61045e6a9f6d7f3142dfd979cebaf3b4cf214c.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/ea61045e6a9f6d7f3142dfd979cebaf3b4cf214c.jpg",
+    "displayName": {
+      "english": "Scientist Apprentice",
+      "russian": "Помощник ученого",
+      "token": "marseilleAnyDif_name"
+    },
+    "description": {
+      "english": "Complete the Marseille episode on any difficulty",
+      "russian": "Пройди эпизод Марсель на любом уровне сложности",
+      "token": "marseilleAnyDif_desc"
+    }
   },
   {
     "name": "tokyoAnyDif",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Last Samurai"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Complete the Tokyo episode on any difficulty"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/78f2d87d1b91504d435406473d6509437ee801fb.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/45ab7f7be975a73fdc3ad7e1fbdd6eed1b0b0dee.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3362660/45ab7f7be975a73fdc3ad7e1fbdd6eed1b0b0dee.jpg",
+    "displayName": {
+      "english": "Last Samurai",
+      "russian": "Последний самурай",
+      "token": "tokyoAnyDif_name"
+    },
+    "description": {
+      "english": "Complete the Tokyo episode on any difficulty",
+      "russian": "Пройди эпизод Токио на любом уровне сложности",
+      "token": "tokyoAnyDif_desc"
+    }
   }
 ]

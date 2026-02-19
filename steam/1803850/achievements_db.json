@@ -1,7 +1,7 @@
 [
   {
     "name": "a1_complete",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/73ddd284d461664d1cc744b87217f67a7cc22dfc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/d06385459632c3e00cd59fb9d04ea91172eb1fd0.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "a2_complete",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/67e15516b9d44d6d59b476330c709d76b108d547.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/d06385459632c3e00cd59fb9d04ea91172eb1fd0.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "a3_complete",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/32d2c0cce292a0cf6fe3c7f277237587ff27dd01.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/d06385459632c3e00cd59fb9d04ea91172eb1fd0.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "a4_complete",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/8820a91882e4af5b732c21ecb0d528bb98173224.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/d06385459632c3e00cd59fb9d04ea91172eb1fd0.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "a5_complete",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/142af7a277007a7df6536543490678aba85a657f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/d06385459632c3e00cd59fb9d04ea91172eb1fd0.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ending1_redemption",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/5822af0d77e15556e6b0142bbb1625f457b87484.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/d06385459632c3e00cd59fb9d04ea91172eb1fd0.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ending2_coldblood",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/ae622302f23627de48df6d046ed46ffec5355830.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/d06385459632c3e00cd59fb9d04ea91172eb1fd0.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ending3_regret",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/978adbd583c7bf1cc27a397a787b6f9c0aa74657.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/d06385459632c3e00cd59fb9d04ea91172eb1fd0.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ending4_hopeless",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/f39a63e26ccc1485795cfbd693f6596beca8fb1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/d06385459632c3e00cd59fb9d04ea91172eb1fd0.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "endings_all",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/b0fb238c490cdf2bbd6d99a0b7df06ebf9546d89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/d06385459632c3e00cd59fb9d04ea91172eb1fd0.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "See everything the story has to offer",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "endings_all_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "endings_all_stat",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "data_read_all",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/720723b6f29706e13c8b8a0b7950fd55b396df1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/d06385459632c3e00cd59fb9d04ea91172eb1fd0.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Show your journalistic integrity by studying all of your sources",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 11,
-      "stat_name": "data_read_all_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "data_read_all_stat",
+        "min_val": 0,
+        "max_val": 11
+      }
+    ]
   },
   {
     "name": "a2s10_plushies",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/e328d1609d5359affdfa24ab664610c6f4558d85.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/d06385459632c3e00cd59fb9d04ea91172eb1fd0.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "a3s19_no_photos",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/19aeaa9eb90e4b86c8a23a5d7f34c12b6d01021e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1803850/d06385459632c3e00cd59fb9d04ea91172eb1fd0.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_UNLOCK_CHARACTER_TOAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/93208257735dcc66e70e1c3213fcb3304d35668f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/9ffe2399def0c2b5b9531892f617bea8180f526b.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHARACTER_GHOST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/711cb5227e151d1d9faae52d2c0772d01687bf0a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/9ffe2399def0c2b5b9531892f617bea8180f526b.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Die 10 times",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "total_deaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_deaths",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_UNLOCK_CHARACTER_KERMIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/2fa2a794513a79cc94d86bf64c864bec6413c7d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/9ffe2399def0c2b5b9531892f617bea8180f526b.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHARACTER_RIBBIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/f03a301d8aa34604e6ba4aa9956a668965d70dd3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/9ffe2399def0c2b5b9531892f617bea8180f526b.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHARACTER_THOMAS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/eccc6d39199a2b00713baf934af77625501a1c75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/9ffe2399def0c2b5b9531892f617bea8180f526b.jpg",
     "displayName": {
@@ -73,15 +75,17 @@
       "english": "Eat 20'000 bugs",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20000,
-      "stat_name": "total_bugs_eaten"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_bugs_eaten",
+        "min_val": 0,
+        "max_val": 20000
+      }
+    ]
   },
   {
     "name": "ACH_UNLOCK_CHARACTER_STANLEY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/5bd6eedc89db6290240f57d4c020ed2292d81bc5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/9ffe2399def0c2b5b9531892f617bea8180f526b.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "ACH_UNLOCK_FEATURE_SHOP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/af69731d1ccfa18e8d0019dfdaed61728b063265.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/6bb469aee76758a1752ac073743ef93a7fb2c9f0.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_UNLOCK_FEATURE_CHARACTER_SELECTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/664ff73bdc63562e33a57925a1b81ca85d3a7bba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/bf07ec40f83691f61be46e67a982d9f0642faa08.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_UNLOCK_FEATURE_ACHIEVEMENT_LIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/e98ea52819f414191cebc405a8f9c504e8ccdd68.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/7df93ea3e5ca40d4497e256ef3fbac2b592f1cf8.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "ACH_FINISH_RUN_WITH_CHARACTER_FROG_RESTOCK_SHOP_ITEM_XP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/46825bbc5928aee405e8bfe54113947135575374.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/a82e31ffbdbab3e60b4f244311ffb6e33cd622de.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "ACH_FINISH_RUN_WITH_CHARACTER_TOAD_RESTOCK_SHOP_ITEM_SLOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/963006cc8ff1b1721c764bd3adfbfdeb75b2194f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/4a9ffdb5be6e29c6f0356cb0dd272b9d1fce2eb9.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ACH_FINISH_RUN_WITH_CHARACTER_GHOST_RESTOCK_SHOP_ITEM_REVIVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/dcb1807b646a1183c827a9d69e2e10385f31907f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/a5ffba1b61f8fd135fcf9c4fcdde823a636b21db.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ACH_FINISH_RUN_WITH_CHARACTER_KERMIT_RESTOCK_SHOP_ITEM_SWIM_SPEED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/feab02dc2da465084cfb1d8fd44f19459036f860.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/e8d1323d19e7d40fff0dc852b02fde66aaf97fff.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "ACH_FINISH_RUN_WITH_CHARACTER_RIBBIT_RESTOCK_SHOP_ITEM_CURRENCY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/a85455b0081e3acce83c8146daef2e3c152daae4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/2715db5eb7228f4fd7fc029ad0d7a5ed0a7d773d.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "ACH_FINISH_RUN_WITH_CHARACTER_THOMAS_RESTOCK_SHOP_ITEM_CURSE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/936ba408570795cbae3f72124d3ff8d7d6eb0017.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/409b8b9e79c45195ee52bda0e2e1d0898099b341.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "ACH_UNLOCK_RUN_ITEM_CAT_TONGUE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/faa341eb7e32f817aec41276ed2f0229f69b9519.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/96820d3fbab74e4019c08c4d00a8a2a4a4a432e6.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "ACH_UNLOCK_RUN_ITEM_SIZE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/7967fa06b4c81a1c8b96dc894cf56464683d3763.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/c977b476c1d2ee935a5b7ed92142d360ed3f823d.jpg",
     "displayName": {
@@ -249,7 +253,7 @@
   },
   {
     "name": "ACH_UNLOCK_RUN_ITEM_VAMPIRE_TONGUE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/dc713bd845cb374d17182c7e3add23218a6df112.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/fcca5aa2679ae77dd090e424992c4658c44e15ed.jpg",
     "displayName": {
@@ -263,7 +267,7 @@
   },
   {
     "name": "ACH_UNLOCK_RUN_ITEM_SPEED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/1a9aa4faf72387873cb73a4de95c70155ce70040.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/54d7f053d2b3990bebc5c5837c92e30d1af544a2.jpg",
     "displayName": {
@@ -277,7 +281,7 @@
   },
   {
     "name": "ACH_UNLOCK_RUN_ITEM_HP_RECOVERY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/6038c113270c34c140e81ed3a624496e8ce7280b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/a459bde58f004abac7286953385c3b9366ba51c4.jpg",
     "displayName": {
@@ -291,7 +295,7 @@
   },
   {
     "name": "ACH_UNLOCK_RUN_ITEM_CURSE_TONGUE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/a4ff0cc1b8e113aec806bdd75d67607898a83890.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/d21e0a6bc2f766299a4d12708a65037691610130.jpg",
     "displayName": {
@@ -305,7 +309,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_FROG_CHAPTER_2_RESTOCK_SHOP_ITEM_HPMAX",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/d90ded8465c7a96b251acc2fdea7c6023a0746be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/9b67ccf9043bfd40762850baaeefb80dbe64b9fb.jpg",
     "displayName": {
@@ -319,7 +323,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_FROG_CHAPTER_3_RESTOCK_SHOP_ITEM_ATK_DAMAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/a03202572972880a718de4a31875ffb9b8061b04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/df31b9bf4c0a9bf039874c8e2eab42f0502f1877.jpg",
     "displayName": {
@@ -333,7 +337,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_FROG_CHAPTER_4_RESTOCK_SHOP_ITEM_WALK_SPEED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/857842397138e78a4f08c21355d1c104b289dd6b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/cf1caff8b22bb4d54b0e9a34d8965a68db852655.jpg",
     "displayName": {
@@ -347,7 +351,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_FROG_CHAPTER_5_RESTOCK_SHOP_ITEM_HP_RECOVERY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/f487f1dc615018b1946b8c8a1cb550b80ae20f23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/d0f5efc246c1e1070a6768bd17b8e85fe7c8f1e2.jpg",
     "displayName": {
@@ -361,7 +365,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_TOAD_CHAPTER_2_RESTOCK_SHOP_ITEM_ARMOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/226775543ea8087977fe7c7fd980be2aa9e30c4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/6b8c2f7d31370779ca2a2cb8ad1d9eb65dc7c06a.jpg",
     "displayName": {
@@ -375,7 +379,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_TOAD_CHAPTER_3_RESTOCK_SHOP_ITEM_HPMAX",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/d90ded8465c7a96b251acc2fdea7c6023a0746be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/9b67ccf9043bfd40762850baaeefb80dbe64b9fb.jpg",
     "displayName": {
@@ -389,7 +393,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_TOAD_CHAPTER_4_RESTOCK_SHOP_ITEM_ARMOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/226775543ea8087977fe7c7fd980be2aa9e30c4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/6b8c2f7d31370779ca2a2cb8ad1d9eb65dc7c06a.jpg",
     "displayName": {
@@ -403,7 +407,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_TOAD_CHAPTER_5_RESTOCK_SHOP_ITEM_ATK_SIZE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/2e37b09b8aad3242417b2eb93e34abcda646c8ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/cd25800b1e5c94987ec3b1026cf4b0bb94b940b3.jpg",
     "displayName": {
@@ -417,7 +421,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_GHOST_CHAPTER_2_RESTOCK_SHOP_ITEM_HP_RECOVERY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/f487f1dc615018b1946b8c8a1cb550b80ae20f23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/d0f5efc246c1e1070a6768bd17b8e85fe7c8f1e2.jpg",
     "displayName": {
@@ -431,7 +435,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_GHOST_CHAPTER_3_RESTOCK_SHOP_ITEM_ATK_SPEED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/e1f7c5435b0479ddad542d749dc58c32d95a0fce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/77771cf226bc7fa57f9754c83278499b0f2163b0.jpg",
     "displayName": {
@@ -445,7 +449,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_GHOST_CHAPTER_4_RESTOCK_SHOP_ITEM_WALK_SPEED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/857842397138e78a4f08c21355d1c104b289dd6b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/cf1caff8b22bb4d54b0e9a34d8965a68db852655.jpg",
     "displayName": {
@@ -459,7 +463,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_GHOST_CHAPTER_5_RESTOCK_SHOP_ITEM_ATK_SPEED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/e1f7c5435b0479ddad542d749dc58c32d95a0fce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/77771cf226bc7fa57f9754c83278499b0f2163b0.jpg",
     "displayName": {
@@ -473,7 +477,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_KERMIT_CHAPTER_2_RESTOCK_SHOP_ITEM_ATK_COOLDOWN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/61d8d969631e6314b41d26bd7980c6a5fb8a1206.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/e5e48d14546896482184187fa7001dd2e358aead.jpg",
     "displayName": {
@@ -487,7 +491,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_KERMIT_CHAPTER_3_RESTOCK_SHOP_ITEM_ATK_RANGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/abb03592cc8db698582c235f71f1e937a4038f4e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/098ab043949de19ca02148c6f331f69f3811d5eb.jpg",
     "displayName": {
@@ -501,7 +505,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_KERMIT_CHAPTER_4_RESTOCK_SHOP_ITEM_WALK_SPEED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/857842397138e78a4f08c21355d1c104b289dd6b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/cf1caff8b22bb4d54b0e9a34d8965a68db852655.jpg",
     "displayName": {
@@ -515,7 +519,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_KERMIT_CHAPTER_5_RESTOCK_SHOP_ITEM_ATK_COOLDOWN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/61d8d969631e6314b41d26bd7980c6a5fb8a1206.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/e5e48d14546896482184187fa7001dd2e358aead.jpg",
     "displayName": {
@@ -529,7 +533,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_RIBBIT_CHAPTER_2_RESTOCK_SHOP_ITEM_ATK_RANGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/abb03592cc8db698582c235f71f1e937a4038f4e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/098ab043949de19ca02148c6f331f69f3811d5eb.jpg",
     "displayName": {
@@ -543,7 +547,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_RIBBIT_CHAPTER_3_RESTOCK_SHOP_ITEM_HPMAX",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/d90ded8465c7a96b251acc2fdea7c6023a0746be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/9b67ccf9043bfd40762850baaeefb80dbe64b9fb.jpg",
     "displayName": {
@@ -557,7 +561,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_RIBBIT_CHAPTER_4_RESTOCK_SHOP_ITEM_ATK_SPEED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/e1f7c5435b0479ddad542d749dc58c32d95a0fce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/77771cf226bc7fa57f9754c83278499b0f2163b0.jpg",
     "displayName": {
@@ -571,7 +575,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_RIBBIT_CHAPTER_5_RESTOCK_SHOP_ITEM_HP_RECOVERY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/f487f1dc615018b1946b8c8a1cb550b80ae20f23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/d0f5efc246c1e1070a6768bd17b8e85fe7c8f1e2.jpg",
     "displayName": {
@@ -585,7 +589,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_THOMAS_CHAPTER_2_RESTOCK_SHOP_ITEM_ARMOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/226775543ea8087977fe7c7fd980be2aa9e30c4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/6b8c2f7d31370779ca2a2cb8ad1d9eb65dc7c06a.jpg",
     "displayName": {
@@ -599,7 +603,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_THOMAS_CHAPTER_3_RESTOCK_SHOP_ITEM_ATK_COOLDOWN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/61d8d969631e6314b41d26bd7980c6a5fb8a1206.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/e5e48d14546896482184187fa7001dd2e358aead.jpg",
     "displayName": {
@@ -613,7 +617,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_THOMAS_CHAPTER_4_RESTOCK_SHOP_ITEM_ATK_DAMAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/a03202572972880a718de4a31875ffb9b8061b04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/df31b9bf4c0a9bf039874c8e2eab42f0502f1877.jpg",
     "displayName": {
@@ -627,7 +631,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_THOMAS_CHAPTER_5_RESTOCK_SHOP_ITEM_ATK_RANGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/abb03592cc8db698582c235f71f1e937a4038f4e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/098ab043949de19ca02148c6f331f69f3811d5eb.jpg",
     "displayName": {
@@ -641,7 +645,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_STANLEY_CHAPTER_2_RESTOCK_SHOP_ITEM_ATK_SIZE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/2e37b09b8aad3242417b2eb93e34abcda646c8ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/cd25800b1e5c94987ec3b1026cf4b0bb94b940b3.jpg",
     "displayName": {
@@ -655,7 +659,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_STANLEY_CHAPTER_3_RESTOCK_SHOP_ITEM_ATK_DAMAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/a03202572972880a718de4a31875ffb9b8061b04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/df31b9bf4c0a9bf039874c8e2eab42f0502f1877.jpg",
     "displayName": {
@@ -669,7 +673,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_STANLEY_CHAPTER_4_RESTOCK_SHOP_ITEM_ARMOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/226775543ea8087977fe7c7fd980be2aa9e30c4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/6b8c2f7d31370779ca2a2cb8ad1d9eb65dc7c06a.jpg",
     "displayName": {
@@ -683,7 +687,7 @@
   },
   {
     "name": "ACH_REACH_CHAPTER_WITH_CHARACTER_STANLEY_CHAPTER_5_RESTOCK_SHOP_ITEM_ATK_SIZE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/2e37b09b8aad3242417b2eb93e34abcda646c8ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/cd25800b1e5c94987ec3b1026cf4b0bb94b940b3.jpg",
     "displayName": {
@@ -697,7 +701,7 @@
   },
   {
     "name": "ACH_UNLOCK_RUN_ITEM_CURRENCY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/bce5c80487911cfb045bef69c87d3e3f6d30f307.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/1369cd76d067c93bcdcfb9e893060c0917c9d209.jpg",
     "displayName": {
@@ -711,7 +715,7 @@
   },
   {
     "name": "ACH_UNLOCK_RUN_ITEM_CURSE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/693013d60bd404b398465eabcd4f13465e730bbf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/274d49fe5d659c251f4547eba50569f0f4d37d95.jpg",
     "displayName": {
@@ -725,7 +729,7 @@
   },
   {
     "name": "ACH_UNLOCK_RUN_ITEM_EXTRA_LIFE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/64108d41fbe82dc63cf3222117d562e048ff60c8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/955f53b9e0003f24d2e2c2a06d7786b168453b71.jpg",
     "displayName": {
@@ -739,7 +743,7 @@
   },
   {
     "name": "ACH_UNLOCK_RUN_ITEM_EXPERIENCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/27778fcd3bf102567fd590badbd119a777210c05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/a82e31ffbdbab3e60b4f244311ffb6e33cd622de.jpg",
     "displayName": {
@@ -753,7 +757,7 @@
   },
   {
     "name": "ACH_UNLOCK_RUN_ITEM_RANDOTONGUE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/897da95e628bc59e1c4241e4827117fbe6646929.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/306e75e7d11053e9cd90d3ac17cdcc16b0a176ef.jpg",
     "displayName": {
@@ -767,7 +771,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHAPTER_CH_COLLECT_COINS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/aca9378f1a70459db052fe9ce466559e4ea06a4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/93b764adf4a1c0b384439c055c16724f1586ffee.jpg",
     "displayName": {
@@ -781,7 +785,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHAPTER_CH_BUTTERFLIES_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/aca9378f1a70459db052fe9ce466559e4ea06a4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/93b764adf4a1c0b384439c055c16724f1586ffee.jpg",
     "displayName": {
@@ -795,7 +799,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHAPTER_CH_WASPS_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/aca9378f1a70459db052fe9ce466559e4ea06a4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/93b764adf4a1c0b384439c055c16724f1586ffee.jpg",
     "displayName": {
@@ -809,7 +813,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHAPTER_CH_STORY_GHOST_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/aca9378f1a70459db052fe9ce466559e4ea06a4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/93b764adf4a1c0b384439c055c16724f1586ffee.jpg",
     "displayName": {
@@ -823,7 +827,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHAPTER_CH_STORY_RIBBIT_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/aca9378f1a70459db052fe9ce466559e4ea06a4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/93b764adf4a1c0b384439c055c16724f1586ffee.jpg",
     "displayName": {
@@ -837,7 +841,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHAPTER_CH_STORY_STANLEY_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/aca9378f1a70459db052fe9ce466559e4ea06a4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/93b764adf4a1c0b384439c055c16724f1586ffee.jpg",
     "displayName": {
@@ -851,7 +855,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHAPTER_CH_ITEM_CURSEANDABACUS_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/aca9378f1a70459db052fe9ce466559e4ea06a4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/93b764adf4a1c0b384439c055c16724f1586ffee.jpg",
     "displayName": {
@@ -865,7 +869,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHAPTER_CH_COLLECT_XP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/aca9378f1a70459db052fe9ce466559e4ea06a4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/93b764adf4a1c0b384439c055c16724f1586ffee.jpg",
     "displayName": {
@@ -879,7 +883,7 @@
   },
   {
     "name": "ACH_UNLOCK_FEATURE_BOOST_GHOST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/ec28f440b969e0aeb0450136ccee529c01be0748.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/19bccfa0b8c7ea584f1e3efbebea3822d43333c6.jpg",
     "displayName": {
@@ -893,7 +897,7 @@
   },
   {
     "name": "ACH_UNLOCK_FEATURE_BOOST_RIBBIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/d8ddf5a58b2306d25b67895120b763a034c583e9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/91945ccd44b6f2bd4ebfb062216ac8dd678c3465.jpg",
     "displayName": {
@@ -907,7 +911,7 @@
   },
   {
     "name": "ACH_UNLOCK_FEATURE_BOOST_STANLEY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/30dca060ae15982b7009928d13f2b6cc61103ad5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/4e3df36683d7b52b4e0e2d23902eabacffc8b217.jpg",
     "displayName": {
@@ -921,7 +925,7 @@
   },
   {
     "name": "ACH_UNLOCK_FEATURE_5_CHAPTERS_SELECTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/241f71fe9e5121964d574755b6a2cdae093eea3a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/49dc86a7ab8ac778266facb4793e98585b3b5340.jpg",
     "displayName": {
@@ -935,7 +939,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHAPTER_CH_FILLER_MOSQUITOS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/aca9378f1a70459db052fe9ce466559e4ea06a4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/93b764adf4a1c0b384439c055c16724f1586ffee.jpg",
     "displayName": {
@@ -949,7 +953,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHAPTER_CH_FILLER_BEETLES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/aca9378f1a70459db052fe9ce466559e4ea06a4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/93b764adf4a1c0b384439c055c16724f1586ffee.jpg",
     "displayName": {
@@ -963,7 +967,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHAPTER_CH_STORY_TOAD_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/a21fdba6af55771508e878f69afdf490537c405c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/6e907203147a2a8566eddf1dc16e67bf3a06078e.jpg",
     "displayName": {
@@ -977,7 +981,7 @@
   },
   {
     "name": "ACH_UNLOCK_FEATURE_BOOST_TOAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/3836e4f55441b93eb8ed9f96610828291bdbe461.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/864787f19ca980330fec448d929115370103e0b4.jpg",
     "displayName": {
@@ -991,7 +995,7 @@
   },
   {
     "name": "ACH_UNLOCK_GAME_MODE_HARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/2f3bcde6ca87869c8882caf7b952d0eb9a1fe056.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/9125ebbbf4aafb03dffaed1bf09ce7a73a800938.jpg",
     "displayName": {
@@ -1005,7 +1009,7 @@
   },
   {
     "name": "ACH_UNLOCK_GAME_MODE_HARDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/95e52b5e6422c3d8a3bb5dcd77c8ab0cc760a86d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/222f6385f33d6bafa44d12b9a824b8a37d910c2d.jpg",
     "displayName": {
@@ -1019,7 +1023,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHAPTER_CH_STORY_KERMIT_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/a21fdba6af55771508e878f69afdf490537c405c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/6e907203147a2a8566eddf1dc16e67bf3a06078e.jpg",
     "displayName": {
@@ -1033,7 +1037,7 @@
   },
   {
     "name": "ACH_UNLOCK_FEATURE_BOOST_KERMIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/123a99cc7efbcfbbb694575984cd036d0830fbf8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/2e074799a013c298267f3c34ef8fd34bfaeefee7.jpg",
     "displayName": {
@@ -1047,7 +1051,7 @@
   },
   {
     "name": "ACH_UNLOCK_CHAPTER_CH_STORY_FROG_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/aca9378f1a70459db052fe9ce466559e4ea06a4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/93b764adf4a1c0b384439c055c16724f1586ffee.jpg",
     "displayName": {
@@ -1061,7 +1065,7 @@
   },
   {
     "name": "ACH_UNLOCK_FEATURE_BOOST_FROG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/c4ef972c5a83ce5af95851af7045af2636dc50df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2315020/b34f9da7217e11c1733877935bf8260b34222a6b.jpg",
     "displayName": {

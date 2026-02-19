@@ -1,7 +1,7 @@
 [
   {
     "name": "story_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "story_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "story_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "story_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "story_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "story_6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "escape_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "escape_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "escape_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "new_hire",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Escape 6 floors in total in “Escape”",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "total_floors"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_floors",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "middle_management",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Escape 66 floors in total in “Escape”",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 66,
-      "stat_name": "total_floors"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_floors",
+        "min_val": 0,
+        "max_val": 66
+      }
+    ]
   },
   {
     "name": "climbing_the_ladder",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Escape 99 floors in total in “Escape”",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 99,
-      "stat_name": "total_floors"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_floors",
+        "min_val": 0,
+        "max_val": 99
+      }
+    ]
   },
   {
     "name": "weak_password",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "strong_password",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "desecrate",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "aliens_must_have_destroyed",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "party_city",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "collectors_items",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -268,7 +274,7 @@
   },
   {
     "name": "intern",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -279,15 +285,17 @@
       "english": "Reach level 6",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "level",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "professional",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -298,15 +306,17 @@
       "english": "Reach level 66",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 66,
-      "stat_name": "level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "level",
+        "min_val": 0,
+        "max_val": 66
+      }
+    ]
   },
   {
     "name": "executive",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -317,15 +327,17 @@
       "english": "Reach level 99",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 99,
-      "stat_name": "level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "level",
+        "min_val": 0,
+        "max_val": 99
+      }
+    ]
   },
   {
     "name": "sticky_fingers",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -336,15 +348,17 @@
       "english": "Pick up 6 cards (all modes)",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "cards_collected"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cards_collected",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "the_collector",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -355,15 +369,17 @@
       "english": "Pick up 66 cards (all modes)",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 66,
-      "stat_name": "cards_collected"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cards_collected",
+        "min_val": 0,
+        "max_val": 66
+      }
+    ]
   },
   {
     "name": "binders_full",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -374,15 +390,17 @@
       "english": "Pick up 666 cards (all modes)",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 666,
-      "stat_name": "cards_collected"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cards_collected",
+        "min_val": 0,
+        "max_val": 666
+      }
+    ]
   },
   {
     "name": "demon_foe",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -393,15 +411,17 @@
       "english": "Banish 6 creeps",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "creep_banish"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "creep_banish",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "demon_exterminator",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -412,15 +432,17 @@
       "english": "Banish 66 creeps",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 66,
-      "stat_name": "creep_banish"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "creep_banish",
+        "min_val": 0,
+        "max_val": 66
+      }
+    ]
   },
   {
     "name": "demon_slayer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/6d165449d520e9afe81dc5e34a366f11dbd574f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2335960/21b784a302cddd7759c636ed5bb60a5d4d078b48.jpg",
     "displayName": {
@@ -431,10 +453,12 @@
       "english": "Banish 666 creeps",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 666,
-      "stat_name": "creep_banish"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "creep_banish",
+        "min_val": 0,
+        "max_val": 666
+      }
+    ]
   }
 ]

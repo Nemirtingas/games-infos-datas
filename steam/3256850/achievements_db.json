@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_VENGEANCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/350d6d1a940e23ec2985f7a289c7529c344942d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/96338236b76ac47ea36b46ec453687a03c06379e.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_HEALTH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/d9cdf74400ca10afc3cf2c3e3290476e35956505.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/96338236b76ac47ea36b46ec453687a03c06379e.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Reach 200 max health in one run.",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "stat_health"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_health",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ACH_DAMAGE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/ceb253558622049abba486420075f1eb857d5d58.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/96338236b76ac47ea36b46ec453687a03c06379e.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_HEALTHLOST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/a1d242342e7f03c0009d43dba7fcccab94b2288a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/96338236b76ac47ea36b46ec453687a03c06379e.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_COMBOLENGTH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/6ea54e1c0b74ef918a659677c97b42ed0d47857e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/96338236b76ac47ea36b46ec453687a03c06379e.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_OUTFIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/a8bf2fe293a3d848afb431813e35aa5ec50d03ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/96338236b76ac47ea36b46ec453687a03c06379e.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_GOLDCOLLECTED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/b6d02b238133f7e409433c2846e8718a412a0aaa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3256850/96338236b76ac47ea36b46ec453687a03c06379e.jpg",
     "displayName": {

@@ -2,17 +2,19 @@
   {
     "name": "STAT_TOTAL_HOURS",
     "displayName": "Total Play Hours",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "default": 0.0
   },
   {
     "name": "STAT_TOTAL_COMPLETIONS",
     "displayName": "Total Clears",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "KilledFishes",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3659920/9954aa448119428274f3a2949c791a78d9422d8b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3659920/353464931542bd789795ad62b42686032d4e1347.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "UnfulfilledWishes",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3659920/9c5c3418dbed5d83fd6228027152ae637cbfda34.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3659920/102ba2c89a81cf976c87ac92118cd1bbd5c681b4.jpg",
     "displayName": {
@@ -30,15 +30,17 @@
       "russian": "Ты услышал все желания, которым никогда не сбыться...",
       "token": "NEW_ACHIEVEMENT_3_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Unfulfilled wishes_Unfulfilled wishes"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Unfulfilled wishes_Unfulfilled wishes",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "DreamOn",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3659920/a9949c8236b740068ad11e3178a362c092678f06.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3659920/1ff945c5a367a0fdcb848d7a864fd584e93cc9ed.jpg",
     "displayName": {

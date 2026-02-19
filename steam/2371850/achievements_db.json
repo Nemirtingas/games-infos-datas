@@ -1,7 +1,7 @@
 [
   {
     "name": "ZONE_1_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/7e6009e80372853c63b0388caa29532b37fe893e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/bd24a58ce55480271db135fc7608025bd4ead1ca.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ZONE_2_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/3f266d5fd1089399146cd5d9f1a7303e72fb9eda.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/2184fb2c42386b50b70887469be483622c268cf0.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ZONE_3_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/1201526085d0dfef982c986fb92c530fb59e996f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/8f2336275593a7ca42585c5bb96335d2f75ea389.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ZONE_4_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/607c4da012795271cc27c4cd087009f24ad3de2e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/2cceb7df67c9e181dae8162c3c9e93f03783e616.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ZONE_5_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/8abdde9f40c4e252ad6b92a2b81968cdeb139135.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/3d51d02ed2530ed3b906f6b142ece06d6ccc52c8.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ZONE_6_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/d07faf614e1b14404637db71f1a71310c9ec27e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/2645775f302caf723a01ee0ce1ebf411882ad944.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "HEART_CLOCK_LEVEL_ONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/231e9b285d839ccfab37765fd8c629b9e573b6f9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/19a342c22aebe0841a0640a386092d76977c268c.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "HEART_LEVEL_TEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/059763a008fd69695aa45d2875b1843427dd080c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/3e32f101a7d66ce97e8804b32ff2318ab1d95654.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Complete 10 levels earning a Heart.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "HEART_STAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HEART_STAT",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "CLOCK_LEVEL_TEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/fe6e6c29a1cd1cf4471af0c7d37f952d71c6330c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/78653493f1921ae52d559c0c330b40c4db1b340c.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Complete 10 levels earning a Clock.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "CLOCK_STAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CLOCK_STAT",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "HEART_CLOCK_LEVEL_TEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/7a18cbb6f628e90d93123b3faaad3ddafbac4034.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/67d33200b598838262c3a7f76be97ec85db05a88.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Complete 10 levels earning both a Heart & Clock.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "HEART_CLOCK_STAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HEART_CLOCK_STAT",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "HEART_CLOCK_LEVEL_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/36abb8ff3f4d05a864d30fd1d7c943aed6f49048.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/dca2713bbd7b74dd7ca47365c6a738a000a0c58c.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Earn all Hearts & Clock.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 47,
-      "stat_name": "HEART_CLOCK_STAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HEART_CLOCK_STAT",
+        "min_val": 0,
+        "max_val": 47
+      }
+    ]
   },
   {
     "name": "HEART_CLOCK_ZONE_1_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/33e2573b1c8e044d40e4084c2e024db94ffe0238.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/b17f1ec9301bde0d10aced87b814e6489092ee17.jpg",
     "displayName": {
@@ -186,15 +194,17 @@
       "english": "Earn all Hearts & Clocks in Enter Zone.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9,
-      "stat_name": "ZONE_1_HEART_CLOCK_STAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ZONE_1_HEART_CLOCK_STAT",
+        "min_val": 0,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "HEART_CLOCK_ZONE_2_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/4597a447823b56ce2ce7f3360f3c04f1773c4e5d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/7b5a01077c718b391f27bf23780cf963df8032d2.jpg",
     "displayName": {
@@ -205,15 +215,17 @@
       "english": "Earn all Hearts & Clocks in Spike Zone.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9,
-      "stat_name": "ZONE_2_HEART_CLOCK_STAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ZONE_2_HEART_CLOCK_STAT",
+        "min_val": 0,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "HEART_CLOCK_ZONE_3_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/35c5099cc2bfd571c34e36e350ac9450b207d34d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/1b5348d32db39c8ba8dfb7701dcef9e344e1c710.jpg",
     "displayName": {
@@ -224,15 +236,17 @@
       "english": "Earn all Hearts & Clocks in Badoog Zone.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9,
-      "stat_name": "ZONE_3_HEART_CLOCK_STAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ZONE_3_HEART_CLOCK_STAT",
+        "min_val": 0,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "HEART_CLOCK_ZONE_4_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/3b3b14819a04ed2eb8a6aea5ee592ec45fdde1ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/ca90f8e2580871cb0ecc84f1a01d4a2a5d49eb1c.jpg",
     "displayName": {
@@ -243,15 +257,17 @@
       "english": "Earn all Hearts & Clocks in Bamf Zone.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9,
-      "stat_name": "ZONE_4_HEART_CLOCK_STAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ZONE_4_HEART_CLOCK_STAT",
+        "min_val": 0,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "HEART_CLOCK_ZONE_5_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/bf394655e38326264803962add9defcb33ea762e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/a2744483474de27d47fdb46d21100b91783e8475.jpg",
     "displayName": {
@@ -262,15 +278,17 @@
       "english": "Earn all Hearts & Clocks in End Zone.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "ZONE_5_HEART_CLOCK_STAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ZONE_5_HEART_CLOCK_STAT",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "HEART_CLOCK_ZONE_6_ALL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/e3cb165fd858e4380d40a729f46c687fda213002.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/bedd3dc371038075bc334b3cfc50dd308af3893d.jpg",
     "displayName": {
@@ -281,15 +299,17 @@
       "english": "Earn all Hearts & Clocks in Danger Zone.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "ZONE_6_HEART_CLOCK_STAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ZONE_6_HEART_CLOCK_STAT",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "GAME_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/e3e07bacd232ca4a69e869f62c985c55f40acdec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/3d3d6d9b900d3cd7c0a836a5f4355a37f47a9b70.jpg",
     "displayName": {
@@ -303,7 +323,7 @@
   },
   {
     "name": "CAKE_ENDING_COMPLETED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/122c1073d86b972b56e23194a8e6f26a5b35db28.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/23f33323921dceb98655a27b797fd4cd5685ffb8.jpg",
     "displayName": {
@@ -317,7 +337,7 @@
   },
   {
     "name": "WARP_REMAINING_ONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/59aee93b687aa1594300e6b49d4a77d7b1af2e86.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2371850/429c1d8dede632aee0f52fbecc44262f3b7a4ca2.jpg",
     "displayName": {

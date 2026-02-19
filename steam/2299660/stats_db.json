@@ -1,34 +1,32 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "Train_Train",
     "displayName": "Training Course Time",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 999999,
+    "default": 0
   },
   {
     "name": "Time_Time",
     "displayName": "Total Play Time",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 999999,
+    "default": 0
   },
   {
     "name": "Photo_Photo",
     "displayName": "Photo Points",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "max": 999999,
+    "default": 0
   }
 ]

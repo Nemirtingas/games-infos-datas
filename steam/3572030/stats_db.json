@@ -2,49 +2,55 @@
   {
     "name": "STAT_WORDS_FOUND",
     "displayName": "Nombre de mots trouvés",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "STAT_LEVELS_DONE",
     "displayName": "Niveaux terminés",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "STAT_PLAY_TIME",
     "displayName": "Temps total de jeu (sec)",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "default": 0.0
   },
   {
     "name": "STAT_HINTS_USED",
     "displayName": "Aides utilisées",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "STAT_PERFECT_LEVELS",
     "displayName": "Niveaux réussis sans erreur",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "STAT_NEW_WORDS_READ",
     "displayName": "Définitions consultées",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   }
 ]

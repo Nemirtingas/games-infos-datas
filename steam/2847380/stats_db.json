@@ -2,41 +2,50 @@
   {
     "name": "highscore_easy",
     "displayName": "High Score in Easy Mode",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 9999,
+    "default": 0
   },
   {
     "name": "highscore_hard",
     "displayName": "High Score in Expert Mode",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 9999,
+    "default": 0
   },
   {
     "name": "correct_combo",
     "displayName": "Number of correct answers in a row",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "glossary_completion",
     "displayName": "Percentage of fallacies discovered",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "questions_completion",
     "displayName": "Percentage of questions discovered",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 100,
+    "default": 0
   }
 ]

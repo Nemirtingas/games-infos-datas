@@ -1,7 +1,7 @@
 [
   {
     "name": "Click1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977660/2b0b5b858816d2244559022d8455a44c7b4a25ab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977660/6a6eb3749ec38e6b25215410b3d89eac2d364eec.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Just 1 click",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "Clicks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Clicks",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "Click1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977660/e8fcbec57f78819bef19aaeebb191496a7d5bf08.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977660/6a6eb3749ec38e6b25215410b3d89eac2d364eec.jpg",
     "displayName": {
@@ -31,10 +33,12 @@
       "english": "That's a lot!",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "Clicks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Clicks",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

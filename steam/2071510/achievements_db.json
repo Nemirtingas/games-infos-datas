@@ -1,7 +1,7 @@
 [
   {
     "name": "GRF_TUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/07f7609ab43a60f6886184abc7b0a51907e535db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/41f35c10cc59cb6208af50ef6d5247e398cae464.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "GRF_WIN_SINGLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/7be2f83f46fb4a18536e57d2efdf1d05e337d2c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/eb593000a583bb21084a00198fac5efe163ad3fa.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "GRF_LOSE_SINGLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/31ec128538cf3be4a90dd2e1c73ad052d26797cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/4c71192b8e2ee8c6c7f593238d135d122820b86b.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "GRF_PLAY_1v1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/a9ebb845d82ecc53399add4c139b49524fa68d89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/503860f91a082f5308f9f5d8acbf3f924144234e.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "GRF_PLAY_3v3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/6ed0895694ebc99813d92939f858df6824c6154b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/d7052cccbe81f7b3f4a9455bbe3c59b4c3b8565e.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "GRF_MERCYRULE_LOSE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/6f458af7f61fd06ee733f76fca59309dc9bce6e0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/c36f608ed72883689ba563c230dcc5e9d454ddce.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "GRF_MERCYRULE_WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/af1514f6baca05ef88fd36dc882b9eed57e261e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/abcd0b948b78aa1a3d68b9f93fc53cbf1b22dadc.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "GRF_STUBBED_TOE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/26944a81e24066c45de8fc3d1353ee4a421628a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/a0a83282955013c7cb0e141837e421b316df759a.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "GRF_FIRST_TOUCHDOWN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/ec566ab0cad70e685f9a7e0c10a2a4d1d6d56749.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/6ff8b8963bdc58c4cb120b642f7e1aa7fbd2e678.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "GRF_WIN_TEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/0d180da0ce4405dd32902c5892e0190634ebebd4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/813d32c0fddb182f618dc9c1022d3ce766e35624.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "10 wins? In a row??? Oh, not in a row. Oh well. Still impressive? Maybe?",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "total_wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_wins",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "GRF_LOSE_TEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/83a7d5f987d36e3f50801282e5aa7fd36315f8f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/877feb84795d25ebe52c7caf64993fc015088d04.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "10 loses. Who do you think you are? The Chicago Bears? (please don't get mad at me Bears fans)",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "total_losses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_losses",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "GRF_WIN_HUNDRED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/ae2d3da021c587dd57e9b089b8299c9ca3cf9549.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/66c086e7f0a8b3550cc2be547dddddbfa6c71c13.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "100 wins. #wow #whoa",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "total_wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_wins",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "GRF_LOSE_HUNDRED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/8f9d183b24ad65716737c43e4eba17731ea4c184.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/2d52df7e4d04966a8e1b52fd3e0d27bb185839c4.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "After 100 loses, don't you think it's time to retire? (Please don't actually stop playing my game)",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "total_losses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_losses",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "GRF_WIN_THOUSAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/a817246176927e06bc94c95dea9a581c89afa7f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/8f61ffe8889030d02a447d2de200acf5508f757d.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "1,000 wins. Who thought You'd ever do it? not me. I can't believe anyone has played this game that long. What are you even getting out of it at this point?",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "total_wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_wins",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "GRF_LOSE_THOUSAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/39b5689f78a7029a29de3311582626b06ad250b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/656319012741fa5372771812cecfb271afbd3f19.jpg",
     "displayName": {
@@ -233,15 +243,17 @@
       "english": "Your perseverance is admirable. Your skill is not.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "total_losses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_losses",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "GRF_MADE_KICK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/c90261aa7c89b0a2c0e008af4eb426f7804e50e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/5af40909018ef02342648562c490026d1ff435e7.jpg",
     "displayName": {
@@ -255,7 +267,7 @@
   },
   {
     "name": "GRF_MADE_KICK_TEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/f6345d13c1e96eea1586959ae684e0500cef35da.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/e30339c528a1f0a96576fae9a93005fae68f624c.jpg",
     "displayName": {
@@ -266,15 +278,17 @@
       "english": "10 made kicks. Maybe try from a harder spot next time?",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "kicks_made"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kicks_made",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "GRF_MADE_KICK_HUNDRED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/956f967ff6bf4b3776fe6ca39a970e5e17996da5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/69cdc20e55d3d1a7e187b644a8a610ce84eb614c.jpg",
     "displayName": {
@@ -285,15 +299,17 @@
       "english": "Sorry, 100 KICKS made, not KECS. Stupid horse...",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "kicks_made"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kicks_made",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "GRF_MADE_KICK_THOUSAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/a97724adac08840ffb5f78c7a76c472c90bdfc92.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/aa136b066cf10758694cb7269f43dc862efd0141.jpg",
     "displayName": {
@@ -304,15 +320,17 @@
       "english": "1,000 kicks made. 2,000 points scored just from kicks. It's no Adam Vinatieri, but at least you tried.",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "kicks_made"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kicks_made",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "GRF_TOUCHDOWN_TEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/8299ff07653938d2064514d84c0d695f1b608be7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/763522573afef27c410f7b7ac979c83e2aec7d78.jpg",
     "displayName": {
@@ -323,15 +341,17 @@
       "english": "10 Touchdowns. Scion tC. 100 MPH. It all makes sense now.",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "touchdowns_scored"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "touchdowns_scored",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "GRF_TOUCHDOWN_HUNDRED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/cf0fdf24841643b19f065d13e64ee0c1b7a5ff04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/06a572816e72e340734eee6dfabe3e6b2e07c0e2.jpg",
     "displayName": {
@@ -342,15 +362,17 @@
       "english": "100 touchdowns scored. Pretty good. Solid Production. Jerry Rice scored 208, though, so maybe put in a little more effort?",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "touchdowns_scored"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "touchdowns_scored",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "GRF_TOUCHDOWN_THOUSAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/2e436ae3d110849bf99194252e34612167765c79.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/e9b6497c44e9e6239d19a3d7c84ae76757a90179.jpg",
     "displayName": {
@@ -361,15 +383,17 @@
       "english": "After a thousand touchdowns, aren't your legs a little tired?",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "touchdowns_scored"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "touchdowns_scored",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "GRF_YEEHAW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/4fe8fa65890aea763e5ffbe6e940793b2e25eb00.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/e824778c38c4ce0dced8067bb44bc4f7be6ebded.jpg",
     "displayName": {
@@ -383,7 +407,7 @@
   },
   {
     "name": "GRF_YEEHAW_HUNDRED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/3897ca0e45b10d71a828bce7c5f7d9d17262b1f0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/d15c79f12068bbe65a5602373afce30cfd81a530.jpg",
     "displayName": {
@@ -394,15 +418,17 @@
       "english": "100 yeehaws while on my smoke break? How often am I smoking these?",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "cowboys_yeehawed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cowboys_yeehawed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "GRF_YEEHAW_THOUSAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/33938034d2fd0da19ab2c700d6c03d49248c8353.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/a609b0a287b4803600b229e7efff0608df074f77.jpg",
     "displayName": {
@@ -413,15 +439,17 @@
       "english": "After 1,000 yeehaws, have you ever bothered to ask WHY I have to smoke outside like this? Hmm? I guess I'm just a second class citizen that looks cute as hell in this little cowboy outfit.",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "cowboys_yeehawed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cowboys_yeehawed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "GRF_BLOCKED_KICK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/439201878f20d0bd17c211299221f1b1582b5aef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2071510/1df1fc44dc424dfebd12fb444df49c4d0e9a32dd.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "ach_bounty",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/c016dd2f74506e733b4465a48c22bb903eed3ae3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ach_deaths_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/18dfcf1640a456c9e83a2b159ae18279e5a7c4a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Die for the first time.",
       "token": "NEW_ACHIEVEMENT_5_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "totDeath"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "totDeath",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ach_defense",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/0d308218f3d09bb6a4a41e613ccbdb82d67a0b4f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ach_ending_b",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7391537adfa1c8b495ba8445c9dcef6ba6a10ac8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ach_ending_c",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/417bfe14cbe250d3d26785aac720ed7d409cd0fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ach_ending_perma",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/a7300dfb9c3ca4ca691f7164b402adf9fea899ab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ach_ending_quick",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/f06efa2fc1918c6a1732930f2b195d7906469305.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ach_endstage_3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7f3c64ec3ed6cff21d6500d2e26bca4220f55a7d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ach_ff",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/860230e05a6eacbbe8a7141d24fc9c6cdd48cefa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ach_finishtime",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/97d984ff5df873aa8771abe550e866cacd573371.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Finish a mission successfully in under 60 seconds start-to-finish 10 times. (Shared across all saves)",
       "token": "NEW_ACHIEVEMENT_5_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "speedytimes"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "speedytimes",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ach_keyboss",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/06cc217d9c7ef755f681723ed000b6cf4c19673f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ach_kills_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/b957ecd46ca1eb24f6b086f99998de28585f9a72.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Get your first 10 kills. (Shared across all saves)",
       "token": "NEW_ACHIEVEMENT_5_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "totKill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "totKill",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ach_kills_500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/f7905b6ea7d0cba40a19e34e5fbdcee12e2b4282.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "ach_kills_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/fc952210a56b18610f6985ce2ac452467360f783.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "ach_opencont",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/37e74323b7499fdd87e647c14b0c52c5a5573af9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "ach_plevel_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/5b6ab82a190151f46563cf1b2381bde60f87bb79.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "ach_plevel_30",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/4281246990dc75f0065d8f28e477846819463050.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "ach_plevel_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/0d233cf4160b7ba13bfb221b61df81a7c5e46477.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -268,7 +274,7 @@
   },
   {
     "name": "ach_rep_max",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/94ee778be1d31f6e53e0fec81d5809d03f70aa42.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -282,7 +288,7 @@
   },
   {
     "name": "ach_rep_max_all",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/2e8cbffe3dcb8279ea573e988ea7177030a946fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -296,7 +302,7 @@
   },
   {
     "name": "ach_rep_max_expert",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/de4a8aa5018e025e63935d0e37eb0f25fb090a32.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -310,7 +316,7 @@
   },
   {
     "name": "ach_rep_max_perma",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/f0bb2f0e83f2f95fff9fb04517ded0832020b747.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -324,7 +330,7 @@
   },
   {
     "name": "ach_retrieval",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/c58a337266c9374db30daaa0b1cb460456016cb0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -338,7 +344,7 @@
   },
   {
     "name": "ach_subway",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/784769941b2a9e47c459c4bf37a31aee27247c30.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -352,7 +358,7 @@
   },
   {
     "name": "ach_survivor",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/41c428ea18c7d9fdcdbc1fd7dc82d93bb131cfb6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -366,7 +372,7 @@
   },
   {
     "name": "ach_winratio",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/536522128f4bf9178045b1d83293f555fa133bb2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -380,7 +386,7 @@
   },
   {
     "name": "ach_wins_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/d195e20904a93f2ddfb0df7598098070969a23e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -391,15 +397,17 @@
       "english": "Return from your first successful mission. (Shared across all saves)",
       "token": "NEW_ACHIEVEMENT_5_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "totWin"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "totWin",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ach_wins_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/422735d9bc312baec9f3033258727e92b9a5580e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -410,15 +418,17 @@
       "english": "Reach 300 total mission wins. (Shared across all saves)",
       "token": "NEW_ACHIEVEMENT_5_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "totWin"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "totWin",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ach_wins_local100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/b424c778ff3f34105fcc0c0c98b53386dd10e990.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -432,7 +442,7 @@
   },
   {
     "name": "ach_wins_perma50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/f9e97843900ab3db5a80b27f3bb480ad6c8e4803.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -446,7 +456,7 @@
   },
   {
     "name": "ach_debt",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/db3c2f3cd662df23fa0eac01da5298932846ac8b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -460,7 +470,7 @@
   },
   {
     "name": "ach_rep_max_naked",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/d114ffbef6a55afc960385d945d42ee6f4308c65.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -474,7 +484,7 @@
   },
   {
     "name": "ach_request",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/a1fd4d03b4b3eb49d65294ee1ef843906d13e4e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -488,7 +498,7 @@
   },
   {
     "name": "ach_arena",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/3664c7d3f62226b74cc72ffe707ef4caa0f5419a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -502,7 +512,7 @@
   },
   {
     "name": "ach_iwakura",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/a63477787240881107dc0db2e1dd15a83bf1fcde.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -516,7 +526,7 @@
   },
   {
     "name": "ach_iwagift",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/bf5d80ce364c89a521f83a0c369006bdb3f077fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {
@@ -530,7 +540,7 @@
   },
   {
     "name": "ach_defusal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/f5bdf507b00b8c405796299231b3e307c99fd24d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2531340/7bd648642d2bb8902361a7b7d5357af0e555aa8b.jpg",
     "displayName": {

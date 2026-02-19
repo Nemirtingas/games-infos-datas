@@ -1,7 +1,7 @@
 [
   {
     "name": "COMPLETE_0_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/dd32cc2f0e7ecf5b7885d61e9da1c7e0d2479952.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/8a0dcecf216c402e6883c2319267498354004b49.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "COMPLETE_0_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/9ebf912ed59700149db14346da6226db01e71e67.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/67941d5cefe1720bdde00f6d9a6caab455439f3a.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "COMPLETE_1_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/6a14ee572f24f362c025614d43622ce1bed2db9e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/72b0954104362215c0bd185f9f999fb09978a1ac.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "COMPLETE_1_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/7b5a69cc6978e73d73151994841d340de9ec3bf8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/85b7ca76a74cf8072b9a1286086df2f64dec317d.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "COMPLETE_2_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/81c0a7151f1f32dcabb51d5118881e5298b602ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/7f4928f30ed7f0e84bb27b07c2858b9f540ebf7f.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "COMPLETE_2_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/c492795116d1d063ddd72aa50ce0c5fff673eacb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/b45c047e68fb7075585adf3377a9337ab83502a3.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "CRASH_0",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/1686b09c731bfa263858ddcaf47e9eaa0e12c58e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/b48c4abc0fd1b1637a6ead75443b8e78b9f99af3.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "충돌 30회 달성",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "CRASH"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CRASH",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "PLAY_0",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/167bffd4979806c08c5890cfef7b93df42da8b3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2134300/822f1bb234097ce5b2cd40e53e4e5fb7e0f32243.jpg",
     "displayName": {

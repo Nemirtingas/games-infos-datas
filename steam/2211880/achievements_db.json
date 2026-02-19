@@ -1,7 +1,7 @@
 [
   {
     "name": "FIRST_BLOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/8d0bf86d77bdd9c40ad57321c099e2f9c5352198.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/df70e148abce5fec74cc34f6981361c739d53672.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "SECOND_BLOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/d1040960febaddb69c44eba4178c7a8f1ae719b8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/a9c2efaf798a76efba847bc91198fab30691f06e.jpg",
     "displayName": {
@@ -34,7 +34,7 @@
   },
   {
     "name": "NEED_FOR_SPEED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/9db3e9b4a15e8d505841cb60698b17dc40e37770.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/3c33af00977f32a022d1fe35bd937dbf20f1cf47.jpg",
     "displayName": {
@@ -50,7 +50,7 @@
   },
   {
     "name": "FIRST_FRESH_BLOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/edb53ccdc950e2c4b63b25b7499dc97592d3113f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/1edfc820421fc514c1a3655e55bf49fd36beac79.jpg",
     "displayName": {
@@ -68,7 +68,7 @@
   },
   {
     "name": "FIRST_MAIN_MENU_DEMO",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/4f2bb10dc2bf22404fbaeb4279d72c349769e418.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/c485abddbf8253c0ef25957a1937c8220e6c9f55.jpg",
     "displayName": {
@@ -84,7 +84,7 @@
   },
   {
     "name": "FIRST_OFF_TRACK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/9d6f5a49b80c6f7787b0d2c51741fe88d3962be1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/37413e2430f2cc0ab02041612095e9e7a325da2c.jpg",
     "displayName": {
@@ -101,7 +101,7 @@
   },
   {
     "name": "FIRST_CASSETTE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/d7684e68a698f4c6e056720fce1365608687de43.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/65ee67ceb376eeede766d65ac26d03c372667bb3.jpg",
     "displayName": {
@@ -118,7 +118,7 @@
   },
   {
     "name": "TEN_CASSETTES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/23ea385e8042f00e48c7be38f0268fc5a726ae50.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/b4b06d53c906574645e4c3a0234725081d022bda.jpg",
     "displayName": {
@@ -131,15 +131,17 @@
       "italian": "Hai collezionato dieci cassette.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "CASSETTES_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CASSETTES_COLLECTED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "TWENTY_CASSETTES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/b980e8e5279d833c31ac41009f30adf2c4e8ef6d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/2f75baebdef5abfacc8423bcae8eb811510238e3.jpg",
     "displayName": {
@@ -153,15 +155,17 @@
       "italian": "Hai collezionato venti cassette.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 11,
-      "max_val": 20,
-      "stat_name": "CASSETTES_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CASSETTES_COLLECTED",
+        "min_val": 11,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "FIRST_TWO_KM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/27704feacdbe2ed5b21a18f41de40a8f3d9473f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/b9ffb225e7184d383879e2c038126a7e670635a7.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "italian": "Percorri due chilometri esatti. Oppure uno virgola qualcosa miglia, vabbè..",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 0,
-      "stat_name": "TOTAL_KM"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_KM",
+        "min_val": 0,
+        "max_val": 0
+      }
+    ]
   },
   {
     "name": "PERFECT_TWO_KM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/e65e3b057c9073a0222dbde2a21965c35bd8bbd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/20ccb91c654ea99b7481a5bdc4f49a1b5dea8885.jpg",
     "displayName": {
@@ -200,7 +206,7 @@
   },
   {
     "name": "REACH_SYNTHECITY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/08e7b77c49afb045abdfe6d079c48714c391b005.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/5a3e8bc2411c83014f7d6720af14445bfa3ceb73.jpg",
     "displayName": {
@@ -218,7 +224,7 @@
   },
   {
     "name": "PERFECTLY_REACH_SYNTHECITY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/6368352f24745e08553166714bcaac7b1279f354.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/0762ced7c82d35461bcfbb522883039e553384f9.jpg",
     "displayName": {
@@ -234,7 +240,7 @@
   },
   {
     "name": "CRASH_INTO_RED_CAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/35ada7f83202e07682c6e91452efc8132dffdcea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/393d907e154356739a9e5a9ae0796f9bded9d695.jpg",
     "displayName": {
@@ -251,7 +257,7 @@
   },
   {
     "name": "CRASH_INTO_ROAD_ROLLER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/d698d58aa8c87891cbb7747f15edb9010c61cb1f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/ee4e845fe79d187216d3ed221e5cb5d47016b1dd.jpg",
     "displayName": {
@@ -267,7 +273,7 @@
   },
   {
     "name": "VETERUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/85c520cacbf5664f44c023515de4a3013c68be24.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/ff209c71f64e28294f57475cfc8f368a6d4b71db.jpg",
     "displayName": {
@@ -280,15 +286,17 @@
       "italian": "Hai giocato 42 volte.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 42,
-      "stat_name": "GAMES_PLAYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GAMES_PLAYED",
+        "min_val": 10,
+        "max_val": 42
+      }
+    ]
   },
   {
     "name": "PERFECTLY_COLLECT_CASSETTES_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/e9514c0cddccac1087d14c351153f9445e5208c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/9a08afca63e5ca48cd5fdb09d16bbcb77414fcce.jpg",
     "displayName": {
@@ -304,7 +312,7 @@
   },
   {
     "name": "FIRST_DEATH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/1bbc517daec00927d7a0797e8d3bae0144afd695.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/a703f466e79f8ee29175d810a877e6c836b77170.jpg",
     "displayName": {
@@ -319,15 +327,17 @@
       "italian": "Sei morto per la prima volta.",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "DEATHS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DEATHS",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "FREQUENT_PLAYER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/cfc8c80799c1e12b6f24dcd7bf2d14b76006f793.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/921acc793c78a94176616e795ee8c2a54036b3e5.jpg",
     "displayName": {
@@ -342,15 +352,17 @@
       "italian": "Hai giocato 21 volte. 21 perché è 42 diviso due. Ho un po' una malattia coi numeri...",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 12,
-      "max_val": 21,
-      "stat_name": "GAMES_PLAYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GAMES_PLAYED",
+        "min_val": 12,
+        "max_val": 21
+      }
+    ]
   },
   {
     "name": "BARELY_MADE_IT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/27ab58787bfb39307fd6dd46ac489aded5107736.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/2a993dc9ac2de0f8b8e652eab46fcb6b5ec284da.jpg",
     "displayName": {
@@ -366,7 +378,7 @@
   },
   {
     "name": "VISITED_GAS_STATION",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/f3a5845c75f2084aebafde9e2615236034e54e44.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/06a1a95545df45a2cc66865dcb6d40b0c92adaeb.jpg",
     "displayName": {
@@ -383,7 +395,7 @@
   },
   {
     "name": "VISITED_N8_CLUB",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/3112532a08dfac75ea1ffa2b3ee17d784429da8b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/dbdc929c453f8806ddcba37fb2507684c54e46c6.jpg",
     "displayName": {
@@ -400,7 +412,7 @@
   },
   {
     "name": "ENTERED_COIN_WHILE_DRIVING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/e75a384b6962292304153b14f3288125895db56e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/93e58063ef35bc77c2196d6df83df897740f7be8.jpg",
     "displayName": {
@@ -414,7 +426,7 @@
   },
   {
     "name": "BRICKWALL_CRASH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/85edfcdc30608f30c76e90d15f65be1f9609b0c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/674656fd0bac062123dd04acaacc2e76ab83dae8.jpg",
     "displayName": {
@@ -430,7 +442,7 @@
   },
   {
     "name": "GAME_START_1337",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/5efca341e1b7524f50372af7fb78212c494e2d54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/0ad78e11059daeb1f5875640375f69fbf99fc225.jpg",
     "displayName": {
@@ -446,7 +458,7 @@
   },
   {
     "name": "FOUND_GOLD_CASSETTE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/71a61512ad770f5cad443f99cb52d422d29b4b27.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2211880/13a52d96d2b9d115a0483246adfe3101418ae218.jpg",
     "displayName": {

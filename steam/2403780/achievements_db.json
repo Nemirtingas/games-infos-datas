@@ -1,7 +1,7 @@
 [
   {
     "name": "ENDING_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2403780/d2fc2fc059bac46c0eb209c9754da7c43ac2ff14.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2403780/932f7e43d539da10367680296b3f81fc3cebba81.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ENDING_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2403780/351f43c90abb308a6859f70d40c7ab861f714f2f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2403780/e391a8fd5456e87c8773c7780c3b3ecf18843239.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ENDING_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2403780/9322d302677a28ab90319d2175c509adcb8313c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2403780/f08d5b5b77373fe75155620d22d5ee0fd050c3a2.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ENDING_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2403780/fb6fa1ed92af080b5c3641619fc56e529a4fb8f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2403780/ea8cfcfb9ad00f1f46a688e98f14b407d64027be.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ALL_ENDINGS_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2403780/984f1686bf25e4e276091004447b8fb352892efd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2403780/3ae118f77b00d61d23efc0d4d948723c7bcec714.jpg",
     "displayName": {
@@ -68,10 +68,12 @@
       "english": "All 4 out of 4",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "endings_completed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "endings_completed",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   }
 ]

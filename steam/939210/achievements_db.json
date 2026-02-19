@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_BUILDTRACK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/a86450517ca03c3a62811460f07797ccaa073e80.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/cc49f34610ee8ca45ca04a58976356ffbf53e627.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "ACHIEVEMENT_PAINTJOB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/5c5d1cbedf83c0f5767b1f215612a04fdfad7833.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/90b7cd94c15c2f20d5fbfb31311fe051e25fb7a8.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "ACHIEVEMENT_PRACTICE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/956c52904e3009c455ac7913b0a0c9a89b3432c8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/fc70297565092a1ee64b88e7fb8f0524b17ea1cc.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "ACHIEVEMENT_FIRST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/99fb2ddc52ad4be601688deb4fadd766c232eb58.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/ab75ebbdf02d585221a0d74daa7acc3ff8318f72.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "ACHIEVEMENT_HOSTGAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/911d2fa79c839a7bc7b4874beeafe5ac7298b37d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/edc2421916e1e50cc9ea680539ee4957f6894b62.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "ACHIEVEMENT_PRIVATEGAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/12b0f5d1bb5d9881d481370a0e249b54c8efa106.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/3502acc7630a68308c09d034acbb7da92271b20c.jpg",
     "displayName": {
@@ -97,7 +97,7 @@
   },
   {
     "name": "ACHIEVEMENT_FINISH_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/05fad80dae9c4020008965eac01630221383ea97.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/d1b65f66df1a29630e22b169ed464eaca6d38640.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "german": "Beende ein Multiplayer Rennen.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_GAMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GAMES",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_FINISH_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/d7e8a692b9e55daa43c8f408a925fb910446f80f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/090f8bae7244adc68201c7e3aeb5adbbf08e9b20.jpg",
     "displayName": {
@@ -131,15 +133,17 @@
       "german": "Beende fünf Multiplayer Rennen.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_GAMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GAMES",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_FINISH_25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/5e9f478704521f362a80f4a0fcd418c018f9df95.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/3ff9174cc472a5b479a5ac3396219f046f37ec5b.jpg",
     "displayName": {
@@ -152,15 +156,17 @@
       "german": "Beende 25 Multiplayer Rennen.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_GAMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GAMES",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_FINISH_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/2b879b17ac492ce24734452e5989973270224493.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/9348e67ab933ceb836c2e10b6049b40c13636fde.jpg",
     "displayName": {
@@ -173,15 +179,17 @@
       "german": "Beende 50 Multiplayer Rennen.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_GAMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GAMES",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_FINISH_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/e09a324a71a7d7bc8c1d722944f58211890849e0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939210/bda1acad3f2031a4c2af4259a023a3490d347547.jpg",
     "displayName": {
@@ -194,10 +202,12 @@
       "german": "Beende 100 Multiplayer Rennen.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_GAMES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GAMES",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

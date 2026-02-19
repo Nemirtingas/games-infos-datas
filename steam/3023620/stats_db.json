@@ -2,25 +2,31 @@
   {
     "name": "mechanism_purchases_total",
     "displayName": "Mechanism Purchases",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "max": 15,
+    "default": 0
   },
   {
     "name": "mechanism_upgrades_total",
     "displayName": "Mechanism Upgrades",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "max": 99,
+    "default": 0
   },
   {
     "name": "slots_meatified_max",
     "displayName": "Slots Meatified",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "max": 9999,
+    "default": 0
   }
 ]

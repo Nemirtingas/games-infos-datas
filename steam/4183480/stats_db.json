@@ -2,33 +2,41 @@
   {
     "name": "DELIVERY_COUNT",
     "displayName": "Delivery Count",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "DELIVERY_STREAK",
     "displayName": "Delivery Streak",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "ARTIFACT_COUNT",
     "displayName": "Artifact Count",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 80,
+    "default": 0
   },
   {
     "name": "DEFEAT_ENEMY_COUNT",
     "displayName": "Defeat Enemy Count",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   }
 ]

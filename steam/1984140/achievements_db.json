@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_SLAPPED_GOLEM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/b3d15f9e467129b469569a86e47ed4b62a3ff621.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/31e04c57f3cb8096c19751c86127722f2fa31a9e.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_SLAPPED_BACK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/e4e51779a05cc208d305ff4662bf12969d42110c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/31e04c57f3cb8096c19751c86127722f2fa31a9e.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_SPEEDRUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/a38eb31ab0db0a4c42085e058406ba3b2d7da380.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/31e04c57f3cb8096c19751c86127722f2fa31a9e.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_CROWD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/0d0275516a3059ecf7dc856a4156071a501f3552.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/31e04c57f3cb8096c19751c86127722f2fa31a9e.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_ZAPPED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/7059e58068506a2b1feb1c2e9036db91f68fe85c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/31e04c57f3cb8096c19751c86127722f2fa31a9e.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Zap 8 targets with the lightning turret in one zap",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "stat_zapped_with_one_zap"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_zapped_with_one_zap",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "ACH_TOUCH_GRASS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/a5dd6c12308e233a527e6858a2f52649218761eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/31e04c57f3cb8096c19751c86127722f2fa31a9e.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Defeat 500 skeletons across all games",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "stat_skeletons_destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_skeletons_destroyed",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACH_HOARDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/12f914a88c52f435dee808c9fe658eb18e23eacf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/31e04c57f3cb8096c19751c86127722f2fa31a9e.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_SECRET",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/9b9485985f188f80c14a4a45db2a8265d22ae7ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/31e04c57f3cb8096c19751c86127722f2fa31a9e.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_SCORE_MIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/3b6f5e2fea48e1e1071b0121416cc4688401a060.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/31e04c57f3cb8096c19751c86127722f2fa31a9e.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "ACH_SCORE_MID",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/81a255b756ea27633276492794d712f9deb8a82b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/31e04c57f3cb8096c19751c86127722f2fa31a9e.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "ACH_SCORE_MAX",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/85ea80cb345128a006626bb34220d71d478f6f07.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/31e04c57f3cb8096c19751c86127722f2fa31a9e.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ACH_MUTUAL_DESTRUCTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/0e209c1f4d34906cb6b7cd3dc83656e6dfff8590.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1984140/31e04c57f3cb8096c19751c86127722f2fa31a9e.jpg",
     "displayName": {

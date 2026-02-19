@@ -1,7 +1,7 @@
 [
   {
     "name": "Level1Achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/7f1078114796b3f44987a5b132df8a134d5653f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/e32042cb02ea9ecbaeeefed05dc8cf01be2b0b66.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Level2Achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/462ab4efb0e89d9ac34ed81778e7fd58360b5144.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/2ecd266b9e96cd1908479a442de41ef9afc47791.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Level3Achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/1a56a110d1a70bf22c22d0985bf8e293219ba2d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/d60ffbc84179fa222f7298506a118ce7bfd44ce6.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Level4Achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/a240b3407b3ec285fa287b8d42ae5ae5b4681196.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/5f93d791bd1f2254519a7e6102c19d964fd3411e.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Level5Achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/009170a346a2bf563200999341f6e75477366798.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/5d6c3fe3769e791b4a076842e2e4e5649a075bde.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Level6Achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/d6ca42aeec854662c09a4d86bebfe36e307fe30a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/b3b21395c06b85e5f0566fd0385e11cf87223d85.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "Level7Achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/9f6c11960afc2623bbb31a695ce47abd18007fac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/a63e28d06a07a1ac91753a266e7132a5b5da841b.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "Level8Achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/0b2520e2d22c66e57f0151d92be2e17978249a13.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/1f0b66875f03f1fa0bee512453877d5094837f8f.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "Level9Achievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/d08e15caccd59900353e3f2031da89dea23cfc09.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/12808d059f35cecb3af8705fab1d11ad6464e224.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "GeneralAchieve1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/cd3c9736732170d470651ccae3d5f7e1e2524577.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/b0f00541b0680c87e029190441ac872ae1237302.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Defeat a total of 20 enemies while hijacking a robot.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "HijKil"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HijKil",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "GeneralAchieve2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/f2d007853ed815170a81f8c797ebfb1104600239.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/93112daf7b99278c67723f25c2932dd505f27746.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "GeneralAchieve3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/f4d4a73ac46c2969bf788e66aadd0aaee240c958.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/93a6a4bf843b16f47fd429b045850811a4bb53fc.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "GeneralAchieve4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/8daaf9ae5ea855f7834c6d84238f44ac41ce19e0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/2ed1f1901d43c0bb00fa8d2b7fa697e71f1ec861.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "GeneralAchieve5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/23f18ef69c64218d253b45eae31adbeaa0913e18.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/3b29d62b2742a47ef29b3caf72576484d1d58e23.jpg",
     "displayName": {
@@ -199,15 +201,17 @@
       "english": "Overload the RAM 20 times in total.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "RamOvl"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RamOvl",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "GeneralAchieve6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/0561adab2d2f75d36891b02c4ee46fe25b16afeb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/4f5303d66e72e291a932cafae955c3e142d55554.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "GeneralAchieve7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/5d4d7c2d226d902bcc4c2f12a338345c833c519d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/4000e9ef4369a1f251de54da9477978f5bef38d4.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "GeneralAchieve8",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/3b5b0d22cc84d942439eb83ab69eebe83f1b8b8d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/75f563ebb651d391ee40dfd2f7dbc1b39f5e746c.jpg",
     "displayName": {
@@ -249,7 +253,7 @@
   },
   {
     "name": "GeneralAchieve9",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/174c5f39b6c125e6ddf2f68189159efabbe09b05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/c85f5e3229845b2d9e38ef4af159002fb39fb79d.jpg",
     "displayName": {
@@ -260,15 +264,17 @@
       "english": "Prevent imminent RAM overloads 30 times in total.",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "OvlStp"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "OvlStp",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "GeneralAchieve10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/49b64b9d4a8da5ef93f97f11909959bb430d293f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/2f1d91b4962a5f79f7622aa21890d40582a72d7d.jpg",
     "displayName": {
@@ -282,7 +288,7 @@
   },
   {
     "name": "GeneralAchieve11",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/06b34f0fc24fcd10af20c5c99c996c148a1a9644.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/997a80de7839907f7c994606af500b6547bd2417.jpg",
     "displayName": {
@@ -296,7 +302,7 @@
   },
   {
     "name": "GeneralAchieve12",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/6e1152c2ebd7bb84c4739f73facbc3d3ae209871.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/56beab58719d298b35d3a4e15987147049420ccb.jpg",
     "displayName": {
@@ -310,7 +316,7 @@
   },
   {
     "name": "GeneralAchieve13",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/d7006c2b7704573e38a4449f72ed2876ea36ddf1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/654b4127837169be94e146d0993b692e8678eb8e.jpg",
     "displayName": {
@@ -324,7 +330,7 @@
   },
   {
     "name": "GeneralAchieve14",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/877ad22e86b95b76c5869b24ed7c920cfe06e09c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/4975b7a49d82adc7fb5d57ecbbd39f6a0ee9fe7d.jpg",
     "displayName": {
@@ -338,7 +344,7 @@
   },
   {
     "name": "GeneralAchieve15",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/e2896f8e45ddfc0cb320d5255a40739dee2eda87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/ef5075a61b353e5e87cbd54aadfbcece800007ad.jpg",
     "displayName": {
@@ -352,7 +358,7 @@
   },
   {
     "name": "GeneralAchieve16",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/05d368ef8c52a86e87ecdca9ac95ea6da00b322c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/78f3d27a1a8e0a4a6ac13a60bdafdc15889979a0.jpg",
     "displayName": {
@@ -366,7 +372,7 @@
   },
   {
     "name": "GeneralAchieve17",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/93acc4661de6ae0c19c6fdc7b3fd1a8d60f06689.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/78f3d27a1a8e0a4a6ac13a60bdafdc15889979a0.jpg",
     "displayName": {
@@ -380,7 +386,7 @@
   },
   {
     "name": "GeneralAchieve18",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/6c8ba01a983853056588aeeabb7b47415270d773.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/7c35287a7a6ade1a1017fce4ac281e5efa2114ab.jpg",
     "displayName": {
@@ -394,7 +400,7 @@
   },
   {
     "name": "GeneralAchieve19",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/618bd35284e961ce2849af5a94cb0ccd9ba60b6b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4198680/f261347eae229b414f61c9db3352415f0d7cc469.jpg",
     "displayName": {

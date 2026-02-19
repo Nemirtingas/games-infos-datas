@@ -1,7 +1,7 @@
 [
   {
     "name": "INTRO_DONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/80b782a5954af541c9b9116f1c2c82431860ca26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/4bacc64a174bb0fd55b9599fc0e14ac85589d7b6.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "HP_REACHED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/a9dcb43e8a74c2b255e7964cfcfb759b67c78741.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/2f8a836aa4d4884bff76c66a6c26a863d87cf65b.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "STORY_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/94dadf8accf2970b43bc06255c19bf7c4e121978.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/f3202358ce2f732e25414e944e6792ec108da796.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_ALL_TOOLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/3d56c418cb68a071f6496eb9e569709446b00b02.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/87848cfffab17b6733fd04ca8e6abca0f12e91d4.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Unlock all tools",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "STAT_ACH_ALL_TOOLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ACH_ALL_TOOLS",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "ACH_ALL_WAGONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/d281544c6529469376d7a3c7ff79c5f4ec7e5cf9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/3186754a39599ca9e4e736569ea41d8d3f8289b5.jpg",
     "displayName": {
@@ -73,15 +75,17 @@
       "english": "Collect every wagon",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "STAT_ACH_ALL_WAGONS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ACH_ALL_WAGONS",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "ACH_ALL_CRAFTING_TABLES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/bb989596a44eb256a65b1fccf0b198e507ec0c3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/ec9d3c6c512b34f0a3807f31d02668ac1902f72f.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "ACH_FIRST_PAINT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/b9cdfc4507d7627543def17e378b2569c09156e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/e416498762a40248f36404b94bcad48df40afa38.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_HIDDEN_PANTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/eca882963fea95f29d13f701d884ef8ffd9b50ab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/62403e1da7503d4a8e103c56a468f4ff1f6dd9a6.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_LEGACY",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/4375b658c55690c052baa8f1aee480a2184f6a07.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/86d4047ddf18dca88f9fd3a784acd245346bd39b.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "ACH_WORLD_UNLOCKED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/75d497a00892ff281da5eaf866efa1713db71750.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2328650/3c042e845b163a06313f4e020e9cea1597a2fdba.jpg",
     "displayName": {
@@ -148,10 +152,12 @@
       "english": "Use every Map Stamper",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 23,
-      "stat_name": "STAT_REVEALED_STATIONS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_REVEALED_STATIONS",
+        "min_val": 0,
+        "max_val": 23
+      }
+    ]
   }
 ]

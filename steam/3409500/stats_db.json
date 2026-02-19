@@ -2,49 +2,59 @@
   {
     "name": "Days",
     "displayName": "Days Survived",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "Owner",
     "displayName": "Owner Level",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "Pearls",
     "displayName": "Pearls",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 100000,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "Crabs",
     "displayName": "Owned Crabs",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 15,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "Logins",
     "displayName": "Logins",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "Backyard",
     "displayName": "Backyard Adventures Taken",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 15,
+    "min": 0,
+    "default": 0
   }
 ]

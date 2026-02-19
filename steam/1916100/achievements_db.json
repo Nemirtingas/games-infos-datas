@@ -1,7 +1,7 @@
 [
   {
     "name": "WELCOME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/52adb13d32e17b0267cd8171b218873bda7a22a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/52adb13d32e17b0267cd8171b218873bda7a22a9.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "LOADUP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/52adb13d32e17b0267cd8171b218873bda7a22a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/52adb13d32e17b0267cd8171b218873bda7a22a9.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Load up the game 10 times.",
       "token": "NEW_ACHIEVEMENT_4_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "loadingup"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "loadingup",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "END",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "WEAPON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "RANDOMWEAPON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "AMMO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "PERK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "TURRERT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "1000KILLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1916100/9bcc15d546a6cdd567252f94f6a1321bcca89797.jpg",
     "displayName": {
@@ -143,10 +145,12 @@
       "english": "Kill 1000 Dinos.",
       "token": "NEW_ACHIEVEMENT_4_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "1000Kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "1000Kills",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

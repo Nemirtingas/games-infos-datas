@@ -1,7 +1,7 @@
 [
   {
     "name": "ICE_MAGE_UNLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/4f0cfc3520a713957037ddcdd69656e613d62ed3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/7dc8e583435237783ebb0798c5f3160718521433.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Deal 50,000 frost damage",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50000,
-      "stat_name": "frost_dmg"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "frost_dmg",
+        "min_val": 0,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "LIGHTNING_MAGE_UNLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/296bf29ccd3e05b33d47c8c9576b4e60bbe38631.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/b4d3be4a6b2b4a09f42147fd622503b30b45aba3.jpg",
     "displayName": {
@@ -34,7 +36,7 @@
   },
   {
     "name": "NECROMANCER_UNLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/88c026a34d56e1cbfef7d917acfc7fe437b7cd52.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/b2d39b855a4dfbf1a9056e85b8fb17c571d0931b.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "LICH_KILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/a5d2e5d4799b20102669d6730727cca8237a1b4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/41cbf1112136704325cbfc1df452eda7e6fe785d.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "WORM_KILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/415214b849749e9de122fe457080fb265a89712d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/e216884daa3954267d47b659249158ec50eacf69.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "KNIGHT_KILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/454cf3fc4c51400b0e6112e8ee0f741145750790.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/8c5bfad68320a7ddeafa3435d6da07bd451ab24f.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "LICH_HITLESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/7f03de7d26497622a3af9f4d1392f355e847171a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/f75ccc03d1564de38a01aec0934128ef98f27a9a.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "WORM_HITLESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/14c59429b96759b127af2e0d53783ecb65d0b36a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/4a338408dd4fe6254ce08959bcd06cee494af2d5.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "KNIGHT_HITLESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/270c077db8ec018e5f08055cfd89b2c8fcdfd2cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/4a85324c420ba075b26bc4264fe1384709e13778.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "KILLS_BRONZE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/3d9166ba24f567280bcfc7b75648bc401614e61c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/02927852e872bbd344cd06ce9dbd407b09ede89a.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Kill 5,000 enemies",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kills",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "KILL_SILVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/7fc0e367989ee027405d7dc819555dbd403ea69e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/47d8db1faa046093224ab528dab3f210e7fb9931.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Kill 20,000 enemies",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20000,
-      "stat_name": "kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kills",
+        "min_val": 0,
+        "max_val": 20000
+      }
+    ]
   },
   {
     "name": "KILL_GOLD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/c7b14ca3e2b6baea5f285d53c88d10f6fa27f7db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/9d6db24833c012f881c50fd17c15360b144dbee0.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Kill 50,000 enemies",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50000,
-      "stat_name": "kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kills",
+        "min_val": 0,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "KILL_DIAMOND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/bbc317e0314015997ecd46bf6dc9f85cbd6d767f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/f27cbb4977b97d51e38a3168c4b59c9599213f91.jpg",
     "displayName": {
@@ -200,15 +208,17 @@
       "english": "Kill 100,000 enemies",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kills",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "PYROMANCER_MAXED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/9c27ccb9f63b397206e4b174b144fef76a230b68.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/ead07b685b6f1bcf36dd6f00b049e678c360da23.jpg",
     "displayName": {
@@ -222,7 +232,7 @@
   },
   {
     "name": "ICE_MAGE_MAXED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/2dd8683bae011d1b2b7efba34079ea7276421b36.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/4d80c9d2c24d773b7fd7a99cae49e9696863faa3.jpg",
     "displayName": {
@@ -236,7 +246,7 @@
   },
   {
     "name": "LIGHTNING_MAGE_MAXED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/455656b4d262a36c190eeb3112ccd7b809990c21.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/ac3bb27971286593ddc6d76162cb4eba236131e6.jpg",
     "displayName": {
@@ -250,7 +260,7 @@
   },
   {
     "name": "NECROMANCER_MAXED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/af9f664a9858360e3b0a855addd3493210efa56c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3146730/8463af507712237fce32f7a893e589140672a61b.jpg",
     "displayName": {

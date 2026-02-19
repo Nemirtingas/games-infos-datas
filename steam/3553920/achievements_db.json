@@ -1,7 +1,7 @@
 [
   {
     "name": "Beat_Any_CPU_1v1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/286a29313de10e05195841869a8305e7a770e339.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Beat_Medium_CPU_1v1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/295902b5a992613786e8459511a87a8d30dc3c94.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Beat_Hard_CPU_1v1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/5350fdfec7aba26fb13f8cb1b8672c9d307cc975.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Beat_Expert_CPU_1v1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/d562ace4912735c6bb765443588c8186d057de5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Games_Played_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/290991872826266e7dd481399172760ad2abe330.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Finished 100 Games of Snap Flex!",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "games_played_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "games_played_stat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Games_Played_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/fab6cb7e7f900d4438569d693a022ae776e0ea2d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Finished 1,000 Games of Snap Flex!",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 101,
-      "max_val": 1000,
-      "stat_name": "games_played_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "games_played_stat",
+        "min_val": 101,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "Win_5_Online_Games",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/5d628d4730507333632b43f34efebf57a0f37bf9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Play 5 Online Games and win.",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "online_wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "online_wins",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "Win_50_Online_Games",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/d37f1adac7e43d47bfb13fb40d8871c41b5ee44d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Play 50 Online Games and win.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "online_wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "online_wins",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "Win_100_Online_Games",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/e522b21c031d241d720052ed7f311946e627b834.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -144,15 +152,17 @@
       "english": "Play 100 Online Games and win.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "online_wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "online_wins",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Unlock_All_Backdrops",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/b901630bb52076edfc29a9554c113ee204c3d12e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -166,7 +176,7 @@
   },
   {
     "name": "Coins_10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8f6aca2ab75123ea6da1da9f4a75c0012c92faeb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -177,15 +187,17 @@
       "english": "Reach a total of 10,000 Coins earned.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "total_coins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_coins",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Coins_50000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/6c0c9b63db72c09058708c748ac0a1aeee85a787.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -196,15 +208,17 @@
       "english": "Reach a total of 50,000 Coins earned.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50000,
-      "stat_name": "total_coins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_coins",
+        "min_val": 0,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "Coins_100000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/fa9296f17628d2059d90e3fec9de9e951081ee47.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -215,15 +229,17 @@
       "english": "Reach a total of 100,000 Coins earned.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "total_coins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_coins",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "Beat_2_AI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/c836a5b6603091b012888dd5e1d5f6cc0ee6849a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -237,7 +253,7 @@
   },
   {
     "name": "Beat_3_AI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/a60ecc210b99d0473d908d5d9e33bd8b657273a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -251,7 +267,7 @@
   },
   {
     "name": "Beat_2_Expert_AI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/11e3cfbc0803abc1ccf5fd9273837a8b8ea8a8cc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {
@@ -265,7 +281,7 @@
   },
   {
     "name": "Beat_3_Expert_AI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/87654d949768be02159d68024b119ad23b5ee4ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3553920/8567fa96bc921bfff1c8234aba04fd01e9066ce9.jpg",
     "displayName": {

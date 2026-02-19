@@ -1,7 +1,7 @@
 [
   {
     "name": "Stage1_ACHIEVEMENT_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/22248e3273c8f4009a6d4f9a42a1d7dbf1e03e46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/3044201d4bede68a2d52e6521f663dc5edac7a1e.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Stage2_ACHIEVEMENT_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/5498d02f03c7d6984529dfef416418c9641ce472.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/24ef15d5a71ffaa2078a1e717341e0cb0ff183eb.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Stage3_ACHIEVEMENT_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/ba3729a5c0d2493de9ab4e56524b99bec610c442.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/f65d3e81587edbb36efb67421b54556a435c103c.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Stage4_ACHIEVEMENT_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/c4e35594193380396ed78d7517ad58fb7223027a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/f57857e3044e4728f210b675ba8f13dd82b8c355.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Stage5_ACHIEVEMENT_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/4d85c77cc0020882b17f7417b76f95a19f1aa52e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/c470de378442365396e9621f56850af75ceb35be.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Stage6_ACHIEVEMENT_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/03c99fe7030e29fd27e8ad59b9e251fea38a7e58.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/ab5b587db4d686911aedb503afbc82108e7304ea.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "SecretBoss_ACHIEVEMENT_6",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/92cf6c3c2b2a90fc8f9bc604b2ab490559f29bed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/58f6d5585df5bbcc0b791f856979a09c2d2871fb.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "Survive_ACHIEVEMENT_7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/13517c236fd4140b1ca8ed8dd5c2fb5bdf489cfd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/47fca8ca706f811d8a5a41c2a3323929b9d1779a.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "Negone_ACHIEVEMENT_8",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/37cce426912c3c5663fbb799a9c4b5137e543617.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/c8ae69e3837c0e4249518f5ca858dfa4fb2a3642.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Defeat 25 enemies with Negone.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "negone_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "negone_kills",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "Echinacea_ACHIEVEMENT_9",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/945f28cf4a488dca357375315fcccf7afefea4ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/f6fb6ed2c08229fb3ec14df82ae4fa3dfd1e23fb.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Defeat 25 enemies with Echinacea.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "echinacea_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "echinacea_kills",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "Kadevil_ACHIEVEMENT_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/f061b95f77cc7d84fa98bba017a1f33295e45397.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/0e468cb2fc39fd3dd913e9a464832355fdc26def.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Defeat 25 enemies with Kadevil.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "kadevil_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kadevil_kills",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "Makronos_ACHIEVEMENT_11",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/b8dcfdce25fd771f02d97789213fe37fc83c3c8f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2261100/224f4646722a1e3b3634f0a5dfe3d31d2c16848a.jpg",
     "displayName": {
@@ -181,10 +187,12 @@
       "english": "Defeat 25 enemies with Makronos.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "makronos_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "makronos_kills",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   }
 ]

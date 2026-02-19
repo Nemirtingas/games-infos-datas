@@ -3,62 +3,62 @@
     "name": "TotalEarned",
     "displayName": "Total Earned",
     "type": "float",
-    "default": 0.0,
     "incrementonly": true,
     "aggregated": true,
-    "min": 0.0
+    "min": 0.0,
+    "default": 0.0
   },
   {
     "name": "TotalFishSpecies",
     "displayName": "Fish Species Collected",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": true,
     "min": 0,
-    "max": 125
+    "max": 125,
+    "default": 0
   },
   {
     "name": "MaxLevelFishCount",
     "displayName": "Max Level Fish Count",
     "type": "int",
-    "default": 0,
     "incrementonly": false,
     "aggregated": true,
     "maxchange": 20,
     "min": 0,
-    "max": 100
+    "max": 100,
+    "default": 0
   },
   {
     "name": "HighestProfitPerHour",
     "displayName": "Highest Profit Per Hour",
     "type": "float",
-    "default": 0.0,
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1000000.0,
     "min": 0.0,
-    "max": 10000000.0
+    "max": 10000000.0,
+    "default": 0.0
   },
   {
     "name": "TotalFishSold",
     "displayName": "Total Fish Sold",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": true,
     "min": 0,
-    "max": 2147483647
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "TanksUnlocked",
     "displayName": "Tanks Unlocked",
     "type": "int",
-    "default": 1,
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 5,
     "min": 1,
-    "max": 10
+    "max": 10,
+    "default": 1
   }
 ]

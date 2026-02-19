@@ -1,7 +1,7 @@
 [
   {
     "name": "WelcomeTemple",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/2b42ba39dcc322154fe8feda3d8282aa006766e7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/c30dd486f57511e0d5aaf0001d1d8f891050515d.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "CompleteGame",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/e8c281c4d469759b9c098aaeb6ea4f614ddc3140.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/4345de3e994390a8c8389100fa64cc2728cb812a.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "RescueCaelum",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/e16263f089793460d37f449999b9ad386011b768.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/5f2d4c200232628bca73b1a2de2b25347027e4d1.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "RescueIvy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/d7320274b3891ca5cd0fde7a5f48d8bc9365c21b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/e5b548be0882c5409aef70b81ade613f73e13439.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "RescueWynn",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/e4a5d1539a3475d3c4779e6e92143636f07c3521.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/716f02876f763482a3648eaa85da60f3701917ec.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "InteractSalvio",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/c37799c159895bdf3ea84a724b9d2674e4a48a02.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/90b0995780cc0ddf4bb1076ecfcf05bb08d7a767.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "InteractCotton",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/cb3cb90a3acbb6b227460de8507f5530f73760db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/a4d1ea60fce4fe8ee44055713cd3196126a00e98.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "CollectCoins",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/d52bd884a9bde95071b7c6e4f400716eca6e9368.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/c1720030b09f816df225d8fe37dc4f5f40922fd1.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Collect 200 coins",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "CollectedCoins_CollectedCoins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CollectedCoins_CollectedCoins",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "GetExtraLife",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/38a0035d9440b602d69125af3b99eeede2a05bec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/39cc9cd6948dd402fcac60b1b385247e647133a1.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "FindAllKeys",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/7a73b55982a970fde08fef233564a916e9c7b593.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/0c3f7ea53d39ac2b81d824d788d6e03cd380865a.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "RescueMinions",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/14160518bad4b5f5cf166f8b5347eb69efac4fd3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/ba219d9ced041009e7625998b3922fe48198c4c4.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "DefeatEnemies",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/3b7582a9c4d7b71422003a659328966b5949275b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/d5a16da59cf18d6df0adeb76e64c8876b66864b1.jpg",
     "displayName": {
@@ -171,15 +173,17 @@
       "english": "Defeat 25 enemies",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "EnemiesDefeated_EnemiesDefeated"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EnemiesDefeated_EnemiesDefeated",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "HealthUpgrade",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/c4bc09e364dfbbfc02c33f7a7e449706b58c5578.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/779fa97db7055d3037a04040aa514c43f5511318.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "NoHit",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/46cf0e64bd397d6c5eaee63a01c6a67f9581fc3c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/f4f746057d0d57f1072f4a5c72a479a11587dffd.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "Speedrun",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/c8b317155010237f141a67c9c1f666a7bcd8bde9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719080/6f4eb054af08a920105ef714c0748c88f633d32d.jpg",
     "displayName": {

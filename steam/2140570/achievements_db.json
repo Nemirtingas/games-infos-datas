@@ -1,7 +1,7 @@
 [
   {
     "name": "unlock_hive_plains",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/4f88226a2f0b1b40824ac794c15cdac6ea964c9c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/16ad5150b67c2a9a682b6755a1347370a13dcb55.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "unlock_hive_ocean",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/3047b6219d462873816cd832871605d71851ee65.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/8f4de948ff30c231469ef98a12f3dc39aad0d955.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "unlock_hive_arctic",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/26cdaf3ec80de761dcbfcb605476bf2e57bb3b34.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/d6d142222fb0b142bd7afe981a48f14af094bd8b.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "unlock_hive_farm",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/829fef5fd9002eae47864409b829c45b3c7c8264.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/64e4cce116eec64d9d67a5ea6bf444f108047b76.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "unlock_hive_medieval",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/a07870257a495ec5feb9e654b7f82b0192115589.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/5e4fbc4ec1ed596e6570716282f3e811184ed93e.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "unlock_hive_wildwest",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/22759dd98bb6ee47dd453a24853095bdb81471df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/5f814e741fbae248dc5354a25bab32ef1238ffcc.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "unlock_hive_city",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/a75985b789af8602943ba8ade3f2d38307d63d60.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/fa616939c56e8eedee0af0e2e314d9355029671c.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "unlock_hive_space",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/7923a45e9a5ad78b142eef7719e9ebeeba29c9e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/2d75551fd93b81810d5013565b81b35158bf3f68.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "open_100_packs",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/49344fb0b1fb598826a55efd49bb47d7fb6bd590.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/1edcb56e261ad6ccbbaeaed8fe2e265a7163d9f0.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Open 100 Packs",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "open_packs"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "open_packs",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "open_1000_packs",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/9f834645dacae4156d2337af1d436ec783373030.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/f846ac2309507fd694b03652a7730e71708b540d.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Open 1,000 Packs",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "open_packs"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "open_packs",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "open_10000_packs",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/84d2c083e66d2a2665f08b7b3082e3c038b310fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/73fc8ffb3cd0088aec018de106b2046f0d96a9e9.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Open 3,000 Packs",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3000,
-      "stat_name": "open_packs"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "open_packs",
+        "min_val": 0,
+        "max_val": 3000
+      }
+    ]
   },
   {
     "name": "get_golden_bee",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/54124bd3717b612febdaa69d5b87ca2a0a285d5a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/739ecdb2995dec53f6eb540752e7504ad67fc138.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "5_stickers",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/0b98dc76b7ab19e512f9aad11414b7d30ec3eadd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/b53af2ea7385e1bf687a82099ba7b21367cff1f1.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "spend_10000_honey",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/727eabe1ce0246f15a59f05539f50e2326ebe48a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/e3ab033ce50e99cff081005ed5bf575b2b364bf9.jpg",
     "displayName": {
@@ -209,15 +215,17 @@
       "english": "Spend 10,000 Honey",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "spend_honey"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spend_honey",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "spend_100000_honey",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/b930324477e152d34129e981314283b5e54c0389.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/d84273664251df05c4adc98bf1ed543b832a59eb.jpg",
     "displayName": {
@@ -228,15 +236,17 @@
       "english": "Spend 100,000 Honey",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "spend_honey"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spend_honey",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "spend_1000000_honey",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/a3023a24a9fe0eda58fa0156a6c5bb264e3c4b93.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/dfb6c8b586ea9f7412bbc3369ecc902376d12b21.jpg",
     "displayName": {
@@ -247,15 +257,17 @@
       "english": "Spend 1,000,000 Honey",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "spend_honey"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spend_honey",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "buy_5_hives",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/6d198035c18ea780b05f65ac5087fedb08d5ad03.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/ed51a6ebf212d3bd14af3f1a4cbe41b80c4d684a.jpg",
     "displayName": {
@@ -266,15 +278,17 @@
       "english": "Buy 5 Hives",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "buy_hives"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "buy_hives",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "place_3_hats",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/943440da9b506aa5db1e07d7ee177c6408d51fef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/c9a201a7c08b0f82824b9ff8bc7c29b0337e99e9.jpg",
     "displayName": {
@@ -288,7 +302,7 @@
   },
   {
     "name": "spend_10000000_honey",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/8ab72e96fb1db86064f336f97465204257c937fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/8e54ad22309b97658835bffd44bb0b1a42ee22b2.jpg",
     "displayName": {
@@ -299,15 +313,17 @@
       "english": "Spend 10,000,000 Honey",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000000,
-      "stat_name": "spend_honey"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spend_honey",
+        "min_val": 0,
+        "max_val": 10000000
+      }
+    ]
   },
   {
     "name": "cake",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/4d350405827ac9983e6a6a3e882f8769513e2a04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/bce4de258252b2f655c586890aeeb95c9a3ca8d1.jpg",
     "displayName": {
@@ -321,7 +337,7 @@
   },
   {
     "name": "dolphin",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/a37b8bbde36d5ba3e0d58f6bc2065521395b1a55.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/a5e66a2668c16297040d0837b1be23c9d189b1c8.jpg",
     "displayName": {
@@ -335,7 +351,7 @@
   },
   {
     "name": "duck",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/0220353fbc17449616d244ced3ac2b8def4e1821.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/685d993d0da2450f4ea4442032ae06db7ad21cfa.jpg",
     "displayName": {
@@ -349,7 +365,7 @@
   },
   {
     "name": "sauce_on_fox",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/ee2ee631ea70f4083417237c5e8ce9c081118af0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/e6d309de03b0dd59f49cbf55a46de2b5b5c877a8.jpg",
     "displayName": {
@@ -363,7 +379,7 @@
   },
   {
     "name": "the_professor",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/e0cfb2602329d6428d2393b59b86de3c60b012e9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/13f025093ddef0efeb020f2fdcb08051aa50bdb5.jpg",
     "displayName": {
@@ -377,7 +393,7 @@
   },
   {
     "name": "thursday",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/440e5a054695ee03406f3a6b1bc4697814e0a9e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/041f582d19fc6782585ed0d9bb7e769964283789.jpg",
     "displayName": {
@@ -391,7 +407,7 @@
   },
   {
     "name": "spend_1000_love",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/ec5e100c250731ec7cdaedc6570fc9aef0d5a82c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/680db84291ff6f3ff15ec48f20f53560050e34ef.jpg",
     "displayName": {
@@ -402,15 +418,17 @@
       "english": "Spend 1,000 Love!",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "spend_love"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spend_love",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "get_50_accessories",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/3d00c9f0765488e0e76450fc37406cc05950268f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2140570/294bec114229c774719a11c5ca293047dde9f11e.jpg",
     "displayName": {
@@ -421,10 +439,12 @@
       "english": "Collect 50 Accessories!",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "get_accessory"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "get_accessory",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   }
 ]

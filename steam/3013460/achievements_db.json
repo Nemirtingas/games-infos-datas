@@ -1,7 +1,7 @@
 [
   {
     "name": "00_ACH_NINE_FRUITS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/ca4dfb0759f8f68af357dff5f9acaf76270d4f37.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "01_ACH_STAR_PERFECT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/c58afa02729c543fdb83b7a0c047581fc4a0a17d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "02_ACH_PUNCH_BAG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/f37bd94546fb122f45c84844fbffe3deaa401710.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "03_ACH_REDLIGHT_FAKE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/5c864a75d268234e11bf58db9dffb2aa6542a150.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "04_ACH_FISH_BOMB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/9aa8fe3008d7f940d86ae91b7d87fdafec1965f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "05_ACH_TREADMILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/084124b49973823a056d016bbe349b9b06baba75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "06_ACH_MUSICAL_CHAIR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/c9bb15b65e10f6d8cc33dd43d3fb70560bbb70f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "07_ACH_ARROW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/d0c856eafc979749af84db98fb594181f208bc8b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "08_ACH_GOLF_SQUASH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/77992a13ddf1b34ea06e6df43be5c290186d56fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "09_ACH_INT_CHOPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/0df88c38aaa4ce9361334d42869f4065c130d791.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Chop 500 veggie slices",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "INT_CHOPS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "INT_CHOPS",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "10_ACH_MINIGAME_SELECTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/67f6136b7ac2aec96d1084ad8a97011cdfee8709.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "11_ACH_WAVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/deb673ad6e95364a0617a92f3c782ad1b9263848.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "12_ACH_BASKET_GODLIKE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/508bad79c51dd81da78cb1db23bb9135f376bb84.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "13_ACH_INT_FRUIT_EXPLOSIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/7c90e2d8207e99aab4ad6a976187e5a6d3d81055.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -199,15 +201,17 @@
       "english": "100 fruit explosions!",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "INT_FRUIT_EXPLOSIONS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "INT_FRUIT_EXPLOSIONS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "14_ACH_INT_HURDLE_JUMPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/59b2c3d38a4f74aa13e35843eb8c87a3f7a8337b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -218,15 +222,17 @@
       "english": "Jump over 150 hurdles",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 150,
-      "stat_name": "INT_HURDLE_JUMPS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "INT_HURDLE_JUMPS",
+        "min_val": 0,
+        "max_val": 150
+      }
+    ]
   },
   {
     "name": "15_ACH_SLALOM_BOOP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/0a514c2840079d5cd69827193ca9d78274799ede.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "16_ACH_VOLCANO_BOOP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/5b8f1e6fbc4f80a5e33f4b99c9086668f2e6f08b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "17_ACH_VOLLEY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/0a4811546a46e8e9d18d9938003d8fbaf59c07bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -268,7 +274,7 @@
   },
   {
     "name": "18_ACH_ALARM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/cb71f4f487b7e047488e2f4c5e17f6405b6e3ebf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -282,7 +288,7 @@
   },
   {
     "name": "19_ACH_BANG_EARLY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/f4a1be94a43461f71522d04da576d0919ddbe9c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {
@@ -296,7 +302,7 @@
   },
   {
     "name": "20_ACH_JUICE_FILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/a671482e70f62eb1a05027bc01da8f95d3f6708d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3013460/056349d0662bf66b765fb082646bbf3947280aef.jpg",
     "displayName": {

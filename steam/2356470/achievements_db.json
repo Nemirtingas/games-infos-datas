@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_NEW_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/f7d31e2955da90392507fc76eae37f5082eaf0a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/b6147f87637580d4e35add67432a3e902629816d.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_NEW_GAME_BONUS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/305c348bc0c2b5c291047b5fee0fa502a974e374.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/233e0f89e4d4a341e25d6f45aeaa0edd547da44f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_NEW_GAME_BONUS_GRAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/bbf8f32f58bf7ed07ca018f2fb2ecba922678f6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/ffe9da790246d0fe19369019c35679ce569ef1cb.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_NEW_GAME_BONUS_RESET_100",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/96af53f1d07708201bacd0718c66fec1fe05d22b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/ba138795b58defe44054314ed0342377fb17350c.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Finding your best-in-slot",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_BONUS_RESET_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_BONUS_RESET_COUNT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_DEEPEST_FLOOR_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/234abb891cb4a1f905d3e243a436faf52b5f9827.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/21b5c3cac780131b1a4ea61518790c9d08837508.jpg",
     "displayName": {
@@ -73,15 +75,17 @@
       "english": "Reach 20 F",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "STAT_DEEPEST_FLOOR"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DEEPEST_FLOOR",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_DEEPEST_FLOOR_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/1642eebf8df126ab97f47ad7bd0ab587215f21c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/4f7d2e1a5184a679453c515034e48acf3f9882b0.jpg",
     "displayName": {
@@ -92,15 +96,17 @@
       "english": "Reach 100 F",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_DEEPEST_FLOOR"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DEEPEST_FLOOR",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_DEEPEST_FLOOR_1000",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/390c5704ffd61337fa64ace1ec6dac0eda715b03.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/34115d41b605365dde639b539f001ad8b63cb9ab.jpg",
     "displayName": {
@@ -111,15 +117,17 @@
       "english": "It goes on and on and on......",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_DEEPEST_FLOOR"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DEEPEST_FLOOR",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_PLAY_COUNT_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/5eeaee33ff70bf93d8ffa3872977956e97b5306e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/4e9193836e4b7d7e6b8e49012f3f6e07a3aebc5a.jpg",
     "displayName": {
@@ -130,15 +138,17 @@
       "english": "Play 10 times",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_PLAY_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PLAY_COUNT",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_PLAY_COUNT_30",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/4ca28910f7b7c046151be105bef8756d022cf76d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/92cebe0ab999856cf7c88968f29f34c3992f7eaa.jpg",
     "displayName": {
@@ -149,15 +159,17 @@
       "english": "Play 30 times",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "STAT_PLAY_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PLAY_COUNT",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_PLAY_COUNT_100",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/50f886d300cbcdc36b7dd12a9efbaf6386d7c389.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/7afac09f1d96d3ada961e67f20a9677cd8b42517.jpg",
     "displayName": {
@@ -168,15 +180,17 @@
       "english": "Keep on trying!",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_PLAY_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PLAY_COUNT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_BOSS_CRIMSON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/f21e084c319cbf8273d7ca551e6b6a0a121391e7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/9cedb650f4eb660ca919695bbe924a5fc8b3b3ee.jpg",
     "displayName": {
@@ -190,7 +204,7 @@
   },
   {
     "name": "ACH_BOSS_AZURE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/9c457592979bb13a418ac31eb797510be7c07c39.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/78d4568ad301179f482b8c91ba2c953bc20608ad.jpg",
     "displayName": {
@@ -204,7 +218,7 @@
   },
   {
     "name": "ACH_BOSS_EMERALD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/6d33445e4093542ebb3a635447e1b2c0247a1cea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/5f8b0aefd8c9d44a48c5b1a7550c2a3425b6ed07.jpg",
     "displayName": {
@@ -218,7 +232,7 @@
   },
   {
     "name": "ACH_BOSS_GOLD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/6caa0a8aa4514816a55c2c9595c48f4cd7f3a3ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/6d6d24ae11cc6dd8f31d9fb2591fa0484a598512.jpg",
     "displayName": {
@@ -232,7 +246,7 @@
   },
   {
     "name": "ACH_BOSS_FINAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/5d4c5367622ec2a72f9a047988b01f20965dd7c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/1ae1bb3b5a621bd6f8065e50cdf9f45c08f86e00.jpg",
     "displayName": {
@@ -246,7 +260,7 @@
   },
   {
     "name": "ACH_BOSS_FINAL_VIRGIN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/3e92bac5f2ba41cb087bedbcf5101e2a46c3e465.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/05dce610138f6cb5027164c6d37659fdd87cc2a8.jpg",
     "displayName": {
@@ -260,7 +274,7 @@
   },
   {
     "name": "ACH_H_COUNT_MOUTH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/daf6b4402f4c326ef3628e37fe2da5abc58779e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/f6c5b56fcd34814b9b1fdbac5825178ba0aeed70.jpg",
     "displayName": {
@@ -271,15 +285,17 @@
       "english": "Not just for eating ♡",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_H_COUNT_MOUTH"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_H_COUNT_MOUTH",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_SEMEN_VOL_MOUTH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/daf6b4402f4c326ef3628e37fe2da5abc58779e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/f6c5b56fcd34814b9b1fdbac5825178ba0aeed70.jpg",
     "displayName": {
@@ -290,15 +306,17 @@
       "english": "Please quench this thirst ♡",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "STAT_SEMEN_VOL_MOUTH"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SEMEN_VOL_MOUTH",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "ACH_H_COUNT_BREAST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/238e0f7ca8e44e07f14f3221defccd2311f50935.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/e74e2a07f9514f974a1fcc7c2becb29445c9b267.jpg",
     "displayName": {
@@ -309,15 +327,17 @@
       "english": "Going through extensive development ♡",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_H_COUNT_BREAST"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_H_COUNT_BREAST",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_SEMEN_VOL_BREAST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/238e0f7ca8e44e07f14f3221defccd2311f50935.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/e74e2a07f9514f974a1fcc7c2becb29445c9b267.jpg",
     "displayName": {
@@ -328,15 +348,17 @@
       "english": "Welcome with open arms ♡",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "STAT_SEMEN_VOL_BREAST"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SEMEN_VOL_BREAST",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "ACH_H_COUNT_PUSSY",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/5dad280f943eb1175f5e4a2a16dc98624dbe9da0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/20373520c78f83c4eb6c0b9978e57fec0a4f74bb.jpg",
     "displayName": {
@@ -347,15 +369,17 @@
       "english": "Anyone, anytime ♡",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_H_COUNT_PUSSY"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_H_COUNT_PUSSY",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_SEMEN_VOL_PUSSY",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/5dad280f943eb1175f5e4a2a16dc98624dbe9da0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/20373520c78f83c4eb6c0b9978e57fec0a4f74bb.jpg",
     "displayName": {
@@ -366,15 +390,17 @@
       "english": "Fill me up ♡",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "STAT_SEMEN_VOL_PUSSY"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SEMEN_VOL_PUSSY",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "ACH_H_COUNT_BUTT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/a6772f921c8f7e6feffb6def4d2fb6b906f3985d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/6b7298e494d8c8a9abaada7ad2f1c2f6d6a2b95e.jpg",
     "displayName": {
@@ -385,15 +411,17 @@
       "english": "Permanent expansion ♡",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_H_COUNT_BUTT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_H_COUNT_BUTT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_SEMEN_VOL_BUTT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/a6772f921c8f7e6feffb6def4d2fb6b906f3985d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/6b7298e494d8c8a9abaada7ad2f1c2f6d6a2b95e.jpg",
     "displayName": {
@@ -404,15 +432,17 @@
       "english": "Refill, to the brim ♡",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "STAT_SEMEN_VOL_BUTT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SEMEN_VOL_BUTT",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "ACH_CUM_COUNT_ENEMY",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/acfc48c5bb616d8ab5966aabb27536e10547181c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/939e2dca614da9d5e285320a893869a65952e78e.jpg",
     "displayName": {
@@ -423,15 +453,17 @@
       "english": "Out of ammo already?",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_CUM_COUNT_ENEMY"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CUM_COUNT_ENEMY",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_CUM_COUNT_SELF",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/5da7491207f95021458ccb86b124fbab1a603026.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/75d73373c5fd5ceb812123a95812cec23fcb0ace.jpg",
     "displayName": {
@@ -442,15 +474,17 @@
       "english": "Why resist?",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_CUM_COUNT_SELF"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CUM_COUNT_SELF",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_BUKKAKE_ALL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/4e5e351968a9678218c00262d9bb34e90a1c8dcb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2356470/a2d4cfb6ca82614e0a2c317dd5f4ca58a62a005c.jpg",
     "displayName": {

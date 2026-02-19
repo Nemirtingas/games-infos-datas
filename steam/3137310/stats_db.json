@@ -2,33 +2,39 @@
   {
     "name": "COMPACT_CREDITS",
     "displayName": "Compact Credits",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 100000,
+    "min": 0,
+    "max": 99999999,
+    "default": 0
   },
   {
     "name": "TOTAL_COINS_EARNED",
     "displayName": "Total Coins Earned",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "HIGHEST_COINS_EARNED",
     "displayName": "Highest Coins Earned",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "TUTORIAL_PLAYED",
     "displayName": "Tutorial Played",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   }
 ]

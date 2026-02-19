@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FREEPLAY_FIRST_RIDE_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/14fa99ed0ac6edb4a56bc55f6438c2ea2b0a9ee3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/c63a33347a530c43901cd0948386982d5e7a966c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_GENERAL_CRASH_FIRST_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/d4ccba1a7b18ea19163db9cf7e01920b1736e083.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/8d4ffc6f21cb83d6b29d02bedf218aac70d670e8.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Experience your first crash.",
       "token": "NEW_ACHIEVEMENT_54_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "total-fall-off_total-fall-off"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total-fall-off_total-fall-off",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_GENERAL_JUMP_FIRST_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/19caee46b5309195067bfeac48fa925de148859b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/ffc08fb65dbf94f9030f808be11426c4b79461c8.jpg",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "Make your first active jump.",
       "token": "NEW_ACHIEVEMENT_54_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "total-jumps_total-jumps"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total-jumps_total-jumps",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_GENERAL_NIGHT_RIDE_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/71937fb56b01129eaaabffd657e92b79190e36dd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/c512942ef54f554ea3ccc8c68ecece147b8c1a42.jpg",
     "displayName": {
@@ -67,7 +71,7 @@
   },
   {
     "name": "ACH_GENERAL_RAIN_RIDE_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/768fdebd4743dd4a1c38eff48f3d6704ddc875c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/cdf3cbea3ef2e3c1537e9dc3fc29a6b946fd1731.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "ACH_GENERAL_SUNSET_RIDE_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/92989bd31e3d71f504b3987cb20c94e086a3ebe4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/c5bae7316a75db33524f4ca4d4f628b868a1a8e2.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "ACH_FREEPLAY_FREERIDE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/7ca15197047ae99ba81d56e035dbed8387c45383.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/685f28ba3cf4007d95d07be02fd2f9eaee780a79.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_STAT_TOTAL_DISTANCE_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/22e367feac475e61bb773bdc821f556cec233a09.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/fe58c4deb5c75fa3cb61bbde9c03d7198bd1719e.jpg",
     "displayName": {
@@ -120,15 +124,17 @@
       "english": "Cover a total distance of 1 kilometer (0.62 miles).",
       "token": "NEW_ACHIEVEMENT_54_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "total-distance_total-distance"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total-distance_total-distance",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_STAT_TOTAL_DISTANCE_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/c5af9c10ef0219ddfaf8f21aaa6ef26687b65498.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/8158dbf200044786366624eb2b24a953511da864.jpg",
     "displayName": {
@@ -139,15 +145,17 @@
       "english": "Cover a total distance of 100 kilometers (62.14 miles).",
       "token": "NEW_ACHIEVEMENT_54_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "total-distance_total-distance"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total-distance_total-distance",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "ACH_STAT_TOTAL_AIR_TIME_10M",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/812cee70c7aaa1583b277d9a2b00027f8e606ea0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/81803c536efd6244d3b57cb0a367d0f5168b1f75.jpg",
     "displayName": {
@@ -158,15 +166,17 @@
       "english": "Spend a total of 10 minutes in the air.",
       "token": "NEW_ACHIEVEMENT_54_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 600,
-      "stat_name": "total-air-time_total-air-time"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total-air-time_total-air-time",
+        "min_val": 0,
+        "max_val": 600
+      }
+    ]
   },
   {
     "name": "ACH_CHALLENGES_CHAMPION_SERIES_FIRST_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/027be250216f38d83748d1f8f7ae653c35eec49f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/5bd24345a1f3c67df0df5f4845e3afc85decc653.jpg",
     "displayName": {
@@ -180,7 +190,7 @@
   },
   {
     "name": "ACH_CHALLENGES_SPEEDY_FIRST_GOLD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/04e8c0fde6e6a0ab3185c4e4b4d09ba6d14c2df1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/3040121687b44605f14482ddb0d6145922bf82bd.jpg",
     "displayName": {
@@ -194,7 +204,7 @@
   },
   {
     "name": "ACH_STAT_TOTAL_RACETIME_666",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/b0ba07b3f0b27f14f368bd308cbebf35fd20aada.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/955b44d8ecfe4d677600175a8eaca85d45ae6d77.jpg",
     "displayName": {
@@ -205,15 +215,17 @@
       "english": "Spend a total of 666 minutes riding.",
       "token": "NEW_ACHIEVEMENT_54_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 39960,
-      "stat_name": "total-race-time_total-race-time"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total-race-time_total-race-time",
+        "min_val": 0,
+        "max_val": 39960
+      }
+    ]
   },
   {
     "name": "ACH_STAT_TOTAL_JUMPS_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/8e6b68dec4a1a2380c727e9ac6280d67fdb46399.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/91dda341d8a8f3d19d83baada5bac53d7800b287.jpg",
     "displayName": {
@@ -224,15 +236,17 @@
       "english": "Make a total of 1,000 active jumps.",
       "token": "NEW_ACHIEVEMENT_54_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "total-jumps_total-jumps"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total-jumps_total-jumps",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_STAT_TOTAL_FALLOFF_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/8300f771d20e34f8778f0ad8641829cdcb28bcd8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/a4a9d3e8cbd38c68b8c1d833ab5831131af92c53.jpg",
     "displayName": {
@@ -243,15 +257,17 @@
       "english": "Fall off the bike 100 times in total.",
       "token": "NEW_ACHIEVEMENT_54_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "total-fall-off_total-fall-off"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total-fall-off_total-fall-off",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_STAT_TOTAL_AIR_TIME_2H",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/ae46faa425688eb533463c088e77d5b4d97d090f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/5edfc0f5e62d41fac41327cdc52afceb6307e866.jpg",
     "displayName": {
@@ -262,15 +278,17 @@
       "english": "Spend a total of 2 hours in the air.",
       "token": "NEW_ACHIEVEMENT_54_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7200,
-      "stat_name": "total-air-time_total-air-time"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total-air-time_total-air-time",
+        "min_val": 0,
+        "max_val": 7200
+      }
+    ]
   },
   {
     "name": "ACH_STAT_TOP_SPEED_100KPH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/aa6752dc81a4de051c7f16e7841f7defa28c77c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/02851686bb55b3ab1e847cf2122deb6148a0a385.jpg",
     "displayName": {
@@ -281,15 +299,17 @@
       "english": "Exceed a speed of 100 KPH (62.14 MPH).",
       "token": "NEW_ACHIEVEMENT_54_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "top-speed_top-speed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "top-speed_top-speed",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "ACH_STAT_TOTAL_DISTANCE_1976",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/59478c76aa08e7fa1bbeedb673631a19438ded56.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1576560/e9d6c2dd096072743e9812cc86030681b2726b57.jpg",
     "displayName": {
@@ -300,10 +320,12 @@
       "english": "Cover a total distance of 1,976 kilometers (1,227.83 miles).",
       "token": "NEW_ACHIEVEMENT_54_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1976000,
-      "stat_name": "total-distance_total-distance"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total-distance_total-distance",
+        "min_val": 0,
+        "max_val": 1976000
+      }
+    ]
   }
 ]

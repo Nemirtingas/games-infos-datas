@@ -1,26 +1,23 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "NUM_TRASH_COLLECTED",
     "displayName": "Total Trash Collected",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "SKINS_UNLOCKED",
     "displayName": "Total Skins Unlocked",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "max": 10,
+    "default": 0
   }
 ]

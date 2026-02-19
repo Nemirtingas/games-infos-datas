@@ -1,7 +1,7 @@
 [
   {
     "name": "CA_002_FFA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/c3ef6cac070d3ded0c38f034247e5a534f698033.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/4a9b61945749be1f610ce6850d426f119d883cb7.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "CA_003_TDM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/0ca3eb56fa1bc8f94a6eed2a9b7df5db9d44b64e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/079e55dbb891af18c7ad0e1d3522a89b7a35be25.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "CA_004_NoGuns",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/0b1e201a09aa934dc64fbf3eeb79c33ec6d649d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/a601a0cb6e2dda39c2f09fd089ca6971af4dbd2c.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "CA_005_GoldRush",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/46aef08506587149867ed459c9474329e5b2df0a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/e3e1f0e79b565a6bbb3d4b954348b67fd0793ed7.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "CA_006_KingMountain",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/6906525dcad58fa0a5a711e71b47399abb50625e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/54c7a49257e2fc2f9d641141ae9b0f994c23dcb3.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "CA_007_Posse",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/cb746f749db1881a73b369093b070cb2ebdca6b7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/0d0b741965c19feee04fea379652e3b4d0beebbd.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "CA_008_Fisticuffs",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/9cb1725d15219477498a1754c77ea5f9ddb1f558.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/10102e01efb4b1236126aa52f14d1f704e931710.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "CA_009_Gold",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/bb758afeac9ac3d264feb3940083fc8b7f623756.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/6edbf478f0b625cb7eea6b88092427bfce328fb7.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "CA_010_Lawdog",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/fbd235fbe7f53dca4f90575f5fd7a72d18acf047.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/9c7674e64afe7fe19b07c6965905b529655eb92e.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "CA_011_Champ",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/fd8bacea6a69654acf87588f186b6391b37cc2ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/adc108195e42f6f9d06d4e9e012aa0796d038ce2.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Kill 20 enemies with your fists",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "stat_CA_011_Champ"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_CA_011_Champ",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "CA_012_Target",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/84617c443dbf83cc4fb7a3da500d2b4cd11a5376.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/e13a672733d142091aa24f71123c1fbc89eb8ff0.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Shoot 10 glass bottles",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_CA_012_Target"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_CA_012_Target",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "CA_013_Wasted",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/902b4e4f5b3eab3d8c3213e92250f33fad01c520.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/1e49639f74fee046878f551034d625b3d2afd2af.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "CA_014_Decorator",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/4757b8325d14a87a0dde3568fd6dedb0780add47.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/d2d2e21e96daf4bf99bf844bfaae3e411561c34f.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "CA_015_Spittoon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/bf474f5d90d55dbb87289528319b0603a295b704.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/a87330192bf89edd12f7af3dcd3345ca80bfb83c.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "CA_016_StickAround",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/07026f762c7aa36e906ed7752f0764d26f401c53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/c9d0756950e15afe3979f728a9a4e5bb307ac697.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "CA_017_Chopped",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/f7efecba47b44b5a4aeeabdee0935d33c979863f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/07446e4fbd47221d26ae0bd13b429ffeadb379f2.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "CA_018_Fashion",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/17fdf96592c5faff46397bfb0dd6cb70db999f78.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/8d09de503d97447de8f5903332b0c0346eb5c445.jpg",
     "displayName": {
@@ -249,7 +253,7 @@
   },
   {
     "name": "CA_019_Bullseye",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/84617c443dbf83cc4fb7a3da500d2b4cd11a5376.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/e13a672733d142091aa24f71123c1fbc89eb8ff0.jpg",
     "displayName": {
@@ -263,7 +267,7 @@
   },
   {
     "name": "CA_020_Level100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/3c6bd0e9285d6b5e491efec5d452b0ff703a8db7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/9870c1ab69b7a38a8411e842db3f74baf4c4acd0.jpg",
     "displayName": {
@@ -277,7 +281,7 @@
   },
   {
     "name": "CA_021_Flush",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/146695a9018dd2e3b2bdd3b1d673971b2c7daf1e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/517670/95d0ca230504b96deb8b9677f832f8dead614619.jpg",
     "displayName": {
@@ -288,10 +292,12 @@
       "english": "Kill 5 enemies with playing cards",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "stat_CA_021_Flush"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_CA_021_Flush",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   }
 ]

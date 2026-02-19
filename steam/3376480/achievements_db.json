@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_PIZZA",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/6101188fa991982abbe88bbb8c3e95a019bad8f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_FORBIDDEN_PIZZA",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/219d82bd23d1c9ad1a6a15fae3784fe147b68ead.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACHIEVEMENT_MISSING_TEXTURE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/9543a0a02528a02709ccec3ce94a262ec130a52a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACHIEVEMENT_ARRESTED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/ab7298cb0d854133c6871b9077c2cbaad9a8bba3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Get arrested 100 times",
       "token": "NEW_ACHIEVEMENT_4_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "arrested"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "arrested",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_SCRAPPER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/ba28e2dff2fba55753efe70720f8b46d20f5b9b8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {
@@ -73,15 +75,17 @@
       "english": "Gather 50.000 scrap",
       "token": "NEW_ACHIEVEMENT_4_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50000,
-      "stat_name": "scraps"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "scraps",
+        "min_val": 0,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_DELIVERY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/4ce103849cb46a8126b011c6691ceae23df9f092.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {
@@ -92,15 +96,17 @@
       "english": "Deliver 100 packages",
       "token": "NEW_ACHIEVEMENT_4_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "deliveries"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "deliveries",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_MASTER_MIND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/4779097294c4be79a8ae34ad4591e4848d74aa31.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {
@@ -111,15 +117,17 @@
       "english": "Survive until round 10",
       "token": "NEW_ACHIEVEMENT_4_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "rounds"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rounds",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_DEATH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/d3b7bae734caa1260b14e47801ba53022cd341cc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {
@@ -130,15 +138,17 @@
       "english": "Die 100 times",
       "token": "NEW_ACHIEVEMENT_4_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "deaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "deaths",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_OUT_OF_BOUNDS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/75ba8f331e66aef687706e9a166cefd8ea06a4a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {
@@ -152,7 +162,7 @@
   },
   {
     "name": "ACHIEVEMENT_SURFER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/61e83ddc40ccd46c1d989c630d6f69fb1ef14db9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {
@@ -166,7 +176,7 @@
   },
   {
     "name": "ACHIEVEMENT_FORBIDDEN_LOVE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/2fdd5f56b44e08a1c3fff8afa9761efc5e82fdf3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {
@@ -180,7 +190,7 @@
   },
   {
     "name": "ACHIEVEMENT_BRICKY",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/728d706d9582aada039cdd4361069a92d56ce51e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {
@@ -194,7 +204,7 @@
   },
   {
     "name": "ACHIEVEMENT_PRACTICE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/7b9a2b7c67cdbac5fa6ff532d2dc16697c64051d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {
@@ -208,7 +218,7 @@
   },
   {
     "name": "ACHIEVEMENT_UNIVERSE_LOAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/c4d2d5898e96a05918e28e3a5569d5e1c90ff4eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3376480/574de207b374e956adf84fea3aae41e2eb1d0dd4.jpg",
     "displayName": {

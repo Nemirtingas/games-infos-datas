@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_CANDLE_GRAVE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/5fc0f9fd09bb2505c63d308f591ae668ee68b09f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/4f7c1032cac30ad851a15e4b55b017270532bba6.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_RING_BELLS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/6efa761a9b7c71fcfe29f38ef89ce8e4ee160b60.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/f2d11c39564f80082afbc3bb8292f0f87db3c136.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Ring the 5 bells on the island",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_BEL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_BEL",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_FLUSH_TOILET",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/5b142feb2da2e27a4d22d2c8222bf92534d6f2be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/0306c785c8dc76a8dcf033873ca89ab88d72b3ba.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_COMPLETE_RITUAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/3c36747f7188bfc50bef5515b12c459d2d13af91.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/5db89c4bb8c4b97ea14d77fa720fea9945231885.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_LIT_FIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/e99482ce7a64a6dc98897f9d3db2e27a9371bbea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/30ab06a1bfb722ecb362a33c7c9cabce3443daa7.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_DIE_ONCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/11a0ba9d851d67d7a31e70473e0603fe2baef9f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/8b46505be09e8d5d8aed244bdcb6c40c9061d269.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_COMPLTE_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/e20cbe29a90a25a2b169804e5413979db72b5734.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/0c5db0a6b2b7a66459c9ed3bdade1797d738444f.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_COMPLETE_WITHOUT_DIE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/5cf2b4eb45d6c385f61df448dbd1e203d0257fc8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/8b143a406b33e7c4df22f6a33ccd692e6e4206e3.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_SOM_UV",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/ad0c99e48c14e0bfddacfe694a7de0ee0144f9c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/c76268525b89abfb44d80a037ada66e83ba40a1d.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACH_FIND_SECRET_ROOM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/46f70664c88f96df285d2d26b332c4c144c6a62c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/1b28e3ebffce06d6413346e8914a2197fecb7b09.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "ACH_NECKLACE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/86eafaf7cfc62d1d028da12e8311fb7ba04514e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/2c1fa6dd1cda689f3feab79b6959a82be1f49034.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "ACH_ALL_BEARS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/f0609a8a5b1559cc625eae9b9afd60c5a5df4068.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/057d2c857caaf76a3f705eda7ff1be2a45e464ca.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "ACH_ALL_STATUE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/696824fd885e4b2b50a8b07cb24af121465ca726.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/4613f3083076aaee4d42a5835dbcf12564c67778.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "ACH_ALL_MASKS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/1f113a66a158b677bc40620313f78d2c6dbdf49a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/6b4a463b181c05ec4e422ef20d726cf07854fbac.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "ACH_ALL_OWN_ITEMS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/53c442be2f9e3e3733849db8e116adf242ab251e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/3903b5337fd48fd9dd4bc78be841fd6e50c67bf0.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "ACH_COMPLETE_1HOUR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/396312918a04b87041ff03dd2132582f605a7825.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/223aa20c6e3527f1141b2ab1c72b99ed0b1a5e6f.jpg",
     "displayName": {
@@ -230,7 +232,7 @@
   },
   {
     "name": "ACH_GAME_100%",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/793db8b2bdea4e682c9f391e4089a06edf7cd25e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/b991e24102ea260bb76ae9548be582ab055a9070.jpg",
     "displayName": {
@@ -244,7 +246,7 @@
   },
   {
     "name": "ACH_ALL_PHOTOS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/cbd73a3d46166a9766c7d84a05ed7ac9cd5fc7db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/dc26f04c5786523f467a4478b67bb4ff12dea43e.jpg",
     "displayName": {
@@ -258,7 +260,7 @@
   },
   {
     "name": "ACH_RED_BUTTON",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/c1f33ae0ff7061f5eef703e8dcbc3aea47c80645.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/1ea05cda4e2de0ddcd7c0e2b5031d854dede1654.jpg",
     "displayName": {
@@ -269,15 +271,17 @@
       "english": "Press all red buttons",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_BUTTON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_BUTTON",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_FOODCAN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/978587ee3d5455bc678a2c307c511a414f98fada.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2418630/31d7a2874fcb0190fbd811932ead9b25f09eb138.jpg",
     "displayName": {

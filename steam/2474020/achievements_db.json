@@ -1,7 +1,7 @@
 [
   {
     "name": "ach_story_rigel",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/df56efdf0fb46b9278e15121293ad0a90cf5c7df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/87fcb6e2ba1f46aa97171d23b55d255f9cda5823.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ach_story_sadie",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/7a219279ccbe497717c6f97fb263a3688cd081d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/c16250e4d1b67463a4fe05896d2755015a9b73d2.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ach_story_mothilda",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/8f45e51be6a4fc5f859b0de4226f4e33e662b181.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/d07e443e04f981bd343e8c4c8bae5f51eb313fd3.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ach_story_mooscles",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/4226f14fc6cb90d968e84c7dc021abec91e847f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/5db2434eb3108666827456f8b0fd841061ff6666.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ach_minigame_rigel",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/45b5a569f78030915cc0f1d82d139a053de0f3c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/cfd40a9122840cad75f8998d95f723b1c58d25e7.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ach_minigame_sadie",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/a22bb8475684d6fc197c0ee88acc22342fae69da.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/843ac4ee15c93c32203c3fd9c0eba2082ecc8fad.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ach_minigame_mooscles",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/c7e37b0dc0aa1536dd092cb7e041a2447bf07abc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/fc9d92393e7a897e07a195e36f8d55546787ba34.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ach_char_rigel_ultimate",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/40e004c22718237710cd013bce903f57f3eed270.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/019cc7538ea467ed04e1ea17cc6f7440b779510c.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "As Rigel, damage your opponent's potion while they're stunned from Cosmic Flare 50 times",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "stat_char_rigel_ultimate"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_char_rigel_ultimate",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ach_char_rigel_special",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/9147bcd1db39eb16097de3257bfc8adf04833623.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/23e7851cab291114bfdcacc82acc0b9268fa95e2.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ach_char_breezedemus_ultimate",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/2387260c92efbe2737d86dbddc1412acb857629e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/5ba6bf3f0622ea42f531c5b46877751a8d50f654.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "ach_char_breezedemus_shot",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/dac60856f5c10e554eb4ce646c085edefb3a0193.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/a566c11cb401cea3affb97c166b110ffe1576651.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "As Breezedemus, score by powering-up bullets as soon as they're shot 50 times",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "stat_char_breezedemus_shot"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_char_breezedemus_shot",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ach_char_sadie_ultimate",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/a5cfdaf63aa694c1520cd493eeaf3c32bf3390ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/80f2e4a1ace683e19750bd78a4b6eebd5047e189.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ach_char_sadie_special",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/1117321f5347791b398c98a3d70a0f656da6d80a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/388b3d09945f890076c820ac56db0f3864fa96c4.jpg",
     "displayName": {
@@ -190,15 +194,17 @@
       "english": "As Sadie, reflect a total of 100 bullets by teleporting",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_char_sadie_special"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_char_sadie_special",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ach_char_mothilda_strike",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/05a626deb2173e775483387131b244ad2720812b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/8c7767d8e7a28b26f4a08945c78614274617446b.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "ach_char_mothilda_ultimate",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/c99bc6ea90f5002880b1dc1c21e54097f16fa809.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/c4ae93bc58f7e26b425de9fcbcbd95f82a11f95e.jpg",
     "displayName": {
@@ -223,15 +229,17 @@
       "english": "Deflect a total of 100 bullets with Mothilda's Ultimate",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_char_mothilda_ultimate"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_char_mothilda_ultimate",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ach_char_kiyumi_strike",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/bf2d1b3989d23e728ec5bf1e4025665db6c1655a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/187253cf1f3d447cd65c712972295238ebf09670.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "ach_char_kiyumi_ultimate",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/eda6b7d68924c02238964d27ea995fe09de2577d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/00f5e96795439046b50c7e7eda54d89dcc3f92e4.jpg",
     "displayName": {
@@ -259,7 +267,7 @@
   },
   {
     "name": "ach_char_mooscles_special",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/fbe49ef0c1f1936372d05d6d0ec3b9bfd6e899ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/08349795f5f49312ce7bfb32d74b3c72ff2f8e53.jpg",
     "displayName": {
@@ -273,7 +281,7 @@
   },
   {
     "name": "ach_char_mooscles_boost",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/bf43edaad3ae440a85f98331e02c517335b659af.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/9c80a1654f8202a73c350c9f35324be6c820c5e8.jpg",
     "displayName": {
@@ -284,15 +292,17 @@
       "english": "Use Mooscles abilities to speed-up 100 bullets",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_char_mooscles_boost"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_char_mooscles_boost",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ach_char_moranna_doublefreeze",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/1ae2f62fedaea1109fda610d2233371b2cc7af9d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/6ae9de8bada64eaf1655b79512bcb4b1e50c8066.jpg",
     "displayName": {
@@ -306,7 +316,7 @@
   },
   {
     "name": "ach_char_moranna_freeze100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/88f97d62a775206e72d1dad3ff88e851288e0209.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/8901596020f323e92058dbdc176d530920cc3ca6.jpg",
     "displayName": {
@@ -317,15 +327,17 @@
       "english": "Freeze a total of 100 opponents with Moranna's shots",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_char_moranna_freeze100"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_char_moranna_freeze100",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ach_versus_2v1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/865201885390561bf0f494dd4450e5a135b55da2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/4f52ecf96145dc323cdcb7ecf56b53a2626bd96e.jpg",
     "displayName": {
@@ -339,7 +351,7 @@
   },
   {
     "name": "ach_versus_perfect",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/4ef0d4dfab118a63b06dddd51bb0337a8ad63b4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/5d4d0aa1f838f785b792a0949d5796f350a4b277.jpg",
     "displayName": {
@@ -353,7 +365,7 @@
   },
   {
     "name": "ach_versus_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/0c036a3daa4e9d9f95e85ae298a53828e516619e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/3d1ac96d8da17e79e0b9941ae7a32d4cfcdf7532.jpg",
     "displayName": {
@@ -364,15 +376,17 @@
       "english": "Play 100 VS. Matches",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_versus_100"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_versus_100",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ach_versus_online",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/6924ae8f55c43f901a36753ccc5ddef5d7c794c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/aab62f743f8ea1160e49f49fc9dfa496318b81a9.jpg",
     "displayName": {
@@ -383,15 +397,17 @@
       "english": "Win 100 Online Matches",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_versus_online"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_versus_online",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ach_custom_ruleset",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/4a07d2615ee466365cc11fe77f7c5891a141bf48.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/001ff3d3fe278ea50c3ace617073f9da73fd6f8c.jpg",
     "displayName": {
@@ -405,7 +421,7 @@
   },
   {
     "name": "ach_custom_color_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/50a2680ea58c9922303e0a48a7fb479206f1eca3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/098cb3dcc4c546e5c6b7133f78e299a13f54cdec.jpg",
     "displayName": {
@@ -419,7 +435,7 @@
   },
   {
     "name": "ach_custom_color_all",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/bc07c24955986e99e99e45f473da9bfe1ff229e0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/d7e399ec3217668243e31aae37e93c7bcf27fa99.jpg",
     "displayName": {
@@ -433,7 +449,7 @@
   },
   {
     "name": "ach_misc_deathball",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/2f412717ca54fc81a3a56e4d32be044c8677e0c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/79cd93bf6a6ab350cb269124454d3ed137ed0f64.jpg",
     "displayName": {
@@ -447,7 +463,7 @@
   },
   {
     "name": "ach_misc_strike1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/1670494b640931b19138b9229f446b6bbf074116.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/bbbad049b3c2eb000370ab071b9b73c6b53c8686.jpg",
     "displayName": {
@@ -458,15 +474,17 @@
       "english": "Strike 1000 Bullets",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "stat_misc_strike1000"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_misc_strike1000",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ach_story_tutorial",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/d51c1551faeb89854002f2538c9d77ad048df8c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/674d491c1f486cf5f936673bee0025cb80d7d0d0.jpg",
     "displayName": {
@@ -480,7 +498,7 @@
   },
   {
     "name": "ach_misc_shoot1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/3620ca9f89d451e05991976b5a76e3c2031a2eb9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/bbbad049b3c2eb000370ab071b9b73c6b53c8686.jpg",
     "displayName": {
@@ -491,15 +509,17 @@
       "english": "Shoot 1000 Bullets",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "stat_misc_shoot1000"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_misc_shoot1000",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ach_minigame_mothilda",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/a3b5c4f8c89b26f3cca6a23abd1b7e0131945e12.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/cc50306a627259e0b5825fbd4c07bdd5685be0c0.jpg",
     "displayName": {
@@ -513,7 +533,7 @@
   },
   {
     "name": "ach_story_moranna",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/3247c609d5dde0134be76063795315ae2e4c1829.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/9467e1ceea9ca1a7262b11973e607353f936553c.jpg",
     "displayName": {
@@ -527,7 +547,7 @@
   },
   {
     "name": "ach_story_kiyumi",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/feae13e125ed5e2746763b4047e9f8ee99a0982c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/9740be4bfc8ea73979078e44739c48cfbcc74382.jpg",
     "displayName": {
@@ -541,7 +561,7 @@
   },
   {
     "name": "ach_story_breezedemus",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/5af0200c3d360e25ae834772b2fcf19e6d2bacd0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/b7e443e4ac275fb61c8016fffc26c50abba3eb70.jpg",
     "displayName": {
@@ -555,7 +575,7 @@
   },
   {
     "name": "ach_story_wandit",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/cbe612511f28eb478db242b85175a578de4b1416.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/5847cc7c845b125d47ec327963df4be3ea619373.jpg",
     "displayName": {
@@ -569,7 +589,7 @@
   },
   {
     "name": "ach_story_headmaster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/ea58928369734f66bcf79a602b5dc4415983bab7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/d1e492b73d5909f5ad9fb6d0a366bb8a4061a6b6.jpg",
     "displayName": {
@@ -583,7 +603,7 @@
   },
   {
     "name": "ach_minigame_moranna",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/69f9f7659a94ffdb04dac932a59b91bbbdcbccf8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/01e6004b72ef0a93d31572833337eee4b86d0dbc.jpg",
     "displayName": {
@@ -597,7 +617,7 @@
   },
   {
     "name": "ach_minigame_kiyumi",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/4d291d18bb24417b8d0eb3ce1d40a25c70d61d1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/552d69a996d40e7443ee5cd9f26e87f8db0fc670.jpg",
     "displayName": {
@@ -611,7 +631,7 @@
   },
   {
     "name": "ach_minigame_breezedemus",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/8367e3856c4a2a5ad42da077d277b514afe14667.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/b091603d07d3576bfc9d3487daa4a89ff1d53149.jpg",
     "displayName": {
@@ -625,7 +645,7 @@
   },
   {
     "name": "ach_minigame_wandit",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/a165cd32ef597cfc1ac2c4226dbcddc4f2f47d22.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/bde338879ed2e666643107118c0fe93d4ccd4895.jpg",
     "displayName": {
@@ -639,7 +659,7 @@
   },
   {
     "name": "ach_char_wandit_double",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/4d23ba833b1ba30e3be4e3e764545a3de72f4d3a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/0b5e25b2d3a86e747fdf2eb5b3b523f0a39a470d.jpg",
     "displayName": {
@@ -653,7 +673,7 @@
   },
   {
     "name": "ach_char_wandit_redirect",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/682d8d264f8616b2a5cca786edb48ba93547b1f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/1b7beaff74de7e9baf434ea200d9537f9f4b0e7f.jpg",
     "displayName": {
@@ -664,15 +684,17 @@
       "english": "As Wandit, redirect your own bullets right as they're shot 100 times",
       "token": "NEW_ACHIEVEMENT_2_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_char_wandit_redirect"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_char_wandit_redirect",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ach_arcade_clear_all",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/15d44b1b8f71368fd3a1b3765bf27bc86cf22d26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/4f20385c73d7ef14d1d16ed076c97b1abafdd676.jpg",
     "displayName": {
@@ -686,7 +708,7 @@
   },
   {
     "name": "ach_arcade_clear_hard",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/480dddcad5f867e6a968c580faa5cfd277d7719a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/26cad562b4dd6aee6c91afaed915b3fb71d77dc4.jpg",
     "displayName": {
@@ -700,7 +722,7 @@
   },
   {
     "name": "ach_arcade_minigame",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/10636472382f750b255f57e5f46a7eed65218082.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/12769c0f77b15ef2905e385598e3da8f4d0b3c4d.jpg",
     "displayName": {
@@ -714,7 +736,7 @@
   },
   {
     "name": "ach_misc_mask_complete",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/0114b07a45cdce56476ebbeb48da867e120aa8a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/e844f7bc6f2de48e8d686d21231379c46d2b201e.jpg",
     "displayName": {
@@ -728,7 +750,7 @@
   },
   {
     "name": "ach_misc_betel_unlock",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/5858410ab232525954b9a520b4f44fbf0b8be979.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2474020/2976a90ad8863d9259f1635e02f33a981bae81e6.jpg",
     "displayName": {

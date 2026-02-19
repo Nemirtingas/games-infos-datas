@@ -1,7 +1,7 @@
 [
   {
     "name": "FIRST_DEATH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "It's just a beginning",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "death_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "death_count",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "DIE_10_TIMES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -31,15 +33,17 @@
       "english": "You know what insanity is",
       "token": "NEW_ACHIEVEMENT_2_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "death_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "death_count",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ESCAPING_FROM_PRISON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -53,7 +57,7 @@
   },
   {
     "name": "COMPLETE_GAME_EASY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -67,7 +71,7 @@
   },
   {
     "name": "COMPLETE_GAME_NORMAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "COMPLETE_GAME_HARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "SEE_LOADING_10_TIMES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/6e3a867640d51a8473d5d3983dcf723793df037b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/94e10e9ccd026cc007fbfd7bb0337390028df6ab.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "How do you like the loading screen artwork?",
       "token": "NEW_ACHIEVEMENT_2_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "see_loading_screen"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "see_loading_screen",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "KILLING_SPIDER_WITH_FOOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Squashed like a cockroach",
       "token": "NEW_ACHIEVEMENT_2_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "kill_spider_by_foot"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kill_spider_by_foot",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "KILLING_SPIDER_WITH_FOOT_10_TIMES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -144,15 +152,17 @@
       "english": "Stomping through bugs",
       "token": "NEW_ACHIEVEMENT_2_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "kill_spider_by_foot"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kill_spider_by_foot",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "KILLING_INFECTED_WITH_FOOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -163,15 +173,17 @@
       "english": "A unique way to take out an enemy",
       "token": "NEW_ACHIEVEMENT_2_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "kill_infected_by_foot"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kill_infected_by_foot",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "KILLING_INFECTED_WITH_FOOT_3_TIMES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -182,15 +194,17 @@
       "english": "I see you’re getting into it!",
       "token": "NEW_ACHIEVEMENT_2_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "kill_infected_by_foot"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kill_infected_by_foot",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "KILLING_BERSERK_WITH_FOOT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -201,15 +215,17 @@
       "english": "Are you even human?",
       "token": "NEW_ACHIEVEMENT_2_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "kill_berserk_by_foot"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kill_berserk_by_foot",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "FINDING_SHOTGUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -223,7 +239,7 @@
   },
   {
     "name": "KILLING_BERSERK",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -234,15 +250,17 @@
       "english": "That's really impressive!",
       "token": "NEW_ACHIEVEMENT_2_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "kill_berserk"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kill_berserk",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "KILLING_SPIDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -253,15 +271,17 @@
       "english": "Who's that? A cockroach? A spider? I can't understand",
       "token": "NEW_ACHIEVEMENT_2_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "kill_spider"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kill_spider",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "KILLING_INFECTED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/be00531ccb805ab17f79d88144a996ffa416f6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2601640/119134ac96168db15e88b76019a26353e39812b4.jpg",
     "displayName": {
@@ -272,10 +292,12 @@
       "english": "Was he ever a human being?",
       "token": "NEW_ACHIEVEMENT_2_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "kill_infected"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "kill_infected",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

@@ -1,106 +1,112 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "TEST_STAT1",
     "displayName": "Test_stat1",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "TEST_STAT2",
     "displayName": "Test_stat2",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_HARVESTCOUNT",
     "displayName": "Crops harvested",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 999999999,
+    "default": 0
   },
   {
     "name": "STAT_LIFETIMEPROFIT",
     "displayName": "Lifetime profit",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 999999999,
+    "min": 0,
+    "max": 999999999,
+    "default": 0
   },
   {
     "name": "STAT_HighestBank",
     "displayName": "Highest bank achieved",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 999999999,
+    "min": 0,
+    "max": 999999999,
+    "default": 0
   },
   {
     "name": "STAT_PLANTCOUNT",
     "displayName": "Crops planted",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 999999999,
+    "default": 0
   },
   {
     "name": "STAT_SingleHarvest",
     "displayName": "Highest single harvest",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 999999999,
+    "min": 0,
+    "max": 999999999,
+    "default": 0
   },
   {
     "name": "STAT_Thefts",
     "displayName": "Heists",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 999999999,
+    "default": 0
   },
   {
     "name": "STAT_HighestSprint",
     "displayName": "Highest sprint speed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "max": 50,
+    "default": 0
   },
   {
     "name": "STAT_Deaths",
     "displayName": "Deaths",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 999999999,
+    "default": 0
   }
 ]

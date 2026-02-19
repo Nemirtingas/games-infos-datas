@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_PLAYED_ONE_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1444710/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1444710/",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "Congrats you played one game!",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "numGamesPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "numGamesPlayed",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   }
 ]

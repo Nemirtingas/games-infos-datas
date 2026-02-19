@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_TUTORIAL_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_DRIVING_DISTANCE_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Drive for 1000km",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_DRIVING_DISTANCE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DRIVING_DISTANCE",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_BOSS1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_REACH_RANK_S",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_GETWAY_DRIVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -73,15 +75,17 @@
       "english": "Passed through 10 alleys",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_GETWAY_DRIVER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GETWAY_DRIVER",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_BGF_FAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "ACH_BATMAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_FORM_A_LINE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_CRAZY_DRIVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Runover 100 enemies",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_RUNOVER_ENEMIES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_RUNOVER_ENEMIES",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_FATALITY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -153,15 +159,17 @@
       "english": "Destroy 100 frozen enemies",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_FREEZE_KILLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_FREEZE_KILLS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_PROHIBITED_CROSSING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -172,15 +180,17 @@
       "english": "The train destroyed 100 enemies",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_TRAIN_KILLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TRAIN_KILLS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_FULL_POWER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -194,7 +204,7 @@
   },
   {
     "name": "ACH_MEANING_OF_LIFE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -208,7 +218,7 @@
   },
   {
     "name": "ACH_PHOENIX",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -222,7 +232,7 @@
   },
   {
     "name": "ACH_CARMAGEDDON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -236,7 +246,7 @@
   },
   {
     "name": "ACH_TOKYO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -250,7 +260,7 @@
   },
   {
     "name": "ACH_NO_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -264,7 +274,7 @@
   },
   {
     "name": "ACH_ROBOT_ALERGY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -278,7 +288,7 @@
   },
   {
     "name": "ACH_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -292,7 +302,7 @@
   },
   {
     "name": "ACH_SILVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {
@@ -306,7 +316,7 @@
   },
   {
     "name": "ACH_GOLD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/56c196de7f03b7799a0b52ce1254356feb9e8a1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4152220/8520c58a3c9e6c75330523457e7a053f23f31850.jpg",
     "displayName": {

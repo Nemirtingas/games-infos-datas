@@ -1,34 +1,24 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "stat_xp",
     "displayName": "Experience Points",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 500000,
+    "min": 0,
+    "max": 13750000,
+    "default": 0
   },
   {
     "name": "stat_rank",
     "displayName": "Rank",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 12,
+    "min": 0,
+    "max": 12,
+    "default": 0
   }
 ]

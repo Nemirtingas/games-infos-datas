@@ -1,7 +1,7 @@
 [
   {
     "name": "CLEAR_40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2490420/68ceef30202f69c46e82536346a7bb17533ef24e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2490420/cd01a879ea0417731c08e0ca1d7be465b6dc905c.jpg",
     "displayName": {
@@ -14,31 +14,35 @@
       "japanese": "40ステージクリアする。",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "max_clear_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "max_clear_level",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "FAILED_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2490420/b398afe8cbfadf715144c93ba14858a7ac1e7fb7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2490420/cd01a879ea0417731c08e0ca1d7be465b6dc905c.jpg",
     "displayName": {
       "english": "Practice makes perfect",
-      "token": "NEW_ACHIEVEMENT_1_2_NAME",
-      "japanese": "失敗は成功のもと"
+      "japanese": "失敗は成功のもと",
+      "token": "NEW_ACHIEVEMENT_1_2_NAME"
     },
     "description": {
       "english": "Step on a land mine 100 times.",
-      "token": "NEW_ACHIEVEMENT_1_2_DESC",
-      "japanese": "100回地雷を踏む。"
+      "japanese": "100回地雷を踏む。",
+      "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "failed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "failed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

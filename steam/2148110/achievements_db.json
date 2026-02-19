@@ -1,7 +1,7 @@
 [
   {
     "name": "Oppa_Stoppa_ACH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2148110/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2148110/",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Kill 1000+ enemies.",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "TT_KillCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TT_KillCount",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "TT_Game_Complete",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2148110/12b08a5854855a329f26214e1094f25162ea24e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2148110/ad8a51b94b997cad4656e2480df8ce2c87448331.jpg",
     "displayName": {
@@ -34,7 +36,7 @@
   },
   {
     "name": "Trainee_ACH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2148110/0332c69b41207ab685d7b49fd1e35818183b09fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2148110/ad8a51b94b997cad4656e2480df8ce2c87448331.jpg",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "kill 100+ enemies",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TT_KillCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TT_KillCount",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "TestAchievement",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2148110/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2148110/",
     "displayName": {
@@ -64,10 +68,12 @@
       "english": "Testing kc of 15",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "TT_KillCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TT_KillCount",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   }
 ]

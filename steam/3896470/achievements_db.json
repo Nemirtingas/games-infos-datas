@@ -1,7 +1,7 @@
 [
   {
     "name": "FinishGame",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/dcae2713ed0940c4c05fb3d7762d6fb39c7aef80.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/80b4fdf2660910eed04fd33632936988e16b3d3c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "BigCombo",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/41fc46b0bc77e759f394afa20f601bd42c616e69.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/f627dab382039e5e6f0123328d5be9196633e119.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "AllCutscenes",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/f53543415ad8141a0647251415b63ad8ad5e0395.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/ede96774def17e08fe106af8477c458dedcfe1a4.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Addicted",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/38fd61d51ce0f94487b8a3ea5e58b409027c334d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/5faf72ebf492cea50b081e3c4e8391c901bf2e94.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "You pumped a total of 200 000 000 x 1 000 000 PPs. You are addicted and need help.",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200000000,
-      "stat_name": "PP_Millions"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PP_Millions",
+        "min_val": 0,
+        "max_val": 200000000
+      }
+    ]
   },
   {
     "name": "StartGame",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/2d19cb1f36c1f9d762d5d3307baf5baeb3c7a988.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/321d02d169de51051da966bd32801f6dd579312a.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "GoodCombo",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/674852e9eabe211e036ed7c3ea4b947afc29641c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/18f29fc5b1229bfd3b0c28026e2900ff752842c9.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "NegativeResult",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/d41ca70ef5d26dde656ce110f023d2afcba09345.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/eb8c8e490237620082e8d133f88cf61e4f5b005a.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "DecentCombo",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/c546bb46152297c98ba775bf2ebc0094e0ee0885.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3896470/103e381fb4642afeb402b6bbbaa1d7d5f7ebd828.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "BENJI_ACHIEVEMENT_WINNER_BETA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4141550/0e367838317a71250aa1ceda566800f441e70ddd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4141550/740cd7ee0131973e5679b24a0a11e56ba1087472.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "BENJI_ACHIEVEMENT_KING_OF_THE_FLYES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4141550/a9df0157f8a15e80a250f275932b61f4f306473c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4141550/4cccbdaa5c0afc0a9ad519414cfe7f74300d01d4.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "BENJI_ACHIEVEMENT_10_FLIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4141550/bf55ecc2ae6d27944f68495b0bed03abca1b16cc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4141550/683c9c4e23e74bf90a351eb949e9333da635278f.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Catch 10 flies.",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "flies_collected"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "flies_collected",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "BENJI_ACHIEVEMENT_25_FLIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4141550/9a0aea25813169278bee0b2da6ba9cf5ebab9587.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4141550/c31f979e51e0368b41ad9e2f2c5814983c2a3a39.jpg",
     "displayName": {
@@ -59,10 +61,12 @@
       "english": "Catch 25 flies.",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "flies_collected"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "flies_collected",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "AWAKENING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/6c144d5d4d5005b823d41c6fd14f10539808e58a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/ca05bcf90292f52e5bb24ecf9a938bf096064e3d.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "WAYOPEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/5189f9a03654e73e0d90a7b19092fc32c5c957b8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/ca05bcf90292f52e5bb24ecf9a938bf096064e3d.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "HARDCORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/621d32144e95bdb7bf39a73eebe2797058268fec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/ca05bcf90292f52e5bb24ecf9a938bf096064e3d.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "REALCLICKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/94ee43053083afcbae54949e53b1c566d89818ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/ca05bcf90292f52e5bb24ecf9a938bf096064e3d.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "BADEND",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/7d2fe8d47d28aad9afe7ac904f8abd7871384b56.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/ca05bcf90292f52e5bb24ecf9a938bf096064e3d.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "NETRAL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/3721b9f58aae282a5c884c8dd027d16b230f82b4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/ca05bcf90292f52e5bb24ecf9a938bf096064e3d.jpg",
     "displayName": {
@@ -97,7 +97,7 @@
   },
   {
     "name": "SECRET",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/48ecdaca25f7228b4a637bac856b900ed0106fbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/ca05bcf90292f52e5bb24ecf9a938bf096064e3d.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "GOODEND",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/310362ca17eb2d9baed0a7d10089a81605408f39.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/ca05bcf90292f52e5bb24ecf9a938bf096064e3d.jpg",
     "displayName": {
@@ -129,7 +129,7 @@
   },
   {
     "name": "HELLO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/77e56825b661f1c882135111b89a306428c23bae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/ca05bcf90292f52e5bb24ecf9a938bf096064e3d.jpg",
     "displayName": {
@@ -145,7 +145,7 @@
   },
   {
     "name": "DEATH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/912bd638421e8592030f76f5a413ede303f75522.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/ca05bcf90292f52e5bb24ecf9a938bf096064e3d.jpg",
     "displayName": {
@@ -158,15 +158,17 @@
       "russian": "Снова и снова и снова и снова... и снова.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "deathcount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "deathcount",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "TAPESFOUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/28ed66d7a6d15feb63da7b8f1dd93e54c03a3278.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3104540/64350c03fff337194d414c8ccff9e4c202316929.jpg",
     "displayName": {
@@ -179,10 +181,12 @@
       "russian": "Послушай их все, прежде чем делать выводы.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "tapes"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "tapes",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   }
 ]

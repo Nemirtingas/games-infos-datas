@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_100_LIKES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3630930/72c2d123f81fecd58a229e7a4d86fb6c915c83cc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3630930/4905f59883bc2e9853ffd0dda3cbf80db237d356.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "Get 100 likes",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "GOT_LIKES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GOT_LIKES",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

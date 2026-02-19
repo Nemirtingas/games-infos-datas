@@ -1,7 +1,7 @@
 [
   {
     "name": "TUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/d5d9cb68c281d2bd1689b327b7138630bb1afc56.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/d5dea251e0ae40f6f427d7acb3eb0d6582b8e377.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "LOGS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/91fa122237cb408f1989502ab7a12c4564f110d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/3ca6b25c09d0cbd787faee57141a4efedc645e17.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Collect all log entries",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "stat_logs"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_logs",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "KILLER_QUEEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/ca527f7de37fb267c5ae54e73a8bd92b28a2b5ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/f62ff322c435e25ce89b1a34a471c5cdf1f01e30.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "OVERTHROWN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/80097096f4a816c1f0631c0ee84911fef2970dc3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/d3bec24a7498664907e1c1bc20e4a2b371856c76.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "KNUCKLON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/a5f65e3323d7aba3d73cac13d06f53ad3ec3b267.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/9a79528183894d47c0c6a6dd66835b285ae2df8c.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "EXHIBIT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/a37ef8b5e1f1927219eb019c2a9e391dd3fed313.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/48c7d09eda3c9caa03b11d7a98eb6354a2dc9915.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "REFLECT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/de8626ee17e450c3a1836474887e778311a46fe0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/c77749fb3fa87c9d97faf883300d5f45e26b95f4.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "CAT_EXPLOSION",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/f780ef0e2417639124c7314f482160c88252f389.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/e9b600e7b489444a5b93e6c8eaac04ce8945b617.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "GAME_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/9abca6e7bc3b070758e02f6e3ce000f0543470a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/459ad4b66e234f63b40fe145b488ef5501e521e5.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "NPC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/81293d7e90ac79c162c17cf0ccb7052d33a9438b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/ccb5e5ae8044a22579a1ceadaf9673e538210dc7.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Talk to 50 coworkers",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "stat_npcs"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_npcs",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "HP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/7966a9bf04f90653f2aa9307269b1c224abcfdd2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/7ab15f046c72504f271a9a6baf492f7a26aa17c7.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Regain 2000 HP",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2000,
-      "stat_name": "stat_hp"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_hp",
+        "min_val": 0,
+        "max_val": 2000
+      }
+    ]
   },
   {
     "name": "ZERO_POINT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/0ea6bf908bf5665f326a947482e91ede64d8424f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/1e81d2d9803fbcd017e5cfda7a400a01e38419a8.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Kill 5 enemies by launching props with the Zero Point Fists",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "stat_zero_point"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_zero_point",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "REACTOR_CORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/af823a318fbc6a5404b55335fc01332a434d1bb3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/aa56132024e7a7e49c642d18256b56a93d67d72a.jpg",
     "displayName": {
@@ -203,7 +211,7 @@
   },
   {
     "name": "CEO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/e2c03379b1f907c67fcd8ddb6cd33a871d61426c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2869030/3d49dcdc0b4a5fd277908406d824ad5de2877cbd.jpg",
     "displayName": {

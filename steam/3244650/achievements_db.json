@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_WORKS_ON_MY_MACHINE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/05d0c00beb9699b6f52fcf264be1e86c86804c60.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/5da6d9d0e865728f9526915ebc778c523f156617.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_THAT_WAS_A_PARTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/2b8e8fb7e827cd913f434cb126cb12cdc7f005e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/1f856abf56eebbbfa3357fbde25fe5f8271a281c.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_NO_SLACKING_OF",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/fa98bc4d1bcceee0b3d5a9ce282c9a6bc3f2bfa3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/ac39d59b20889894d7b0b9bc551fa3a3012384aa.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_CLOSE_ONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/143cd7d575d804db74652f3c2a82b6272f2e20f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/5bb807d663d185046be89c15464889dc2494bcdd.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Achieve 20 Close calls",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "ACH_STAT_CLOSE_CALLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_STAT_CLOSE_CALLS",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_BOSS_DEFEATED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/bae5c65881b9dd83294f409e1fc9f02f22ae462b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/eb6e958555d7d7f8dab4fb6adca51c45b0b6342a.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_TEN_CONVERTIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/114afd86ce72d9f6f6687c06ee58e5a34ce3346d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/ba0ea65d2c2339a41ae4e1bd448e51d4744bea51.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Convert 10 enemies",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "ACH_STAT_ENEMY_CONVERTIONS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_STAT_ENEMY_CONVERTIONS",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_TWENTY_CONVERTIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/341cdf89b28b4150bb912c4c6331c01c0e7a5e53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/ec9e455225000df365acaa2a272b01b3aae0cd06.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Convert 20 enemies",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "ACH_STAT_ENEMY_CONVERTIONS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_STAT_ENEMY_CONVERTIONS",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_THIRTY_CONVERTIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/ee08ca986a7f5f92a21398f8f38953e2a0ef322f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/8be670a40ae1085122bf7ee62e449a5f12053198.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Convert 30 enemies",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "ACH_STAT_ENEMY_CONVERTIONS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_STAT_ENEMY_CONVERTIONS",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_WIN_PLUSHIE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/b18423838dafec012b333936d3aacfb93042cc77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3244650/71e5d12773e58717683f4c03c1a06f0ee917e47c.jpg",
     "displayName": {

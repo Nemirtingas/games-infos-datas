@@ -1,7 +1,7 @@
 [
   {
     "name": "WIN_FIRST_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/0e56e8e56421f445f27a13a24579c2b0e872ccf0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "CHOOSE_FIRST_WEAPON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/b3b62d22f56db1275a2aa311709f708f15e196f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "WIN_AND_DIE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/343b685e151ba95ae1a4afe05c9d31cbd46ebf40.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "FIRE_AND_ICE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/6ce83df7eeabbc9d788af2e6f833353e5f35093d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "20_MIN_RUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/701e4a1db4ca273a47b683e827828cd2c946a628.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "WIN_WITH_1_WEAPON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/4fceb2ac1d5326e228741d87582f4366870a1641.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "TOTAL_KILLS_10K",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/7929c20555239188da0c38ea9d416dc49768a9eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Kill 10,000 of your fellow contestants",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "TOTAL_KILLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_KILLS",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "TOTAL_DEATHS_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/82e2badfea8761115a3b6d40d150cfa2b5509192.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Die 10 times",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "TOTAL_DEATHS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_DEATHS",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "TOTAL_DEATHS_100",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1b9a74a8f7d0bf7be32abc52497d52229c85b783.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Die 100 times",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 100,
-      "stat_name": "TOTAL_DEATHS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_DEATHS",
+        "min_val": 10,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "TRY_3_STARTING_WEAPONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/07a4a3c4d01e9c99d0630b2893716955f7fcb87e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -156,7 +162,7 @@
   },
   {
     "name": "HALFWAY_THERE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/6df2e28e94836e8a92b5958edae4c607f55fbe5b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -170,7 +176,7 @@
   },
   {
     "name": "PACIFIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/7aaebf60d628948ea52b641719cec258eb40cebc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "STATIONARY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/36f5e0cd444878fab0799679bfb74a1b1c21e7bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "ANTISOCIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/2a552e34a53080430df6bc358b6643a4ec9cc8e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "KILL_WITH_DRONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/2433d86d46cfe66419ebdaca11f1d5eb24dcb0e2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "PISTOL_5_MIN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/62d823cb7d8ec4f4b8df3f057a4b1ea973f40f1e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "20_UNIQUE_PERKS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/abf2c6c854e414ee5006cec3f0b8a3b18b057b83.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "DEFEAT_TMM",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/27f9063828fc1b72f7371ddc4c558aea668b8023.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -268,7 +274,7 @@
   },
   {
     "name": "WIN_STREETS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/f591b31d13129d1c827fadd742cd2200a1b2be0e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -282,7 +288,7 @@
   },
   {
     "name": "WIN_SAWS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/d661ebf2328797a1b0a384e84378802c72889cf8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -296,7 +302,7 @@
   },
   {
     "name": "DEFEAT_DRSKUL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/612138549f22f728bd708bc133660144d62ab435.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -310,7 +316,7 @@
   },
   {
     "name": "DEFEAT_PIG",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/f8243f08a785e9b58ccce635c24a2985e4a0403e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -324,7 +330,7 @@
   },
   {
     "name": "KILL_WITH_SAW",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/117f92fad6ce4d9dcdd4b23470fe0a416be294f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -338,7 +344,7 @@
   },
   {
     "name": "PET_DOG",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/91e4ae3c2c4771c0f6c1cce26aaf9acf29191d54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -352,7 +358,7 @@
   },
   {
     "name": "THREE_BOSSES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/06d59c09405c609c6f567035348c7b9ecb6cf6f9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {
@@ -366,7 +372,7 @@
   },
   {
     "name": "130_LBS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1f8e7f33f1258ca10901ccb50705ac82ecdc9cc0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2351890/1c286d57a0a1fb1992b200deccb8cd99fb0b17dd.jpg",
     "displayName": {

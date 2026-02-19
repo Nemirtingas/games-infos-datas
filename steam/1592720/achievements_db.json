@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FIRST_RUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/0ccce6c82f7d4e9c6ada5ff04cf4f5ef6690b42d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/dc841bc264344e561a44d304295861aa9fda9720.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACN_LVL1_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/f1d956b04497d7aa25fcf047b0338c60da060c3f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/40f94ed480d8f110f19c4d5121b407386d3b19a1.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACN_TIMETRAVEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/2bbeeb47be4fa5ea955e3eed5d60354f088830a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/cbfcc52b17f34041f0d6d32906a1393350effd1a.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACN_LVL2_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/b6e5edb8698c0739e53623d6c7a5f4a5c8e50d80.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/c62d88471216728b9e7d604725ddb86480c66736.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACN_RUN_AWAY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/0308e15bf82d86d95e65a31faaf2a16cd4ef2a24.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/ca7039756c1a7606fdbca7e2a0a7d48028a84cae.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Let 50 enemies run away",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "stat_run_away"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_run_away",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACN_EMPTY_BUCKETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/650aef7c0fbd3e88eb33d88cd3048c4d14e0fa47.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/8f3b9ce18220d0e27c0d86a3025702c7501e20ec.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Empty and return 250 garbagecans / buckets",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "stat_empty_buckets"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_empty_buckets",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "ACN_BUY_POWERUPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/b7b8793c5713d9617a77e090b142b24262f0d0b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/b7887c5e75ebaa07e504fed80bf973de5b759adf.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACN_KILL_ENEMIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/cc857bb2d4666790cc6a2ce3f32c7fdcd77bf075.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/748e1ffba3dec1bde4bc83ac75cd51bd413a8197.jpg",
     "displayName": {
@@ -120,15 +124,17 @@
       "english": "Kill 200 enemies",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "stat_kill_enemies"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_kill_enemies",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ACN_THROW_TRASH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/d2ce17152347db17450f232fedb1aa7fdccd9af5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/e18b5a35b2b0675738e37cb0fa84b76bdb64b772.jpg",
     "displayName": {
@@ -139,15 +145,17 @@
       "english": "Throw 100 pieces of trash",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_throw_trash"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_throw_trash",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACN_LVL2_NO_DAMAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/bb914e9d3d0f5183aee2dbcf2836c095e412fb89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/2653e46f201e5f742fd55126ec000dbad0bfee70.jpg",
     "displayName": {
@@ -161,7 +169,7 @@
   },
   {
     "name": "ACN_LVL2_HARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/5f548d908721f0339b657a7d1aad7cfc69f2f670.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/37cba5b5acda2b2e1a49c095df77eddedc4d989a.jpg",
     "displayName": {
@@ -175,7 +183,7 @@
   },
   {
     "name": "ACN_ALL_FIRES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/dcea8aa1e758a740dc4e6480bcd71db898212950.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/843555e45b7fa955fc4e77ca9bab8e4c514d1af9.jpg",
     "displayName": {
@@ -189,7 +197,7 @@
   },
   {
     "name": "ACN_CASTLES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/5ae2a6d59632dd830549eb4fe86803b1d1383f0c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/ef95410720d3c059960d815bc158405b437d865a.jpg",
     "displayName": {
@@ -203,7 +211,7 @@
   },
   {
     "name": "ACN_INDUSTRY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/2562836b9f889880e2f426156c77c11baf7d5e9c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/cf7de4c7890d1336f10f699f2b9788c93874dec2.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "ACN_PORTAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/c88581662fd8c70e199ff55bca83eb33cbc880f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/525537d8e36b5e1683513fc8abc166b2de736f99.jpg",
     "displayName": {
@@ -231,7 +239,7 @@
   },
   {
     "name": "ACN_KILL_FRIENDS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/cc857bb2d4666790cc6a2ce3f32c7fdcd77bf075.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1592720/748e1ffba3dec1bde4bc83ac75cd51bd413a8197.jpg",
     "displayName": {
@@ -242,10 +250,12 @@
       "english": "Kill your teammates 10 times",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_friend_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_friend_kills",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

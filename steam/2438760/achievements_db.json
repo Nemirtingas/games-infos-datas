@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FIRST_STEPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/9c184e933a31641e8bbdcbd2d6f33e8893f7e00b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/e5ba7b5dd998ac1b4e7e2148bc26e6f9eb231c4f.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_WE_ALL_WORK_TOGETHER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/e7e6b4c2171b8ca1b8f4fa7682f890639d323d8e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/67de9c75efac44fca661cdb217d40562a5ed7277.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_YOUR_VOICE_YOUR_VOTE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/eba470d6a69b1b143159d2b9d0a2400eebdb417a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/dbaf4424b9297ce8cd4d991a4dd35446517b053a.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_SEEK_AND_YE_SHALL_FIND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/4b503b44b6bc2378c3b8eba504d70f5ae0a04af0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/cf6304b301dc54edf6515342c8a1598701772150.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_ENGINEER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/70477ae8aaf985bd371f988e3965dc692e5c055f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/287b82e5d6df75e681e6e372c66f405d96011430.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_THE_ROOM_WHERE_IT_HAPPENS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/67528c82c8f2ccbdac6fd99c8a5b38ba411dda2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/a84e789113f28d0a7007d6052eaeee52b8faf991.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_WORLD_TRAVELER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/14c7bc29d71bbcf7a78097f61a15233847a2ecf2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/1e797c224b8f06382ad9514ed4c4a82daddc5de2.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_HOARDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/5edd2c1f9f5b28d8f71982b4a4ffd53b44bd8796.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/8cd5e56d50c52feb8790c3ee413ef47a4669c49b.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Find every collectible ",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 28,
-      "stat_name": "stat_collectibles"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_collectibles",
+        "min_val": 0,
+        "max_val": 28
+      }
+    ]
   },
   {
     "name": "ACH_SPACE_BUD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/3b1d5172ebd18bc19aa8c08f9581371de13f6adc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2438760/c6c0f8030f0ee757ec67f5feed25ed5747e526b2.jpg",
     "displayName": {

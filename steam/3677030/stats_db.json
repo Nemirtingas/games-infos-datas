@@ -1,26 +1,24 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "stat_test",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 0,
+    "max": 10000,
+    "default": 0
   },
   {
     "name": "stat_3",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10.0,
+    "min": 0.0,
+    "max": 10000.0,
+    "default": 0.0
   }
 ]

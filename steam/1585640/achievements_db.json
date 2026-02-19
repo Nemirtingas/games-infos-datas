@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_TUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/f5beb6645aaf4c5186a67eb133634e9f01931fb8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/6f5d9592fd8156b44781f760bd976e49d4b7947f.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_WIN_ONE_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/e9155731b81a859bb1c0ea77da60099b3ce9e4f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/7f08abd0493288c7f7b558892e7a6d584d980d7b.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_WIN_TEN_MISSIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/3592fe75efd7ab7ad415f47bb012dafada19d40e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/42158ebc5675885a583632370d9461015e6d178e.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Win 10 missions... it's not impossible.",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_MISSION"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MISSION",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_WIN_NOT_HURT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/550e748eea5f9fb90ea11faed49055940fa183f6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/65da58fbbb258569837ceaf4486c1d142d7158b9.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_WIN_NO_SHOOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/7dee6f77762bbc822bdb40f040c004f474f47f25.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/210c2a4911e81bc35a4664aff3173b6c96220821.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_THREE_CROWNS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/ebac694a8f193548f57b9cded642b744dab48d81.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/d8be67d63683de22ba7b65aebecc6c292d4f37ac.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_TEN_SECRETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/2fc6889a79a1852996342647d40f831346786f2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/93bdc63c345ee2942ce08c001762d3285ccb9e53.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_MEGA_INK_KILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/3d20f4d5ccd393d941a7926b8d7c0f4fd3626d72.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/28e2a3c16b51b5ab8ceabf6cf75a9d2f9a0c5860.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_SHIELD_TOUCH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/2f3778ca58f65e69807b9cb36577cc1898e378be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/9f0d8b6ae62f6b4233025e8b33ee8ee30c916fb2.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACH_KILL_WASPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/5677e86a330768422078b906e56036be158f671a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/ac976ce2d48a3c92d7929b3c5718213eed29ec39.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Slay, splat and zap 100 wasps.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_WASP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WASP",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_KILL_STUMPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/bcabd552148431803dcf0182c39c7101aa4d4534.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/23c4fec6a2dfc759af5580c99ed9a0b8b6308806.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Smash, bash and splash 100 angry stumps.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_STUMP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_STUMP",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_KILL_W1_BOSS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/02b8dac90e706a94ec4ca5411343050e278a3025.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/919cb99c393ddd2236070dcedea76c2bc06e11d2.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "ACH_SPEARFISHING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/15aead6ce48f6a48866f716a5423f6f977c4ffc6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/066e1f341445903c5f595f7e053e1d5eec7f433c.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "ACH_SLOW_KILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/3b08448968decd6fd2b0426bbffff943a1e27783.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/6d88d2b070b9b5fe0404dd1c643155d9b787afc9.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "ACH_KILL_WARRIORS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/fd6e0228a77285974e32259b3d250d4596108996.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/dfabc0b414ab93b556834139518ffa748a684bfb.jpg",
     "displayName": {
@@ -223,15 +229,17 @@
       "english": "Destroy 100 chain warriors - turn them to rust.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_WARRIOR"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WARRIOR",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_KILL_BROWN_BATS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/dc500df83c5a89a1f0fa97cb5260b885771f5c3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/efbf50b7692879d1b1e067fd9e6cb351e3d06cd8.jpg",
     "displayName": {
@@ -242,15 +250,17 @@
       "english": "Blast 100 brown bats out of the air.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_BAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_BAT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_KILL_W2_BOSS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/1c9ed9408d0eb592ce49c576d8ed8c49904a0444.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/0fccb70280f16b4dd878a60299002ba876ad6172.jpg",
     "displayName": {
@@ -264,7 +274,7 @@
   },
   {
     "name": "ACH_FIVE_LIVES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/f35ee5c064ae84a58814e8a38b23dffc3c06d293.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/35c254250e71e111e4de89ed683b66485265e38e.jpg",
     "displayName": {
@@ -278,7 +288,7 @@
   },
   {
     "name": "ACH_KILL_MUMMY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/e75234297d50cbe220a7e88906564f249acc0260.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/1267a1e4c9777e1c5ddb78e60cd1e9dd529ad644.jpg",
     "displayName": {
@@ -289,15 +299,17 @@
       "english": "Mush and mash 100 mummies.",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_MUMMY"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MUMMY",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_KILL_WARTY_SPIDERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/7ec3d2d14ac28e561a679db5a0ef35397bb7d319.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/2dd5a67bb5abea03833607758960797600bd5d6b.jpg",
     "displayName": {
@@ -308,15 +320,17 @@
       "english": "Splat 100 World 3 warty spiders.",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_SPIDER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SPIDER",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_KILL_W3_BOSS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/c7725bca89c77f9623ed45a89ad91cca53cd3c82.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/8d87b6f6f55e0b2b9cf1b8daa30db5c7af27fcfa.jpg",
     "displayName": {
@@ -330,7 +344,7 @@
   },
   {
     "name": "ACH_ALL_W1_MISSIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/40840b0d16ac0a5a71f612f9ae6493ccaa074d4f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/1c1156799ee81d9d0befce3c75592a94e6c414e5.jpg",
     "displayName": {
@@ -341,15 +355,17 @@
       "english": "Complete all three missions for levels 1 to 15 in World 1.",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 45,
-      "stat_name": "STAT_W1_MISSION"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_W1_MISSION",
+        "min_val": 0,
+        "max_val": 45
+      }
+    ]
   },
   {
     "name": "ACH_ALL_W2_MISSIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/f7ae3af2050b59de395e34b215749cd74b2a6c6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/a2a27c8ffb1b580baddeed2e4d86fb16e67f18e7.jpg",
     "displayName": {
@@ -360,15 +376,17 @@
       "english": "Complete all three missions for levels 1 to 15 in World 2.",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 45,
-      "stat_name": "STAT_W2_MISSION"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_W2_MISSION",
+        "min_val": 0,
+        "max_val": 45
+      }
+    ]
   },
   {
     "name": "ACH_ALL_W3_MISSIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/503bca5f41d7088c49714b6eefcc8ada6d9a4db3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/7410b13cb78e7adfede04f6291a2bf0051d825be.jpg",
     "displayName": {
@@ -379,15 +397,17 @@
       "english": "Complete all three missions for levels 1 to 10 in World 3.",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "STAT_W3_MISSION"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_W3_MISSION",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_GOLD_PEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/c8e71baa56eb28eee6056da64571d9a389be300d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/583ee4b2dfbbdc2c497e6c0a067783744bca1ba3.jpg",
     "displayName": {
@@ -401,7 +421,7 @@
   },
   {
     "name": "ACH_BOSS_STANDARD_PEN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/eb85bd6cecafea0e87812c54ca2999a556b49917.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/a5e47c9eab3b2658ca5dda6feadeacb2b906173e.jpg",
     "displayName": {
@@ -415,7 +435,7 @@
   },
   {
     "name": "ACH_EVERY_MONSTER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/15cb2bfb676bd99deb1eb54c819f4ac1306fb4f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/4f2b412854e5ff1f7d93f88089c3da355ff34f45.jpg",
     "displayName": {
@@ -429,7 +449,7 @@
   },
   {
     "name": "ACH_TWENTY_SECRETS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/8133afe53d5c72950356c37a162b0f48d79eaf4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/9db1dcb820662b28bfab90b75a8bc27251fe4ba6.jpg",
     "displayName": {
@@ -443,7 +463,7 @@
   },
   {
     "name": "ACH_W3_BOSS_NO_HURT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/d62264940bd241a3ec1c8197a875e57f0663b405.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/af35537541059aeadcf1e94aefef4f879ad37e95.jpg",
     "displayName": {
@@ -457,7 +477,7 @@
   },
   {
     "name": "ACH_MEGA_CROWN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/a60c8a2f375fb2c84821350ae073562f6c0c8451.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1585640/c57a70bbc6a9edf587b05b6efadc2348b110af4f.jpg",
     "displayName": {

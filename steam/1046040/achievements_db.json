@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHI_DEFEAT_HARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/a5700d4b0110ae5ee8afeef3a45e4589902cc68b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/e79a8d2a085b44fb58196abdd2267f0734e1125d.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHI_DEFEAT_HARD_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/e8927a2a04fb08e8f8deef644b6789c85ab92946.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/d4eb288f1f07b1d3f822db4ec428a33df2ec6253.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACHI_DEFEAT_HARD_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/f86f21aa61a9834bbc696b6ecf3f0e9b132cdf3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/b9321b7e8757e36251200a0ba094ec460baee55a.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACHI_SQUISH_SQUISH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/29185dec7995e69fc8cd97f263f7142e5935edf9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/a4e00d3ec2f6942a8e91c01a1d6194bac0cc0f87.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACHI_100_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/f074dc037e8c53b1e7d59d7d7b96a83f4509637e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/17c18bdec8bae412e7eef16006346aa6c28ebf6c.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Gain 100 XP from PvP games.",
       "token": "NEW_ACHIEVEMENT_2_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_PlayerXP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_PlayerXP",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHI_200_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/8cb188d3b89462c7bffeb41cac4fe1aea7cb8064.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/0bdf843d188f8650be8c767816b68266ea560a62.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Gain 200 XP from PvP games.",
       "token": "NEW_ACHIEVEMENT_2_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "stat_PlayerXP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_PlayerXP",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ACHI_400_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/6f11c7c649b03b3e03707638b0ac4c60f045553e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/68b19eeddbeb950a1304ba76836bb00866d7ccbb.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Gain 400 XP from PvP games.",
       "token": "NEW_ACHIEVEMENT_2_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 400,
-      "stat_name": "stat_PlayerXP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_PlayerXP",
+        "min_val": 0,
+        "max_val": 400
+      }
+    ]
   },
   {
     "name": "ACHI_800_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/d5591045fd5f1f415992fcdf57fcf1f6d31912ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/9009444181b4b19da3e28c7e13b5335ac77f6122.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Gain 800 XP from PvP games.",
       "token": "NEW_ACHIEVEMENT_2_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 800,
-      "stat_name": "stat_PlayerXP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_PlayerXP",
+        "min_val": 0,
+        "max_val": 800
+      }
+    ]
   },
   {
     "name": "ACHI_1600_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/913df2f028c2d6cbed705ab0d471ac98c979f54d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/a84e93fb6ff9f8898fcec9b7e82fca247b3123d1.jpg",
     "displayName": {
@@ -144,15 +152,17 @@
       "english": "Gain 1600 XP from PvP games.",
       "token": "NEW_ACHIEVEMENT_2_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1600,
-      "stat_name": "stat_PlayerXP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_PlayerXP",
+        "min_val": 0,
+        "max_val": 1600
+      }
+    ]
   },
   {
     "name": "ACHI_3200_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/07ae916993ef19544b74941046e5f9146ba1b57d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/b6c5874e6884b362d04ed0e72fc4bedf6355ea73.jpg",
     "displayName": {
@@ -163,15 +173,17 @@
       "english": "Gain 3200 XP from PvP games.",
       "token": "NEW_ACHIEVEMENT_2_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3200,
-      "stat_name": "stat_PlayerXP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_PlayerXP",
+        "min_val": 0,
+        "max_val": 3200
+      }
+    ]
   },
   {
     "name": "ACHI_10_MIXED_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/e6af32ccd9e2a88990d0dbc3b8cf71e59f44fad2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/5a6c378ade21902201f8d16fda3916af013c4bc0.jpg",
     "displayName": {
@@ -185,7 +197,7 @@
   },
   {
     "name": "ACHI_50_MIXED_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/47a0b58c37b8e0e6ecfa9bf68aff2f6394becb75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/832868cffff6f0af9855d67da658f4382d6be178.jpg",
     "displayName": {
@@ -199,7 +211,7 @@
   },
   {
     "name": "ACHI_JELLYFISH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/e4cb962573ccae9aa3a25ca77a3565c9af3d4bf7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/8a2e03671ca860b46c6facecd33dbfaf44031832.jpg",
     "displayName": {
@@ -213,7 +225,7 @@
   },
   {
     "name": "ACHI_GRAVITY_BOSS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/ea950620f2df88df74631dfce59532138ccf4797.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/f493c88100a151b0054a5689a7e2b9733205a1dd.jpg",
     "displayName": {
@@ -227,7 +239,7 @@
   },
   {
     "name": "ACHI_PRIMORDIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/71d18f38461236fce804b58d4bc25790d00dcf41.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/7c6e5025de5f234408758541d571a11034b41c69.jpg",
     "displayName": {
@@ -241,7 +253,7 @@
   },
   {
     "name": "ACHI_SURVIVAL_8",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/5dbc11f817a1d3fa6e380eaf35de3f2a1352baa2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1046040/ed6eba571bb2d22811c4e7a2259fe95a424890b8.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "GameStart",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/dd6ca1996a5422622709aca4362878dd2d29d204.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/9fcc5ec36d639001741d996557c1f185ac91d59b.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "GameOver",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/7a5585af3fb80e8ab62317f850777525076e1c28.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/0321f2b8cacf5c48239f4a252d5cebf985dcf1e1.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Clear1_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/2ace347b4a2f788cbc532c9a5d1a6387c1b611a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/cb6a8e23f615787f9bc6951a2d057cf53d82ed9c.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Clear2_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/53ccc5f64518db3a05f568619b243ef86d56e644.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/b69cb1252b12db8acb9f81339bf9f3ed81d13942.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Clear3_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/582081af3ad72ece00cd69abd308f639a1b231a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/21024514dda6d0ee70fc684223a3d3186278ac01.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Clear4_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/fd05c9e57fab562f32d631a5000d140a545dd33b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/c8519781b05e693661680127ce9a1c6a7c63ac39.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "Clear5_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/909fa3ff30bcb5576ecda9977d71a7a794e78a8d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/9023b93e705f4f69f03a9441da77ac7abcf435b8.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "Clear6_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/4dae362db6407d2e65768ecaaa5840f54cecc7a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/85df5df7d57a135c3343d11301d77210c3525a0e.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "Clear7_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/6e1a0cce4563e70b661eac776faccd98e6a7738c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/5d168d55493bd5dc63d1db75b01fef999e226e93.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "TotalHiScore500000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/65394c9c892482a574cff0c978a3bdfe40c8cfa2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/aa46c24d1b9abdbc4107ff982a051a137c961489.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "High score total over 500000",
       "token": "NEW_ACHIEVEMENT_13_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500000,
-      "stat_name": "TotalHiScore"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalHiScore",
+        "min_val": 0,
+        "max_val": 500000
+      }
+    ]
   },
   {
     "name": "TotalHiScore1500000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/97ace1e5515a3705c95517ea8ef3ffef0dfc1e54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/3496b92bae9592d69e02714a514fbf5ed7529bc6.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "High score total over 1500000",
       "token": "NEW_ACHIEVEMENT_13_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1500000,
-      "stat_name": "TotalHiScore"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalHiScore",
+        "min_val": 0,
+        "max_val": 1500000
+      }
+    ]
   },
   {
     "name": "TotalHiScore3000000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/fc5982c045879eb96892eb5decc3c9eb0c22ffbc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/1d8964a35d44d514bdc33cf6dc4b4e712e49f51e.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "High score total over 3000000",
       "token": "NEW_ACHIEVEMENT_13_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3000000,
-      "stat_name": "TotalHiScore"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalHiScore",
+        "min_val": 0,
+        "max_val": 3000000
+      }
+    ]
   },
   {
     "name": "TotalHeroDown_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/b0508a5f098ebdd48536e4dd07c9e6f0603435be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/c5ba802d7c111173732d0ecebadbf5431069bed3.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Down the hero a total of 1 time",
       "token": "NEW_ACHIEVEMENT_13_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "BraveDownCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BraveDownCount",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "TotalHeroDown_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/5369d3064e72176de334d76f8d6745a7c28410a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/732d4d44253707abff6b0edcb22714dd62c1489e.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "Down the hero a total of 10 time",
       "token": "NEW_ACHIEVEMENT_13_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "BraveDownCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BraveDownCount",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "TotalHeroDown_25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/577fcd738fd54e4f1931753fa68f0d62164eec3b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/f5ac3f4668c60ab029a3443471457ce495fe592f.jpg",
     "displayName": {
@@ -233,15 +243,17 @@
       "english": "Down the hero a total of 25 time",
       "token": "NEW_ACHIEVEMENT_13_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "BraveDownCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BraveDownCount",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "TotalHeroDown_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/ee6d2645d6caa33026caab583cb5c8f16319ef83.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2945270/b1fc82de8e87e7127e89a6cf7f90889088ae53a2.jpg",
     "displayName": {
@@ -252,10 +264,12 @@
       "english": "Down the hero a total of 50 time",
       "token": "NEW_ACHIEVEMENT_13_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "BraveDownCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BraveDownCount",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   }
 ]

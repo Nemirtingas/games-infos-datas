@@ -1,7 +1,7 @@
 [
   {
     "name": "Achievement_1_play_one_hour",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4230980/8e785b6d25f68b958e1e3c997909a08e42829ca0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4230980/87bfcd3d0dae84f237dc2049696664eba1fa9c55.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Achievement_2_create_one_haiku",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4230980/4a95ac3ce3dda35d42e261d8ddc0fab76ff57ee0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4230980/8122a05e278ca4ef2abcffb7b51a00bb4c71681d.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Create and save one Haiku",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "stat_haiku"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_haiku",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "Achievement_3_create_five_haiku",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4230980/cef5ef5f2af9f7e0217f4b8d7475a6510f07fe61.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4230980/d6188ef45db376938b20fdce088e3da1844ab626.jpg",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "Create and save five Haiku",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "stat_haiku"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_haiku",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "Achievement_4_create_10_haiku",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4230980/898333f8a5dd01b67d12836e215881f80ff691a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4230980/202f89451250040a790c60416f0dbf1630562baf.jpg",
     "displayName": {
@@ -64,15 +68,17 @@
       "english": "Create and save ten Haiku",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_haiku"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_haiku",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Achievement_5_use_hundred_words",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4230980/acc9407896b353ce875af39d53cce1cba230971e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4230980/133d08bc450ec72074ef5ffca883a30053e34fae.jpg",
     "displayName": {
@@ -83,10 +89,12 @@
       "english": "Use hundred words to create Haiku",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_words"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_words",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

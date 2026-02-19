@@ -1,7 +1,7 @@
 [
   {
     "name": "ForestFinished",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/9c3a62946c93dbc9da2bc1eac142870f4f62ad66.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/bf47ceb216e88e498fe6151391626c2ba3c799be.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "RoadsFinished",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/fdd38faaf14b9f26109b2f1b4e136bf5f362abd4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/139d6e8c59b74befdcdcf535213cf45ae41f84b9.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "DriftFinished",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/6504c55c3c0dcee232fa57c000ea6835ff4f3229.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/09bc1875f848d7776934e4e144a5884c985d6c80.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "TablesFinished",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/b4a0047f2f4e7aa43d2aac248b36804e94d2a5b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/4805f17e0c988a212959fec40c21e8cd1f5e3fce.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "PizzaFinished",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/52e48471954bdc6d69398dfca569683e695afa08.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/0397b33b9de16cee726b2678f1836ff4a4c37c3a.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "JumpFinished",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/5ec32aaa575b201f9ef7b14bc3106dbad89e6ea9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/783f03d97124b07c0642c8e50c1d942f4f6a4be8.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "TownFinished",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/28ff9e3732ec38cbe45c24bd356070978da40a3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/6db931362aaf6244fba0dc786822ed23530e24cb.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ReachedHouseGold",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/42d91bb53c667bb6b638e01a468fe346c1c024f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3582170/21b8dab126bcab9f1740b980ee9977def62e4e43.jpg",
     "displayName": {
@@ -110,10 +110,12 @@
       "english": "The escape artist.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "House_House"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "House_House",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   }
 ]

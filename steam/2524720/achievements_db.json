@@ -1,7 +1,7 @@
 [
   {
     "name": "KILL_REAPER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/f9ed93cda348eba873eb454654eb668a79d02545.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/ed95aa3ab4283ded5c63beed615cc30dfd14d8cf.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "KILL_FROG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/df424dba86a5ef9125c83b4ad39714ee9057e0a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/ed95aa3ab4283ded5c63beed615cc30dfd14d8cf.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "KILL_BEETLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/9cbf0b60ef9bb564ae12bbc7b5c79f41412dc3fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/ed95aa3ab4283ded5c63beed615cc30dfd14d8cf.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "KILL_EMPEROR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/cb2b6ffe2ea1b3dab8422db6b3ba69de9dd70cc0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/ed95aa3ab4283ded5c63beed615cc30dfd14d8cf.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "DRONE_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/52834f93e40ed30aa912fdd234398a497a3c3e1e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/ed95aa3ab4283ded5c63beed615cc30dfd14d8cf.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "DIE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/3aa9e1772a10023a86d62d1248deadcd497ce368.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/ed95aa3ab4283ded5c63beed615cc30dfd14d8cf.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "EDEN_PART",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/2be579816c3861fd9de2005459973e1c716ffffe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/ed95aa3ab4283ded5c63beed615cc30dfd14d8cf.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "SHIP_FIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/b691777285a91a668c00dc99a3be31e3e45fe154.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/f17791764e433809c6642b7d6d35d311c9e37914.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "SHIP_EARTH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/6d33156dd14dbf7f77deba07d8e4cb890a2082cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/f17791764e433809c6642b7d6d35d311c9e37914.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Destroy 15 pirate planets to unlock the Dwarf Comet.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "pirate_planet_destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "pirate_planet_destroyed",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "SHIP_AIR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/7ca4c16c9d3cb472a63587edc31c3d11289b901a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/f17791764e433809c6642b7d6d35d311c9e37914.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Travel through 30 portals to unlock the Tiny Typhoon.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "portals_travelled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "portals_travelled",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "SHIP_WATER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/6d64ca4560b71a855e5323c5020230bdd79e45e0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2524720/f17791764e433809c6642b7d6d35d311c9e37914.jpg",
     "displayName": {
@@ -162,10 +166,12 @@
       "english": "Kill 100 enemies to unlock the Sky Pondlet.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "enemies_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemies_killed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

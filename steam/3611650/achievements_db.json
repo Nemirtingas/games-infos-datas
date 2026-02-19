@@ -1,7 +1,7 @@
 [
   {
     "name": "WORLD_1_PERFECT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/dddcf008405091ee6b19463232ec0f3cf4d31d5b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/fcdb0342531d9c9cf0538d12ff2296fa83a759b9.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "WORLD_2_PERFECT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/623c44ca29cdcabfd4b790b68b32d27a4658c2ce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/f905bb3b388cc23891a92e33dbf90055fc674cf6.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "WORLD_3_PERFECT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/b2117ec7902671158756be7b5a3c107895a4f517.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/f30562cad0508567dc07899b21793416b97c1d1e.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "WORLD_4_PERFECT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/39fab7ae808e3be84ea60b5fcaf4eefa596e621c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/ae3bf6e15fd960613e801e4ef812885c5dac27f7.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "BLASTER_KILLS_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/e951ee45c1a92778b3b0d409a859c888285c9c41.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/ae68a999431153524d38fbd269e99fed345ff585.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Defeat 20 servals with the blaster",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "blaster_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "blaster_kills",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "BLOCKS_DESTROYED_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/48b035dc3607bace0573cbecddaef17cdae2968b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/ae68a999431153524d38fbd269e99fed345ff585.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Break 20 blocks with the drill",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "block_breaks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "block_breaks",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ENEMIES_EXPLODED_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/8f93afb79a9c4043fef65eb8f24b43273e16416f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/ae68a999431153524d38fbd269e99fed345ff585.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Explode 10 enemies with dynamite",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "enemies_exploded"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemies_exploded",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "TRAVELER_LICKS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/d5dbee5b82b594eee4de0333dd3d2d7edae3f1b7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/a9f5a752e3a468884b72076c66d5f1ef37e92cc8.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Lick the traveler 100 times",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "traveler_licks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "traveler_licks",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "SUPER_LICKS_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/74ff71423c43e52120175841908a3cbee900cbf9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/ae68a999431153524d38fbd269e99fed345ff585.jpg",
     "displayName": {
@@ -144,15 +152,17 @@
       "english": "Lick all 4 Servals with one super lick 5 times",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "complete_super_licks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "complete_super_licks",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "PACIFIST_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/961f0a189df38b5874103785e878450b382a9abc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/b896dd2701e553cd687c6db4a8ac7bd07743e550.jpg",
     "displayName": {
@@ -163,15 +173,17 @@
       "english": "Complete a level without defeating any servals 5 times",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "pacifist_levels"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "pacifist_levels",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "NO_LICKS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/83b80e5d5ba926e95c517e759474141131b2f050.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/ccef3b3d665533f6ba9d68822564c9c60d39cad5.jpg",
     "displayName": {
@@ -185,7 +197,7 @@
   },
   {
     "name": "NORMAL_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/d1116426c5aa435e2c94dea7317b75f57307462f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/ae68a999431153524d38fbd269e99fed345ff585.jpg",
     "displayName": {
@@ -199,7 +211,7 @@
   },
   {
     "name": "TURBO_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/682d974a0e851cbde9f16cd3ee4f7e6f0eb4d549.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/ae68a999431153524d38fbd269e99fed345ff585.jpg",
     "displayName": {
@@ -213,7 +225,7 @@
   },
   {
     "name": "HYRAX_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/265d4122b0665006df4b6ba6f6fa3cf8ae53eb09.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3611650/ae68a999431153524d38fbd269e99fed345ff585.jpg",
     "displayName": {

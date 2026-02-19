@@ -2,25 +2,34 @@
   {
     "name": "tutorial_beats",
     "displayName": "Tutorial Beats",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 20,
+    "min": 0,
+    "max": 20,
+    "default": 0
   },
   {
     "name": "battles_completed",
     "displayName": "Battles Completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 999999999,
+    "default": 0
   },
   {
     "name": "spores_opened",
     "displayName": "Spores Opened",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 20,
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   }
 ]

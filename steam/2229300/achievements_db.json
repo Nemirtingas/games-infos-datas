@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_WIZARD_FIRST_INCANTATION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/dc28418c92e089dcfb2b7f0e20cf7ff6dd82c248.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/7255ee31a11662fcff25d8be354c157256479bbc.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_FULLY_CHARGED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/f43793804a8b535a8da9d02b4fe8f6d99581c36e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/dce0b817ff58ba6f3c71d1c48df6df7471805358.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Fully upgrade your mana capacity",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "maxMana_maxMana"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "maxMana_maxMana",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_PRECISION_CASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/b3a931424f48b9053751a87b02c3e350c209720c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/e4877c75547f316b5967f9562732977e992eff71.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_DECIMATOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/b1ddb3d7c1a6e709dedc47fb6803ac15ca6cbb04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/21a2b2182891697fcb3341cc4135de4a130138a8.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_CHANNELER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/2af9b633e7cae2c4088ad3bf719e24cbed02908c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/27a4b3108278d24438004755d600c3130ebf12fb.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_PYROMANCER_ADEPT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/9295aca3c37ac88e10b45c312f1e1978fb87f6fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/a4eee111b0aa81dc52f52012c7bf6898b21947a5.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Fully upgrade all Fire spells",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "fireFullyUpgraded_fireFullyUpgraded"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "fireFullyUpgraded_fireFullyUpgraded",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACH_CRYOMANCER_ADEPT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/10b7b479d1ca08cd47f7ea7ae84abc1cb229f533.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/e14875436c94aceca968885c0c4300169183cb45.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Fully upgrade all Ice spells",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "iceFullyUpgraded_iceFullyUpgraded"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "iceFullyUpgraded_iceFullyUpgraded",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACH_LIGHTNING_ADEPT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/28ba2458729ac08ce2a5f751f1fb6e730ef507ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/38da41b0ba4796b4ad7c8a5c7fec3c511efc000f.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Fully upgrade all Lightning spells",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "lightningFullyUpgraded_lightningFullyUpgraded"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "lightningFullyUpgraded_lightningFullyUpgraded",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACH_PEST_CONTROL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/9bacc6e4d792f9197b548c99bb678d0154e7908a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/5522515404a0f887e3337d251e4e6a586e479377.jpg",
     "displayName": {
@@ -147,7 +155,7 @@
   },
   {
     "name": "ACH_ELVEN_NEGOTIATIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/17cb9ac92653a615a6cfd6cc586e1b67a3dea065.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/d21711c8fb1411ec7a0dc2e7f97ae19caa4d96e8.jpg",
     "displayName": {
@@ -161,7 +169,7 @@
   },
   {
     "name": "ACH_SCALES_FOR_SALES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/a2d9e912fe8215509bf5f2c0f27f3c3724d4805f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/6a112c74f6d097642bbd348787e124bdcf8754a6.jpg",
     "displayName": {
@@ -175,7 +183,7 @@
   },
   {
     "name": "ACH_SPEAK_UP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/121998351ad88ad19ebeaf9284e0d716dc91bf14.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/1656695a0244869b0d3064eeebf7c4537f3260b1.jpg",
     "displayName": {
@@ -189,7 +197,7 @@
   },
   {
     "name": "ACH_NOT_SO_GOOD_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/29b1f67d300bdb4db5b85d31837ef87750f5b7bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/667e3b3e8e4af875dbe250d0c22f0d1cd5e651a1.jpg",
     "displayName": {
@@ -203,7 +211,7 @@
   },
   {
     "name": "ACH_DAVID_AND_GOLIATH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/d372634d5767bf8e8f47b15646571b35bd655d56.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/5a4cd2f99b2cb18e83d160be6abcb77bf281698c.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "ACH_ON_THE_WARPATH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/4259e1372d32c6059aa67d5fdb3688170f5c8383.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/7a75a9c75593c502731dca0b32ff366d3eaddc87.jpg",
     "displayName": {
@@ -228,15 +236,17 @@
       "english": "Defeat all the bosses",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "bossesDefeated_bossesDefeated"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "bossesDefeated_bossesDefeated",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "ACH_HURT_ME_PLENTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/4259e1372d32c6059aa67d5fdb3688170f5c8383.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/7a75a9c75593c502731dca0b32ff366d3eaddc87.jpg",
     "displayName": {
@@ -250,7 +260,7 @@
   },
   {
     "name": "ACH_SETTLING_DOWN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/2d797f905ed0e604bb3b5f8d5353e92e101439f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/ae673e559eefede036e122ee520a9b5d3af99bae.jpg",
     "displayName": {
@@ -264,7 +274,7 @@
   },
   {
     "name": "ACH_PATH_OF_ICE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/492d652565a4f9905905405d04bafc76dd3c1782.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/9cf7c31e726fa62eba92fa1f25a2a1a88a30229f.jpg",
     "displayName": {
@@ -278,7 +288,7 @@
   },
   {
     "name": "ACH_PATH_OF_FLAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/a1c47e94e014cf337e6fe591ab6a41b0fdd16ba0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/66b68ba9de6271f9347c024aaa95583aa25ff31c.jpg",
     "displayName": {
@@ -292,7 +302,7 @@
   },
   {
     "name": "ACH_PATH_OF_LIGHTNING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/a1393841f0297a7c3a6313f9860956c67d6c78a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/b562a1a1612cf345b3571e41c74da785c949fa07.jpg",
     "displayName": {
@@ -306,7 +316,7 @@
   },
   {
     "name": "ACH_COMPLETIONIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/b1a2cbc6f1ea6c32c2d51d93fd4ad361faf0fe6b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/b7e91d6c9a82e046562b98630f11f86104bf665e.jpg",
     "displayName": {
@@ -317,15 +327,17 @@
       "english": "Finish each companion’s route",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "routesCompleted_routesCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "routesCompleted_routesCompleted",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACH_BARRELS_ARE_MY_ENEMY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/672873547d45853257e4330ddd733b00fed4a732.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/74bbb2aa1312b031da1874d6b4ab0bdbd21eac53.jpg",
     "displayName": {
@@ -336,15 +348,17 @@
       "english": "Collect 1000 mana orbs throughout the game",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "manaCount_manaCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "manaCount_manaCount",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_LEAVE_NONE_UNBROKEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/873cd65a820a57513387783c37ed1af29818984b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/f7fc39318a989f676fa0dd78bcd5d85119ca8324.jpg",
     "displayName": {
@@ -355,15 +369,17 @@
       "english": "Collect 2000 mana orbs throughout the game",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2000,
-      "stat_name": "manaCount_manaCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "manaCount_manaCount",
+        "min_val": 0,
+        "max_val": 2000
+      }
+    ]
   },
   {
     "name": "ACH_ROB_THE_BANK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/9535f851a32359302ae93a1e16409ae72f248515.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/10cafeaefcb278e313a2882a1d8098597c61e98f.jpg",
     "displayName": {
@@ -374,15 +390,17 @@
       "english": "Collect 5000 gold throughout the game",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "goldCount_goldCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "goldCount_goldCount",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "ACH_BECOME_THE_BANK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/7bc99ef5d181bccc580f0634f4f3eb4c1cd26bf8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/78725b203df8123e879337749bf06fcac401c08f.jpg",
     "displayName": {
@@ -393,15 +411,17 @@
       "english": "Collect 10 000 gold throughout the game",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "goldCount_goldCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "goldCount_goldCount",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ACH_MONEY_WELL_SPENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/0c8db4f550f489458f697d4327f7e2548c4187c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/8d5b970b51bf278866adc959470342868aa49331.jpg",
     "displayName": {
@@ -415,7 +435,7 @@
   },
   {
     "name": "ACH_MENAGERIE_CURATOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/17c57f7ffebd3ca5d5e6efd7a8dde2bc5bb8ca9f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/6ba31bb160d78a6c117e1e33462a07b6d93347c8.jpg",
     "displayName": {
@@ -426,15 +446,17 @@
       "english": "Unlock all enemies in the Gallery",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 11,
-      "stat_name": "girlsUnlocked_girlsUnlocked"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "girlsUnlocked_girlsUnlocked",
+        "min_val": 0,
+        "max_val": 11
+      }
+    ]
   },
   {
     "name": "ACH_ESME_HELPER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/35313fa1d655707fb896f524989a62e9f6823ca8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/bfc6d2491683db7c6fd6c3570666737d8c4b9918.jpg",
     "displayName": {
@@ -448,7 +470,7 @@
   },
   {
     "name": "ACH_MINDEE_HELPER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/35313fa1d655707fb896f524989a62e9f6823ca8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/bfc6d2491683db7c6fd6c3570666737d8c4b9918.jpg",
     "displayName": {
@@ -462,7 +484,7 @@
   },
   {
     "name": "ACH_CRYSTAL_CONQUEROR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/adeefe1c25a03fe1111047bacd10a6047930ce60.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/b1447dc2678334a5b3e3b9cebac7aca52682b6ec.jpg",
     "displayName": {
@@ -476,7 +498,7 @@
   },
   {
     "name": "ACH_I_SEE_NOW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/3ffca9ef4e5e6ef00134451485f989e1d90c25e0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/80377924dfc99925ec3ed0901b120afe0d99d87b.jpg",
     "displayName": {
@@ -490,7 +512,7 @@
   },
   {
     "name": "ACH_FELLHANDED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/1d61f9a88a3b1fd229b41f41d484f5ba0177d565.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/524b55b6f6ffddf92bc8e10f3abfc6e02fd6d6fc.jpg",
     "displayName": {
@@ -504,7 +526,7 @@
   },
   {
     "name": "ACH_HAMMER_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/ef88bd5e88c42d23652110b4ce4ab4ae4a415174.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/9118c346beb9d4e2117e3281ec2825f072ce5a9a.jpg",
     "displayName": {
@@ -518,7 +540,7 @@
   },
   {
     "name": "ACH_TREASURE_HUNTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/7bc99ef5d181bccc580f0634f4f3eb4c1cd26bf8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/78725b203df8123e879337749bf06fcac401c08f.jpg",
     "displayName": {
@@ -529,15 +551,17 @@
       "english": "Open every chest in the game",
       "token": "NEW_ACHIEVEMENT_2_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 86,
-      "stat_name": "chestsOpened_chestsOpened"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "chestsOpened_chestsOpened",
+        "min_val": 0,
+        "max_val": 86
+      }
+    ]
   },
   {
     "name": "ACH_TOUGH_COOKIE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/0c8db4f550f489458f697d4327f7e2548c4187c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2229300/8d5b970b51bf278866adc959470342868aa49331.jpg",
     "displayName": {
@@ -548,10 +572,12 @@
       "english": "Fully upgrade your health",
       "token": "NEW_ACHIEVEMENT_2_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "maxHealth_maxHealth"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "maxHealth_maxHealth",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   }
 ]

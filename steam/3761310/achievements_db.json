@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_TC_10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/74e3fa2138b9310315f27f2450e8e20a4913047b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/6715bea8bdf4ef7d4759d548b12639a4aa9a4765.jpg",
     "displayName": {
@@ -14,15 +14,17 @@
       "japanese": "累計10,000回ボトルフリップした。",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "throwCount_throwCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "throwCount_throwCount",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ACH_SC_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/1ed15f899d15daf60c2022d9238d628746d4cd15.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/01e9cd2801f8cb3c3f37abf73755f28c872e1a7b.jpg",
     "displayName": {
@@ -35,15 +37,17 @@
       "japanese": "累計10回ボトルフリップを成功させた。",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "successCount_successCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "successCount_successCount",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_STORY_DAY001",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/a332892e87690a3f0a43eb3a961ccaa781efaa04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/61ea00f1307dd253fa527afb7c54eaceec2cc894.jpg",
     "displayName": {
@@ -59,7 +63,7 @@
   },
   {
     "name": "ACH_STORY_DAY003",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/fedeac71abc4d9c4b06b8f4dea4a7774c5afbbff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/618a9d293e4bac4d3f6106002b41a70a36bc5f3a.jpg",
     "displayName": {
@@ -75,7 +79,7 @@
   },
   {
     "name": "ACH_STORY_DAY005",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/82de33ae949fb7d89328bbd16f1612a5260718c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/1943aed88cf2f205ab47272013f11fb6ea19cf94.jpg",
     "displayName": {
@@ -91,7 +95,7 @@
   },
   {
     "name": "ACH_STORY_END01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/756861e1e4fcc2c90184c893d9bbf1d1387d0b9e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/17ff90b505f5c6657263b54f793836aa025aa9e5.jpg",
     "displayName": {
@@ -107,7 +111,7 @@
   },
   {
     "name": "ACH_STORY_END02",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/a34508d3760192fff9be1b76981971a3f9a844af.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/bbb5f05c0c15af53c7b2bc1089f60268d5cd97d1.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_STORY_END00",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/eb7fc5d495d91079c1b03c962444c0f3ee3f77ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/ce824e0306d0d222d2f1e4ad785ccae4a120b5b0.jpg",
     "displayName": {
@@ -139,7 +143,7 @@
   },
   {
     "name": "ACH_VIEW_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/b0c0c667b833b1f426a49f0193b8d02c31dba31f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/c3928503df0a5a043ebea01243f21c9a97637756.jpg",
     "displayName": {
@@ -152,15 +156,17 @@
       "japanese": "視聴者数が1,000人を突破した。",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "viewCount_viewCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "viewCount_viewCount",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_VIEW_5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/0ea9fce1cd90be37df80cdcd04f2c10356f065a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/5cf94718f08e8f185e47606bfcdc51c5cc659260.jpg",
     "displayName": {
@@ -173,15 +179,17 @@
       "japanese": "視聴者数が5,000人を突破した。",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "viewCount_viewCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "viewCount_viewCount",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "ACH_VIEW_10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/0bce7bdca7617836a3538552b1b7fc415f592dcb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/fbaf69eb197615c512aef56583aebdf98e5be008.jpg",
     "displayName": {
@@ -194,15 +202,17 @@
       "japanese": "視聴者数が10,000人を突破した。",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "viewCount_viewCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "viewCount_viewCount",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ACH_VIEW_50000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/396312c36c8b74253ba705c99c61c9239f047ef7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/9afe2bdecc3dcd9bcc91c549c2ce7341a7f117ce.jpg",
     "displayName": {
@@ -215,15 +225,17 @@
       "japanese": "視聴者数が50,000人を突破した。",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50000,
-      "stat_name": "viewCount_viewCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "viewCount_viewCount",
+        "min_val": 0,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "ACH_LETTER_WHITE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/7f5e9c5156744d01da5b89ff9e341ff0b0e639bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/9f6dbfa18514b322b210d580db9325c452cda1bd.jpg",
     "displayName": {
@@ -239,7 +251,7 @@
   },
   {
     "name": "ACH_ITEM_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/f931d00c7719fa0ab34f2db710e668be7c407b1f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/03a3bb1dfdb208e3c6e2c3af68b97349b2e4ab9b.jpg",
     "displayName": {
@@ -255,7 +267,7 @@
   },
   {
     "name": "ACH_EMOTE_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/f9e776d4c1d3c0c34b5d9b30ac41693a817f0f7e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/2092250c15cecb842218326f497b7a18bfce90d1.jpg",
     "displayName": {
@@ -271,7 +283,7 @@
   },
   {
     "name": "ACH_SC_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/b7257b6230feac9f66d6e1160d1a400f2526d952.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/c0048f3a9688ce085923efb3e3f5821713b4affc.jpg",
     "displayName": {
@@ -284,15 +296,17 @@
       "japanese": "累計50回ボトルフリップを成功させた。",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "successCount_successCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "successCount_successCount",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_SC_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/80b588c1eefbe557390b8126b387990422356f62.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/82882e1c2e622250792f2ee587fd4bad21eff743.jpg",
     "displayName": {
@@ -305,15 +319,17 @@
       "japanese": "累計100回ボトルフリップを成功させた。",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "successCount_successCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "successCount_successCount",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_SC_300",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/56021fc3602ce194d226d2a33719e595f2ad2daa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/a5ba8ac8eab638a3d851f16d3f623142e3799fd8.jpg",
     "displayName": {
@@ -326,15 +342,17 @@
       "japanese": "累計300回ボトルフリップを成功させた。",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "successCount_successCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "successCount_successCount",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ACH_SC_500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/c08357d1b3bdddef69832f0d7b37a6dfb79c7d65.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/762dc8d7217ccb6b223ee3651ac0ea6388204d02.jpg",
     "displayName": {
@@ -347,15 +365,17 @@
       "japanese": "累計500回ボトルフリップを成功させた。",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "successCount_successCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "successCount_successCount",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACH_TC_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/8e0e3d33aa3e6a73e71fff429b5cb78e875a3dfb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/176f1f1e97f11603215efc3bfe82b9cd3006f2c7.jpg",
     "displayName": {
@@ -368,15 +388,17 @@
       "japanese": "累計100回ボトルフリップした。",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "throwCount_throwCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "throwCount_throwCount",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_TC_500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/851526731110564bb5e5792e64117e2324812499.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/c5747880992527f01e9244f425e387fdb54cc775.jpg",
     "displayName": {
@@ -389,15 +411,17 @@
       "japanese": "累計500回ボトルフリップした。",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "throwCount_throwCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "throwCount_throwCount",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACH_TC_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/4771f1132d98895d4a65e43044836fc4d50154fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/419ab6cb068a14ba2a52742f56ec81561e4e498d.jpg",
     "displayName": {
@@ -410,15 +434,17 @@
       "japanese": "累計1,000回ボトルフリップした。",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "throwCount_throwCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "throwCount_throwCount",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_TC_3000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/901e14745f3336e32703134fb59ce790e39a5a87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/1e9ccadcd5755338ad4fa2044ab638bd226f84b3.jpg",
     "displayName": {
@@ -431,15 +457,17 @@
       "japanese": "累計3,000回ボトルフリップした。",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3000,
-      "stat_name": "throwCount_throwCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "throwCount_throwCount",
+        "min_val": 0,
+        "max_val": 3000
+      }
+    ]
   },
   {
     "name": "ACH_INCOME_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/35f968d98261b65810f99953b5ada84786af68a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/006f316a6ec31145e552df39a14e5582b875c42d.jpg",
     "displayName": {
@@ -452,15 +480,17 @@
       "japanese": "成功フリップで稼いだお金が1,000ドルを超えた。",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "totalIncome_totalIncome"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "totalIncome_totalIncome",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_INCOME_5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/d3c8d5ca2d64e01b4ef88b644433d734b8573fd6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/bfc038f66db06a158410be6e744c81bc1b7df4dd.jpg",
     "displayName": {
@@ -473,15 +503,17 @@
       "japanese": "成功フリップで稼いだお金が5,000ドルを超えた。",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "totalIncome_totalIncome"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "totalIncome_totalIncome",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "ACH_INCOME_50000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/2e799a4e12905a6dad0f5af05b606e9284eb7609.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/6deb27f9d05e5fc72f54fcf23678bb8da358676c.jpg",
     "displayName": {
@@ -494,15 +526,17 @@
       "japanese": "成功フリップで稼いだお金が50,000ドルを超えた。",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50000,
-      "stat_name": "totalIncome_totalIncome"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "totalIncome_totalIncome",
+        "min_val": 0,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "ACH_LETTER_BLACK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/b00a43d0ac3e9538fc2963f09b930c2426682eb1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/5bb59c32a607ff398aa9fff049f1bce638b14d51.jpg",
     "displayName": {
@@ -518,7 +552,7 @@
   },
   {
     "name": "ACH_LETTER_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/1f114bcbd35834409ad3506e2d565fa52899b403.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/6b9a552bdae1cac7417b1293b7faccf8efd654a2.jpg",
     "displayName": {
@@ -534,7 +568,7 @@
   },
   {
     "name": "ACH_SSC_7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/ec900144e40860fca03637d57fc3077b2a57d32b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/65b490e160438a72ed542c2ef04002cd9cf7f11a.jpg",
     "displayName": {
@@ -550,7 +584,7 @@
   },
   {
     "name": "ACH_TUTORIAL_END01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/ceb15d9ce90431a3156e977d7e989ba65f1d899c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3761310/7639c85f9250b520a6b75aa6d45a7e64a9914d15.jpg",
     "displayName": {

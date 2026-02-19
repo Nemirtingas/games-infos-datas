@@ -1,7 +1,7 @@
 [
   {
     "name": "steam_tutorial_done",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/4e8505950ed1941549db0d41d9eb970c632d6eb3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/0cec540e988485fa2977881f3323023239028899.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "steam_gladius_kill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/813b484fdee8cb9d2a4d7a83a23468bcf602ebf8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/0cec540e988485fa2977881f3323023239028899.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "steam_arenas_completed",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/2af43d35f1c8000269a1a556151246c14894ffa5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/0cec540e988485fa2977881f3323023239028899.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Pass all 4 arenas",
       "token": "NEW_ACHIEVEMENT_9_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "stat_arenas_completed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_arenas_completed",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "steam_gladius_speedrun",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/0e3dc320fead0104d13cd3b51c79952a04cff072.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/0cec540e988485fa2977881f3323023239028899.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "steam_heal_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/207050228e1f88e028f4a28de1c487e2e0136ed7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/0cec540e988485fa2977881f3323023239028899.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "steam_kill_gladius_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/4baa135351a9d6c22da81f41faf0a680cb7a55e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/0cec540e988485fa2977881f3323023239028899.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Kill Gladius 10 times",
       "token": "NEW_ACHIEVEMENT_9_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_gladius_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_gladius_kills",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "steam_easter_egg",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/df31d765561bfac841d39692f9dc2f842e6a0306.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3077480/0cec540e988485fa2977881f3323023239028899.jpg",
     "displayName": {

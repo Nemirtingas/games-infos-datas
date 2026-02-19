@@ -1,7 +1,7 @@
 [
   {
     "name": "MiniGame_Catching_Egg_Found",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/ec17f5e2e2a43f521a776fe25c9dacf83246691d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/851f62f20ffd79258abe1d2e5ed4a22ee3bf0aca.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "The_Egg_StartPlaying_Multiplayer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/349202c05e1ed381dca8c0289b4e8d9a869c91c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/5451f63deb0eb82c4837d84637ba293da0c332c6.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "The_Egg_StartPlaying_Singleplayer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/898688509b8d4c243d491ed15fa5ac98f3762a93.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/efa01597cfab3481e8b6d16c143daa61df713548.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "MiniGame_Up_Found",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/5156dd5efcdd007a29868665812b0ec6f40d7a38.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/851f62f20ffd79258abe1d2e5ed4a22ee3bf0aca.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "The_Egg_Playtime_1",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/835f50964af94b5124755f23110e7644fe8daa1f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/851f62f20ffd79258abe1d2e5ed4a22ee3bf0aca.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "The_Egg_Playtime_5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/a110f41be9c3f8228ebfe64073303cb10816d315.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/851f62f20ffd79258abe1d2e5ed4a22ee3bf0aca.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "The_Egg_Playtime_25",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/00b9bb2b3e11944222391768734d695f36e023fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/851f62f20ffd79258abe1d2e5ed4a22ee3bf0aca.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "The_Egg_Playtime_100",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/55d53c9ef88a0dcd144009d30a19a78f07fe18c8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/851f62f20ffd79258abe1d2e5ed4a22ee3bf0aca.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "Welcome_To_The_Egg",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/9cd3d4b1e4b76d6b5d402304dbc259aff4eb6903.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/851f62f20ffd79258abe1d2e5ed4a22ee3bf0aca.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "The_Egg_Christmas2023",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/69a02c3cf09d53883206d2fcc21ae09db8995642.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2382230/851f62f20ffd79258abe1d2e5ed4a22ee3bf0aca.jpg",
     "displayName": {
@@ -138,10 +138,12 @@
       "english": "Christmas 2023",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Christmas_2023"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Christmas_2023",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

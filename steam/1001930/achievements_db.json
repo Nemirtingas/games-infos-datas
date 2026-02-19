@@ -1,7 +1,7 @@
 [
   {
     "name": "AllBronze",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/6c0685e91d1f65e9ed9df72020a140724d87ce7c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/a5e7b6c988afaacb2c36055b12cc64f12aae6d0f.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "AllSilver",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/3365703179bc6d544c7b9b49c97bee0c4648ae4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/0e6a3e5eb1be6e5bdaed15ff6e4e04d3eba59844.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "AllGold",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/f3c4d341bfb47c09aa5c292752032639d2b1138a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/a5e7b6c988afaacb2c36055b12cc64f12aae6d0f.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "BeamOnly",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/d0defb40c57904a59c5d15b5007ea4b9b5b3e6dd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/a5e7b6c988afaacb2c36055b12cc64f12aae6d0f.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "TeslaOnly",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/9cd82d56fbb1478eeb17e66ed20d910bcca95d46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/a5e7b6c988afaacb2c36055b12cc64f12aae6d0f.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Warrior",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/739c1dc399d9d2b00fe90a4d3a3836e1e2c04d87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/a5e7b6c988afaacb2c36055b12cc64f12aae6d0f.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Kill 1000 enemies",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "Saviour",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/1b7ed5b9dd11b1b82f03c03c8ee51706d4a6f25b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/0e6a3e5eb1be6e5bdaed15ff6e4e04d3eba59844.jpg",
     "displayName": {
@@ -101,15 +103,17 @@
       "english": "Kill 10000 enemies",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "GunSmoke",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/fb349ad8c9967f8ea3dbd9ff517c7fa125a884c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/0e6a3e5eb1be6e5bdaed15ff6e4e04d3eba59844.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "Builder",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/3b1401bd3798fb554ed0eb419cd3e7e8c413bc63.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/a5e7b6c988afaacb2c36055b12cc64f12aae6d0f.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Build 100 Towers",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "towersBuilt"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towersBuilt",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Architect",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/94cf4495bb27426a50b469f994549d7d4232646b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/a5e7b6c988afaacb2c36055b12cc64f12aae6d0f.jpg",
     "displayName": {
@@ -153,15 +159,17 @@
       "english": "Build 1000 Towers",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "towersBuilt"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towersBuilt",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "FirstVictory",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/ab5e3b2d5803fa8d8d294d1b598b26dcee3f4cd9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/0e6a3e5eb1be6e5bdaed15ff6e4e04d3eba59844.jpg",
     "displayName": {
@@ -172,15 +180,17 @@
       "english": "First victory",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "victory"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "victory",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "100Victories",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/63682a06608ebac4f25b0369ad192a4fc05287d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1001930/a5e7b6c988afaacb2c36055b12cc64f12aae6d0f.jpg",
     "displayName": {
@@ -191,10 +201,12 @@
       "english": "You won 100 battles !",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "victory"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "victory",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

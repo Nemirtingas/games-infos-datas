@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FINDSMALLBOB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/661c244db7aade1c7d5ebf2ac4d079e5cfb58526.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/c06f66f330087b7dbc458276fdd2d0631ad43bcd.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "ACH_FINDTHETOILET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/091b294c6e9c163d1404d072dbc1d383d4a6906a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/99886f636be65e128dd13faba51c51c3568c2d59.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "ACH_FINISHLEVEL1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/c0787e909c5ec0ad3938ff1675d635aee229e3b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/e63f2903ddd45b40549eb7e7c01e08b70c3ad88e.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "ACH_FINISHLEVEL2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/84eb489cb8c9661dc34582ef4da09191177578c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/5dce8975eff8a327f1ff5f4ae79ca210eced91c9.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "ACH_FINISHLEVEL3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/2b6a70905d3b23bbb0eeb510225e3a86432e4e31.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/b65f72b4f88079bdeac9f4b9d268951920898d40.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "ACH_FINISHTUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/dbbd0b3d33e9d5cb43c576875fb904e2f2fc5180.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/af69f1eb91c91285ae40dfdc84fdd99d07f12865.jpg",
     "displayName": {
@@ -97,7 +97,7 @@
   },
   {
     "name": "ACH_REACHCREDITS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/10092efec04dc1ac205bfd6e4e948e8ef960b590.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/9d14bd850dbf70d795fdd56f339bd092617787b4.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_FINDALLRELICS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/99a715c72d871783dadbe36acb4e0691c3c6436b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/4bf8d5f54b66d1fce758ef75cce5ebfe4c0e3fd4.jpg",
     "displayName": {
@@ -129,7 +129,7 @@
   },
   {
     "name": "ACH_LOSELEVEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/3eb4b2084c3586ac87c986d0d373390d8220d6af.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/e001c9c1f80b78ec0f72e9788cfc6493891ab001.jpg",
     "displayName": {
@@ -145,7 +145,7 @@
   },
   {
     "name": "ACH_PLAY10ROUNDS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/fbfef2a072228dec5ab1c18dcc931d10b952cd94.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/e53d33fc2e220aa0a621d58199d674376692fc53.jpg",
     "displayName": {
@@ -158,15 +158,17 @@
       "german": "Du hast Level 10 mal abgeschlossen.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "LEVELSCOMPLETED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LEVELSCOMPLETED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_11KCREDITS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/90f5ec5a862bfbcfac923ccdb0f545dc19dd2ae2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2872620/4a71010d8bf3955387e255d7dc78c7da4eb3c40a.jpg",
     "displayName": {

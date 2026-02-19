@@ -1,7 +1,7 @@
 [
   {
     "name": "BOSS1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/c1b139b6de1168d9ab330c2a4ce4d7d32024f9c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/c0d9e5d0b65c7497bc74aff86e9698c5b061a35b.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "BOSS2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/2f91e8ed2fedc9915a065d927eada45f8e0accc5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/154ed8b6b450a8cb345f4fbbe27525b9de7f0a06.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "BOSS3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/a0b4b2eef785519bc63ec0b67a0510ea674c131f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/a1fdc84a42a2fb81adb833b9d25aa9cc072c0db3.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "BOSS4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/60b0bebbc6e95f619785f73e89e798b72639d92d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/25b5baf8cf3e00ecee1d9a6a60df6f12e156ab11.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "BOSS5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/217d2cdb8149522ac0361147e6a92e1610a006cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/6abbf68f772216e5f2e7bcad282b8846c0983827.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "BOSS6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/42e8bf72d937fbaa2180e4ba39a305422fff3a71.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/6fd300942338049f2cca43fce2c26d24b8a14d12.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "BOSS7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/b1d6a4697d0318f9d7fcb2035a9a2dd797a5480a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/8635c267edee28a3e027eb0bee286156677a6ee6.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "BUILD1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/e80948870c6ecd8d9ce20476471799b558999f33.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/7afe841dfdf9d5d5057a0f37982d4ec3ef8575ae.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Build 50 Towers",
       "token": "NEW_ACHIEVEMENT_3_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "towers_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_built",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "BUILD2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/377122c8af6e52068662026842b5e3a43e680098.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/fc515f57ea8f10160aac10ac22d0d6266085a46f.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Build 250 Towers",
       "token": "NEW_ACHIEVEMENT_3_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "towers_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_built",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "BUILD3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/f68882b2e3c30671dab84847741c57d226664b2a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/efc67dfab208e35e034c1afe19b41be8b2bebfb1.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Build 1000 Towers",
       "token": "NEW_ACHIEVEMENT_3_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "towers_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_built",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "BUILD4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/145a0414bd470eeb02498de044d47b273fcbea3c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/fd80cdca46ea56470dad1bbb40b652608593da45.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Build 2500 Towers",
       "token": "NEW_ACHIEVEMENT_3_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2500,
-      "stat_name": "towers_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_built",
+        "min_val": 0,
+        "max_val": 2500
+      }
+    ]
   },
   {
     "name": "BUILD5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/83414acc84fb292793e2f306d14f448e5ea63246.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/3161bd22406815129c1dd08ccb6e15ee5b108a93.jpg",
     "displayName": {
@@ -186,15 +194,17 @@
       "english": "Build 5000 Towers",
       "token": "NEW_ACHIEVEMENT_3_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "towers_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_built",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "BUILD6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/960eb7937a41244ac0c9829d46005adf98223446.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/8cf3fe2fb38fc710380e19f968468ee322ddf75f.jpg",
     "displayName": {
@@ -205,15 +215,17 @@
       "english": "Build 10000 Towers",
       "token": "NEW_ACHIEVEMENT_3_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "towers_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_built",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "BUILD7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/c6b6e03e0fcc033a64695022a468f21cd14c37cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/56cd2570862f0be15bdb06ef52e53fa5a4cbcc79.jpg",
     "displayName": {
@@ -224,15 +236,17 @@
       "english": "Build 25000 Towers",
       "token": "NEW_ACHIEVEMENT_3_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25000,
-      "stat_name": "towers_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_built",
+        "min_val": 0,
+        "max_val": 25000
+      }
+    ]
   },
   {
     "name": "BUILD-L1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/ec2ed9fed295fe1fd0810b74a67d79ed05790d38.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/a2b5ca8a617d2ca69e0abacb926943dc1c763359.jpg",
     "displayName": {
@@ -243,15 +257,17 @@
       "english": "Build 25 Elemental Towers",
       "token": "NEW_ACHIEVEMENT_3_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "towers_elemental_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_elemental_built",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "BUILD-L2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/a69922820550f6fb8dc7d960bc974a17e1884865.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/81ed53debc59cb499657788a53ac95560d886d4e.jpg",
     "displayName": {
@@ -262,15 +278,17 @@
       "english": "Build 100 Elemental Towers",
       "token": "NEW_ACHIEVEMENT_3_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "towers_elemental_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_elemental_built",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "BUILD-L3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/c981d5ecb6957d3f8d7a719b69449bda08e77c2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/b4fee7daabc9f8a81c6023c4f74a2e8ab933ef62.jpg",
     "displayName": {
@@ -281,15 +299,17 @@
       "english": "Build 1000 Elemental Towers",
       "token": "NEW_ACHIEVEMENT_3_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "towers_elemental_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_elemental_built",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "BUILD-E1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/b573561cca97040007f61ccb3ae0622651d520d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/684591652d0e59b83399bf2d0f5dc68ad428a27c.jpg",
     "displayName": {
@@ -300,15 +320,17 @@
       "english": "Build 25 Energy Towers",
       "token": "NEW_ACHIEVEMENT_3_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "towers_energy_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_energy_built",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "BUILD-E2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/440c9f89366ccf021cae1fe9f8f98a59162767df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/c603d40234b2adbc2f11b9663808e41bd00b3ba9.jpg",
     "displayName": {
@@ -319,15 +341,17 @@
       "english": "Build 100 Energy Towers",
       "token": "NEW_ACHIEVEMENT_3_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "towers_energy_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_energy_built",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "BUILD-E3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/71b796999e352702deb27a8f36c631753710b257.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/9d06ba9ccb347b6b882641e212a28b65308fde39.jpg",
     "displayName": {
@@ -338,15 +362,17 @@
       "english": "Build 1000 Energy Towers",
       "token": "NEW_ACHIEVEMENT_3_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "towers_energy_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_energy_built",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "BUILD-K1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/d8f06912c386e1ccd21b0810157e84682669508c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/2062b1505c2d2859ca27798d263324cee239f1f5.jpg",
     "displayName": {
@@ -357,15 +383,17 @@
       "english": "Build 25 Kinetic Towers",
       "token": "NEW_ACHIEVEMENT_3_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "towers_kinetic_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_kinetic_built",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "BUILD-K2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/84232a995f129c884b859af593d2705ac0a58cba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/f75b67fad3c582af94af0b7073f30c1a4019ab2b.jpg",
     "displayName": {
@@ -376,15 +404,17 @@
       "english": "Build 100 Kinetic Towers",
       "token": "NEW_ACHIEVEMENT_3_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "towers_kinetic_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_kinetic_built",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "BUILD-K3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/4da0fb4f35868c3e81b09c1549eed77096b4504b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/10504e4c581fd5202106eefe367d5dc57e58545b.jpg",
     "displayName": {
@@ -395,15 +425,17 @@
       "english": "Build 1000 Kinetic Towers",
       "token": "NEW_ACHIEVEMENT_3_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "towers_kinetic_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_kinetic_built",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "BUILD-X1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/df0f5b3dc14b13d507be5797bb024b3435462c2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/7ba8f567a34091991fadaf9822b6962cd60cae8d.jpg",
     "displayName": {
@@ -414,15 +446,17 @@
       "english": "Build 25 Explosive Towers",
       "token": "NEW_ACHIEVEMENT_3_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "towers_explosive_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_explosive_built",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "BUILD-X2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/5ddc196aac6d323e778202cd6c0d722f523607a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/9f9aa749c9bc37acc798720251f42497f920281c.jpg",
     "displayName": {
@@ -433,15 +467,17 @@
       "english": "Build 100 Explosive Towers",
       "token": "NEW_ACHIEVEMENT_3_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "towers_explosive_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_explosive_built",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "BUILD-X3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/b2f32b6aae1c47a3c105dcb60164278202aa79f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/769946ff168dd96384ee2762824a23aab88e09af.jpg",
     "displayName": {
@@ -452,15 +488,17 @@
       "english": "Build 1000 Explosive Towers",
       "token": "NEW_ACHIEVEMENT_3_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "towers_explosive_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_explosive_built",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "BUILD-S1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/46e5db24224a40e6152cac2661d2c773d8b5d832.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/33331ea1af2715eabac7cb7033d16e1f7ffe6f0c.jpg",
     "displayName": {
@@ -471,15 +509,17 @@
       "english": "Build 25 Support Towers",
       "token": "NEW_ACHIEVEMENT_3_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "towers_support_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_support_built",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "BUILD-S2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/60bd3864e8dd6472c6a88d43bcb1cd07b868a8be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/9fee345b69d8871394bf50c7027fb214d139800e.jpg",
     "displayName": {
@@ -490,15 +530,17 @@
       "english": "Build 100 Support Towers",
       "token": "NEW_ACHIEVEMENT_3_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "towers_support_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_support_built",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "BUILD-S3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/5e5784340aa0da1712e8989f37bd11b6bfdbca90.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/6456bf5369ff4766a4d530b1ebd2d93c87a78586.jpg",
     "displayName": {
@@ -509,15 +551,17 @@
       "english": "Build 1000 Support Towers",
       "token": "NEW_ACHIEVEMENT_3_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "towers_support_built"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "towers_support_built",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "KILLS1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/71cd241de226d3de9e56395e77c1da785cfe3618.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/50a29483c4270bbc508927496c435e34c2249c69.jpg",
     "displayName": {
@@ -528,15 +572,17 @@
       "english": "Kill 500 Enemies",
       "token": "NEW_ACHIEVEMENT_3_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "monsters_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_killed",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "KILLS2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/a8dd56c56cf4fc7bfbc82269f756ffc621b61a65.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/e0e2c9f7438dd5de199d8afa1476253e22208295.jpg",
     "displayName": {
@@ -547,15 +593,17 @@
       "english": "Kill 1000 Enemies",
       "token": "NEW_ACHIEVEMENT_3_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "monsters_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_killed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "KILLS3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/8b08ea2e3af82c30d9203fbd519a63f34a2ac0b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/242d2258cb059a0c0363c7085a0cbea6742932f9.jpg",
     "displayName": {
@@ -566,15 +614,17 @@
       "english": "Kill 2500 Enemies",
       "token": "NEW_ACHIEVEMENT_3_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2500,
-      "stat_name": "monsters_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_killed",
+        "min_val": 0,
+        "max_val": 2500
+      }
+    ]
   },
   {
     "name": "KILLS4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/0f5609397099623325f05b67bea7ded067ab9f10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/0d02db8a73dead64de853c87f2033307935c2063.jpg",
     "displayName": {
@@ -585,15 +635,17 @@
       "english": "Kill 5000 Enemies",
       "token": "NEW_ACHIEVEMENT_17_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "monsters_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_killed",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "KILLS5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/059cc907370ce7699c1e84d03ec34887b0c51e24.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/a64a669827d18730db64d28e144c7fcfc5eb6d16.jpg",
     "displayName": {
@@ -604,15 +656,17 @@
       "english": "Kill 10000 Enemies",
       "token": "NEW_ACHIEVEMENT_17_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "monsters_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_killed",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "KILLS6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/2aa092b4ab3dbf9103131a3e9e4222bdd66bc9c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/b7cb60ed2a94bb7caa8e8dc29d4d95e8591dee89.jpg",
     "displayName": {
@@ -623,15 +677,17 @@
       "english": "Kill 25000 Enemies",
       "token": "NEW_ACHIEVEMENT_17_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25000,
-      "stat_name": "monsters_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_killed",
+        "min_val": 0,
+        "max_val": 25000
+      }
+    ]
   },
   {
     "name": "KILLS7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/4b75753b1f38c47227b600fe35be3f895863571b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/f950ee60e1792d09731467b421658c8312137511.jpg",
     "displayName": {
@@ -642,15 +698,17 @@
       "english": "Kill 50000 Enemies",
       "token": "NEW_ACHIEVEMENT_17_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50000,
-      "stat_name": "monsters_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_killed",
+        "min_val": 0,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "KILLS8",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/d17cd68d6e9b4c775978450b86619827754a85b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/23f1979654c7a9a0cfaa12d1f33237e1b03746de.jpg",
     "displayName": {
@@ -661,15 +719,17 @@
       "english": "Kill 100000 Enemies",
       "token": "NEW_ACHIEVEMENT_17_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "monsters_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_killed",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "KILLS9",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/54fd9e87bea92ee5ad28f394f9495fa74f90383a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/bbadb306ef490aea0697094c7852abfd0b56e115.jpg",
     "displayName": {
@@ -680,15 +740,17 @@
       "english": "Kill 250000 Enemies",
       "token": "NEW_ACHIEVEMENT_17_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250000,
-      "stat_name": "monsters_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_killed",
+        "min_val": 0,
+        "max_val": 250000
+      }
+    ]
   },
   {
     "name": "KILLS-L1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/ec2ed9fed295fe1fd0810b74a67d79ed05790d38.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/a2b5ca8a617d2ca69e0abacb926943dc1c763359.jpg",
     "displayName": {
@@ -699,15 +761,17 @@
       "english": "Kill 100 Enemies with Elemental Towers",
       "token": "NEW_ACHIEVEMENT_17_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "monsters_elemental_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_elemental_killed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "KILLS-L2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/5cc19b3123d7ec6a4618a2023ed429b94b539606.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/fe1b65a6f9e1e981320d71806f6d44a6cad78307.jpg",
     "displayName": {
@@ -718,15 +782,17 @@
       "english": "Kill 1000 Enemies with Elemental Towers",
       "token": "NEW_ACHIEVEMENT_17_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "monsters_elemental_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_elemental_killed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "KILLS-E1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/b573561cca97040007f61ccb3ae0622651d520d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/684591652d0e59b83399bf2d0f5dc68ad428a27c.jpg",
     "displayName": {
@@ -737,15 +803,17 @@
       "english": "Kill 100 Enemies with Energy Towers",
       "token": "NEW_ACHIEVEMENT_17_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "monsters_energy_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_energy_killed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "KILLS-E2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/173b6cd46c31a0e3037cf118efed242074aacd3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/31b2b74c1cb48446dab27d5d71f27f835940d8fd.jpg",
     "displayName": {
@@ -756,15 +824,17 @@
       "english": "Kill 1000 Enemies with Energy Towers",
       "token": "NEW_ACHIEVEMENT_17_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "monsters_energy_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_energy_killed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "KILLS-K1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/d8f06912c386e1ccd21b0810157e84682669508c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/2062b1505c2d2859ca27798d263324cee239f1f5.jpg",
     "displayName": {
@@ -775,15 +845,17 @@
       "english": "Kill 100 Enemies with Kinetic Towers",
       "token": "NEW_ACHIEVEMENT_17_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "monsters_kinetic_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_kinetic_killed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "KILLS-K2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/8453fe0f7311338d3154d7dcb90d34c23bdb19ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/46952aebd15b94d3c17e4c0cb357e7175dd0382b.jpg",
     "displayName": {
@@ -794,15 +866,17 @@
       "english": "Kill 1000 Enemies with Kinetic Towers",
       "token": "NEW_ACHIEVEMENT_17_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "monsters_kinetic_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_kinetic_killed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "KILLS-X1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/df0f5b3dc14b13d507be5797bb024b3435462c2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/7ba8f567a34091991fadaf9822b6962cd60cae8d.jpg",
     "displayName": {
@@ -813,15 +887,17 @@
       "english": "Kill 100 Enemies with Explosive Towers",
       "token": "NEW_ACHIEVEMENT_17_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "monsters_explosive_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_explosive_killed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "KILLS-X2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/2ed210244c7e23ef0f39cbbdfa2583171b9dafc7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/58b8af52427d1c9af843a046460cd2ce8737f05d.jpg",
     "displayName": {
@@ -832,15 +908,17 @@
       "english": "Kill 1000 Enemies with Explosive Towers",
       "token": "NEW_ACHIEVEMENT_17_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "monsters_explosive_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_explosive_killed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "KILLS-S1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/5e5784340aa0da1712e8989f37bd11b6bfdbca90.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/6456bf5369ff4766a4d530b1ebd2d93c87a78586.jpg",
     "displayName": {
@@ -851,15 +929,17 @@
       "english": "Kill 100 Enemies with Support Towers",
       "token": "NEW_ACHIEVEMENT_17_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "monsters_support_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_support_killed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "KILLS-S2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/1689158e0d9894ccf54ef5f76b6ebda950f30935.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/efc29f03debbb54dcd58bb458bac368e0cb759db.jpg",
     "displayName": {
@@ -870,15 +950,17 @@
       "english": "Kill 1000 Enemies with Support Towers",
       "token": "NEW_ACHIEVEMENT_17_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "monsters_support_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsters_support_killed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "SPELLS1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/484b79562c58863e964020196bcf494b96f58de4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/b92a1b3c6520a6023253c17648cf27d8e68a215a.jpg",
     "displayName": {
@@ -889,15 +971,17 @@
       "english": "Cast 50 Spells",
       "token": "NEW_ACHIEVEMENT_17_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "spells_cast"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spells_cast",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "SPELLS2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/172b0dd8870962ad88b40175d2da715a591cc7f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/2e62319bf41867b463a822b2f9849b80b457a89f.jpg",
     "displayName": {
@@ -908,15 +992,17 @@
       "english": "Cast 250 Spells",
       "token": "NEW_ACHIEVEMENT_17_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "spells_cast"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spells_cast",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "SPELLS3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/f667fac0d0e6b211bc2d1b1ad1e5d32e4af6031d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/b350b88e5be1f63381d32dbef59771248574f358.jpg",
     "displayName": {
@@ -927,15 +1013,17 @@
       "english": "Cast 1000 Spells",
       "token": "NEW_ACHIEVEMENT_17_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "spells_cast"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spells_cast",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "SPELLS4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/92d761f442ec865167f908195799e53dcb109c2b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/982ab6ffa3b90859436b1d576e6915f8cdc23196.jpg",
     "displayName": {
@@ -946,15 +1034,17 @@
       "english": "Cast 2500 Spells",
       "token": "NEW_ACHIEVEMENT_17_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2500,
-      "stat_name": "spells_cast"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spells_cast",
+        "min_val": 0,
+        "max_val": 2500
+      }
+    ]
   },
   {
     "name": "SPELLS5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/818805ee4dae12936d8cc3c95b826ba6b9af0fca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/08f8c54bc056c5865aeb4051e16570bb4ba3df67.jpg",
     "displayName": {
@@ -965,15 +1055,17 @@
       "english": "Cast 5000 Spells",
       "token": "NEW_ACHIEVEMENT_17_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "spells_cast"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spells_cast",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "SPELLS6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/bfec6ed384f22b32c4c24972b40975ef401f2bb1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/f058aa3e21f577da8cd4bd15218d07d6f8c9646e.jpg",
     "displayName": {
@@ -984,15 +1076,17 @@
       "english": "Cast 10000 Spells",
       "token": "NEW_ACHIEVEMENT_17_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "spells_cast"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spells_cast",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "SPELLS7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/2bdb12e70d5e5d44d1c8d3eb643c8cc865f4427d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/3a5774ce6b4f4395499d7e4b9f0267b65f3727a4.jpg",
     "displayName": {
@@ -1003,15 +1097,17 @@
       "english": "Cast 25000 Spells",
       "token": "NEW_ACHIEVEMENT_17_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25000,
-      "stat_name": "spells_cast"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spells_cast",
+        "min_val": 0,
+        "max_val": 25000
+      }
+    ]
   },
   {
     "name": "TILES1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/2cea8a671b1b9d220c94dae7446982fbb862cbfb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/a4e28b9aec6a45c1019ee75fc282574544c84665.jpg",
     "displayName": {
@@ -1022,15 +1118,17 @@
       "english": "Terraform 50 Tiles",
       "token": "NEW_ACHIEVEMENT_17_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "tiles_changed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "tiles_changed",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "TILES2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/dfe9fcb194ab4630e04e3f83911e8126584d50ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/5c94df78f958e261b538faa9d711de9de143717b.jpg",
     "displayName": {
@@ -1041,15 +1139,17 @@
       "english": "Terraform 250 Tiles",
       "token": "NEW_ACHIEVEMENT_17_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "tiles_changed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "tiles_changed",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "TILES3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/ecc63d8a953230883a8f783cd448adc9134c5134.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/9fe85e7d5f6783bb7031f179de5e7dfb048fd6b1.jpg",
     "displayName": {
@@ -1060,15 +1160,17 @@
       "english": "Terraform 1000 Tiles",
       "token": "NEW_ACHIEVEMENT_17_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "tiles_changed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "tiles_changed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "TILES4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/043f4c64cab80d86d70953ad1ab1566e3d65da42.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/c8ca6d493610911ef94eb20ae7714b40f51c8ba8.jpg",
     "displayName": {
@@ -1079,15 +1181,17 @@
       "english": "Terraform 2500 Tiles",
       "token": "NEW_ACHIEVEMENT_17_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2500,
-      "stat_name": "tiles_changed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "tiles_changed",
+        "min_val": 0,
+        "max_val": 2500
+      }
+    ]
   },
   {
     "name": "TILES5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/cee1282cf087d1d3c40f77e8187f9f402d2dde37.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/a7c9cfc61cd1db89d5ea018250a01edbffcb7f84.jpg",
     "displayName": {
@@ -1098,15 +1202,17 @@
       "english": "Terraform 5000 Tiles",
       "token": "NEW_ACHIEVEMENT_17_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "tiles_changed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "tiles_changed",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "TILES6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/45d8adc37568a1ff35217264943381209bb00a3f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/2268230af63a6ef4bd7b438c4093401008fdde2a.jpg",
     "displayName": {
@@ -1117,15 +1223,17 @@
       "english": "Terraform 10000 Tiles",
       "token": "NEW_ACHIEVEMENT_17_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "tiles_changed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "tiles_changed",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "TILES7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/6ed5310bd82877e355ea74f44a33149582a72457.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/00770ea493f587820e8416e37170f4796850e9b9.jpg",
     "displayName": {
@@ -1136,15 +1244,17 @@
       "english": "Terraform 25000 Tiles",
       "token": "NEW_ACHIEVEMENT_17_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25000,
-      "stat_name": "tiles_changed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "tiles_changed",
+        "min_val": 0,
+        "max_val": 25000
+      }
+    ]
   },
   {
     "name": "MAP1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/440c9f89366ccf021cae1fe9f8f98a59162767df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/c603d40234b2adbc2f11b9663808e41bd00b3ba9.jpg",
     "displayName": {
@@ -1158,7 +1268,7 @@
   },
   {
     "name": "MAP2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/84232a995f129c884b859af593d2705ac0a58cba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/f75b67fad3c582af94af0b7073f30c1a4019ab2b.jpg",
     "displayName": {
@@ -1172,7 +1282,7 @@
   },
   {
     "name": "MAP3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/a69922820550f6fb8dc7d960bc974a17e1884865.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/81ed53debc59cb499657788a53ac95560d886d4e.jpg",
     "displayName": {
@@ -1186,7 +1296,7 @@
   },
   {
     "name": "MAP4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/46e5db24224a40e6152cac2661d2c773d8b5d832.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/33331ea1af2715eabac7cb7033d16e1f7ffe6f0c.jpg",
     "displayName": {
@@ -1200,7 +1310,7 @@
   },
   {
     "name": "DIFFICULTY1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/2ed210244c7e23ef0f39cbbdfa2583171b9dafc7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/58b8af52427d1c9af843a046460cd2ce8737f05d.jpg",
     "displayName": {
@@ -1214,7 +1324,7 @@
   },
   {
     "name": "DIFFICULTY2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/2b809efea587d4979e20e3de6a61aa4c6df49166.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/67ffc546a86fa1007866b374a23ab0aef3554fdd.jpg",
     "displayName": {
@@ -1228,7 +1338,7 @@
   },
   {
     "name": "LEVEL1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/e3708c7548668948e328acd3a463e32a1c222729.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/99319b62488523ae06c24961961ceb6534ba7413.jpg",
     "displayName": {
@@ -1239,15 +1349,17 @@
       "english": "Welcome to Terrorformer TD!",
       "token": "NEW_ACHIEVEMENT_18_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "player_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "player_level",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "LEVEL2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/030f86f168b31c05ad077da9b277aed1a9a3e99a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/58ea3773f236cd07ce0159c33dc0c8f116c7dcb9.jpg",
     "displayName": {
@@ -1258,15 +1370,17 @@
       "english": "Reach Level 5",
       "token": "NEW_ACHIEVEMENT_18_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "player_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "player_level",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "LEVEL3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/4c1a8b7ad3a6b768a509a5496797b359885769a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/316cc168da5c18243e75c0d09b4f3132f40131e4.jpg",
     "displayName": {
@@ -1277,15 +1391,17 @@
       "english": "Reach Level 10",
       "token": "NEW_ACHIEVEMENT_18_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "player_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "player_level",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "LEVEL4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/7de46426c8b08e406485140d04228ef0a1e5af57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/11c7dd1566d91caf78b7439682d60adbce122744.jpg",
     "displayName": {
@@ -1296,15 +1412,17 @@
       "english": "Reach Level 15",
       "token": "NEW_ACHIEVEMENT_18_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "player_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "player_level",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "LEVEL5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/3856b74f74b12d5a2c3446174c02005c3cc80501.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/0e656413f0b6c970e71e3e4fdd6b9782229e6e46.jpg",
     "displayName": {
@@ -1315,15 +1433,17 @@
       "english": "Reach Level 20",
       "token": "NEW_ACHIEVEMENT_18_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "player_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "player_level",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "LEVEL6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/b345b7daa9d580fb1808b6fd125b04be71780999.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/02825e1210643c9f6959e5fc7599bbc80d310c3c.jpg",
     "displayName": {
@@ -1334,15 +1454,17 @@
       "english": "Reach Level 25",
       "token": "NEW_ACHIEVEMENT_18_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "player_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "player_level",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "LEVEL7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/feacbd2f5074858adf66aa1bcb6738c0d4ce7360.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/d33af3d554856b9814d6ef2330d1b3c85a30ac47.jpg",
     "displayName": {
@@ -1353,15 +1475,17 @@
       "english": "Reach Level 30",
       "token": "NEW_ACHIEVEMENT_18_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "player_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "player_level",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "LEVEL8",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/b0cb4e9b23773bb12a5d7e30e7adc6388e82c64f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/48310f7c9719478876cd38cae53fd56746cde631.jpg",
     "displayName": {
@@ -1372,15 +1496,17 @@
       "english": "Reach Level 35",
       "token": "NEW_ACHIEVEMENT_18_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 35,
-      "stat_name": "player_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "player_level",
+        "min_val": 0,
+        "max_val": 35
+      }
+    ]
   },
   {
     "name": "LEVEL9",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/c31f896f25258bd4b2eaba89b9ba7cc8d1251c7f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/3f34608f247619fc59d9f7697d163bc657908bef.jpg",
     "displayName": {
@@ -1391,15 +1517,17 @@
       "english": "Reach Level 40",
       "token": "NEW_ACHIEVEMENT_18_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "player_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "player_level",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "LEVEL10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/7e70a79c6c8cf4b0ed04471c027f69edd196bd0c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/3a37f9d370444c82237829ca5417de08fe518b01.jpg",
     "displayName": {
@@ -1410,15 +1538,17 @@
       "english": "Reach Level 45",
       "token": "NEW_ACHIEVEMENT_18_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 45,
-      "stat_name": "player_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "player_level",
+        "min_val": 0,
+        "max_val": 45
+      }
+    ]
   },
   {
     "name": "LEVEL11",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/6f29abb1be00eb17355907cf4129b08cd45b6db7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/2dde36519ab753dfa23f43ed0586bf511a5d00dd.jpg",
     "displayName": {
@@ -1429,15 +1559,17 @@
       "english": "Reach Level 50",
       "token": "NEW_ACHIEVEMENT_18_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "player_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "player_level",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "TUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/13303c4ee3570840a79805a0e73ee225d670b940.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2837760/4e3655987d97f5e82a9f5025437d0bb64f90e8ae.jpg",
     "displayName": {

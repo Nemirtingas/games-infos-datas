@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_COLLECT_GIFT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/24cb2d58d1bef0bad1f8a25b150fa99d25e784ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/d4487660c5596b3e68690ba506bcad164ba97334.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Collect 10 gifts for the kids.",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_GIFTS_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GIFTS_COLLECTED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_COLLECT_GIFT_PSYCHO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/f2f09cd36831f166edce5fe45bd86b734647c583.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/fc55f84e56df9a3a8515471ad2a6d093cb0229fa.jpg",
     "displayName": {
@@ -31,15 +33,17 @@
       "english": "Collect 10 gifts for the kids on Psycho difficulty.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_PSYCHO_GIFTS_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PSYCHO_GIFTS_COLLECTED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_SANTA_PUNCH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/aeb66e43ea80174869124d56f7eb09c5a69e0f3a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/c563185db69a83afff02e306caf290680326f437.jpg",
     "displayName": {
@@ -53,7 +57,7 @@
   },
   {
     "name": "ACH_PSYCHO_SANTA_PUNCH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/b11f8dcd6afa734ed953d12d8274cdc9a252cd53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/10f2d5ff658360cbc928d208beeda23f6d58e5a0.jpg",
     "displayName": {
@@ -67,7 +71,7 @@
   },
   {
     "name": "ACH_REINDEERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/8a960f3b7f1672102c30a92a323be44894b4a5eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/f3a30872e93f7a39e28ac46e314bbe4a9c802c1a.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "ACH_PSYCHO_REINDEERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/f9a5a6eeecfa3061e56d4e32647b86e5ba13ae48.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/bdc22ce76559e2acb6da6dbcac131759c62a2e06.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "ACH_SOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/f363b8c4291f7069614af6906f21f87d54dfb798.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/01f8bfd87ebc238f970fc846cf961283bf794ae0.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_PSYCHO_SOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/2e6d33af2ac61d2fd2b6370c51ca3bfc3f9c9000.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/22b413661ba044bf03d0841576435c5e5bda97fc.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_SNOWMEN_STUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/c45fdd600d2ec49e91afab6a35a9b997b4745a44.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/4338ac717a4f2643261e8659e1f0c2bd1dda5a82.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Stun the snowman 50 times.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_SNOWMAN_STUNS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SNOWMAN_STUNS",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_PSYCHO_SNOWMEN_STUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/e6e3555d00473564646a5c9a30fb3951736bd626.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/12fc2b8738a35d663e8c3048776cc93d29666e0c.jpg",
     "displayName": {
@@ -153,15 +159,17 @@
       "english": "Stun the snowman 50 times on Psycho difficulty.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_PSYCHO_SNOWMAN_STUNS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PSYCHO_SNOWMAN_STUNS",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_3_SNOWMEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/ca0fa98968c24bcdcc422353e324741468976ba4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/443ca33b2cb3ecdec1e470b1442f0d9ebaabd602.jpg",
     "displayName": {
@@ -175,7 +183,7 @@
   },
   {
     "name": "ACH_PSYCHO_4_SNOWMEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/0a3b4b3b4121c0b39f0c42216015783be1df9d5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/5a1b9dde02c4aa01b2c261a2192234c4cb724690.jpg",
     "displayName": {
@@ -189,7 +197,7 @@
   },
   {
     "name": "ACH_FINISH_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/473629888ea49afa47d6661ad9f59d1a757fc55e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/8b7aca39b45a67858dae83fbd0444008fc9707f1.jpg",
     "displayName": {
@@ -203,7 +211,7 @@
   },
   {
     "name": "ACH_PSYCHO_FINISH_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/1d8dfe11bf67a26f5942299249834f1399a38bee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/dbba2807752cff6f7de27d229b326e458968853d.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "ACH_DEATHLESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/e1a281d9cbe0d8b9556b270b057dfd5c60953f57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/fe6b14006326899a94d416864c08b92360e92668.jpg",
     "displayName": {
@@ -231,7 +239,7 @@
   },
   {
     "name": "ACH_PSYCHO_DEATHLESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/2adcf4559776f214702fb1ec8947a0f66ea371d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/c4b3724fbedae4cea6e48187d5a0ca99e4973ac9.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "ACH_DEATHS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/d194e67f546fb65d66f4805307ff009501838a13.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/3fec33ed732a0eb0c6b7ea4f441dc8ac6249b911.jpg",
     "displayName": {
@@ -256,15 +264,17 @@
       "english": "Die 25 times.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_DEATHS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DEATHS",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACH_PSYCHO_DEATHS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/25ba64ba1abf760c8186381056e6e4ae209f09d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4242080/78153597c41d884b93e2de2aeb7f2df51b6c5eff.jpg",
     "displayName": {
@@ -275,10 +285,12 @@
       "english": "Die 25 times on Psycho difficulty.",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_PSYCHO_DEATHS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PSYCHO_DEATHS",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   }
 ]

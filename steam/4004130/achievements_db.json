@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_Road",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/26e58199eeabe34471964c719f7cc4dabd976872.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/c8836e3ef5b3eae2e004ac72bd5b90599feb8787.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "ACH_Oligarchy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/93b4a128f40a1faf9d82e313329e760744374b46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/d486ef28026d41d9d6bbbe14bc3db3a9aea4f199.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "ACH_Studio",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/c013583f882e12334a7503efac493f1b0d4156c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/9301fb5643c0587117a2b3aac70c3556947cd20d.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "ACH_Hospital",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/0c354b1a3c0f5339c63f7b9efd862945e5922be3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/07d4425745a62fc89189b88859f383dea6a41a84.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "ACH_Kill_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/eccd4d640d1eaaff4cb47c8877dfaad881d943df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/6e7c5ef0e483400ce32311be0a28096ad7496e1a.jpg",
     "displayName": {
@@ -78,15 +78,17 @@
       "schinese": "杀死20名敌人",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "KillCountStat_KillCountStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillCountStat_KillCountStat",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_Kill_200",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/9e89cb6c68c3054ae1de10e6f23837e7bc95a488.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/62da9f98a5b4082db7e4aab79b5f692c8f09a3b1.jpg",
     "displayName": {
@@ -99,15 +101,17 @@
       "schinese": "杀死200名敌人",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "KillCountStat_KillCountStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillCountStat_KillCountStat",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ACH_Die_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/fcc6a72875256f1a7ed4474e73852880842558eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/52b83455c4046906003c6e78aa56ab493da8b338.jpg",
     "displayName": {
@@ -120,15 +124,17 @@
       "schinese": "死亡100次。",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "PlayerDeath_PlayerDeath"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PlayerDeath_PlayerDeath",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_Wave_40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/6bea113804b729c7bc77777657c9803371728001.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4004130/bac0a26ca898b3cfdfd68973616dd2286b046f26.jpg",
     "displayName": {
@@ -141,10 +147,12 @@
       "schinese": "在任意关卡中坚持到40波。",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "MaxWave_MaxWave"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MaxWave_MaxWave",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   }
 ]

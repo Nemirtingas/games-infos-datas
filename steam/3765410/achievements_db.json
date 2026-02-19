@@ -1,7 +1,7 @@
 [
   {
     "name": "first_new_game",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3765410/40a57880afc59a3792f6fd8f6ba727a18c4c4a23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3765410/260da6c566c63d5c32f10e361062b726bafc4a5b.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Start a new game for the first time",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "first_new_game_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "first_new_game_stat",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ovoshebaza_finished",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3765410/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3765410/",
     "displayName": {
@@ -31,15 +33,17 @@
       "english": "Finish First Case",
       "token": "NEW_ACHIEVEMENT_2_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "ovoshebaza_finished_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ovoshebaza_finished_stat",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "acupuncture_finished",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3765410/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3765410/",
     "displayName": {
@@ -50,15 +54,17 @@
       "english": "Finish Second Case",
       "token": "NEW_ACHIEVEMENT_2_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "acupuncture_finished_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "acupuncture_finished_stat",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "all_collectables_collected",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3765410/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3765410/",
     "displayName": {
@@ -69,10 +75,12 @@
       "english": "Collect all collectables",
       "token": "NEW_ACHIEVEMENT_2_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "all_collectables_collected_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "all_collectables_collected_stat",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   }
 ]

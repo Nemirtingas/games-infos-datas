@@ -1,7 +1,7 @@
 [
   {
     "name": "BACK_TO_SAFETY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/c4780eb158265146d128d4350147a27494af353f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/0d82721ed59628f0cdb9dd2986a3e46c63721eff.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ONE_FINAL_EFFORT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/b5f7884f70a4bfe753b5bc2a62f5186c56707317.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/be0cc6a9ff2879e9fed9e2950407e04df8666298.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "NEW_BEGINNING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/35b6c3f785aac5f05fb3e0e6ecd62196ec4cae81.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/f83196fc1ec450045f9c975c92753dd986b2f902.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "PERSISTENCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/ee3d17c59a73d81325cfc2d997d05bd8cca46c1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/11f490e692616f25d0f593c8eb79386a4dea2bd8.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Start a new game and enter combat 50 times.",
       "token": "NEW_ACHIEVEMENT_3_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "FIRST_JUMPS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FIRST_JUMPS",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "GETTING_STARTED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/9aa3c893942da62f2a0e629242c9c7be0d66c600.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/8c7117e4fd8a518a558cc09702bb8367684c17c3.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "EMBRACE_THE_CHAOS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/4aa1521587ad4e6c414983bc0e6c3ac1502ee895.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/1c45ec05baf8a683a2d77dfc4311aaa8c6490db8.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "MIRACLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/0a0079841fa1317cdced0da8972e38b17b8fa5b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/b486ec558c032e765745cfb87a1c48d57c413d85.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "SACRIFICE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/e2a4753cf4ec6cd6a80c7c5f01e2308ba519a4c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/9dcbe29cb91d853c810763e3f435254c567d29c2.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Destroy 100 enemies (or allies) total.",
       "token": "NEW_ACHIEVEMENT_3_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TOTAL_DESTROYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_DESTROYED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "THE_DESTROYER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/484b137a4c45027ca7df54d7de44ceba64785f78.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/3a5811ff987ade72576daec8ebb389beaf4653f9.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Destroy 1,000 enemies (or allies) total.",
       "token": "NEW_ACHIEVEMENT_3_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "TOTAL_DESTROYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_DESTROYED",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "I_AM_BECOME_DEATH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/7f9de94482ac651a2c70f3a37b5c68fc26140272.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/8b9f36d9fbdca586db8797033f97856e393498d0.jpg",
     "displayName": {
@@ -153,15 +159,17 @@
       "english": "Destroy 10,000 enemies (or allies) total.",
       "token": "NEW_ACHIEVEMENT_3_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "TOTAL_DESTROYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_DESTROYED",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "IVE_SEEN_MANY_THINGS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/331e9a51f0f4ef0af601b272e620a6fc19c7475c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/9ff2cce7d508853fa032a1c8af23755ae8274731.jpg",
     "displayName": {
@@ -172,15 +180,17 @@
       "english": "Witness (and destroy) one of each enemy type.",
       "token": "NEW_ACHIEVEMENT_3_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "ENEMY_TYPES_DESTROYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ENEMY_TYPES_DESTROYED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "OUT_OF_MY_WAY_LEVEL_CAP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/8ea51269a03277734cfdcbfb2f394ff09b5ba64c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/4c668c41f57d5b7999858623fab63b9d2cfa78ed.jpg",
     "displayName": {
@@ -194,7 +204,7 @@
   },
   {
     "name": "IM_INVINCIBLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/bf848722a50359b1e72bfe298e9a89e2be2e65eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/263d45d71c25ac7bb66603a0d9b16840ee7105d6.jpg",
     "displayName": {
@@ -208,7 +218,7 @@
   },
   {
     "name": "ONE_SHOT_SHOOTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/7e82bcf021530b3286c6c2a65ade59baa7e38051.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/787fd6b4eedc14002e985717f10299da4f87fba7.jpg",
     "displayName": {
@@ -222,7 +232,7 @@
   },
   {
     "name": "WHAT_WAS_ONCE_BEFORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/0bdd14c37ca9d6bf1f999f008c0ef3c891553471.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/63943fc79deba7748683f096943162e1af59f262.jpg",
     "displayName": {
@@ -233,15 +243,17 @@
       "english": "Unlock all mission logs and journal entries.",
       "token": "NEW_ACHIEVEMENT_3_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 20,
-      "stat_name": "LOGS_UNLOCKED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LOGS_UNLOCKED",
+        "min_val": 1,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "FOR_THE_ALLIANCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/9cda708df391ab6528083e4ffc039d61363a2eb5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/c5a810593e09b1b2a358ad0eb2b96c7ce2155dc7.jpg",
     "displayName": {
@@ -255,7 +267,7 @@
   },
   {
     "name": "STACKED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/aa2176f7eaf8965f45584498a94b761ce09c01d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/8d8e93eecc78bb6c87770b41bc35c5be8323d964.jpg",
     "displayName": {
@@ -269,7 +281,7 @@
   },
   {
     "name": "SUPER_USER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/1b586bb943b5219d9dd5c97a44585fc14ad0d5d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/d46e65e9e7a7d16350377378d81287b696522372.jpg",
     "displayName": {
@@ -283,7 +295,7 @@
   },
   {
     "name": "COMMANDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/49ba5dab34361a20a54d7d01579c5d7856a83e96.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/376ea9aa7f8e18f718cba7cb41b781fe232c4844.jpg",
     "displayName": {
@@ -297,7 +309,7 @@
   },
   {
     "name": "EXPLORER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/04d0e35d1b7896fd73ed2dc9b4795e2676f8f0bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/662180/92e3f81166990b70745d5f6ca887c67b4a1cd9a7.jpg",
     "displayName": {

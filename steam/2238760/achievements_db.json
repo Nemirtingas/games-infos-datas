@@ -1,7 +1,7 @@
 [
   {
     "name": "GOT_SUPERHUMAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2238760/c42b100e8be08f4b037c4d3651befc29ad16286f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2238760/6cd650787516ba7fc8b2f8ef60ee1bc4e40c411f.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "GOT_HOLIDAYWOMAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2238760/48b5efa72c73ad9a4e1832182b34ce3fdcecf041.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2238760/ad69493bd796a2e186d55044f39784627001b063.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "GOT_FATASSHERO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2238760/f53c33b5ef4ed2ddae1339cd7b8a5bee6a0c92f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2238760/636334554d22cf2ec5a19e4087a88fabc8a82534.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "GOT_VRARTIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2238760/990119fccc85490e8bbc2a849378f73561d7ce5c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2238760/217efbee872812635885b192ebdaf1e9bbbc1518.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "LV3BOSS_CLEARED_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2238760/5cf7e8f25228dba85c2d487c2a87d2a330f41edd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2238760/d4ac0eb588da6b267ead2ae53c41744b3f3edb6e.jpg",
     "displayName": {
@@ -78,10 +78,12 @@
       "japanese": "オフラインモードのVSMonsterでLv.3ボスを撃破した数 ",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_LV3BOSS_CLEARED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_LV3BOSS_CLEARED",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   }
 ]

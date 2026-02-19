@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FIRST_LOST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1979980/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1979980/",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_FIRST_WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1979980/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1979980/",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Win any game mode for the first time",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "games_won"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "games_won",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_WON_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1979980/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1979980/",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "Win 10 games of any type",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "games_won"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "games_won",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_WON_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1979980/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1979980/",
     "displayName": {
@@ -64,15 +68,17 @@
       "english": "Win 100 games of any type",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "games_won"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "games_won",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_WON_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1979980/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1979980/",
     "displayName": {
@@ -83,10 +89,12 @@
       "english": "Win 1000 games of any type",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "games_won"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "games_won",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

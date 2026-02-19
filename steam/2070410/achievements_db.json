@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_DEFEAT_CHAIRMAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/f9708992afdde0192738c8c44612a32a05fd42d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/7bbd0774211c7f58e170fcf87c31e39fd78b8542.jpg",
     "displayName": {
@@ -19,7 +19,7 @@
   },
   {
     "name": "ACH_DEFEAT_ICE_QUEEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/b6817e573fb77bf377b10545e27a35ea04332752.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/3d407b96cf584a6abd00a234da4661c2ba1be68b.jpg",
     "displayName": {
@@ -37,7 +37,7 @@
   },
   {
     "name": "ACH_DEFEAT_MINE_FOREMAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/11d428848e1ef27ee0123eda6fc735a423446538.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/c6950b7ee05ff9413a925480818b97bb6952694f.jpg",
     "displayName": {
@@ -55,7 +55,7 @@
   },
   {
     "name": "ACH_DEFEAT_TRIBAL_CHIEF",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/5fc174d8df52a36b666c81de3c045a08ba1cfe16.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/9ca4e9a449d283dffac9607594da75f393181f62.jpg",
     "displayName": {
@@ -73,7 +73,7 @@
   },
   {
     "name": "ACH_DEFEAT_JUNKYARD_KING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/0a058eada907257cff7a99911582cfb01d0e022f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/9638919c3852b2fff52260e7c98f352dfe721c2d.jpg",
     "displayName": {
@@ -91,7 +91,7 @@
   },
   {
     "name": "ACH_ENGINEER_SINGLE_RUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/a830faa12815d2955cd3d7c08e3ec0d986ecab05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/3b2056bccb0c4728fe3d04b1dbafdab0244c0f3a.jpg",
     "displayName": {
@@ -109,7 +109,7 @@
   },
   {
     "name": "ACH_DETECTIVE_SINGLE_RUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/3a330d4073ee81cbc408598a06eb0cdfdc1492fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/ff494ed96b8c9e4a51ba8d2839182ef6a8d4fbf8.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "ACH_RACER_SINGLE_RUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/1b162a2ec4f422445c2103f014841cf48d8f0c75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/a32b1d7ffb1acb56882adb41c68070451f3a1046.jpg",
     "displayName": {
@@ -145,7 +145,7 @@
   },
   {
     "name": "ACH_ENGINEER_ALL_RUNS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/be82226f8e1a95fa9c048b1f60229f0e35d54d26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/f8c87067e6231ff5ded8a85ede6542ccd36ba7da.jpg",
     "displayName": {
@@ -160,15 +160,17 @@
       "latam": "Descubre todas las opciones possibles en la historia de Kath",
       "token": "ACH_ENGINEER_ALL_RUNS_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_PROGRESS_ENGINEER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PROGRESS_ENGINEER",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACH_DETECTIVE_ALL_RUNS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/31c6562ca827343b9700bc1fb67492037d53a431.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/78e239c8aaaea64fc0506f17262da380f6d9c4f1.jpg",
     "displayName": {
@@ -183,15 +185,17 @@
       "latam": "Descubre todas las opciones possibles en la historia de A.J.",
       "token": "ACH_DETECTIVE_ALL_RUNS_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 29,
-      "stat_name": "STAT_PROGRESS_DETECTIVE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PROGRESS_DETECTIVE",
+        "min_val": 0,
+        "max_val": 29
+      }
+    ]
   },
   {
     "name": "ACH_RACER_ALL_RUNS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/46f824a0a04893fa977336fe7d6d7abb2cafbe2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/474324af1b38b84b4d989cd2eb46cbd3c46e7c6f.jpg",
     "displayName": {
@@ -206,15 +210,17 @@
       "latam": "Descubre todas las opciones possibles en la historia de Max",
       "token": "ACH_RACER_ALL_RUNS_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_PROGRESS_RACER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PROGRESS_RACER",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACH_ALL_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/e3a3e590b860936703b3d9ca550bb8d6f1f811d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/60b706cfa7b01ef4731c4c91cb2ee9f5a3bf85f9.jpg",
     "displayName": {
@@ -229,15 +235,17 @@
       "latam": "Juega todas las combinaciones posibles con los tres personajes",
       "token": "ACH_ALL_COMPLETE_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 79,
-      "stat_name": "STAT_PROGRESS_ALL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PROGRESS_ALL",
+        "min_val": 0,
+        "max_val": 79
+      }
+    ]
   },
   {
     "name": "ACH_FULL_HELP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/a4809cd31397e486a83151a3ccb06ff1b9f71df7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/455b65fcfe7ccdb00665aa6d3b0db40047e50804.jpg",
     "displayName": {
@@ -255,7 +263,7 @@
   },
   {
     "name": "ACH_MICAH_SIDE_MISSION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/00d4505d507c95d482c41c5b22404218d6d6ee0f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/9d9c44ca44c17d2722ca5e76c1bccb61c6aec135.jpg",
     "displayName": {
@@ -273,7 +281,7 @@
   },
   {
     "name": "ACH_SYND_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/f2f4140869a0abf02734b32ed67ca6057e166eb5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/49841dd26f9661373268af8b4763b6b241a762fe.jpg",
     "displayName": {
@@ -288,15 +296,17 @@
       "latam": "Destruye 1.000 unidades del Sindicato",
       "token": "ACH_SYND_1000_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_ENEMIES_DESTROYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ENEMIES_DESTROYED",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_SYND_5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/a4c4c073e97f96c418a13e715ad840fb0161f5ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/bd39b1981f87f39c6132079e0e72148f51262ab5.jpg",
     "displayName": {
@@ -311,15 +321,17 @@
       "latam": "Destruye 5.000 unidades del Sindicato",
       "token": "ACH_SYND_5000_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "STAT_ENEMIES_DESTROYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ENEMIES_DESTROYED",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "ACH_SYND_10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/823017b797057f552e6c147b1821f9c07687a1f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/2db1202866483bc2a204003ff50291451be33862.jpg",
     "displayName": {
@@ -334,15 +346,17 @@
       "latam": "Destruye 10.000 unidades del Sindicato",
       "token": "ACH_SYND_10000_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "STAT_ENEMIES_DESTROYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ENEMIES_DESTROYED",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ACH_SYND_25000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/157629a3b632175a8fea656ccbe288d3c7db5ad7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/1db868d17810154e16dc7e44ad083390a58a3e9d.jpg",
     "displayName": {
@@ -357,15 +371,17 @@
       "latam": "Destruye 25.000 unidades del Sindicato",
       "token": "ACH_SYND_25000_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25000,
-      "stat_name": "STAT_ENEMIES_DESTROYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ENEMIES_DESTROYED",
+        "min_val": 0,
+        "max_val": 25000
+      }
+    ]
   },
   {
     "name": "ACH_ENDLESS_BLDG_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/5b962476ab26cf55231aa3cffa72b7a9c4ac7692.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/595515e2b72c71723282444565b89cfea14300ee.jpg",
     "displayName": {
@@ -383,7 +399,7 @@
   },
   {
     "name": "ACH_ENDLESS_BLDG_15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/9e6ce9d2d9771660a54854aa95b17881e4186b57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/a82a4160afdbfac9606759e5c4b8239c0ca284ac.jpg",
     "displayName": {
@@ -401,7 +417,7 @@
   },
   {
     "name": "ACH_ENDLESS_BLDG_30",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/795cd9348d0fe44a981ba370d46110faa21fd052.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/be4a4544a4e78521136fbf53935ae968bfc8c829.jpg",
     "displayName": {
@@ -419,7 +435,7 @@
   },
   {
     "name": "ACH_ENDLESS_CRATE_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/b3a0876ebc42182960c44defd0a4a1c2313bbce6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/5a039fefe56f6d7b5b34b69b9f215347f97f96c0.jpg",
     "displayName": {
@@ -437,7 +453,7 @@
   },
   {
     "name": "ACH_ENDLESS_CRATE_15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/d7d92f7e814fb6babd2c9a6c426c88555ef54b72.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/4c592a621e0de7c4f3a8458d5d99fe5a4f0d0d61.jpg",
     "displayName": {
@@ -455,7 +471,7 @@
   },
   {
     "name": "ACH_ENDLESS_CRATE_30",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/f96787ecaa1224659767427fbd320228953f7f8d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/c7215e4e20ac79444bb6daf19053c1eac83c981e.jpg",
     "displayName": {
@@ -473,7 +489,7 @@
   },
   {
     "name": "ACH_ENDLESS_DIST_5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/da90443fa5ec9c25e25c7fb36e0601baedb4af6f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/218fdd4fd7c2592f892eeaa6a1b0110331bd0314.jpg",
     "displayName": {
@@ -491,7 +507,7 @@
   },
   {
     "name": "ACH_ENDLESS_DIST_10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/487365cd1a7e986fd9272c69f261a8409406d132.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/41c9e214aa33f55c79873f3c15a50f0676be4f91.jpg",
     "displayName": {
@@ -509,7 +525,7 @@
   },
   {
     "name": "ACH_ENDLESS_DIST_15000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/1ac5d4a62fe60aac525f60bee6f1da8636ad1b51.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/d9b3b83fdce92965767050a5181256b3e9b56d03.jpg",
     "displayName": {
@@ -527,7 +543,7 @@
   },
   {
     "name": "ACH_ENDLESS_DIST_20000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/39f79cea6a047d7264657d9e246b5d31c65b3512.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/ed41cfda5fe65112d06b271528fa10fe863c912b.jpg",
     "displayName": {
@@ -545,7 +561,7 @@
   },
   {
     "name": "ACH_ENDLESS_VIP_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/d969bf3ee303b338f8336fb5619b291eb3dd0471.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/dcf50c02b3d97d3c7f7f6212e600dd7a217b16fe.jpg",
     "displayName": {
@@ -563,7 +579,7 @@
   },
   {
     "name": "ACH_ENDLESS_VIP_15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/feb0afcd3ce7f492e662732f2f28914c882aee94.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/4ca72b9dc59f2563bc22fcb4df343bf0f7f10a4a.jpg",
     "displayName": {
@@ -581,7 +597,7 @@
   },
   {
     "name": "ACH_ENDLESS_VIP_30",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/374f061b09c620b0176bc06dce5f7b5ef65d8810.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2070410/24cf1de2d867d5725ff56e7a7d092755ce6cfd38.jpg",
     "displayName": {

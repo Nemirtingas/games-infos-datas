@@ -1,7 +1,7 @@
 [
   {
     "name": "NEXTFEST_PLAYER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/b5ed41ba2a3bc7270a0f709dc064084f86ee29cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/32b06ba3ff1a8cf3fca98ea3e852e2c7e1520f99.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "FINISHED_TUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/dab746edcb58a860123118079339b9aef115822b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/53ff1c932f7e908070be2db41946564747fb1d26.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "GAME_PLAYED_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/51c040d2c0552aef1417af559d8fea46c6b92cd3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/f3b9b9a4dc13435e49b1346bf0970cd33429f89f.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Play 10 games",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_PLAYCOUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PLAYCOUNT",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "GAME_PLAYED_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/9367634590aefad40b4408e28c918d74475e987b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/e6705d2fce99436a670b69ecfb9292a3e931eaa5.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "Play 100 games",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_PLAYCOUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PLAYCOUNT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "GAME_PLAYED_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/e533655235a7f8414459b5b4c4a9434b6b55fb5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/db423a3aa63bcf6dd6df9a1274feb49653ec1695.jpg",
     "displayName": {
@@ -78,15 +82,17 @@
       "english": "Play 1000 games",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_PLAYCOUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PLAYCOUNT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "GAME_WON_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/529dcd95c2d22720ea0fdbe552c2248e01f0149d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/30ed8043703bf08059e124b22ba3fc8dba8e0555.jpg",
     "displayName": {
@@ -97,15 +103,17 @@
       "english": "Win 5 games",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_WINCOUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "GAME_WON_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/d05f8a5c686f6317bd644f18370f9f06173cfc58.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/0188ebbc9b8227766b90ec20ae040fc6b818d546.jpg",
     "displayName": {
@@ -116,15 +124,17 @@
       "english": "Win 50 games",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_WINCOUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "GAME_WON_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/2c8926d07b277af9fbe40fb5059492ba2320a508.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/9755fd0f9a9bd8185dc67b9c13a13d026acc31b0.jpg",
     "displayName": {
@@ -135,15 +145,17 @@
       "english": "Win 500 games",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "STAT_WINCOUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ESCAPED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/4c46388c4bb89e031ebd792473dc89dab2f2540e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/1165884c3d8192d998b40af45e99fe41fbbe688e.jpg",
     "displayName": {
@@ -157,7 +169,7 @@
   },
   {
     "name": "TEAM_UP_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/a17e5ba6d18871faa9c98234b7b3f832219d0908.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/4dcf10844101f31942fcf92033549a0c2ce14ec8.jpg",
     "displayName": {
@@ -168,15 +180,17 @@
       "english": "Team up 5 times",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_TEAMUP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TEAMUP",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "TEAM_UP_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/9b4e24b26b6fe5c34ab3487d9effe70c1d0d545d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/d5604e801a3c29933638d1f8db560b44f18bf056.jpg",
     "displayName": {
@@ -187,15 +201,17 @@
       "english": "Team up 25 times",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_TEAMUP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TEAMUP",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "FREED_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/2f1d1b731d2813fabbeae92933c4fb59b7ae3877.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/a8c90b80131494dbac1805c9feaf059c477e4f0e.jpg",
     "displayName": {
@@ -206,15 +222,17 @@
       "english": "Free 5 caught humans",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_FREED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_FREED",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "FREED_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/b4047118c419863d5c4df6de7c9434fd2b2f2f2d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/6e5459a81dcb247db55237a42176e229906a4881.jpg",
     "displayName": {
@@ -225,15 +243,17 @@
       "english": "Free 50 caught humans",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_FREED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_FREED",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "FREED_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/7ec70516f455a9c85b865b5892226c7447b9dcea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/887f474b7ec029f35d627ecbf5f44f3c56e8c259.jpg",
     "displayName": {
@@ -244,15 +264,17 @@
       "english": "Free 500 caught humans",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "STAT_FREED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_FREED",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "UNIQUE_WON",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/a828701d40f8ecb858fc9d5f6d541a4e26c18c0e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/8ca0813e3a748ce0d6a517229fe276edb6fc03f3.jpg",
     "displayName": {
@@ -266,7 +288,7 @@
   },
   {
     "name": "SKILLS_USED_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/872034171067bfbcae4a6fedd1adee53662c3ecf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/c9f33ec3782a894c7d3b4c532e32ddf701f55bff.jpg",
     "displayName": {
@@ -277,15 +299,17 @@
       "english": "Use human’s or creature’s skill 100 times",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_SKILLS_USED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SKILLS_USED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "SKILLS_USED_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/e52d0914d008f2f807eced01843c9c3c6be8486b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/202a86080af5ee26bb0960174618a86e4075c8b8.jpg",
     "displayName": {
@@ -296,15 +320,17 @@
       "english": "Use human’s or creature’s skill 500 times",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "STAT_SKILLS_USED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SKILLS_USED",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "SKILLS_USED_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/9820f8eeada459d61f73dade5b7fd09c923c2781.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/3761a2b200d370bf65250637810b7c610f8f4d30.jpg",
     "displayName": {
@@ -315,15 +341,17 @@
       "english": "Use human’s or creature’s skill 1000 times",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_SKILLS_USED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SKILLS_USED",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ITEMS_USED_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/7a5039d6da34818b1751dbda3277ca9dc6c9d200.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/fa461dbc895e4496537d1877b8f5b1f166ef5f46.jpg",
     "displayName": {
@@ -334,15 +362,17 @@
       "english": "Use 5 items",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_ITEMS_USED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ITEMS_USED",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ITEMS_USED_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/0097805552c335b4e83bbed24eac2839833cb316.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/5c1761835d082c4f65ba93c0341aa1a918d38708.jpg",
     "displayName": {
@@ -353,15 +383,17 @@
       "english": "Use 100 items",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_ITEMS_USED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ITEMS_USED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ITEMS_USED_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/f19aab20faf9dd8174dc10f4eb53e2ebedcae385.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/72e55bae0b09bd57b4597f86f5a82d6d49d604e1.jpg",
     "displayName": {
@@ -372,15 +404,17 @@
       "english": "Use 500 items",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "STAT_ITEMS_USED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ITEMS_USED",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "WIN_JACK_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/225e4b4bf123f5d27d4b0e65c8c06c554a14d5c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/56e091c0961e4095053158b891649cd3ac696f63.jpg",
     "displayName": {
@@ -391,15 +425,17 @@
       "english": "Win 1 game as Jack",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_WINCOUNT_JACK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_JACK",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "WIN_JACK_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/e3acd3e1e0f2f6e06a0b31ddeb221d2fbef72821.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/b61a60ce6feaf8a898959714f24e8a341b5005d4.jpg",
     "displayName": {
@@ -410,15 +446,17 @@
       "english": "Win 25 games as Jack",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_WINCOUNT_JACK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_JACK",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "WIN_JACK_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/2ac6702a93c7667618eb0a14c95930c3938f7c34.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/20f97c576d823e4df54637be5fc6dd85775c78d9.jpg",
     "displayName": {
@@ -429,15 +467,17 @@
       "english": "Win 100 games as Jack",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_WINCOUNT_JACK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_JACK",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "WIN_BRITTANY_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/2674ce259d10a6ac0ac0ad65560fce20a9a1eb8f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/8ce40285665e08cb1b48b656fe708e6b02c1a736.jpg",
     "displayName": {
@@ -448,15 +488,17 @@
       "english": "Win 1 game as Brittany",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_WINCOUNT_BRITTANY"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_BRITTANY",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "WIN_BRITTANY_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/0032dffb5837555dda3145b17e93e06469d26f89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/1199d103f8f6d3349876438efca97411a0b7e0cc.jpg",
     "displayName": {
@@ -467,15 +509,17 @@
       "english": "Win 25 games as Brittany",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_WINCOUNT_BRITTANY"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_BRITTANY",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "WIN_BRITTANY_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/e68f90692f4168e100f1f1f056432c8254fba986.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/bda1c2cb71a5d8f026a0bf05684651c92a20ff36.jpg",
     "displayName": {
@@ -486,15 +530,17 @@
       "english": "Win 100 games as Brittany",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_WINCOUNT_BRITTANY"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_BRITTANY",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "WIN_LOUIS_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/6efe841dbcb2ada7e07817db6734cd88549c6753.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/9d7fadb1e5d103c2a580af219ff21d834736c3d9.jpg",
     "displayName": {
@@ -505,15 +551,17 @@
       "english": "Win 1 game as Louis",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_WINCOUNT_LOUIS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_LOUIS",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "WIN_LOUIS_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/eb6a3783dec80cfbc8950d445d50faf90c195847.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/f2e0988f92b33cff2b6115bb859bf33dca256d57.jpg",
     "displayName": {
@@ -524,15 +572,17 @@
       "english": "Win 25 games as Louis",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_WINCOUNT_LOUIS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_LOUIS",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "WIN_LOUIS_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/f73d9b6932304f51eeee8d2b63b6234abab1d5a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/05d962efeb4c0b9aee4a5f2c89b6381623bcbd12.jpg",
     "displayName": {
@@ -543,15 +593,17 @@
       "english": "Win 100 games as Louis",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_WINCOUNT_LOUIS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_LOUIS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "WIN_GREG_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/5264b622d94561feddd54a5b670df3bebd48fcda.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/5eaf55c6fb35b1baeb0a949d548a11e50db2b266.jpg",
     "displayName": {
@@ -562,15 +614,17 @@
       "english": "Win 1 game as Greg",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_WINCOUNT_GREG"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_GREG",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "WIN_GREG_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/1a7902d687c298ac5e9877e220e8618971331260.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/771f358f00b805324cd7c42358d29e59ebfcbebd.jpg",
     "displayName": {
@@ -581,15 +635,17 @@
       "english": "Win 25 games as Greg",
       "token": "NEW_ACHIEVEMENT_21_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_WINCOUNT_GREG"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_GREG",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "WIN_GREG_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/a3c85d1a4ae4e53ebc6cf90e1b99b38b68d1b0ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/53a3117d832fedace1e1924dbbb9422353bce975.jpg",
     "displayName": {
@@ -600,15 +656,17 @@
       "english": "Win 100 games as Greg",
       "token": "NEW_ACHIEVEMENT_21_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_WINCOUNT_GREG"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_GREG",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "WIN_JENNIFER_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/21e55e8d3f33842e716e1331c5bd524366fa410b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/9986812f0daff5bbed19ebde93c421ce9f695a4f.jpg",
     "displayName": {
@@ -619,15 +677,17 @@
       "english": "Win 1 game as Jennifer",
       "token": "NEW_ACHIEVEMENT_21_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_WINCOUNT_JENNIFER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_JENNIFER",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "WIN_JENNIFER_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/08d99641e49af58dd56d5f8589ac03b94c64156f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/a2bcfe57012a0570bc6dfdee5cffb9dd564a0ced.jpg",
     "displayName": {
@@ -638,15 +698,17 @@
       "english": "Win 25 games as Jennifer",
       "token": "NEW_ACHIEVEMENT_21_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_WINCOUNT_JENNIFER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_JENNIFER",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "WIN_JENNIFER_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/c4bd72a08ec91edca4d0be4de14b5ac518a9d310.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/6c97d2ff403143cc51f1d88c27a23b311e516bbf.jpg",
     "displayName": {
@@ -657,15 +719,17 @@
       "english": "Win 100 games as Jennifer",
       "token": "NEW_ACHIEVEMENT_21_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_WINCOUNT_JENNIFER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_JENNIFER",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "WIN_CHRISTOPHER_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/d8a07f7b6f069af175e70c9d653aad3104a93dcd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/3f2bf4f750e48d765d600670284066c212cd2dfb.jpg",
     "displayName": {
@@ -676,15 +740,17 @@
       "english": "Win 1 game as Christopher",
       "token": "NEW_ACHIEVEMENT_21_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_WINCOUNT_CHRISTOPHER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_CHRISTOPHER",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "WIN_CHRISTOPHER_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/56ca4e46a0af4a20c798185f9409b497fe0da4a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/9d96790cbabafc35ae97c8056a1a59c5a76010c3.jpg",
     "displayName": {
@@ -695,15 +761,17 @@
       "english": "Win 25 games as Christopher",
       "token": "NEW_ACHIEVEMENT_21_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_WINCOUNT_CHRISTOPHER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_CHRISTOPHER",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "WIN_CHRISTOPHER_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/6f92813fc4e5c6ca896728bad58e33e27060b087.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/eb289635ed0a36a5a42ef0a594cc76d971aecbc3.jpg",
     "displayName": {
@@ -714,15 +782,17 @@
       "english": "Win 100 games as Christopher",
       "token": "NEW_ACHIEVEMENT_21_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_WINCOUNT_CHRISTOPHER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_CHRISTOPHER",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "WIN_DRPLAGUE_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/a48dc48f0495ba16e6120d26496272d7c9d5cbfa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/490e05055b6fa4d48b85213ff964f831fda9e84e.jpg",
     "displayName": {
@@ -733,15 +803,17 @@
       "english": "Win 1 game as Dr. Plague",
       "token": "NEW_ACHIEVEMENT_21_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_WINCOUNT_DRPLAGUE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_DRPLAGUE",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "WIN_DRPLAGUE_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/7ae7e09fa2e7166c04b5c692f091a84cf7905e2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/8bd5eda4f25887ef79df4f409ad1413d846d2ffe.jpg",
     "displayName": {
@@ -752,15 +824,17 @@
       "english": "Win 25 games as Dr. Plague",
       "token": "NEW_ACHIEVEMENT_21_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_WINCOUNT_DRPLAGUE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_DRPLAGUE",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "WIN_DRPLAGUE_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/1b89b9edf0e29b2e6af035dc94983af9f27ebd37.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/7076aca35ea32338c5ee5511a694ffe29c738139.jpg",
     "displayName": {
@@ -771,15 +845,17 @@
       "english": "Win 100 games as Dr. Plague",
       "token": "NEW_ACHIEVEMENT_21_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_WINCOUNT_DRPLAGUE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_DRPLAGUE",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "WIN_ALIEN_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/940b54df64838a6f8da1e9e85f6ce59ee237959c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/5ffb38ce3382118d905d1f1bf120d6717c60b9e1.jpg",
     "displayName": {
@@ -790,15 +866,17 @@
       "english": "Win 1 game as Alien",
       "token": "NEW_ACHIEVEMENT_21_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_WINCOUNT_ALIEN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_ALIEN",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "WIN_ALIEN_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/2320f1cc9bff0e8ee107458f8d13b549703fa965.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/c67e73cc77c8beaf0cd885a4b34cf1e858363597.jpg",
     "displayName": {
@@ -809,15 +887,17 @@
       "english": "Win 25 games as Alien",
       "token": "NEW_ACHIEVEMENT_21_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_WINCOUNT_ALIEN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_ALIEN",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "WIN_ALIEN_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/27a3e3283ee3d701b5a2a4faac441ff410442bf2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/09d0ea0af3e785ac6da82109c687af4290e642a5.jpg",
     "displayName": {
@@ -828,15 +908,17 @@
       "english": "Win 100 games as Alien",
       "token": "NEW_ACHIEVEMENT_21_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_WINCOUNT_ALIEN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_ALIEN",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "WIN_BOARDEMON_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/9d6773d331ea62c92b74157ef6309af093d60ada.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/3a14eeeb94bc9e81c9820a9df829882f5c4a543d.jpg",
     "displayName": {
@@ -847,15 +929,17 @@
       "english": "Win 1 game as Boar Demon",
       "token": "NEW_ACHIEVEMENT_21_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_WINCOUNT_BOARDEMON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_BOARDEMON",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "WIN_BOARDEMON_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/aa9bb422bd2d59fe4ca316f12f8323ea7dc52fc0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/53526e92fdaf68c5502f7acee84af9a9ce8b0e5b.jpg",
     "displayName": {
@@ -866,15 +950,17 @@
       "english": "Win 25 games as Boar Demon",
       "token": "NEW_ACHIEVEMENT_21_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_WINCOUNT_BOARDEMON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_BOARDEMON",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "WIN_BOARDEMON_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/257a6aefa5a7b02e16d8931ad9a6d7aa510651a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/72a501c11f6b7407297fade4d2fc0f8579dad56b.jpg",
     "displayName": {
@@ -885,15 +971,17 @@
       "english": "Win 100 games as Boar Demon",
       "token": "NEW_ACHIEVEMENT_21_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_WINCOUNT_BOARDEMON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINCOUNT_BOARDEMON",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "JACK_STUNNED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/1738bf97eba30937eed5f2684ccaca9f3f56da63.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/c384c2c0fe7a5a2a791d3f4cba2354a766d611d7.jpg",
     "displayName": {
@@ -907,7 +995,7 @@
   },
   {
     "name": "GREG_EVERYONE_BOOSTED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/bc2346091f0ef9b74d08028896b64291fff2ef2b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/33ccafa386ebe2e00c3084d90d8e988fc39014dd.jpg",
     "displayName": {
@@ -921,7 +1009,7 @@
   },
   {
     "name": "LOUIS_CREATURE_TRAPPED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/9b8e50e3235e311205071ba6cb931e26855da339.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/83ec2396105806bf2adb61b27d05702f4495df56.jpg",
     "displayName": {
@@ -935,7 +1023,7 @@
   },
   {
     "name": "CHRISTOPHER_PRAYED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/068b00754d4d36f04c22667d0185e169ffe819d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/0fc2a1331b2dd7f2a735588b12ef22867076d708.jpg",
     "displayName": {
@@ -949,7 +1037,7 @@
   },
   {
     "name": "JENNIFER_COMPUTER_ATTACHED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/3b382123768d3767d8deacd9b70b57b1fb2df1f7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/1e661ab4e1d916d1bcb865578cc5cf05deea2fee.jpg",
     "displayName": {
@@ -963,7 +1051,7 @@
   },
   {
     "name": "BRITTANY_ITEM_USED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/5cf791e165031f8d822c4ac10eb01ec41a1c9c54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1758470/838bac0c8f1b769d1d541bdaa652ecbc0e7d7b7b.jpg",
     "displayName": {

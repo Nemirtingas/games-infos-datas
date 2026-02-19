@@ -1,26 +1,22 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "01_KILL_COUNT",
     "displayName": "Zombies killed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 800,
+    "default": 0
   },
   {
     "name": "02_DAMAGE_TOTAL",
     "displayName": "Damage dealt",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 3000,
+    "default": 0
   }
 ]

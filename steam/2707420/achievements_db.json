@@ -1,7 +1,7 @@
 [
   {
     "name": "FRUIT_LEVEL_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/d38c7bb25e84c5edb74b9346d2cead2faead97fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/9b0a3533cd30fad9e4e1216f4ec22b88cfd37f22.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "FRUIT_LEVEL_11",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/82a4b9f188957c70a830a63ed02c70c1a7096d22.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/863aabb6be85e67636cda90970b263a757460b77.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "STRAWBERRY_SPACE_PROGRAM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/c7873c1cc8feb955a053bb5d3aa2c94d825176a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/f7156a23370b388c9d4bd3bc3f04959c7ca1cc9c.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "CLASSIC_COMBO_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/d8cfe98a03aaad7c57d2ed4a8c9b42fc3081d943.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/f1043e4ce9ca9469f8576e38f9f6a697e95145f3.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "TIMEATTACK_LONG_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/6d7d871f3fabd747f245d55bd45873c37280263e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/39c7152fc0f2d61b2b8bfeec6b985aed95e288ce.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "AUTODROP_MAX_DROPRATE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/152d2ba55af68568f897e53423d62f1155372dd2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/61773d1e75f4192844e3d3a37a548e3d10fae4d3.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "STAT_DROPS_MILESTONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/334ab87ed624192a9749ea506c3d9466a1baa677.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/ebd1aba0a2038ac0330085b0f783e7f5ec423d4b.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Drop 1728 fruit",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1728,
-      "stat_name": "CUL_FRUIT_DROPPED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CUL_FRUIT_DROPPED",
+        "min_val": 0,
+        "max_val": 1728
+      }
+    ]
   },
   {
     "name": "STAT_MERGE_MILESTONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/b9e643080c94f112878de2dd669c602777c39ad2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/13141995161f9539e3e1358ec81a802c583fedae.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Merge 2048 fruit. The minimum amount of cherries you need to match to get 2 watermelons",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2048,
-      "stat_name": "CUL_FRUIT_MERGED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CUL_FRUIT_MERGED",
+        "min_val": 0,
+        "max_val": 2048
+      }
+    ]
   },
   {
     "name": "FRUIT_LEVEL_CYCLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/9bb65dd501c212d952ea61431ca2dded60cac243.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/64d07cbe3f8b32d5a52f9c57a27aeea760cedc63.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "SUPERF_HOLD_WATERMELON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/5e4acd8750f95dbcb68f9393f4d201e337d116c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/77cdd81bc72c35f32e1d4e0d10d6756acfafb8b6.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "SUPERF_SOLAR_SYSTEM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/3e40029547b1833aa23cc4fe116b50d089685eca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/3535d3e701c218afaf19fa2565ccb683ec07b37e.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "SUPERF_BOUNCY_PEACH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/646d1c2366a3340b56c1ea730f316b253c1d7d68.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/c68c14bab9045ff2b28f082f69919d78827b96f3.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "FRUIT_3_ORANGES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/c021843f60901312a09844ef6a778ac37ccfbf90.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/66a50b65007229bb30e5c0bd9fe6de537285d905.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "FRUIT_ONE_OF_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/5828651cb3e2609bb22828b861e1b2b91c5f6d88.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/7b86d887d79562095e233528dc81ede99ab89dfd.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "SUPERF_STICKY_SITUATION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/441c31c0156f5323bcf2f0e26db6647ee8af7096.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/7df4cde5774bc2a7dec6e453a552b680e5d8e159.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "SUPERF_SQUISHY_BUSINESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/08641c4bc0d78801d22e451c4da8db21de01a748.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/6273653ecdfd66648714ca0d97b90e20f2acf312.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "TIMEATTACK_PAUSES_MILESTONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/066bd31b1986b8b4eaef0c278ec5401afb53e5a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/7c3dd9893ad973aa070e273279cc89cbe50084f1.jpg",
     "displayName": {
@@ -246,15 +250,17 @@
       "english": "Pause time 25 times while playing TIme Attack",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "TIMEATTACK_TIME_FROZEN_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TIMEATTACK_TIME_FROZEN_COUNT",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "TIMEATTACK_BIG_SPILLAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/ec1dab5eeb20584133405ceb96ed80a9b414e219.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/f118021453463bcfabed9525990e8259e83aaa11.jpg",
     "displayName": {
@@ -265,15 +271,17 @@
       "english": "Lose 20 fruit while playing Time Attack",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "TIMEATTACK_FRUIT_LOST"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TIMEATTACK_FRUIT_LOST",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "FRUIT_10_BANANAS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/8032207a2e7f8b57084894f19b51a53dbfbf5cb9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707420/c57d72e1443834cd581a97983fcfa205317b3759.jpg",
     "displayName": {
@@ -284,10 +292,12 @@
       "english": "Create a total of 10 bananas",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "CUL_FRUIT_CREATED_LEVEL10"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CUL_FRUIT_CREATED_LEVEL10",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

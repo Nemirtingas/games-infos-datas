@@ -2,25 +2,34 @@
   {
     "name": "WORK_ROUND_TRIPS",
     "displayName": "工作往返次数",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 500,
+    "default": 0
   },
   {
     "name": "SLACKING_OFF_COUNT",
     "displayName": "摸鱼次数",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 50,
+    "default": 0
   },
   {
     "name": "REST_TIME_IN_THE_PARK",
     "displayName": "公园休息时间",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 60,
+    "min": 0,
+    "max": 7200,
+    "default": 0
   }
 ]

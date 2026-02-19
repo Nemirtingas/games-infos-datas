@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_Kill_10Rotters",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/44a241d1bffd49715ea0f0e0c82f2137de64d859.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/05f82545f4155c74115458d6f4bed66a481a6971.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Kill 10 Rotters",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_Kill_10Rotters"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_Kill_10Rotters",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_Kill_5DiffEnemies",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/dc55f954b638ab14f293e3ca4347fa5c55da85e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/49abed3bf18d40404788383b15aa97cf089e4485.jpg",
     "displayName": {
@@ -31,15 +33,17 @@
       "english": "Kill 5 different enemies",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_Kill_5DiffEnemies"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_Kill_5DiffEnemies",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_CraftWeapon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/2638e85067958d4688b6b5a16d3c270fa3fa5016.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/76884c71d100942d72182266288abe4011945985.jpg",
     "displayName": {
@@ -53,7 +57,7 @@
   },
   {
     "name": "ACH_Find_FaunaFacility",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/2efde30f3438a3779804d7d3304f882768de1a1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/7b7e1405491ffbe385038fe78ba8de6a745f277c.jpg",
     "displayName": {
@@ -67,7 +71,7 @@
   },
   {
     "name": "ACH_Find_FloraFacility",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/238acfdb7d01da3457c9ffadacf5d7c3eb9eb5b5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/39e0d273c32edad45bce0b4b22962cacd7f6e24c.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "ACH_Use_CableCarStation",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/814b03ac1d0a036d5dd773487d37e08f1e9f7c69.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/5dbf81ef057a8a75c824134425cae9b9184852f4.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "ACH_Kill_TentaratKing",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/0b4e81de2822d278f27a58813f4905d9543e5d70.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/b7441444f4eb12860271705b04b60fc0a1104464.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_Kill_Edward",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/a404ac6ada642e5197c8131d6bcf62fab939e4a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/4ca49328f6e5a5bcdecb3180b74036ac0ee91635.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_Kill_Nakata",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/e59bc3c573d965b2aadcd296b554551e7b110d06.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/d2005301ffcf03049a97453223e671f47f95d1e5.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "ACH_Apply_15DiffSerum",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/37092fb9e874b20d9f04f2536c76c13a405a3316.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/5ee5b4c780a7c453f2397fbd926c4407d72b0f97.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Apply 15 different kinds of Serum",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "STAT_Apply_15DiffSerum"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_Apply_15DiffSerum",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "ACH_Exp_150k",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/cb3ef98773a8b787c39a98870e6d0893e0084720.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/fa00e239df178a0a22b8be2335da29c96c055930.jpg",
     "displayName": {
@@ -170,7 +176,7 @@
   },
   {
     "name": "ACH_Die_NoTimer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/346ceead006dccb87b0c2db35dc701c6d7872fbb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/dc2b2a33a17f704469aa4ce5244967f991ab8dcb.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Die from lack of time 5 times",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_Die_NoTimer"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_Die_NoTimer",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_Find_Pilot",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/2f2d361f06356639e4a6fd63c538d92a06058e07.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/a5685017292e7efad87f3de2517718f6f8279b4f.jpg",
     "displayName": {
@@ -203,7 +211,7 @@
   },
   {
     "name": "ACH_Collect_10DiffPlants",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/039bb47f4589cd7ca10229d03bcde99b97e6384f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/630d171f891a0afcfc4e9a26f587ae4762798ae2.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "Collect 10 different plants",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_Collect_10DiffPlants"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_Collect_10DiffPlants",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_Kill_AlphaWolf",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/cc16dc20d0b56c6c2d2ad9c6358dd1582cee38fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/0a5ddac8b11058a27ad547a234761d3c113de7b6.jpg",
     "displayName": {
@@ -236,7 +246,7 @@
   },
   {
     "name": "ACH_Recycle_100Items",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/7aa4e79f670a4a3262d4a66ed44b8b57b5cb0c1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/15871c38a7b4944ea496ae3c78e8047de7e566e6.jpg",
     "displayName": {
@@ -247,15 +257,17 @@
       "english": "Recycle 100 items to gain components",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_Recycle_100Items"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_Recycle_100Items",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_Collect_20Notes",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/69247e699f39a776831a4d1b50140225f26c0d5c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/8b49f2bc96da5ac527f36c95d1bb5bfd14e40d48.jpg",
     "displayName": {
@@ -266,15 +278,17 @@
       "english": "Collect 20 notes",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "STAT_Collect_20Notes"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_Collect_20Notes",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_Collect_AllFiles",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/164613036c0b685a15c5a289ab033757964364b5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/6ca2daeb82cb5ea36670c3e28d702233bca5c13d.jpg",
     "displayName": {
@@ -288,7 +302,7 @@
   },
   {
     "name": "ACH_Use_Absorber_30Times",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/5fc534972100c7eb725b5f9940257ec652036fe5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/d63ac099e6217100fa807d801431c771407d561b.jpg",
     "displayName": {
@@ -299,15 +313,17 @@
       "english": "Use Absorber 30 times",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "STAT_Use_Absorber_30Times"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_Use_Absorber_30Times",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_DealDamage_Melee_10k",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/04122fab5f9e0b7e8eb2a62f97fd9fbf9c893eba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/6e317d9496a0137d420f2ed6c67e0568b5ae53a8.jpg",
     "displayName": {
@@ -318,15 +334,17 @@
       "english": "Deal 10000 damage using melee weapons",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "STAT_DealDamage_Melee_10k"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DealDamage_Melee_10k",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ACH_Find_ForestBiom",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/5f4b6390b41b69b243eee28b32d9205b5dcafdf8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/c029e9703f69fa4443f4d944c03564cf6eef67a3.jpg",
     "displayName": {
@@ -340,7 +358,7 @@
   },
   {
     "name": "ACH_Find_SwampBiom",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/f0415d675041a85b6ee156df6b733f629d1a2b67.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/116d43fbf5eec5c6b86873613641e96fd0a4fa0d.jpg",
     "displayName": {
@@ -354,7 +372,7 @@
   },
   {
     "name": "ACH_DealDamage_Range_10k",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/0e61280a82cab77481ec1958634ab84aa66a56cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1610520/3ad072edfa9670c5be79c776f11e0f781042dd08.jpg",
     "displayName": {
@@ -365,10 +383,12 @@
       "english": "Deal 10000 damage using range weapons",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "STAT_DealDamage_Range_10k"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DealDamage_Range_10k",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   }
 ]

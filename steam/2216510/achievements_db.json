@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2216510/a4ff3df5f7dea18fa055ae910131e12266481b8f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2216510/829c41503e2cf12e1453262082dd71104ec7407f.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Start New Game",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "stat_3"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_3",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2216510/1efb0ab1e6ce975ba82d070f23585d4c7c4309ea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2216510/aee7c7a87649e14716832dae72aa8e27017637ae.jpg",
     "displayName": {
@@ -31,10 +33,12 @@
       "english": "First Death",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "stat_2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_2",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

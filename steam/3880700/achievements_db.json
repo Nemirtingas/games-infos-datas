@@ -1,7 +1,7 @@
 [
   {
     "name": "ach_training",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/4176b935b938b30b2ca348f16ca347b9ba813cfd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/eeae07ac527f06bf63a39800f8933c6baab87916.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ach_round1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/f6cae531e4267b4299493cd8704f1e378f15c1fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/5857765068dec6927b5f303790ee5680798ceb8d.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ach_round2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/15e5ea0693b30698c09200d423d9eae73a7a9df7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/729924202036d24e27220d507c92e4cdb5e20ca4.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ach_champion",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/6c51a80cf2f2afe67e832779702f8e0724812186.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/92edb4115df37b36b5628bfe34c809ee08d9b07f.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ach_all_unlocked",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/597e9050e58c835da1551a1c90f82d54462586b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/bc079791afdf2fb0525ced0ed1a0c5ee46f52bb5.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Unlock all characters.",
       "token": "NEW_ACHIEVEMENT_4_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 8,
-      "stat_name": "stat_unlocks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_unlocks",
+        "min_val": 1,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "ach_versatile",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/d1c4f25b8b4c3c3925ab1441886c473cd335ec26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/70c7fa756a9adfc9841765fed359bbeaaf649b28.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Win the World Cup with every character.",
       "token": "NEW_ACHIEVEMENT_4_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "stat_champs"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_champs",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "ach_fields",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/d7dedd1a6cdc18a309e7eea77743bb3940cd0d63.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/f0da9c9e2c24d6e85e0fc70ce3ea648bea44472a.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Unlock all fields.",
       "token": "NEW_ACHIEVEMENT_4_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 6,
-      "stat_name": "stat_fields_unlocked"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_fields_unlocked",
+        "min_val": 1,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "ach_juggle",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/5deb1357a266417613554c2b7be17200d9a58cd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/bd098c8417300a908df99bde1c965db2e49771b2.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Juggle the ball 10 times.",
       "token": "NEW_ACHIEVEMENT_4_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_juggle"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_juggle",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ach_juggle_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/9b5a48ec2230232b2e88c3620ed93b73d0f4de65.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/c85990cae2258b6fdb36efa6d8ab49a061b54689.jpg",
     "displayName": {
@@ -144,15 +152,17 @@
       "english": "Juggle the ball 30 times.",
       "token": "NEW_ACHIEVEMENT_4_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "stat_juggle"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_juggle",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ach_versus",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/bd1048b3ef731a703069ed6e730dd93a57c6fad5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3880700/54b91270044eb937640ffb5b86ade0ccbf9df159.jpg",
     "displayName": {
@@ -163,10 +173,12 @@
       "english": "Play 50 versus matches.",
       "token": "NEW_ACHIEVEMENT_4_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "stat_versus_matches"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_versus_matches",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   }
 ]

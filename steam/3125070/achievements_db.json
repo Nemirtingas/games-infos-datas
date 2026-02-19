@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_BUZZOPOLIS_SAVED_1_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/2d5ade667097be88bd7817292fc37f700f343f10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/2d5ade667097be88bd7817292fc37f700f343f10.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "ACH_WHEW_NOT_EASY_1_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/35b47e685923298f47c67cb124645ee609688c7f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/35b47e685923298f47c67cb124645ee609688c7f.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "ACH_NO_MORE_DANCING_1_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/18f8fc5c46f0625aeaf1f4196ca3fb16e9caa907.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/18f8fc5c46f0625aeaf1f4196ca3fb16e9caa907.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "ACH_NOWHERE_TO_RUN_1_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/30eb18f9b44ecc8603099b754c40d69a49e74495.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/30eb18f9b44ecc8603099b754c40d69a49e74495.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "ACH_HOME_SWAMP_1_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/b33822395d9772f74eca56fd112bf1ae05b9a140.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/b33822395d9772f74eca56fd112bf1ae05b9a140.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "ACH_IM_NOT_SCARED_1_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/b8d6cc421a696909202744844513b162e669dbee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/b8d6cc421a696909202744844513b162e669dbee.jpg",
     "displayName": {
@@ -97,7 +97,7 @@
   },
   {
     "name": "ACH_MUHAHA_1_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/855ca3178342ded57febf82d561771a1ab64757e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/855ca3178342ded57febf82d561771a1ab64757e.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_REAPER_1_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/46ec344fb83cfd786fb1dc3b17648b3d2601f2fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/46ec344fb83cfd786fb1dc3b17648b3d2601f2fd.jpg",
     "displayName": {
@@ -129,7 +129,7 @@
   },
   {
     "name": "ACH_ZOMBIE_APOCALYPSE_1_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/e353ef6a63e56d97e963942c2783683fa1d46434.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/e353ef6a63e56d97e963942c2783683fa1d46434.jpg",
     "displayName": {
@@ -145,7 +145,7 @@
   },
   {
     "name": "ACH_GOT_CARRIED_AWAY_1_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/b840ae4e38eed49b1f258f91ae1f71ecc5b26b80.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/b840ae4e38eed49b1f258f91ae1f71ecc5b26b80.jpg",
     "displayName": {
@@ -158,15 +158,17 @@
       "russian": "Отшлёпайте хозяйку особняка 50 раз",
       "token": "NEW_ACHIEVEMENT_2_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_MISTRESS_SPANKS_1_0"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MISTRESS_SPANKS_1_0",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_DONT_NEED_MUCH_1_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/ca3465b486cd58b0535dfd01c4292689f3515fb9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3125070/ca3465b486cd58b0535dfd01c4292689f3515fb9.jpg",
     "displayName": {

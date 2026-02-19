@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_CAVEBOSS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/823f65af4296972ed040cde02f573d0661e351fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/86d88714012b292388ff76b52217dd8a0e8d122e.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "ACHIEVEMENT_FIRSTADVENTURE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/dba65275811e22fb86979139ec579ce564c6896e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/b8882a7b10b8e39c5494db042c44bf4f165e0da5.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "ACHIEVEMENT_RUM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/5e0df537725d5821ffc89b28ea14a687a1b69f50.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/c97fc6d69b23fd05f44844972fb2cf908c358543.jpg",
     "displayName": {
@@ -46,15 +46,17 @@
       "polish": "Zniszcz 100 butelek",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "rumstat_rumstat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rumstat_rumstat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_WAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/aa5233c1165876abb667b46fd444ca71935d3660.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/0ec7fb61d838971263cd216e0048c36c11b37198.jpg",
     "displayName": {
@@ -70,7 +72,7 @@
   },
   {
     "name": "ACHIEVEMENT_UFO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/d367f140cdb4e2454eb023dfbbb03ed96b11a8c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/9dceae447ee2362f99252bc6975c624a79f85588.jpg",
     "displayName": {
@@ -86,7 +88,7 @@
   },
   {
     "name": "ACHIEVEMENT_OCTOPUS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/b94057e3bf96b531eb71de339864e49a493c9ca1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/da40d6f25aed354e197d580a6816ed6d266e69d1.jpg",
     "displayName": {
@@ -102,7 +104,7 @@
   },
   {
     "name": "ACHIEVEMENT_KING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/da46c8865cb49fe5b659973665b7b5cd119ad288.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/29136146b7e3ab7fee2a52d9e8a3672b1c00036b.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACHIEVEMENT_NINJA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/97d7bd6367b35a45d2f391640b4895cbd0388439.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/05bf1e94076cd5763358d7acd7d96d2aa7e40b49.jpg",
     "displayName": {
@@ -134,7 +136,7 @@
   },
   {
     "name": "ACHIEVEMENT_GUARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/b47ecd3eca3dd8970574fa13be22954d989a4e6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/e2b515856b694cf1659acb78ab4ae494d99cf4f5.jpg",
     "displayName": {
@@ -147,15 +149,17 @@
       "polish": "Odbij się 25 razy od strażnika ciemności",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "guardstat_guardstat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "guardstat_guardstat",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_CRATE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/03ebe61a3ae8804c06ebcfdadfe0ea74f2d27b1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/384592b9ee79fed4e5fadea4daafbb1518c26c92.jpg",
     "displayName": {
@@ -168,15 +172,17 @@
       "polish": "Zniszcz 10 skrzynek",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "cratestat_cratestat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cratestat_cratestat",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_CROCODILE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/b0885ddbee2380b13da007063f6582c4d2a5a6f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/d9049509acf0065fc344436471755c7a3cd4ffb5.jpg",
     "displayName": {
@@ -192,7 +198,7 @@
   },
   {
     "name": "ACHIEVEMENT_PIRATE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/23254bf81997be2261a1c9cf02f835616a791f10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/9fa7802c6883b5e1bf6055d3661ac419e833f873.jpg",
     "displayName": {
@@ -205,15 +211,17 @@
       "polish": "Otwórz 20 skrzyń",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "cheststat_cheststat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cheststat_cheststat",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_DRAGON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/198b6cce513ae04fd7a5c3830ab2199f00432361.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/73df602e9dce9f7540f05ea37d73b80668c5b24c.jpg",
     "displayName": {
@@ -229,7 +237,7 @@
   },
   {
     "name": "EAGLES_FRIEND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/289bbcdcbd39b291cb6238222587e7282e288ae1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/d3314fb02b17a97bb7a62051c57a3af5104f0667.jpg",
     "displayName": {
@@ -242,15 +250,17 @@
       "polish": "Niech Orzeł pokona 3 przeciwników",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "eaglestat_eaglestat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "eaglestat_eaglestat",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "VENIVIDIVICI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/3883b914962e824f0e97e824ae6605ae4e9c4eb1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/2c143e70a7fd206900c3d5a2fc1d59fdb0bfc009.jpg",
     "displayName": {
@@ -266,7 +276,7 @@
   },
   {
     "name": "THEGOODAPE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/81af4f32dc11dcdef34da7d89df61f99b842561a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/0deaec99565905555a2c3b394618f45c5af38b91.jpg",
     "displayName": {
@@ -282,7 +292,7 @@
   },
   {
     "name": "BECOMELEGEND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/c93bc779569fa97191eb2651f17b4df364d6b0d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/46012e6de76a8d5c72d0f506622cab2fc96706f1.jpg",
     "displayName": {
@@ -298,7 +308,7 @@
   },
   {
     "name": "SECRETGARDEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/036b9558e52f3113b71e661e8adcfcff39e0cfd0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/6d56f7b0585a86215f2a06794fff1f77cd46ccc3.jpg",
     "displayName": {
@@ -314,7 +324,7 @@
   },
   {
     "name": "NOCAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/9431b0227c8ef623bb8b994fbf6997404ee1489d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2608600/e6ac6e2fe71885023ace7d89927236279e2258bb.jpg",
     "displayName": {
@@ -327,10 +337,12 @@
       "polish": "Zniszcz lub otwórz 12 klatek",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 12,
-      "stat_name": "cagestat_cagestat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "cagestat_cagestat",
+        "min_val": 0,
+        "max_val": 12
+      }
+    ]
   }
 ]

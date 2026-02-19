@@ -1,784 +1,824 @@
 [
   {
     "name": "victory",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/1393c85b3bee3f1d4f9edade5e78a225c49cfb3a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/b0f96d4f96bdf65b776bb78281091986b7fcecdf.jpg",
     "displayName": {
       "english": "Victory",
-      "spanish": "Victoria",
-      "token": "victory_name",
       "portuguese": "Vitória",
       "russian": "Победа",
-      "schinese": "胜利"
+      "schinese": "胜利",
+      "spanish": "Victoria",
+      "token": "victory_name"
     },
     "description": {
       "english": "Win 10 games",
-      "spanish": "Gane 10 partidas",
-      "token": "victory_desc",
       "portuguese": "Ganha 10 jogos",
       "russian": "Выиграть 10 игр",
-      "schinese": "赢得10场游戏"
+      "schinese": "赢得10场游戏",
+      "spanish": "Gane 10 partidas",
+      "token": "victory_desc"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "games_won"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "games_won",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "experienced",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/83f41b6992704dec65f4ef702575e826a721b0f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/a4a0e1c246f13d9a142502d085d6012e8a22287b.jpg",
     "displayName": {
       "english": "Experienced",
-      "spanish": "Experimentado",
-      "token": "experienced_name",
       "portuguese": "Experiente",
       "russian": "Опытный",
-      "schinese": "经验丰富"
+      "schinese": "经验丰富",
+      "spanish": "Experimentado",
+      "token": "experienced_name"
     },
     "description": {
       "english": "Play 20 games",
-      "token": "experienced_desc",
-      "spanish": "Juegue 20 partidas",
       "portuguese": "Joga 20 jogos",
       "russian": "Сыграть 20 игр",
-      "schinese": "进行20场游戏"
+      "schinese": "进行20场游戏",
+      "spanish": "Juegue 20 partidas",
+      "token": "experienced_desc"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "games_played"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "games_played",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ss_laser_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/6eb2cd5f9368528baebd7966e364bd31d751dfab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/3466fb2f26600285ee46dcd2e6ed7cc683a87cb3.jpg",
     "displayName": {
       "english": "SS Laser Mastery",
-      "spanish": "Maestría con SS Laser ",
-      "token": "ss_laser_master_name",
-      "schinese": "SS激光精通",
+      "portuguese": "Domínio do SS Laser",
       "russian": "Мастерство SS Лазер",
-      "portuguese": "Domínio do SS Laser"
+      "schinese": "SS激光精通",
+      "spanish": "Maestría con SS Laser ",
+      "token": "ss_laser_master_name"
     },
     "description": {
       "english": "Reach level 25 with the SS Laser",
-      "token": "ss_laser_master_desc",
       "portuguese": "Alcança o nível 25 com o SS Laser",
+      "russian": "Достичь уровня 25 на SS Лазер",
       "schinese": "将SS激光升至25级",
       "spanish": "Alcance el nivel 25 con el SS Laser",
-      "russian": "Достичь уровня 25 на SS Лазер"
+      "token": "ss_laser_master_desc"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 25,
-      "stat_name": "ss_laser_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ss_laser_level",
+        "min_val": 1,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ss_arrowhead_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/cbdfd29224e1ad21f65b52dcba795c1d43552151.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/3466fb2f26600285ee46dcd2e6ed7cc683a87cb3.jpg",
     "displayName": {
       "english": "SS Arrowhead Mastery",
-      "token": "ss_arrowhead_master_name",
-      "schinese": "SS箭锋精通",
+      "portuguese": "Domínio do SS Flecha",
       "russian": "Мастерство SS Стреловидный",
+      "schinese": "SS箭锋精通",
       "spanish": "Maestría con SS Arrowhead",
-      "portuguese": "Domínio do SS Flecha"
+      "token": "ss_arrowhead_master_name"
     },
     "description": {
       "english": "Reach level 25 with the SS Arrowhead",
-      "token": "ss_arrowhead_master_desc",
       "portuguese": "Alcança o nível 25 com o SS Flecha",
+      "russian": "Достичь уровня 25 на SS Стреловидный",
       "schinese": "将SS箭锋升至25级",
       "spanish": "Alcance el nivel 25 con el SS Arrowhead",
-      "russian": "Достичь уровня 25 на SS Стреловидный"
+      "token": "ss_arrowhead_master_desc"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 25,
-      "stat_name": "ss_arrowhead_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ss_arrowhead_level",
+        "min_val": 1,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ss_trapper_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/f5bce1dc027d31f1a4e4587d44e1cce818a41814.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/3466fb2f26600285ee46dcd2e6ed7cc683a87cb3.jpg",
     "displayName": {
       "english": "SS Trapper Mastery",
-      "token": "ss_trapper_master_name",
-      "schinese": "SS猎手精通",
+      "portuguese": "Domínio do SS Caçador",
       "russian": "Мастерство SS Ловушка",
+      "schinese": "SS猎手精通",
       "spanish": "Maestría con SS Trapper",
-      "portuguese": "Domínio do SS Caçador"
+      "token": "ss_trapper_master_name"
     },
     "description": {
       "english": "Reach level 25 with the SS Trapper",
-      "token": "ss_trapper_master_desc",
       "portuguese": "Alcança o nível 25 com o SS Caçador",
+      "russian": "Достичь уровня 25 на SS Ловушка",
       "schinese": "将SS猎手升至25级",
       "spanish": "Alcance el nivel 25 con el SS Trapper",
-      "russian": "Достичь уровня 25 на SS Ловушка"
+      "token": "ss_trapper_master_desc"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 25,
-      "stat_name": "ss_trapper_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ss_trapper_level",
+        "min_val": 1,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ss_protector_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/855e4bfe812ff4c523366783adbc3b6e1aae09e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/3466fb2f26600285ee46dcd2e6ed7cc683a87cb3.jpg",
     "displayName": {
       "english": "SS Protector Mastery",
-      "token": "ss_protector_master_name",
-      "schinese": "SS护卫精通",
+      "portuguese": "Domínio do SS Protetor",
       "russian": "Мастерство SS Защитник",
+      "schinese": "SS护卫精通",
       "spanish": "Maestría con SS Protector",
-      "portuguese": "Domínio do SS Protetor"
+      "token": "ss_protector_master_name"
     },
     "description": {
       "english": "Reach level 25 with the SS Protector",
-      "token": "ss_protector_master_desc",
       "portuguese": "Alcança o nível 25 com o SS Protetor",
+      "russian": "Достичь уровня 25 на SS Защитник",
       "schinese": "将SS护卫升至25级",
       "spanish": "Alcance el nivel 25 con el SS Protector",
-      "russian": "Достичь уровня 25 на SS Защитник"
+      "token": "ss_protector_master_desc"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 25,
-      "stat_name": "ss_protector_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ss_protector_level",
+        "min_val": 1,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ss_controller_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/1761c6084894bfb937523af2cf94c81fb6ec8a8c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/3466fb2f26600285ee46dcd2e6ed7cc683a87cb3.jpg",
     "displayName": {
       "english": "SS Controller Mastery",
-      "token": "ss_controller_master_name",
-      "schinese": "SS统御精通",
+      "portuguese": "Domínio do SS Controlador",
       "russian": "Мастерство SS Контролёр",
+      "schinese": "SS统御精通",
       "spanish": "Maestría con SS Controller",
-      "portuguese": "Domínio do SS Controlador"
+      "token": "ss_controller_master_name"
     },
     "description": {
       "english": "Reach level 25 with the SS Controller",
-      "token": "ss_controller_master_desc",
       "portuguese": "Alcança o nível 25 com o SS Controlador",
+      "russian": "Достичь уровня 25 на SS Контролёр",
       "schinese": "将SS统御升至25级",
       "spanish": "Alcance el nivel 25 con el SS Controller",
-      "russian": "Достичь уровня 25 на SS Контролёр"
+      "token": "ss_controller_master_desc"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 25,
-      "stat_name": "ss_controller_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ss_controller_level",
+        "min_val": 1,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ss_destroyer_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/75093927bce6e60df00aaf18cdccddb2b25dd489.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/3466fb2f26600285ee46dcd2e6ed7cc683a87cb3.jpg",
     "displayName": {
       "english": "SS Destroyer Mastery",
-      "token": "ss_destroyer_master_name",
-      "schinese": "SS歼灭精通",
+      "portuguese": "Domínio do SS Destruidor",
       "russian": "Мастерство SS Разрушитель",
+      "schinese": "SS歼灭精通",
       "spanish": "Maestría con SS Destroyer",
-      "portuguese": "Domínio do SS Destruidor"
+      "token": "ss_destroyer_master_name"
     },
     "description": {
       "english": "Reach level 25 with the SS Destroyer",
-      "token": "ss_destroyer_master_desc",
       "portuguese": "Alcança o nível 25 com o SS Destruidor",
+      "russian": "Достичь уровня 25 на SS Разрушитель",
       "schinese": "将SS歼灭升至25级",
       "spanish": "Alcance el nivel 25 con el SS Destroyer",
-      "russian": "Достичь уровня 25 на SS Разрушитель"
+      "token": "ss_destroyer_master_desc"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 25,
-      "stat_name": "ss_destroyer_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ss_destroyer_level",
+        "min_val": 1,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "legendary_pilot",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/5cb5b482114c1786ede3052cdb99833777ba0021.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/3466fb2f26600285ee46dcd2e6ed7cc683a87cb3.jpg",
     "displayName": {
       "english": "Legendary Pilot",
-      "token": "legendary_pilot_name",
-      "spanish": "Piloto legendario",
       "portuguese": "Piloto Lendário",
       "russian": "Легендарный пилот",
-      "schinese": "传奇飞行员"
+      "schinese": "传奇飞行员",
+      "spanish": "Piloto legendario",
+      "token": "legendary_pilot_name"
     },
     "description": {
       "english": "Reach level 50 with any spaceship",
-      "token": "legendary_pilot_desc",
-      "spanish": "Alcanzar el nivel 50 con cualquier nave espacial",
       "portuguese": "Alcança o nível 50 com qualquer nave espacial",
       "russian": "Достичь уровня 50 на любом корабле",
-      "schinese": "将任意飞船升至50级"
+      "schinese": "将任意飞船升至50级",
+      "spanish": "Alcanzar el nivel 50 con cualquier nave espacial",
+      "token": "legendary_pilot_desc"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 50,
-      "stat_name": "highest_spaceship_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "highest_spaceship_level",
+        "min_val": 1,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "master_hacker",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/5ead4b2cfd46cc7cc39f54e080119075e5fa660e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/d3f940e50c9d423361b83fc2caed4d2bb8199da0.jpg",
     "displayName": {
       "english": "Hacking Mastery",
-      "token": "master_hacker_name",
-      "schinese": "黑客精通",
+      "portuguese": "Domínio da Pirataria",
       "russian": "Мастерство взлома",
+      "schinese": "黑客精通",
       "spanish": "Maestría del hackeo",
-      "portuguese": "Domínio da Pirataria"
+      "token": "master_hacker_name"
     },
     "description": {
       "english": "Hack 30 Turrets",
-      "token": "master_hacker_desc",
-      "schinese": "成功黑入30个炮塔",
+      "portuguese": "Hackeia 30 Torres",
       "russian": "Взломать 30 турелей",
+      "schinese": "成功黑入30个炮塔",
       "spanish": "Hackear 30 torretas",
-      "portuguese": "Hackeia 30 Torres"
+      "token": "master_hacker_desc"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "turrets_hacked"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "turrets_hacked",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "asteroid_destroyer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/c1689b3f43b4cce51b97b3d7fac10cc647661f7a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/b676814e6a7d8ba0095ba932f1fa0efaacaac108.jpg",
     "displayName": {
       "english": "Asteroid Destroyer",
-      "token": "asteroid_destroyer_name",
-      "spanish": "Destructor de asteroides",
       "portuguese": "Destruidor de Asteroides",
       "russian": "Уничтожитель астероидов",
-      "schinese": "小行星毁灭者"
+      "schinese": "小行星毁灭者",
+      "spanish": "Destructor de asteroides",
+      "token": "asteroid_destroyer_name"
     },
     "description": {
       "english": "Destroy 100 asteroids",
-      "token": "asteroid_destroyer_desc",
-      "spanish": "Destruir 100 asteroides",
       "portuguese": "Destrói 100 asteróides",
       "russian": "Уничтожить 100 астероидов",
-      "schinese": "摧毁100颗小行星"
+      "schinese": "摧毁100颗小行星",
+      "spanish": "Destruir 100 asteroides",
+      "token": "asteroid_destroyer_desc"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "asteroids_destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "asteroids_destroyed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "warped",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/81fd0c572b433c621e376eea011b9194abb5b614.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/e85823be5b35742a615010527b062c48b22d09cc.jpg",
     "displayName": {
       "english": "Warped",
-      "token": "warped_name",
-      "spanish": "Warped",
       "portuguese": "Distorcido",
       "russian": "Искажённый",
-      "schinese": "时空穿梭者"
+      "schinese": "时空穿梭者",
+      "spanish": "Warped",
+      "token": "warped_name"
     },
     "description": {
       "english": "Travel through 10 wormholes",
-      "token": "warped_desc",
-      "spanish": "Viaje a través de 10 agujeros de gusano",
       "portuguese": "Atravessa 10 wormholes",
       "russian": "Пролететь через 10 червоточин",
-      "schinese": "穿越10个虫洞"
+      "schinese": "穿越10个虫洞",
+      "spanish": "Viaje a través de 10 agujeros de gusano",
+      "token": "warped_desc"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "wormholes_traveled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "wormholes_traveled",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "elimination_streak",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/3cf5c3e56112cd1acf8d309084fcfee3e0db1350.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/f02ac8ee7b53ce20624455992402d62629443753.jpg",
     "displayName": {
       "english": "Elimination Streak",
-      "token": "elimination_streak_name",
-      "spanish": "Racha de eliminaciones",
       "portuguese": "Sequência de Eliminações",
       "russian": "Серия устранений",
-      "schinese": "连杀狂潮"
+      "schinese": "连杀狂潮",
+      "spanish": "Racha de eliminaciones",
+      "token": "elimination_streak_name"
     },
     "description": {
       "english": "Eliminate 5 enemies without dying",
-      "token": "elimination_streak_desc",
-      "spanish": "Elimine a 5 enemigos sin morir",
       "portuguese": "Elimina 5 inimigos sem morreres",
       "russian": "Устранить 5 врагов, не погибнув",
-      "schinese": "连续消灭5名敌人且自身未阵亡"
+      "schinese": "连续消灭5名敌人且自身未阵亡",
+      "spanish": "Elimine a 5 enemigos sin morir",
+      "token": "elimination_streak_desc"
     }
   },
   {
     "name": "environment_advantage",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/f999e3af201df5fbb64d0a7eaf953bd1324f4f08.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/00cfc0d718316586f2ceb1ab42110588a5ae3e0d.jpg",
     "displayName": {
       "english": "Environment Advantage",
-      "token": "environment_advantage_name",
-      "spanish": "Ventaja ambiental",
       "portuguese": "Vantagem Ambiental",
       "russian": "Преимущество среды",
-      "schinese": "环境掌控"
+      "schinese": "环境掌控",
+      "spanish": "Ventaja ambiental",
+      "token": "environment_advantage_name"
     },
     "description": {
       "english": "Eliminate an enemy using the explosion of an environment object",
-      "token": "environment_advantage_desc",
-      "spanish": "Elimine a un enemigo utilizando la explosión de un objeto del entorno",
       "portuguese": "Elimina um inimigo com a explosão de um objeto do ambiente",
       "russian": "Устранить врага с помощью взрыва объекта окружения",
-      "schinese": "利用环境物体爆炸消灭一名敌人"
+      "schinese": "利用环境物体爆炸消灭一名敌人",
+      "spanish": "Elimine a un enemigo utilizando la explosión de un objeto del entorno",
+      "token": "environment_advantage_desc"
     }
   },
   {
     "name": "ambushed",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/c6b5f5ec77b10b0ac3615bbafb2caa98b539905c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/674a6318d1a2f9abf912f668a4b098684eb8d0e1.jpg",
     "displayName": {
       "english": "Ambushed",
-      "token": "ambushed_name",
-      "spanish": "Emboscada",
       "portuguese": "Emboscado",
       "russian": "Застигнут врасплох",
-      "schinese": "伏击专家"
+      "schinese": "伏击专家",
+      "spanish": "Emboscada",
+      "token": "ambushed_name"
     },
     "description": {
       "english": "Eliminate an enemy while inside an electric storm",
-      "token": "ambushed_desc",
-      "spanish": "Elimine a un enemigo mientras se encuentra dentro de una tormenta eléctrica",
       "portuguese": "Elimina um inimigo dentro de uma tempestade elétrica",
       "russian": "Устранить врага, находясь в электрической буре",
-      "schinese": "在电磁风暴中消灭一名敌人"
+      "schinese": "在电磁风暴中消灭一名敌人",
+      "spanish": "Elimine a un enemigo mientras se encuentra dentro de una tormenta eléctrica",
+      "token": "ambushed_desc"
     }
   },
   {
     "name": "temporal_trap",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/ca0a8c18e974d30038985b813e731798931a6b5b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/4fd1fc488abadfe76aa92e913a7018b6148576b7.jpg",
     "displayName": {
       "english": "Temporal Trap",
-      "token": "temporal_trap_name",
-      "spanish": "Trampa temporal",
       "portuguese": "Armadilha Temporal",
       "russian": "Временная ловушка",
-      "schinese": "时空陷阱"
+      "schinese": "时空陷阱",
+      "spanish": "Trampa temporal",
+      "token": "temporal_trap_name"
     },
     "description": {
       "english": "Eliminate an enemy that’s inside a temporal field",
-      "token": "temporal_trap_desc",
-      "spanish": "Elimine a un enemigo que se encuentre dentro de un campo temporal",
       "portuguese": "Elimina um inimigo que está dentro de um campo temporal",
       "russian": "Устранить врага, находящегося во временном поле",
-      "schinese": "消灭身处时空力场中的敌人"
+      "schinese": "消灭身处时空力场中的敌人",
+      "spanish": "Elimine a un enemigo que se encuentre dentro de un campo temporal",
+      "token": "temporal_trap_desc"
     }
   },
   {
     "name": "undefeated",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/2c9a58422d4d30c67a80edd0cc125ed0703da466.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/1a74a78c070fa39a576d2549b0d7560732a53a8c.jpg",
     "displayName": {
       "english": "Undefeated",
-      "token": "undefeated_name",
-      "spanish": "Invicto",
       "portuguese": "Invicto",
       "russian": "Непобеждённый",
-      "schinese": "不败战神"
+      "schinese": "不败战神",
+      "spanish": "Invicto",
+      "token": "undefeated_name"
     },
     "description": {
       "english": "Win a game of deathmatch without dying",
-      "token": "undefeated_desc",
-      "spanish": "Gane una partida de deathmatch sin morir",
       "portuguese": "Vence um deathmatch sem morrer",
       "russian": "Выиграть матч Дезматче, не погибнув",
-      "schinese": "在死亡竞赛模式中无阵亡获胜"
+      "schinese": "在死亡竞赛模式中无阵亡获胜",
+      "spanish": "Gane una partida de deathmatch sin morir",
+      "token": "undefeated_desc"
     }
   },
   {
     "name": "the_hunter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/d0d95dba6831cb3e843e708663c692f1ab782332.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/81291288752e046d676dd9c31e704879b98b5a1b.jpg",
     "displayName": {
       "english": "The Hunter",
-      "token": "the_hunter_name",
-      "spanish": "El cazador",
       "portuguese": "O Caçador",
       "russian": "Охотник",
-      "schinese": "狩猎大师"
+      "schinese": "狩猎大师",
+      "spanish": "El cazador",
+      "token": "the_hunter_name"
     },
     "description": {
       "english": "Eliminate 3 enemies in one round of One Life",
-      "token": "the_hunter_desc",
-      "spanish": "Elimine a 3 enemigos en una ronda de Única vida",
       "portuguese": "Elimina 3 inimigos numa ronda de Vida Única",
       "russian": "Устранить 3 врагов за один раунд режиме \"Одна Жизнь\"",
-      "schinese": "在“唯一生命”的单轮游戏中消灭3名敌人"
+      "schinese": "在“唯一生命”的单轮游戏中消灭3名敌人",
+      "spanish": "Elimine a 3 enemigos en una ronda de Única vida",
+      "token": "the_hunter_desc"
     }
   },
   {
     "name": "zone_supremacy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/fa795654dda6ba57ebf9aa4e8c555dd4681ac229.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/6c4b32631df656787f4e1790ea4c92b39dc8323f.jpg",
     "displayName": {
       "english": "Zone Supremacy",
-      "token": "zone_supremacy_name",
-      "spanish": "Supremacía de área",
       "portuguese": "Supremacia da Zona",
       "russian": "Превосходство в зоне",
-      "schinese": "区域主宰"
+      "schinese": "区域主宰",
+      "spanish": "Supremacía de área",
+      "token": "zone_supremacy_name"
     },
     "description": {
       "english": "Score 10 points without leaving the Zone in Zone Control",
-      "token": "zone_supremacy_desc",
-      "spanish": "Consiga 10 puntos sin salir del área en Control de área",
       "portuguese": "Marca 10 pontos sem sair da Zona no Controlo da Zona",
       "russian": "Набрать 10 очков, не покидая зону в режиме \"Контроль Зоны\"",
-      "schinese": "在“区域控制”模式中不离区域累计获得10分"
+      "schinese": "在“区域控制”模式中不离区域累计获得10分",
+      "spanish": "Consiga 10 puntos sin salir del área en Control de área",
+      "token": "zone_supremacy_desc"
     }
   },
   {
     "name": "against_the_odds",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/11a59d91f9e086308e28258f2c3b29687d5757a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/1160014b6e4e67970bb9f5f15058ac3ce370e077.jpg",
     "displayName": {
       "english": "Against the Odds",
-      "token": "against_the_odds_name",
-      "spanish": "Contra todo pronóstico",
       "portuguese": "Contra as Expectativas",
       "russian": "Вопреки всему",
-      "schinese": "绝境逆转"
+      "schinese": "绝境逆转",
+      "spanish": "Contra todo pronóstico",
+      "token": "against_the_odds_name"
     },
     "description": {
       "english": "Win a team game with the fewest teammates",
-      "token": "against_the_odds_desc",
-      "spanish": "Gane una partida por equipos con el menor número de compañeros",
       "portuguese": "Vence um jogo em equipa com o menor número de aliados",
       "russian": "Выиграть командную игру с наименьшим числом союзников",
-      "schinese": "以人数最少的队伍赢得团队赛"
+      "schinese": "以人数最少的队伍赢得团队赛",
+      "spanish": "Gane una partida por equipos con el menor número de compañeros",
+      "token": "against_the_odds_desc"
     }
   },
   {
     "name": "high_score",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/d305e433ba57f9f58356ff609c5c2668b2753b57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/b0f08de74f531d73cf61ebf0fba1d9b10562087c.jpg",
     "displayName": {
       "english": "High Score",
-      "token": "high_score_name",
-      "spanish": "Puntuación alta",
       "portuguese": "Pontuação Alta",
       "russian": "Рекорд",
-      "schinese": "高分纪录"
+      "schinese": "高分纪录",
+      "spanish": "Puntuación alta",
+      "token": "high_score_name"
     },
     "description": {
       "english": "Reach a score of 5,000 in a single game",
-      "token": "high_score_desc",
-      "spanish": "Alcance una puntuación de 5000 en una sola partida",
       "portuguese": "Alcança uma pontuação de 5,000 num único jogo",
       "russian": "Набрать 5 000 очков за одну игру",
-      "schinese": "单局游戏获得5000分"
+      "schinese": "单局游戏获得5000分",
+      "spanish": "Alcance una puntuación de 5000 en una sola partida",
+      "token": "high_score_desc"
     }
   },
   {
     "name": "helping_hand",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/805043f4eb47dd9df8c1b0c554d9d87743446497.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/e6163b77b81e6f02cc736a63600189d687372294.jpg",
     "displayName": {
       "english": "Helping Hand",
-      "token": "helping_hand_name",
-      "spanish": "Mano amiga",
       "portuguese": "Mão Amiga",
       "russian": "Рука помощи",
-      "schinese": "援护之手"
+      "schinese": "援护之手",
+      "spanish": "Mano amiga",
+      "token": "helping_hand_name"
     },
     "description": {
       "english": "Reach 75 assists",
-      "token": "helping_hand_desc",
-      "spanish": "Consiga 75 asistencias",
       "portuguese": "Alcança 75 assistências",
       "russian": "Достичь 75 ассистов",
-      "schinese": "累计达成75次助攻"
+      "schinese": "累计达成75次助攻",
+      "spanish": "Consiga 75 asistencias",
+      "token": "helping_hand_desc"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 75,
-      "stat_name": "assists"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "assists",
+        "min_val": 0,
+        "max_val": 75
+      }
+    ]
   },
   {
     "name": "elimination_expert",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/5c10b610952e3fbd843c3c6845ac7b57a7882b9f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/79f4d6b167d4edb339c7bacc488b17732a9dea5f.jpg",
     "displayName": {
       "english": "Elimination Expert",
-      "token": "elimination_expert_name",
-      "spanish": "Experto en eliminaciones",
       "portuguese": "Especialista em Eliminação",
       "russian": "Эксперт по устранениям",
-      "schinese": "歼灭专家"
+      "schinese": "歼灭专家",
+      "spanish": "Experto en eliminaciones",
+      "token": "elimination_expert_name"
     },
     "description": {
       "english": "Reach 75 eliminations",
-      "token": "elimination_expert_desc",
-      "spanish": "Consiga 75 eliminaciones",
       "portuguese": "Alcança 75 eliminações",
       "russian": "Достичь 75 устранений",
-      "schinese": "累计达成75次消灭"
+      "schinese": "累计达成75次消灭",
+      "spanish": "Consiga 75 eliminaciones",
+      "token": "elimination_expert_desc"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 75,
-      "stat_name": "eliminations"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "eliminations",
+        "min_val": 0,
+        "max_val": 75
+      }
+    ]
   },
   {
     "name": "training_complete",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/f38ba8dd3e1fc0708f14e55a8cb0f2214d603b04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/ac3ed665ccae70497fba5cdbef757697ade8bad2.jpg",
     "displayName": {
       "english": "Training Complete",
-      "token": "training_complete_name",
-      "spanish": "Entrenamiento completado",
       "portuguese": "Treino Concluído",
       "russian": "Обучение завершено",
-      "schinese": "训练完成"
+      "schinese": "训练完成",
+      "spanish": "Entrenamiento completado",
+      "token": "training_complete_name"
     },
     "description": {
       "english": "Complete the tutorial",
-      "token": "training_complete_desc",
-      "spanish": "Complete el tutorial",
       "portuguese": "Conclui o tutorial",
       "russian": "Завершить обучение",
-      "schinese": "完成教程关卡"
+      "schinese": "完成教程关卡",
+      "spanish": "Complete el tutorial",
+      "token": "training_complete_desc"
     }
   },
   {
     "name": "ss_siphon_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/ef94b2d1de319bac99434c60cf375d404f6319d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/3466fb2f26600285ee46dcd2e6ed7cc683a87cb3.jpg",
     "displayName": {
       "english": "SS Siphon Mastery",
-      "token": "ss_siphon_master_name",
-      "schinese": "SS虹吸精通",
+      "portuguese": "Domínio do SS Afundador",
       "russian": "Мастерство SS Сифон",
+      "schinese": "SS虹吸精通",
       "spanish": "Maestría con SS Siphon",
-      "portuguese": "Domínio do SS Afundador"
+      "token": "ss_siphon_master_name"
     },
     "description": {
       "english": "Reach level 25 with the SS Siphon",
-      "token": "ss_siphon_master_desc",
       "portuguese": "Alcança o nível 25 com o SS Afundador",
+      "russian": "Достичь уровня 25 на SS Сифон",
       "schinese": "将SS虹吸升至25级",
       "spanish": "Alcance el nivel 25 con el SS Siphon",
-      "russian": "Достичь уровня 25 на SS Сифон"
+      "token": "ss_siphon_master_desc"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 25,
-      "stat_name": "ss_siphon_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ss_siphon_level",
+        "min_val": 1,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "new_component",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/ee316587812f303e971378b776efa958c6d24a1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/a769c7191bd8376cd096f6f4ef379632cb487895.jpg",
     "displayName": {
       "english": "New Component",
-      "token": "new_component_name",
-      "spanish": "Nuevo componente",
       "portuguese": "Novo Componente",
       "russian": "Новый компонент",
-      "schinese": "新组件解锁"
+      "schinese": "新组件解锁",
+      "spanish": "Nuevo componente",
+      "token": "new_component_name"
     },
     "description": {
       "english": "Unlock a new component for a spaceship",
-      "token": "new_component_desc",
-      "spanish": "Desbloquee un nuevo componente para una nave espacial",
       "portuguese": "Desbloqueia um novo componente para uma nave espacial",
       "russian": "Открыть новый компонент для корабля",
-      "schinese": "为任意飞船解锁一个新组件"
+      "schinese": "为任意飞船解锁一个新组件",
+      "spanish": "Desbloquee un nuevo componente para una nave espacial",
+      "token": "new_component_desc"
     }
   },
   {
     "name": "ss_interceptor_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/0b0aace6911a4dbdb951376bdc1d7ccf1f2aaf26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/a0330ac29f6a1bf6117216e941e9819329d101ab.jpg",
     "displayName": {
       "english": "SS Interceptor Mastery",
-      "token": "ss_interceptor_master_name",
-      "schinese": "SS拦截精通",
+      "portuguese": "Domínio do SS Intercetor",
       "russian": "Мастерство SS Перехватчик",
+      "schinese": "SS拦截精通",
       "spanish": "Maestría con SS Interceptor",
-      "portuguese": "Domínio do SS Intercetor"
+      "token": "ss_interceptor_master_name"
     },
     "description": {
       "english": "Reach level 25 with the SS Interceptor",
-      "token": "ss_interceptor_master_desc",
       "portuguese": "Alcança o nível 25 com o SS Intercetor",
+      "russian": "Достичь уровня 25 на SS Перехватчик",
       "schinese": "将SS拦截升至25级",
       "spanish": "Alcanzar el nivel 25 con el SS Interceptor",
-      "russian": "Достичь уровня 25 на SS Перехватчик"
+      "token": "ss_interceptor_master_desc"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 25,
-      "stat_name": "ss_interceptor_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ss_interceptor_level",
+        "min_val": 1,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "as_orbion_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/fdf26cf163241b084831c3286455ce94c6f0ec13.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/8467153b1e03800a4a95ee6d369ace3d17b03ddd.jpg",
     "displayName": {
       "english": "AS Orbion Mastery",
-      "token": "as_orbion_master_name",
-      "schinese": "AS宝珠精通",
+      "portuguese": "Domínio do AS Orbion",
       "russian": "Мастерство AS Орб",
+      "schinese": "AS宝珠精通",
       "spanish": "Maestría con AS Orbion",
-      "portuguese": "Domínio do AS Orbion"
+      "token": "as_orbion_master_name"
     },
     "description": {
       "english": "Reach level 25 with the AS Orbion",
-      "token": "as_orbion_master_desc",
       "portuguese": "Alcança o nível 25 com o AS Orbion",
+      "russian": "Достичь уровня 25 на AS Орб",
       "schinese": "将AS宝珠升至25级",
       "spanish": "Alcanzar el nivel 25 con el AS Orbion",
-      "russian": "Достичь уровня 25 на AS Орб"
+      "token": "as_orbion_master_desc"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 25,
-      "stat_name": "as_orbion_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "as_orbion_level",
+        "min_val": 1,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "as_pyramida_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/257b8df487ce78b7831330dd7ff808a02659d811.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/8467153b1e03800a4a95ee6d369ace3d17b03ddd.jpg",
     "displayName": {
       "english": "AS Pyramida Mastery",
-      "token": "as_pyramida_master_name",
-      "schinese": "AS锥阵精通",
+      "portuguese": "Domínio do AS Pyramida",
       "russian": "Мастерство AS Пирамида",
+      "schinese": "AS锥阵精通",
       "spanish": "Maestría con AS Pyramida",
-      "portuguese": "Domínio do AS Pyramida"
+      "token": "as_pyramida_master_name"
     },
     "description": {
       "english": "Reach level 25 with the AS Pyramida",
-      "token": "as_pyramida_master_desc",
       "portuguese": "Alcança o nível 25 com o AS Pyramida",
+      "russian": "Достичь уровня 25 на AS Пирамида",
       "schinese": "将AS锥阵升至25级",
       "spanish": "Alcanzar el nivel 25 con el AS Pyramida",
-      "russian": "Достичь уровня 25 на AS Пирамида"
+      "token": "as_pyramida_master_desc"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 25,
-      "stat_name": "as_pyramida_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "as_pyramida_level",
+        "min_val": 1,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ss_needle_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/e431fc5b6a0efe525beec4c16aa127f6d2724720.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/8467153b1e03800a4a95ee6d369ace3d17b03ddd.jpg",
     "displayName": {
       "english": "SS Needle Mastery",
-      "token": "ss_needle_master_name",
-      "schinese": "SS针锋精通",
+      "portuguese": "Domínio do SS Agulha",
       "russian": "Мастерство SS Игла",
+      "schinese": "SS针锋精通",
       "spanish": "Maestría con SS Needle",
-      "portuguese": "Domínio do SS Agulha"
+      "token": "ss_needle_master_name"
     },
     "description": {
       "english": "Reach level 25 with the SS Needle",
-      "token": "ss_needle_master_desc",
       "portuguese": "Alcança o nível 25 com o SS Agulha",
+      "russian": "Достичь уровня 25 на SS Игла",
       "schinese": "将SS针锋升至25级",
       "spanish": "Alcanzar el nivel 25 con el SS Needle",
-      "russian": "Достичь уровня 25 на SS Игла"
+      "token": "ss_needle_master_desc"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 25,
-      "stat_name": "ss_needle_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ss_needle_level",
+        "min_val": 1,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "iss_vanguard_master",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/92f4a6ff22b6ecbb342bf828eded7a7f529a25b3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2421520/8467153b1e03800a4a95ee6d369ace3d17b03ddd.jpg",
     "displayName": {
       "english": "ISS Vanguard Mastery",
-      "token": "iss_vanguard_master_name",
-      "schinese": "ISS先锋精通",
+      "portuguese": "Domínio do ISS Vanguarda",
       "russian": "Мастерство ISS Авангард",
+      "schinese": "ISS先锋精通",
       "spanish": "Maestría con ISS Vanguard",
-      "portuguese": "Domínio do ISS Vanguarda"
+      "token": "iss_vanguard_master_name"
     },
     "description": {
       "english": "Reach level 25 with the ISS Vanguard",
-      "token": "iss_vanguard_master_desc",
       "portuguese": "Alcança o nível 25 com o ISS Vanguarda",
+      "russian": "Достичь уровня 25 на ISS Авангард",
       "schinese": "将ISS先锋升至25级",
       "spanish": "Alcanzar el nivel 25 con el ISS Vanguard",
-      "russian": "Достичь уровня 25 на ISS Авангард"
+      "token": "iss_vanguard_master_desc"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 25,
-      "stat_name": "iss_vanguard_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "iss_vanguard_level",
+        "min_val": 1,
+        "max_val": 25
+      }
+    ]
   }
 ]

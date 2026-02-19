@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FIRST_OPEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/d24deaa883dc3ede6fee7c3c95b4809decd89ca1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/e31d2f6e42b2eb982feb134455075f0580a20acc.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_SAD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/229a95703beebd456b38e0afae8649b4b003396c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/a518abcd6098bd6893d9dbb059833b7aab4835e2.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_FIRST_CHAT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/7ff90b67f62e4b054cd3e01b5ed0c65b0d772076.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/cd39394fbaaeadd6760eb59b1cedcac58aa2873a.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "第一次对话",
       "token": "NEW_ACHIEVEMENT_3_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "ChatCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ChatCount",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_ONE_HUNDRED_CHAT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/7ff90b67f62e4b054cd3e01b5ed0c65b0d772076.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/cd39394fbaaeadd6760eb59b1cedcac58aa2873a.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "第100次对话",
       "token": "NEW_ACHIEVEMENT_3_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "ChatCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ChatCount",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_FIVE_HUNDRED_CHAT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/7ff90b67f62e4b054cd3e01b5ed0c65b0d772076.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/cd39394fbaaeadd6760eb59b1cedcac58aa2873a.jpg",
     "displayName": {
@@ -78,15 +82,17 @@
       "english": "第500次对话",
       "token": "NEW_ACHIEVEMENT_3_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "ChatCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ChatCount",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACH_ONE_THOUSAND_CHAT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/7ff90b67f62e4b054cd3e01b5ed0c65b0d772076.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/cd39394fbaaeadd6760eb59b1cedcac58aa2873a.jpg",
     "displayName": {
@@ -97,15 +103,17 @@
       "english": "第1000次对话",
       "token": "NEW_ACHIEVEMENT_3_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "ChatCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ChatCount",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_FIVE_LEVEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/362a4b608812a689b7fc0cca9b299931b1147c54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/641dcf71661974e09639733f129707e0fececaed.jpg",
     "displayName": {
@@ -116,15 +124,17 @@
       "english": "角色等级达到五级",
       "token": "NEW_ACHIEVEMENT_3_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "CharacterLevel"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CharacterLevel",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_TWENTY_LEVEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/362a4b608812a689b7fc0cca9b299931b1147c54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/641dcf71661974e09639733f129707e0fececaed.jpg",
     "displayName": {
@@ -135,15 +145,17 @@
       "english": "角色等级达到二十级",
       "token": "NEW_ACHIEVEMENT_3_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "CharacterLevel"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CharacterLevel",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_THIRTY_LEVEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/362a4b608812a689b7fc0cca9b299931b1147c54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/641dcf71661974e09639733f129707e0fececaed.jpg",
     "displayName": {
@@ -154,15 +166,17 @@
       "english": "角色等级达到三十级",
       "token": "NEW_ACHIEVEMENT_3_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "CharacterLevel"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CharacterLevel",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_FIFTY_LEVEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/362a4b608812a689b7fc0cca9b299931b1147c54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/641dcf71661974e09639733f129707e0fececaed.jpg",
     "displayName": {
@@ -173,15 +187,17 @@
       "english": "角色等级达到50级",
       "token": "NEW_ACHIEVEMENT_3_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "CharacterLevel"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CharacterLevel",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_TEN_ENTERTAINMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/e89d9d4b924704403411e5a54ad8afe116802e8f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/1a560617ad7821f4b0aa40fe03d486f9dee24da2.jpg",
     "displayName": {
@@ -192,15 +208,17 @@
       "english": "第十次娱乐",
       "token": "NEW_ACHIEVEMENT_3_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "EntertainmentCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EntertainmentCount",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_TWENTY_ENTERTAINMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/e89d9d4b924704403411e5a54ad8afe116802e8f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/1a560617ad7821f4b0aa40fe03d486f9dee24da2.jpg",
     "displayName": {
@@ -211,15 +229,17 @@
       "english": "第二十次娱乐",
       "token": "NEW_ACHIEVEMENT_3_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "EntertainmentCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EntertainmentCount",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_FIFTY_ENTERTAINMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/e89d9d4b924704403411e5a54ad8afe116802e8f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/1a560617ad7821f4b0aa40fe03d486f9dee24da2.jpg",
     "displayName": {
@@ -230,15 +250,17 @@
       "english": "第五十次娱乐",
       "token": "NEW_ACHIEVEMENT_3_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "EntertainmentCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EntertainmentCount",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_ONE_HUNDRED_ENTERTAINMENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/e89d9d4b924704403411e5a54ad8afe116802e8f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/1a560617ad7821f4b0aa40fe03d486f9dee24da2.jpg",
     "displayName": {
@@ -249,15 +271,17 @@
       "english": "黛丝的第一百次娱乐",
       "token": "NEW_ACHIEVEMENT_3_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "EntertainmentCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EntertainmentCount",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_LITTLE_SAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/229a95703beebd456b38e0afae8649b4b003396c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/a518abcd6098bd6893d9dbb059833b7aab4835e2.jpg",
     "displayName": {
@@ -271,7 +295,7 @@
   },
   {
     "name": "ACH_FIFTY_AFFECTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/6d282b55b8777762c3d76ab26f85222b4c531cff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3657100/6a680d3e424422630147c52b4c33df3b1f140b5b.jpg",
     "displayName": {

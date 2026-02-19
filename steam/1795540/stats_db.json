@@ -1,42 +1,42 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "STAT_NPC_KILLED",
     "displayName": "Monster kills",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 10000,
+    "default": 0
   },
   {
     "name": "STAT_GOLD_EARNED",
     "displayName": "Gold earned",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 10000000,
+    "default": 0
   },
   {
     "name": "STAT_DUNGEON_LEVELS_COMPLETED",
     "displayName": "Dungeons completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 120,
+    "default": 0
   },
   {
     "name": "STAT_EXPLORATION_POINTS_EARNED",
     "displayName": "Exploration Poiints arned",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 200,
+    "default": 0
   }
 ]

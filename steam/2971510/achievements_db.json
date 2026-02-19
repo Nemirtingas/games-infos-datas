@@ -1,7 +1,7 @@
 [
   {
     "name": "reach_level_1",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2971510/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2971510/",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "level 1",
       "token": "NEW_ACHIEVEMENT_5_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "level",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "reach_level_2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2971510/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2971510/",
     "displayName": {
@@ -34,7 +36,7 @@
   },
   {
     "name": "chests_1",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2971510/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2971510/",
     "displayName": {
@@ -45,10 +47,12 @@
       "english": "1 chest",
       "token": "NEW_ACHIEVEMENT_5_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "chests"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "chests",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   }
 ]

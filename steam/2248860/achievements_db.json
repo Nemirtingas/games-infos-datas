@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_WIN_ONE_MAP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2248860/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2248860/",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_REACH_ROUND_8",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2248860/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2248860/",
     "displayName": {
@@ -26,10 +26,12 @@
       "english": "Reach Round 8 in any Map",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "STAT_MAXR_CROSSROADS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MAXR_CROSSROADS",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   }
 ]

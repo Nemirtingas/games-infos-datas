@@ -1,7 +1,7 @@
 [
   {
     "name": "Welcome",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/a6d136e5929f1ef7cd777a85158b544cc9eb0f54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/a6d136e5929f1ef7cd777a85158b544cc9eb0f54.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Zeus",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/58b281f467ca70968722d66dfd3410ef07e560aa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/58b281f467ca70968722d66dfd3410ef07e560aa.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "TreeHead",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/9a8be330bdba7ac1d54eab62ee778ce0964bfe90.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/9a8be330bdba7ac1d54eab62ee778ce0964bfe90.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "GunMaster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/39dd07994a27e72ff5761ae674b496ed0811e774.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/39dd07994a27e72ff5761ae674b496ed0811e774.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "TimeWitch",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/ba084ffe3012e072009539d40141152cdadf65e0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/ba084ffe3012e072009539d40141152cdadf65e0.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Tiny",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/dd444bae4a420a9dbfeb6ded5ef4de015f415a50.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/dd444bae4a420a9dbfeb6ded5ef4de015f415a50.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "Ninja",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/0784990bab506ba31d96db72b7e32228507a035e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/0784990bab506ba31d96db72b7e32228507a035e.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "DeathCountAchievements",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/b6a2e2c8a4f467f4ac572fb28c51abeef5fc6f64.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269530/b6a2e2c8a4f467f4ac572fb28c51abeef5fc6f64.jpg",
     "displayName": {
@@ -110,10 +110,12 @@
       "english": ":( You earn this achievement once you die.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "Died"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Died",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   }
 ]

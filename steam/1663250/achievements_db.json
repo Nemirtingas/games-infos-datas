@@ -1,21 +1,21 @@
 [
   {
     "name": "ACH_COMPLETE_TUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/6e7126a443bfb991dc0d5433f015b90b623fba31.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/09ab4274d54d07f9650a3e26c9e7210fe8cded30.jpg",
     "displayName": {
       "english": "In the club",
-      "german": "Im Klub angekommen",
       "french": "Dans le club",
+      "german": "Im Klub angekommen",
       "italian": "Unisciti al club",
       "spanish": "En el club",
       "token": "NEW_ACHIEVEMENT_1_0_NAME"
     },
     "description": {
       "english": "Complete the tutorial.",
-      "german": "Schließe das Tutorial ab.",
       "french": "Terminera le tutoriel.",
+      "german": "Schließe das Tutorial ab.",
       "italian": "Completa il tutorial.",
       "spanish": "Completa el tutorial.",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
@@ -23,48 +23,50 @@
   },
   {
     "name": "ACH_SHOTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/82af0d9cf38c79cfb6002935e966d2fbdfe2c94f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/04bb604f6614644c0e957f72257ba1485f192925.jpg",
     "displayName": {
       "english": "Straight shooter",
-      "german": "Mitten ins Schwarze",
       "french": "Tireur d’élite",
+      "german": "Mitten ins Schwarze",
       "italian": "Tiratore nato",
       "spanish": "Disparos certeros",
       "token": "NEW_ACHIEVEMENT_1_1_NAME"
     },
     "description": {
       "english": "Fire 1,000 shots.",
-      "german": "Feuere 1000 Schüsse ab.",
       "french": "Tirera 1 000 tirs.",
+      "german": "Feuere 1000 Schüsse ab.",
       "italian": "Spara 1000 colpi.",
       "spanish": "Realiza 1000 disparos.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "shots_fired"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "shots_fired",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_PLAYED_VS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/9eb705d3501c59050fc4150e060ebf290731eb8a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/b7e368070704abd241ca60bb8ba09ddd6cdb4ec9.jpg",
     "displayName": {
       "english": "First shot",
-      "german": "Erster Schuss",
       "french": "Premier tir",
+      "german": "Erster Schuss",
       "italian": "Primo colpo",
       "spanish": "Primer disparo",
       "token": "NEW_ACHIEVEMENT_1_2_NAME"
     },
     "description": {
       "english": "Play a versus match.",
-      "german": "Spiele ein Versus-Match.",
       "french": "Jouer à un match versus.",
+      "german": "Spiele ein Versus-Match.",
       "italian": "Gioca uno scontro.",
       "spanish": "Juega una partida versus.",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
@@ -72,218 +74,234 @@
   },
   {
     "name": "ACH_COMPLETE_UWSD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/1a10edba8beb4de2f06d289a20e1ed8de74c0b78.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/1361d2b445186d37128ac8c9a0f803d870ffcadd.jpg",
     "displayName": {
       "english": "Got married",
-      "german": "Wir sind verheiratet!",
       "french": "Se sont mariés",
+      "german": "Wir sind verheiratet!",
       "italian": "Novelli sposi",
       "spanish": "Recién casados",
       "token": "NEW_ACHIEVEMENT_1_3_NAME"
     },
     "description": {
       "english": "Beat UWSD circuit.",
-      "german": "Schlage den UWSD-Kreisparcours.",
       "french": "Gagnera contre le circuit UWSD.",
+      "german": "Schlage den UWSD-Kreisparcours.",
       "italian": "Completa il circuito UWSD.",
       "spanish": "Supera el circuito de la UWSD.",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "ClearedUwsd"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ClearedUwsd",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "ACH_COMPLETE_JAPAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/594ac6b11ffa0274a658a9a9b2134ce928b4ad27.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/4dc65bd6f5cb20cd784afc314917de2fea9a2dbf.jpg",
     "displayName": {
       "english": "Got a moon base, blew it up",
-      "german": "Hatten eine Mondbasis, haben sie in die Luft gejagt",
       "french": "A obtenu une base lunaire, l’a faite exploser",
+      "german": "Hatten eine Mondbasis, haben sie in die Luft gejagt",
       "italian": "Una base lunare. Falla brillare",
       "spanish": "Tienes una base lunar: vuélala por los aires",
       "token": "NEW_ACHIEVEMENT_1_4_NAME"
     },
     "description": {
       "english": "Beat Japan circuit.",
-      "german": "Schlage den Japan-Kreisparcours.",
       "french": "Gagnera le circuit du Japon.",
+      "german": "Schlage den Japan-Kreisparcours.",
       "italian": "Completa il circuito giapponese.",
       "spanish": "Supera el circuito de Japón.",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "ClearedJapan"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ClearedJapan",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "ACH_COMPLETE_CAMBODIA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/b6d4b52ae1d087cb772eb50d6dc8f6563fa30936.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/141ff084972849d861eb5ed123b8cde635b5dcc8.jpg",
     "displayName": {
       "english": "Out of retirement",
-      "german": "Zurück aus dem Ruhestand",
       "french": "Sorti de la retraite",
+      "german": "Zurück aus dem Ruhestand",
       "italian": "Ma quale pensione",
       "spanish": "Adiós a la jubilación",
       "token": "NEW_ACHIEVEMENT_1_5_NAME"
     },
     "description": {
       "english": "Beat Cambodia circuit.",
-      "german": "Schlage den Kambodscha-Kreisparcours.",
       "french": "Gagnera le circuit du Cambodge.",
+      "german": "Schlage den Kambodscha-Kreisparcours.",
       "italian": "Completa il circuito cambogiano.",
       "spanish": "Supera el circuito de Camboya.",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "ClearedCambodia"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ClearedCambodia",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "ACH_COMPLETE_OAKLAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/35a441c882705a0c30c50619d5182fc1762c9f2f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/6d55ec3cd9d7c1c71449de67c995959f1c04960a.jpg",
     "displayName": {
       "english": "No crying in gunsport",
-      "german": "Beim Gunsport gibt’s kein Weinen",
       "french": "Pas de pleurs dans le gunsport",
+      "german": "Beim Gunsport gibt’s kein Weinen",
       "italian": "I veri gunsport non piangono",
       "spanish": "En Gunsport no se llora",
       "token": "NEW_ACHIEVEMENT_1_6_NAME"
     },
     "description": {
       "english": "Beat Oakland circuit.",
-      "german": "Schlage den Oakland-Kreisparcours.",
       "french": "Gagnera le circuit d’Oakland.",
+      "german": "Schlage den Oakland-Kreisparcours.",
       "italian": "Completa il circuito di Oakland.",
       "spanish": "Supera el circuito de Oakland.",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "ClearedOakland"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ClearedOakland",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "ACH_COMPLETE_CONGO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/3bfa3585d376f5ce9e6d6beb27421038a5935ff0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/c7feacd793a18f38d89b63cb8b46e03b19772257.jpg",
     "displayName": {
       "english": "New threads",
-      "german": "Neue Klamotten",
       "french": "Nouveaux sujets",
+      "german": "Neue Klamotten",
       "italian": "Nuova moda",
       "spanish": "Nuevos trapitos",
       "token": "NEW_ACHIEVEMENT_1_7_NAME"
     },
     "description": {
       "english": "Beat Congo circuit.",
-      "german": "Schlage den Kongo-Kreisparcours.",
       "french": "Gagnera le circuit du Congo.",
+      "german": "Schlage den Kongo-Kreisparcours.",
       "italian": "Completa il circuito congolese.",
       "spanish": "Supera el circuito del Congo.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "ClearedCongo"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ClearedCongo",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "ACH_COMPLETE_LACIUDAD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/6c60de9e7406d5d6d38fa0196a124045347b9689.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/a1fd6f3b2a1543e993256d900f9e3c1b0111e373.jpg",
     "displayName": {
       "english": "Take that, sis",
-      "german": "Nimm das, Schwester!",
       "french": "Prends ça, sœurette",
+      "german": "Nimm das, Schwester!",
       "italian": "Prendi questa, sorella",
       "spanish": "Chúpate esa, hermanita.",
       "token": "NEW_ACHIEVEMENT_1_8_NAME"
     },
     "description": {
       "english": "Beat La Ciudad circuit.",
-      "german": "Schlage den La Ciudad-Kreisparcours.",
       "french": "Terminer le circuit La Ciudad.",
+      "german": "Schlage den La Ciudad-Kreisparcours.",
       "italian": "Completa il circuito La Ciudad.",
       "spanish": "Completa el circuito de La Ciudad.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "ClearedScrapyard"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ClearedScrapyard",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "ACH_COMPLETE_PRACTICEBOT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/2f8d8ee84dd6f20a8681886b1af1ce182813bd6a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/6d28ce5bcf0dd267ce1fe033b9a725c8e2b639cd.jpg",
     "displayName": {
       "english": "01011001 01100101 01110011 00100001",
-      "german": "01011001 01100101 01110011 00100001",
       "french": "01011001 01100101 01110011 00100001",
+      "german": "01011001 01100101 01110011 00100001",
       "italian": "01011001 01100101 01110011 00100001",
       "spanish": "01011001 01100101 01110011 00100001",
       "token": "NEW_ACHIEVEMENT_1_9_NAME"
     },
     "description": {
       "english": "Beat PracticeBot circuit.",
-      "german": "Schlage den PracticeBot-Kreisparcours.",
       "french": "Terminer le circuit PracticeBot.",
+      "german": "Schlage den PracticeBot-Kreisparcours.",
       "italian": "Completa il circuito PracticeBot.",
       "spanish": "Completa el circuito de los PracticeBots.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "ClearedRobots"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ClearedRobots",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "ACH_COMPLETE_CIRCUITS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/3162a29bba52981bade6bba61edf3e286c80a75f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1663250/a2c514c282dfcb52b65417472759805bc8e13c1b.jpg",
     "displayName": {
       "english": "Future Millennium Sporting Action",
-      "german": "Der Sport der Zukunft",
       "french": "Événements sportifs du futur millénaire",
+      "german": "Der Sport der Zukunft",
       "italian": "Sport d’azione del futuro millennio",
       "spanish": "Acción deportiva milenaria del futuro",
       "token": "NEW_ACHIEVEMENT_1_10_NAME"
     },
     "description": {
       "english": "Beat all circuits.",
-      "german": "Schlage alle Kreisparcours.",
       "french": "Gagnera tous les circuits.",
+      "german": "Schlage alle Kreisparcours.",
       "italian": "Completa tutti i circuiti.",
       "spanish": "Supera todos los circuitos.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "ChampionshipCompletion"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ChampionshipCompletion",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   }
 ]

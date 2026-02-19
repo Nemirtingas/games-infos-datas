@@ -1,7 +1,7 @@
 [
   {
     "name": "FALL_FIRST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/6b30645a6594cefcc64570838b243c38067ad2a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/6a0e26aeea23bc7fc102243951732fae63168635.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "LEVEL_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/5afdfe808d0aa57f563aa1486f2e8f2c1628af53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/2db469877f61b765ee42e78a66d73e5f68c54551.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "LEVEL_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/1c63ca754cb4d6655dc32f818a986be5e4d8c53a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/4b0b826d51d041943d8f3c302c356bacfe337cc4.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "LEVEL_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/fea0bae9296217c08bf20b0f6c5b7e9e82961ff0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/39e3f7bd931759ee90f370d6627870c0a8924130.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "LEVEL_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/e8b93890032e804ab1e85c97d52ed573d1dc64b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/7caed370f60d7e34553e1dace54263c081245437.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "BOSS_DESTROYED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/413ac1ffca9c24651d952570c0732e5c525384a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/bb7a91bc1546f5c9bffe38a74ebb68bfaa977ba1.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/b03463d8a751925bae982a0728d846e2ff3bb31d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/d18aa2f4de2b649b4928f9873209be1c65822de9.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Destroy 100 Orbs",
       "token": "NEW_ACHIEVEMENT_8_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "KILL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KILL",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/518a1ce529ad3bcaa2bb32f9def6883675c10dcc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/c1c35ead555874a86f3736ad3b7bfcf2abc7d0f9.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Destroy 1000 Orbs",
       "token": "NEW_ACHIEVEMENT_8_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "KILL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KILL",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/656c834f91f2fcbeed62517fbe3ef4322ef25874.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/8269730897978c12d3fff18670e3d74bfb099b20.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Destroy 10000 Orbs",
       "token": "NEW_ACHIEVEMENT_8_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "KILL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KILL",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "COMBO_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/d1806e0c5ea006d5e76ebb5e50c861d13fa1647c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/571651bdb3776a92ae1a0605f4e2efebd4788842.jpg",
     "displayName": {
@@ -153,15 +159,17 @@
       "english": "Get a 50x Combo",
       "token": "NEW_ACHIEVEMENT_8_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "BEST_COMBO"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BEST_COMBO",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "COMBO_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/0987508d242df5a17dc7855a8c2a1dee995f7216.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/d461c6635e4eec6a7fdc99a20ae46c3fed030347.jpg",
     "displayName": {
@@ -172,15 +180,17 @@
       "english": "Get a 100x Combo",
       "token": "NEW_ACHIEVEMENT_8_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "BEST_COMBO"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BEST_COMBO",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "NINJA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/3a5ff74a339bf57fdcdda651481c5026507352c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/7db7d856625e539b89b7eff4fea3440956b1c5d9.jpg",
     "displayName": {
@@ -194,7 +204,7 @@
   },
   {
     "name": "SLASHDASH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/b44ddfedbee136589464c188337293016d266ebd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/d13dcd21b2c59a4437ba21a42ec68b5f57be196d.jpg",
     "displayName": {
@@ -208,7 +218,7 @@
   },
   {
     "name": "RIDE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/af170bd92174ccf9001d4771c060d1dcf7da3e8e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/3d2da231e860dfb0b24af65af3cb4f1e11175656.jpg",
     "displayName": {
@@ -222,7 +232,7 @@
   },
   {
     "name": "LASER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/c0ce50638e818739193f5b2462a9930b0764b420.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/d5dbb0e418e47e95a4330ee26783c5d7d3360bb7.jpg",
     "displayName": {
@@ -236,7 +246,7 @@
   },
   {
     "name": "IMPLODE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/3c8210caf655d186e2190115631bbc4f3f19b15a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/330856807371088f1debc824b62a5256c12820f8.jpg",
     "displayName": {
@@ -250,7 +260,7 @@
   },
   {
     "name": "CHAINED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/3ab7d378f4e1473b2c70d9568eae8a8247d3b291.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/52ab3d61f537bb096803616385c128e8e5f324a9.jpg",
     "displayName": {
@@ -264,7 +274,7 @@
   },
   {
     "name": "FISH_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/3f4b1b3e04cea06a9ddb34e5b4db6f426b9d2e73.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/c807f777bc556488ed265c0e698db5c4a4608dce.jpg",
     "displayName": {
@@ -278,7 +288,7 @@
   },
   {
     "name": "FISH_LEG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/c660556be44e65b868892b8c65e5faf127741889.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/87a2c566ac056609c0fdf551b7c8e69a14d2728a.jpg",
     "displayName": {
@@ -292,7 +302,7 @@
   },
   {
     "name": "MAX_FISH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/ba8e7b07ffaaac1ee06d03482c4b2c003a2d3427.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/1a5882edbb0db0134196174b6ee691d04f887b9e.jpg",
     "displayName": {
@@ -303,15 +313,17 @@
       "english": "Collect all types of fish",
       "token": "NEW_ACHIEVEMENT_8_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 12,
-      "stat_name": "FISH_DISCOVERED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FISH_DISCOVERED",
+        "min_val": 0,
+        "max_val": 12
+      }
+    ]
   },
   {
     "name": "MAX_TREE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/662bd0d7257965fe69b691c4880304fbff029d44.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/8b18f00a29125f54489c8be45aaa8cf960a0b787.jpg",
     "displayName": {
@@ -322,15 +334,17 @@
       "english": "Upgrade the tree to the max",
       "token": "NEW_ACHIEVEMENT_8_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "TREE_LEVEL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TREE_LEVEL",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "MAX_RUNES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/82b0122071e0156ddf2e69da7c0d4e4b847dc42f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/a447df88f45ffe97ab975fd23a1ac4f594ccb7b9.jpg",
     "displayName": {
@@ -344,7 +358,7 @@
   },
   {
     "name": "MAX_BOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/173b493acb4298674a4429ecfba3c1698d6436a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/132eac14c8e59b8ae7096b2405e555a5a58491a1.jpg",
     "displayName": {
@@ -358,7 +372,7 @@
   },
   {
     "name": "MAX_SPIRIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/d655ec26088cd580fcd7e90423701cd92487ddcf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/fcfd1c30c90501fbee509427a64d674898648df8.jpg",
     "displayName": {
@@ -369,15 +383,17 @@
       "english": "Collect 50 spirits",
       "token": "NEW_ACHIEVEMENT_8_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "SPIRITS_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SPIRITS_COLLECTED",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "DOG_PET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/e5781eece55c0056c5a61d020c7d109d7c626245.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/a9bf19aae98300f6217ee462e3a47a30b030c497.jpg",
     "displayName": {
@@ -391,7 +407,7 @@
   },
   {
     "name": "RGB_LIGHT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/de3d25a3d000d69c3610753daf163e67c10478b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/eb4ac0843f0ce4fcab1437ea79a4d55f4c357b61.jpg",
     "displayName": {
@@ -405,7 +421,7 @@
   },
   {
     "name": "SCRATCHIES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/f34d4c31be4ca502ab1031d2bca7f758c0511258.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/7a5292bc89533b5b0371ced329b9e831bf3e9357.jpg",
     "displayName": {
@@ -419,7 +435,7 @@
   },
   {
     "name": "TREE_HIDDEN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/204e7213f6c0d96eadee77f37c502078af888f97.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/aa0d6e3164d866f68fd0e43f2167384724d4e57b.jpg",
     "displayName": {
@@ -433,7 +449,7 @@
   },
   {
     "name": "LONG_SHOT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/aae5577685a3ddd28c93956eae815edbb8998a2d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/b34d6d15b44c2667af1655fca079302cf11c5fec.jpg",
     "displayName": {
@@ -447,7 +463,7 @@
   },
   {
     "name": "NEVER_STICK",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/0d69ffc56e6f9bbe44700c9a803ce458bd0a4669.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2604030/93d695f3b0668e1a9a63f943426a8cab3ceb9ef3.jpg",
     "displayName": {

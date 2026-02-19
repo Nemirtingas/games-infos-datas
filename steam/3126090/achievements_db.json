@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_ACT_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/a9cc3461bb50dc0dd2e680cdadc529cd592390ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/0e36c33870dec68acb1ffd8208161d42f2a843c4.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_ACT_2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/fd51669fb95327706ec18e84f91195959906faf3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/fd8f5e7028113896ae92894e52dac95163b8a1b9.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_ACT_3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/a710e18da4a3b851367c68de9c49ebeb0ed5b05e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/132ee71c816b892afdd0f4df2c9b12c45d24e544.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_ACT_4",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/e5605f07e956067ffbcbaf5d004f4f3ad9720f12.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/00150db3ac9f287efcffa69b29ca7bebd1b7c7df.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_100_SHIELD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/ff13a692c3190c33b15236af6102b7b24b7110e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/f33e7677f3232c06ba6d16393e8e8312bf64e8ed.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Raise power of a single shield up to a 100 before act 4",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "max_shield"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "max_shield",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_100_DAMAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/b206f8205eeacaa3ee52daf5fc3aaea6200e22b0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/cf5f7e4950ac28923bab42733ff10fdc73086438.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Deal 100 Damage in a single hit before act 4",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "max_damage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "max_damage",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_ELRIC_ATTACK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/3f2010159a54eaac8cf4021bda530de6bb2c8320.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/130fb20cd1c20823fe7bf65d8044bcf034c0550c.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_ELRIC_DEFENCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/e64c32af57fe11d329d4678792b9d3fb81ca37c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/78c17635e3805ec71376af88313c13ef810848a9.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_ELRIC_TILE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/b44b28c7f8f858e84a37b56e48d81ba4f1acdef7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3126090/00c79c91b4a4c30b0d2654dd561b31c5f2ec6b8d.jpg",
     "displayName": {

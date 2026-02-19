@@ -1,7 +1,7 @@
 [
   {
     "name": "WELCOME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/6d0c44898c239ae7c2103d194b318fab66d9fd3c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/3249ac2e77a403b00c18a85b02c5abf3bb67a95a.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "SURE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/104a66a4f1463589701a4b0e3cfb265ca0377e2e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/5a34a12394c7600c0e4c34b3551923bedd012b5a.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "CLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/588c6b0fc575d2fd768fbaac366f086c508911ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/544345f81f06717f2ad67821dcc906a3fd8fb501.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "FILES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/0b64cd0dce647dcaf7d89ffb8998ad5a72c79840.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/4dae941a5682a5e3827714591bf463739ee0eaba.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "MANNEQUIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/e7467c9977aba04f256d6caf0521dcd3809ae345.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/241b2127566efd6fb1465f8a684dc2604441cb42.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "ENDINGS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/47bc392d8e9e20447284e1e0ed7729a58e258558.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/72178d51c3ad50aefb7aa4269a4006257667d975.jpg",
     "displayName": {
@@ -97,7 +97,7 @@
   },
   {
     "name": "FIRED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/04f7c63e50f6fcc01906efcccb6a0680e08dcdb8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/c9bda023941dbbca2d5b690727daf3cd31fb8dd3.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "spanish": "Mata a 10 oficinistas.",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "K_WORKER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "K_WORKER",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "CODE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/469398026688cde05f7f03e8f7693326eabcda1e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/2afd816ef8534e750be19ffa10dea9e21944c75d.jpg",
     "displayName": {
@@ -134,7 +136,7 @@
   },
   {
     "name": "EXIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/3c350809b9765081e9b380536b42c6b1b6ed0d1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/f795155aae744936398fefcaa061505e9302cc3f.jpg",
     "displayName": {
@@ -150,7 +152,7 @@
   },
   {
     "name": "LONG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/a299bc80c0e286dde6e89b3da3b5518f5a79ccbc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/a04c343905925b38556782e859a67921b9f8731b.jpg",
     "displayName": {
@@ -163,15 +165,17 @@
       "spanish": "Juega más de 2 horas.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "P_TIME"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "P_TIME",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "DONT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/b75c9c88d89e09ad16525166169022d8143ac2a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/42db0541210f9e8193e9d1150e507bcd9c450b9a.jpg",
     "displayName": {
@@ -187,7 +191,7 @@
   },
   {
     "name": "ROOMS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/323deb4bd1aaf99c529e2e7f417adff14e3b56eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/524e394ed31cd91ce39e08fb226f2ba6f37e8a1b.jpg",
     "displayName": {
@@ -203,7 +207,7 @@
   },
   {
     "name": "NOPE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/37e0b8ad4fb1d683f46e4a3ce94469f892c95bf7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/31169c49d8339f15942c1431b7345a9c4973f248.jpg",
     "displayName": {
@@ -219,7 +223,7 @@
   },
   {
     "name": "SECRETS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/9e964267e562adc5ef5dba75589833a977412bed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/03f617d30534ff93875b8789ff5a395c790971c2.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "TRUE_ED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/be0a5e08cd4477ebaa42a12c933edc34f0815fcf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/8cfd7070ad1d2d4d2661c7111a81bbab151331cd.jpg",
     "displayName": {
@@ -251,7 +255,7 @@
   },
   {
     "name": "PLATINUM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/b4526624d2ae1dd239c14b03f4e802d45c6c73ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2904740/d620ad54dd84e0a58544d12af9cecf29647051ef.jpg",
     "displayName": {

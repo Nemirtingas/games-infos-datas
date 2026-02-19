@@ -1,7 +1,7 @@
 [
   {
     "name": "Hidden_Button",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/a2dc3c4185a142e225ac617eaa82d951988be13b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/983dec71a7881add5476efb068c7627b2942b0b6.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "Boss_1_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/900eb6e73edccdcc73065589b8cac2f06e753d5b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/ee9db68cd3d6f54325d4d0cf9b4ae00c58e7e233.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "Boss_2_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/3b63a45471db61b0c788fe1be2c009e762af4638.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/ab67cfcd7edbc937ee5e1992714bc8c420af2bc7.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "Boss_3_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/17c6e097ab540cfaaa2bdf93d2686e4b54cc716a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/8711d306c0a639fcc9cb7f3ae458c02567652d46.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "Profiteer",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/10814dce55f5f1e88a86866287999e9c441f3540.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/af98bc58f700a4defe8aec32bf59b76faa5369bf.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "Magic_Book",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/753751b579b84ec324e8bfd12211c8c8fc0d7c4a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/0448d8717fb5fc0032e1fb7518e938035e46db3b.jpg",
     "displayName": {
@@ -94,15 +94,17 @@
       "schinese": "在一局游戏内完成4个魔法书。",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "run_magic_book"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "run_magic_book",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "Healing_Room",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/7522b7080b4ecbe2fbc64d3f897cb5f95d9b1bcb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/a3b59f3938ecf5b0af7de3c3395729320104edda.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "schinese": "一局游戏内饮用7次治疗之泉。",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "run_healing_room"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "run_healing_room",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "Mission",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/420c0d9ce500989e4b2594354f4a40dc45ba8192.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/e13f530da6a0a40b6d0a717048ba7e096492e1c8.jpg",
     "displayName": {
@@ -136,15 +140,17 @@
       "schinese": "一局游戏内完成全部支线任务。",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "run_mission"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "run_mission",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   },
   {
     "name": "Optional_Boss",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/e7e5e8826af7cf728e30571f03d0bf78f4740436.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/4b11682fa2aebb623fd9187d3935aa82fbc09425.jpg",
     "displayName": {
@@ -157,15 +163,17 @@
       "schinese": "一局游戏内击败3个可选Boss。",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "run_optional_boss"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "run_optional_boss",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "Relic_Super_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/7c36a4860bfe52f1fa4e97f13c5c554544d5a764.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/23fb5a2a77789c4bc70e3881d6ea003ea569a51a.jpg",
     "displayName": {
@@ -181,7 +189,7 @@
   },
   {
     "name": "Relic_Super_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/44271660a1d202562c65145d393a05c31319429b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/97275364d2875f842cedf6327f044dded656d8b6.jpg",
     "displayName": {
@@ -197,7 +205,7 @@
   },
   {
     "name": "Relic_Super_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/126d36d699435de93d7e626013dc69b248c2ca80.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/8354285a19fff30e681eb92f3d2960312707866a.jpg",
     "displayName": {
@@ -213,7 +221,7 @@
   },
   {
     "name": "Hero_Pass_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/f09994e47e80adce7fccf7beaccb9de50c163647.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/b0bf8b8655137f025d55436dbcccac04eab9576a.jpg",
     "displayName": {
@@ -229,7 +237,7 @@
   },
   {
     "name": "Hero_Pass_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/7a7281d4be89575136c4009ba9693e50bde149eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/2da17e80cd8c9c85c84cadc919777b1090a97877.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "Hero_Pass_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/d4897f76dd1faac3a81ded5ed3baadf45bbafc9f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/f07094cbddea805c3f28c15e7fc4c3e0fcded1c4.jpg",
     "displayName": {
@@ -261,7 +269,7 @@
   },
   {
     "name": "Level_Up",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/3888d946d1451ab1d511dca981cfa9b8e75219fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/bfb89449c31d09725efbb0d3c6299ce712e57733.jpg",
     "displayName": {
@@ -277,7 +285,7 @@
   },
   {
     "name": "Level_Max",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/faa47682897820c003635b9def9a445a50ce4613.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/3f65c4e8acbcad813c5399e8d142820c1aa4d840.jpg",
     "displayName": {
@@ -293,7 +301,7 @@
   },
   {
     "name": "Relic_Collect",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/043716cb399cfab09d1ac611a93020bbc4760847.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/ef5768faeadf9642686aaf705ccbe90c346b5f2e.jpg",
     "displayName": {
@@ -306,15 +314,17 @@
       "schinese": "一局游戏内获得获得20个遗物。",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "run_relic"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "run_relic",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "Dodge",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/0db60a3db80bc75e17a14ebf02e56c20e986a16d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/09cfcb00df67dfd925abe7302abf1fe3f823e137.jpg",
     "displayName": {
@@ -327,15 +337,17 @@
       "schinese": "一局游戏内闪避100次。",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "run_dodge"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "run_dodge",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Ultimate",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/e9821871494d98387ffded82224b64178080bd54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/7eb67238bf7956afd36d5f1fd1f006dc2451ac27.jpg",
     "displayName": {
@@ -351,7 +363,7 @@
   },
   {
     "name": "Survivor",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/5d106c82a046c50f208a84dbee549b43393180ac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/87d5269b65236e086f89ed6cb4572f037378611d.jpg",
     "displayName": {
@@ -367,7 +379,7 @@
   },
   {
     "name": "Quick_Battle",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/bf683d0820960b1909dc34cb11f85c218726d1ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/6b40b9eb0fd59e4b3490ebd46ecb537f49e2066c.jpg",
     "displayName": {
@@ -383,7 +395,7 @@
   },
   {
     "name": "Shield",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/3279662392f755b8d0a56ec9b8e2258db55458d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/63f8e1214110d7561e9a3295e2eab4b38f181de0.jpg",
     "displayName": {
@@ -396,15 +408,17 @@
       "schinese": "在战斗中拥有50点以上的护盾。",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "battle_shield_max"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "battle_shield_max",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "Damage",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/dababdf818e799632873c5162b932c4ae05cebf5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/c533d95f609fa847d5a919009f70aaab2de40e89.jpg",
     "displayName": {
@@ -417,15 +431,17 @@
       "schinese": "在战斗中造成99点以上的伤害。",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 99,
-      "stat_name": "battle_damage_max"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "battle_damage_max",
+        "min_val": 0,
+        "max_val": 99
+      }
+    ]
   },
   {
     "name": "Coin",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/0873e075f7d33c586b2a1474349c2df739f8cdcd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/fdb0c09efb5f7c640f2296e4531a2bec386eb202.jpg",
     "displayName": {
@@ -438,15 +454,17 @@
       "schinese": "在一局游戏内获得3000梦境碎片。",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3000,
-      "stat_name": "run_coin"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "run_coin",
+        "min_val": 0,
+        "max_val": 3000
+      }
+    ]
   },
   {
     "name": "Honorable_Kill",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/d8e39f8e8395ae313639272bef1e8bf588b3bc6f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/fbb1fdee618f37081ecf076ebdf87704690cc616.jpg",
     "displayName": {
@@ -462,7 +480,7 @@
   },
   {
     "name": "Difficultly_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/5a6b7436201e4fda9f0949e814abb1d0fe2e9f3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/3c6015135ae9c38f45fa8cf12e095ed4a231f7fb.jpg",
     "displayName": {
@@ -478,7 +496,7 @@
   },
   {
     "name": "Difficultly_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/b38c38750064d82c51eac6d45d67de3cf36498a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3541180/7b985e3edfb6736f143c2840295b433e6395b7a9.jpg",
     "displayName": {

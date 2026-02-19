@@ -1,7 +1,7 @@
 [
   {
     "name": "justthebeginning",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2245700/b72e34459a59838d16a4b40fc646b9b6392fe69d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2245700/e7d14624cdb6c1e3aba74b62e8d8085d99c30ade.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "incredibleending",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2245700/cfb1e496568d271f7008c0a63b868194df0a54d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2245700/e7d14624cdb6c1e3aba74b62e8d8085d99c30ade.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "moremultipliers",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2245700/109115a596d2285fa33762bb02677f4a887a36b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2245700/e7d14624cdb6c1e3aba74b62e8d8085d99c30ade.jpg",
     "displayName": {
@@ -40,10 +40,12 @@
       "english": "Get 1M multipliers in total",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "multipliers"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "multipliers",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   }
 ]

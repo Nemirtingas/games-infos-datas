@@ -1,7 +1,7 @@
 [
   {
     "name": "GLONK_COIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/972dce122649c91869945be4379cae94a37f4776.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/c601d8e6e9d213bbfb4840eb0a1b2921d08831d1.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "GET_1000_COINS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/a5c903335e47f31d1c8221562fbe4b7540323f3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/a7412f8882161859078af0c2b5b50a200597fb0e.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "FIRST_HAT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/56a73db39d4bc2bdcc5d705f7aa6a51f4af051e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/1439ae50b59f9d1fd32a15c45e1661c69ea68b51.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "50_HATS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/e3cb2bb5565f491d4d0d0e08d7faa0ba33ca8abe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/8eab13320a671416f12b46feb52a3f4b63affdaa.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ALL_HATS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/401ea41cfd4df9c2c70170dec3b01869a3e16205.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/0aed7aa95a61d20af9c941a29299847f1dde4c67.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "SKILLTREE_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/d6763254fe073a81700c85f6827bbf798836d3d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/10b4affa0b74ab4e077e225d490bb8e90bc89674.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "100_DEAD_GLONKS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/db43c8cb2530e1f992e5cbc6aec1ce8f569698ae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/55e89e22c70e40dc771774d0fb5bcf757d64802c.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Let 100 glonks die.",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "DEAD_GLONKS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DEAD_GLONKS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "NEGLECT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/994e946fb9dc797f740a331d0af9accf070b5e40.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/4d774befac02d568d5157da51a16faad5124fa14.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "PERTRIS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/eb5002b01133e942893fe2f3f719490a890345bf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/4d8ab4e967c36216fbdaccaf00e7ecd56f516e47.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ALL_SIZES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/7fa2b9c3fc4c963af1eb9a45d878b7c17b5c11fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/1abda3d9a73224f34d6db4249e0f5282061f364b.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "WIN_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/bfbf5b46f46ff6310666efc87a65a370bb9d3785.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/8ea5f5854b80e6b1d2d21b5b843ebbe80bd3ba7c.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "HE_KNOWS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/b9276710ae532ba556527396f5eb1df9aa59d125.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/cb572d308ff441c5244ebe907937a10024e9a2bd.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "50_GLONKS_EXPLODED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/28de6ea5ff16048e0335aa53bcc97a0837fa917d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/af93f8e0bb108b5cfa73d33c92bd00956fe9fead.jpg",
     "displayName": {
@@ -185,15 +187,17 @@
       "english": "Make 50 glonks explode.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "GLONKSPLOSIONS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GLONKSPLOSIONS",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "GET_100K_COINS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/47df0e3ce514abf9bda842eeb4e9740d182568c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/8395619216a99d1e0bb2f59b6cfe84002809c0eb.jpg",
     "displayName": {
@@ -204,15 +208,17 @@
       "english": "Get 100K coins.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "COINS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COINS",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "GET_10M_COINS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/73f47da9c92acf83cd2c6e787e42a3e15a154498.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/d9f8b47ffa5c22f4d98db4411f5ccb50d17bb7ff.jpg",
     "displayName": {
@@ -223,15 +229,17 @@
       "english": "Get 10M coins.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000000,
-      "stat_name": "COINS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COINS",
+        "min_val": 0,
+        "max_val": 10000000
+      }
+    ]
   },
   {
     "name": "HALF_REBIRTH_SKILLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/ed2d6b570a72768058f5c8e9763836d7373bed87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/13359558d6b3c5bed4925829a857c31fb1ef6968.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "ALL_REBIRTH_SKILLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/68b0f6e806c58b0179f760bb3c844f4bd2f2cf6d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/e19b006478f55492b526d410dc330e5ab7860aa3.jpg",
     "displayName": {
@@ -259,7 +267,7 @@
   },
   {
     "name": "100_GACHA_SPINS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/32c75af17ecad97ed607fb3a9374f5cbe33c828f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4096800/c14709e68b416beec172263f0c0d6635362f902c.jpg",
     "displayName": {
@@ -270,10 +278,12 @@
       "english": "Spin the Stat Gacha Machine 100 times.",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_GACHA_SPINS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GACHA_SPINS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

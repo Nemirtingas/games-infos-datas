@@ -1,7 +1,7 @@
 [
   {
     "name": "SURVIVE_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/447f7d6f2343fd6f05871c44ddf4ad403f8eb247.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/f6764d551696cb2ac70314cd5565a2d95d13f9cd.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "SURVIVE_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/c7b6818936f00e0d5bb2cdd6fad396ebc8a42aa5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/1229950c4299562bf6d20f2edf3d541c6671001f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "SURVIVE_30",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/e3c7fc76047b6dbf771ded3666ab13a9fcbe1f17.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/1cfa231cfe7bd9c170b54a76706afa69f881bbdf.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "CHALLENGE_EternalNightGameModifier",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/cc5b62a77a69e109c297ac9a3f555b2bb08d4859.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/aec836ca419af693c824416eabce475cc28702d2.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "CHALLENGE_GlassSoulGameModifier",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/35631204448fdee88353699125c10dcba9ed9506.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/4fad5dc76bcd4b6d06419c78c99f3bd3039d08e9.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "CHALLENGE_ScarcityGameModifier",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/c31adc0cc652523081a30915943d4f6d0ae6aeb8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/005507a0fc613989f4d983f168e2a7d837e622f5.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "CHALLENGE_TrueGlassSoul",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/f54771b7b80c4c66d976e330de905f42293fb5e7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/738655e9f493d9d147f94c83f4e9f9d4e01390a9.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ESCAPE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/cf9bc621aa3dbb18351d3777d687b26c06d9c523.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/6596de9dbedacc2e669e7f915eb146d07a2b2e8d.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "REVIVE_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/aa9bfddd089aeee5ba50e1b916b92292b24202cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3269650/983c592af88c7b94ddb53b1ecca041e04c2d2f1c.jpg",
     "displayName": {
@@ -124,10 +124,12 @@
       "english": "Revive 20 players at total.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "PLAYERS_REVIVED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PLAYERS_REVIVED",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   }
 ]

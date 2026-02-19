@@ -1,7 +1,7 @@
 [
   {
     "name": "ach_TrackClear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1312870/812e9528cf8eed2679e7d1477f1cae6be2b9f8d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1312870/8974306d0543f8404758516b39f7cee5edf11252.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ach_Try_track",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1312870/7a546c0fcb53d9c4b2c8925552aa198cbf0dad40.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1312870/32e4b0af3a7a268e684680ae1559f4aba2ace72d.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ach_100Songs",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1312870/7a5034f0df658b6f7b3be8b21ab3b977bcad8f68.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1312870/8617cd4340e9e8030b2c14a39ab88694f3ed5cfd.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Complete 100 Ranked songs in any mode in any difficuilty",
       "token": "NEW_ACHIEVEMENT_21_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_SongSplayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_SongSplayed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ach_FocusChain",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1312870/fd748024887f85bd26613f9978106b47a4214b3c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1312870/4a245c3373106fee36900bd3d44bc04d4c0a8226.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ach_PerfectDodge",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1312870/8f7c43c8b2a275676692814ef95390b12e4988fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1312870/5dc0db842bfcfa1e022435240110744ba9fe27a6.jpg",
     "displayName": {

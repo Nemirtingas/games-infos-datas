@@ -1,7 +1,7 @@
 [
   {
     "name": "BEATBUTCHER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/77c6b3f9f6a669d30e2ef003c8ad8b0e6691585d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/6db2374d3b5be14a769a6050de1974be1bfc7a69.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "BEATNAECKEN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/57dcf91b50f2381f2b7317316bb24c1fe1f8681f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/01d4cba1bf4fe551073e735ba41b868c190395d4.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "BEATCROWANDAH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/8f2d9c2732f2e176074fdb7e0a5e59861f666539.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/43e05e674c00b0cef82030bed681f12b86b25382.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "BEATSKOGSRA",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/622ab9dba0cf7d14d7e0db2b8bf2b18d02730f38.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/73c41cee9abc5f0da35fdbd05d473a442261b392.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "BEATPESTA",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/ec8d91927a898349983be70dbc973ce5c6abe1e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/5acde00b8d346c2b958212652f76e254587a9ee9.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "BEATREAM3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/da137c7c0244a415e11204d79b550ca13453b9f6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/e6949f86af7af8b61086ec3c678556c24624b12e.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "BEATKING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/7285e0ffa5b1dde42e476a6eceef55c9574ee170.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/15687ba2e1550f68eab0974a211173a0d29c280a.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "COMPLETEGAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/9e50f361dccd593ef18583f2ce3b4cc3a49d4bad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/948d9ce02d28ec922c5711f625e5e150383e2af9.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "JUMPEDONMUSHROOMS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/7c275163fab374c47b955dd09481db0479e4ed89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/e249df2026e3a7fb54cc8371822c7deaedd6a241.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "COLLECTOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/11fe6ba2b49ef8b19a41ebf23e949dfc7b151451.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/c0e6217cbe597d363d892afe8fd85680f57d5c55.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Find all wooden figurines",
       "token": "NEW_ACHIEVEMENT_2_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 11,
-      "stat_name": "FIGURINECOLLECTION"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FIGURINECOLLECTION",
+        "min_val": 0,
+        "max_val": 11
+      }
+    ]
   },
   {
     "name": "BOOKREAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/5c705449b347af50d298562e27f507c5566baa46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/7754fbc28007c4306e64b3b13483ffd0d98425df.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Find all story books",
       "token": "NEW_ACHIEVEMENT_2_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "BOOKSREADSTAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BOOKSREADSTAT",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "SKOGSRA100STABS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/4bc21d923ed19a359e405b42d9a6ac9c18e29b0b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/c95ae608eca18a92809a813ea74743afe30ee001.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "PUSHEDGNOMEINMEAT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/16c6ea27b91e9323d78fc33a8c055da6031b5511.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/7c4fe842d83bfc0e130ecff68d34167c8e00177d.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "APPLEINGOAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/cebbd7320580fb2e27a7c69aa1a68333f7d0f311.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/2df8b4b6f0b1ff083e9dce5f1f7ce19652fe4948.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "SAVEDALLGNOMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/f47c2d88afbc696d5800dc09a928e57d8cd007d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/983f668632754ceca5c28f41d6eeacb9d1377d32.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "BREWEDPOTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/8f1136d6578efcaeeff47fdcaeb0679cd3586437.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/734e4d281e31645b410cccea0f636301479baf4e.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "PINECONEOUTOFCAVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/dd897829cecf35f79d0e230159ec4fc3c699ad30.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/48df23c4dda2056cd23bda27714504960f6144a6.jpg",
     "displayName": {
@@ -249,7 +253,7 @@
   },
   {
     "name": "FINDSISTERFIG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/aa8eca8c545e92edb6e6ceb6ec2cc569883b3312.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/c41529b8d9049d7f61059a42bbd6ae827941f337.jpg",
     "displayName": {
@@ -263,7 +267,7 @@
   },
   {
     "name": "FINDGNOMEFIG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/96ea0205c9e7d2d546888ba62a90befd0ab48c11.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/93056ff2594e7c6042411481fc8de8f173504ff9.jpg",
     "displayName": {
@@ -277,7 +281,7 @@
   },
   {
     "name": "FINDTRICKSTERFIG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/039ef74aa26ae5ff52b328e819eb188539d00f39.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/ff146d6127e8c9e4b6d0d1c623001a991278c296.jpg",
     "displayName": {
@@ -291,7 +295,7 @@
   },
   {
     "name": "FINDLEMUSFIG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/b2ab00160cbec558243aa153c1b18c70ebf8be03.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/59766485520734b7816a89b2f484002a315af44c.jpg",
     "displayName": {
@@ -305,7 +309,7 @@
   },
   {
     "name": "FINDNAECKENFIG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/603ef58189cf432ffb0318e4221b7070f33dd4dc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/ab330d631975d350ab0cc05b34e7f5b70f73f5a3.jpg",
     "displayName": {
@@ -319,7 +323,7 @@
   },
   {
     "name": "FINDTUVAFIG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/7b6444a09e80db57810142c955da4148dcfee619.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/9723489889108fa528af220948045f34a157be24.jpg",
     "displayName": {
@@ -333,7 +337,7 @@
   },
   {
     "name": "FINDCROWANDAHFIG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/1fc5f17078fca8e822f8b42d6d76c49ae8562e85.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/a0d828203700b42b43a00e2ca161fe6d35ee898f.jpg",
     "displayName": {
@@ -347,7 +351,7 @@
   },
   {
     "name": "FINDGUBBEFIG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/d7aab810c5d07c7f2b665f6238fbbbb7c020bb7b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/bdcfcfd53007ad2e1d13bbb886f251a9d0106848.jpg",
     "displayName": {
@@ -361,7 +365,7 @@
   },
   {
     "name": "FINDSKOGSRAFIG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/2e6ef0161c9e54365f0370cbeb2fa16e3395b470.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/c871a1b1fce06d8636afd17fc2a57d7fd711357d.jpg",
     "displayName": {
@@ -375,7 +379,7 @@
   },
   {
     "name": "FINDPESTAFIG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/198a62a1838b03ce07e90264ebaa0f85f8bc5189.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/37a9534d02c808a2b933a10851472e68d7e63b37.jpg",
     "displayName": {
@@ -389,7 +393,7 @@
   },
   {
     "name": "FINDNILSFIG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/01bf462682322210c4bd98820d4d1a18f14f3d98.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/34d5bd36f6f14bd8f000b63191927b5acd10d481.jpg",
     "displayName": {
@@ -403,7 +407,7 @@
   },
   {
     "name": "IRONMAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/d3c0a2eb50a7cce4bbff8741d783fc0ef3d5f0bd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/d862d7eedadbbb45aca8dcd9d99393d1cb8ca093.jpg",
     "displayName": {
@@ -417,7 +421,7 @@
   },
   {
     "name": "PROPERFUNERAL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/d61d170ec41ff3d062ba63cde81ecc257e41ecc4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1623940/0f695cd892eb09db998c2646250a05fdde33e1f2.jpg",
     "displayName": {

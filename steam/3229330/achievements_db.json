@@ -1,7 +1,7 @@
 [
   {
     "name": "BOUGHT_THE_GAME_AWARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3229330/969efb2ebfa35f478bd6b5610db55c6368abe959.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3229330/2eb255cc5314d605d0b39c24d9a597c76d839198.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "You can't un-ring that bell.",
       "token": "NEW_ACHIEVEMENT_7_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "game_start"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "game_start",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

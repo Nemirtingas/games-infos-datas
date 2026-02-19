@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_Meet_Abby",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/2c85af15504a76b3168d9341b8ff96f3cda82349.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/32582ebb2ce98ccc71b44f9c7cb583ec68a6af11.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_Defeat_Dummy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/c3814e584d42d04462fe106d71f28dc596837326.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/667ee6c52f4407b116572bb5603455614a6a8651.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_Defeat_Kraken",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/2b3fccc4f5ad67d36c9cf0672ec7b612b2fb1ea9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/82d292e518532da47412010cbcfb176d4eac6544.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_Defeat_Kegs",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/92e95aa7601045e0a4502e3af240df096d5ec6c8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/50ad9cfce8dd19bad07a300d22ecf493c8fae28e.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_Defeat_FireImp",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/6f24bc4decf7fb6888189a79e60d1799d8711af0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/fc1590a2266f81203fbfd241b6eb0e7f673e31ef.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_Defeat_ManyEnemies",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/638a2866e9c56844033bad88103ec9712bba693b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/9237e369574d85fc2c916182fda2baef88a5cc01.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Slay 666 foes.",
       "token": "NEW_ACHIEVEMENT_2_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 666,
-      "stat_name": "Defeat_ManyEnemies_Value"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Defeat_ManyEnemies_Value",
+        "min_val": 0,
+        "max_val": 666
+      }
+    ]
   },
   {
     "name": "ACH_Minigame_Chicken_HighScore",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/a54d038ae42780426222eee386e7cc8ab98ca00c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/6861f2ddfcd1111503f4e917892db714cb33e3fc.jpg",
     "displayName": {
@@ -101,15 +103,17 @@
       "english": "Score 999 in the Chicken Coloseum.",
       "token": "NEW_ACHIEVEMENT_2_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 999,
-      "stat_name": "Minigame_Chicken_HighScore_Value"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Minigame_Chicken_HighScore_Value",
+        "min_val": 0,
+        "max_val": 999
+      }
+    ]
   },
   {
     "name": "ACH_Minigame_Slap_PerfectScore",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/bec8b7e398f6bc7e7830da118f57a7c51eda61aa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/3bc19c7ee249bf07f6fc1ebbef342e8514e412bd.jpg",
     "displayName": {
@@ -120,15 +124,17 @@
       "english": "Humiliate Davy in the Face Off duel.",
       "token": "NEW_ACHIEVEMENT_2_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "Minigame_Slap_PerfectScore_Value"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Minigame_Slap_PerfectScore_Value",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_Challenge_Abordage",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/24ad1478f4ffbe15de6292ff7a0481f95afbd358.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/a6773c12fa209df5ab26508c462a5bd2e0230823.jpg",
     "displayName": {
@@ -142,7 +148,7 @@
   },
   {
     "name": "ACH_Challenge_Crypt",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/47c37f7457934875608507d559b96a842137266a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/7ce362161d65c47400fec4e0c66f89a220fbdc67.jpg",
     "displayName": {
@@ -156,7 +162,7 @@
   },
   {
     "name": "ACH_Collection_Execution",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/c3cbf59aac1aaf1e5c4febfb7bfe43651f87dce1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/02528155eabc15bad87a93a564003703f830ad29.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Unlock every Execution.",
       "token": "NEW_ACHIEVEMENT_2_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "Collection_Execution_Value"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Collection_Execution_Value",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "ACH_Collection_ImpossibleShip",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/6f4f970123672370e26360c858cb8550335cfe7e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/c8a0280c3a7108b52bc3d9fa5746e08f83e85dbe.jpg",
     "displayName": {
@@ -186,15 +194,17 @@
       "english": "Collect every Impossible Ship.",
       "token": "NEW_ACHIEVEMENT_2_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "Collection_ImpossibleShip_Value"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Collection_ImpossibleShip_Value",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "ACH_Collection_Singrove",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/5f8fddd2794c0e322ca164ffaa7841f87afa7004.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/a3c41b8724baf83d64af6483d785f52adcaa8c0a.jpg",
     "displayName": {
@@ -205,15 +215,17 @@
       "english": "Claim the Soulstar from Singrove.",
       "token": "NEW_ACHIEVEMENT_2_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "Collection_Singrove_Value"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Collection_Singrove_Value",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "ACH_Collection_Obelisk",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/933c9d33f0ef9a66d5d2c18173d05c2f397b5d0c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/70210e31c0b59dd92edd012f27cec04ce2054718.jpg",
     "displayName": {
@@ -224,15 +236,17 @@
       "english": "Seize the Obelisk Treasure.",
       "token": "NEW_ACHIEVEMENT_2_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "Collection_Obelisk_Value"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Collection_Obelisk_Value",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "ACH_StayAwhileAndListen",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/d07ac4d04235927b1f2eaa8d3b0173ae7aeed530.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2611170/8a2527734e7340d0824bda55277ae8176592a10d.jpg",
     "displayName": {

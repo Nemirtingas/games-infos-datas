@@ -1,7 +1,7 @@
 [
   {
     "name": "GF_CHAPTER1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/38cfe7035224baed5f1db1210e29b01b8460b916.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/514612fb825b03089f080650d8e04ba61dc32e91.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "GF_CHAPTER2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/597380cc3c84895f7c7a92051862e4710707f1df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/a0a6b3683c5212aa11244c1244d0aa7ba3781183.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "GF_CHAPTER3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/10ab6ba53d81301b3650c6c0cc4dab3d348395e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/e76c8f6df687c67fef9373f83a8a9920db2e62f0.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "GF_CHAPTER4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/a07ddd1464d6721bdc4a7b69e7c4dbd4b6415de8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/f24425edc6f4bef2e9eba00d60908e5a07d42327.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "GF_CHAPTER5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/6b4eec0c8cbe25ac5e0c2ad5a1d9b39067e2cb08.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/085d0f3a41be5560fbccf3d79cc3727a7582c4b1.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "GF_SOFTLOCK",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/a57d61106d0c8a275f44c01a19d1202c82591933.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/1f08289ce0902bbf9ef4ace483374977b71738db.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "GF_NOINTERACT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/1819d12dd6bffa77077a9fea3eece341d46cac1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/d2ba44e67a3387d522c4bf7d08c6e3ab18392908.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "GF_NOJUMP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/74c67984365dbdfd2afa106b79d8cdca8ebc234d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/3d8eb09c329a098daa846e097edfe1952b65bfda.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "GF_COINS25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/8b52921353541f1cac70ac752a3205d6ceef3c03.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/fff5eeda3d46f2ed23194e81b5685a09d26989dd.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Get 25% of all the Prism Coins",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 49,
-      "stat_name": "coins25"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "coins25",
+        "min_val": 0,
+        "max_val": 49
+      }
+    ]
   },
   {
     "name": "GF_COINS50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/95e65717e11a9ed0389eed3b4ab591063ae464ab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/0934875ac5b70fc11ad420c0a568aaa10b9cfca2.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Get 50% of all the Prism Coins",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 98,
-      "stat_name": "coins50"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "coins50",
+        "min_val": 0,
+        "max_val": 98
+      }
+    ]
   },
   {
     "name": "GF_MIRRORFIRST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/ff33c1c9b66a5a03b9995119089fad53ea471f3c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/5521773cbd23339e358245013ebcc0129f5fe6c1.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "GF_FIRSTDEATH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/20cfefadbead7e7f27ab64bf48a99b264abd45a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/1e44b09f910616082e162fadda91686513638930.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "GF_BETTERLUCK",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/3a1548604f8290f5b6a9766c5106a967c9e6bc47.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/9768681ea8033ca0dbf63ac1f6979a0778106646.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "GF_CHAPTER6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/109e25087a45fd034ec51f1adbf1852e74d0ee1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/82b298f3b5e44fadbff287ef0fcb32876b92c847.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "GF_COINS75",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/4b612aa764128177e795415c550c086d8fe63928.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/61569edccc3d2eef08457501d2a79944e170f01b.jpg",
     "displayName": {
@@ -218,15 +222,17 @@
       "english": "Get 75% of all the Prism Coins",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 146,
-      "stat_name": "coins75"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "coins75",
+        "min_val": 0,
+        "max_val": 146
+      }
+    ]
   },
   {
     "name": "GF_MIKOMISSION",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/9190755d736166b01cd009eb63eadfb725e15ccd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/6678705f871263afc1963922a8559a61ab92aaa4.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "GF_ENDBORING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/ab302cef3ba643e25200260057bfd60744067d48.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/43fcd48df88d248e4c652abbb2ac49c629bef792.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "GF_MIRRORALL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/67139efec9c346bb4d4574b9f79e14ca14d2e650.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/1bd1aaa6815139dd6db35beddd117da81b876216.jpg",
     "displayName": {
@@ -265,15 +271,17 @@
       "english": "Break all the mirrors",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "mirrors"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mirrors",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "GF_BEATANNA",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/c4fbc6ec2404cb4ab6ad39c5e47616dadd2ca9db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/642bf989b5e4f551530c14ade92b382ad172d7cc.jpg",
     "displayName": {
@@ -287,7 +295,7 @@
   },
   {
     "name": "GF_ENDGOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/0ca1c258d02134ee0e7cf26af7ef2410305ed919.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/3ee317f8e82e02b395337ba6687395bc73fae72b.jpg",
     "displayName": {
@@ -301,7 +309,7 @@
   },
   {
     "name": "GF_ENDBAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/97108fdd59faea773ad385c09586e5f2647ad990.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/79476187ebc1d0df28c72f94c4d0eeb7d306654b.jpg",
     "displayName": {
@@ -315,7 +323,7 @@
   },
   {
     "name": "GF_CHAPTERD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/4de74c489b98b2cf1ecf95447ad83100cea68076.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/246c0d4d6fd8e522b62f824919ef3e2172467a45.jpg",
     "displayName": {
@@ -329,7 +337,7 @@
   },
   {
     "name": "GF_COINS100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/7149fe3c88e16d3b11695595e0ef20addcfef5c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/ddcc873aada318de5b11867e4f2ae751f6b9538d.jpg",
     "displayName": {
@@ -340,15 +348,17 @@
       "english": "Get 100% of all the Prism Coins",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 195,
-      "stat_name": "coins100"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "coins100",
+        "min_val": 0,
+        "max_val": 195
+      }
+    ]
   },
   {
     "name": "GF_SPEEDRUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/15cda6e8bd572306c9f481b21bdd0d0c43d6dc70.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/6ec7aac48373d007ce086a3a7b231fa488aa51b7.jpg",
     "displayName": {
@@ -359,15 +369,17 @@
       "english": "Complete ten levels faster than their par times",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "partimes"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "partimes",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "GF_MEATPAGE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/ed8b572bf315cceac1668ed2f0e6abede1fae9c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/27f4323d0ff56cb03ee13dab5e4248476dccd1d5.jpg",
     "displayName": {
@@ -381,7 +393,7 @@
   },
   {
     "name": "GF_DISCARD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/5403d2a96f5c6397597aa7c67cb8443692cb9a73.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/f5e8296155aff501669038760adcf61fcea85cc5.jpg",
     "displayName": {
@@ -395,7 +407,7 @@
   },
   {
     "name": "GF_ANNASROOM",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/7c43f9984d6229bcebfc50235615910d6dea28f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/0f2f563519b2f2d5de2d684868bbae89b175f197.jpg",
     "displayName": {
@@ -409,7 +421,7 @@
   },
   {
     "name": "GF_HANDICAP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/ed76fc636ca05ec0687386a11a65a71c37b5df11.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/f226e33198f5d4cf7dee0f1ecc143eea96bf294f.jpg",
     "displayName": {
@@ -423,7 +435,7 @@
   },
   {
     "name": "GF_CHAPTER7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/680e5d8de0cbe5e1e7a80f8bcdedf2e4ea84ab06.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/41318d12ffe0fcb3b83e15b490f1982d8894e2a9.jpg",
     "displayName": {
@@ -437,7 +449,7 @@
   },
   {
     "name": "GF_COMPLETIONIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/d333d62129ca490ab571eccfa2bd054b891b9cea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1825040/af6dd3387ba4722931c5b1f6b1375a5a35093927.jpg",
     "displayName": {

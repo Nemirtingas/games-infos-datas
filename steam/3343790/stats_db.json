@@ -1,12 +1,18 @@
 [
   {
     "name": "total_product_sold",
-    "defaultvalue": 0,
-    "displayName": "Total number of sales"
+    "displayName": "Total number of sales",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
   },
   {
     "name": "highest_ca",
-    "defaultvalue": 0,
-    "displayName": "Highest turnover"
+    "displayName": "Highest turnover",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0.0
   }
 ]

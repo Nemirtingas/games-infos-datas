@@ -1,7 +1,7 @@
 [
   {
     "name": "PLAY_ONCE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1956860/dc399b07ce1798122e182a1b94192825a44e0c7d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1956860/0b3c0b3011215043a61f5000f36039ef61c10d5c.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Finish your first race",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "RACES_PLAYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RACES_PLAYED",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "Play 5 races",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1956860/dc399b07ce1798122e182a1b94192825a44e0c7d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1956860/0b3c0b3011215043a61f5000f36039ef61c10d5c.jpg",
     "displayName": {
@@ -31,10 +33,12 @@
       "english": "Finish five races",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "RACES_PLAYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RACES_PLAYED",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   }
 ]

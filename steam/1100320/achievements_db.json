@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_DEN_ALL_INST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/524ce2e28b7223cb9503b6d3043e044fe75edc29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/e368be89d79f9c120b7bb765eec0bdb4f8e96ac2.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_ANG_ALL_INST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/aa3209d2aec486bf6ee2ef20df647cc5d434d2f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/ca906ba078200e02f3ff3af5b57278bbc544b550.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_BAR_ALL_INST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/f8df072cdb861b2014dab012a4e99003c78388fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/5b68c6eda77f97b15245805757401038e9842c59.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_DEP_ALL_INST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/d72f782c3497219bd58f19128c7af98ed97d0ebb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/229ec13d01f3d7766a33993ea72a30d80688f0b6.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_ACC_ALL_INST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/ef98474a29cd1bb07bf5387b5db5ff17ce9dd5f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/dd724db05b4855e346d1b9676f3bf3a92965c84b.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_NOJ_INST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/184209816ca5419dcf0fbcef954546b8489350e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/fa4d3603213ef48ca9e16eac7e4c1701c0cd118b.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_CHESS_INST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/80987c1ca44d5c409b19d7ce883d63e0b8f98fed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/94889643500f34c7dbb566db66d233742bb47388.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_CLIC_INST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/e9214cbbda2631ed387538de70e9a01e22637d15.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/72f54694f585bdbb8d4c494ec4e9fb295bd10616.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_COL_ALL_INST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/345f4ec283081e1c0ad5b4de495bb0c6add75708.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/fbfc54845cda567fd618f706a0c76bbba3a85c69.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "ACH_MAR_PROG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/5ad26d3bd8833105d7d6f9b7b82d4956953770a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/dfc81bc1f9c3b7f3aa3d3613ea6b066e8a7256ec.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Walk a total of 100 km",
       "token": "NEW_ACHIEVEMENT_2_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_MAR_PROG_STAT_MAR_PROG"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MAR_PROG_STAT_MAR_PROG",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_OVER_PROG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/4dbeaf6a61c7d937c12d6f0ab3b8c3def523d1b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/0f1dc883022e7885aa1e51b7979ea09446fb7d5d.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Pick up objects 101 times",
       "token": "NEW_ACHIEVEMENT_2_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 101,
-      "stat_name": "STAT_OVER_PROG_STAT_OVER_PROG"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_OVER_PROG_STAT_OVER_PROG",
+        "min_val": 0,
+        "max_val": 101
+      }
+    ]
   },
   {
     "name": "ACH_STO_INST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/09f5fc476fd87da8e1788019c355dd4acde3aeff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/fe0fad950637814970bc01dcb104a773fa318347.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ACH_OH_INST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/cf2c1dc4ba0dabf561b1f947429361a4aeb9fe80.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/c8afb83dfef61f1f3775577eb5924db5f65baca4.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "ACH_MOO_INST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/48b431ff86a53dafb8bf04eed1f23e3f1980c54d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1100320/55bb0d367b2c6db398cd1dc4646ec5759fe47e9c.jpg",
     "displayName": {

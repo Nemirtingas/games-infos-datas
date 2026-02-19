@@ -1,7 +1,7 @@
 [
   {
     "name": "NEW_ACHIEVEMENT_2_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3154910/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3154910/",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "The Beginning",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "playerlevel"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "playerlevel",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "LeagueCompetitor",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712720/162f96e7a08531a3deb7be0c89e7c78ff02d3db9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712720/9e9112b2f143cfd4aecdb5a35094a453f390e060.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "LeagueChampion",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712720/4d289241d0ae0ccffbb552667b01da78867709ae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712720/e5d13732fdbd86ac21065795ba64a35ef228e867.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Arena_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712720/ed5020eb1c64a23b2cb666a001a43ef663a0c344.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712720/7666350141e230ec2fd037224a470200abe703d3.jpg",
     "displayName": {
@@ -40,10 +40,12 @@
       "english": "Play 50 arena games",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "ArenaGamesPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ArenaGamesPlayed",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   }
 ]

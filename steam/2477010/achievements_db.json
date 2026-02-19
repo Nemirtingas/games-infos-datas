@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_GAME_PLAYED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/ce1f33c0b15a5b73d9becc353bee983f01d96b82.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/30a2da88c8ed2300a3916c8a4d42427b9c95a030.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_ALL_COLOURS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/7c870bd30c7301b0fc7165eb3ed9328e8e57f45e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e5fa5e8783a4a8e24f0df7a03649226994be5f80.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_ALL_TICKETS_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/0d7c4253e039b2b4887ee10f386126fd5bb0df56.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/28699e0059e12d035331fe08bba812429e418486.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_WIN_EASY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/caf7f9498bf85bc5705459c1ec9b975ada5cf0dd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/ba979084dbec92ee7036584c915a21cbb174c2a9.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_GAMES_PLAYED_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/788602fd3e2a7ecc1791ec239e141b83cdce849c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/6f4c984a698ce9e73d7b29eb321e2feea7f6a736.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Play 10 games",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_GAMES_PLAYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GAMES_PLAYED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_WIN_NO_DRAW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/52837bc3f4d48271589e98adbec40d0306fdfc0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e76b0a91d92828a05d5325e7b1a5b921907c914c.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_25_TICKETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/1f8e0976e19bba331868845386214023e462f0f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/da4c801ff86142e454a81e9c38f6a2441482b022.jpg",
     "displayName": {
@@ -101,15 +103,17 @@
       "english": "Complete 25 tickets",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_TICKETS_COMPLETED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TICKETS_COMPLETED",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACH_LAST_TURN_TICKET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e81ed3b7abc64980710462fe9eedb0a5cd7b253b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e29953aff9e734c125b1cd22323afd07a3be588c.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_DRAW_COMPLETE_TICKET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/216df6aec65abe17a87fd3455d0887e30d6675c8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/1b288392095b321d88bce9f3c333c2ba69d8a816.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "ACH_GAMES_PLAYED_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/1aef3108359ef6e0797a7351906108449a69d7fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/aa1a27862de3f64aff4692b8fbde63c0d4390771.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Play 50 games",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 11,
-      "max_val": 50,
-      "stat_name": "STAT_GAMES_PLAYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GAMES_PLAYED",
+        "min_val": 11,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_125_TICKETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/c2c3b4d2a5dcb944118ea4d075dbdf18246d4579.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/5aea79b9812f13541d101f0e2f1fd6457ae0059d.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Complete 125 tickets",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 26,
-      "max_val": 125,
-      "stat_name": "STAT_TICKETS_COMPLETED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TICKETS_COMPLETED",
+        "min_val": 26,
+        "max_val": 125
+      }
+    ]
   },
   {
     "name": "ACH_WIN_NORMAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/4734739d87dd796c0518a1444cc45e5b52dd1016.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/0304ef869114083e1b7904c53dc0838d981def92.jpg",
     "displayName": {
@@ -189,7 +197,7 @@
   },
   {
     "name": "ACH_TICKET_POINTS_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/221049d1e05f11b82ec9aca78c815476def9c493.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/87bc8776ab0685f2922344b093f728a8cf5db45e.jpg",
     "displayName": {
@@ -203,7 +211,7 @@
   },
   {
     "name": "ACH_NO_6_ROUTES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/3d6c291b71ebda96550261303e33fc4b9c48af41.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/c1d5928e6436598b97cf1ba21ab28f71bbdcde7f.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "ACH_FROM_LAST_TO_FIRST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/d298a983e9e7cbcc057b629c2be1d9659572b0f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/95908cda2a6415bc4d1d4a82cbe4580c87a0e552.jpg",
     "displayName": {
@@ -231,7 +239,7 @@
   },
   {
     "name": "ACH_WIN_HARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/f30083e5277f5a59e43e6441b1996148faa1cdfd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/efa8a564e817e1e0ac30b7af45f71ccfb20db057.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "ACH_NO_LOCOMOTIVES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/78a7ee1a63dabf5a1a945fe86721f457290b7be6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/6a822075f2769c5b11dde7832cdeaecb399f4756.jpg",
     "displayName": {
@@ -259,7 +267,7 @@
   },
   {
     "name": "ACH_GAMES_PLAYED_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/d1d6cee70a483b1c61599308ac3a1f4a01d1d19d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/0fb4ad17dc4fbb6a8c4cf2124ce2d7eeb133f5f9.jpg",
     "displayName": {
@@ -270,15 +278,17 @@
       "english": "Play 100 games",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 51,
-      "max_val": 100,
-      "stat_name": "STAT_GAMES_PLAYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_GAMES_PLAYED",
+        "min_val": 51,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_250_TICKETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/0a5bda3455e7837fd53b21d188f4322f32a7ff5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/df47b054e8edd88dffc5b292d39ebc0fca92ad75.jpg",
     "displayName": {
@@ -289,15 +299,17 @@
       "english": "Complete 250 tickets",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 126,
-      "max_val": 250,
-      "stat_name": "STAT_TICKETS_COMPLETED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TICKETS_COMPLETED",
+        "min_val": 126,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "ACH_NA_STARTING_TICKETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/a1ad36b9c35bb8448c6f50ea37002366a91b9acd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/66b853dfea0ed3ad8160ee7a879bb4ee5ddbb2ce.jpg",
     "displayName": {
@@ -311,7 +323,7 @@
   },
   {
     "name": "ACH_NA_NO_LONGEST_ROUTE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/40e89ad7f240d06151592bb04f83166cff6c5f1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/018366608fa9f364a84d4ff597872888342443f9.jpg",
     "displayName": {
@@ -325,7 +337,7 @@
   },
   {
     "name": "ACH_NA_45_ROUTE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/5250ef2ac575747f50aa48a48df87a774a7a6041.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/ac130fa855ec35f3a9b884d338aa407bc201ba09.jpg",
     "displayName": {
@@ -339,7 +351,7 @@
   },
   {
     "name": "ACH_NA_RUSH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/b11c54d3d87a610466d3b78e2e22ca47539f1800.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/d9259142f5d93a96b000374ba4179385c741158f.jpg",
     "displayName": {
@@ -353,7 +365,7 @@
   },
   {
     "name": "ACH_NA_CONSECUTIVE_TICKETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e6a16fd34d36595a72e7d6756534a286fa468245.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/10ed03297c495801a4654f6c343fc36ca6f1f3b0.jpg",
     "displayName": {
@@ -367,7 +379,7 @@
   },
   {
     "name": "ACH_NA_BULLET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/6634617c7625222df220ad9ff41b20de7c066090.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/7ad9024d509a5613308f104bca5536c71b1f36bb.jpg",
     "displayName": {
@@ -381,7 +393,7 @@
   },
   {
     "name": "ACH_EU_NO_STATIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e7b909f023fd18abb6e73d0a2f082694e3411731.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/67e7645041a777cfae036ad925513edefa9fc5a1.jpg",
     "displayName": {
@@ -395,7 +407,7 @@
   },
   {
     "name": "ACH_EU_7_TICKETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/a7c442fa58291568a13f5c775aca939940acc073.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/09c46c555aaca2d18ba57293a9c6449f09737d56.jpg",
     "displayName": {
@@ -409,7 +421,7 @@
   },
   {
     "name": "ACH_EU_NO_LONG_TICKET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/180b1c635a43c0162a79bd581397e9d3027c8db9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/3c55558ecc2b21bd156ea1e4f52e55c414405c6e.jpg",
     "displayName": {
@@ -423,7 +435,7 @@
   },
   {
     "name": "ACH_EU_2_PLAYER_STATIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/709b192528b21edfa973ee5804bbdec000d64a4e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/64dbb6b94a87cdca170b6d119c6edebfeba9917b.jpg",
     "displayName": {
@@ -437,7 +449,7 @@
   },
   {
     "name": "ACH_EU_3_STATIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/a41caabb5cb4f3bf6b022248f8c126a994ba73b5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/ed6945c9f6e7eddf821ed1c38f1b92d6369085be.jpg",
     "displayName": {
@@ -451,7 +463,7 @@
   },
   {
     "name": "ACH_EU_150_POINTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/5c5cd25d882565577dc8dfbb7ff54bf56fb79285.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/b9cedb84755bdd6cac7f34207ef0e971ab89c5fe.jpg",
     "displayName": {
@@ -465,7 +477,7 @@
   },
   {
     "name": "ACH_NC_GLOBETROTTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/fb4cd111b5b430bb8d15167a3e75a0cd2f5508da.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/8f1b92a5fa41ffc6dcd1273fed08426c13f0a290.jpg",
     "displayName": {
@@ -479,7 +491,7 @@
   },
   {
     "name": "ACH_NC_MURMANSK_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/fbab7ac757d88240a7ed2e7c3dff27e93dd05d75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/dfe4e4d7e7959c8bbcf6aefd8c798b5c54d32253.jpg",
     "displayName": {
@@ -490,15 +502,17 @@
       "english": "Claim Murmansk to Lieksa 10 times",
       "token": "NEW_ACHIEVEMENT_5_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_MURMANSK_TO_LIEKSA"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MURMANSK_TO_LIEKSA",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_NC_NORTH_SOUTH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/6509e1d8e5cad4f33742bfe166fc52bf646dc0bf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/eaa6dcea415bcfe307bec81926d12ffef88d6e2a.jpg",
     "displayName": {
@@ -512,7 +526,7 @@
   },
   {
     "name": "ACH_NC_COUNTRIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/0f0480fa205786d928074c2f3d4639ee9e53e738.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/3f9f6924ddaf4fd4fe9486e20e055d3764c25acc.jpg",
     "displayName": {
@@ -526,7 +540,7 @@
   },
   {
     "name": "ACH_NC_NO_TUNNELS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/6b212ec090085ef0a1d2963a77f4af9b3ba8b12c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/d99964448297d49da9f0cb869eeb876bc9f5274f.jpg",
     "displayName": {
@@ -540,7 +554,7 @@
   },
   {
     "name": "ACH_NC_MURMANSK_ONE_COLOUR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e210127e3af1194baa51ae3f6ade5747437defe7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/71252f14ef3389658a29c64d37739c4756e9da6d.jpg",
     "displayName": {
@@ -554,7 +568,7 @@
   },
   {
     "name": "ACH_1910_BIGCITY_BLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e499edc580fa14b120ea8f0add523a99430f087d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/2f1e8ee72f0b61d08e5e852bccabeaad8a957c01.jpg",
     "displayName": {
@@ -568,7 +582,7 @@
   },
   {
     "name": "ACH_1910_5_TICKETS_ONLY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/4be8aba716e3ddaf86d234d34affbb838a09bd0e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/f0dbe4e542d6c3b23a9acc8526012b86ccc5ff8d.jpg",
     "displayName": {
@@ -582,7 +596,7 @@
   },
   {
     "name": "ACH_1910_CANADA_CONNECT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/b5dca4cf9e417bba2afe3b18e7489d60bd770660.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/659ea44b85d18195dae2a9a19e6791d640ed77e5.jpg",
     "displayName": {
@@ -596,7 +610,7 @@
   },
   {
     "name": "ACH_1910_10_TICKETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/6ab5a66f2705644c2ce2d1dcd58e0bca86a2a5ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/4621d6a14a4ea8b4c4f74e104db4e692025759b1.jpg",
     "displayName": {
@@ -610,7 +624,7 @@
   },
   {
     "name": "ACH_1910_BIGCITY_7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/8ca446fa0c727a9c087f83eba5667988091d6286.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/294a848f36b9d5d851c24a81daded20036d32bfb.jpg",
     "displayName": {
@@ -624,7 +638,7 @@
   },
   {
     "name": "ACH_1910_SCORE_300",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/27d794f9f820e1aeacf11d2a9e2ba01efe2bf307.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/4eaa4c1724b740408c8fdf63b3b6791476ce3a9f.jpg",
     "displayName": {
@@ -638,7 +652,7 @@
   },
   {
     "name": "ACH_1912_LONGROUTE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/39a032e19b1df7c685a90d157befa1d257d44e66.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/6cc78041968023b3a5593e19b7cb89521adb1db9.jpg",
     "displayName": {
@@ -652,7 +666,7 @@
   },
   {
     "name": "ACH_1912_5_TUNNELS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/151326cefa69a5671ef4ef36b8e5e449fb4b7554.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/2b2ea042da6d3534065628368c23823198f9ce6b.jpg",
     "displayName": {
@@ -666,7 +680,7 @@
   },
   {
     "name": "ACH_1912_BIGCITY_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/8bbdf269ed74a026b3f67268164496b3b9401282.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/3e4da3ac37a3cd2a64f3e9e09fa393f66f4b5bba.jpg",
     "displayName": {
@@ -680,7 +694,7 @@
   },
   {
     "name": "ACH_1912_5_FERRIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/5ee062db22e6b925b903975132e91aaf40bd163a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/00fa102171c670a907821d061bc05fbaeabd1034.jpg",
     "displayName": {
@@ -694,7 +708,7 @@
   },
   {
     "name": "ACH_1912_TICKETS_LESSTHAN10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/10be5f3546ce0438e9bd0fe65e52e2d986c684b7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/50adfeb360b65b84c9c0c2a4edd1abd202060f1e.jpg",
     "displayName": {
@@ -708,7 +722,7 @@
   },
   {
     "name": "ACH_1912_8_LENGTH_ROUTE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/823eea787d3b56b2beccc37168d3512079666f32.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/4e49abcef0564910fcf24539db2ac937e694c470.jpg",
     "displayName": {
@@ -719,15 +733,17 @@
       "english": "In any Europa 1912 game mode, claim the 8-length Tunnel route 5 times.",
       "token": "NEW_ACHIEVEMENT_5_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_1912_LONG_TUNNEL_CLAIMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_1912_LONG_TUNNEL_CLAIMS",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_INDIA_GOLDEN_CIRCLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/d80273a17de0f67cfde848447d989643ef98174b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/198b1dbbf85ef727f90c63e27aa23ef8da370d88.jpg",
     "displayName": {
@@ -741,7 +757,7 @@
   },
   {
     "name": "ACH_INDIA_EXCLUSIVE_LOOP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/633e548c602b0cf834b2f5123abea153e353b25e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/fdf73938c1735aac73df133f9e6a9851aab5d507.jpg",
     "displayName": {
@@ -755,7 +771,7 @@
   },
   {
     "name": "ACH_INDIA_MANDALA_APPRENTICE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/625aa45706d1244ef617b196b7f18376fce7a6fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/7a593d34afc287de27d28ffa345544dccea0b3be.jpg",
     "displayName": {
@@ -769,7 +785,7 @@
   },
   {
     "name": "ACH_INDIA_COASTAL_CIRCLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/2aa75c62ae6d4b2ab8239eaf99ae7a0554f816b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e7fec0d63f79449a94f90ff9f198348905ef1553.jpg",
     "displayName": {
@@ -783,7 +799,7 @@
   },
   {
     "name": "ACH_INDIA_INDIA_EXPRESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e7c2a44208f5ae2d642a1146f1d25e1d5342e91d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/bec1a61d1ca9f65b8ae8e2f5131e858151fc176f.jpg",
     "displayName": {
@@ -797,7 +813,7 @@
   },
   {
     "name": "ACH_INDIA_MANDALA_MAHARAJA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/346536a65e6f812f85c561e6c5d73085c769393f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/203cf5e54c595800395cd27a078a9385add1528d.jpg",
     "displayName": {
@@ -811,7 +827,7 @@
   },
   {
     "name": "ACH_ASIA_TRANS_SIBERIAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/816a825cc0c8bd9810f80d101594916be904a816.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/bff0e619aedb4872ca6710609d632375c121ae48.jpg",
     "displayName": {
@@ -825,7 +841,7 @@
   },
   {
     "name": "ACH_ASIA_OFF_GRID",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/728b2ffd08381fba22b1ec1bc335e7871aec133b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/9178fc2457106a17cb40d60981b761ef89ff2802.jpg",
     "displayName": {
@@ -839,7 +855,7 @@
   },
   {
     "name": "ACH_ASIA_UNCOUPLED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/1add34991d019b08a16d751f595ce0d102631efa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e0ab3b3bf6b9e394ea9e2a8f4174eb72de1ef200.jpg",
     "displayName": {
@@ -853,7 +869,7 @@
   },
   {
     "name": "ACH_ASIA_SILK_ROAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/4578d4c93596438fe3e68ff5d4767d23610bc625.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/6fe19626fa45390ce6e654d7ce188c6cba163edc.jpg",
     "displayName": {
@@ -867,7 +883,7 @@
   },
   {
     "name": "ACH_ASIA_MOUNTAINEER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/1111eae503cd7f5332fa2352be820f0ac7698b8c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/f26245bad3695425c5fbb3bbe26dd6787a36c445.jpg",
     "displayName": {
@@ -881,7 +897,7 @@
   },
   {
     "name": "ACH_ASIA_PAN_ASIAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/fd6d6b2c9524ffa9d610febf47efec87dbf25172.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/1ef80b1dda81282fb223f5ce48eea9a6e514959f.jpg",
     "displayName": {
@@ -895,7 +911,7 @@
   },
   {
     "name": "ACH_SAN_FRANCISCO_F_LINE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/35df84c48cad61a96c38705da6c91929da144e29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/506694011e5b39eabfec3f80d5e2560144099c8b.jpg",
     "displayName": {
@@ -909,7 +925,7 @@
   },
   {
     "name": "ACH_SAN_FRANCISCO_GOLDEN_GATE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/8319079fadd74670967aa64f7f8827a7a191cb60.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/c0b0ce7605249ce362a302ad8a1c9455987409ba.jpg",
     "displayName": {
@@ -923,7 +939,7 @@
   },
   {
     "name": "ACH_SAN_FRANCISCO_GRIP_EFFICIENCY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/7fa3e806b606ed048556b4c40f7497d6778ac247.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/542eac32c8c2a82bbe53ae736a401dd8886eb9eb.jpg",
     "displayName": {
@@ -937,7 +953,7 @@
   },
   {
     "name": "ACH_SAN_FRANCISCO_SOUVENIRS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/35f82cae99b9d57a48f472e8abfa7e018c22fcf3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/8f44e95d08bf27a417a7ee67ef05cedf43d83529.jpg",
     "displayName": {
@@ -951,7 +967,7 @@
   },
   {
     "name": "ACH_SAN_FRANCISCO_COUNTER_CULTURE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/06c6cf99e10aadca8ed8c089242f9726177ab10d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/0c6a36f4e77d39feeff18faac4af67a2b6f823db.jpg",
     "displayName": {
@@ -965,7 +981,7 @@
   },
   {
     "name": "ACH_SAN_FRANCISCO_1960S",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/a9100c0f09e06710c7e66ad73f3ef0a2b26bd7e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/891f6348f1e394e5150547324e9d5b1aa286b05e.jpg",
     "displayName": {
@@ -979,7 +995,7 @@
   },
   {
     "name": "ACH_SWITZERLAND_CROSS_COUNTRY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/d0c565a7cf1cddd735123a9ef98477e81b3582f0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/30b7a10b890d2973416b2a303052f802e018b540.jpg",
     "displayName": {
@@ -993,7 +1009,7 @@
   },
   {
     "name": "ACH_SWITZERLAND_SWISS_TRAVEL_PASS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/97622a1a76764a0ee8991dfc78ed6e3d0a6f496d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/d829b551cd0b0ec0d76746be9efbda36a2a5329b.jpg",
     "displayName": {
@@ -1007,7 +1023,7 @@
   },
   {
     "name": "ACH_SWITZERLAND_ALPINE_TRAIL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e8796075ad4ca0d6b1dcaf36ad52b2db4dd506c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/b1ae702dd745d133d540a1b7d78d573a1cf28ac3.jpg",
     "displayName": {
@@ -1021,7 +1037,7 @@
   },
   {
     "name": "ACH_SWITZERLAND_BLOCK_SYSTEM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/99bb107a44e31f6f23387173357c14dd43f698f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/69a8f6ae2f16aea8ae66c76c39c2632e5e41e93c.jpg",
     "displayName": {
@@ -1035,7 +1051,7 @@
   },
   {
     "name": "ACH_SWITZERLAND_CLOCKWORK_PRECISION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/a96aa42e724fadf639b00524b47c7571f22844c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/2f8a24de30f956d74a71bd62772464c6f8de9b0d.jpg",
     "displayName": {
@@ -1049,7 +1065,7 @@
   },
   {
     "name": "ACH_SWITZERLAND_ALL_FOR_ONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/040764832aad71c7765141e018dd6b26c0c269ca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/962263b511d48f9735fd1ddf1dc1402a753f9920.jpg",
     "displayName": {
@@ -1063,7 +1079,7 @@
   },
   {
     "name": "ACH_JAPAN_MEGALOPOLIS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/acf9868d9a5c141a192b4a05dcdeb6523639237a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/150e04a18fcc0fcf658a302c9f6babf3f5c7cc38.jpg",
     "displayName": {
@@ -1074,15 +1090,17 @@
       "english": "In Japan, complete 25 Tickets that enter the Tokyo subway",
       "token": "NEW_ACHIEVEMENT_10_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_JAPAN_SUBWAY_TICKETS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_JAPAN_SUBWAY_TICKETS",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACH_JAPAN_ARCHIPELAGO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/03b50b795c8d98d60ae9c78c2ee9929a5c31ac03.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/7c51edee32f8357676a26d8ffec252c24d36c06d.jpg",
     "displayName": {
@@ -1096,7 +1114,7 @@
   },
   {
     "name": "ACH_JAPAN_SLOW_STEADY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/adbf0207dbce4b27c94ba84231cf980ced306b03.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/4013556798eac4039a06f1575eeee508870c537e.jpg",
     "displayName": {
@@ -1110,7 +1128,7 @@
   },
   {
     "name": "ACH_JAPAN_COMMUTER_HELL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/2377d6f36679913d7ced64a494a16fd979224baa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e3edefc38c52552d60ca9f492facc44de8ab1855.jpg",
     "displayName": {
@@ -1124,7 +1142,7 @@
   },
   {
     "name": "ACH_JAPAN_ARIGATO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/f38ec1c1c49aebc4b962abe1bdfed0dfc5322e0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/5b9bef854a2085427c4a1582f28b0675720b0fc3.jpg",
     "displayName": {
@@ -1138,7 +1156,7 @@
   },
   {
     "name": "ACH_JAPAN_EMPEROR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/6efa5ac9cde444fbcf29d48926820d9131b5dd84.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/58f5a5b3201e0570ae0b9db5554657dc9f581c12.jpg",
     "displayName": {
@@ -1152,7 +1170,7 @@
   },
   {
     "name": "ACH_AFRICA_DESERT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/80124380fb655f23945095ae47aaec0d064877c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/73ccb54f4b1a263f3474a1a7b493c4253213c452.jpg",
     "displayName": {
@@ -1166,7 +1184,7 @@
   },
   {
     "name": "ACH_AFRICA_JUNGLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/24e4537e7f0cab1b2f6089900b1ca763868998d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/cc8e65f722c347f0b9d2290db03ed19edc9c3897.jpg",
     "displayName": {
@@ -1180,7 +1198,7 @@
   },
   {
     "name": "ACH_AFRICA_MOUNTAIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/40c6e6b5a6cda875292508ccaa41b66326ce2c0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/ed9874756463242ea4e871c7b6221b4b55ef1c21.jpg",
     "displayName": {
@@ -1194,7 +1212,7 @@
   },
   {
     "name": "ACH_AFRICA_NOMAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/38fdd4e69406d098055db4ac5a923abba9564518.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/3e3d035959604d629968f13e46acf4323a25bb17.jpg",
     "displayName": {
@@ -1208,7 +1226,7 @@
   },
   {
     "name": "ACH_AFRICA_DURBAN_MADAGASCAR_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/40ccd57e0160ecb4a8feb30ac2c2b93e97ab4b1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/10b5c48e38db9a00ebf9e37a9ca459e9ec885ab0.jpg",
     "displayName": {
@@ -1219,15 +1237,17 @@
       "english": "In Africa, use terrain cards to claim Durban-Madagascar in 5 different games",
       "token": "NEW_ACHIEVEMENT_10_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_AFRICA_DURBAN_MADAGASCAR"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_AFRICA_DURBAN_MADAGASCAR",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_AFRICA_HARDAI_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/e9124b4b8eda5f0f757f203d53cb516811de6c8d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/fb118bfafab26b4735b6e1520867a71e999c7449.jpg",
     "displayName": {
@@ -1238,15 +1258,17 @@
       "english": "In Africa, win 5 games against 4 Hard AI",
       "token": "NEW_ACHIEVEMENT_10_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_AFRICA_WIN_AGAINST_4_HARD_AI"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_AFRICA_WIN_AGAINST_4_HARD_AI",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_GERMANY_LONG_TRIP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/31c2971ce903c451464eb4e773d195ac1547a28b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/b45e01b661f59b812a7de8e220764cf76f5c9974.jpg",
     "displayName": {
@@ -1260,7 +1282,7 @@
   },
   {
     "name": "ACH_GERMANY_PEOPLE_PERSON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/9996de6e24ccf3ce89608a81752ebf1b0afb0e37.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/4c14bb2c03e1e8ceae770b09725c6217723527d8.jpg",
     "displayName": {
@@ -1274,7 +1296,7 @@
   },
   {
     "name": "ACH_GERMANY_LAYOVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/78a3c71571ce80450dbfe57ccb34a73e457c60bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/cfcb89100f345526cc6fe67a5c5eb1ee8d3527f1.jpg",
     "displayName": {
@@ -1288,7 +1310,7 @@
   },
   {
     "name": "ACH_GERMANY_CROWDED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/16436b3abaaa1a0f2ac5ea7e174a288402ff41b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/66d3db66c7b052a95eed8129c63ce4301a5a9e39.jpg",
     "displayName": {
@@ -1302,7 +1324,7 @@
   },
   {
     "name": "ACH_GERMANY_IN_FOR_THE_LONG_RIDE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/8b4613dcc81a3f0873d03e24edb5c4963fcce4ce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/00759a027f6f353286890881d373d952e4ac60e7.jpg",
     "displayName": {
@@ -1316,7 +1338,7 @@
   },
   {
     "name": "ACH_GERMANY_SELECT_AUDIENCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/b9dc40d4ed52e14f8e412b4ae8dfea6fc112913b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/270d6d2aeecf23d582e3c607c441fc2ac7a6b994.jpg",
     "displayName": {
@@ -1330,7 +1352,7 @@
   },
   {
     "name": "ACH_POLAND_COMBO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/1bf65c03ba4ecdc839470497b55845e8b2b6ce2e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/3ad21d80f1b692b858cdd57285b142bc98cb7fd4.jpg",
     "displayName": {
@@ -1344,7 +1366,7 @@
   },
   {
     "name": "ACH_POLAND_HERE_AND_THERE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/39eb2b89eef1b54411f4d4498442f0ea64689a82.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/cbc611ea6ac195829392f6c56d3fe1ad0b09b1b0.jpg",
     "displayName": {
@@ -1358,7 +1380,7 @@
   },
   {
     "name": "ACH_POLAND_FOLLOW_THE_WIND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/8eef1c2159119b59c69e21b6ca662aaa721c4825.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/65b172d003aff3546ca909ca22badf5ede5f1b02.jpg",
     "displayName": {
@@ -1372,7 +1394,7 @@
   },
   {
     "name": "ACH_POLAND_JAZZY_HANDS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/b6fb23a018c7083be0bf60935a346b8031538e7d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/942def2a394bbc68bf453f083df53d1f93e4cb9c.jpg",
     "displayName": {
@@ -1386,7 +1408,7 @@
   },
   {
     "name": "ACH_POLAND_NO_PLACE_LIKE_HOME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/9117eba1dc7e559bf62091b8892b6fa63734f83b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/4617df066a1e700b3f28a3b54c22ffa3beaf0398.jpg",
     "displayName": {
@@ -1400,7 +1422,7 @@
   },
   {
     "name": "ACH_POLAND_TRAVELLING_BAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/24818f362ec5a43d0acf6ca8b41dfc2144f7ca97.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2477010/9ee19bbc5c47f3931302c6ff597e69ad0c3cf216.jpg",
     "displayName": {

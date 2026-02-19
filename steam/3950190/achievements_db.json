@@ -1,7 +1,7 @@
 [
   {
     "name": "WIN_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/efdfdb5ed3586a338e5ef48fe4f7b0331baa0c09.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/7bc41dd1a38420235c05749289122ccb8baf8653.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "LOSE_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/6ce8403211691fd0e39d39d41a412fd3bd055c89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/f5162bc66e885e6aea831f106a173080bff63857.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "DRAW_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/1869645edf83ac7db39939c254c3b9e1d21c2e84.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/89acfbbe3e1ce9c9d3e0e581e6a6b36f1bf2eed8.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "CRUSHING_VICTORY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/535b41ab06b768ac7ef78409d7c77e3d9618a438.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/83025e184a0b78cb33308745788f5d15ad66aab0.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "HUMILIATING_DEFEAT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/2b3889bafc50c4a58bf2a7d390f129e0306b441d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/0cb4f13b866cb41f7bf8c22fe0f68a83a5e61409.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "NARROW_VICTORY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/51c0ca4714c0faa636bcd7652ff894c2190eca5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/6b11a8ef1ce077cd48f10242c160fac6d190aab4.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "NARROW_DEFEAT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/1e663f0a1917857b3f00890856eb4de06b0c9117.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/4c0b6b959e028a1c259108e5fb3e8fe31531263f.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "HAT_TRICK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/fbf4972deae6cf283f10b3c21548d256b4e68d02.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/271f8662b495765b5247028f98b55d322930cbe9.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "APEX_PREDATOR",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/a9603c0b6acadb05c20f5eeda154472dde308ce7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/020d933cf3bc53d93ec6bee5bd95795a2950b54e.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "PLAY_10_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/6dbf09718d9feb2291eb44127f036b2d492f6296.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/5921095446b7f9b2167b1bc90395dfc6574241dd.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Complete 10 matches",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "GAMES_PLAYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GAMES_PLAYED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "PLAY_100_GAMES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/906d6099a5bf17def2d402644f4741306e52567a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/f0912e3244ca8e1f61162fd63de23ff25b9c6630.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Complete 100 matches",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "GAMES_PLAYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GAMES_PLAYED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "SCORE_25_GOALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/a19cbb28e60a7e6e88844e7a6adb342ea2d6f8b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/7642c081ae80fea5f833e292e22fff7062bfc34e.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Score 25 goals",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "GOALS_SCORED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GOALS_SCORED",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "SCORE_250_GOALS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/44adecb8406ca76833537a42622b4888100e25d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/5843b5ee63cf8254e726a3ced30cb7b4db264caa.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Score 250 goals",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "GOALS_SCORED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GOALS_SCORED",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "FIRST_GOAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/77d797ad9fdec5a72b52a00317129e06718baad0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/7e4c0223eb310c59032d66cd419e55e1d472aab7.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "OWN_GOAL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/1711be704a1175180345371a2312766e5eb07989.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3950190/ecc6771d945ef005b934080c7cd92720ed731a65.jpg",
     "displayName": {

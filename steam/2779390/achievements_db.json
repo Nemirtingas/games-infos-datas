@@ -1,7 +1,7 @@
 [
   {
     "name": "START_GAME",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/c2e52283bd5a311dd213a2b828d5d3c012d2c9e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/c4e854ae017f2941f99e81bfc40334650b89eda6.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "DESTROY_FIRST_ROBOT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/df74aa8f8ed3901a16e2b07e8e8c427cd5308fbb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/4734e17231de0ea1d6e213e877a9fa3ab28347c4.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "DESTROY_FIRST_CHUNKBOT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/9c0ffe2a38b12a0d29fd4556d86f71d4be96e183.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/5e486f86b98c31d22d3671deca6df98546c78779.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "FINISH_TUTO",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/44ab3bf13fe31274ef30e49f2e5234d493397cdc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/5e486f86b98c31d22d3671deca6df98546c78779.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "FINISH_LEVEL_1",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/778a4a0a7e9db5505cd6db236db4aaf1d2c98a84.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/6d44f8644ff3afdde7e2c403c66e2634c6f44265.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "REACH_BOSS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/c2e52283bd5a311dd213a2b828d5d3c012d2c9e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/c4e854ae017f2941f99e81bfc40334650b89eda6.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "WIN_GAME",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/018bd6df617c659492bb34989e3c4bb55ece9636.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/a17540d26332e25d9c5971abfa2d4518fa7ccd33.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "FIND_ALL_STICKERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/691d971935f6d2141b2d1ad232503b6568457048.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/4ae2ff942037316ddebcb405a2a7ed1e7b38f4f6.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Find all stickers",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "nbSticker"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "nbSticker",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "FIND_ALL_LOGS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/e1d3498585f6aa9f8ae5e9148a8167f2236f8fa9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/7262ec5b662df785b63c9e670ee12d953ce79137.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Find all audio logs",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "nbAudiolog"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "nbAudiolog",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "REACH_FULL_HYPE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/c2e52283bd5a311dd213a2b828d5d3c012d2c9e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/c4e854ae017f2941f99e81bfc40334650b89eda6.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "KEEP_HYPE_FOR_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/c2e52283bd5a311dd213a2b828d5d3c012d2c9e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/c4e854ae017f2941f99e81bfc40334650b89eda6.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "DESTROY_ROBOT_WITH_MACHINE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/93d2be890eda57486aefb7c83bcf956889e0141c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/4734e17231de0ea1d6e213e877a9fa3ab28347c4.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "DESTROY_VIZBOT_WITH_BOX",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/e1d3498585f6aa9f8ae5e9148a8167f2236f8fa9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2779390/7262ec5b662df785b63c9e670ee12d953ce79137.jpg",
     "displayName": {

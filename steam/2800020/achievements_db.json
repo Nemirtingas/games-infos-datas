@@ -1,7 +1,7 @@
 [
   {
     "name": "HARMLESS_SAMURAI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/520516238bde3e26ed17e6501f8c0959df11423b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "STAINLESS_SAMURAI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/aa3a17bd546a15ec8224adbc88509ce8955b015e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "SUPER_SAIKOU_SAMURAI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/b0b156fa762a54560518826683bfde82dcf02d3f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ON_YOUR_LAST_LEGS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/bb491c1e345d2170780d6b9377740dba4185fa1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "GO_OUTSIDE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/1208c889164a7c04976a494bb16324e9fbbc794d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Get an SSS rank on all main and bonus levels.",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 127,
-      "max_val": 127,
-      "stat_name": "SSS_BITMASK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SSS_BITMASK",
+        "min_val": 127,
+        "max_val": 127
+      }
+    ]
   },
   {
     "name": "TOUCH_GRASS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/a92f00f852f6caf1f779acb5d2c7d892bee098c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "5 hours spent playing the game ",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 18000,
-      "stat_name": "TIME_PLAYED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TIME_PLAYED",
+        "min_val": 0,
+        "max_val": 18000
+      }
+    ]
   },
   {
     "name": "NEVER_SKIP_LEG_DAY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/78e456dba6175261768401a8388ac05bc89d9423.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "HURRY_UP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/89b0005ddb05a70726874b603a0982bbbe2bbe2b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "PARRY_THIS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/cc7335687f098c73e87171553d34d6d06f16cc55.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "FRIENDLY_FIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/007db9cd42101a05eb3dc53d6c6f3547b89a6d14.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "FLY_LIKE_A_SAMURAI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/787718dae2c80da438cba0e1c873bae36742997e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "SUPER_SAMURAI_BROS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/50cbc8ace85f2711e36659a966f6f70272706357.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "YOU_CAN_PARRY_NUKES_NOW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/bbcf4d8ed56b325fa5f156d7b353d0e9fca4fd00.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "RUNNING_IN_THE_NINETIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/57049cd9fa4fba7c6479096b17eef034920c99e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "SPEED_O_SOUND_SAMURAI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/030532b2c0d39e0e8c58143e76606ed68c7fda31.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "MOM_GET_THE_CAMERA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/8d2d442e5298ef1004f9c89d87c072cdd1da61f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "FIRST_BLOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/d8c20cf004807d12a9750c2879c35a1491e05ecb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -249,7 +253,7 @@
   },
   {
     "name": "INFILTRATOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/a3e25a10f6b4fbc80c6cec3286bb2ab374a59b85.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -263,7 +267,7 @@
   },
   {
     "name": "CASTLE_CRASHER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/6db08ca1e0f1babf26837168859e07fc8b89d3f6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -277,7 +281,7 @@
   },
   {
     "name": "HALT_THE_PRODUCTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/689cb8021070a41840ce42525a1b1dc344f8c1d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -291,7 +295,7 @@
   },
   {
     "name": "FIERY_ESCAPE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/b0660e596ebd82cf8c68bec9309aeb5818b9e29a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -305,7 +309,7 @@
   },
   {
     "name": "SAYONARA_SAMURAI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/d9a637876befefb30acf96b2bcc25ee79fbcebc6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -319,7 +323,7 @@
   },
   {
     "name": "ONE_KICK_MAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/13306f2b90367c266bdb6f7bb6d860a5085f038c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -333,7 +337,7 @@
   },
   {
     "name": "RAGE_AGAINST_THE_MACHINE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/72ecb02307af08247a394eb64d1bb9287bfcd6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -347,7 +351,7 @@
   },
   {
     "name": "SHINOBI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/9115c9379816580e80f24adb4e618d3793e426da.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -361,7 +365,7 @@
   },
   {
     "name": "VENI_VIDI_VICI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/7e5fa827e80f8530046eb3997bff8ad2607cead7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -375,7 +379,7 @@
   },
   {
     "name": "END_OF_SERVICE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/74419dda882471dfcebbc2c9f386f340e1cc4e1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -389,7 +393,7 @@
   },
   {
     "name": "PANDEMONIUM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/ad11a169d5b5cb144da23a1fcb87ddcb2fe682d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -403,7 +407,7 @@
   },
   {
     "name": "SEE_YOU_SPACE_SAMURAI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/7d61df72bfd151579170c556eecfec7e67758256.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -417,7 +421,7 @@
   },
   {
     "name": "LEGENDARY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/0c95dbe90f4478bbe1cbccabf7599d035d3f5e1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -431,7 +435,7 @@
   },
   {
     "name": "WHAT_POWER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/b6cdd64f744cc807b046fd30f8bc569f51891203.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -445,7 +449,7 @@
   },
   {
     "name": "PITCHING_MACHINE_FROM_HELL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/107563a7861dbedab0a892682a39966a94a5be7d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -459,7 +463,7 @@
   },
   {
     "name": "ASURA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/db091a4207535ce3f7057962db48251cdd041308.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -470,15 +474,17 @@
       "english": "Kill a total of 300 enemies.",
       "token": "NEW_ACHIEVEMENT_2_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 101,
-      "max_val": 300,
-      "stat_name": "ENEMIES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ENEMIES_KILLED",
+        "min_val": 101,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "FULL_COUNTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/686e45e6b3dff612314650b176cb299a96e8b4c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -489,15 +495,17 @@
       "english": "Parry a total of 50 attacks.",
       "token": "NEW_ACHIEVEMENT_2_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 26,
-      "max_val": 50,
-      "stat_name": "PARRIES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PARRIES",
+        "min_val": 26,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "YOU_CANNOT_PET_THE_DOG",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/33d152aeb51cf15e02ca0f816c34573a376b0bcc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -511,7 +519,7 @@
   },
   {
     "name": "STRIKE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/2d5d14a156d379fdeaccfd795403ce7b8e7d1097.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -525,7 +533,7 @@
   },
   {
     "name": "HEADLESS_SAMURAI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/c008ff19bda6d191c0a5351fee4434f97681a0a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -536,15 +544,17 @@
       "english": "Die a total of 100 times.",
       "token": "NEW_ACHIEVEMENT_2_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 51,
-      "max_val": 100,
-      "stat_name": "DEATHS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DEATHS",
+        "min_val": 51,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "NAH_ID_WIN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/706481dc9e8326a6527ac6c92e2c2b9f8234688e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -558,7 +568,7 @@
   },
   {
     "name": "BAD_MANNERS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/4f0413d42cd26c0f7e69912626dd27c6e1e9ca39.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -572,7 +582,7 @@
   },
   {
     "name": "BABY_SAMURAI",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/bc8e3c7844f5e5eb1af4057a80ddd65bc1292378.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -586,7 +596,7 @@
   },
   {
     "name": "WARRIOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/ebf20c9c99ee5cab012cde0108a83cbd2c4cdb23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -597,15 +607,17 @@
       "english": "Kill a total of 50 enemies.",
       "token": "NEW_ACHIEVEMENT_2_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "ENEMIES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ENEMIES_KILLED",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "WARLORD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/7d2a66e4fab02d0ef07ded4bb75032a0a45f4948.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -616,15 +628,17 @@
       "english": "Kill a total of 100 enemies.",
       "token": "NEW_ACHIEVEMENT_2_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 51,
-      "max_val": 100,
-      "stat_name": "ENEMIES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ENEMIES_KILLED",
+        "min_val": 51,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "LEG_BEFORE_WICKET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/fef0f551f038bfe93de1a8bf92154c239008ef35.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -635,15 +649,17 @@
       "english": "Die a total of 25 times.",
       "token": "NEW_ACHIEVEMENT_2_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "DEATHS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DEATHS",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "KICKING_BAG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/d07440f9d9ce54d020c7408187b5cd8ef64163a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -654,15 +670,17 @@
       "english": "Die a total of 50 times.",
       "token": "NEW_ACHIEVEMENT_2_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 26,
-      "max_val": 50,
-      "stat_name": "DEATHS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DEATHS",
+        "min_val": 26,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "UNTOUCHABLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/c17f18a34bfa035def5306a7fa8815fc1656a0e7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2800020/45a8a32676482f5944ba5d320ba808dac121e194.jpg",
     "displayName": {
@@ -673,10 +691,12 @@
       "english": "Parry a total of 25 attacks.",
       "token": "NEW_ACHIEVEMENT_2_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "PARRIES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PARRIES",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   }
 ]

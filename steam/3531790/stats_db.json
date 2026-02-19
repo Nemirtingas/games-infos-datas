@@ -1,34 +1,35 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "SevenRolls_SevenRolls",
     "displayName": "SevenRolls",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 5,
+    "min": 0,
+    "max": 777,
+    "default": 0
   },
   {
     "name": "Winstat_Winstat",
     "displayName": "Winstat",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 999,
+    "default": 0
   },
   {
     "name": "Party_Party",
     "displayName": "Party",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 2,
+    "max": 5,
+    "default": 2
   }
 ]

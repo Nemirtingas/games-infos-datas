@@ -1,7 +1,7 @@
 [
   {
     "name": "FirstStep",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/d847c19acf5411dd44758de3f93c09b11ca7e90c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/87081585a90aaa44e88bbffa630a81e324d6deeb.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "AimToTheGoal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/7ffdf5aa6114069091db0c33ad4175af2f8de94f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/a0f9c9641608770a34e3bf5edc8a6adf5a3e232d.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ADistantTime",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/e69569c88752fa769635c2d7adf7ccca7eb4cd4a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/db694d5fe68b99a9354e7a1b1257f7aab72b26be.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ADistantLand",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/3e48c84d6cdf79967261ca162498f0603a3789de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/f161a25868c846ecbf373ba0732cbc7229f293cf.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "KnightVersusKnight",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/01e0936894b9ed6811414336a6893f17edc5d57d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/b9529d99749eaf0d832d1a5b6283384d68112183.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "FirstHalf",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/5e9624c4ebff581e30a6a7dab421dd870de859d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/768c720556b39025fe1117802f63962458f310a3.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "FiercefulStrife",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/9884e4dacedaed6161077949c57d24e3692f8825.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/312bbe6f5b4ec0fea5572bdf2de18f85fc33d311.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "WhoPromotesFirst",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/38379455eff2fb5c71325a6b1d2d5d5455656db0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/8041335d3e76c739e5aaedaa7dbc41bdff1e642d.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "NoMoreMrCapybaraGuy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/34b9325b75a5b4765fe1de9d9de45f3af0d25728.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/2cfd4e9286eca524551eafa883f9033b780b2ecd.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "FirstOfMany",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/817c0ec839d0da1a9ba184e27c11d39f48124f06.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/5f838dec91ef37a249b6f7bff6f7f23f6091bf56.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Obtain your first piece",
       "token": "NEW_ACHIEVEMENT_12_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "PiecesObtained"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PiecesObtained",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "FarmExpert",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/f5d77921bfd1e0d2094747e45d2fbe3b21ea5d52.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/b101f21670392212daee83b36c3ba882fadc7c79.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "SoccerExpert",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/b9a96f514c6ca392a605947af65ff4071cc0d746.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/4b8c1c93f9e1023a0d7f2d038c031b2f6292b743.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "SamuraiExpert",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/0f6ae349cfe330bd5d6b97778714a4788b813b7c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/80881ef9aa595eff5fa3691d68ed9d48f3940899.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "DragonExpert",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/8ca18dfb0ab78e5087307cfd1ecc2b74d446fc52.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/2cb0fa6b17f93e5ce844d905d8de86fcfcd62424.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "KnowledgeConversion",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/df68c2d3a5a839ac4420b607e0a0000e9ec437e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/f583c64a73c649693e7087fb86f7658efae0e479.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "NotABeginnerAnymore",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/7e12e29d977bf0ffeb799487db155cde25102362.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/34a3c9b8bfdaf25f408e921f1c946b5482b046d9.jpg",
     "displayName": {
@@ -230,7 +232,7 @@
   },
   {
     "name": "GetOffMyLand",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/357c199de987f1394dffa5b395418deb97f3b521.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/23757adf4db0a6e24d9d93aa5923a6ec32a06d8e.jpg",
     "displayName": {
@@ -244,7 +246,7 @@
   },
   {
     "name": "OneNil",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/73a7056003be8e57755c0939430baa674aefc15c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/7bafb0ca9d0ae7de56f1adb1ccac337d8d2ebaed.jpg",
     "displayName": {
@@ -258,7 +260,7 @@
   },
   {
     "name": "QueenSupremacy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/7b68c62a02b3864022563ad941774b75f3ec78da.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/b6b2518e6bcb9dc9f33febc6f3285a007cf937dd.jpg",
     "displayName": {
@@ -272,7 +274,7 @@
   },
   {
     "name": "PassedPawnPower",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/0078b687d5e504e9f1e468f529f3cf814df4cae2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/f6069ef4b896bb0859bb9f1188ae8312d00a8cf0.jpg",
     "displayName": {
@@ -286,7 +288,7 @@
   },
   {
     "name": "Expanding",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/982f08d449d73a5b1848fa889e8ffe0cbb6d0f4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/c3c35feba8615ead44a0d0b21090f0540155fa40.jpg",
     "displayName": {
@@ -297,15 +299,17 @@
       "english": "Obtain 5 pieces",
       "token": "NEW_ACHIEVEMENT_12_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 5,
-      "stat_name": "PiecesObtained"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PiecesObtained",
+        "min_val": 1,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "CollectingWood",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/27be20f34c3626c02ffc5d31088e9f636dd53bf1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/d0c893465e19625f94d782d3af9f6d154ec66c13.jpg",
     "displayName": {
@@ -316,15 +320,17 @@
       "english": "Obtain 10 pieces",
       "token": "NEW_ACHIEVEMENT_12_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 6,
-      "max_val": 10,
-      "stat_name": "PiecesObtained"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PiecesObtained",
+        "min_val": 6,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "RobustCollection",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/672e833401e02a39099819a8a216f8f9ee493d2f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/b5d01e6922cb4e3887a7854404b2eef5319031a3.jpg",
     "displayName": {
@@ -335,15 +341,17 @@
       "english": "Obtain 15 pieces",
       "token": "NEW_ACHIEVEMENT_12_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 11,
-      "max_val": 15,
-      "stat_name": "PiecesObtained"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PiecesObtained",
+        "min_val": 11,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "BeautifulShelf",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/6e1b135edd70580a5117fdf88d44fee82056d2be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/2f1dc03e264f2744c01b127cf4d24e64a443511c.jpg",
     "displayName": {
@@ -354,15 +362,17 @@
       "english": "Obtain 20 pieces",
       "token": "NEW_ACHIEVEMENT_12_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 16,
-      "max_val": 20,
-      "stat_name": "PiecesObtained"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PiecesObtained",
+        "min_val": 16,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "TrainingTheBrain",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/847dd4f35a86eedbc61073e707672268e96b97e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/1820ac5b8f8648e349681bfbd05668f726c279ef.jpg",
     "displayName": {
@@ -376,7 +386,7 @@
   },
   {
     "name": "FoodForTheBrain",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/f6a5e53ff73f4982579917f6eef9f3fd33a4985c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/b1cbf21d42d192ac499ca5608d51f851911aaa3d.jpg",
     "displayName": {
@@ -390,7 +400,7 @@
   },
   {
     "name": "MentalExerciseOfTheDay",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/d8d9e2e0f792e2c0e1a0c24d6e53190fbe561281.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/4e658faf9106de20ca609bb300f2cc91954b5a75.jpg",
     "displayName": {
@@ -404,7 +414,7 @@
   },
   {
     "name": "MentalExerciseOfTheWeek",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/e1137509f666e954f9429868b5ea5fc398c853eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/b90b2124d7844241389d0e68a3d402675cab2f78.jpg",
     "displayName": {
@@ -418,7 +428,7 @@
   },
   {
     "name": "ALandOfTomatoes",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/1a765cdecf4b7c96f0f069bd72d79ce41eb5ab7d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/62a2954ec6f0c4fb6e95b40ba7225aa3903d5531.jpg",
     "displayName": {
@@ -429,15 +439,17 @@
       "english": "Complete all Farm Life levels",
       "token": "NEW_ACHIEVEMENT_12_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 24,
-      "stat_name": "FarmLifeCompletedLevels"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FarmLifeCompletedLevels",
+        "min_val": 0,
+        "max_val": 24
+      }
+    ]
   },
   {
     "name": "WhatAGoal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/3424d5fdc83586583af38f1ee2bfbaa9dc4123fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/8f8ed8f825d9efdef1f6987640176c3a2725450d.jpg",
     "displayName": {
@@ -448,15 +460,17 @@
       "english": "Complete all Street Soccer levels",
       "token": "NEW_ACHIEVEMENT_12_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 22,
-      "stat_name": "StreetSoccerCompletedLevels"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "StreetSoccerCompletedLevels",
+        "min_val": 0,
+        "max_val": 22
+      }
+    ]
   },
   {
     "name": "TaintedSword",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/d65c8a8bf04543d0d6de4d54a466ca83a0738073.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/5263454a7198d3b021bf9d17fd2f23eede4960cf.jpg",
     "displayName": {
@@ -467,15 +481,17 @@
       "english": "Complete all Lady Ronin levels",
       "token": "NEW_ACHIEVEMENT_12_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 32,
-      "stat_name": "LadyRoninCompletedLevels"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LadyRoninCompletedLevels",
+        "min_val": 0,
+        "max_val": 32
+      }
+    ]
   },
   {
     "name": "NoArrowInYourKnee",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/e6e1b090fbb4d7965210f9502d0b2eeac07b48d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/51bef2d08bee0c043e7801593082c1ed823f6c26.jpg",
     "displayName": {
@@ -486,15 +502,17 @@
       "english": "Complete all Dragon Slayers levels",
       "token": "NEW_ACHIEVEMENT_12_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "DragonSlayersCompletedLevels"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DragonSlayersCompletedLevels",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "TheGrandfathersFarm",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/d0147330a8a0ad8227cbb158506971697678898e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/5709ecb25577570dd09fe0da5813c0ceebe5ddb5.jpg",
     "displayName": {
@@ -505,15 +523,17 @@
       "english": "Complete all Farm Life challenges",
       "token": "NEW_ACHIEVEMENT_13_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "FarmLifeCompletedChallenges"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FarmLifeCompletedChallenges",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ReadyForWorldCup",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/d76bbcc09c8ef7740e2c682728fc99400851141e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/ce74a61cffc706586cf260bf46144899f295556d.jpg",
     "displayName": {
@@ -524,15 +544,17 @@
       "english": "Complete all Street Soccer challenges",
       "token": "NEW_ACHIEVEMENT_13_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 24,
-      "stat_name": "StreetSoccerCompletedChallenges"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "StreetSoccerCompletedChallenges",
+        "min_val": 0,
+        "max_val": 24
+      }
+    ]
   },
   {
     "name": "KatanaMaster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/8ae744c057e5070779e1a0b6ff24c12ba2e2c6be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/9bf2db7e4cec8cb82b0c376ce329ff78943e3d55.jpg",
     "displayName": {
@@ -543,15 +565,17 @@
       "english": "Complete all Lady Ronin challenges",
       "token": "NEW_ACHIEVEMENT_13_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 34,
-      "stat_name": "LadyRoninCompletedChallenges"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LadyRoninCompletedChallenges",
+        "min_val": 0,
+        "max_val": 34
+      }
+    ]
   },
   {
     "name": "AntiDovahkiin",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/a9ada7d2576d02a30e3776ce8f0e389c212634be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/9d321e525c4548ab975903e69baec400fe0b50a8.jpg",
     "displayName": {
@@ -562,15 +586,17 @@
       "english": "Complete all Dragon Slayers challenges",
       "token": "NEW_ACHIEVEMENT_13_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 31,
-      "stat_name": "DragonSlayersCompletedChallenges"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DragonSlayersCompletedChallenges",
+        "min_val": 0,
+        "max_val": 31
+      }
+    ]
   },
   {
     "name": "PuzzleSolver",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/841392d8db78ec5ee44e386851451b037cfdd7dd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/eb4acc12659abfcffdb80c53df37eb38f2ce7048.jpg",
     "displayName": {
@@ -581,15 +607,17 @@
       "english": "Complete 50 Campaign levels ",
       "token": "NEW_ACHIEVEMENT_13_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "CampaignCompletedLevels"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CampaignCompletedLevels",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "PuzzleMaster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/51ac17a95bbce4482cbcadff9f0b7f42e47fae74.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/245e8607a90ca2a099cf8fddc888d797a3a3c04e.jpg",
     "displayName": {
@@ -600,15 +628,17 @@
       "english": "Complete 100 Campaign levels",
       "token": "NEW_ACHIEVEMENT_13_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 51,
-      "max_val": 100,
-      "stat_name": "CampaignCompletedLevels"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CampaignCompletedLevels",
+        "min_val": 51,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ElegantSolution",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/9f02bef51ecc780cc20115a95aa3c0f402e1b51e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/2000c393d3cf89285890ae8eb9ac968c4d48eab1.jpg",
     "displayName": {
@@ -622,7 +652,7 @@
   },
   {
     "name": "ElegantVictory",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/5a72d33f386e9e53e837db3d41478f864650364d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/fb0347813d72087c0d7f72e4a0d9d336579d7fd6.jpg",
     "displayName": {
@@ -636,7 +666,7 @@
   },
   {
     "name": "WhatTheDots",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/228ee665cee69e2747ba90a8732adae0b481e8fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/5dc8c315e0b2abf9d9f811ca6378865632a9aa35.jpg",
     "displayName": {
@@ -650,7 +680,7 @@
   },
   {
     "name": "ConspiracyTheory",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/19a14e112d33a8eef91b593ff8a23ec3ff3c56ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/188e8a00c599bc64d0401a26eac2a77bdbf6ed2e.jpg",
     "displayName": {
@@ -664,7 +694,7 @@
   },
   {
     "name": "OneMoreStep",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/9a02b3099e776d1fcd7ab4c0e99fd3ca2bfda139.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/9455ce7b3978c583d21b187a6f6cd15bcd8c7f2a.jpg",
     "displayName": {
@@ -678,7 +708,7 @@
   },
   {
     "name": "Advancing",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/958b828e805d9c39125fe88d7a991c8baa042f48.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/f1c874bb3404dbb61ef18c0447d88abc9bbeb3d5.jpg",
     "displayName": {
@@ -692,7 +722,7 @@
   },
   {
     "name": "BetterAndBetter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/7bb118d93cb8e35f42ac535e2f30fa2d9a1cdd83.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/90e2a99e15ce271e2306d90f0d7ec5ca41faf7c2.jpg",
     "displayName": {
@@ -706,7 +736,7 @@
   },
   {
     "name": "MorphysPride",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/c3a8ff13e7cc29771b22120dee560c5bae530c39.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/79e163ca35f8225295b1ea06a6ad843c638d96a9.jpg",
     "displayName": {
@@ -720,7 +750,7 @@
   },
   {
     "name": "CarlsensPride",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/c04ba1bc1d1b84e6d8a81597811cccc627a6a237.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/1d8967397ad47fb527872aae837f5b11e60b699c.jpg",
     "displayName": {
@@ -734,7 +764,7 @@
   },
   {
     "name": "LastStep",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/da3e61d2514f320b460d9fcda5fec864d2b6d72d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1831830/40823e5e42acedaa3db4a5c53b6359aa79b4532b.jpg",
     "displayName": {

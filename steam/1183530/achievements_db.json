@@ -1,7 +1,7 @@
 [
   {
     "name": "FROGGY_DEFEATED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/17f54b9eab680f05c641f125fc2eb636fa15242a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/443fdc6e24a7c1e7f5b9a4621153ee678315e12c.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "POI_DEFEATED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/75bbaa2a8fc461e2dc0b1504c36e592fde688438.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/217b1aa9ff6e0fb581e744ac429c9809e083aa7f.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "CORRUPTED_HEAVY_BOSS_DEFEATED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/305cbbb2a284de40f7315c77bd935e8505c84e31.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/ce0f0b4e37472bc2615f8e4698e74427f6a79330.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "ZEV_DEFEATED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/d333f68e80bc8329f448182803a13c25a3826c07.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/2cc1391b2514fb7f230b73e84e66acb9f02eeb7d.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "ZEV_POI_DEFEATED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/5a4d3dda2f7d9a8ae70c5ce2e8339352046548bd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/5f5911b10064e4994b0e290e05d3aabbf96255e5.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "EMPRESS_DEFEATED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/657decc37da283d0dc5754d457019a36ebb9055d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/b0081cc218464532ad0e9f670dbe171f7760617c.jpg",
     "displayName": {
@@ -97,23 +97,23 @@
   },
   {
     "name": "END_DEFEATED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/dfa2b918ad2174182deef7942227a34c169866b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/097a7f0e3566e85dc170f5a8813b8a1e1a77280d.jpg",
     "displayName": {
       "english": "Go Fight Fantastic",
-      "token": "NEW_ACHIEVEMENT_5_8_NAME",
-      "schinese": "奇妙大作战！"
+      "schinese": "奇妙大作战！",
+      "token": "NEW_ACHIEVEMENT_5_8_NAME"
     },
     "description": {
       "english": "Defeated TRUE villain \"The End\".",
-      "token": "NEW_ACHIEVEMENT_5_8_DESC",
-      "schinese": "击败最终的魔头终结者。"
+      "schinese": "击败最终的魔头终结者。",
+      "token": "NEW_ACHIEVEMENT_5_8_DESC"
     }
   },
   {
     "name": "AMBULANCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/211de92ab49a270bcbace7fca0f36de2f6ac7701.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/5d493e9c62c0b8a40f3602d734d3c4784ec92c7a.jpg",
     "displayName": {
@@ -126,15 +126,17 @@
       "schinese": "使用医师复活队友超过50次。",
       "token": "NEW_ACHIEVEMENT_5_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "REVIVES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "REVIVES",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "BIG_SPENDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/93704ad439cb965a774b7a3f28ecc6e5bc7b95eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/eb60e6b5dec3b96d2c0d48d62cf56dd620ccf99a.jpg",
     "displayName": {
@@ -147,31 +149,33 @@
       "schinese": "花费超过50.000钱币。",
       "token": "NEW_ACHIEVEMENT_5_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50000,
-      "stat_name": "COINS_SPENT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COINS_SPENT",
+        "min_val": 0,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "BOLD_MOVES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/c359bbf5938af242a4312b4ff9bffb6063d7caaf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/739676cc23d352c6d96a109631a44187bfee54fa.jpg",
     "displayName": {
       "english": "Bold Moves",
-      "token": "NEW_ACHIEVEMENT_5_11_NAME",
-      "schinese": "胆大妄为"
+      "schinese": "胆大妄为",
+      "token": "NEW_ACHIEVEMENT_5_11_NAME"
     },
     "description": {
       "english": "Danced in front of a boss for 10 consecutive seconds.",
-      "token": "NEW_ACHIEVEMENT_5_11_DESC",
-      "schinese": "在任何首领面前连续跳舞超过10秒。"
+      "schinese": "在任何首领面前连续跳舞超过10秒。",
+      "token": "NEW_ACHIEVEMENT_5_11_DESC"
     }
   },
   {
     "name": "CHAMPION_OF_THE_ARENA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/d306fc9f432c0653fbcd665cb3a91e56d43d9625.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/51a328c131dd05f766ee5f80e3447dbdc45988c6.jpg",
     "displayName": {
@@ -187,7 +191,7 @@
   },
   {
     "name": "DRAGONS_HOARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/0b2ab7beee36aa03b9c7ac5e93b62de0fc9bfc57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/d2c307702e9956851cb8cb448c03e100df46b003.jpg",
     "displayName": {
@@ -200,15 +204,17 @@
       "schinese": "收集超过100种不同的陨石。",
       "token": "NEW_ACHIEVEMENT_5_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "UNIQUE_METEORITES_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "UNIQUE_METEORITES_COLLECTED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "EDGELORD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/79acd2f593fdb62e0a21e1bd618d5a02af74853c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/d01e1c3c1a6e7805b0af324bd377ce58f18bf861.jpg",
     "displayName": {
@@ -221,15 +227,17 @@
       "schinese": "使用前锋输出1.000.000伤害。",
       "token": "NEW_ACHIEVEMENT_5_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "STRIKER_DAMAGE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STRIKER_DAMAGE",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "GLADIATOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/ac76f68ec92b0b48603cd80a8c9871b8f26c46c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/feda853999b650c708b2f8b820d199bc628c286c.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "GOOD_JOB_CHAMP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/3c8f7d24ed9ca55b1a82aa6d889e343cc8fe7f1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/71a0929bf444e0e84a6fc1cc6e86e4af8622bfa4.jpg",
     "displayName": {
@@ -261,7 +269,7 @@
   },
   {
     "name": "I_LOVE_CURRY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/ffd0ab414496dbb0430a5bc833b86a3e55471ed4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/02a36bd5f10bdef2a3eaaaccef3820bce04f2d93.jpg",
     "displayName": {
@@ -277,7 +285,7 @@
   },
   {
     "name": "INVINCIBLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/739f4a65ebf53c08abaa9608a80033c90bdc0922.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/30ea435a375d1973964769b75717c18e5e80cd29.jpg",
     "displayName": {
@@ -293,7 +301,7 @@
   },
   {
     "name": "JELLY_TO_RICHES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/c7ac58ae6e1364d297e32db5ba290c4ddfc63935.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/413b01cfa417168307df83916ceb0ad94fdb46e2.jpg",
     "displayName": {
@@ -306,15 +314,17 @@
       "schinese": "收集超过1.000.000个钱币。",
       "token": "NEW_ACHIEVEMENT_5_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "COINS_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COINS_COLLECTED",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "LOREMASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/45192e7bc0751288ea9880f7700d31aa3ff90b1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/c9091dcc72ad191e0c677078fe5f6596ffa7a9dc.jpg",
     "displayName": {
@@ -330,23 +340,23 @@
   },
   {
     "name": "LOVE_STRUCK",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/91e3034c4c787187de056bd68038aaf4e15ca64f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/8281d7401a572c8f04b275311f64b5d6746149a6.jpg",
     "displayName": {
       "english": "Love Struck",
-      "token": "NEW_ACHIEVEMENT_5_21_NAME",
-      "schinese": "陷入爱河"
+      "schinese": "陷入爱河",
+      "token": "NEW_ACHIEVEMENT_5_21_NAME"
     },
     "description": {
       "english": "Looked at any Empress-portrait for more than 30 seconds during a cutscene.",
-      "token": "NEW_ACHIEVEMENT_5_21_DESC",
-      "schinese": "在任何过场动画中，观看女皇肖像30秒以上。"
+      "schinese": "在任何过场动画中，观看女皇肖像30秒以上。",
+      "token": "NEW_ACHIEVEMENT_5_21_DESC"
     }
   },
   {
     "name": "LUCKY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/25578aa13d298121201788778d1eb7473d796e22.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/d417a79ecf9f35e597cc389709caefbdecb343f9.jpg",
     "displayName": {
@@ -362,7 +372,7 @@
   },
   {
     "name": "MAGNETIC_ATTRACTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/d0d90671ecb59b661bb9f86b290fd0653563747e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/d553f212135012b65dee550e33fe575dbe9c9a59.jpg",
     "displayName": {
@@ -378,7 +388,7 @@
   },
   {
     "name": "MUSIC_LOVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/55c8c34a8383430a00d078aa735e3ae9dce43a04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/1e66105f9842a72881ada5a2966ebe39af25d051.jpg",
     "displayName": {
@@ -394,39 +404,39 @@
   },
   {
     "name": "PARTY_BIRD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/a81839b82d87771e4fb59ee74f8ab271b2fbbdf9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/ce7f2dd45d5f376510677ff008dde0070aa52c42.jpg",
     "displayName": {
       "english": "Party Bird",
-      "token": "NEW_ACHIEVEMENT_5_25_NAME",
-      "schinese": "派对达人"
+      "schinese": "派对达人",
+      "token": "NEW_ACHIEVEMENT_5_25_NAME"
     },
     "description": {
       "english": "Found the secret Night Club.",
-      "token": "NEW_ACHIEVEMENT_5_25_DESC",
-      "schinese": "找到秘密夜间俱乐部。"
+      "schinese": "找到秘密夜间俱乐部。",
+      "token": "NEW_ACHIEVEMENT_5_25_DESC"
     }
   },
   {
     "name": "PET_THE_DAWG",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/1664e9995d57434d94f876f70d14d0f9f16c83bf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/b89101ec9f28b7e35fe65d9768660f283df10ca4.jpg",
     "displayName": {
       "english": "Pet the DAWG!?",
-      "token": "NEW_ACHIEVEMENT_5_26_NAME",
-      "schinese": "原来可以撸狗！？"
+      "schinese": "原来可以撸狗！？",
+      "token": "NEW_ACHIEVEMENT_5_26_NAME"
     },
     "description": {
       "english": "Managed to Pet Bowie!",
-      "token": "NEW_ACHIEVEMENT_5_26_DESC",
-      "schinese": "想办法摸到了布伊！"
+      "schinese": "想办法摸到了布伊！",
+      "token": "NEW_ACHIEVEMENT_5_26_DESC"
     }
   },
   {
     "name": "PIERCE_THE_HEAVENS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/5d93e97d306e8777464faa9357ea87adff6d40e0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/163db0deaa580497cd1a03d20f66da685404f92a.jpg",
     "displayName": {
@@ -442,23 +452,23 @@
   },
   {
     "name": "PLAY_BETTER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/45a332373ac85cd26335c0a7e63d746abd013c3b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/c85b7ab5c3d43a1fb44cbf27137da8991f1ed22a.jpg",
     "displayName": {
       "english": "Play Better",
-      "token": "NEW_ACHIEVEMENT_5_28_NAME",
-      "schinese": "再接再厉"
+      "schinese": "再接再厉",
+      "token": "NEW_ACHIEVEMENT_5_28_NAME"
     },
     "description": {
       "english": "Game Over for the first time.",
-      "token": "NEW_ACHIEVEMENT_5_28_DESC",
-      "schinese": "第一次在游戏中被打败。"
+      "schinese": "第一次在游戏中被打败。",
+      "token": "NEW_ACHIEVEMENT_5_28_DESC"
     }
   },
   {
     "name": "SONG_BIRD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/45305a02400836b818a204b9a0a3762899bd741f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/f66b84cd960e68ccb24232e3209f29077bd87be1.jpg",
     "displayName": {
@@ -474,23 +484,23 @@
   },
   {
     "name": "SPACE_CURTAINS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/b05ce25c61f8e2feeb96db81616eaa975cc9597a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/af4cc6df3b2566f532c35b1db34cf27ed803cc7a.jpg",
     "displayName": {
       "english": "Space Curtains",
-      "token": "NEW_ACHIEVEMENT_5_30_NAME",
-      "schinese": "天幕"
+      "schinese": "天幕",
+      "token": "NEW_ACHIEVEMENT_5_30_NAME"
     },
     "description": {
       "english": "Defeated \"The End\" on the highest difficulty.",
-      "token": "NEW_ACHIEVEMENT_5_30_DESC",
-      "schinese": "在最高难度下打败了终结者。"
+      "schinese": "在最高难度下打败了终结者。",
+      "token": "NEW_ACHIEVEMENT_5_30_DESC"
     }
   },
   {
     "name": "UPGRADE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/f34a8629344e22230d96213a25e0e3f4711974f9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/88fb4b288065673d358089965edbe2c9d8e06561.jpg",
     "displayName": {
@@ -506,18 +516,18 @@
   },
   {
     "name": "WHAT_ARE_YOU_BUYING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/061299460e1d992675810f7ae375c9bafe596130.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183530/41040a6331955465a49c5eadf32af2cdfc6cfff5.jpg",
     "displayName": {
       "english": "What are you buying?",
-      "token": "NEW_ACHIEVEMENT_9_0_NAME",
-      "schinese": "要买点什么吗？"
+      "schinese": "要买点什么吗？",
+      "token": "NEW_ACHIEVEMENT_9_0_NAME"
     },
     "description": {
       "english": "Bought a Corrupted Meteorite from Cyfrin.",
-      "token": "NEW_ACHIEVEMENT_9_0_DESC",
-      "schinese": "从塞弗林处购买一颗腐化的陨石。"
+      "schinese": "从塞弗林处购买一颗腐化的陨石。",
+      "token": "NEW_ACHIEVEMENT_9_0_DESC"
     }
   }
 ]

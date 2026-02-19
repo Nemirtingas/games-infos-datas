@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_WON_W0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1376790/00ffe39e4ca308729032f517bd1b2a85dd3d55bd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1376790/0f67336fb551a73835452975995de8c389a741b0.jpg",
     "displayName": {
@@ -14,15 +14,17 @@
       "russian": "Пройдите все уровни светлого игрового мира.",
       "token": "NEW_ACHIEVEMENT_2_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "NUM_WON_LEV_W0"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NUM_WON_LEV_W0",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "ACH_WON_W1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1376790/2f6095d3dee5ec1c93dcc790aed8fb350c656e57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1376790/ef1d83414fc8fbb08a8250b397354114c1b596f5.jpg",
     "displayName": {
@@ -35,10 +37,12 @@
       "russian": "Пройдите все уровни темного игрового мира.",
       "token": "NEW_ACHIEVEMENT_2_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "NUM_WON_LEV_W1"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NUM_WON_LEV_W1",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   }
 ]

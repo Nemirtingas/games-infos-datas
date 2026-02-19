@@ -1,7 +1,7 @@
 [
   {
     "name": "ach_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/2759ca602f2a4816264e7c8d3c11513eff4b2443.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/e7ce5c106718340dec994778cbd2ee19c2ba56c4.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ach_11",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/8d16c220d8f07dde63793780f5d188c6d1c2d080.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/b4e43947d4a0534fa156280d2755e820e5f3eb0f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ach_30",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/ca76052195caadb6844df5d9347e0ab9ef15fac5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/dd1238ce922f18e7c2d4b8d2692651409e3298ba.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ach_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/48ab86b67612f31269c41effbaf77fe40d65cad8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/79202e8bc82cb87aa2a49ef0c52a42350f5de10f.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ach_escaped",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/dfb3f223ae4a1f6e11ca934e8bb4b0a726f277e2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/88a899785c49b1d4e86f8afd00cbcc3411017c0d.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ach_notsafeyet",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/fbba1259dbc57534e081d0b57f7550cb7271bc35.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/f01f5535aa9940bdc2ee20c47f47952493069207.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ach_showingsomespine",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/5aa8a185cc2e5e29250a52c569896bb83523f8d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/72e3727aea84baefd888be037a224977353819a2.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ach_aperfect10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/767dfb3935f2fbe1ab6f278234ca60a0c4ccb6be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/554f452854e2ff5227b0e062c1674102cc952506.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ach_search100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/b212fd2601458a54b913edaa9cf12daf1a087c2f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/0d2cef3d1cb0470fdb3fa74378ec6a80b419115f.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Searched a hundred bookshelves",
       "token": "NEW_ACHIEVEMENT_2_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_bookshelves"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_bookshelves",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ach_search500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/b9cf6840b34ddbe3697f1625bbaa8c76ea5c13e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/8c396b6f659bae7721a0780bed8e13045caf18f9.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Searched five hundred bookshelves",
       "token": "NEW_ACHIEVEMENT_2_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "stat_bookshelves"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_bookshelves",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ach_search1k",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/e2ec797c7eec7a7609be42bf14f17f8b25c876fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/f8f64b798378a059692e14bbece75bae9cb66166.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Searched a thousand bookshelves",
       "token": "NEW_ACHIEVEMENT_2_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "stat_bookshelves"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_bookshelves",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ach_search5k",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/f3c2ae3a541b6c09477e694a439236a5360cdd78.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/321272b5fb3db9d44503ad1157ebfd78f9c3e17f.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Searched five thousand bookshelves",
       "token": "NEW_ACHIEVEMENT_2_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "stat_bookshelves"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_bookshelves",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "ach_century",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/21379905c165b9d54eafc9967630c1def5d33b6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/8496433a1b9b0af0ae2758fb22cabf1691c9315b.jpg",
     "displayName": {
@@ -203,7 +211,7 @@
   },
   {
     "name": "ach_beethoven",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/7e5e204916c1a53f0daa8770ea834ab4fdd7d641.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/088edbe80650dd19cc9d95513317c3427f620cf7.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "ach_caught5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/36e1bfbbadc8e3257aa469a20325a47bcb104261.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/08cd32724d3c4325c4f1e8385bdc8435e5f7d595.jpg",
     "displayName": {
@@ -228,15 +236,17 @@
       "english": "Caught five times by Entities",
       "token": "NEW_ACHIEVEMENT_2_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "stat_timescaught"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_timescaught",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ach_caught10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/cd08e673763d083381c2edce4450fbd4aaa4a69f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/1cce4963cf78f0d87a5d1321fbb76c1327d3ec38.jpg",
     "displayName": {
@@ -247,15 +257,17 @@
       "english": "Caught ten times by Entities",
       "token": "NEW_ACHIEVEMENT_2_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_timescaught"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_timescaught",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ach_caught50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/084d0900dabcce146d84d2079f4eb6ab66e3b4fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/6d58a0f00a3e22761d49ddc720c1e18410e4e9bc.jpg",
     "displayName": {
@@ -266,15 +278,17 @@
       "english": "Caught fifty times by Entities",
       "token": "NEW_ACHIEVEMENT_2_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "stat_timescaught"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_timescaught",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ach_fullreturn",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/e44fa2a7aa2e554b521e780e33d88fffc2e10799.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/6bde33ee597e544e14eabd16236f4d9878e196f8.jpg",
     "displayName": {
@@ -288,7 +302,7 @@
   },
   {
     "name": "ach_alerted",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/57f257a02086eb1e3f7e161adc60d4e35d06affc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/9d0f1dabd550864080a2ec1c7fffc768a7129de2.jpg",
     "displayName": {
@@ -302,7 +316,7 @@
   },
   {
     "name": "ach_caught100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/6082ff774f467e39ee443ce7b0bdb4153ac25dbe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/3c71a868a0cf29da88868358c9981b7a2fce119a.jpg",
     "displayName": {
@@ -313,15 +327,17 @@
       "english": "Caught a hundred times by Entities",
       "token": "NEW_ACHIEVEMENT_2_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_timescaught"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_timescaught",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ach_the8pages",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/1556941042620b798802afc344811c38e54dc85d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/2806d53c36e06ce2fa2c97b526e63a6383794be8.jpg",
     "displayName": {
@@ -335,7 +351,7 @@
   },
   {
     "name": "ach_takingthel",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/972efe688113c43f4118f5a77798ee16d4200d93.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/9db47724f9b871546ab8f9fe4142aec560241f5e.jpg",
     "displayName": {
@@ -349,7 +365,7 @@
   },
   {
     "name": "ach_40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/e3bcdcfdd6a33c96ea04d507b8521a9e4d3f1678.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3788390/61fd3b95e3b57683b5813d0e6058b2452292615f.jpg",
     "displayName": {

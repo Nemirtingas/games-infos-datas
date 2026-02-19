@@ -1,7 +1,7 @@
 [
   {
     "name": "BASE_WIN_GAME_AD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/d1d4fa78e2cdbcc82a7a9bb07d4b5782f7951154.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/99e64f17d0fe8ebe4a7885f2f3dbb9a999d18c8e.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "BASE_LOSE_GAME_AD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/f5de7da88234cb6934fba83a6f76646682fab6f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/90802396ea1872782281f5a4b8b245c629f6ee5b.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "BASE_LOSE_GAME_AS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/2d68d9dd0f25cd0b2d7b819f644a677dc96fb3f6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/f203a6f9ccb204a7ce79b4987be8d8d999c47da8.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "BASE_WIN_GAME_SL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/9e84d1ba58fd7b5a2f8b9e9ce91062702ecdd809.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/b0a15fdc7f51a28db5847dfc0fdcc48e3a6f31b5.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "BASE_LOSE_GAME_SF",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/d5eb4da76510ad28bca01677ef6e5727fde278ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/0ffa8ad772ff6ed42930923ecadac0e853d2cbe0.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "HIDE_FIND_SS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/473bc5fd709d76398f210b532c2b34ac44fe45b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/bc3cacd8b0de22705bdac495eece8c7429d3cb22.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "BASE_WIN_GAME_FT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/11f7585cf245048cb34ce5d357b00519817dffa1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/2352d92c9b6431ea6043897cc31c9e99a9061b72.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Win forty games.",
       "token": "NEW_ACHIEVEMENT_3_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "COUNT_WIN_GAME_FT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COUNT_WIN_GAME_FT",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "BASE_LOSE_GAME_NT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/211ab07edbf22bebe47aac0afdd4c49fe35bdb59.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/bea6169b089d5ee230c367dd88cbf4c0807a9c60.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Lose nine games.",
       "token": "NEW_ACHIEVEMENT_3_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9,
-      "stat_name": "COUNT_LOSE_GAME_NT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COUNT_LOSE_GAME_NT",
+        "min_val": 0,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "BASE_HOUR_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/2685ae779af8c682f6ffbe0df8583e8c10c7e5c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/51f72dfdbb75df787ce7271e6bdce1bb4ba78c25.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "BASE_HOUR_02",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/07aae75fc26d206ea6e5bd468363cc3bbbbe9f8f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/ce1b450695370a9917623071ab56574fd457b111.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "BASE_HOUR_03",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/440844ba746d877993a0d6873c64b30b25587364.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/80165f442001fd89924e8c2b8c16f03c58ffd93b.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "BASE_HOUR_04",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/44ea12b433ba7fa020319f316264c1201aa911c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/9e7fe2d7627f59b4bd29bcc175e5e30bf5ad2587.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "BASE_HOUR_05",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/29202c41dbdbbd8c1db258513a44be480a05318e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/21655d7ae3276b762d81b1f88160ec48a9f2bfe5.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "BASE_HOUR_06",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/4b990994d374473bfcc87a434cd43ae9cca5b8a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/77f3c87948cdd18280c7b621f75ff5517f0adff0.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "BASE_HOUR_07",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/d082281fd48a8c557b623b20f1315a90474d577a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/7b3d0a814a28a9ab8090703cf6ab4dbe5669597e.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "BASE_HOUR_08",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/bebdcec5b9e126de9c67d81384dfdb4c4d452a3f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/0b90b7a21097476ceb029b71c09cb0702045ace3.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "BASE_HOUR_09",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/e8e26705b6fa9d60c38ed65562ee09577ec7c781.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/66494e6f007469ecf9efb814057cfe7309327af7.jpg",
     "displayName": {
@@ -249,7 +253,7 @@
   },
   {
     "name": "BASE_HOUR_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/687afa773dcb86db3cb95f62c29b43fba712d490.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/a439d3724a725c16f29d015d57401078e8ec378c.jpg",
     "displayName": {
@@ -263,7 +267,7 @@
   },
   {
     "name": "BASE_HOUR_11",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/f217a53241be650e570ef5612e257e34d3ee529e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/2aa4e37036d0922d3b9c16d9f36b748286401aa2.jpg",
     "displayName": {
@@ -277,7 +281,7 @@
   },
   {
     "name": "BASE_HOUR_12",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/69fe81bd113cb3562d30ebdbe1be913040260aec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/876e80f08e128e96ec1fced672c444167e460da4.jpg",
     "displayName": {
@@ -291,7 +295,7 @@
   },
   {
     "name": "BASE_BOARD_WOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/869511d0fce345409f140f1a1c385a106609e895.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/f009d925c5318cf53818a569f6bd5ff6023dab1a.jpg",
     "displayName": {
@@ -305,7 +309,7 @@
   },
   {
     "name": "BASE_BOARD_FAIENCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/ba07c80ed425bf9baaf1699001bf46d1d1adb0d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/e7419ef9e8b958b5f82531cd6113f9bd18081e41.jpg",
     "displayName": {
@@ -319,7 +323,7 @@
   },
   {
     "name": "BASE_BOARD_ACACIA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/2f9ea2aadb8ff3f3a7fe57a8b738efc9a0387664.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/30628b9653606f47cea862a765d09e41cb45b916.jpg",
     "displayName": {
@@ -333,7 +337,7 @@
   },
   {
     "name": "BASE_BOARD_IVORY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/67ffbb80d1f43d45ccc6bab06638deba068f496c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/c79b8f55c1e7ddfa79ada06a39a4777abb99d5e5.jpg",
     "displayName": {
@@ -347,7 +351,7 @@
   },
   {
     "name": "BASE_BOARD_EBONY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/2a9736ebab886a80e6f125044e3eb839eedb7ae3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/c7ae5ceeaa8fee7276d86175c1f6d3b8e765ad5f.jpg",
     "displayName": {
@@ -361,7 +365,7 @@
   },
   {
     "name": "BASE_ACTION_DE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/b3dd9d7a90812c405eefe9d595073a89dfcc761c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/09f3ac2f2e335395779944b47f58b112b0c6b8d4.jpg",
     "displayName": {
@@ -375,7 +379,7 @@
   },
   {
     "name": "BASE_ACTION_PT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/2cff826e656559a1ca6fc1030d2d61ed12a6c65a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/3676ed4618e96a84263885634d8e148af7a4a3b9.jpg",
     "displayName": {
@@ -389,7 +393,7 @@
   },
   {
     "name": "HIDE_ACTION_EW",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/4f240a34ad326276f4da2b8d86a4600b827193b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/76bf705211e68a0ecb7b7449cdbfb34faa28789f.jpg",
     "displayName": {
@@ -403,7 +407,7 @@
   },
   {
     "name": "BASE_ACTION_DP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/5828c3479de99e0a61b1775b42d1e41adf0fc2a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/33855126b403728cee9e6d008fd1c047cbd95639.jpg",
     "displayName": {
@@ -417,7 +421,7 @@
   },
   {
     "name": "BASE_END_LB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/cafaf1bb7f87d53d2b177d7d1c831412f5f4b709.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2094480/9290081468729efd2b9e1ed2697a54dc33725b40.jpg",
     "displayName": {

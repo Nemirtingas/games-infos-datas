@@ -1,7 +1,7 @@
 [
   {
     "name": "achieve_met_mushroom_king",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/2970343f076deb3e01d23f86a927ccb9769379dd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/c66a39b146ee625783880c789cc299cc33e66598.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "achieve_met_great_flutterer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/44350f3461f790947ad8d5636fa8fce007916bd5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/9843a705c3ec1a22909ec9ef2b51156e37ca37fc.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "achieve_avoid_100_mushrooms",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/e01997184eef7a86be319971bc377fd2da275365.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/bb609ceba3047b7917921f71b20b92d87abbc044.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Avoid 100 Sporelings",
       "token": "NEW_ACHIEVEMENT_2_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_MushroomsAvoided"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_MushroomsAvoided",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "achieve_get_double_jump",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/faf84a6a7e13eaf77e91d1f059fbc7d1a0f257b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/5eb0ca15194f97f93102bf315058ee5fe80b27eb.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "achieve_king_jumper",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/faf84a6a7e13eaf77e91d1f059fbc7d1a0f257b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/5eb0ca15194f97f93102bf315058ee5fe80b27eb.jpg",
     "displayName": {
@@ -73,15 +75,17 @@
       "english": "Jump 10,000 Times",
       "token": "NEW_ACHIEVEMENT_2_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "stat_Jumps"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_Jumps",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "achieve_restore_briony",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/6603d5581d2dc2599b85cbe7c2624eb6fadb215f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/773985c855ba0d08caf33b6a1d8d06d619c20516.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "achieve_ten_days",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/5a4876749c972a7158da6accea6772c8127ec3ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/be32958b459b0f4e8460955afc79253656464bd5.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "View 10 Sunrises",
       "token": "NEW_ACHIEVEMENT_2_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_New_Day"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_New_Day",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "achieve_guide_flutterers",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/566ef70e9f98f1a5f81b37b410a1adf641c9ae2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2104010/e3672301198f6d157357fd613b48eaf0be2cbc39.jpg",
     "displayName": {
@@ -125,10 +131,12 @@
       "english": "How can you be lost? The trees, are, right, there! ",
       "token": "NEW_ACHIEVEMENT_2_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_Flutterer_Guided"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_Flutterer_Guided",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

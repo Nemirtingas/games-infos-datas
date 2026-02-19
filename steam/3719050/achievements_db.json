@@ -1,7 +1,7 @@
 [
   {
     "name": "achievement_level_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719050/33f19d2ae7dc1a56c37b396f0f5eef9f38d993c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719050/63ac456a96abe560d0e9cf1292d2f78773868fa0.jpg",
     "displayName": {
@@ -14,15 +14,17 @@
       "japanese": "レベル10をクリアする",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_completed_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_completed_level",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "achievement_level_25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719050/ba489c9cd25903827ab575a58f9ec60c888ce4fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719050/f5a654651b6f79ec30ff013516f08a9e0cab2103.jpg",
     "displayName": {
@@ -35,15 +37,17 @@
       "japanese": "レベル25をクリアする",
       "token": "NEW_ACHIEVEMENT_2_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "stat_completed_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_completed_level",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "achievement_level_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719050/d0e1d3409c959aed17da9e6ab4aa44a692113b1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3719050/d30a75b3d8a945c533d7a2097446aa780b851fd5.jpg",
     "displayName": {
@@ -56,10 +60,12 @@
       "japanese": "レベル50まで全クリアする",
       "token": "NEW_ACHIEVEMENT_2_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "stat_completed_level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_completed_level",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   }
 ]

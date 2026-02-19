@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_BEAT_BOSS_01",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/57b8ee126f75a6434fa4b601bfefa340d2aef26d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/b8562630b7a4c7c02aa4f573484713349b80a84f.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "ACH_BEAT_BOSS_02",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/f12cfe0f9e1e06db2294ba9afea694354ce78238.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/2e24c151284d9477bea1c687dd41ae4877c07595.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "ACH_GOAL_BOSS_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/cdc1e780cdaa45d831ea0296168da67aedc29bfc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/01292a7f24c76c02639335634d7021babbb9afd6.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "ACH_GOAL_BOSS_02",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/d3156ad52114b7f3085f8a33574fc25060c9c4f9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/01292a7f24c76c02639335634d7021babbb9afd6.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "ACH_GOAL_Mission_004",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/74100e34026680ab1f6a3c94a7d38952bd9d97bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/01292a7f24c76c02639335634d7021babbb9afd6.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "ACH_InStage_Destruction_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/70263e6905a999420dc70bf39955749e92170b90.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/0d893ad74ea539c22f72687349a4b785a351d8bb.jpg",
     "displayName": {
@@ -97,7 +97,7 @@
   },
   {
     "name": "ACH_Total_Defeat_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/dfbc87f1d6d08261b0d2df6fb9153c57f0fc6b17.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/0d893ad74ea539c22f72687349a4b785a351d8bb.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "japanese": "敵を合計100体撃破する",
       "token": "NEW_ACHIEVEMENT_3_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TotalDefeat_TotalDefeat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalDefeat_TotalDefeat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_Total_Drift_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/d71a0780cc8a7487c1f4a3be052b0a49aa1bf472.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/0d893ad74ea539c22f72687349a4b785a351d8bb.jpg",
     "displayName": {
@@ -131,15 +133,17 @@
       "japanese": "ドリフトで合計30km走る",
       "token": "NEW_ACHIEVEMENT_3_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3000000,
-      "stat_name": "TotalDrift_TotalDrift"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalDrift_TotalDrift",
+        "min_val": 0,
+        "max_val": 3000000
+      }
+    ]
   },
   {
     "name": "ACH_Total_Wallrun_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/ce13a2a2471b65c9b989a9d5bc8dfe7bc20f3643.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/0d893ad74ea539c22f72687349a4b785a351d8bb.jpg",
     "displayName": {
@@ -152,15 +156,17 @@
       "japanese": "ウォールランで合計10km走る",
       "token": "NEW_ACHIEVEMENT_3_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "TotalWallrun_TotalWallrun"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalWallrun_TotalWallrun",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "ACH_InStage_HighSpeed_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/c3e73c99fd0e5a1e1ccc5393f507bb3b39381842.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/0d893ad74ea539c22f72687349a4b785a351d8bb.jpg",
     "displayName": {
@@ -176,7 +182,7 @@
   },
   {
     "name": "ACH_Total_Destruction_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/4a9d377fead83850d98b513688b105e3feaebe4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/0d893ad74ea539c22f72687349a4b785a351d8bb.jpg",
     "displayName": {
@@ -189,15 +195,17 @@
       "japanese": "合計30000回破壊スコアを獲得する",
       "token": "NEW_ACHIEVEMENT_3_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30000,
-      "stat_name": "TotalDestruction_TotalDestruction"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalDestruction_TotalDestruction",
+        "min_val": 0,
+        "max_val": 30000
+      }
+    ]
   },
   {
     "name": "ACH_ROLLING_BALL_001",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/89805f97ca55e50b350e4380c21bedc3e036d1c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/0d893ad74ea539c22f72687349a4b785a351d8bb.jpg",
     "displayName": {
@@ -213,7 +221,7 @@
   },
   {
     "name": "ACH_TRAINING_WATERFALL_001",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/53ea2cc8f5d33cff671ad6afbbb419f9e268801c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/0d893ad74ea539c22f72687349a4b785a351d8bb.jpg",
     "displayName": {
@@ -229,7 +237,7 @@
   },
   {
     "name": "ACH_BEAT_BOSS_04",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/36437f608133e2ec9eeae163f6ecc1c3ca057a3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/e411c9df3abdc653e274748bea176816bf7ce8fd.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "ACH_BEAT_BOSS_04_PERFECT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/83604f1f2b1fd20e67b77a00a381e0df98236f5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/e411c9df3abdc653e274748bea176816bf7ce8fd.jpg",
     "displayName": {
@@ -261,7 +269,7 @@
   },
   {
     "name": "ACH_BEAT_BOSS_05",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/e6b992ca504f69e78efe28ca165d057f3ae41720.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/1e59b9da09a75bbbd4bbbc44c21ef02df473c5c3.jpg",
     "displayName": {
@@ -277,7 +285,7 @@
   },
   {
     "name": "ACH_GOAL_Mission_027",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/919d41ce922ad25efd27c061136650f0b99dadbe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1556010/1e59b9da09a75bbbd4bbbc44c21ef02df473c5c3.jpg",
     "displayName": {

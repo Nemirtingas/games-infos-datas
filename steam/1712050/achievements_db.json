@@ -1,7 +1,7 @@
 [
   {
     "name": "achievement_bettertogether",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/4899731547a129bc3c3627238e27c2f670c3c005.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/b950d96ff0ca0054fbba988e6623c807c3592b4d.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "achievement_firstwin",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/412c59954d5674579395ce816fd5dabf3852459f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/d1fefadb9fde1e27d8a7a743c714d0152b893710.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "achievement_firstdeath",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/e8ee304243257e9207640c72b081c363f56a2ba2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/37616a393d90acba6684698a658d6863dc5e6af1.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_DIG_300_GRAVES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/e53e89486f7dc5cfb1fae4a827a586fc17b31bf0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/0ca58d340996071cf9f5dba675bac47144d15ec6.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Dig 300 graves using a shovel in PvE/PvP mode",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "NumDigGraves"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumDigGraves",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "achievement_isthatabug",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/a37c090dc183cbe5a2f2fe69f743d3533b6df59a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/a6ce6c0845f415b404ec53f2136b3a4ba895cd96.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_BANISH_50_WENDIGO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/5687aef7499fd6250809e8c56f0b76695dd9f610.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/60bfe2bf2b9909d05822790f2da10c6bbbe8cda0.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Successfully perform a ritual to banish a wendigo in PvE/PvP mode 50 times",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "NumBanishWendigo"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumBanishWendigo",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "achievement_trapdemon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/f1d87b98ce57b170aaf39cc0079a9c5979ae5bba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/576b5a292247e76806ce3a2c85d3e0b78d265f71.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_SOLVE_100_QUESTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/68610733b75f3b83221369b0d2d0acb4e18e55d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/bcd9660e7e89688bd149bde662b1112cafd96926.jpg",
     "displayName": {
@@ -120,15 +124,17 @@
       "english": "solve 100 quests in PvE/PvP mode",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "NumOfSolvedQuests"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumOfSolvedQuests",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_FIND_100_CLUES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/af6042344c5217d4c9f69ab971cd7aecc0d72de5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/58232b412b55725bf5ecda5fd95cab462ccdb7c0.jpg",
     "displayName": {
@@ -139,15 +145,17 @@
       "english": "pick up 100 clues in PvE/PvP mode",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "NumOfCluesFound"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumOfCluesFound",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_CROWBAR_300_DOORS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/d364dce52a9fa7e4b9a949771274ebf285cc2984.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/e2be41615887db9e46e2e2d8febd02ad10bb80a8.jpg",
     "displayName": {
@@ -158,15 +166,17 @@
       "english": "Use a crowbar to break 300 planks with doors.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "NumOfPlanksRemoved"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumOfPlanksRemoved",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ACH_TRAP_50_DEMON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/c4b37b8a117191368f7d0e527bf5acee5c8bd217.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/5c8e930375b6af9254d95013ca8c696cebe61fb5.jpg",
     "displayName": {
@@ -177,15 +187,17 @@
       "english": "Successfully use a trap on a demon in PvE mode 50 times.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "NumOfTrapsUsed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumOfTrapsUsed",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_USE_50_MEDKITS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/682a101b0fdbef598b3937564beac9ca476efa6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/872e28262a40ec9f981b3cef66a8422e1644697a.jpg",
     "displayName": {
@@ -196,15 +208,17 @@
       "english": "Use first aid kits 50 times.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "NumOfMedKitsUsed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumOfMedKitsUsed",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "achievement_wendigopvpwin",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/c2248e5a1e37915aabcc79a217028eb3ae2a8720.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/26696f562d43c774be54e802236ccb8ad0e250c4.jpg",
     "displayName": {
@@ -218,7 +232,7 @@
   },
   {
     "name": "ACH_WIN_50_PVPDEMON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/f4e37f999d3898c2b88bf83773d61c3953f0d8fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/95174237b6fe3abbdbbf6fdd1c7912f5ada30c17.jpg",
     "displayName": {
@@ -229,15 +243,17 @@
       "english": "Play as a Demon in PvP mode and win 50 times.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "NumOfDemonPVPWin"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumOfDemonPVPWin",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "achievement_hardcorebanish",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/33ff14566b698041b2698699c2c97740e6b6a644.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/9e4ce0344cb0f525558dc34da61ea0cc3f2e282e.jpg",
     "displayName": {
@@ -251,7 +267,7 @@
   },
   {
     "name": "ACH_HARDCORE_50_WINS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/236c33d7761fdfbbd108b78dd6acdbc460449bd9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/1b9fd46826c342ade32bb399bde3204ab8cda67f.jpg",
     "displayName": {
@@ -262,15 +278,17 @@
       "english": "Banish a demon 50 times in hardcore PvE/PvP mode.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "NumOfHardcoreBanish"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumOfHardcoreBanish",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "achievement_panicattack",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/eeed9dffb8c96d787ec362dcfb5c9322c5ad1a30.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/d32b84d1c6a1b69fa7950a370c5d1c6e0532a456.jpg",
     "displayName": {
@@ -284,7 +302,7 @@
   },
   {
     "name": "achievement_cantcatchme",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/7bbdbddf764829c20792d49e6879d887d87fbabe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/01445faf0c0e914f5d379a64bbf6442c6764d418.jpg",
     "displayName": {
@@ -298,7 +316,7 @@
   },
   {
     "name": "ACH_PENTAGRAM_50_SEEKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/b165ebd7cec97cac1284e4a2c3de762ab5ccaecd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/0fca719d11bdd1da31a27af09623c0d509dbcb01.jpg",
     "displayName": {
@@ -309,15 +327,17 @@
       "english": "Find the pentagram 50 times in PvE/PvP mode.",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "NumOfPentagramFound"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumOfPentagramFound",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "achivement_dannalC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/d81ddde152a07e2e885fe3eb476b832c8f816965.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/edbb5f5f22992ce682bf9025ec8ae3aa7ce18d78.jpg",
     "displayName": {
@@ -331,7 +351,7 @@
   },
   {
     "name": "achivement_Captobvious",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/ba29c18e1381d5a831bc0a6d2e000298a595ea54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/f43a595bb22bdf86b6a333f4260368643a64268d.jpg",
     "displayName": {
@@ -345,7 +365,7 @@
   },
   {
     "name": "achivement_wendigospeedrun",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/90bbce2eee39285ddc981f66bef0a560f5f5fd06.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/dd85261d2692cadb72365b048c873a56748be360.jpg",
     "displayName": {
@@ -359,7 +379,7 @@
   },
   {
     "name": "ACH_DOOR_50_BREAK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/7e13c09a0ec0646f6d86e2a3e46a374d45c3f850.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1712050/49adc8ac96afdd6770b6c64e7915c5f1115e79ae.jpg",
     "displayName": {
@@ -370,10 +390,12 @@
       "english": "Break 100 doors as the wendigo in PvP mode.",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "NumOfDoorsBreak"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumOfDoorsBreak",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

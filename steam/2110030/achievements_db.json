@@ -1,7 +1,7 @@
 [
   {
     "name": "Boss1Defeat",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/e0bdadf1aa7683536298b03f818f002f606b82ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Boss2Defeat",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/5342024cba1395574c96bb08dba35d4308b7e77c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Boss3Defeat",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/dfcc719ee60a00d71859ca8adf6396da822cfd8b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Boss4Defeat",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/e1769f723de8c9d46eac99ae34e639699c0272b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Boss5Defeat",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/758a94809f42c974c2a1767350ea17c366f9e8e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ProjectileParry",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/98c5d89569dcaee26a9c8eda48907d41b8e78fe2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Deflect 100 projectiles",
       "token": "NEW_ACHIEVEMENT_2_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "BulletParry"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BulletParry",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Boss2SpecialKill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/d801d2b96d829f17ebc8fed8a979f36942cda9d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "Boss3SpecialKill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/95055631572ca061d822fed5ab8fcc313fbf0384.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "FullNecklaceGet",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/5635a87a6435b2263a40ad3da2cc6f3c77d325ae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "AllSSSWraith(Act1)",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/ad06389d92736c107ee8374b8003a07874eebe9c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "AllSSSReaper(Act1)",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/2b81795f98a661235707b84a631e4f6b4e88b581.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "SaveAllSouls(Act1)",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/9568ab9142bb0be2a0d0ef5e588e62e5046bb979.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "Boss4SpecialKill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/c75bfb208fd4e5ca9df7ac89fee7a166245f089f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "SpecialHeliDamage",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/69363ad1600132b01e2ac2a3a970a64b2b5d56d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "Act1Ending",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/88f4b4a7238fbb9742e697f912642c25964c75b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2110030/cc75a8bbc70377773f9282d1f9d0796a9885b429.jpg",
     "displayName": {

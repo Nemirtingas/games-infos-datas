@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_LEVEL_FROZENCORNER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/6898f14608134d38655729c40e0c8c18e6f93a74.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/99bfb67295ef7ab9e2cfd63499e72b69f014700c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_LEVEL_LAVAPASSAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/b6fff18cefe7bd5f8e03edec3ad0d41b66318aeb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/61cf23cb15cddd5d7e1ef2cc5a74c87ac032e28c.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_KILL_ENEMY_TIER_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/de805b78a61932b56dc983e067e6d8df2c33ad4a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/8575bd5e77efc9f116e5fe9ad39a61d0dc2fc04e.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Dispose 10.000 enemies.",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "ACH_KILL_ENEMY_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_KILL_ENEMY_COUNT",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ACH_KILL_ENEMY_TIER_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/815d342071c60fb911549856ff99b0ffb5fc6cbc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/b065ecc571f23eaca441be07c5e16ff61e0527fc.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "Dispose 25.000 enemies.",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25000,
-      "stat_name": "ACH_KILL_ENEMY_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_KILL_ENEMY_COUNT",
+        "min_val": 0,
+        "max_val": 25000
+      }
+    ]
   },
   {
     "name": "ACH_KILL_ENEMY_TIER_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/a5c0e31bb8ce58697856ade5d766316877e4b7d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/20a3a0d3c6900db09c1bcb95a65c921cdb2f6fed.jpg",
     "displayName": {
@@ -78,15 +82,17 @@
       "english": "Dispose 50.000 enemies.",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50000,
-      "stat_name": "ACH_KILL_ENEMY_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_KILL_ENEMY_COUNT",
+        "min_val": 0,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "ACH_COMBO_TRIAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/e1ec038fc16efef1179ea3f705bd71b05661c970.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/b7f12737f6f1a34df1291b21744fad0442069a4d.jpg",
     "displayName": {
@@ -97,15 +103,17 @@
       "english": "Achieve 60 Triad Combo.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 60,
-      "stat_name": "ACH_COMBO_TRIAD_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_COMBO_TRIAD_COUNT",
+        "min_val": 0,
+        "max_val": 60
+      }
+    ]
   },
   {
     "name": "ACH_COMBO_DUAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/bf2df8207a08f17158a423132ccf6088b24f9829.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/a2b3a3714b5dbe36abe52ba27e0ac8fa746b13ff.jpg",
     "displayName": {
@@ -116,15 +124,17 @@
       "english": "Achieve 100 Dual Combo.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "ACH_COMBO_DUAL_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_COMBO_DUAL_COUNT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_KILL_ELECTRIC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/e767c6480f0ac603a578030a068fc51b102e5860.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/66893453b934c60ea3a5e0344a8c1907c90c66ae.jpg",
     "displayName": {
@@ -135,15 +145,17 @@
       "english": "Dispose 3.000 enemies with electric",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3000,
-      "stat_name": "ACH_KILL_ELECTRIC_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_KILL_ELECTRIC_COUNT",
+        "min_val": 0,
+        "max_val": 3000
+      }
+    ]
   },
   {
     "name": "ACH_KILL_FIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/d6681d9e94c367ad8110d2f4a5d522b5d6787b78.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/560db44097671edc1370b28bc78315c1395c76c8.jpg",
     "displayName": {
@@ -154,15 +166,17 @@
       "english": "Dispose 4.000 enemies with fire.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4000,
-      "stat_name": "ACH_KILL_FIRE_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_KILL_FIRE_COUNT",
+        "min_val": 0,
+        "max_val": 4000
+      }
+    ]
   },
   {
     "name": "ACH_KILL_ACID",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/66017ae0724e211861f9fb723b4efc03e0f0f23d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/fd038391ae8894d1c2775b5d7ce182534c0c02c7.jpg",
     "displayName": {
@@ -173,15 +187,17 @@
       "english": "Dispose 5.000 enemies with acid.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "ACH_KILL_ACID_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_KILL_ACID_COUNT",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "ACH_KILL_ICE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/4f71b567c93a488826f5bb1ff75d95358fa58223.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/9768fecbfbdff2160c769d402aa391d8b1a782d0.jpg",
     "displayName": {
@@ -192,15 +208,17 @@
       "english": "Shatter 2.000 frozen enemies.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2000,
-      "stat_name": "ACH_KILL_ICE_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_KILL_ICE_COUNT",
+        "min_val": 0,
+        "max_val": 2000
+      }
+    ]
   },
   {
     "name": "ACH_DAMAGE_TOWER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/16ea69bb3ea60382eeb64f31637fa9790f0dc507.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/39b0ffff8bbc5c6ca501e844065afedd0a760d19.jpg",
     "displayName": {
@@ -211,15 +229,17 @@
       "english": "Deal 250.000 damage with towers.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250000,
-      "stat_name": "ACH_DAMAGE_TOWER_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_DAMAGE_TOWER_COUNT",
+        "min_val": 0,
+        "max_val": 250000
+      }
+    ]
   },
   {
     "name": "ACH_DAMAGE_BELLATOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/07ea446cf875dd3398694961f1a3292d38b02f7d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/7457e50c22f7bab4102d898ee8d02d1f6f15906a.jpg",
     "displayName": {
@@ -230,15 +250,17 @@
       "english": "Deal 800.000 damage with Bellator.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 800000,
-      "stat_name": "ACH_DAMAGE_BELLATOR_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_DAMAGE_BELLATOR_COUNT",
+        "min_val": 0,
+        "max_val": 800000
+      }
+    ]
   },
   {
     "name": "ACH_COMBO_ELEMENTALFLUX",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/632e6dadddd7a7780e4c17b11421ee20161894a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/0b01454c5f2fcc935cd1740c61b44987ee2df6a9.jpg",
     "displayName": {
@@ -249,15 +271,17 @@
       "english": "Achieve 40 Flux Combo.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "ACH_COMBO_ELEMENTALFLUX_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_COMBO_ELEMENTALFLUX_COUNT",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "ACH_DAMAGE_TRAP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/3384c552bd5e7e9264ea5ca6cf54a5ec39c861d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/7c087e16914727add5c2e9e583db0f334ce7c978.jpg",
     "displayName": {
@@ -268,15 +292,17 @@
       "english": "Deal 4.000.000 damage with traps.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4000000,
-      "stat_name": "ACH_DAMAGE_TRAP_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_DAMAGE_TRAP_COUNT",
+        "min_val": 0,
+        "max_val": 4000000
+      }
+    ]
   },
   {
     "name": "ACH_KILL_ORIENTAL_UNIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/2ac8d92c1703d4d36f1ede25cdb035e60f329501.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/fc8f8ae23299db2a07ff9efd2affd702e6beb6d3.jpg",
     "displayName": {
@@ -287,15 +313,17 @@
       "english": "Dispose 15.000 Oriental enemies.",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15000,
-      "stat_name": "ACH_KILL_ORIENTAL_UNIT_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_KILL_ORIENTAL_UNIT_COUNT",
+        "min_val": 0,
+        "max_val": 15000
+      }
+    ]
   },
   {
     "name": "ACH_KILL_ARCTIC_UNIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/b42a7794b391e82dcc11069fbb9c51017422f9ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/6a76a1f4c9250e80cacad5bb9da6090d2b0d176a.jpg",
     "displayName": {
@@ -306,15 +334,17 @@
       "english": "Dispose 15.000 Arctic enemies.",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15000,
-      "stat_name": "ACH_KILL_ARCTIC_UNIT_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_KILL_ARCTIC_UNIT_COUNT",
+        "min_val": 0,
+        "max_val": 15000
+      }
+    ]
   },
   {
     "name": "ACH_KILL_JOTUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/3250a351fc81a4af712b8a7f032b96f24b5336d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/ecd0573eaf50687c015862fbb8108b8a4e7c50a4.jpg",
     "displayName": {
@@ -325,15 +355,17 @@
       "english": "Dispose 30 large sized enemies.",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "ACH_KILL_JOTUN_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_KILL_JOTUN_COUNT",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_CRAFT_TIER_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/9123fd4de934d95648eb48ea888ea9b47e8c8dd0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/0093662076d735e98bf375670fdc94dfea219ec0.jpg",
     "displayName": {
@@ -344,15 +376,17 @@
       "english": "Craft 20 experimental warfare.",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "ACH_CRAFT_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_CRAFT_COUNT",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_CRAFT_TIER_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/8ad1f882d226879f36251f468bfa22a137f6165f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/3906cb8472aee721db2f9af704e05b4950d9b629.jpg",
     "displayName": {
@@ -363,15 +397,17 @@
       "english": "Craft 50 experimental warfare.",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "ACH_CRAFT_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_CRAFT_COUNT",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_CRAFT_TIER_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/37b73b508e4cac207a22dbeee5cd06530bde740b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/c90a074afba5093e9ed1963e1a6d8d3829f84e97.jpg",
     "displayName": {
@@ -382,15 +418,17 @@
       "english": "Craft 100 experimental warfare.",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "ACH_CRAFT_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_CRAFT_COUNT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_DAMAGE_ITEM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/ab725fc545a5486a52617b8fa1a44520290e9dd4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/2d3f3145c319624990702265d88099ec6a3d982e.jpg",
     "displayName": {
@@ -401,15 +439,17 @@
       "english": "Deal 150.000 damage with items",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 150000,
-      "stat_name": "ACH_DAMAGE_ITEM_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_DAMAGE_ITEM_COUNT",
+        "min_val": 0,
+        "max_val": 150000
+      }
+    ]
   },
   {
     "name": "ACH_COMBO_COUNT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/d534c100467c271477633feb842b9afa20aca561.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1724770/0a052691860e27635359d006f15b6c1923655f06.jpg",
     "displayName": {
@@ -420,10 +460,12 @@
       "english": "Achieve 1.000.000 total combo points.",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "ACH_COMBO_COUNT_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ACH_COMBO_COUNT_COUNT",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   }
 ]

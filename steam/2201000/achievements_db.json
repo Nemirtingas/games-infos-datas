@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_WELL_TRAVELED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/1104de5b4d27d9b0c383e82b6acd80ee39782406.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/92e8804d86ad871256c792d80425e11a6bb1d345.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_MASTER_OF_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/713504421066e1fe523a5dac6c583286d2828a82.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/cc68b98545eab091d909ff288236abd3651ed674.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_REALITY_BENDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/531e858c8a8431b9354e885ea76d4fbc3501889f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/6ae8610d9b491a06da51a8f2d91ba1a658ffc98f.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_THE_WINNERS_CIRCLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/4d688f6ec17123d4848516564bc9bf67c5b51948.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/93d4adc3e91ef57c7fb1fbbf2b76e1eef521dbad.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_SNAKE_SIDEKICK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/329300ecb2e5ce393ca4f521c262e8f3646f020e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/e7b6ade40b7f690de0f8502fae733a93705c001b.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_DEATH_FROM_ABOVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/b024bc814ab11142a0e622e361157833ecbab6f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/257be26b80707f6191f82372115de5788d3b9c62.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_SIXTH_SENSE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/7b41edf7057b9e1bf4ce6efbb016d5646c776875.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/28e1da3496767b603ef3c8f1b8005ba16779a7d6.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_PIG_HOGGER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/759e1085eced46aad5f0a345286a3f5b8000dd1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/c3482b5f50d5be7b7b426ddf13bc8fa44d870828.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Play 50 matches at Clyde.",
       "token": "NEW_ACHIEVEMENT_41_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "played_as_clyde_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "played_as_clyde_count",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_SQUIRREL_SQUAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/66bf240402e92d7394317a01a604cf892f8fb264.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/c2c8778d74d0ad590c9e23bed7bb63e0a23f6c66.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Play 50 matches at Jolly.",
       "token": "NEW_ACHIEVEMENT_41_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "played_as_jolly_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "played_as_jolly_count",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_SNAKE_CHARMER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/c0734d2876276d94799ac92af4d0eafeb2cfbc90.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/2e2617cce32e229b52736282a6c658bd0ad42d0b.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Play 50 matches at Lewis.",
       "token": "NEW_ACHIEVEMENT_41_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "played_as_lewis_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "played_as_lewis_count",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_ALLIGATOR_CURATOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/6d61d7baffc95bf70683fe26db0b046c0a2720aa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/1e785db14dcfb80fe9716efa2ad3e29de284b91b.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Play 50 matches at Mags.",
       "token": "NEW_ACHIEVEMENT_41_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "played_as_mags_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "played_as_mags_count",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_CHIHUAHUA_CHAMPION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/bf716fd07b7dfc7b49c9cc9009f240b1ff2e8a81.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/39e5fc1f358192f6bb3b84d2f947c970ccbeb7cc.jpg",
     "displayName": {
@@ -186,15 +194,17 @@
       "english": "Play 50 matches at Pam.",
       "token": "NEW_ACHIEVEMENT_41_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "played_as_pam_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "played_as_pam_count",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_BUNNY_BUDDY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/7010147214d6d10241fd4910513272e59d96d78e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/93a977c54ed87606f7743fbcc907baf9d4753d6c.jpg",
     "displayName": {
@@ -205,15 +215,17 @@
       "english": "Play 50 matches at Poppy.",
       "token": "NEW_ACHIEVEMENT_41_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "played_as_poppy_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "played_as_poppy_count",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_LIONS_MAIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/b4e54d509860177b3c40974b7b5e7e1f59ae43ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/88877b5d04e2d4d5052fa5d2dcdc102f5fadf37a.jpg",
     "displayName": {
@@ -224,15 +236,17 @@
       "english": "Play 50 matches at Preston.",
       "token": "NEW_ACHIEVEMENT_41_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "played_as_preston_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "played_as_preston_count",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_BALLER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/007139b9b8c3f646233dad507bbea3ff12b38b78.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/d696838b7b01f6089e632cce6547ce37d1d6b56f.jpg",
     "displayName": {
@@ -243,15 +257,17 @@
       "english": "Win 5 online games.",
       "token": "NEW_ACHIEVEMENT_41_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "online_matches_won"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "online_matches_won",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_PLAY_TO_WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/946f5f4380acc481fb4076f41b955602a3cd23cd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/77264548616d75e87e7d9a501515ef345e426f12.jpg",
     "displayName": {
@@ -262,15 +278,17 @@
       "english": "Win 20 online games.",
       "token": "NEW_ACHIEVEMENT_41_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "online_matches_won"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "online_matches_won",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_TACKLER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/637931e3a9b5950084a0521b109441af9c8df5b5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/05c7ee2bb4476148bfeafdfdbd973723cad588a6.jpg",
     "displayName": {
@@ -281,15 +299,17 @@
       "english": "Tackle an opponent 10 times.",
       "token": "NEW_ACHIEVEMENT_41_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "count_tackles"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "count_tackles",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_LINEBACKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/5d8b95e6c03316d97d43f000afb243e34fd04690.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/05c7ee2bb4476148bfeafdfdbd973723cad588a6.jpg",
     "displayName": {
@@ -300,15 +320,17 @@
       "english": "Tackle an opponent 100 times.",
       "token": "NEW_ACHIEVEMENT_41_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "count_tackles"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "count_tackles",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_NICE_SHOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/68e6c2015d9d1c0f43c435fa796645786e21305a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/edf907c84164521c7efeac848f5a0c8def2b8cd7.jpg",
     "displayName": {
@@ -319,15 +341,17 @@
       "english": "Land 10 hits.",
       "token": "NEW_ACHIEVEMENT_41_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "count_hits"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "count_hits",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_SUPER_SHOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/19b8f89233c314bcee43427fdca0e2c0ad740ffd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/c2e763d7bbcb2935fa83cdb1e2cdd3b5ba28c2f2.jpg",
     "displayName": {
@@ -338,15 +362,17 @@
       "english": "Land 100 hits.",
       "token": "NEW_ACHIEVEMENT_41_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "count_hits"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "count_hits",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_RICOCHET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/d576f547a5415aba9db937bc228e00c2f8929e02.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/3d98ce7c4695319c6aa5119af33b82be1d4f3d66.jpg",
     "displayName": {
@@ -357,15 +383,17 @@
       "english": "Land 10 bank shots.",
       "token": "NEW_ACHIEVEMENT_41_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "count_bank_hits"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "count_bank_hits",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_THAT_WAS_CALCULATED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/43536c4ea9a1defde43cf0f08781c15a29d45026.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/3d98ce7c4695319c6aa5119af33b82be1d4f3d66.jpg",
     "displayName": {
@@ -376,15 +404,17 @@
       "english": "Land 100 bank shots.",
       "token": "NEW_ACHIEVEMENT_41_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "count_bank_hits"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "count_bank_hits",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_STEADFAST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/76e81369405b92161278e7ab2efbe643669a1ef8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/d04d1ddce6ef2df49c57d501af92f538786c3c7a.jpg",
     "displayName": {
@@ -395,15 +425,17 @@
       "english": "Land 10 charged throws.",
       "token": "NEW_ACHIEVEMENT_41_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "count_charged_hits"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "count_charged_hits",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_FIERCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/594d3f6541db7f6b3a0f981231952b05a6ca33de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/158086306c9dc5c6c05ce5642d53aaaad9d38ae1.jpg",
     "displayName": {
@@ -414,15 +446,17 @@
       "english": "Land 100 charged throws.",
       "token": "NEW_ACHIEVEMENT_41_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "count_charged_hits"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "count_charged_hits",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_FAST_HANDS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/98c33dfd94a820d21e1604d82fe4e044810a9144.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/68090c3448c5c791a9f9930332959e76fe5cf95f.jpg",
     "displayName": {
@@ -433,15 +467,17 @@
       "english": "Catch 10 throws.",
       "token": "NEW_ACHIEVEMENT_41_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "count_catches"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "count_catches",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_OPEN_PALM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/d1fd156931e0bebf0738727fade33f794eba5e25.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/2df1c4f3a6096784d8c7a9f3eff7d056c6c6db5a.jpg",
     "displayName": {
@@ -452,15 +488,17 @@
       "english": "Catch 100 throws.",
       "token": "NEW_ACHIEVEMENT_41_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "count_catches"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "count_catches",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_ROYALTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/6691297f2f29b9aeb3ee76ea51a4c2ea21a43fed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/8a5d534e86d754d9c1634570f690ed30272b75eb.jpg",
     "displayName": {
@@ -471,15 +509,17 @@
       "english": "Spend 5 total minutes wearing the crown.",
       "token": "NEW_ACHIEVEMENT_41_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "crown_duration"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "crown_duration",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ACH_KING_ME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/8d27002ab105a8e7fd60e7a3c76888288a729533.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2201000/8a5d534e86d754d9c1634570f690ed30272b75eb.jpg",
     "displayName": {
@@ -490,10 +530,12 @@
       "english": "Spend 30 total minutes wearing the crown.",
       "token": "NEW_ACHIEVEMENT_41_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1800,
-      "stat_name": "crown_duration"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "crown_duration",
+        "min_val": 0,
+        "max_val": 1800
+      }
+    ]
   }
 ]

@@ -2,65 +2,83 @@
   {
     "name": "MultiTime",
     "displayName": "MultiTime",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "ItemCount",
     "displayName": "ItemCount",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 30,
+    "default": 0
   },
   {
     "name": "KillCount",
     "displayName": "KillCount",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 3000,
+    "default": 0
   },
   {
     "name": "DamageCount",
     "displayName": "DamageCount",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 300000,
+    "default": 0
   },
   {
     "name": "TGACount",
     "displayName": "TGACount",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 1000000,
+    "default": 0
   },
   {
     "name": "PlayTime",
     "displayName": "PlayTime",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 3600000,
+    "default": 0
   },
   {
     "name": "Height",
     "displayName": "Height",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": -300,
+    "max": 3900,
+    "default": -300
   },
   {
     "name": "ClearCount",
     "displayName": "ClearCount",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 999,
+    "default": 0
   }
 ]

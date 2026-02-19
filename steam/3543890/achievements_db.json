@@ -1,7 +1,7 @@
 [
   {
     "name": "first_timer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/e17148b71298ee46875410a47e216e3af418d06f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/5b105d974b0f2a0710e87fd28086bd9fb41e73e5.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "equip_cosmetics",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/dbc7a494a556683fa44518da88eeaa1ef9e3f6d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/73f0431f104e8d4cbfeafce5d8245ad8b6b33f00.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "reach_checkpoint",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/acdaa63c2c51dcdb17e3d0706cff0be2dd90bf45.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/072e4f948f97f599cc698864dbda7753e4567e21.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "first_death",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/678e1987e915cef7e0a4714faea760264e05c9b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/f38f6baa97c4941d772a7cba71deef4d572b67d9.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "easter_eggs",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/0ab6f5b950d63f8128dc0b772e9d187b6420c574.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/1b8a52bfca4e653da6ebe7f1062a9d6ffffe6ad0.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Find all the easter eggs.",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "EasterEggStat_EasterEggStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EasterEggStat_EasterEggStat",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "finish_game",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/a4afc820c360f8dcbd589389da4e6a9c80bc9f9f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/9382d715ac89d017cc4cfee742ac6bce80591055.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "all_achievements",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/d9219f0a552e1a3f48a9512891b43ebe9d78f792.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/f7e56ad7ba02fedf5c51ef47ccecd81f20636b03.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "finish_parkour",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/f1b5ef8b7c2b3936f0e26f6dca8629e798618206.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/f07215351a87aca88b80e28bd698467bc5a96372.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "defeat_pirate",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/c539ac2484d223a26baa0355bf752be9b06a5dea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/bb56295ab906f44d2b7db58e81cb891345ac482d.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "defeat_carno_plant",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/4c284ca9a326a87ecb903d9ccb74578ddeb5a7dd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/add157cbbca7bbc4ce23643b93bb66d077eaba8a.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "reach_mushroom_island",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/6fd9d61dee454d89bacbf329e8a31321d83c0de3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/846993121479449b47be9f2013ebb4c9d92e1964.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "ride_jet_ski",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/4ec9af644597d6678494a3bdad921980e02fb39c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543890/9d320b686cf432ccd4dab13ac586a7caa8e26db8.jpg",
     "displayName": {

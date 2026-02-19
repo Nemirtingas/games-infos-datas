@@ -1,7 +1,7 @@
 [
   {
     "name": "FF_Welcome",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1506680/6c09404196cd6402904b8aea49612fc74cf53802.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1506680/6e0f1ce38fe106952ef636f3c2df13b1d5f14be6.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "HT_FirstSoul",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1506680/b4025a3207d4b50ed140dc086076be8a997a1293.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1506680/40c3c76b9eeb40b96f0c39b734bcd7765e345d3b.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "HT_100SoulsNew",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1506680/b15461fc7d34fa5951ae0362e7a4d259d64806f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1506680/44a5c7221d5ecbd9710d54d1573e79022d8a76ef.jpg",
     "displayName": {
@@ -40,10 +40,12 @@
       "english": "Collect 100 Souls.",
       "token": "NEW_ACHIEVEMENT_2_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "HT_TotalSouls"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HT_TotalSouls",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "campaign1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/3b4360cfc17801e0f85a33ddd5a4cf16982dd1a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/c256a8c852fe225b7aca7702c6c002f389741f92.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "campaign2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/47063ef44d89d412783a84c5ef3d0c759061ce2a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/4c666a8bc4dcc52c4c8a9d2403fb00fc8e0a5b42.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "campaign3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/943607d6b3a83d9995d96144376af50e10258e7f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/2390c11efd52bd0d62b990339f70a64e094b2c13.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "last_morale",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/54d6ec99603c48f122f72225d554ad0149df037b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/31c7eff688ec5790345668246440b8198b27f9fc.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "no_hardknocks",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/3c5a7db8060c5be00dfe6fbee22454d9d00e8d27.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/27fab69243d01fefeba5135da9bd4b831a09a74c.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "christmas",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/7a672119e262ad0e4ff69ee86d6fb4c3e3ec6fc0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/c5633cc2ade4ce8bfcc90c6e749033e4ca62fe61.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "every_grizzled",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/9bfa4e0f8f56e95097c2e6e4f53b877ca8028001.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/e5c5b93d2f537877cfb22293a899a6b629c99db2.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Win a game with each Grizzled",
       "token": "NEW_ACHIEVEMENT_3_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "grizzleds"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "grizzleds",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "tutorial",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/3e252eb87f1fe3ea59f82cdf9a7d8dc4d28e103e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/802854a3fa33a3ff6ec78cd517f90bd09a017884.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "oneshot_veteran",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/6ae211d2a8d8050b1770e7a365149937d02df878.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/22d32718fcae2f9d715a89eaa2889c60030035cc.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "online_full",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/251cc8db62febf1656f0c4e4559364d555c2e788.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/0cbde7d91bc8d19b60e8fe70ae6e7d8ce027c7a9.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "online_win",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/c05ce9f15cd1c8caa3c816820ac921f8a364d21c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/1954a1b2cd832a68d915cb43d51f7fa12e222813.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "every_recruit",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/c4e9fe34199ee4a848db6d8b1bcaa3918e88d069.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/02caa670899ae07863c42a4df10b7309d8d79100.jpg",
     "displayName": {
@@ -171,15 +173,17 @@
       "english": "Fully train every recruit available",
       "token": "NEW_ACHIEVEMENT_3_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 21,
-      "stat_name": "recruits"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "recruits",
+        "min_val": 0,
+        "max_val": 21
+      }
+    ]
   },
   {
     "name": "five_hardknocks",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/c6f75b36cc06618c81b710ba627a55642aeb324d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2066030/a24913ddf6edbb73f20a4592c5830448f1800ec8.jpg",
     "displayName": {

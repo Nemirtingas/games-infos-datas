@@ -3,131 +3,131 @@
     "name": "best_1",
     "displayName": "Fastest time to complete a level (any %)",
     "type": "int",
-    "default": 0,
     "incrementonly": false,
     "aggregated": false,
     "min": 1,
-    "max": 36000
+    "max": 36000,
+    "default": 1
   },
   {
     "name": "best_2",
     "displayName": "Fastest time for all collectables in a level (100%)",
     "type": "int",
-    "default": 0,
     "incrementonly": false,
     "aggregated": false,
     "min": 1,
-    "max": 36000
+    "max": 36000,
+    "default": 1
   },
   {
     "name": "time_1",
     "displayName": "Total time played (seconds)",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": false,
-    "min": 1
+    "min": 1,
+    "default": 1
   },
   {
     "name": "tally_1",
     "displayName": "# of dashes",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "tally_2",
     "displayName": "# of jumps",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "tally_3",
     "displayName": "# of wallruns",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "tally_4",
     "displayName": "# of rail-grinds",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "tally_5",
     "displayName": "# of bouncies",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "tally_6",
     "displayName": "# of grapple-jumps",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "tally_7",
     "displayName": "# of slides",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "tally_8",
     "displayName": "# of checkpoints set",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "tally_9",
     "displayName": "# of checkpoints used",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "collect_1",
     "displayName": "Total # of collectables",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": false,
-    "min": 0
+    "min": 0,
+    "default": 0
   },
   {
     "name": "collect_2",
     "displayName": "Total # of worlds completed",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": false,
     "maxchange": 1,
-    "min": 0
+    "min": 0,
+    "default": 0
   },
   {
     "name": "average_1",
     "displayName": "Collectables per minute (average)",
     "type": "avgrate",
-    "default": 0,
     "incrementonly": false,
     "aggregated": false,
     "min": 0.0,
-    "max": 1000,
+    "max": 1000.0,
+    "default": 0.0,
     "windowsize": 60.0
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "CLOSE_ONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/e95b0ccb2a81256891a278d94a3b5a4ea60eedec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/22f163a33ba2269bbf31121acb2200e9b35f5d81.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "WHAT_GOES_AROUND_COMES_AROUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/fd602fe2c056d4179f9d7d7a6a69909980f64f23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/93de78f73e7448ad5230b0a4804c5639f61cc82a.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "MY_FIRST_WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/e7f84fe39bc9d3e151b03c96b6f86dcae386db04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/6b2f062e59384be60ff09ab4f1373686caf88e5a.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "THIS_IS_TREASON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/9edb7e1adaac6a2f713d382250ca525bb5c0a347.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/e7c939f7ad0cc24118a8bf9448aa6bd8e5456922.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ANNIHILATOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/23268f12955e5b49979d8a3197fe17e21149accc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/81d6ffd859950723532de34253a83e323b756f33.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Win 100 Annihilation rounds",
       "token": "NEW_ACHIEVEMENT_15_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "wins_in_annihilation"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "wins_in_annihilation",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "YOU_ARE_CORRECT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/77cde1e1b98b48b68743785851f242afe3e65938.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/196d9beee299877ce580f2b7d3b95af19744c007.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Get 1000 correct kills",
       "token": "NEW_ACHIEVEMENT_15_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "correct_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "correct_kills",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "TURNCOAT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/8d848fd7fd478ca930cabadc2e55a02ff63c7f00.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/6c3040ca08b5c7dc2a02de848296db78d3a78fd7.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Get 100 wins as a Traitor",
       "token": "NEW_ACHIEVEMENT_15_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "wins_as_traitor"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "wins_as_traitor",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "TRUTHFUL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/c66290b3f3af403311d6c4dff9907637cb8112f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/68b8ea898c0f572574ff6f0d9580d254db6105a5.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Get 200 wins as an Innocent",
       "token": "NEW_ACHIEVEMENT_15_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "wins_as_innocent"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "wins_as_innocent",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ROUND_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/831f3bee407ce4f07f8f4d43460ec14b4656c169.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/0c29adc3f7cb07ed6be1837c7e053228a0c3c802.jpg",
     "displayName": {
@@ -144,15 +152,17 @@
       "english": "Get 500 Player of the Round awards",
       "token": "NEW_ACHIEVEMENT_15_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "mvps_for_round"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mvps_for_round",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "MATCH_MAKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/1d8ed5c46c8e51014ac2bd9bbc1b0077bde0526e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/640f4cb017c3a5958f2d1e9da959cf3331de6c5f.jpg",
     "displayName": {
@@ -163,15 +173,17 @@
       "english": "Get 200 Player of the Match awards",
       "token": "NEW_ACHIEVEMENT_15_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "mvps_for_match"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mvps_for_match",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "LEET_HOLMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/6b18d94dd74957d95609bdcb44c65926e25e91a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/9f0840499befdaa03e00a70b0d31a7877948f1c0.jpg",
     "displayName": {
@@ -182,15 +194,17 @@
       "english": "Deliver 1337 clues",
       "token": "NEW_ACHIEVEMENT_15_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1337,
-      "stat_name": "clues_delivered"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "clues_delivered",
+        "min_val": 0,
+        "max_val": 1337
+      }
+    ]
   },
   {
     "name": "THAT_SMELLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/c10abe60650ddf20ac3d76a2f30e9dc447de360c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/6ce0006fe54169b8c0826fdbf809615d84c56799.jpg",
     "displayName": {
@@ -201,15 +215,17 @@
       "english": "Find 200 bodies",
       "token": "NEW_ACHIEVEMENT_15_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "bodies_found"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "bodies_found",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "FRANKENSTEIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/818f4b5ef94808fdf136ccb6b726712e0dbe6ebb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/5cd889a700c5e89cf72d1104a6965ce0adde76ef.jpg",
     "displayName": {
@@ -220,15 +236,17 @@
       "english": "Revive 100 players",
       "token": "NEW_ACHIEVEMENT_15_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "zombies_revived"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "zombies_revived",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "SCRUBS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/ed3af5fd0bd644f6da8e920070eedd88c5f0b897.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/84016411a9e8e716139e84445872d2da71e0726d.jpg",
     "displayName": {
@@ -239,15 +257,17 @@
       "english": "Resuscitate 100 players",
       "token": "NEW_ACHIEVEMENT_15_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "players_revived"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "players_revived",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "INCENDIARY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/5f7071470480992f6c3c3b665874681dae5114ce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/d1e6771be6bc4643813407a0f430878e8a66bebd.jpg",
     "displayName": {
@@ -258,15 +278,17 @@
       "english": "Plant 200 bombs",
       "token": "NEW_ACHIEVEMENT_15_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "bombs_planted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "bombs_planted",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "GODFATHER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/2fc9ce55ddf447d2f55ffaaf37c3456c9d150459.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/b5dffc4fffab6ca57b526bec605f65215289a2b2.jpg",
     "displayName": {
@@ -277,15 +299,17 @@
       "english": "Reach 116 000 score",
       "token": "NEW_ACHIEVEMENT_15_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 116000,
-      "stat_name": "total_score"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "total_score",
+        "min_val": 0,
+        "max_val": 116000
+      }
+    ]
   },
   {
     "name": "LUCKY_STRIKE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/06fb091859c567dd754e575327eefcc1cca904a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/4545fa898f56617db7b786395518c2b34d1045c4.jpg",
     "displayName": {
@@ -299,7 +323,7 @@
   },
   {
     "name": "OOPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/6382517aae899d49ce1b254276333a953306fec6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/dc2377932fdaa4298a0681c70f00bf103c03c91f.jpg",
     "displayName": {
@@ -313,7 +337,7 @@
   },
   {
     "name": "UH_OH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/fbd0eb1bdbb50cf199a538febc9d7bb95fef05e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/298e03b95a277f7b34ffa07c4c4c6548f4223dfc.jpg",
     "displayName": {
@@ -327,7 +351,7 @@
   },
   {
     "name": "BUTCHER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/319068c08c5b15c33c045d133a5b0b299d38fbce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/8ca13fe1b582efe2cf0a11c4e1b87718b87226c7.jpg",
     "displayName": {
@@ -341,7 +365,7 @@
   },
   {
     "name": "CLUTCHER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/ff4217e786c05af8ca76b1e65bfa86c0ee6971f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/8a8c3a7d207fc603c7db25c1b0c56304ceca88e6.jpg",
     "displayName": {
@@ -355,7 +379,7 @@
   },
   {
     "name": "SHUT_DOWN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/1a4380aefd9f4f203b8e3aeeac5f492d2691f156.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/97f11eb779f41c2af11202d1b4547fc732a577fe.jpg",
     "displayName": {
@@ -366,15 +390,17 @@
       "english": "Turn off the Power Supply 40 times",
       "token": "NEW_ACHIEVEMENT_15_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "power_supply_disables"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "power_supply_disables",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "ANESTHESIOLOGIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/6527b673754f20fb73e3cef179d24e2a941e4dd4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/61786bb033ad9a21c66c4b528deb26f4e337e4b5.jpg",
     "displayName": {
@@ -385,15 +411,17 @@
       "english": "Revive the Don 50 times",
       "token": "NEW_ACHIEVEMENT_15_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "zombie_don_revives"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "zombie_don_revives",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "BOMB_TECHNICIAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/b9626707abe5328a2f59218c64856ea9c16f1066.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/239f6ff69fedda7bf24da68fdf07d5de00ec8c0d.jpg",
     "displayName": {
@@ -404,15 +432,17 @@
       "english": "Defuse 400 bombs",
       "token": "NEW_ACHIEVEMENT_15_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 400,
-      "stat_name": "bombs_defused"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "bombs_defused",
+        "min_val": 0,
+        "max_val": 400
+      }
+    ]
   },
   {
     "name": "CAN_I_PLAY_DADDY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/538d74a14b307b8bb10d8ff3a2f0e0a291cde33f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/72da85d46e049b6623b9e65712ef83f4e3fb7e92.jpg",
     "displayName": {
@@ -426,7 +456,7 @@
   },
   {
     "name": "ZOMBOCALYPSE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/5a0c572593b8f14d878bcf48052569fdaa382a9c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/8092bb19d16acb6a0e8ddf1360b25e5814b27e14.jpg",
     "displayName": {
@@ -437,15 +467,17 @@
       "english": "Kill a total of 300 Zombies",
       "token": "NEW_ACHIEVEMENT_15_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "zombies_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "zombies_killed",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "WHO_YA_GONNA_CALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/b0bde8b8ef6aee5644db04d8ce95453acefb4fb8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1875450/13a64d0cffd1a7dbfaa82a457d2032ed596b88ab.jpg",
     "displayName": {
@@ -456,10 +488,12 @@
       "english": "Hit other Spectator Ghosts 500 times",
       "token": "NEW_ACHIEVEMENT_15_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "spectator_ghost_hits"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "spectator_ghost_hits",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   }
 ]

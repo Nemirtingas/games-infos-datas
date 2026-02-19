@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEV_GAME_FINISH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/1eeb739ec68863e8c05afec33862df0707ae5c3c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/1eeb739ec68863e8c05afec33862df0707ae5c3c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEV_TREK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/48660d7c3a8c596999b286623b24928d1e2786e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/48660d7c3a8c596999b286623b24928d1e2786e4.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Take 1000 steps within the hotel.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STEPS_TAKEN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STEPS_TAKEN",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACHIEV_FIND_ANIMAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/02c226159eeb1fe5d4278ea033c33146a1353cab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/02c226159eeb1fe5d4278ea033c33146a1353cab.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACHIEV_FIND_10COINS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/9ccb881b82d879bf7f0223c627c5bd31b9a3ba60.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/9ccb881b82d879bf7f0223c627c5bd31b9a3ba60.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "Find 10 coins. No stealing from charity!",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "COINS_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COINS_COLLECTED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEV_CALL_HELP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/e91688cff9bcc668db059ce342129b6e2ff8d0b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/e91688cff9bcc668db059ce342129b6e2ff8d0b9.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "ACHIEV_ALL_KEYS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/dc59d3eaa54246440d311d9c621bc28d078f6ac1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/dc59d3eaa54246440d311d9c621bc28d078f6ac1.jpg",
     "displayName": {
@@ -92,15 +96,17 @@
       "english": "Find all 6 room keys.",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "KEYS_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KEYS_COLLECTED",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "ACHIEV_FIND_CAMERA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/86edd84b396b000c561374a068989e83e5bc1a4f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/86edd84b396b000c561374a068989e83e5bc1a4f.jpg",
     "displayName": {
@@ -114,7 +120,7 @@
   },
   {
     "name": "ACHIEV_UNLOCK_JOURNAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/9db6b355d49580a3c7d3220ae1b08680d3b1df24.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/9db6b355d49580a3c7d3220ae1b08680d3b1df24.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Unlock the complete journal.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "JOURNAL_PAGES_UNLOCKED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "JOURNAL_PAGES_UNLOCKED",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACHIEV_FIND_ITEMS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/895307acea815d26c5c4103dd3850defd624e742.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/895307acea815d26c5c4103dd3850defd624e742.jpg",
     "displayName": {
@@ -144,15 +152,17 @@
       "english": "Find all key items.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "ITEMS_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ITEMS_COLLECTED",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "ACHIEV_FIND_1SCRIPT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/5f171f290c679a8dffd0e1959cf51d8091d6d97a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/5f171f290c679a8dffd0e1959cf51d8091d6d97a.jpg",
     "displayName": {
@@ -166,7 +176,7 @@
   },
   {
     "name": "ACHIEV_FIND_6SCRIPT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/4195ee17283e17251d2b0e1e6459c4a6b28e4740.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/4195ee17283e17251d2b0e1e6459c4a6b28e4740.jpg",
     "displayName": {
@@ -180,7 +190,7 @@
   },
   {
     "name": "ACHIEV_FIND_12SCRIPT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/ae506ef0c3cbc5482a4a37ea2f3e42baec7c62a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/ae506ef0c3cbc5482a4a37ea2f3e42baec7c62a9.jpg",
     "displayName": {
@@ -194,7 +204,7 @@
   },
   {
     "name": "ACHIEV_FIND_18SCRIPT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/bb7300cc9a2901b931d6d9a6ffff9b2b4090fd23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/bb7300cc9a2901b931d6d9a6ffff9b2b4090fd23.jpg",
     "displayName": {
@@ -205,15 +215,17 @@
       "english": "Find every script.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 18,
-      "stat_name": "SCRIPTS_COLLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SCRIPTS_COLLECTED",
+        "min_val": 0,
+        "max_val": 18
+      }
+    ]
   },
   {
     "name": "ACHIEV_LEVEL1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/6bff25aa4e11ae14cc00676bd19089b8cbf8610a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/6bff25aa4e11ae14cc00676bd19089b8cbf8610a.jpg",
     "displayName": {
@@ -227,7 +239,7 @@
   },
   {
     "name": "ACHIEV_LEVEL2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/9d0b9f982f4d380315fc673dc06e07ccd2292d07.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/9d0b9f982f4d380315fc673dc06e07ccd2292d07.jpg",
     "displayName": {
@@ -241,7 +253,7 @@
   },
   {
     "name": "ACHIEV_LEVEL3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/214fdfefc0f1eb2c1e69b4fde94b5f5103438e31.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/214fdfefc0f1eb2c1e69b4fde94b5f5103438e31.jpg",
     "displayName": {
@@ -255,7 +267,7 @@
   },
   {
     "name": "ACHIEV_LEVEL4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/ba5de3b773b402ece043dd88df3e1dd7f5251ebd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/ba5de3b773b402ece043dd88df3e1dd7f5251ebd.jpg",
     "displayName": {
@@ -269,7 +281,7 @@
   },
   {
     "name": "ACHIEV_LEVEL5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/eeb9dc34452c06dbbe33f3e85fe5fbb5d950ca83.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/eeb9dc34452c06dbbe33f3e85fe5fbb5d950ca83.jpg",
     "displayName": {
@@ -283,7 +295,7 @@
   },
   {
     "name": "ACHIEV_LEVEL6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/8fb4d0b178f788a776a91e6139c59b6a9b15e179.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/8fb4d0b178f788a776a91e6139c59b6a9b15e179.jpg",
     "displayName": {
@@ -297,7 +309,7 @@
   },
   {
     "name": "ACHIEV_GHOST1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/66a705881ab4acc45e6f05d6ced4f2ae12fc1ac8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/66a705881ab4acc45e6f05d6ced4f2ae12fc1ac8.jpg",
     "displayName": {
@@ -311,7 +323,7 @@
   },
   {
     "name": "ACHIEV_GHOST2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/b59303def03d574fed4212db45147dcbc3e6a350.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/b59303def03d574fed4212db45147dcbc3e6a350.jpg",
     "displayName": {
@@ -325,7 +337,7 @@
   },
   {
     "name": "ACHIEV_GHOST3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/af7d280c2a2181823f4fd056ed073f83e687cf46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/af7d280c2a2181823f4fd056ed073f83e687cf46.jpg",
     "displayName": {
@@ -339,7 +351,7 @@
   },
   {
     "name": "ACHIEV_GHOST4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/21d1e24fd11ffb322200c6156503382f5f823840.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/21d1e24fd11ffb322200c6156503382f5f823840.jpg",
     "displayName": {
@@ -353,7 +365,7 @@
   },
   {
     "name": "ACHIEV_GHOST5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/bdd02a0073a2be06a4ed09174122b37ec5d3abe1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/bdd02a0073a2be06a4ed09174122b37ec5d3abe1.jpg",
     "displayName": {
@@ -367,7 +379,7 @@
   },
   {
     "name": "ACHIEV_GHOST6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/d3ab370d8d07ddfdc6d2df929bf30f368a33a51e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/d3ab370d8d07ddfdc6d2df929bf30f368a33a51e.jpg",
     "displayName": {
@@ -381,7 +393,7 @@
   },
   {
     "name": "ACHIEV_PERFECT1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/57c9fcd2e52f2919aa2673b1a575f54e42fea7c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/57c9fcd2e52f2919aa2673b1a575f54e42fea7c5.jpg",
     "displayName": {
@@ -395,7 +407,7 @@
   },
   {
     "name": "ACHIEV_PERFECT3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/d5a426642ac4ab3a5426b26843cc9c117a375d5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/d5a426642ac4ab3a5426b26843cc9c117a375d5f.jpg",
     "displayName": {
@@ -409,7 +421,7 @@
   },
   {
     "name": "ACHIEV_PERFECT5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/58b79c12f02b1014d5512ba6b168e6d8306e0fb6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/58b79c12f02b1014d5512ba6b168e6d8306e0fb6.jpg",
     "displayName": {
@@ -423,7 +435,7 @@
   },
   {
     "name": "ACHIEV_PERFECT6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/bad365f96ff9c4290cd83b9996435affbabe3ad7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/bad365f96ff9c4290cd83b9996435affbabe3ad7.jpg",
     "displayName": {
@@ -437,7 +449,7 @@
   },
   {
     "name": "ACHIEV_TVGAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/c2c609d3e32b7cda0b7678f32a3e68309106d490.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/c2c609d3e32b7cda0b7678f32a3e68309106d490.jpg",
     "displayName": {
@@ -451,7 +463,7 @@
   },
   {
     "name": "ACHIEV_TALKCONCIERGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/04a74588531361a9a5ccc50491cccf03dd06df5c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/04a74588531361a9a5ccc50491cccf03dd06df5c.jpg",
     "displayName": {
@@ -465,7 +477,7 @@
   },
   {
     "name": "ACHIEV_SECRETENDING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/2d00e3eebe294605f4ed147ccfe69a867d7e3c04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/2d00e3eebe294605f4ed147ccfe69a867d7e3c04.jpg",
     "displayName": {
@@ -479,7 +491,7 @@
   },
   {
     "name": "ACHIEV_SECRETNUMBER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/7edac69347c4c0b2ea36a33b3f398fb44d59b447.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/7edac69347c4c0b2ea36a33b3f398fb44d59b447.jpg",
     "displayName": {
@@ -493,7 +505,7 @@
   },
   {
     "name": "ACHIEV_GOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/2a724304311a72833fd082cc5c8b2cc421d5e50f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/2a724304311a72833fd082cc5c8b2cc421d5e50f.jpg",
     "displayName": {
@@ -507,7 +519,7 @@
   },
   {
     "name": "ACHIEV_ALLNUMBERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/acd6c4a69052a861150e940ba8c26335b98b5429.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/acd6c4a69052a861150e940ba8c26335b98b5429.jpg",
     "displayName": {
@@ -518,15 +530,17 @@
       "english": "Call all secret numbers.",
       "token": "NEW_ACHIEVEMENT_2_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9,
-      "stat_name": "SECRET_NUMBERS_CALLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SECRET_NUMBERS_CALLED",
+        "min_val": 0,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "ACHIEV_DARKNESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/6113f0caac232a1b5400907e3d3063f5e04f60db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/6113f0caac232a1b5400907e3d3063f5e04f60db.jpg",
     "displayName": {
@@ -540,7 +554,7 @@
   },
   {
     "name": "ACHIEV_ANNOYINGBELL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/94c669c8cb048767fc29fb921673c542e1a244e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/94c669c8cb048767fc29fb921673c542e1a244e1.jpg",
     "displayName": {
@@ -554,7 +568,7 @@
   },
   {
     "name": "ACHIEV_SURVIVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/30e1c46aa1f87e5b1590ec0860492ee320f35af8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/30e1c46aa1f87e5b1590ec0860492ee320f35af8.jpg",
     "displayName": {
@@ -568,7 +582,7 @@
   },
   {
     "name": "ACHIEV_CACOPHONY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/8896b71865723362e6cd026073c35c4b89a1fb04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/8896b71865723362e6cd026073c35c4b89a1fb04.jpg",
     "displayName": {
@@ -582,7 +596,7 @@
   },
   {
     "name": "ACHIEV_FIRS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/5a10661ff071daf68c643a053f901a1339287a1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/5a10661ff071daf68c643a053f901a1339287a1a.jpg",
     "displayName": {
@@ -596,7 +610,7 @@
   },
   {
     "name": "ACHIEV_HALFNUMBERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/085e0d0fbd695c373c07dc9bca9eca6a5a993c67.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3073240/085e0d0fbd695c373c07dc9bca9eca6a5a993c67.jpg",
     "displayName": {
@@ -607,10 +621,12 @@
       "english": "Call 5 secret numbers.",
       "token": "NEW_ACHIEVEMENT_2_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "SECRET_NUMBERS_CALLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SECRET_NUMBERS_CALLED",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   }
 ]

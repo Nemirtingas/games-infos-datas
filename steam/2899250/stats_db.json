@@ -2,41 +2,44 @@
   {
     "name": "jump_count",
     "displayName": "Jump Count",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "meters_fallen",
     "displayName": "Meters Fallen",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "good_endings",
     "displayName": "Good Endings",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
   },
   {
     "name": "bad_endings",
     "displayName": "Bad Endings",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
   },
   {
     "name": "sad_endings",
     "displayName": "Sad Endings",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
   }
 ]

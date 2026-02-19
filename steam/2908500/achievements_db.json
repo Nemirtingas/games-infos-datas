@@ -1,7 +1,7 @@
 [
   {
     "name": "Homewrecker",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ThisGameHasALotOfBugs",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "CompletePlanet1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "CompletePlanet2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "CompletePlanet3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "CompletePlanet4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "CompletePlanet5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "CompletePlanet6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "Kill1000Humans",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Kill 1000 Humans",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "HumansKilled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HumansKilled",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "Kill10000Humans",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Kill 10000 Humans",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "HumansKilled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HumansKilled",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Kill100000Humans",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Kill 100000 Humans",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "HumansKilled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HumansKilled",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "Lose10000Buggos",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Lose 10000 Buggos",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "BuggosLost"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BuggosLost",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Lose100000Buggos",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -200,15 +208,17 @@
       "english": "Lose 100000 Buggos",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "BuggosLost"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BuggosLost",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "Lose1000000Buggos",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -219,15 +229,17 @@
       "english": "Lose 1000000 Buggos",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "BuggosLost"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BuggosLost",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "CompleteGameOnNormal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -241,7 +253,7 @@
   },
   {
     "name": "CompleteGameOnHard",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -255,7 +267,7 @@
   },
   {
     "name": "CompleteGameOnImpossible",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -269,7 +281,7 @@
   },
   {
     "name": "SurvivalWave10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -283,7 +295,7 @@
   },
   {
     "name": "SurvivalWave20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -297,7 +309,7 @@
   },
   {
     "name": "SurvivalWave30",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -311,7 +323,7 @@
   },
   {
     "name": "SurvivalWave40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {
@@ -325,7 +337,7 @@
   },
   {
     "name": "SurvivalWave50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/37269e1a01b443b62134558a19014fa4986283d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908500/efaeb2be2ec6b289610e8330aca20512c98bb926.jpg",
     "displayName": {

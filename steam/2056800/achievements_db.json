@@ -1,7 +1,7 @@
 [
   {
     "name": "Stump",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/4029e6e3a28000fa97986539d0978339c00f1fa7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/1eef60cf5eb13b09faf898e589e600cc2e10586d.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "100_Clicks",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/5824529ace860021e50f4c788edd06819d26b0d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/1cfeb4a95f1a11aedb023402f21c569b9e7f6b77.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Clicked the click note a 100 times",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Clicked_Click"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Clicked_Click",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Duck",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/f0ee5a718d8d34a05124b07cb935bb5e9ae1f633.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/78c3cb8dd20b73869bd6b9614ec923ee9ebda84c.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "Level20_Finnish",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/6c286ca98703402d895dbd3b96a959f0e40331d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/23bb0e4bb152ec9c44cb88f74193e6a515041cac.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "Accidental_or_Sacrifice",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/580b14e2525ea01b46e74a2ced084178ccb8c11e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/c245ec82ce3056e68f5f768645bc2704e6df7f46.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "HiddenOldLevel2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/b24905aa13ea6e3379eb0c7f399996892c8f1600.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/208568e3faab86f491f3b379e219c1a913dfbdeb.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "HiddenOldLevel4",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/0d1b8653500d9ef79948ec60a5f320432af82fb6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/32001613aefe0eeff5f50d5ad449d93b73c5ff5e.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "PanBack",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/fa0d88a4b2a1e31048d8d2147f613f45d0ec835f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/36b3591d9e1b16953b76ddf1c85b04deb987cde3.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "Restarts",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/6fd87e390a624604bdb8b6a06d0a3998eb5e0c01.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2056800/2226fcbdefab7e3442ee57e849085e21584a1a8f.jpg",
     "displayName": {
@@ -129,10 +131,12 @@
       "english": "Click R in maps 1000 times",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "Resart"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Resart",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

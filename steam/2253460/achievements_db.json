@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_00_BOOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/9fd7a0ba2f640e41a038c498db0801b5b0ce6543.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/9c9157c3360d2d16f677308efd991246e4139c14.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_01_SIGNIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/8d8026cff730b3b5a0fdd5f6abb61e3271c47c8c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/c6757095a41a318a527804ea18889248debd298b.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_02_DOWNLOAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/c1b6a47052c84d787726a522966d523397e24837.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/4832fd367aa847d5d3eb7190664ed33716cada33.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_03_UPDATE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/98ed9150f4b11e23d9d5b4e21e5de94cf9e0f340.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/5ad0382eb0225b4325f8cc5434c8dcf90dc5eae0.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_04_UPGRADE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/3f16c42a1a40e957bce565199af197d8671c8ea0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/ea7519d8377ea9bb03763eb685eb46806f064dc7.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_05_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/1efac9003eeef3659c67d6b91c1927766e516ddd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/2df53340822703facc43e7c85c4a7fc3f6703c6f.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "全てのステージをクリアする",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "STAT_00_COMPLETE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_00_COMPLETE",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACH_06_MIDDLETRACER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/38bd39e98aabc0f7c88467ab6fb08fe4d1e34cca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/5b97bca451f4ea709bee0e6004cfc9f367219af1.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_07_EXPERTTRACER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/c87345f00417a4096a82850e0afe2c3a48ca0bfb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/dbb50133eb0342420ab03ca4b82423cbd050a65e.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_08_VETERANTRACER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/1bbcf08a3c52a26cc6ca5e5eeec20ec18595991c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/7ff7b9226da0027e122d102d75124da371b06563.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACH_09_END",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/525e3292c4b47136e8cc63db8e95a24cc04b0260.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/3c9894d8c2afa4db272f8d39d5e724d398e2cc64.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "全てのステージをランク\"S+\"でクリアする",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "STAT_01_END"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_01_END",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACH_10_OVERCLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/1cbffb91c7885deae84b8e5b270a175a9c67bf1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/91166f99b16ae9180bd701c106fb5f9a66fa4357.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ACH_11_SHUTDOWN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/7e0bfe6ffbe70963b0d5410a6eddb1df7cd8d6e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/d2374f1568470bf96ff8a87964d35ad5313befaf.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ACH_12_AUTOMATION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/dcfe9766d3495870a0cab381f4b51407f87c3bb3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/2ce46dc3bfb31a6d54623ae9b711338d89479bd9.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "ACH_13_ORCHESTRAROR",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/bbdcb371c68dc4aebdc9186d7a93057a3fd98a1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/113b8c484784053606f39383820379dc7643caf2.jpg",
     "displayName": {
@@ -204,15 +208,17 @@
       "english": "累計20回ステージをクリアする",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "STAT_02_ORCHESTRAROR"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_02_ORCHESTRAROR",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_14_DEFRAG",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/ce2b20d7429e31a9a7aeaafd94f5cbabea105c5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/94d2f9903e58ba6c841120157bb424065e9e6e8a.jpg",
     "displayName": {
@@ -223,15 +229,17 @@
       "english": "累計100回反撃を行う",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_03_DEFRAG"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_03_DEFRAG",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_15_SYSTEMDOWN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/b4454952f28389adf5d53c877552cfad3e88894e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/b67569dea2cfb8c3fb3fe1539efbcc1b43fa6e22.jpg",
     "displayName": {
@@ -242,15 +250,17 @@
       "english": "累計30回リスポーンする",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "STAT_04_SYSTEMDOWN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_04_SYSTEMDOWN",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_16_BRIGHTTRACER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/ce83e4d424d92b040b8b68527afb4c02cc9b895e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2253460/05bd2f97dc047c7addc0e0c8bd1ead456c0ee5ba.jpg",
     "displayName": {

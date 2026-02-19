@@ -1,7 +1,7 @@
 [
   {
     "name": "HIDDEN_SKULL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1567190/23484dfb325b0d78c45f0030a9d0f302be668721.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1567190/6cca68fb7c2c5b56254a07f8cff2e984ce39f3ab.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Find the Hidden Skulls",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "CollectibleSkull_CollectibleSkull"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CollectibleSkull_CollectibleSkull",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "COMPLETE_TUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1567190/637f8178447796d1f764b07dbb3d0c155652e3f2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1567190/34f1b3257476c85438600f47814e82db8093ab7d.jpg",
     "displayName": {

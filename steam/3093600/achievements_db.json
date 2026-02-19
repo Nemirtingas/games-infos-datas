@@ -1,7 +1,7 @@
 [
   {
     "name": "DEFEAT_EDOG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/2fe2f4061c2ae7051127f32b6368c10d84358a22.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/07e1495664b7fcff3d00fecad527ccf26997bbaf.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "TOO_SLOW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/66cb54626c9fcb67417c53736fe3cf7389806990.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/663edbec212e03f80840fd7c741d5ea4645dbf9f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "HALT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/46baae05b8ebb01aa9cada55d747fb7c2ec6c7c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/d3f51814b64c07ef0c10cdfc7ed698664200647e.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "RIGHT_ON_TARGET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/ac3ab904fe6e93e080b0c60b28cec753ae61752f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/cc29467039a3bd001f65e1a55d9998502f1d687a.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "DEFEAT_100_ENEMIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/ef02d2e2c158b5a1d40969add6b0dcec4c2279db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/0050dc25b0d0fd25157e4a2aa2ef7df9802e58d0.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Defeat 100 enemies of any type.",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "ENEMIES_DEFEATED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ENEMIES_DEFEATED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "FAIR_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/f8524601dd9479a1f42cbbb999c99b47a9310432.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/ffe0f2fc5b73e94134ba93709dcfc808750ee6bc.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "THE_JOURNEY_BEGINS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/4cbe97966e171038ce84b6069a3c2d0213588d6d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/5d9816d99f8ae40e9d390425d3b2dfdf29d2520e.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "SPEEDRUNNER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/8d8f33b82669effcdf591b712fcf1ef814ae4f75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/cceda28686a05293bddbe68419914ff4c9341caa.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "STYLISH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/724f201366f1ab3cb6d07fcf82a61aee5b73a7a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/59e7aa60672059e6187f0fa6a9f0390b5b329c24.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "DEVELOPER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/94a371c9cd29612bd6b5473671a1d60fea8fdde3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/4144ea99d971f0a26daa8485258cf1c84265f0b8.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "TEABREAK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/9fea5b7914e24823ba23fd1815b8c1000f517ae3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/7a571d54b3afbb33271acb494a94ad5997ce96c6.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "SOMETHING_WAS_HERE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/152addc18078f5e8b4e3147799c12797ba924977.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/32902d661502d7de2c57293783071b7c7410a99c.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "EVEN_FURTHER_BEYOND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/5696b20852faf50072a8961c7ed861eb4e1fe4ce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/d14be3399dc6581032b7074e584bdd3b9db010b2.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "FOOTBALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/2f59c21d912d2b97225b4189b0aa32cba664f105.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/8fb70f33ff7d2e4861dd71fe78a73409cd071384.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "TING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/8ee9c393aa9650dc03d40c70041680720d913b62.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/73085ce7ff8209069de6b12dd2ce0cf7e2121d68.jpg",
     "displayName": {
@@ -213,15 +215,17 @@
       "english": "Reflect 25 bullets.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "BULLETS_DEFLECTED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BULLETS_DEFLECTED",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "COMBO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/ecf79b072ba0f6bbc89aa846335ca2a95a089312.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3093600/8215b754052ae34561489a227f85131f30438311.jpg",
     "displayName": {

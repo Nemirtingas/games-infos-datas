@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_TFOM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/c5b005b8ed84ccee2a9544f6837bf74a672a71ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/006e6bf510cadd27654c7d490a54ccbabb6389ad.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_POM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/695efd038eaa7b8ceb4f70f7ab1cfe74459564b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/2e9a104e1fae5aade70dabcfd621d84373ede590.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_TGS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/2bb586aee764595e369eed0310284c59d1e5165a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/d73d7d36752ae99370d85d3d44d27689c05c08e7.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_TLC",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/c2cbd74718857644bca07f9a0adf42cc6e0498d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/b79c0f2aacfcd216624855fc064718e30365ddb4.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_X",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/7ff67d30d5d83fc42259613c379170b80bf87b5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/031e7c5fb52e176bb10a18c886b9e0c9ca9975fc.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_DT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/efa3ac73c167bea7519889332d8f7931cdbd1d26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/7df51d1b2e9b2f536190235f93970c4decaab51b.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Reached Any Ending",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "ENDINGS_REACHED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ENDINGS_REACHED",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_LAF",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/c5047104206c0bb3ca6726ba4cebae798db531f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/d9068727a0fa0614d689e7fbf9926e464afb9eb4.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_SA",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/e9b2a85d5731acc7aa1a1cbe0adccbea9720d620.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/d8206518995151652405228c04ccc60b86cd1aa8.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_TTLC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/e3983bc044b46b0629cf299aada655fe98115866.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2459190/9001bfe63615034f5706a23c35d679a5c5e9f382.jpg",
     "displayName": {
@@ -129,10 +131,12 @@
       "english": "Reached Every Ending",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 4,
-      "max_val": 4,
-      "stat_name": "ENDINGS_REACHED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ENDINGS_REACHED",
+        "min_val": 4,
+        "max_val": 4
+      }
+    ]
   }
 ]

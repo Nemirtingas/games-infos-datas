@@ -1,7 +1,7 @@
 [
   {
     "name": "TERMINARJUEGO",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2424230/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2424230/",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "Terminaste el juego, saaapeee",
       "token": "NEW_ACHIEVEMENT_4_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "BOOLEAN_BOOLEAN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BOOLEAN_BOOLEAN",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

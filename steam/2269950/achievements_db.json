@@ -1,7 +1,7 @@
 [
   {
     "name": "ALL_CHALLENGES_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269950/2b1cb8b17602c6861f2743a899ffac4d96a7d6f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2269950/4e133697240b3c3dfd2898210661a17bbf070525.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "Complete all challenges. If you unlock this, you're officially a PRO player! (More achievements coming soon)",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 80,
-      "stat_name": "CHALLENGES_COMPLETED_AMOUNT_FLOAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CHALLENGES_COMPLETED_AMOUNT_FLOAT",
+        "min_val": 0,
+        "max_val": 80
+      }
+    ]
   }
 ]

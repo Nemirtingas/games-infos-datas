@@ -1,7 +1,7 @@
 [
   {
     "name": "The_Curtain_Rises",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/5c07fe61db4d17f19659b01432de6cf74ac4dfb1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/a70c10c818e2e1ce5d4363686f26c0b01e8d8fd2.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Welcome_to_Wendalle",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/9090e1c10b8282876407e5b06e1940fb9d232ff0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/1ec6e84142b342d0fc44870c6391833b430f6123.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Justified_Betrayal",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/10b0e9aaf1cfa725beb1d8a0d5448a318e7bf984.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/46d94f436dd6888b94f1e8e1b001bee8601d514a.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Taste_the_Thunder",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/57f4be3d36a0a005aa2450d5541df91c279374f2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/e2b2a21ff7e49e6bc7d71bc01b2d58c860f61b89.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "The_Reclusive_Queen",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/3a8618145839c940c091c02660ec386a0ceff46e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/3b93d2b84beb270cc4772e4e8337ae5cde63ccd5.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Ignorance_is_Bliss",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/a948d5e5f82832f2bae4b658e2027addf0121a3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/801406714a2bbd097194b11dc56ea19238fc9461.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "Here_goes_Nothing",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/1fbccade879749f0e18325e94a5082aec13b99a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/52f5e5c6ef590c4e1bd083f711df7376dc32652e.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "Rookie_Rebel",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/44e578f7ccc4acc418799e45b3df579550f6d3cc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/f67765e107694d9f968d93a582b161be90593cd1.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Kill 10 enemies",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Enemy_Kill_Count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Kill_Count",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Novice_Rebel",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/045652e1c742062480494973474820560efa0c55.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/7cdce318a1ad755f88d2e29a390258032bb88e71.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Kill 50 enemies",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "Enemy_Kill_Count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Kill_Count",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "Expert_Rebel",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/566b03c8bb5488668891e8e38d7c4c4d5787a1f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/4ef70ae70df38dcacc4240b6f3623060ccb3fb33.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Kill 100 enemies",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Enemy_Kill_Count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Kill_Count",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Master_Rebel",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/bc68bb144da0ba2d0ffbe7ed9582ce1fed990153.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/1edea4d7d3a3cd9b8fbce24d810a66c7d7e5cac0.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Kill 200 enemies",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "Enemy_Kill_Count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Kill_Count",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "This_is_Swozalta",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/ddba3998ff7142b14f2aae55fbb5eb450f74ded8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/09c6b190b0c69bf171fc2662b59357dd3f356129.jpg",
     "displayName": {
@@ -186,15 +194,17 @@
       "english": "Kill 10 enemies by Pushing them off heights",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Enemy_Kill_Count_From_Height"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Kill_Count_From_Height",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Armor_is_Heavy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/ec49c21b17ed935bcca0a4f40d45748d6733bc07.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/f81ff6048d512dd97b2ae7c3f1d20fe576370b93.jpg",
     "displayName": {
@@ -205,15 +215,17 @@
       "english": "Kill 10 enemies by drowning them in water",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Enemy_Kill_Count_From_Drowning"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Kill_Count_From_Drowning",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "The_One",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/9256d9fb0657f059d6bfea07e2e909b7e0c2d65a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/5cea3b03518f27a2880dfba87f61d5c56bbc7455.jpg",
     "displayName": {
@@ -224,15 +236,17 @@
       "english": "Kill 100 enemies with just one magic affinity",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Enemy_Kill_Count_By_Same_Magic_Affinity"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Kill_Count_By_Same_Magic_Affinity",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "To_you_3000_tiles_from_here",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/c3c9d681de92b81e0d120faddb15143e7b8dfefc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/a457cbc5d2593b023a8d73d50a2721d7e1e07f0b.jpg",
     "displayName": {
@@ -243,15 +257,17 @@
       "english": "Travel 3,000 tiles",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3000,
-      "stat_name": "Tiles_Traveled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Tiles_Traveled",
+        "min_val": 0,
+        "max_val": 3000
+      }
+    ]
   },
   {
     "name": "Rebound",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/f1e01be2fbbcf050a5261da51b9ebe4d60de5887.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/3a1376c6f0d9d979ceee89f48f4c859e7d683fda.jpg",
     "displayName": {
@@ -262,15 +278,17 @@
       "english": "Kill 10 enemies using Rebound damage",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Enemy_Kill_Count_By_Rebound"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Kill_Count_By_Rebound",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Capable_Commander",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/e50601845ce1c66d05083706d01abdf5bbc45a89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/2ea192d895cdf451fe8f1bc09770eb3bd2ecaf1b.jpg",
     "displayName": {
@@ -281,15 +299,17 @@
       "english": "Win 10 consecutive battles without a single unit getting Incapacitated",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Capable_Commander_Battle_Count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Capable_Commander_Battle_Count",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Handyman",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/0ad24da8404e2271f9cc00bac8d265cdd058ad6a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/e4d219791abbb0d7198f7a14903eddbfe394473f.jpg",
     "displayName": {
@@ -303,7 +323,7 @@
   },
   {
     "name": "Highballer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/47bcfad06b1e38c0969c7e10943733f14a72be2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/09e7c43990c8f208fa60b26ccdbb59743393f975.jpg",
     "displayName": {
@@ -314,15 +334,17 @@
       "english": "Have 10000+ Gold",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "Gold_Amount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Gold_Amount",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Burnt_Alive",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/a51d975bac3ec69e5c71009518dd385afa5838db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/c7b0f764dbb0f838d8e8742185525f48a445a1a2.jpg",
     "displayName": {
@@ -333,15 +355,17 @@
       "english": "Kill 50 enemies with only Dragon breath attacks",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "Enemy_Kill_Count_By_Dragon_Breath"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Kill_Count_By_Dragon_Breath",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "Cavalier",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/c178a32d55bf3393c5bec6c0efa2fdb718176498.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/7d7adab562bf3b19f5502e60c57cab1cdbb0a521.jpg",
     "displayName": {
@@ -352,15 +376,17 @@
       "english": "Kill 50 enemies while mounted",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "Enemy_Kill_Count_While_Mounted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Kill_Count_While_Mounted",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "The_Plebian_Way",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/8a8c93036482d054fce98423ff6ad6274c1701ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/61be4d8a8546c10ae72c88d8d51eadc7920af266.jpg",
     "displayName": {
@@ -371,15 +397,17 @@
       "english": "Kill 50 enemies with stones",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "Enemy_Kill_Count_With_Stones"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Kill_Count_With_Stones",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "Arise_Fallen",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/0569b6f1de8844c510f442140afeab8a85817a72.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/52ef350639391002666312d0535d4b1edfa4e897.jpg",
     "displayName": {
@@ -390,15 +418,17 @@
       "english": "Revive 100 allies",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Allies_Revived_Count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Allies_Revived_Count",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Overwhelming_Victory",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/96d206f9997c1eadbc637e13e85485e247c86b14.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/b77c779c13a97fbbd0ef2e55da1c1d447247c12e.jpg",
     "displayName": {
@@ -412,7 +442,7 @@
   },
   {
     "name": "The_Wind_Beckons",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/f3ac1376fa0a412d26f33267e9afe6ed8fb14cf6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/572ab137efb94860d575617745982c3801115e0e.jpg",
     "displayName": {
@@ -423,15 +453,17 @@
       "english": "Kill 100 enemies with arrows",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Enemy_Kill_Count_With_Arrows"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Kill_Count_With_Arrows",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Stylish_Slayer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/0e0bdb942794bdec1212d128c68d1fcf0fa8554f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/f0dc9683b38b5b605a8b7563fdaeb91801fb2928.jpg",
     "displayName": {
@@ -442,15 +474,17 @@
       "english": "Kill 100 enemies with special abilities",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Enemy_Kill_Count_With_Special_Abilities"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Kill_Count_With_Special_Abilities",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Unworthy_Steel",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/1cbb67019a785e617b0ca6bb244c7a405b7d42f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/3cbfdae56ab444ea811386e00d728703263367e1.jpg",
     "displayName": {
@@ -461,15 +495,17 @@
       "english": "Disarm 50 enemies",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "Enemy_Disarm_Count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Enemy_Disarm_Count",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "Friendly_Fire",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/40d1964bfe2026e9e7b440248ae3a4b91d71d8ac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/f7089425afeb2175065b4fb13743494a590e17dd.jpg",
     "displayName": {
@@ -480,15 +516,17 @@
       "english": "Damage allies 20 times",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "Friendly_Fire_Count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Friendly_Fire_Count",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "New_Knight_on_the_Block",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/065b9e1d708f97bae212c772f07852bfffb02586.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/08578c56171b5dfa1b86f80c5d94b1e4b0f15771.jpg",
     "displayName": {
@@ -499,15 +537,17 @@
       "english": "Reach Level 10 with the Main Character",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "Main_Character_Level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Main_Character_Level",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Worthy_Knight",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/4bc8a045b51db7c89833b3b1f82be7e1e42c57b7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/c27f450467a174a7234490702a7298639e51bbbb.jpg",
     "displayName": {
@@ -518,15 +558,17 @@
       "english": "Reach Level 20 with the Main Character",
       "token": "NEW_ACHIEVEMENT_23_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 20,
-      "stat_name": "Main_Character_Level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Main_Character_Level",
+        "min_val": 1,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "Ragtag_Group",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/e9ae02a3bdd6150046eb49e4564bf994a87c6be5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/243bfaee5b0f428fc51e82e0785425b153bf9e44.jpg",
     "displayName": {
@@ -537,15 +579,17 @@
       "english": "Reach Level 10 with 10 characters",
       "token": "NEW_ACHIEVEMENT_23_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Level_10_Unit_Count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Level_10_Unit_Count",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Gangs_of_Wendalle",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/a4ed44e691a229ba028495763f203bd14a13bb60.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/1ef7543f669a6d6d9fe708c20614b03b5dced56c.jpg",
     "displayName": {
@@ -556,15 +600,17 @@
       "english": "Reach Level 20 with 10 characters",
       "token": "NEW_ACHIEVEMENT_23_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Level_20_Unit_Count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Level_20_Unit_Count",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Ironic_Death",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/b9479e684d647accd8b343670675b61b60d310ca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/82f72b00979d01a3b9e2a649ad7928e7475b2a42.jpg",
     "displayName": {
@@ -575,15 +621,17 @@
       "english": "Incapacitate 100 undead",
       "token": "NEW_ACHIEVEMENT_23_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Undead_Incapacitate_Count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Undead_Incapacitate_Count",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Merciless",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/14c1f7e842158c55869465a70c4b9d18df54bdbc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/db2d00373fb7aed218919bff76c9694c6bbff798.jpg",
     "displayName": {
@@ -594,15 +642,17 @@
       "english": "Kill 10 Fleeing Enemies",
       "token": "NEW_ACHIEVEMENT_23_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Fleeing_Enemy_Kill_Count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Fleeing_Enemy_Kill_Count",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Swords_and_Shuriken",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/0c15537372c0ebd31440dda960b1f1a977d6894e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/458aad294a14806f13e92bda7d0ddef082fec4ba.jpg",
     "displayName": {
@@ -616,7 +666,7 @@
   },
   {
     "name": "The_Rise_of_The_White_Banner",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/a572467c2ec2325064528c520ce17ca962a288dd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/f19f2054b825871e01cfe953f5396c483a29fb15.jpg",
     "displayName": {
@@ -630,7 +680,7 @@
   },
   {
     "name": "Feared_Knight",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/7cbd7651cbef2cd0e545e76d9e4f0d9016be51be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/f0708693c64d60c261cb12ff7639c6c4ac62cf6e.jpg",
     "displayName": {
@@ -641,15 +691,17 @@
       "english": "Reach Level 30 with the Main Character",
       "token": "NEW_ACHIEVEMENT_23_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 30,
-      "stat_name": "Main_Character_Level"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Main_Character_Level",
+        "min_val": 1,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "Heroes_Assemble",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/2843631f114ad0397ee9bd44cb03a82667afd43c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1480810/70e202b3dc0966639fae061defc9774eacba0e2e.jpg",
     "displayName": {
@@ -660,10 +712,12 @@
       "english": "Reach Level 30 with 10 characters",
       "token": "NEW_ACHIEVEMENT_23_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Level_30_Unit_Count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Level_30_Unit_Count",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

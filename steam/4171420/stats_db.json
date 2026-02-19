@@ -1,218 +1,238 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "games_total",
     "displayName": "total games",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "high_score",
     "displayName": "high score",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "score_cumulative",
     "displayName": "cumulative score",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "max_wave",
     "displayName": "highest wave reached",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "max_survival_time",
     "displayName": "best survival time",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "survival_time_cumulative",
     "displayName": "total survival time",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "enemies_killed",
     "displayName": "enemies defeated",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "bosses_killed",
     "displayName": "bosses defeated",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "hits_taken_total",
     "displayName": "total hits taken",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "no_hit_time_max",
     "displayName": "maximum no hit time",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "waves_cleared",
     "displayName": "waves cleared",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "boss_encounters_total",
     "displayName": "total boss encounters",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upgrades_picked_total",
     "displayName": "total upgrades picked",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "survival_time_cumulative_hours",
     "displayName": "total survival time (hours)",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "max_survival_time_minutes",
     "displayName": "best survival time (minutes)",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "meta_currency_balance",
     "displayName": "Unspent meta currency available for permanent upgrades.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 10000000,
+    "default": 0
   },
   {
     "name": "meta_currency_total",
     "displayName": "Total lifetime meta currency earned across all completed runs.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "upgrade_move_speed_level",
     "displayName": "Permanent upgrade level that increases the player’s base movement speed.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 3,
+    "default": 0
   },
   {
     "name": "upgrade_max_health_level",
     "displayName": "Permanent upgrade level that increases the player’s base maximum health.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 5,
+    "default": 0
   },
   {
     "name": "upgrade_magnet_radius_level",
     "displayName": "Permanent upgrade level that increases the player’s pickup and magnet radius.",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 5,
+    "default": 0
   },
   {
     "name": "meta_shards_balance",
     "displayName": "Current persistent Shards balance available to spend in the Meta Store (premium currency)",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 10000000,
+    "default": 0
   },
   {
     "name": "meta_shards_total",
     "displayName": "Lifetime total Shards earned (all-time accumulated shards).",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "shard_upgrade_damage_amplifier_level",
     "displayName": "Level of the Shard Premium upgrade “Damage Amplifier” (permanent damage bonus",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 4,
+    "default": 0
   },
   {
     "name": "shard_upgrade_power_scaler_level",
     "displayName": "Level of the Shard Premium upgrade “Power Scaler” (permanent scaling bonus for deep runs)",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 3,
+    "default": 0
   },
   {
     "name": "shard_upgrade_value_multiplier_level",
     "displayName": "Level of the Shard Premium upgrade “Value Multiplier” (permanent value/payout multiplier",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 5,
+    "default": 0
   }
 ]

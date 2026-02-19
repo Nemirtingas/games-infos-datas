@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_START",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2713390/c3a2ef8e9eca4ba854c28903ace98885b2cefa38.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2713390/c0d04f1f90ae937f82010683ab5a15ec5337890a.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_HELP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2713390/ef30a4a15fdf302ee3209a26513cd45c1c1f7da8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2713390/8059c7bb3782b202a69796c1c4e87c504db5efff.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_BREAKERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2713390/62d027e7195082a0aad211d626a6a9b72dcbb779.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2713390/606bae494721aff6bcfffa93eda5c99551ebb519.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_DEJAVU",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2713390/4f13ca8724283ea5357f541a8c3db99cd2ac18a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2713390/8f2ea7d58c59ccbe9ed8e4ef0e44bd22327b3847.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Déjà Vu: Become the master of the loop and unlock the 'Déjà Vu' achievement. Running through the same corridor multiple times might seem like a glitch, but for you, it's a deliberate act of skill. Whether it's navigating a maze or just enjoying the scenery, your ability to loop seamlessly through familiar paths sets you apart. Embrace the déjà vu and turn repetition into a remarkable achievement as you leave your mark on the corridor of echoes.",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "CORRIDOR"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CORRIDOR",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_SPEEDRUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2713390/6c7ef57283ffc6e43289198fce2ce4f916e2c918.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2713390/6af52a9bb9919da4e0ae4ece7a5366788f664e8b.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_DEJAVU CORRIDOR_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2713390/4f13ca8724283ea5357f541a8c3db99cd2ac18a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2713390/8f2ea7d58c59ccbe9ed8e4ef0e44bd22327b3847.jpg",
     "displayName": {
@@ -87,10 +89,12 @@
       "english": "Have I been here before?",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 100,
-      "stat_name": "CORRIDOR"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CORRIDOR",
+        "min_val": 10,
+        "max_val": 100
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "The Barrier Breacher",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/1f29f7c9b0c60632a6e51b88503d07bec5809af0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/e1dca7f6450f69a920696bd13f5ad75993b1cdd2.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "The Dicecade Demolisher",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/490cd378d79ddc6cced2da9ef90731149705edbb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/7a3a994740284b4e0e22c22028f0ea5e6bf6b42c.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "The Pepper Punisher",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/9f8876eb02b4c8d23bacb17bc2af71b4cc4d94a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/90b1a41a1db1e3dd11d5382679e26dccf25a43bb.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "The Sweets Scourge",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/ffed41f2342a440eaeb1c7ec90fb542e77920ff1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/eb0710b1cedcd8ce620003ef867efd7081d1e61d.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "The Mushroom Masher",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/0cc8f2c770c188152e18fbf43e4ac068b39be62a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/ef0c26094e7f4a087f085502390583d97a265dda.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "The Necromantic Nemesis",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/00c650f26ed9d524d5be69d84d07aa9b61c0c8f0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/732bb36f8ac97cee4aa2201c142e6d470cb9439d.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "The Holy Headsman",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/16a0a68dd094c2c51f569733c2a1cef78c21bdf5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/364603a456843a6f481d1e4b1696650bf2ad9e7b.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "The One True Die",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/c497d8207cad9ff46eeffec24fe3a5b4dd3af1fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/692b30ad3b17a6e210604a931cf51b41cf000d27.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "Big Spender",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/8bb2dd5895275903091c4811df1e0a018820c812.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/f9f1f8d7ccebfb6864c0ade138ff736409ff5610.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "Gotta Merge 'em all",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/775d142e3a3abe90d0240a54e27d67dcedb2eb37.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/b0a9a6aa02d3fde59893942a3a88580d7418dcdf.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Discover every gambit",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 377,
-      "stat_name": "s_Gotta Merge 'em all"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s_Gotta Merge 'em all",
+        "min_val": 0,
+        "max_val": 377
+      }
+    ]
   },
   {
     "name": "Arcane Trickster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/908444e0eae27d5cc6b8200866bb078778c52318.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/d78a00ff14ea15655194abb00ba00458182452f2.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Discover every trick",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 361,
-      "stat_name": "s_Arcane Trickster"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s_Arcane Trickster",
+        "min_val": 0,
+        "max_val": 361
+      }
+    ]
   },
   {
     "name": "Monster Parade",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/0b96bc33ef0cd7bd48da1a2d74968996f3c15ab3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/1a7814514e333fea966eb52417793f93533900c2.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Discover every enemy",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 125,
-      "stat_name": "s_Monster Parade"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s_Monster Parade",
+        "min_val": 0,
+        "max_val": 125
+      }
+    ]
   },
   {
     "name": "Dice Runner",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/bd403f455303cec9aec12971950649859616d400.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/c0e66609e88d4812c71e54a72d32bda4401736ff.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Complete a run with every character",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "s_Dice Runner"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s_Dice Runner",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "Collector",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/162413f6d84e7920492bab93c984f67f963b45ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/ec416c3ebe8aa90d328e3eee07b0331fa01b832c.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "Guy's Guy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/936a76259192d6c13ba9a79e3904dadad3179491.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/eb1b60cacfa753143d230ea2e12c3298a529c919.jpg",
     "displayName": {
@@ -231,7 +239,7 @@
   },
   {
     "name": "Turn over a new Lief",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/db029f7888a82459c8a183d959edb112f3ceb835.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/3d4df9cfe5573ef0c0314f550adf09041777f219.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "Cold hands, warm heart",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/372842b4bc334e61c80ec6fa89c64af1a62eb7fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/f10fcfe4e343649f1e4792978ac27856101fa16d.jpg",
     "displayName": {
@@ -259,7 +267,7 @@
   },
   {
     "name": "In the heat of the battle",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/12bbec17a0e950f59d80702745078c5b26b06504.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/8ead7c71293c34f2bc99e55323aaf07a7585ddf0.jpg",
     "displayName": {
@@ -273,7 +281,7 @@
   },
   {
     "name": "It's a secret to everyone",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/99103cd58dcbe6059e76382fbecfcf5185a69252.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/b7eb202f170b38b7b994628ae5acb6e8b20b6e4d.jpg",
     "displayName": {
@@ -287,7 +295,7 @@
   },
   {
     "name": "She's so random, I love her",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/e35f8e9582b660894582fef289f684ed63b2d2cc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/360d2d378b1239d3cb1684e45d8b78913185c87f.jpg",
     "displayName": {
@@ -301,7 +309,7 @@
   },
   {
     "name": "Economist",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/391af6a5b2c6d7c6a7349c390be914da922812ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/127e451e02f16ae031a0879f2c976b893b02c8c2.jpg",
     "displayName": {
@@ -312,15 +320,17 @@
       "english": "Fully upgrade Guy",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "s_Economist"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s_Economist",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Horticulturalist",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/8e068a32af789038fa9cb8b6c072bc9f616b7735.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/e2aaeedddae6f46bbbd1c3845faf9517d35480a2.jpg",
     "displayName": {
@@ -331,15 +341,17 @@
       "english": "Fully upgrade Lief",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "s_Horticulturalist"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s_Horticulturalist",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Metallurgist",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/6d1fe48b0aec6136f6acbfff5548551ee724a700.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/940960d1cdc2fdd7ff4cc8e81707635cfc4c899d.jpg",
     "displayName": {
@@ -350,15 +362,17 @@
       "english": "Fully Upgrade Hua",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "s_Metallurgist"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s_Metallurgist",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Speleologist",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/24ca1c9bb27017da3481ebe39a0940c7f3866aec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/5a6ead2f775d6939a12fe140cfa9724f6b757d72.jpg",
     "displayName": {
@@ -369,15 +383,17 @@
       "english": "Fully upgrade Glacistov",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "s_Speleologist"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s_Speleologist",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Toxicologist",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/a865ff4b5b62a1cba587c2266c1a821790e6a5fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/052887d03e325ffd6c7fc70998c67950f7849a60.jpg",
     "displayName": {
@@ -388,15 +404,17 @@
       "english": "Fully upgrade Himitsu",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "s_Toxicologist"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s_Toxicologist",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Nanotribologist",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/15b0ebf763700e66d8808332aede0fc811cf2c87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/8558df9930a05b867ac29ad0130beb98040087fa.jpg",
     "displayName": {
@@ -407,15 +425,17 @@
       "english": "Fully upgrade Mixigilly",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9,
-      "stat_name": "s_Nanotribologist"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "s_Nanotribologist",
+        "min_val": 0,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "Critical",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/6b57c9d905f1ad3b5eabef104db3cafc01b70a0e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/8e421927447b5d6378205a08cb75ef0fb0ebdc91.jpg",
     "displayName": {
@@ -429,7 +449,7 @@
   },
   {
     "name": "Adult Wallet",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/751631b57c332dfa7af1ed33065016df783eed56.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/4b9bc1655de41134d566206fd9d0341ed247aacb.jpg",
     "displayName": {
@@ -443,7 +463,7 @@
   },
   {
     "name": "Limit Broken",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/265d6e64797393e77abf1dfcb81f803e96e760c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/1c26010fb142a8de82f0e00d4225a8a6c7e58d2e.jpg",
     "displayName": {
@@ -457,7 +477,7 @@
   },
   {
     "name": "Ultra Instink",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/911d5fa2126392eee6f31fa2e54b758f6940ff79.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/d21fe99b385ecf760eedf1830682b0dfadcb511b.jpg",
     "displayName": {
@@ -471,7 +491,7 @@
   },
   {
     "name": "Struggle, Endure, Contend",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/5e165a969d1a8f62e9aef407e4c398416170aa89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/2dcb5152164ce4e2ff5ebf6deccfa98b9649c18d.jpg",
     "displayName": {
@@ -485,7 +505,7 @@
   },
   {
     "name": "Chicken",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/b7c59ab2313640ace8ffe04fec5022f1e2296dbe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/0d141a3281e31c5ef31e444d6f020d23c8c928ec.jpg",
     "displayName": {
@@ -499,7 +519,7 @@
   },
   {
     "name": "Earth, Wind & Fire",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/19ea4f8f90d3e9bd3513471b0167f9cc4c46d474.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/923ce2064e4a7a2d711418be69920ad2e42de48b.jpg",
     "displayName": {
@@ -513,7 +533,7 @@
   },
   {
     "name": "You Also Pee Yourself",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/445ddc422b6e651bb361d2e3d9ffdb73f58e02de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/6b157bf1cf859e03303b57540b720c1c09884f84.jpg",
     "displayName": {
@@ -527,7 +547,7 @@
   },
   {
     "name": "Seduced The Dragon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/cd2cae2ead9710fb03e4e4ab3ab9b35354b06c0f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/e12b9d9f5f8d48cee2dda2211dcf7f8b558c34c6.jpg",
     "displayName": {
@@ -541,7 +561,7 @@
   },
   {
     "name": "Skill Issue",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/660e4b907c572558ad340c52dcd6be3a71fb9960.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/bc7211f7910af6b3f60138613c1249d7cc6ef569.jpg",
     "displayName": {
@@ -555,7 +575,7 @@
   },
   {
     "name": "Unga Bunga",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/4343b55251180d6ea7665921d8389fd4f748ed9d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/3687900d24436f6eca55cdb95c521ac7fedb7068.jpg",
     "displayName": {
@@ -569,7 +589,7 @@
   },
   {
     "name": "Resistance Build",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/00600658b4a25ea0918f8312b427006a1d105fe8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/4c46e9a89890a8af67bafbaa76df124fec8ba967.jpg",
     "displayName": {
@@ -583,7 +603,7 @@
   },
   {
     "name": "X-Communicated",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/e92f1870cb125cb7cdd022131dc9d0883481e1d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/1b5c54b4458088382f2eb755ba282a6a90466c1a.jpg",
     "displayName": {
@@ -597,7 +617,7 @@
   },
   {
     "name": "Scared of Mimics",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/4ae636650727a05ed9d55f073d61260e8e8a5eb0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/5d1c68d229caaa43a60fd4997f66ccdaf15ba8b2.jpg",
     "displayName": {
@@ -611,7 +631,7 @@
   },
   {
     "name": "+16 Sleight of Hand",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/5e422448aeb68295f5861bbe4fd2dc5606ebb548.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/fd5afefae4ff84def3d10ce32025b1d38511c498.jpg",
     "displayName": {
@@ -625,7 +645,7 @@
   },
   {
     "name": "Vanilla is My Favourite Flavour",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/c1bc10444b12b8ccb9545bbe5d3d7e7490cfb9c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/b23989ab809ac857c3b2fbdff25b7bfad59d6785.jpg",
     "displayName": {
@@ -639,7 +659,7 @@
   },
   {
     "name": "20-Dice Muda",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/85c5c22147446b857cfa84edea6836e6aba4e9d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/a3ecb1f9aad63ec5b1702f8feca0b5abfef583af.jpg",
     "displayName": {
@@ -653,7 +673,7 @@
   },
   {
     "name": "Those Things are Expensive, You Know",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/c75eb9f322ecba66665c0bf644b5f7ac5df0696c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/e64b1513645f531fd81efb170b9e3ad75f3c5849.jpg",
     "displayName": {
@@ -667,7 +687,7 @@
   },
   {
     "name": "Nah, I'm Good",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/a5fdddc98c85766c8e5408003cb1f44c042778bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/f0b8df59299fdf86fbf3a9981efdf1711384501d.jpg",
     "displayName": {
@@ -681,7 +701,7 @@
   },
   {
     "name": "Harmony",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/3c8996d16104319784db149b8cde749554100936.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/97369c5ee921d933599adbe90f23a99cd17cf128.jpg",
     "displayName": {
@@ -695,7 +715,7 @@
   },
   {
     "name": "Nothing Personal Kid",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/2446ff229af5a25c451770bf838812fc8b0b8f4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/a934b1dd7313fdfeafeeac6c68f25124d0ed94ae.jpg",
     "displayName": {
@@ -709,7 +729,7 @@
   },
   {
     "name": "Nothing",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/e2525e34fb3c3c2d75d954fb1da8c597f0ec045f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/fabb6ecbd16ddfca7104480f54d1aad6c393ee18.jpg",
     "displayName": {
@@ -723,7 +743,7 @@
   },
   {
     "name": "Defence is the Best Offence",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/fc46afe3fcc042b6023dffcd097db6a14525994c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/a929223b4381adc92bc9522407c261b1af0f311b.jpg",
     "displayName": {
@@ -737,7 +757,7 @@
   },
   {
     "name": "Play to Win",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/f72d187d383777f6148a10275d1c13457c6edcde.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/afe998b18517669b894d33fd3c7116ed3eb7696f.jpg",
     "displayName": {
@@ -751,7 +771,7 @@
   },
   {
     "name": "Not Even My Final Form",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/7477263ea6228bed47b381057fa16ee7513806d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/67031b2b257b6b43de430198b8fccf51743a5c9f.jpg",
     "displayName": {
@@ -765,7 +785,7 @@
   },
   {
     "name": "He Needs Some Milk",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/71687596420ac2d9275adef085561e6c43c00f14.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/66be94c1dcf2198b3992340d36efa16272c6b1dd.jpg",
     "displayName": {
@@ -779,7 +799,7 @@
   },
   {
     "name": "High Risk, No Reward",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/bc3c92e1efc9d531d0f33371ee803f97fcd7ed5b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/3d65f615b0357630d9f8114eaed4647834d8b512.jpg",
     "displayName": {
@@ -793,7 +813,7 @@
   },
   {
     "name": "Two Birds One Stone",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/d436f5158175d235ca9c181bb07b1acd1050eebb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/f833473e167147c7b7e9baee34c820d4d305b51e.jpg",
     "displayName": {
@@ -807,7 +827,7 @@
   },
   {
     "name": "Unidentified Fungai Object",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/8247a3cfc77dbc743a31f049d069d134effa749e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/d43995119154146c759be71b4a96ada3e5afe999.jpg",
     "displayName": {
@@ -821,7 +841,7 @@
   },
   {
     "name": "Call an Ambulance... But not for me",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/6492dafe7810b762b5c3ccb15fa4ea658845206e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/7d629e0a661feae319b8dedee3e02650edc969e3.jpg",
     "displayName": {
@@ -835,7 +855,7 @@
   },
   {
     "name": "Half-Life not worth living",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/86b318ceb0d55d032c905629d18119a9bec4a0b5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/78f1b68e7538ec706b91dc25d1134be4deed7605.jpg",
     "displayName": {
@@ -849,7 +869,7 @@
   },
   {
     "name": "Heart is my favourite element",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/f4dc4008d3551f56eadf0bfa553f546c32965990.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/36ea3e481561f874aa9850ca904d19ddc8f350a1.jpg",
     "displayName": {
@@ -863,7 +883,7 @@
   },
   {
     "name": "Hot Singularities in your area",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/46b91f120ecc14efe29deab7fd5c069ebbe7dbc5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/416326e6a439caff9ddc83719ea1b03465c35ce2.jpg",
     "displayName": {
@@ -877,7 +897,7 @@
   },
   {
     "name": "Nothing Up My Sleeves",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/cd7d7443a654349bddc0a7e3479f63debc452c60.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/4882b10414c37beab0038524092b36621fabe753.jpg",
     "displayName": {
@@ -891,7 +911,7 @@
   },
   {
     "name": "Consolation Prize",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/79a5e4b4dc067b0049017480fca61be1be3f2ec9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/ae1b88c6e945264c22098a31ac66096d9cca9d2a.jpg",
     "displayName": {
@@ -905,7 +925,7 @@
   },
   {
     "name": "Nani???",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/386839e0424a1b34d195fa71a9e1be4f45b6e117.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2279220/1940a20573b35247ad1fe6c7f9a8148fc8351489.jpg",
     "displayName": {

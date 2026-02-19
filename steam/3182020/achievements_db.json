@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_STARTGAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/656e90758e2fe192db9e4080988fa020b15ff13f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/5bc9270b9ca9109f1a8928371f838c235ad7d313.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_CAPLICK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/cf47217a55bf85c86e1859bd2e0f7c8925add8e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/86bde1fb7e615152af283adf9803cb8abbd0de50.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACHIEVEMENT_DEERMARK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/e9fb309d3f8758c70cdd1a67f6802c9949e1d2be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/5f17eb2af2a6525df2a4ddbf0b3f36ec20be1c8e.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Mark all 3 deer for Andy to pickup.",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "deer_mark"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "deer_mark",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_DRIVEAWAY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/37b5f65ff51ea89cf93d5cd0638bac693ef39009.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/478ebb71aecae5b36676c461162cd358121a1de9.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACHIEVEMENT_EATBREAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/e4cddf735f45bd6c0858374c346b08c2d256b542.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/a574f850813a43ec77642b265e309d7a0a370b4b.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACHIEVEMENT_BOWARROW",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/2143741ccc924ed0b95d72a01ab473770462e18a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/9e9b4b4b3df7e9756ae74d73cadbf9adde5195b5.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACHIEVEMENT_DEERKILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/4c51959c2aa7fa86d191a79135d0d52b7b908e9d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/d703d95ffbd4d582f956332fe5bd597896f7790e.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACHIEVEMENT_CULTISTKILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/e9bd118cb76020a2e9a1c55cc9974620e0a81b95.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/96204e5028cc647fc685fca0826beb6c7d3b9fc1.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACHIEVEMENT_EXPLODE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/3c51dfcc59addd1cdee784747bf2c48eaac43e07.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/496184be344bf13548d112614575b4b4e199903a.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACHIEVEMENT_RELICPICKUP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/5d1d15b20864a0b89e666ee9f6d04c321970468f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/2c022b6e9b65773f369cb1071a2a8bab304a46fb.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "ACHIEVEMENT_SHOTGUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/b134a5060e933fd9e909f56b872c1f35c8e0eca8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/b8cb2d0faab6582ba8da593b94d8b91e7385065f.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "ACHIEVEMENT_SHOOTANDY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/d84d429183c98080869f9d05750601338f43adb2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/a96d744eba74ea8435f1382d3a740cdb76f77aa1.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "ACHIEVEMENT_BIGEXPLODE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/12a920032cbc14c271520bc94a92e2559896ad02.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/ec811a61b9a5ecdd12c59ca069a5be2bf0bce9b4.jpg",
     "displayName": {
@@ -185,15 +187,17 @@
       "english": "Kill 5 or more enemies in a single explosion.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "stat_explode"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_explode",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_EASYFINISH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/aa14166e4e31733500eab1d263389d84efcec026.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/65bd154abecc3859dbe9df55b029f511ea0bb94e.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "ACHIEVEMENT_NORMALFINISH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/fb457cb9f78cc9f7b20a138e70535a3756643b76.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/d05351908960ed8a1c06b4c5d1a1c485b75702b0.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "ACHIEVEMENT_HITLESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/5bc5b5acd0db64a38fb55dec89d4fd4903441410.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/c6ca5609f65e186e57ca20da920b1fa64acd41c7.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "ACHIEVEMENT_WAIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/738abe364a5072c5a87bc19ee51521e94df972d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/edcccbacda3ed3db3640eefbb410de98f1dd66cc.jpg",
     "displayName": {
@@ -246,15 +250,17 @@
       "english": "Endure 10 minutes in purgatory.",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_wait"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_wait",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_PRISONKILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/fdd75d0420719b627750701e9df22a7e4252cf6c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3182020/181d66642237fdde779e84a75380c915c228ef78.jpg",
     "displayName": {

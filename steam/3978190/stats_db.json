@@ -2,73 +2,78 @@
   {
     "name": "DuringTime",
     "displayName": "GamePlayTime",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": "MAX_INT",
+    "min": 1,
+    "max": "MAX_INT",
+    "default": 1
   },
   {
     "name": "GoldAmount",
     "displayName": "GoldAmount",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": "MAX_INT",
+    "min": 1,
+    "max": "MAX_INT",
+    "default": 1
   },
   {
     "name": "AverageHeroLevel",
     "displayName": "AverageHeroLevel",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 80,
+    "min": 1,
+    "max": 80,
+    "default": 1
   },
   {
     "name": "HeroCount",
     "displayName": "HeroCount",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 60,
+    "min": 1,
+    "max": 60,
+    "default": 1
   },
   {
     "name": "DisCoveryHeroCount",
     "displayName": "DisCoveryHeroCount",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 121,
+    "min": 1,
+    "max": 121,
+    "default": 1
   },
   {
     "name": "LastDisCoveryBuilding",
     "displayName": "LastDisCoveryBuilding",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 20,
+    "default": 1
   },
   {
     "name": "LastDisCoveryDungeon",
     "displayName": "LastDisCoveryDungeon",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 40,
+    "default": 1
   }
 ]

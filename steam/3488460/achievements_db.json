@@ -1,7 +1,7 @@
 [
   {
     "name": "GHOST_ORPHAN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/e3dfb9ad73527197f09a671bbbcff1d3196f9425.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/5e4633eb06cdfbb502a309e9e073c307ebd5a828.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "GHOST_NAGASHI",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/e37aa1601e69712d9e8889df18b0d8be71975f89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/88585148af6b8413fa3dd329b887643b97d8d912.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "TAUNT_DEALIN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/a7dfcc2addc730ee15ea9b34e5398cbb9846647d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/fbd5cdb40d927a88fe0bd90945cdae8648be985a.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "TAUNT_PREVENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/6a8a3ffb90a4b3e97962f049d1b7e8d1812e2e9a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/4919e0445b1585add1cf532f4dd297dd4beb7c14.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "THIERRY_TSUMO",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/082693f17f447925200ec6556da94df418487916.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/e5dc721086d74bcee35b966a33700b2e9010caf8.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ROWAN_TSUMO",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/534d1c272150bd391b9cabb07068f4d9d428f3fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/924ac4b1614b3bed8d11174a22b629a2b522bdcd.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "RHEA_FURITEN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/08356c3b2fb7c396af0f6de6f3092fc6056b9309.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/4cbb192830c7ba66c9a765a294755a6cd7ac7226.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "KORI_YAKU",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/b68afa277147d536f9c9d70d3d1f687ce7e5df14.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/5414de53ea79fd20ea567b62d2e17d3f22b45921.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "GIRLS_SAW",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/db21afc6017833dbb1c70283d2de68618e800319.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/c7c8eba20b27f08f24c99cb8ddd0cc81adabb498.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "STORY_VREN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/167b33db5b10c4cd6cb01da30e24c72e1402e21f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/8f7e008213cc44c9d3a41e692b0bf55bc2789c99.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Finish Vren's story",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "chapter_vren"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "chapter_vren",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "STORY_KORI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/4d31e665be845c4db8eae35905c156cd75cf328a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/50e3e435a23b8dae8365cbb2bd7b30c97b8410f5.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Finish Kori's story",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "chapter_kori"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "chapter_kori",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "STORY_THIERRY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/ab1201dcd3af3fdd0656ae3805fd4ceb27fcdc32.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/16fd05a6ff84422211d32822ca1c3ed7207b312b.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Finish Thierry's story",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "chapter_thierry"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "chapter_thierry",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "STORY_HANA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/9f8e4164bff06299f14445fc03c8cf65aa550d9d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/32444b8bb942e873795c552fdb3615754f6cdbce.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Finish Hana's story",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "chapter_hana"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "chapter_hana",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "STORY_RHEA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/b6305302a614c6b8c72fa187eb53638b24d04f08.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/ec8d4faa31d78ba6e5009c73ec586ffac785ad43.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "Finish Rhea's story",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "chapter_rhea"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "chapter_rhea",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "STORY_ROWAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/c3b27c9f0e930668c586cb0c8ae2d290ffc3c0a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/3c63e0b6fc6588124882335c9a3f6c0789d00d40.jpg",
     "displayName": {
@@ -233,15 +243,17 @@
       "english": "Finish Rowan's story",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "chapter_rowan"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "chapter_rowan",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "STORY_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/c11d2c70eb14737b2052d7701cc5ac14d80cd2df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/de199251ae6db2477e88b0e9eb50a19051e2586b.jpg",
     "displayName": {
@@ -255,7 +267,7 @@
   },
   {
     "name": "VREN_WIPE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/d7d60448a38c980d2787542aa739c296fa0fa9e7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/2a4ceff8c45c0d91aa61978a22706e841f7ad5de.jpg",
     "displayName": {
@@ -269,7 +281,7 @@
   },
   {
     "name": "KORI_ORANGE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/0e95a857712ab58f5e6822b1159968f670eef96f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/b3475c3b5fc0501bef760cdaf8cbe27ca15b217f.jpg",
     "displayName": {
@@ -283,7 +295,7 @@
   },
   {
     "name": "THIERRY_BRUNETTE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/f5fec636be608ed8a986affd9a7293b0e9ed8ef8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3488460/9d231219b6d7b6b36acdc6d5dfd02f730c4bde6a.jpg",
     "displayName": {

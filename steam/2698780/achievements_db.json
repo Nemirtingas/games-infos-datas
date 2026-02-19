@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_WELCOME_TO_CREEK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/36162eb1ddf6ca7088116c08724d840aa7431be7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/7edf30d33f43f50ac024788da9846b66ac1e976b.jpg",
     "displayName": {
@@ -19,7 +19,7 @@
   },
   {
     "name": "ACHIEVEMENT_SWEET_HOME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/c7d63569e03bcb81ae9bcb32741b337af3b32597.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/c7b6634e820bb711eeb38fd1129c0ae92fcd1897.jpg",
     "displayName": {
@@ -37,7 +37,7 @@
   },
   {
     "name": "ACHIEVEMENT_NEW_VENTURE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/ba1bd8b2b117298f231bd6f4cad65c62eb7e8258.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/a947bc53164e30df00b0d8130e9a77bd69d770b3.jpg",
     "displayName": {
@@ -55,7 +55,7 @@
   },
   {
     "name": "ACHIEVEMENT_ALL_SKILLS_ACQUIRED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/1999c6a68e50722293f5e97a053644c2dace5d04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/aa22b1ba02a8115903e8743c355f4de82ff9f6c9.jpg",
     "displayName": {
@@ -73,7 +73,7 @@
   },
   {
     "name": "ACHIEVEMENT_FIRST_VEHICLE_BOUGHT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/7f3e1eb7dfcece531c013e6c82448cbfff4bc3ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/a6ca83f6641b331aa1a454f9f0165b48bcc86570.jpg",
     "displayName": {
@@ -91,7 +91,7 @@
   },
   {
     "name": "ACHIEVEMENT_NO_FUEL_WHILE_IN_CAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/574a9c67ef01fda27976417b1a0b3ce9f532c5fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/708b55127ab773e772d83533b96ad2d6a6eff13f.jpg",
     "displayName": {
@@ -109,7 +109,7 @@
   },
   {
     "name": "ACHIEVEMENT_ALL_MAINGOALS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/c17d712941fe4dbc54a2b886e43ad2da861bcbcb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/6697982fba80b6d859a4576b3c7a5440b4f5aa15.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "ACHIEVEMENT_MILLONAIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/e83ad8ceb6f054abf6522e1b0f813d37779fbdbc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/3899e71a97f1e8b6542364cce0ae1dae20e3825c.jpg",
     "displayName": {
@@ -142,15 +142,17 @@
       "polish": "Zbierz określoną kwotę w grze!",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "CollectedMoney_CollectedMoney"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CollectedMoney_CollectedMoney",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_TEN_MILLION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/cefb83bc623133f3e78a32d1957e6fbe601c38db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/a23c0f7bd719e03c8edef425a876de911ed72c1e.jpg",
     "displayName": {
@@ -165,15 +167,17 @@
       "polish": "Gratulacje! Jesteś posiadaczem fortuny wartej 10 milionów dolarów.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000000,
-      "stat_name": "CollectedMoney_CollectedMoney"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CollectedMoney_CollectedMoney",
+        "min_val": 0,
+        "max_val": 10000000
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_FIRST_LAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/03db5f801a35b0722e18c491a2671a2394bf0ea4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/89f7e59ca8321ccadcf3146173d8162d9e8d3ad9.jpg",
     "displayName": {
@@ -191,7 +195,7 @@
   },
   {
     "name": "ACHIEVEMENT_FIRST_ESTATE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/abe2b21eb0baaf353f28e81c49b1171261e79aa7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/909eff40b2b4f66938f5a620fa0c5f9da0738cb4.jpg",
     "displayName": {
@@ -209,7 +213,7 @@
   },
   {
     "name": "ACHIEVEMENT_TEN_LANDS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/2306c0325c06798af0750b2f450636b615747ef2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/2018423f699852e727198193b1c0a3108cc5e0f4.jpg",
     "displayName": {
@@ -224,15 +228,17 @@
       "polish": "Kupiłeś 10 działek",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "LandBought_LandBought"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LandBought_LandBought",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_ALL_LANDS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/5d50d784367046299338c050d8c97e57b7859ad1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/c483cdcf0999245e1febc65a1d93d2ca03a3fde8.jpg",
     "displayName": {
@@ -247,15 +253,17 @@
       "polish": "Kupiłeś wszystkie dostępne działki w grze!",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 21,
-      "stat_name": "LandBought_LandBought"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LandBought_LandBought",
+        "min_val": 0,
+        "max_val": 21
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_CLEAN_DIRT_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/7ef73fc583518cd4ec0602002931e09f73d02360.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/73810d021babfe08095bb2c9faba815caceca6d8.jpg",
     "displayName": {
@@ -270,15 +278,17 @@
       "polish": "Wyczyść brud 50 razy",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "CleanedDirt_CleanedDirt"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CleanedDirt_CleanedDirt",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_CLEAN_DIRT_200",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/cb0b1cdc5b1d641e72f8b296fe88a356cb92f26e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/e4e56fd08c061475237a8291b642583764939ab0.jpg",
     "displayName": {
@@ -293,15 +303,17 @@
       "polish": "Wyczyść brud 200 razy",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "CleanedDirt_CleanedDirt"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CleanedDirt_CleanedDirt",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_CLEAN_DIRT_500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/ba8233d4d17493879836e00a0e313b52b9e340cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/958646c2fd20497207f001327d02935422c51b77.jpg",
     "displayName": {
@@ -316,15 +328,17 @@
       "polish": "Wyczyść brud 500 razy",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "CleanedDirt_CleanedDirt"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CleanedDirt_CleanedDirt",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_COLLECT_GARBAGE_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/0007f31571f16f000cbc8715cbaee0e9173e7aa4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/135afc214be2c2c8befbf1457811514a96e3d205.jpg",
     "displayName": {
@@ -339,15 +353,17 @@
       "polish": "Zbierz śmieci 100 razy",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "GarbageCollected_GarbageCollected"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GarbageCollected_GarbageCollected",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_COLLECT_GARBAGE_500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/5b3273168aa539e8daef5daf8f5dd05845054c71.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/f8b8f61bb943a7d5d44a2b5948e0f8ca4d3b77a6.jpg",
     "displayName": {
@@ -362,15 +378,17 @@
       "polish": "Zbierz śmieci 500 razy",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "GarbageCollected_GarbageCollected"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GarbageCollected_GarbageCollected",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_COLLECT_GARBAGE_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/eccda342b8948537b2c441a267c0b0369a9d0d8d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/0ed2f1b7cacf942531a2031fff9c91f080be08e7.jpg",
     "displayName": {
@@ -385,15 +403,17 @@
       "polish": "Zbierz śmieci 1000 razy",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "GarbageCollected_GarbageCollected"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GarbageCollected_GarbageCollected",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_FURNITURE_PURCHASED_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/043d56eb1f6b7c63f7d1a1334e9477da49ad41ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/eae0a1113c783f6e01e26531adc23b5505887b59.jpg",
     "displayName": {
@@ -408,15 +428,17 @@
       "polish": "Zakupiono 100 mebli do domu!",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "FurniturePurchased_FurniturePurchased"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FurniturePurchased_FurniturePurchased",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_FURNITURE_PURCHASED_250",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/a62cf50f718dd450ba809e816c6fa249c6de850d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/5efd3683754a8c8ceff8926bce6ea83f29a23c66.jpg",
     "displayName": {
@@ -431,15 +453,17 @@
       "polish": "Zakupiono 250 mebli do domu!",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "FurniturePurchased_FurniturePurchased"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FurniturePurchased_FurniturePurchased",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_FURNITURE_PURCHASED_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/9ce333b27e23428e1908b7e88709764560d85f02.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/2339c3e6a3410a82aee79a6c4ab98fac4bc40d07.jpg",
     "displayName": {
@@ -454,15 +478,17 @@
       "polish": "Mistrzowski projekt z tysiącem elementów wyposażenia!",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "FurniturePurchased_FurniturePurchased"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FurniturePurchased_FurniturePurchased",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_LOGISTIC_COMPLETED_FIRST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/7032022f73999dd989d35d5f5a8b9aa9dec0fa9a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/a8666c5ceee88d1eb3ca903a7f0eea8cd0f28223.jpg",
     "displayName": {
@@ -480,7 +506,7 @@
   },
   {
     "name": "ACHIEVEMENT_LOGISTIC_COMPLETED_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/bbe219c38c0a602497e2bc6fedb9e1600143054b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/cd064f29bc74884d435c26fbab26586d50dac8d2.jpg",
     "displayName": {
@@ -495,15 +521,17 @@
       "polish": "Mistrz logistyki! Ukończ 50 zadań transportowych.",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "LogisticCompleted_LogisticCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LogisticCompleted_LogisticCompleted",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_LOGISTIC_COMPLETED_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/308af389112fae8b5d1066686b81405340abb0be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/59819280723a7f030f7b7576d51f884875d94b57.jpg",
     "displayName": {
@@ -518,15 +546,17 @@
       "polish": "Sułtan logistyki! Wykonaj 100 zadań logistycznych.",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "LogisticCompleted_LogisticCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LogisticCompleted_LogisticCompleted",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_CONTRACT_COMPLETED_FIRST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/522192539162504d4ebeb2c352d988d85196e4fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/e68bf9f82955bc62762fc70cd25cdc2aeff37016.jpg",
     "displayName": {
@@ -544,7 +574,7 @@
   },
   {
     "name": "ACHIEVEMENT_CONTRACT_COMPLETED_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/f85e51d075f6dc07ece612dc4b866666b451ea5d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/7bad426abb20475d3c466543288865b13289462e.jpg",
     "displayName": {
@@ -559,15 +589,17 @@
       "polish": "Zakończono 50 kontraktów. Zostaleś asem.",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "ContractCompleted_ContractCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ContractCompleted_ContractCompleted",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_CONTRACT_COMPLETED_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/73feaf5ee0c045f3f20aa5dafacc0d6e936583a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/9027fad79912a6cd1bc24b123fa3b652cfafbeaf.jpg",
     "displayName": {
@@ -582,15 +614,17 @@
       "polish": "Chodząca legenda kontraktów. Ukończono ich ponad 100.",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "ContractCompleted_ContractCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ContractCompleted_ContractCompleted",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_BUILD_COMPLETED_FIRST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/d8495adb5b69375c2726f0be375a7ddeee0b963d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/e9f95d1c4d3380f5f2d59d67242ee73006a99bdf.jpg",
     "displayName": {
@@ -608,7 +642,7 @@
   },
   {
     "name": "ACHIEVEMENT_BUILD_COMPLETED_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/28b368bd34bdd33e96cf42292309f2c2c74e99fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/d59a829a65bfe19035e7c0e52b25c0e5db83b293.jpg",
     "displayName": {
@@ -623,15 +657,17 @@
       "polish": "Ukończono 5 budynków. Osiągnąłeś status mistrza.",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "BuildCompleted_BuildCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BuildCompleted_BuildCompleted",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_BUILD_COMPLETED_15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/e490f66e70926700d0f85f2201f840e37c4b8037.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/f215308ef878929f43640d6649c9920b5c5b61ec.jpg",
     "displayName": {
@@ -646,15 +682,17 @@
       "polish": "Z sukcesem zbudowałeś 15 budynków. Jesteś geniuszem budowlanym.",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "BuildCompleted_BuildCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BuildCompleted_BuildCompleted",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_DEMOLISH_WALL_FIRST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/e1448f44f4b7a53dd042f97be5c56489d13253b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/8cba6b39228d2f6729b5ef451fdc79673392001e.jpg",
     "displayName": {
@@ -672,7 +710,7 @@
   },
   {
     "name": "ACHIEVEMENT_DEMOLISH_WALL_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/ac2449b85d8f700e325ef59ae7d19c222a4cb082.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/8256670872d3ba6466b735bb84e503544055cea1.jpg",
     "displayName": {
@@ -687,15 +725,17 @@
       "polish": "Rozbiórkowy ekspert! Runęło 100 ścian.",
       "token": "NEW_ACHIEVEMENT_3_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "WallDemolished_WallDemolished"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "WallDemolished_WallDemolished",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_DEMOLISH_WALL_500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/c8a0d089b3f436add5717a3e8a9c1f20582dce1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/10dfcd047f9c85496b7e17b2cf7b97e1c5fc5b8f.jpg",
     "displayName": {
@@ -710,15 +750,17 @@
       "polish": "Mistrz demolki! Wyburzono ponad 500 ścian.",
       "token": "NEW_ACHIEVEMENT_3_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "WallDemolished_WallDemolished"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "WallDemolished_WallDemolished",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_FINISHED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/6ed5d74cc6d869445026c73dfdbee9b19b74b382.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/7e01be0d38a4dbb18d432fa1b8c4bd68f07deebd.jpg",
     "displayName": {
@@ -736,7 +778,7 @@
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_CLAIM_TROPHY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/b63137646415c7f56a8bb7609d438ec774dd4d34.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/8c334c7c13482ea9247fccae335e5c4d1a61e4b3.jpg",
     "displayName": {
@@ -754,7 +796,7 @@
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_SLAP_VANDAL_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/60f6fca78b4849178be9e5eca2001c0b663de2f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/2650f649aca183ad384bef44645e5d0100d2ba2a.jpg",
     "displayName": {
@@ -769,15 +811,17 @@
       "polish": "Uderz 5 wandali w misji Sprawiedliwość dla natury.",
       "token": "NEW_ACHIEVEMENT_3_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "GoGreenVandalSlapped_GoGreenVandalSlapped"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenVandalSlapped_GoGreenVandalSlapped",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_SLAP_VANDAL_25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/d9f6936d6f792e4afffed30fc3b8f133db35f2f0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/410fe471f989a7671d61b8f5b266daa315051c66.jpg",
     "displayName": {
@@ -792,15 +836,17 @@
       "polish": "Uderz 25 wandali w misji Sprawiedliwość dla natury.",
       "token": "NEW_ACHIEVEMENT_3_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "GoGreenVandalSlapped_GoGreenVandalSlapped"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenVandalSlapped_GoGreenVandalSlapped",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_SLAP_VANDAL_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/a3d3c4b3fe1b1fa05221ddbfe371527374d603da.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/850f6b4e2044229ce71a961ee77bfc48a5161559.jpg",
     "displayName": {
@@ -815,15 +861,17 @@
       "polish": "Uderz 100 wandali w misji Sprawiedliwość dla natury.",
       "token": "NEW_ACHIEVEMENT_3_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "GoGreenVandalSlapped_GoGreenVandalSlapped"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenVandalSlapped_GoGreenVandalSlapped",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_JFN_COMPLETED_7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/d1b9933a3a1a12ec440ccd0ef4d76549714f66fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/721f7b94603815995af8799bdd56c323dd8d00ad.jpg",
     "displayName": {
@@ -838,15 +886,17 @@
       "polish": "Oczyść 7 obszarów z wandali w ramach misji Sprawiedliwość dla natury.",
       "token": "NEW_ACHIEVEMENT_3_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "GoGreenJFNCompleted_GoGreenJFNCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenJFNCompleted_GoGreenJFNCompleted",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_BUILD_WATERMILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/172b14fb9cb2f37e1fe2dd62b9e479a1ca7e66c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/3b0e9c8820951ae180da78b07483062da233340f.jpg",
     "displayName": {
@@ -864,7 +914,7 @@
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_BUILD_WATERMILL_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/e7d9ead4f1fca15b56b7cf5aa28b07c14cbf2e21.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/cd4e4bfb2c0668a8e9b4a1af6d597cfb791aea2c.jpg",
     "displayName": {
@@ -879,15 +929,17 @@
       "polish": "Ukończ budowę 10 młynów wodnych w misjach Kampanii czystej wody.",
       "token": "NEW_ACHIEVEMENT_3_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "GoGreenWaterMillBuilt_GoGreenWaterMillBuilt"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenWaterMillBuilt_GoGreenWaterMillBuilt",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_CWC_COMPLETED_7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/5cb3c321c50025af0dcc9a9b87ffb917aa8d337f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/d9a8210830aa39e67e7a8de75f53376c8f0ab8ea.jpg",
     "displayName": {
@@ -902,15 +954,17 @@
       "polish": "Ukończ 7 misji kampanii Czysta Woda.",
       "token": "NEW_ACHIEVEMENT_3_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "GoGreenCWCCompleted_GoGreenCWCCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenCWCCompleted_GoGreenCWCCompleted",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_RESCUE_ANIMAL_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/4f016d211770a1fc833ac06bbf0eed2059fb4861.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/70ee4b4e34986abfd07ec4cbc3c1bfbefa1e1395.jpg",
     "displayName": {
@@ -925,15 +979,17 @@
       "polish": "Uratuj 5 zwierząt w misji Odrodzenie lasu.",
       "token": "NEW_ACHIEVEMENT_3_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "GoGreenAnimalRescued_GoGreenAnimalRescued"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenAnimalRescued_GoGreenAnimalRescued",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_RESCUE_ANIMAL_25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/7475b169e98cd69f5cbf29b82e3885106da3d705.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/00b9096be824a5514e75d2bb729a7212f8f2afc2.jpg",
     "displayName": {
@@ -948,15 +1004,17 @@
       "polish": "Uratuj 25 zwierząt w misji Odrodzenie lasu.",
       "token": "NEW_ACHIEVEMENT_3_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "GoGreenAnimalRescued_GoGreenAnimalRescued"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenAnimalRescued_GoGreenAnimalRescued",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_RESCUE_ANIMAL_75",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/74e1cacc0c1dd68d20a24bf1e783b96c4d67d4b4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/df7506a81a1f61fba33361cc5234f059ee369451.jpg",
     "displayName": {
@@ -971,15 +1029,17 @@
       "polish": "Uratuj 75 zwierząt w misji Odrodzenie lasu.",
       "token": "NEW_ACHIEVEMENT_3_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 75,
-      "stat_name": "GoGreenAnimalRescued_GoGreenAnimalRescued"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenAnimalRescued_GoGreenAnimalRescued",
+        "min_val": 0,
+        "max_val": 75
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_FR_COMPLETED_7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/0bf607b85febfcd89f143046b1d31dd96c166a68.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/357420961f8b3ad24ab82f6ff1ab45cf90880db5.jpg",
     "displayName": {
@@ -994,15 +1054,17 @@
       "polish": "Ukończ 7 zadań w misji Odrodzenie lasu",
       "token": "NEW_ACHIEVEMENT_3_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "GoGreenFRCompleted_GoGreenFRCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenFRCompleted_GoGreenFRCompleted",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_PLANT_SEED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/16ae3f5fffd54b2ae267940e1085aa930b67b5bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/8633687b66801637989a4cec78a623f963eabac8.jpg",
     "displayName": {
@@ -1020,7 +1082,7 @@
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_PLANT_SEED_25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/b4bfa01105996772049957375cb26a6ad519fc42.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/4843e39df35c66b5b5b00a22233a5927f07717df.jpg",
     "displayName": {
@@ -1035,15 +1097,17 @@
       "polish": "Zasadź 25 sadzonek w misji Inicjatywy Zielonego Miasta.",
       "token": "NEW_ACHIEVEMENT_3_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "GoGreenSeedPlanted_GoGreenSeedPlanted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenSeedPlanted_GoGreenSeedPlanted",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_PLANT_SEED_75",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/424baa1085ac964e00f874446389f583df9f7071.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/12cb650724052af63dc9e04d354cde6a894068c5.jpg",
     "displayName": {
@@ -1058,15 +1122,17 @@
       "polish": "Zasadź 75 sadzonek w misji Inicjatywy Zielonego Miasta.",
       "token": "NEW_ACHIEVEMENT_3_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 75,
-      "stat_name": "GoGreenSeedPlanted_GoGreenSeedPlanted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenSeedPlanted_GoGreenSeedPlanted",
+        "min_val": 0,
+        "max_val": 75
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_GCI_COMPLETED_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/1b14653d749cb3e18f24f86310b603536a001e87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/ada3f0053ef5fd69d5a78b66735d78ad522e3825.jpg",
     "displayName": {
@@ -1081,15 +1147,17 @@
       "polish": "Ukończ 10 zadań w misji Inicjatywa Zielonego Miasta",
       "token": "NEW_ACHIEVEMENT_3_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "GoGreenGCICompleted_GoGreenGCICompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenGCICompleted_GoGreenGCICompleted",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_PLACE_FLYER_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/ff402dbbffe00414c9d40b6c7f594c437cf7aef6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/749517057d7fe129eabf688cea4c72747e27687e.jpg",
     "displayName": {
@@ -1104,15 +1172,17 @@
       "polish": "Umieść 10 ulotek w ramach misji Kampanii Uświadamiającej Społeczeństwo.",
       "token": "NEW_ACHIEVEMENT_3_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "GoGreenFlyerPlaced_GoGreenFlyerPlaced"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenFlyerPlaced_GoGreenFlyerPlaced",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_PLACE_FLYER_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/8d99b9852f17037d03efb0abf0781296ffefb040.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/891745183593d9efe948d2be1bbb3c2a15003d00.jpg",
     "displayName": {
@@ -1127,15 +1197,17 @@
       "polish": "Umieść 100 ulotek w ramach misji Kampanii Uświadamiającej Społeczeństwo.",
       "token": "NEW_ACHIEVEMENT_41_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "GoGreenFlyerPlaced_GoGreenFlyerPlaced"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenFlyerPlaced_GoGreenFlyerPlaced",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_PLACE_FLYER_250",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/889d10fe38f8e86635ad4619f28eebceaabdbf00.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/90fa1754351278217c4924370d8e789acbd8349d.jpg",
     "displayName": {
@@ -1150,15 +1222,17 @@
       "polish": "Umieść 250 ulotek w ramach misji Kampanii Uświadamiającej Społeczeństwo.",
       "token": "NEW_ACHIEVEMENT_41_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "GoGreenFlyerPlaced_GoGreenFlyerPlaced"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenFlyerPlaced_GoGreenFlyerPlaced",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_PAC_COMPLETED_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/fd690cdea16e697d1afd0126f5eaa4068cfe1da7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/7cb9ed654c16520d107691b257d2d87c38937b89.jpg",
     "displayName": {
@@ -1173,15 +1247,17 @@
       "polish": "Ukończ 10 zadań w misji Uświadamiania Społeczeństwa",
       "token": "NEW_ACHIEVEMENT_41_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "GoGreenPACCompleted_GoGreenPACCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenPACCompleted_GoGreenPACCompleted",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_THROW_RECYCLEBOX_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/8b0d7e5c7ac68b3ee3525cddce21e5f664861c55.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/a363fa87eab4668fc803b579128874c675a6b83e.jpg",
     "displayName": {
@@ -1196,15 +1272,17 @@
       "polish": "Wrzuć do kontenera 5 pudełek z odpadami nadającymi się do recyklingu podczas misji Wolontariat na rzecz czystej przyszłości.",
       "token": "NEW_ACHIEVEMENT_41_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "GoGreenRecycleBoxThrowed_GoGreenRecycleBoxThrowed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenRecycleBoxThrowed_GoGreenRecycleBoxThrowed",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_THROW_RECYCLEBOX_150",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/0577a6d25a72cecaacd810fd206da8e337cec64b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/5ca38365c7bab337d6aeb4bde86c899c32cfa4e8.jpg",
     "displayName": {
@@ -1219,15 +1297,17 @@
       "polish": "Wrzuć do kontenera 150 pudełek z odpadami nadającymi się do recyklingu podczas misji Wolontariat na rzecz czystej przyszłości.",
       "token": "NEW_ACHIEVEMENT_41_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 150,
-      "stat_name": "GoGreenRecycleBoxThrowed_GoGreenRecycleBoxThrowed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenRecycleBoxThrowed_GoGreenRecycleBoxThrowed",
+        "min_val": 0,
+        "max_val": 150
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_THROW_RECYCLEBOX_300",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/1b78d80efcae84f50778950eabef63b94c8e907c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/a546fd1c6e7ed0f9a980946f874c5b32ae71feab.jpg",
     "displayName": {
@@ -1242,15 +1322,17 @@
       "polish": "Wrzuć do kontenera 300 pudełek z odpadami nadającymi się do recyklingu podczas misji Wolontariat na rzecz czystej przyszłości.",
       "token": "NEW_ACHIEVEMENT_41_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "GoGreenRecycleBoxThrowed_GoGreenRecycleBoxThrowed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenRecycleBoxThrowed_GoGreenRecycleBoxThrowed",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_VFCF_COMPLETED_6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/0d2ad40222458bfedf1da22109672e90c68755c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/06419b47187e6a9e11faebe4c018054b6e7a426a.jpg",
     "displayName": {
@@ -1265,15 +1347,17 @@
       "polish": "Ukończ 6 zadań w misji Wolontariat na rzecz czystej przyszłości",
       "token": "NEW_ACHIEVEMENT_41_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "GoGreenVFCFCompleted_GoGreenVFCFCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoGreenVFCFCompleted_GoGreenVFCFCompleted",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_EMPTY_BATTERY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/cc5ffd08a3dca5073113b54e94ef8ae1cb8cc5a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/ace88583c7e2c513d502b5f93ff2784bf9ef9d23.jpg",
     "displayName": {
@@ -1291,7 +1375,7 @@
   },
   {
     "name": "ACHIEVEMENT_GOGREEN_ACQUIRE_ELECTRICCAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/e7b3399012494db7befda533a6b38aa7c924ebe7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/d0c67ebfea9911e96cabd13e101962b3c35940fe.jpg",
     "displayName": {
@@ -1309,7 +1393,7 @@
   },
   {
     "name": "ACHIEVEMENT_ALLMAILMISSION_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/f4d4aec8cc0cb92f671d8a04cea8b9398ad5804c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/fe0e1adc4bdb4ec8106e2c516b53dbc7797403dd.jpg",
     "displayName": {
@@ -1327,7 +1411,7 @@
   },
   {
     "name": "ACHIEVEMENT_TAXI_BE_PASSENGER_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/573612edd1224e75b2b2c39a1677a7374cc52738.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/5e00bd31715a070d30f05211508dcef13cbf4b2c.jpg",
     "displayName": {
@@ -1342,15 +1426,17 @@
       "polish": "Ukończ 10 podróży jako pasażer",
       "token": "NEW_ACHIEVEMENT_41_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "PlayerJourneyedInATaxi_PlayerJourneyedInATaxi"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PlayerJourneyedInATaxi_PlayerJourneyedInATaxi",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_TAXI_BE_PASSENGER_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/49c612438bf702c8fa8e903650083d2566d67c1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/59dad9be052a1174427b66a91dccfcecfccd8d13.jpg",
     "displayName": {
@@ -1365,15 +1451,17 @@
       "polish": "Ukończ 100 podróży jako pasażer",
       "token": "NEW_ACHIEVEMENT_41_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "PlayerJourneyedInATaxi_PlayerJourneyedInATaxi"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PlayerJourneyedInATaxi_PlayerJourneyedInATaxi",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_TAXI_BE_PASSENGER_300",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/ba01c993d49b7267f504e31ece6c871ab209352c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/c2abbf9737c1c0f95ec924da52f8e3ed65b1e445.jpg",
     "displayName": {
@@ -1388,15 +1476,17 @@
       "polish": "Ukończ 300 podróży jako pasażer",
       "token": "NEW_ACHIEVEMENT_41_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "PlayerJourneyedInATaxi_PlayerJourneyedInATaxi"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PlayerJourneyedInATaxi_PlayerJourneyedInATaxi",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_TAXI_PICKUP_PASSENGER_10_OZEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/94d4fd579280db32b51193c76573d479e2e60403.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/6d47dcca2cb483824210af899e3fd6f9f3fb9207.jpg",
     "displayName": {
@@ -1411,21 +1501,23 @@
       "polish": "Zabierz 10 pasażerów samochodem Ozen Sports",
       "token": "NEW_ACHIEVEMENT_41_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "TaxiPassengerPickedUpOzen_TaxiPassengerPickedUpOzen"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TaxiPassengerPickedUpOzen_TaxiPassengerPickedUpOzen",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_TAXI_PICKUP_PASSENGER_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/df2dad5f3f9f24e51d8b6ffec06cd5946791a083.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/b0daf29efcac6a34b59c69f2b0dc733e5f160119.jpg",
     "displayName": {
       "english": "Hail to the Driver",
       "german": "Hoch lebe der Fahrer",
-      "polish": "Chałwa kierowcom",
+      "polish": "Chwała kierowcom",
       "token": "NEW_ACHIEVEMENT_41_14_NAME"
     },
     "description": {
@@ -1434,15 +1526,17 @@
       "polish": "Zabierz 10 pasażaerów",
       "token": "NEW_ACHIEVEMENT_41_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "TaxiPassengerPickedUp_TaxiPassengerPickedUp"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TaxiPassengerPickedUp_TaxiPassengerPickedUp",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_TAXI_PICKUP_PASSENGER_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/bb0199887335bebb8af8de83ff55e8c9e9168f70.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/3b95fb43df3ad865ad73eb24632b21635b769859.jpg",
     "displayName": {
@@ -1457,15 +1551,17 @@
       "polish": "Zabierz 100 pasażaerów",
       "token": "NEW_ACHIEVEMENT_41_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TaxiPassengerPickedUp_TaxiPassengerPickedUp"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TaxiPassengerPickedUp_TaxiPassengerPickedUp",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_TAXI_PICKUP_PASSENGER_300",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/0dec3f32b9aedcc21a17ecbacacd33fb89218943.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/32b1e2e0e9f9440b76d16cc17b20c56f6e7c564e.jpg",
     "displayName": {
@@ -1480,15 +1576,17 @@
       "polish": "Zabierz 300 pasażaerów",
       "token": "NEW_ACHIEVEMENT_41_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "TaxiPassengerPickedUp_TaxiPassengerPickedUp"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TaxiPassengerPickedUp_TaxiPassengerPickedUp",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_NORMAL_CARGO_COMPLETED_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/6a8d719402bfc56a90220e746d4869a7a6b5b529.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/e500198c49836edc5ae0503b6cf6f8aea55e99d9.jpg",
     "displayName": {
@@ -1503,15 +1601,17 @@
       "polish": "Dostarcz 10 zwykłych ładunków",
       "token": "NEW_ACHIEVEMENT_41_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "NormalCompleted_NormalCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NormalCompleted_NormalCompleted",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_NORMAL_CARGO_COMPLETED_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/c86bc511a5994e5125f7fa4f3405b398a184b55a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/db11f1836925b4d3153ca48e0ef011786b46e568.jpg",
     "displayName": {
@@ -1526,15 +1626,17 @@
       "polish": "Dostarcz 100 zwykłych ładunków",
       "token": "NEW_ACHIEVEMENT_41_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "NormalCompleted_NormalCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NormalCompleted_NormalCompleted",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_NORMAL_CARGO_COMPLETED_300",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/f338ce0963635b879e8466ae6b4b39556bdc7dac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/3bce582f85ccda3e25c9431b963159e5b44e84e4.jpg",
     "displayName": {
@@ -1549,15 +1651,17 @@
       "polish": "Dostarcz 300 zwykłych ładunków",
       "token": "NEW_ACHIEVEMENT_41_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "NormalCompleted_NormalCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NormalCompleted_NormalCompleted",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_FRAGILE_CARGO_COMPLETED_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/6fefadb3c54463595b61365b4bfc1fb2caeaab79.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/d3107dc403e54f42906999f05f570290f33af33f.jpg",
     "displayName": {
@@ -1569,18 +1673,20 @@
     "description": {
       "english": "Deliver 5 fragile cargo.",
       "german": "Liefer 5 zerbrechliche Frachtladungen.",
-      "polish": "Dostarcz 5 delkatnych ładunków",
+      "polish": "Dostarcz 5 delikatnych ładunków",
       "token": "NEW_ACHIEVEMENT_41_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "FragileCompleted_FragileCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FragileCompleted_FragileCompleted",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_FRAGILE_CARGO_COMPLETED_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/ab3088cd2139076cc2dd3703162059946cca6ba1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/4e9adb66e833885386bd152ff14f5599013969ec.jpg",
     "displayName": {
@@ -1592,18 +1698,20 @@
     "description": {
       "english": "Deliver 50 fragile cargo.",
       "german": "Liefer 150 zerbrechliche Frachtladungen.",
-      "polish": "Dostarcz 50 delkatnych ładunków",
+      "polish": "Dostarcz 50 delikatnych ładunków",
       "token": "NEW_ACHIEVEMENT_41_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "FragileCompleted_FragileCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FragileCompleted_FragileCompleted",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_FRAGILE_CARGO_COMPLETED_150",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/0555aca933d0c494174ae81701168d5791a2f403.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/f21c35c9411e2e6fe3671b89899ed78e72559848.jpg",
     "displayName": {
@@ -1615,18 +1723,20 @@
     "description": {
       "english": "Deliver 150 fragile cargo.",
       "german": "Liefer 150 zerbrechliche Frachtladungen.",
-      "polish": "Dostarcz 150 delkatnych ładunków",
+      "polish": "Dostarcz 150 delikatnych ładunków",
       "token": "NEW_ACHIEVEMENT_41_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 150,
-      "stat_name": "FragileCompleted_FragileCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FragileCompleted_FragileCompleted",
+        "min_val": 0,
+        "max_val": 150
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_FRAGILE_NO_DAMAGE_COMPLETED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/586ab7511e3050e793cb338bb053af4eff76ae06.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/69d69d3d1ba25ebf410eee7c05198feb4f46bdf7.jpg",
     "displayName": {
@@ -1644,7 +1754,7 @@
   },
   {
     "name": "ACHIEVEMENT_PURCHASE_ECAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/165c107833ff996a7b72f28e94ae28b0ba6f412c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2698780/180df640807ac2b0525da4c9f2367f7da5066698.jpg",
     "displayName": {

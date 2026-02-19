@@ -1,7 +1,7 @@
 [
   {
     "name": "achievementYouAreNotAlone",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/7d0a1dee737bba2b0898673e57e71b67797533e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "theBeginningOfALegend",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/905790ac5200fe0188ae1731421c1b66e8e87bed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "talented",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/9023f3412b9dccdffabf1a678779221d492a8c56.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "thanksForTheSupport",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/3cdb58fe8c26494ef67e20731d72c5f0bb9e6766.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "harryGomez",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/6bd69aef3cca91177b81e9ebb80128a92a356503.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "monsterEyeCollector",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/bdca35d72f3f70129cdd6ae3215600bb63e31b91.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Obtain 20 monster eyes",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "monsterEyes"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "monsterEyes",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "iAmStrong",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/2706a38a3743cb3f13f24239ea642a8a1177deed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "monsterLooter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/dafc568923bc4dac2f54ea47548d05b282b66285.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "aSimpleJob",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/bf55fd374e8a81d9cad9a7d4d6e863889b7b9bfe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "qualityEquipment",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/936d0e768cb2df0879422f40c62fcb7322b63b2e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "sharpBlade",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/40259216f39fc199e49291fe05b9efae7bd0519f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "merlin",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/98ac471a6bdf20f225584ba82ff44aecf43e7452.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "anotherRoundPlease",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/d329f3ec36fe60f35301a819915c7ff16837b098.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -185,15 +187,17 @@
       "english": "Drink 250 potions",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "potionDrink"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "potionDrink",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "bitcoin",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/c76d8aca1c1aec3ff52c8155b2c2fd3fd9c9066f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -204,15 +208,17 @@
       "english": "Collect 1000 coins",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "coins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "coins",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "jRobertOppenheimer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/1fa82d0d15c43ebf688b40d2d96605c1250b34f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -223,15 +229,17 @@
       "english": "Collects 300 bombs",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "bombs"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "bombs",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "winterIsComing",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/50d3b6d8a3eea7cf3d3a1fddf6c0745c19821a46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "concentrated",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/2a29738b76b0c4736546c5e74c401c82c49c42ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -259,7 +267,7 @@
   },
   {
     "name": "rogueCreed",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/13297dff668ff779ab0a43e4ca2a6f60bb1604a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/b3ad552f3e2bfef13bdb0dedbf95fcbc1bc115fe.jpg",
     "displayName": {
@@ -273,7 +281,7 @@
   },
   {
     "name": "killBill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/db462503a169da9c50c47609a2f7be0808c2bbfd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/2a2af65d90ca015dae6f910e3cd28d7313003af1.jpg",
     "displayName": {
@@ -287,7 +295,7 @@
   },
   {
     "name": "aBlessedBlessing",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/9e1dc8e1535d1e8a42baf8c53bad85f5c8106e3b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3929990/2a2af65d90ca015dae6f910e3cd28d7313003af1.jpg",
     "displayName": {

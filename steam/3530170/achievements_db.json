@@ -1,7 +1,7 @@
 [
   {
     "name": "FIRST_UNIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/95b5f72cd1867d1db0950ff5a6415f2ec108d317.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/bf5434e2457bcbc83e62eda7bf9358d3024f893c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ARCHER_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/39f537089640a592637e96635f7f23d67e35c661.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/9d461492d8d04c5836def36dfff1141d612b65c6.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "RAISE_DEAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/6b4948da87b27387e050f767604dca54ff073025.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/5c64ac9c00ed7367f5ebc7573e03112f95dc11c3.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "GHOST_HAUNT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/8aec092837cc4ef077b7ec3f2d3c172a2f295e40.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/05fdcf75b7031cde3af94f18d1295d0c5a5a2451.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "HEAL_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/ec8470ca5ca763773267a7817f9c0f4deccdb909.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/97cbb11d2f56fce053643e72f07ae5f5f0e17144.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Heal 100 damage",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "HEAL_RATE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HEAL_RATE",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "CAMPAIGN_VICTORY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/a1e79c0b795e886b11e432140356712004b23b23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/059861afe01a1d67757d0221fd2882fb0551e840.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "KILL_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/54b636564e6d781b6c678a48170d6a939dff24bf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/5d867c95db3d9dd8e087c6e721448a80cdcb27b1.jpg",
     "displayName": {
@@ -101,15 +103,17 @@
       "english": "Defeat 100 units",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "KILL_RATE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KILL_RATE",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "CLOSE_CALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/2e6c8cef2a2afa2a889e315956beb3911e38b784.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3530170/6ec85eb8bffc7389cf4851c276de70558d14abf9.jpg",
     "displayName": {

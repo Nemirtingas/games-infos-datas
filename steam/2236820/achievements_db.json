@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_ZEROSTAMINA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/260159ba3b2b2fac2ccadd921211b4600e7abc83.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/347338c23b207ab8c7eac3909f4601e0ff26e9fb.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_FIRSTDEAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/8dd02ca9e4c83b36a6cb2384b4e142960e33f87e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/19f90b61489929175656093fdbafbe18fedf9c89.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_FIRSTCLUE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/92209857ba4a61c776757b636105520650cb65ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/433f802c05b9d36a2d2a627a5c3b2154c5c743eb.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_ALLCLUEFOUNDED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/440ab423a26c924e0452d97e623d1e5ce761f99e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/cadbbb22160693c7f5a1339fb5e97389e6320a72.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_BADENDING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/dee1c3ab8a40d18a6ed23b03acba2a321c5fec43.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/59be7fdf6137bd81ad85732c4f6e337986eef677.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_GOODENDING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/462813e9f44f26dad05c2c6ee74a8bf50e12b5c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/584475370c20f63f0ded4f1ed60f30f524fb7fcb.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_TAGS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/00cbdbae51879d159b096bbbf9ea44217e579926.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/aa3e2a3bfa7c10be610ddda7fb519c282e010a07.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Use your spray paint to create 50 tags",
       "token": "NEW_ACHIEVEMENT_3_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "stat_tags"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_tags",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_HIDE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/76841dee39c4dd6f9f74e9d6d04ea2d552ce43fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/3b8672bea2653293d501d0fbea42971c131a52fa.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Hide you in a locker 20 time",
       "token": "NEW_ACHIEVEMENT_3_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "stat_hide"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_hide",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_80PERCENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/1d1b7b1c7050d735e1c3fe98556bc701191d2bf7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2236820/08ca6f3ee0a74438811dbd621fcef31218dd60b8.jpg",
     "displayName": {

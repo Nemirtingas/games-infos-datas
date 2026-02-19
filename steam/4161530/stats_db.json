@@ -1,17 +1,35 @@
 [
   {
     "name": "RUN_TIER",
-    "defaultvalue": 1,
-    "displayName": "Run Tier Unlocked"
+    "displayName": "Run Tier Unlocked",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 13,
+    "default": 1
   },
   {
     "name": "BEST_WIN_STREAK",
-    "defaultvalue": 0,
-    "displayName": "Best Win Streak"
+    "displayName": "Best Win Streak",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 9999,
+    "default": 0
   },
   {
     "name": "CHAPTER_COMPLETED",
-    "defaultvalue": 0,
-    "displayName": "Story Chapter Completed"
+    "displayName": "Story Chapter Completed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 13,
+    "default": 0
   }
 ]

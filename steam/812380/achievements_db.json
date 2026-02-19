@@ -1,7 +1,7 @@
 [
   {
     "name": "FlewLawnMower",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/efd313acbba45c96bb8190aeb8580153f12f1343.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/a8f113bb84e0dc3d29d403365e98fd2f4059c13b.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "PettedWhale",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/d23ba0c7e6625a8e690228864ec5341f5f5fa06f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/ee509aab79b5ac6ce9e035e951fd3a9b73a0d442.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "PettedDog",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/4eec89c8a850b56abbe0c320b8077e38c3affc79.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/06fea6b20138efb4f75d268ad4312592ac1266e6.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "HuggedPlayer",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/e10d29c3518d24fbee9e651b3df6030d7d40c249.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/1bedfbb799486691510dacbab12f0c3dcdf6624a.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "RodePillion",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/827468ddcacf5061c147f6804c75f4aa34c5acf1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/5224f58967bf60c0f88a8fabd49934077bb8c453.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "FestivalAttendance",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/4d19ab22c67a0345246c4eef389f03b6e263f67d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/ebd669dc7958ff56a19da71ccfa3cf4bec1c1b0c.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "A lotta folks and critters from near and far have attended the festival so far.",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "festival_attendance"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "festival_attendance",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "MaxLevelDog",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/64022ec05d94fa40792fd8811adc4826274d5f41.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/60a38ae6537f062379cd7fc71ec70c072474452f.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "VacuumedCloud",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/acfae72a24d202bbda2bea1e8d97234bf59d996c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/abb19b08b298973c4cfb76c83ad9ef850016d17c.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "Bow1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/a37b94bced2ba0118715e13302c644a8f7150387.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/8f2e46c491527b4dbf01bad598b240df8b38b046.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Shoot 100 enemies: Impale a monster with a fork, knife, or spoon, protecting the flock from all manner of goon.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "bow_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "bow_stat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Flail1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/1094cfc3c4c79e467f6632daa6160d5f0308f2b3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/1ffa00ef41e4c4fea90cecaab8ec311bd475cde5.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Bop 100 enemies: With a bounce and a bop, smash monsters 'til they drop.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "flail_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "flail_stat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Lance1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/a2a9dc3a50a67946dc7947eca3bddfb0122ec604.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/c7c45f0b0468cd17166725e18f27d15ac485ede2.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Punch 100 enemies: Flying by the seat of your pants, jousting from dogback with a boxing glove lance.,",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "lance_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "lance_stat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Mop1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/5182599603ee0ec881f71c8cbedeaae7f818fff6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/3da388cd9117a6709d7084f01441f7f435a27caa.jpg",
     "displayName": {
@@ -186,15 +194,17 @@
       "english": "Mop 100 messes: Thank you for your work, when no one does the mopping, it drives me berserk.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "mop_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mop_stat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "PopGun1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/7acd7a4973f39c26bec5cd24964a3f1142109ea1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/ac6582bb0a4211736267fb6c9f3e0fb7442c03e3.jpg",
     "displayName": {
@@ -205,15 +215,17 @@
       "english": "Shoot 100 enemies: POP and THWOP goes this pump action, easily felling units of the enemy faction.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "popgun_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "popgun_stat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Trumpet1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/d32c54eda25311e25382a4cac32057b79dafd01a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/b9fcd1e33b6b5808fe2cc505375e6e8b2b81e53c.jpg",
     "displayName": {
@@ -224,15 +236,17 @@
       "english": "Distract 100 enemies: Blast some toots to aid your friends in their pursuits.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "trumpet_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "trumpet_stat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Umbrella1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/4239bd8d11c4b69c5d341c9b7bbd4cbc30d7ed15.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/812380/8cddf531042a24d73d8844e08a98d94d155c4fcf.jpg",
     "displayName": {
@@ -243,10 +257,12 @@
       "english": "Block 500 projectiles: Providing such protection will surely gain you much affection.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "umbrella_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "umbrella_stat",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   }
 ]

@@ -2,25 +2,34 @@
   {
     "name": "Broilers_Wins",
     "displayName": "Wins",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100000,
+    "default": 0
   },
   {
     "name": "Broilers_Kills",
     "displayName": "Kills",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 1000000,
+    "default": 0
   },
   {
     "name": "Broilers_Games",
     "displayName": "Games",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100000,
+    "default": 0
   }
 ]

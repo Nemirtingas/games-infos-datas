@@ -2,25 +2,34 @@
   {
     "name": "STAT_DISCOVERY",
     "displayName": "Cells Discovered",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 104,
+    "min": 0,
+    "max": 104,
+    "default": 0
   },
   {
     "name": "STAT_SCHOLARSHIP",
     "displayName": "Entries Read",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 104,
+    "min": 0,
+    "max": 104,
+    "default": 0
   },
   {
     "name": "STAT_SANDBOX_MINUTES",
     "displayName": "Minutes In Sandbox",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 60,
+    "min": 0,
+    "max": 1000000,
+    "default": 0
   }
 ]

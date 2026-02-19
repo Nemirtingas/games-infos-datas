@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FullHouse",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/eb5db6e15af31003408069bb18fab0f349f7131d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/1f28e97ec6baaaaad844021646f264db80dcdf1b.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_ParryHotter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/86e86f90afa20f7fa4b5d713e45f953c6e4085a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/af9396f8ef1ac0836aa9cca76113ddbf36176b27.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_ShellebrityStatus",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/9e408c2eac1298d23e37ac81c66415ca6584c462.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/609a25bc1b6d5fc258f94326bcd83bcc85f9d16f.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_PeaShooter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/b8518d9f03c2bede092a137f7f999609c26e84c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/7b8892a059b166d6c9a019294ae10056a95704ed.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_GravityGuru",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/61c9c4305ca807e09feb65f92fb9ac2f15d8bb4d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/9eea194f34c87bc909afd58d49daff1d63e5f650.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_WaterPistol",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/dc080db00d1ca0de224c3b111c6a728179ff8a13.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/81648d0f737127c46cdfba07c6fedf952c06647e.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_AchievingShellvation",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/560f93063cc79114b9fccce39fdc2a738593dd49.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/af78e20b4caf7962fc73895eaf2483fde907626b.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Met your maker 100 times.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_deaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_deaths",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_WoodlandsWanderer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/706d50e4fcea80d9279978d73ae5fbb1ec98e0fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/a108739f3de8ac34a41215d497f26c2db63cb6ca.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_WoodlandsWarrior",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/94298d081d80aa3a16c2882492ad169b6944071c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/75040d8516772887d72bbd9c642228522586ce9b.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACH_BeachBrawler",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/fc61e3046cca97429e7aabfa92e36b932c3f35e7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/826f1ae867e92004db66d9a8d2ea1ff728920eff.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "ACH_BeachBarbarian",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/2f833333989883d846f69c46684e743f918e96b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/3a0b61ded24cd01f8aad4312f8273a891a9817ea.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "ACH_StreetsScout",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/fc85b46212c21f9e974e8fbe0e22fc777ed5eb50.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/e5227a74990a0c79df04a73e331e2811fd4777ab.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "ACH_StreetsSentinel",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/a23ae61441c1e4d46a59e5cead76953f28feb183.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/a691a76437578f239b9ef7ea42b0462071425b57.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "ACH_PondPilgrim",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/0893445a32e2e6f297928532ce52dc12beadaca2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/21b375a02a828d1dc37146eef7f0127b9c88ecc6.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "ACH_PondProphet",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/d6bec561f2cb1a56df556a69248e6c954f88bd1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/a02305041e15420766bac34f6b8a90aa9559bb19.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "ACH_TriumphantTurtle",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/8d16cb6d64d21a4fdbbc5a643f08608698630763.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/8c32e8c6a3c138b956c568dd713bc9b0b783cfb6.jpg",
     "displayName": {
@@ -230,7 +232,7 @@
   },
   {
     "name": "ACH_BulletBypass",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/d87f3535d99e2311ef70f35eac20a272fa4cb4e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/822e1e61c9abe9319ab49d00dd4371356106415d.jpg",
     "displayName": {
@@ -244,7 +246,7 @@
   },
   {
     "name": "ACH_TrashTickler",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/2dfdb1abf449ec5edf16870241c0c918b3b46436.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/aab7224c2ade048afe5ee0b26969558daf7bbd91.jpg",
     "displayName": {
@@ -258,7 +260,7 @@
   },
   {
     "name": "ACH_ReptilianRevealer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/937b6336fd428f708d26528dd7d9489a23cc0073.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/c1a0b87ebabc6f5f3a0c19a7f9c7b8c4afe45163.jpg",
     "displayName": {
@@ -272,7 +274,7 @@
   },
   {
     "name": "ACH_FishFingered",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/201096f898f5960826ce249b7e0e02625eb8f7b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/e18108c7d32cd26a15138daf2510e6e02a14ce37.jpg",
     "displayName": {
@@ -286,7 +288,7 @@
   },
   {
     "name": "ACH_OpenShellsame",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/3501c5498a275625a9585637191c5ba4bf733105.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/c6feff443427a48c5df5eb367dd59db6cc1d23fc.jpg",
     "displayName": {
@@ -300,7 +302,7 @@
   },
   {
     "name": "ACH_MushroomMastery",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/426a9b3c486695eef1b4cd1f41de591f5e00d52c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/45779701796259f0b389bfb20e3296c4ed182675.jpg",
     "displayName": {
@@ -314,7 +316,7 @@
   },
   {
     "name": "ACH_TidalTriumph",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/22c95165bac855aca5019fbd66eed032001d4f75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/c671956a02703db9609f77ec600b0a47c2be83a1.jpg",
     "displayName": {
@@ -328,7 +330,7 @@
   },
   {
     "name": "ACH_LitterLegend",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/c7126e14999c7d638a1b16a73e7a994ef2ec2f29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/38d50951ebafc9526ab7a4b94a06531ef80d3bae.jpg",
     "displayName": {
@@ -342,7 +344,7 @@
   },
   {
     "name": "ACH_ElectroExpert",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/8578db523442bf9654b81821f1dad329941d96c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/3ce2ce05252415378392d1ad4ec1880e07a45dfe.jpg",
     "displayName": {
@@ -356,7 +358,7 @@
   },
   {
     "name": "ACH_ColdBlooded",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/6554fe57c3f801beef0c7ea2c0145bcb31af003b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/734faef2765a13415f3375eb736070de67531035.jpg",
     "displayName": {
@@ -370,7 +372,7 @@
   },
   {
     "name": "ACH_ShellStocked",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/bf8dfdbcc5c5c19879124d90318a71fe9db6132e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/5e759f166a17cd0257f70c560cc1ad59602b3a08.jpg",
     "displayName": {
@@ -384,7 +386,7 @@
   },
   {
     "name": "ACH_TotalShellout",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/15e11c6064ceb3f54ed379898e3f9d4ecbce972e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/64414a34dd3b8cf0cb5dc2278b9f9bb0ebb2a5e0.jpg",
     "displayName": {
@@ -398,7 +400,7 @@
   },
   {
     "name": "ACH_ScaledSage",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/49e1c25bc11c29c2865947c8688ec1ff8884f3a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2977440/92ab0d771fbda622ca991c6e10532bddb72eeb9f.jpg",
     "displayName": {

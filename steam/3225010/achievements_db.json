@@ -1,7 +1,7 @@
 [
   {
     "name": "ach_complete_story_mission_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/2f0d9c6a1b22155403517323563e6992c1bdec3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/bb16a55dc33b798f007e85f72032ea7d8b103576.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ach_complete_story_mission_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/59ba00188cdba4295a7471a7d89ec0510009ed83.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/3caa03f561120820def14a6ef0a03914c33b4833.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ach_complete_story_mission_3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/22860b95a59ab14403e65e3c4ce00753042ee701.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/c5e2afd09f957342755450b166268d1e2d4dc3d9.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ach_complete_story_mission_4_a",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/1433759beef5fa06e1aff8df9a3347169d7da567.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/13be61240ea151bc1e990a8054da5122287ca8a2.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ach_complete_story_mission_4_b",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/f842c288c5ce9d772013e675eccb06f92b5e99cc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/a2840a232e6c1fbd54928cc4f46e5d07e8c13d01.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ach_complete_story_mission_5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/bef26e18dacf1a8b15cc72f8ab154037d2138d1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/cc2341553ed20557338cc64c411253d1fc9afaf4.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ach_complete_story_mission_6_a",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/f278458b158035a852dee79a51f0e4aadbfe66f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/de1fe400e54a4ab4cd96b760cb74d1b90eccb561.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ach_complete_story_mission_6_b",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/7c6b9ca2bb1bdafdc1005d629df48667dae56696.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/d290355d62a64d1ef72f389eb6d1455203ba05df.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ach_complete_generic_mission_any",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/f5aebb48aa0b8ef518e5027fcaa6bec2bbf82eeb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/81ab483d60d33d4c72e85c3dd462c15c9c6c27fa.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "complete_30_sweeps",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/a662a1bce9c8e84862b3081e27145b56260f84a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/dea2f59a43347697d42065763d7592d5f51c056c.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Пройти 30 Зачисток",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "completed_sweep_missions"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "completed_sweep_missions",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "S11_complete",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/dbd1ab216d398f42b533d7a1cc30da860e8f4a53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/aa6c5b33ca5f94f8ae988a7dfec0f8df65e128f5.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "S13_complete",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/201d59bfcc6e5d0b85cdee1628c00eb5bc715276.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/b069aa5610e6f9ace3125f820b4cb492a45cb321.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "S14_spawn",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/7f607b70794caed052bde1b4db06690df6c15d49.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/5bf9477370306e8154bc41a9415aafc79882d48b.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "campaign_complete",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/d4b368ba713f66a192ac50a5b66df6dbe965125e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/bf9d03f79007dfe6d19c592b0727c98784d2667d.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "campaign_complete_veteran",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/6491480928f355720c15d4280987a97d648a566b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/3976004234bf40378dfc9b015d093ee5452b2612.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "campaign_complete_ironman",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/686e40060384a575bccf92617100a3dc4d047d4f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/4cb1f2b2637e3b2481e43a71f80197ca00001d4b.jpg",
     "displayName": {
@@ -230,7 +232,7 @@
   },
   {
     "name": "campaign_complete_veteran_ironman",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/525b805def46d46aa7415a4046d718befb024c63.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/5390bfd0af322941546aec13ce5d382853ae5855.jpg",
     "displayName": {
@@ -244,7 +246,7 @@
   },
   {
     "name": "alliance_front",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/2d581dec884a1af5479b179355733ef7f71505a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/4516c4756f27199e513dfb348718fc005711917a.jpg",
     "displayName": {
@@ -258,7 +260,7 @@
   },
   {
     "name": "alliance_tsaishen",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/dc0d0438e4bb50249c8b04f70a15e3f9c589afef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/ef24d9f0d8610f66600b8ea804490a7e8d0411db.jpg",
     "displayName": {
@@ -272,7 +274,7 @@
   },
   {
     "name": "alliance_shield",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/4ebd5ce96cf29bcb633199b5ad6c1065ded5aee3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/f720acc73856c6c94b1511b54b82fed14a304af4.jpg",
     "displayName": {
@@ -286,7 +288,7 @@
   },
   {
     "name": "alliance_all_factions",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/36528aff814fef58a805158663cdd3a5ea6b7c46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/707a0dd1d3507830dfbda4c44640d26a49c63047.jpg",
     "displayName": {
@@ -300,7 +302,7 @@
   },
   {
     "name": "hire_all_veterans",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/4b364e58e1d3cd096a3b6b9d5a76aecdb8ee99d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/d892dc2f635f639d777e8295ebd2e2a58285fbf5.jpg",
     "displayName": {
@@ -314,7 +316,7 @@
   },
   {
     "name": "hire_full_squad",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/917b0d00f202d86bb941e54c0547dc7e5fbdf000.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/b22085ad82b198047c41ca8ee69238d2f2ad5b20.jpg",
     "displayName": {
@@ -328,7 +330,7 @@
   },
   {
     "name": "build_all",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/c8394a7b36dc246d778408ed0e2ff89b579bfccc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/7692607211a2cdc74fe9dc6abe83687a34667bc2.jpg",
     "displayName": {
@@ -342,7 +344,7 @@
   },
   {
     "name": "contracts_all",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/a5c408b933d1d8f391445749286df58747d563ce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/0745315047dca9b3f57e18330a94ed8e0bff76b6.jpg",
     "displayName": {
@@ -356,7 +358,7 @@
   },
   {
     "name": "complete_10_antiterrors",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/625d8a1dd00621c8cac21cf92c9fef926fb808ac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/b203daea0bd2a487364dbd4f6b13d28de404faea.jpg",
     "displayName": {
@@ -367,15 +369,17 @@
       "english": "Пройти 10 Антитерроров",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "completed_antiterror_missions"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "completed_antiterror_missions",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "complete_10_subversions",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/4de52547618da5a410969a9a9d4832475a0840bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/391ac924f19446fe9d2404fa5d44e942e8862217.jpg",
     "displayName": {
@@ -386,15 +390,17 @@
       "english": "Пройти 10 Диверсий",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "completed_subversion_missions"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "completed_subversion_missions",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "complete_10_captures",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/65ca660d4a2eedcae92980878a49b8c0844403e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/a15f9c0290a05303806e35eb04c1b9871f41f036.jpg",
     "displayName": {
@@ -405,15 +411,17 @@
       "english": "Пройти 10 Пленений",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "completed_capture_missions"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "completed_capture_missions",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "complete_10_vipescorts",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/e4d2628eac8e75147a3b76566bd4453f87ee390a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/b1aa8b001c47f8b91c77d497cadcd60e3e18cc24.jpg",
     "displayName": {
@@ -424,15 +432,17 @@
       "english": "Пройти 10 Сопровождений",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "completed_vipescort_missions"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "completed_vipescort_missions",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "complete_10_joint_operations",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/479ab7ea1e157222c3e6af4dff9724481b8f7396.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/f98a1acf24d7a8817e3fcae9065cb0b3f449856e.jpg",
     "displayName": {
@@ -443,15 +453,17 @@
       "english": "Пройти 10 Совместных операций",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "completed_joint_operation_missions"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "completed_joint_operation_missions",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "complete_30_passive_missions",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/b466e62f7443e32ebad5055620b1779e1fb97c6b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/34531155f9c2ae66a6e65c464331f62a1e41c373.jpg",
     "displayName": {
@@ -462,15 +474,17 @@
       "english": "Пройти 30 тайных миссий",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "completed_passive_missions"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "completed_passive_missions",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "complete_10_rescues",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/44e5d6ecac73794658750da4a49e2df793eedeb3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/3b2002f47aace311b4f87db5aea2c5f5ff1edfa5.jpg",
     "displayName": {
@@ -481,15 +495,17 @@
       "english": "Успешно завершить 10 Спасений после провала тайных миссий или разведки",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "complete_rescues_mission"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "complete_rescues_mission",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "complete_10_missions_rocket",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/3da13e418a44b704ef3105810fee5d39aafe8f53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/f06c948b9b143d2b7c282ba55a14ded787e254fb.jpg",
     "displayName": {
@@ -500,15 +516,17 @@
       "english": "Пройти 10 боевых миссий с помощью ракетных ударов",
       "token": "NEW_ACHIEVEMENT_3_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "complete_missions_rocket"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "complete_missions_rocket",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "complete_10_missions_allies",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/c0a776516109d616b2c6e51a94d54ef142660030.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/faa3b1867f95e62d04c0683f91a2b6add02b24b7.jpg",
     "displayName": {
@@ -519,15 +537,17 @@
       "english": "Пройти 10 боевых миссий с помощью союзных отрядов",
       "token": "NEW_ACHIEVEMENT_3_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "complete_missions_allies"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "complete_missions_allies",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "complete_10_recons_drones",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/edded0a8c5a6a838b37bb7e8bdf45ad210996905.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/6e057e08fe701a91503159a932bd746ffe8eb839.jpg",
     "displayName": {
@@ -538,15 +558,17 @@
       "english": "Успешно завершить 10 разведок с помощью БПЛА",
       "token": "NEW_ACHIEVEMENT_3_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "complete_recons_drones"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "complete_recons_drones",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "complete_10_recons",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/061e1b15076ddeeeba0b619dc2f264737c17b1e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3225010/3cea432b19dbc295934251b4b974b458b1991139.jpg",
     "displayName": {
@@ -557,10 +579,12 @@
       "english": "Успешно завершить 10 разведок",
       "token": "NEW_ACHIEVEMENT_3_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "complete_recons"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "complete_recons",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

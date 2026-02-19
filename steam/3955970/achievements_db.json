@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_First_Blood",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/7a26eaf173aa1b3ba3ad38b24020055e4fc2e144.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/5cfe3c8181c9e784d0e627bcf1048db6849b3119.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "You sunk a yacht!",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 39,
-      "stat_name": "STAT_BOATS_SUNK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_BOATS_SUNK",
+        "min_val": 1,
+        "max_val": 39
+      }
+    ]
   },
   {
     "name": "ACH_Speedrun_5min",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/1b94c9b8ae2302ca26d086aafb618e6d9a99769e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/19cf7c6a58f7c05e87c1f722a1fa78c709404cc5.jpg",
     "displayName": {
@@ -31,15 +33,17 @@
       "english": "Beat Demo Level in 5 Minutes or less.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "STAT_BEST_TIME"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_BEST_TIME",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ACH_GoldenPineapple",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/1a3b8a31b84b5d7ce1521dd7cadc2e276e8d4ee7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/a39b84e82a183717451e7c3975a057edcc99114d.jpg",
     "displayName": {
@@ -53,7 +57,7 @@
   },
   {
     "name": "ACH_OrcaInsurgent",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/86325cef9fcec61062eac0ede2f4056886ee0845.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/79a32d21cf5664aa74ffdc653252dbdb90f720c9.jpg",
     "displayName": {
@@ -64,15 +68,17 @@
       "english": "You are a true Orca Warrior!",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 40,
-      "max_val": 150,
-      "stat_name": "STAT_BOATS_SUNK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_BOATS_SUNK",
+        "min_val": 40,
+        "max_val": 150
+      }
+    ]
   },
   {
     "name": "ACH_CthulhuGOLD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/6fe6861c7258bdc65123bbeecd33dc022643980e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/c70c04acdf48934c6aa431999a24e9bea6555f30.jpg",
     "displayName": {
@@ -86,7 +92,7 @@
   },
   {
     "name": "ACH_CthulhuBRONZE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/4771100500cdfd90505e5bfc3c6c5cc49cdae6e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/a82b1dbd44e1a8d987eb7974807d85d7b942c40e.jpg",
     "displayName": {
@@ -100,7 +106,7 @@
   },
   {
     "name": "ACH_KillerWhale",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/4f7fb8de7db758e467c010acd49262560ef499f9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3955970/e1c4bea1e44de8a219849862abd82c4e70a4b14f.jpg",
     "displayName": {
@@ -111,10 +117,12 @@
       "english": "You def put the Killer in Killer Whale. What a mess... ",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 300,
-      "max_val": 9999,
-      "stat_name": "STAT_HUMAN_RIPS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_HUMAN_RIPS",
+        "min_val": 300,
+        "max_val": 9999
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "MIND_THE_GAP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/a620e869221591c70b90ea07eaade2a173ed904e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/44e833e665112cd1f160fdac284cf089721791aa.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "LOCKPICK",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/f350e33659652eb63515abc4d6aa581bd7b0a167.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/44e833e665112cd1f160fdac284cf089721791aa.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "FOLLOW_THE_LIGHT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/62a2ab7fd9c1af4cfb6dbaca057ad3329d86bc01.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/44e833e665112cd1f160fdac284cf089721791aa.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "KM50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/fb237f7a30f17c68a6d631c8dc2f95ede74d6dfc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/44e833e665112cd1f160fdac284cf089721791aa.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "KM200",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/2b31a773be01a8f7e36c845e2da2f1d4f34bb994.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/44e833e665112cd1f160fdac284cf089721791aa.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "KM500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/51fd8be69c74e916cd0e6423659f5ce47f43e236.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/44e833e665112cd1f160fdac284cf089721791aa.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "GAS3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/74d080a90dd771254f6013c2b5278f8bba007604.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/44e833e665112cd1f160fdac284cf089721791aa.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "BOOKWORM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/0c82ee3af99b70ea524daa38b5f3c524cc0192ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/44e833e665112cd1f160fdac284cf089721791aa.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Read at least 10 survivor notes.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "books_read"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "books_read",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "LOOKATHIM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/10983eef4698e752eaee0df5625f5c7d52e54b10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2560260/44e833e665112cd1f160fdac284cf089721791aa.jpg",
     "displayName": {

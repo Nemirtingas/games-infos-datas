@@ -1,7 +1,7 @@
 [
   {
     "name": "TAKE_OFF_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3435470/c28046ef09e5fe86201e2cb0ab332a93b304561a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3435470/618d1bbbd4df4413949cf153f71ba2be65b49fd6.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "GOOD_GAME_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3435470/88d2b5cf9ccf00c2cbe3098904aacd78392bceef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3435470/63e515a281ae7c75a7d4cb1d5817e473a525ba2a.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "RIDE_ACH_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3435470/cdb2d65f48873e30f581669e1b2d51f65d8a374f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3435470/57bd43f7a3ba4a9e7614ce4b50986738b876ff81.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Complete 50 Rides",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "RIDE_STAT_1"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RIDE_STAT_1",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "RIDE_ACH_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3435470/4e5c30b0bc651a4b8c1c277b4d809cf460059740.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3435470/7c11b72c04d408cab34cad987564f9641365b8b4.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "Reject 100 Rides",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "RIDE_STAT_2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RIDE_STAT_2",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "COL_COIN_ACH_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3435470/6cacb434f2c5475ca69f7bd7de3528e9728676d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3435470/f4ee3d7d1e04aa6757792c89bbfa5342d04d5da0.jpg",
     "displayName": {
@@ -78,15 +82,17 @@
       "english": "Collect coins from important landmarks",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "COL_COIN_1"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COL_COIN_1",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "COL_COIN_ACH_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3435470/1cfd6ee9a10cf2571544dc67b4cfb93f9d514644.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3435470/3fab03ea1167ac0e3d46ac84183f3206371cf1de.jpg",
     "displayName": {
@@ -97,10 +103,12 @@
       "english": "Collect coins from important lakes",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "COL_COIN_2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COL_COIN_2",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   }
 ]

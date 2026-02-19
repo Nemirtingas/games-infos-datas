@@ -1,7 +1,7 @@
 [
   {
     "name": "EXPLORER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761990/25f734d448cb284abb34b954c47f13a4e0ffc888.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761990/93d8eeddb69b4f5ebce69594d4f4ef2092cc074d.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Unveil the secrets of the tower.",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "CONSTRUCTIONS_CLIMBED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CONSTRUCTIONS_CLIMBED",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "COLLECTOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761990/6f870a265f9ab07f237d0763066b83a98b1923c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761990/596ea0bb0d77a739a7bdbe4d0f4f82c0a7c7e725.jpg",
     "displayName": {
@@ -31,15 +33,17 @@
       "english": "Earn your second construction trophy.",
       "token": "NEW_ACHIEVEMENT_2_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "CONSTRUCTIONS_CLIMBED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CONSTRUCTIONS_CLIMBED",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   },
   {
     "name": "CHAMPION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761990/7d187d90bc1191ca8925ce109e0ecb17218195ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761990/0c3ad56baf9cb5e25068a0c1eee31358d1e460df.jpg",
     "displayName": {
@@ -50,10 +54,12 @@
       "english": "Fill your house with trophies.",
       "token": "NEW_ACHIEVEMENT_2_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "CONSTRUCTIONS_CLIMBED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CONSTRUCTIONS_CLIMBED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

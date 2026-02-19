@@ -2,49 +2,67 @@
   {
     "name": "STAT_BARCKILLS",
     "displayName": "Barcs Defeated",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 5000,
+    "default": 0
   },
   {
     "name": "STAT_TOTALHEAL",
     "displayName": "Total Healing",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 50.0,
+    "min": 0.0,
+    "max": 1000.0,
+    "default": 0.0
   },
   {
     "name": "STAT_TOTALFORESTWINS",
     "displayName": "Total Forest Wins",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_MUSHROOMKILLS",
     "displayName": "Mycellius Defeated",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_GROVERLORDKILLS",
     "displayName": "Boss #1s Defeated",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 250,
+    "default": 0
   },
   {
     "name": "STAT_MYCELLIUSPRIMEKILLS",
     "displayName": "Boss #2s Defeated",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 250,
+    "default": 0
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "Ach_MinousCourtex",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/816cc6c42c9dd6c384fcc4d61ac1d40fb97a6e73.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/d660e6d3670a48105ce1a20555b940e5e922cdb7.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Ach_Waldo",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/d105e7fc14b8f8620184070c80b81cfe8fcd0533.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/531833b81a86b1189ffb39ea3aab7d73700638ac.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Ach_1000dice",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/4feda9455c55dd6c64c8ac1a4e6d60d8d680d893.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/717b1b7992900fb066bac9e63f0cb30683505749.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Drop 1000 dice",
       "token": "NEW_ACHIEVEMENT_10_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "stat_diceUsed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_diceUsed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "Ach_10000dice",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/141b3a514ffa88b675c343553305da213002d409.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/e0ebf5e151121d49ddc65ae5070d35e80c75ac6b.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "Drop 10.000 dice",
       "token": "NEW_ACHIEVEMENT_10_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1001,
-      "max_val": 10000,
-      "stat_name": "stat_diceUsed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_diceUsed",
+        "min_val": 1001,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Ach_100000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/a8c093ef98d53805856b2b97130a0a789bf1b04c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/6ff3f7045f6a59fa7cf8870f6c8a6e0c9fcf314e.jpg",
     "displayName": {
@@ -78,15 +82,17 @@
       "english": "Drop 100.000 dice",
       "token": "NEW_ACHIEVEMENT_10_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10001,
-      "max_val": 100000,
-      "stat_name": "stat_diceUsed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_diceUsed",
+        "min_val": 10001,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "Ach_10GP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/e273e5501659c9a50b52928851436262a5f68a20.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/df89359861e424ade7b12e7aee6cc869573ef583.jpg",
     "displayName": {
@@ -97,15 +103,17 @@
       "english": "Play 10 games",
       "token": "NEW_ACHIEVEMENT_10_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_gamePlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_gamePlayed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Ach_100GP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/fb9f7afe29b7597dffe7c6f74fba39cd969f2af6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/40912f1dba82b3b9e06178152d4e8666f24b78cb.jpg",
     "displayName": {
@@ -116,15 +124,17 @@
       "english": "Play 100 games",
       "token": "NEW_ACHIEVEMENT_10_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 11,
-      "max_val": 100,
-      "stat_name": "stat_gamePlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_gamePlayed",
+        "min_val": 11,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Ach_1000GP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/7374505b8e7add78137826c42a66b6f5d189f599.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/51c6cee5cebbd92e1a24151c7c1d0cca080fa892.jpg",
     "displayName": {
@@ -135,15 +145,17 @@
       "english": "Play 1000 games",
       "token": "NEW_ACHIEVEMENT_10_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 101,
-      "max_val": 1000,
-      "stat_name": "stat_gamePlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_gamePlayed",
+        "min_val": 101,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "Ach_6worldReached",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/7fe308a6d888f35508795a82dc522cf45c33cf85.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/1dd1c83529b7ba92a9354c0f140574c5c80c2696.jpg",
     "displayName": {
@@ -157,7 +169,7 @@
   },
   {
     "name": "Ach_AllCaseUsed",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/5271f71fef061dceed919721e5164ff19f0507a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/8d2666920d7899cb692f0c0ecc4017efd82e5265.jpg",
     "displayName": {
@@ -171,7 +183,7 @@
   },
   {
     "name": "Ach_10lvlWithoutBonus",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/fb357c67bf735f342e4f252c9e67e15c65392670.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/66bff78b91e7fc77b8c2217e895bc19ecfb0560e.jpg",
     "displayName": {
@@ -185,7 +197,7 @@
   },
   {
     "name": "Ach_100turnsWithouBrick",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/e83d4ed5916165510646c8567e413f6958e3693f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/53bd6035e6500806343107f85cb49229d6d48c9c.jpg",
     "displayName": {
@@ -199,7 +211,7 @@
   },
   {
     "name": "Ach_10000points",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/779984ddc8935e8b3d5aab9886b74c31e3bf9143.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/a328f77ad86518b93df6c7332ee436f9a15ed7d6.jpg",
     "displayName": {
@@ -210,15 +222,17 @@
       "english": "Score 10.000 points",
       "token": "NEW_ACHIEVEMENT_10_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "stat_PointsScored"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_PointsScored",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Ach_100000points",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/50fdd6c41c21c0414daab1664b6b06a9621d11d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/8d51ae9760994584f0ae97275ff19021e7280496.jpg",
     "displayName": {
@@ -229,15 +243,17 @@
       "english": "Score 100.000 points",
       "token": "NEW_ACHIEVEMENT_10_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10001,
-      "max_val": 100000,
-      "stat_name": "stat_PointsScored"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_PointsScored",
+        "min_val": 10001,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "Ach_1000000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/3f61951e095077ed5f8c2f6cd0c5062fcf3bddf8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/b1d84154cf61919770d64713416f3c9e6627c42c.jpg",
     "displayName": {
@@ -248,15 +264,17 @@
       "english": "YOU. THE. BEST",
       "token": "NEW_ACHIEVEMENT_10_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100001,
-      "max_val": 1000000,
-      "stat_name": "stat_PointsScored"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_PointsScored",
+        "min_val": 100001,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "Ach_looser",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/36b543353e948165a3c5f07cff07dbdb2f0561a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/a1e8be95d239d57380862732af45f2877a32d451.jpg",
     "displayName": {
@@ -270,7 +288,7 @@
   },
   {
     "name": "Ach_AllBonusUsed",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/8e801e8991f4d606ebe5c69a37a26249f1bdaa4e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2666360/17211051b583de69244a8644482e3e81ad388063.jpg",
     "displayName": {

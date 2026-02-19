@@ -1,7 +1,7 @@
 [
   {
     "name": "play_the_game",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/fb0e1331e557a8fa2bc55e44fd953694186a3088.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/b4e77a1e24700299350a5cfb38d1a33080bf92f6.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "win_100_games",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/a663e5af2c51d854e2a820c4e5bcf1dd293955be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/cfeb78b5774feab4e04fb3e3dacc0d6c74dd3453.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Win 100 games against other players in any gamemode.",
       "token": "NEW_ACHIEVEMENT_3_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "games_won"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "games_won",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "play_5000_games",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/e9a85bfc32a122f98de53cdb75fedf3eec79bca1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/3608fdeca02d15fc4207a8d10d294fa9bac9cf22.jpg",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "Play 1000 games against other players.",
       "token": "NEW_ACHIEVEMENT_3_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "games_played"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "games_played",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "queen_block",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/8cdd81c8f66c8a175b1aa21b631c8f897c15d64a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/da70a518341d1e1da8a4917cc2a813a69f517edc.jpg",
     "displayName": {
@@ -67,7 +71,7 @@
   },
   {
     "name": "king_explorer",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/2aceb3e288700b3cf0ef1c0541b0c7fb9d8322ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/da70a518341d1e1da8a4917cc2a813a69f517edc.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "explosive_finale",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/6f964bce3df84e898c609f0a55a76679662d2363.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/e63e9903e615a04afb4834345be8023797b6c2e2.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "wipeout",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/0f294d793e705278e619a1afcc21cbc250878874.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/da70a518341d1e1da8a4917cc2a813a69f517edc.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "win_with_hard_bot",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/8e1f56c97c38b069cc3c0b0220f4b7525aac7c16.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/ad780d0622c03c49df6e8d56c5d7ffeac416dafa.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "win_10_games",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/88dbee8e4b1d5ba3ca2dcf428ad08319607ed814.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/5561fee270fddb18dad8fad5730827498c234946.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Win 10 games against other players.",
       "token": "NEW_ACHIEVEMENT_3_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "games_won"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "games_won",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "assassination",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/e8b4c11ec9fd9b9b05ad802fb1345d96c0cf9b26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/8e1f56c97c38b069cc3c0b0220f4b7525aac7c16.jpg",
     "displayName": {
@@ -156,7 +162,7 @@
   },
   {
     "name": "castling",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/bd1dcd8a0f3ce6b7bd55c61b343f425e768d32e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/f656d6aa356b4d9f508a9c8d73203cd5d7f0c376.jpg",
     "displayName": {
@@ -170,7 +176,7 @@
   },
   {
     "name": "teleport",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/1a17fac6d30352e89b9ef2d71b8840c9b8dab1eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/8e1f56c97c38b069cc3c0b0220f4b7525aac7c16.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "Intermediate",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/5e96c675e90ffb2602407c56db27ed93da25ad1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/d50cf9660120b64a43494672e83566c289289a06.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Win 50 games against other players.",
       "token": "NEW_ACHIEVEMENT_3_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "games_won"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "games_won",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "lockdown",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/c63bd9308458de744f4871c3784ad275d22ca50d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/bc8805d362635ae9ba9de5c55e3f972b75e66f80.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "Haste",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/eb6d4d24404328330219746b73359f9609d7a0da.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/88662f9ad2ea0e0c08513a44112b1edc5859bd46.jpg",
     "displayName": {
@@ -231,7 +239,7 @@
   },
   {
     "name": "Comeback",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/a81f6cd93daadab1921f0dfaf68bcd14b3f6ece8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/8c8b265a1f390865142fc58aa083329e6162c148.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "IGD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/af8331493ebf11fa396baf6c0531e7b63a258fa6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/bc8805d362635ae9ba9de5c55e3f972b75e66f80.jpg",
     "displayName": {
@@ -259,7 +267,7 @@
   },
   {
     "name": "PawnToQueen",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/5585cd9db6332cccededf5f4102c0f358dffe391.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/870e877c9595e0f11e9b3529f79db8a8ce89dda6.jpg",
     "displayName": {
@@ -273,7 +281,7 @@
   },
   {
     "name": "Mover",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/4375c1dd89f9572c1fae532ce8eb7bcde84474f6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/0b0cbe5fe35c8274fc8eb86ad3420b0a128e36a9.jpg",
     "displayName": {
@@ -284,15 +292,17 @@
       "english": "move pieces 9999 times",
       "token": "NEW_ACHIEVEMENT_3_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9999,
-      "stat_name": "moves_made"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "moves_made",
+        "min_val": 0,
+        "max_val": 9999
+      }
+    ]
   },
   {
     "name": "Destroyer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/64506651dde62d3db3f7aed11589db55d9ed6f65.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/8d2ba4843fb634707906cde61210681ed3b9752e.jpg",
     "displayName": {
@@ -303,15 +313,17 @@
       "english": "Capture 666 pieces",
       "token": "NEW_ACHIEVEMENT_3_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 666,
-      "stat_name": "pieces_captured"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "pieces_captured",
+        "min_val": 0,
+        "max_val": 666
+      }
+    ]
   },
   {
     "name": "checkmate",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/bc7fa6bf74d4be0b748cdb58529eb1d4c28755db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/1ac1f175b7031b22453b69835f07eeaa74aa2824.jpg",
     "displayName": {
@@ -325,7 +337,7 @@
   },
   {
     "name": "pawns",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/d9e2444014a55001a2410b7580e4ff73b6c61b9e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3202480/bc8805d362635ae9ba9de5c55e3f972b75e66f80.jpg",
     "displayName": {

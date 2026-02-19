@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_SCORE_FIVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/1b8c8d1c81645a0473fc4db1fc1c6bcd0e51ef8a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/17369afe500ebcf6395d669fe2d0210278220e72.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_THREE_CONSECUTIVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/2e5d804578622213a998937800a044e0765f858f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/72b4a162d28629686483116228c5e5a6753ccd74.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_PLAY_MULTIPLAYER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/9c68f609c170892b136a1d01af9ae967a0cdee54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/1ddee0e43aae3f374a85d5656312395db287a226.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_SELF_GOAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/a218f04206a09597b4c05cbb2e8f6f092501d3a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/74faf6d3ea482f06e62240e193d6d88491b3dd6e.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_NEAR_MISS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/664ebc92d44899d9e649f1baefe7af94cf2d5379.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/3378465afb221015f70727e0c9284cfb105d60a0.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_COMEBACK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/64ac49bebe3f03da5a7fc484433220b636f66676.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/c9dc35e3e9687986709caa086652ad00e78af0a2.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_FIRST_WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/771c8cc8d1eb39c531b8551fb1840b2ea3c52ab3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/89d4dbec9dd593332ee03cc96e9a4774319050a2.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_TENTH_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/02e06c5b7bd07d5e654876865905d48dc17f445c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/9a858e510866d7b048aad872561eb55c18ac2cf0.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Play 10 games.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_games"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_games",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_HUNDRETH_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/3dc4a3ac1739f88db38d056c1994a7b2795f834d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2410970/9f4f784daab5e88e4c097a2c4bd3d6eea12484a5.jpg",
     "displayName": {
@@ -129,10 +131,12 @@
       "english": "Play 100 games.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_games"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_games",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

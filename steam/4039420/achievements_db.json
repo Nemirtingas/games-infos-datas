@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FIRST_LAUNCH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/3a77439b06b92c971bc6dd632906c2cf1f904b77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/51c1d4114ff3d61f3792fdda1bc42860149980c4.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "ACH_FIRST_DECK_BUILD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/3a77439b06b92c971bc6dd632906c2cf1f904b77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/51c1d4114ff3d61f3792fdda1bc42860149980c4.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "ACH_FIRST_VICTORY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/3a77439b06b92c971bc6dd632906c2cf1f904b77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/51c1d4114ff3d61f3792fdda1bc42860149980c4.jpg",
     "displayName": {
@@ -49,23 +49,23 @@
   },
   {
     "name": "ACH_FIRST_CAMPAIGN_WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/3a77439b06b92c971bc6dd632906c2cf1f904b77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/51c1d4114ff3d61f3792fdda1bc42860149980c4.jpg",
     "displayName": {
       "english": "Awakening",
-      "token": "NEW_ACHIEVEMENT_1_3_NAME",
-      "schinese": "觉醒"
+      "schinese": "觉醒",
+      "token": "NEW_ACHIEVEMENT_1_3_NAME"
     },
     "description": {
       "english": "Finish the campaign.",
-      "token": "NEW_ACHIEVEMENT_1_3_DESC",
-      "schinese": "完成战役模式。"
+      "schinese": "完成战役模式。",
+      "token": "NEW_ACHIEVEMENT_1_3_DESC"
     }
   },
   {
     "name": "ACH_PLAY_BOT_MODE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/3a77439b06b92c971bc6dd632906c2cf1f904b77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/51c1d4114ff3d61f3792fdda1bc42860149980c4.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "ACH_PLAY_100_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/3a77439b06b92c971bc6dd632906c2cf1f904b77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/51c1d4114ff3d61f3792fdda1bc42860149980c4.jpg",
     "displayName": {
@@ -94,15 +94,17 @@
       "schinese": "完成百场在线战斗。",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TotalGamesPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalGamesPlayed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_WIN_10_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/3a77439b06b92c971bc6dd632906c2cf1f904b77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/51c1d4114ff3d61f3792fdda1bc42860149980c4.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "schinese": "赢得十场在线战斗。",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "TotalWins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalWins",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_PLAY_10_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/3a77439b06b92c971bc6dd632906c2cf1f904b77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4039420/51c1d4114ff3d61f3792fdda1bc42860149980c4.jpg",
     "displayName": {
@@ -136,10 +140,12 @@
       "schinese": "完成十场在线战斗。",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "TotalGamesPlayed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalGamesPlayed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FINDSMALLBOB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/661c244db7aade1c7d5ebf2ac4d079e5cfb58526.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/c06f66f330087b7dbc458276fdd2d0631ad43bcd.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_FINDTHETOILET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/091b294c6e9c163d1404d072dbc1d383d4a6906a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/99886f636be65e128dd13faba51c51c3568c2d59.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_FINISHLEVEL1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/c0787e909c5ec0ad3938ff1675d635aee229e3b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/e63f2903ddd45b40549eb7e7c01e08b70c3ad88e.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_FINISHLEVEL2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/84eb489cb8c9661dc34582ef4da09191177578c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/5dce8975eff8a327f1ff5f4ae79ca210eced91c9.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_FINISHLEVEL3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/2b6a70905d3b23bbb0eeb510225e3a86432e4e31.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/b65f72b4f88079bdeac9f4b9d268951920898d40.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_FINISHTUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/dbbd0b3d33e9d5cb43c576875fb904e2f2fc5180.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/af69f1eb91c91285ae40dfdc84fdd99d07f12865.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_FINDALLRELICS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/99a715c72d871783dadbe36acb4e0691c3c6436b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/4bf8d5f54b66d1fce758ef75cce5ebfe4c0e3fd4.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_LOSELEVEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/3eb4b2084c3586ac87c986d0d373390d8220d6af.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/e001c9c1f80b78ec0f72e9788cfc6493891ab001.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_PLAY10ROUNDS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/fbfef2a072228dec5ab1c18dcc931d10b952cd94.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/e53d33fc2e220aa0a621d58199d674376692fc53.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "You have completed level 10 times.",
       "token": "NEW_ACHIEVEMENT_5_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "LEVELSCOMPLETED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LEVELSCOMPLETED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_11KCREDITS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/90f5ec5a862bfbcfac923ccdb0f545dc19dd2ae2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/4a71010d8bf3955387e255d7dc78c7da4eb3c40a.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "You have collected 11,111 credits!",
       "token": "NEW_ACHIEVEMENT_6_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 11111,
-      "stat_name": "CREDITS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CREDITS",
+        "min_val": 0,
+        "max_val": 11111
+      }
+    ]
   },
   {
     "name": "ACH_FINDBIGBOB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/7c1bca93d98ce6049d3ef2eca4bafdc0d7296e0f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/370a97cd243f40b6ed9b14e5accb829992e92c71.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ACH_111KCREDITS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/04fdb55f8e5ab0131a3246bda4cf7e3b1db7b17a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/ed8625ce23da3d887ead7ec0f49bbd4b5a169e53.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "You have collected 111,111 credits!",
       "token": "NEW_ACHIEVEMENT_8_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 111111,
-      "stat_name": "CREDITS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CREDITS",
+        "min_val": 0,
+        "max_val": 111111
+      }
+    ]
   },
   {
     "name": "ACH_THINKERROBOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/9654c90d0e3487b0efcd9827dab96c5b5727482e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/056b66d1c48f7426c133e0c41210da4244f6c968.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "ACH_ALLBLUEPRINTSFOUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/e9a2236db79d6e87f6074fdf652d826fa07fc54f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/7d02ad32cde1fe46b9426b5d5875b8f2de6b27e5.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "ACH_ALLBLUEPRINTSRESEARCHED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/66286579768abfa50773527c21307853ac038dac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/bc7c916ef72b0295fa374f2f18eaf20b54a6cbe2.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "ACH_FINISHLEVEL4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/63448898e838bbdf27e18585c6f0bc67fbad8c5c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/65d62fe0bb9f4a869cc832de7887230cd3484e61.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "ACH_FINISHLEVEL5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/2fb70d209eca6949fb08f159be6c0a3833b8de27.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/058c42b860503c854de91bf9aaf167be35ad13be.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "ACH_GOLEMBOSSKILLED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/aaed9f3bf7c1e11f6ccbd9e4d60e3fda2059f1a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/cedb6d8176662c8b5782db1e6e81173320b89995.jpg",
     "displayName": {
@@ -268,7 +274,7 @@
   },
   {
     "name": "ACH_KILLED10TURRETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/4ee1ca837b9fa1d7b0969c4b64c773f37fb939d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/ee8f4885afcc2d58a84a48ef5661fedb9e63f411.jpg",
     "displayName": {
@@ -279,15 +285,17 @@
       "english": "Destroy 10 turrets.",
       "token": "NEW_ACHIEVEMENT_11_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "TURRETSKILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TURRETSKILLED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_1111KCREDITS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/9f488adde8033f7da3de4434e3eb3558160182b8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/0f7df88e8d1a6b09bd8f5da973ae957c0a119cd5.jpg",
     "displayName": {
@@ -298,15 +306,17 @@
       "english": "You have collected 1,111,111 credits!",
       "token": "NEW_ACHIEVEMENT_11_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1111111,
-      "stat_name": "CREDITS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CREDITS",
+        "min_val": 0,
+        "max_val": 1111111
+      }
+    ]
   },
   {
     "name": "ACH_4STARS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/a5b5099b90a0565576c9403480af1c6160c423c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/56c0fc06b8df74493d882e570e3a1234b71c905b.jpg",
     "displayName": {
@@ -317,15 +327,17 @@
       "english": "Endless Mode",
       "token": "NEW_ACHIEVEMENT_11_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "STARS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STARS",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "ACH_8STARS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/40d90ff633fea3fc0991542677c3f94472060e19.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/f9678cb16d7ee4a99a4109027e9b5ac6b65a4740.jpg",
     "displayName": {
@@ -336,15 +348,17 @@
       "english": "Endless Mode",
       "token": "NEW_ACHIEVEMENT_11_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "STARS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STARS",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "ACH_12STARS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/ac3411d71b4f5ad0ca0a500215eb1f3a72ef2121.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/04136598c3b489070803b83131bf3d88057282a4.jpg",
     "displayName": {
@@ -355,15 +369,17 @@
       "english": "Endless Mode",
       "token": "NEW_ACHIEVEMENT_11_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 12,
-      "stat_name": "STARS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STARS",
+        "min_val": 0,
+        "max_val": 12
+      }
+    ]
   },
   {
     "name": "ACH_16STARS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/2f4cff4e5e6c4006dbf81e61eb6b34ed1adbb8f0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/a3aac87142c053ca1a4c9096bb756bf6158ea3fd.jpg",
     "displayName": {
@@ -374,15 +390,17 @@
       "english": "Endless Mode",
       "token": "NEW_ACHIEVEMENT_11_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 16,
-      "stat_name": "STARS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STARS",
+        "min_val": 0,
+        "max_val": 16
+      }
+    ]
   },
   {
     "name": "ACH_20STARS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/e9bbe06309c3e1ae122a3f43d57e1c0a9e716694.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3189820/353bea3d92da534f95c9ef3918a128067e0887e6.jpg",
     "displayName": {
@@ -393,10 +411,12 @@
       "english": "Endless Mode",
       "token": "NEW_ACHIEVEMENT_11_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "STARS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STARS",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   }
 ]

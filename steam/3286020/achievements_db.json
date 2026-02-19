@@ -1,7 +1,7 @@
 [
   {
     "name": "StageClear_Easy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/1c3cbbbc084b18cafc1634ddcffb082476b3f55f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/fef3856f156c6aab1d0e074045baa0d34211985c.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "StageClear_Normal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/fa9dd4abbcead6bc0fb892d189e129f1bb16d88f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/b9ca0adb6dcbbb7e137745809eaaa51f23152ccc.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "StageClear_Hard",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/c3bd06abc6ffc0347dc61d0f1d56cf94016e62ea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/3d757686bc1560b6e550578cab20d7a76187dc77.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "StageClear_Hell",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/80728fc4efe482908ab6ec0297657acce9d58e41.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/d4142d065b9ebf2ba317322347bd668e07e29a79.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "StageClear_Infinite",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/ab658643def17ecb10d26d45e262985a055f5dda.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/8bb039156c88771e7bd00e739d448041635be508.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "StageClear_Python",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/57555aa3b3a4496a972d4acf862823a31d92af7e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/6ff96a4a79f96eac248c58133674c2dacea35ca8.jpg",
     "displayName": {
@@ -97,7 +97,7 @@
   },
   {
     "name": "StageClear_Vortex",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/c5da69c6851644ad4ee8ff616b22241e0a6abfe3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/5a1aefe4664d8207b084f15b3429a8ba659a1c9e.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "Damage_10k",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/207b46d06762d823637a0dc0af0bd3bd9cae0fe5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/f8694ae3a11cc011ee7ab2c467ed1f812d7412e5.jpg",
     "displayName": {
@@ -126,15 +126,17 @@
       "schinese": "总计造成1万点伤害",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "TotalDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalDamage",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Damage_100k",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/bc0f8ef0aebeae36d8f8f97bf0095a692e8cf6fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/8eda29da193cf7006ceb2a3af18cc4cc7f91a21c.jpg",
     "displayName": {
@@ -147,15 +149,17 @@
       "schinese": "总计造成10万点伤害",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "TotalDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalDamage",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "Damage_1m",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/29d68a2c4674ae7315578ef7f6fb0811b6c7319a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/3ce10d50e57170f91259fde0503830e0f34b20d5.jpg",
     "displayName": {
@@ -168,15 +172,17 @@
       "schinese": "总计造成100万点伤害",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "TotalDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalDamage",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "Damage_10m",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/0866753faf3c216e07fd4003868d8c98ced71f6a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/f13b81c931d72804403e69143df1832005939d26.jpg",
     "displayName": {
@@ -189,15 +195,17 @@
       "schinese": "总计造成1000万点伤害",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000000,
-      "stat_name": "TotalDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalDamage",
+        "min_val": 0,
+        "max_val": 10000000
+      }
+    ]
   },
   {
     "name": "Damage_100m",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/8c0e8569d018b593a47b5cde87b9b7d8db61dd53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/0cd882df424fdc5156af3eae893d625ec06423e4.jpg",
     "displayName": {
@@ -210,15 +218,17 @@
       "schinese": "总计造成1亿点伤害",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000000,
-      "stat_name": "TotalDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalDamage",
+        "min_val": 0,
+        "max_val": 100000000
+      }
+    ]
   },
   {
     "name": "Econ_Millionaire",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/ce615ec40835ffecd9719e1022d6667341662504.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/36df1d834d331daeaae68c1bbcd232acd04f9933.jpg",
     "displayName": {
@@ -231,15 +241,17 @@
       "schinese": "总计获得100万水晶点",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "TotalCrystal"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalCrystal",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "Weapon_EquippedSub_Lv10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/5e142ffb44a0bd9a21b04b1976068e99ca41415d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/ff2738f5e01c3ead258a9eaf2c90a49d274436f0.jpg",
     "displayName": {
@@ -255,7 +267,7 @@
   },
   {
     "name": "Weapon_Main_Lv10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/fa425f4495f3ab50d506f85543fb7ec1b5b3f55c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/20b292b50ffc1d54247abfb199b259f8a8286a69.jpg",
     "displayName": {
@@ -271,7 +283,7 @@
   },
   {
     "name": "StageClear_Capricornus",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/06575d980502ed2e6c1710e6b6ec28ef2189423f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/a9f61fd26454eb0f14436eae3f9ce6a84453a0a6.jpg",
     "displayName": {
@@ -287,7 +299,7 @@
   },
   {
     "name": "BossTypeA_Killed",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/4631efbacccc123492ff3360336ee5963c6f25af.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/57c4b2c45d2fd3e6bcb570f47c6b54d82ff2c624.jpg",
     "displayName": {
@@ -303,7 +315,7 @@
   },
   {
     "name": "StageClear_Merveille",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/38b0496944cd2d27e81e494a4e17342cfab94bdb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3286020/50859b9fda4da0e910519fd696198e8508b8fa29.jpg",
     "displayName": {

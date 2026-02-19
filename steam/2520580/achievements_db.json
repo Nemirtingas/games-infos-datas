@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_CROWN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2520580/4795dd814305fa12b9d527126c950f76e4d4775b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2520580/f07808ea01a95a100026248182c78883b4e4dfa2.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_FLAG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2520580/5cfe79a19145ba69f915e554183f44864ea53c3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2520580/4336dee7f667489c1032cbc162a3ad88b8bfe639.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACHIEVEMENT_DEATH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2520580/795c875c3e70723a077567da5c9ad89947dbbbc8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2520580/62197d780a621d663d937723b9cfea324d936034.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "It hurts",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 10,
-      "stat_name": "DeathCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DeathCount",
+        "min_val": 10,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_ITEM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2520580/866b8ed384f6eb6d5b50a2724fa06170b0cd808c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2520580/e6e6534a6ece89c19b6d3e00f7a77818d0d0774a.jpg",
     "displayName": {
@@ -59,10 +61,12 @@
       "english": "Gotta use em all",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 10,
-      "stat_name": "ItemCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ItemCount",
+        "min_val": 10,
+        "max_val": 10
+      }
+    ]
   }
 ]

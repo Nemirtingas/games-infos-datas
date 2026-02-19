@@ -1,7 +1,7 @@
 [
   {
     "name": "ARCANIMA_ACHIEVEMENT_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_8",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_9",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Find half of the consumable items in the Citadel",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 10,
-      "stat_name": "ITEMS_FOUND"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ITEMS_FOUND",
+        "min_val": 10,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_11",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Stock your-self with all the consumable items that can be found in the Citadel",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 21,
-      "max_val": 21,
-      "stat_name": "ITEMS_FOUND"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ITEMS_FOUND",
+        "min_val": 21,
+        "max_val": 21
+      }
+    ]
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_12",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Find one of Zaru's diary entries",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "ZARU_ENTRIES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ZARU_ENTRIES",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_13",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Find half of Zaru's diary entries",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 4,
-      "max_val": 4,
-      "stat_name": "ZARU_ENTRIES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ZARU_ENTRIES",
+        "min_val": 4,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_14",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "It's okay, I appreciate all of my fans, even the weird ones! /Z",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 9,
-      "max_val": 9,
-      "stat_name": "ZARU_ENTRIES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ZARU_ENTRIES",
+        "min_val": 9,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -233,15 +243,17 @@
       "english": "Achieve victory in all the combats you can possibly face",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 7,
-      "max_val": 7,
-      "stat_name": "COMBATS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COMBATS",
+        "min_val": 7,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_16",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -252,15 +264,17 @@
       "english": "Spend a total of five minutes on Focus Mode",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 300,
-      "max_val": 300,
-      "stat_name": "SECONDS_FOCUSING"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SECONDS_FOCUSING",
+        "min_val": 300,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_17",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -274,7 +288,7 @@
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_18",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -288,7 +302,7 @@
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/bef85fab30aa3850677f02ff12b844f10058fd70.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {
@@ -302,7 +316,7 @@
   },
   {
     "name": "ARCANIMA_ACHIEVEMENT_21",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/a0dc40ebb40c6a0412f5538935fdae7bbff5714a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2172500/2fa67fed86cea0d6b45ae3d69d6a0ed7a5b2ea83.jpg",
     "displayName": {

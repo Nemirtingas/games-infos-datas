@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_HOW_DID_WE_GET_HERE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/8c8bb509f65fbd3be66c7a8ecc77a61c1b5ef1bd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/f236b9d293891f59ca3022ce50295143d4dbafa2.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_CLOSE_CALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/ed749e975414b39be6ae39d6bfd58c5f4a8af6c8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/18541c43a4088d3f32df6496ff68bed10cb4125e.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_RHYTHM_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/513cf282da948572175152f73c993a3dd5f9a1a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/bf987b8cbd3414c11c826947ed224c1d117e170e.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_PERFECT_RUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/59430012516fddda6adb2bfdf3a1faa4d68f8b53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/26e457eda8d9f688358175735841c0d587b358da.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_SHARPSHOOTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/134c03379c7d81f0649378fa852cf8bb55145bbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/79ad66fa2eabac8a74a5c9df3f2e5120e904593f.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "shoot 1000 bullets.",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "TotalBulletsShot"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalBulletsShot",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_DESTROYER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/9fa0a847a58a19f304ca1f6a3fbd9fea7518c77a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/cafb6122f51cd5637b551379ac611e5328eece84.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Destroy 500 enemies",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "TotalEnemiesDestroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalEnemiesDestroyed",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACH_SPIN_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/64d13041473a4ea605bb23d5643450aa3493de5e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/f41ad8f14dbdba88e1a1ed17c53f9e71e825e613.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_DASH_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/e76fee317220d239e6c02233122c2f190728dbd2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/8a312e77134a4d0d818068c06e1a852ec1c1dc17.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_SLAM_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/f95591578c6cc41e0533ec076f955e1cf045f01e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/43e82c94167e31fc07455331c8dcfc90513363cb.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Perform 50 slam attacks.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "TotalSlamAttacks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalSlamAttacks",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_CLOSE_CALL_MASTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/785e6c8f998ae07bf25f2516a417be006f442f85.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/94af93e6b620202a6b5fd9a4d36eb1ebe27741f7.jpg",
     "displayName": {
@@ -156,7 +162,7 @@
   },
   {
     "name": "ACH_TINY_TERROR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/2e52fc863299add0ca8b759e5c7f8af18b203bb5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/ed9c76612a6690c0dd6a71d143df8d65e13e7f1a.jpg",
     "displayName": {
@@ -170,7 +176,7 @@
   },
   {
     "name": "ACH_GIANT_CONQUEROR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/fa7facc642dadc361106722218102564b44780e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/e98f58ba6412c8ef2f2d28a0b03b90c36901b1be.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "ACH_GRADIUS_GAMBIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/7caff6a409deaf233fd23719f697107edbaa2828.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/443f329930f0547b9aef08449b53f6e48270d45e.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "ACH_SLAM_EXPERT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/9005a99519ab3140c94e3d9e01c4344387dc38bd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/16a9b456bf60021eeb190f7afd0498bc0a2898c5.jpg",
     "displayName": {
@@ -209,15 +215,17 @@
       "english": "Slam 500 times",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "TotalSlamAttacks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalSlamAttacks",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACH_SLAM_LEGEND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/fb6b9c1faa9ecc609272ff96cde12f14a6237a78.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/3a78963c20d1ae5afee4a075abf4c3d8aebe1c34.jpg",
     "displayName": {
@@ -228,15 +236,17 @@
       "english": "Prove your dedication",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "TotalSlamAttacks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalSlamAttacks",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "ACH_RHYTHM_VIRTUOSO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/cfbf40cef7e123d9b6ecde3a4a9265ba1baca98b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/5437dca7cf1556c86c6b94e162c0640ee9456307.jpg",
     "displayName": {
@@ -250,7 +260,7 @@
   },
   {
     "name": "ACH_DESTROYER_ELITE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/3a44df3fd6222f35baae538be73bec67230f28f2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/0198834b7a09c13c77f0d6d9959e980c8918d43f.jpg",
     "displayName": {
@@ -261,15 +271,17 @@
       "english": "Destroy 5000 Primitives",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "TotalEnemiesDestroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalEnemiesDestroyed",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "ACH_DESTROYER_LEGEND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/ff5f2c3fd5c5e299d1130702e116b207d98f2108.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/92d09ff4614ba285ff8cfe6f05f6da2aa928eb0d.jpg",
     "displayName": {
@@ -280,15 +292,17 @@
       "english": "Destroy 50000 Primitives",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50000,
-      "stat_name": "TotalEnemiesDestroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalEnemiesDestroyed",
+        "min_val": 0,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "ACH_RHYTHM_LEGEND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/4f11378dcc123d9dca6b5f4bdc7b1b9ea2651dc7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/ca14c32f5dc4d0937712e0d61bb21f027fe2a1d2.jpg",
     "displayName": {
@@ -302,7 +316,7 @@
   },
   {
     "name": "ACH_SHARPSHOOTER_ELITE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/72316bf1a98db1eb606b00c0e3e259094051f6f9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/7f14075bd48da6378479bd6b43bf58e13fbdae98.jpg",
     "displayName": {
@@ -313,15 +327,17 @@
       "english": "CAN YOU PLEASE STOP WASTING BULLETS",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "TotalBulletsShot"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalBulletsShot",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ACH_SHARPSHOOTER_LEGEND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/4a33e89e35f77f6c3072ef546b9209397fac1e57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3106260/2a752207abb287ca39241e773dd95a1b577de1b7.jpg",
     "displayName": {
@@ -332,10 +348,12 @@
       "english": "I SWEAR TO GOD I AM GOING TO ADD MICRO TRANSACTIONS FOR EACH BULLET YOU FIRE",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "TotalBulletsShot"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalBulletsShot",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   }
 ]

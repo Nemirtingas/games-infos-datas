@@ -1,34 +1,30 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "totalswaps",
     "displayName": "Total Swaps",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "max": 300,
+    "default": 0
   },
   {
     "name": "totalbattles",
     "displayName": "Total Battles",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "max": 150,
+    "default": 0
   },
   {
     "name": "binderrank",
     "displayName": "Master Binder Rank",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1,
+    "max": 10,
+    "default": 1
   }
 ]

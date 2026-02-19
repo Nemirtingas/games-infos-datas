@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FIRST_COW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/9ca05ae4b9fe55aa49a3a56c10e44b54d760bdcb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/7f7d497d2cddf02e84a1e61d08d6437d119d901d.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_FORTY_TWO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/ecaa40daf96481d1a5ef2cb93b29cb003bdc6666.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/de75bca1e05b989f3147d21b878197596f5eb21d.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_GET_STUNNED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/0192ce92b2f9b89e1d7a348c8dd2d33740ae435d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/e0cb8cc8dcf0ff17cfec196d32e7e26627467c52.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_AGAINST_THE_CLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/221bfb251dd45624706e50ff1d889b8794e2b665.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/306e1ca0998b3f04b30550a6d4b45551ebdfed31.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_DROP_COW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/c2706201c29cda5aabc1c353c11e400c05d5a72b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/c832a1b5caa70a96b2fea97293e7f8aa1e0dc323.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_NO_STUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/809e25666634912d7beee364bac1415336708c93.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/ee17f3b877c490274ce4436b2ac5c75676f8927d.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_NO_COWS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/9b429dc9e1563f80fa7f56b91e96c7c584403fa4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/d46d7e4fb63cd8d042d4dad5b2e26fe5800c97f6.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_ABDUCT_RUNNING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/786258e38da0250f66267728f5b21583483c9765.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/9905ee696ad1203407533589842dea8ee7d0ac53.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_FREE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/049e0bc490a3d80920c5acbfb4ccc432c46400a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/f8d91b52cbbdab1853cdadbb035ff7e9eebcca2d.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "ACH_TEN_ROUNDS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/0101e2291543e43d4abcfe04c618571202e4f373.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/f590d324d410b7624cbb540ff6ff4169d8509f49.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Play 10 rounds",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_SESSIONS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SESSIONS",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_FLAT_EARTH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/e6bb3d933f990d50b60c91ac8fe2aae1d0bc71b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/bf58a84436d4032f15270ad65df42beaa7a28b4b.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "ACH_SIXTY_NINE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/4467ab65e7d48d5661b3a43c1977848c404205dc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/6c45819602fa40df5d205d8a09d94bf39a91a67d.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "ACH_TWENTY_FIVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/ba24210f9f4367b7bde08f6a05612ff015d215ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/8bd0917a9cc08e1bfb12afe058537b03bee8ba90.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "ACH_ONE_THOUSAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/f766bc1394aecb54b338775a5ba46471584a91eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/3353be15c4e44692a3a2f78d2470c6bad287cee0.jpg",
     "displayName": {
@@ -199,15 +201,17 @@
       "english": "Abduct 1000 cows in total",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_TOTAL_SCORE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_SCORE",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_DROP_ONE_HUNDRED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/6f6873d338c09ab9f6f767d3cc806d58ebe7431c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2648600/60e631a29a999bbae20f9cdae922744268e12400.jpg",
     "displayName": {
@@ -218,10 +222,12 @@
       "english": "Drop 100 cows in total",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_TOTAL_DROPPED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_DROPPED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

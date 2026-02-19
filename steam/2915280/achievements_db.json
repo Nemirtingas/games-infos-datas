@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_JOB_DONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/42d100ee74c5e8256f0ea7fc0e06537b846b47ae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_ONE_MINUTE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/8e6a678b9dc07224e2d4af67ad847899624e7710.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_FINISHED_RACE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/f344bb5f98f33ad80507839dc4a49b29ec1100a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_ZONES_CAPTURED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/1b7eb0b35ac9e4ab80f31b5065ef2e434e679bfd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_ALL_STARS_ALL_CARS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/df3942ad630ef7c35bd571568c26c27eb0724b6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "All stars and all cars collected.",
       "token": "NEW_ACHIEVEMENT_3_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 182,
-      "stat_name": "NumStars"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumStars",
+        "min_val": 0,
+        "max_val": 182
+      }
+    ]
   },
   {
     "name": "ACH_SURVIVALIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/df3942ad630ef7c35bd571568c26c27eb0724b6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_RACE_DRIVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/f344bb5f98f33ad80507839dc4a49b29ec1100a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_GETAWAY_DRIVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/138722f2c522295dc0af0763058716436fe450a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_ALL_SURVIVAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/42d100ee74c5e8256f0ea7fc0e06537b846b47ae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Collect all stars from the survival levels.",
       "token": "NEW_ACHIEVEMENT_3_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 96,
-      "stat_name": "NumStarsSurvival"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumStarsSurvival",
+        "min_val": 0,
+        "max_val": 96
+      }
+    ]
   },
   {
     "name": "ACH_ALL_RACING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/f344bb5f98f33ad80507839dc4a49b29ec1100a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Collect all stars from the racing levels.",
       "token": "NEW_ACHIEVEMENT_3_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 52,
-      "stat_name": "NumStarsRacing"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumStarsRacing",
+        "min_val": 0,
+        "max_val": 52
+      }
+    ]
   },
   {
     "name": "ACH_ALL_GETAWAY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/138722f2c522295dc0af0763058716436fe450a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "Collect all stars from the getaway driver levels.",
       "token": "NEW_ACHIEVEMENT_3_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 12,
-      "stat_name": "NumStarsGetaway"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumStarsGetaway",
+        "min_val": 0,
+        "max_val": 12
+      }
+    ]
   },
   {
     "name": "ACH_ALL_ZONES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/1b7eb0b35ac9e4ab80f31b5065ef2e434e679bfd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -186,15 +194,17 @@
       "english": "Collect all stars from the zone levels.",
       "token": "NEW_ACHIEVEMENT_3_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 14,
-      "stat_name": "NumStarsZones"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumStarsZones",
+        "min_val": 0,
+        "max_val": 14
+      }
+    ]
   },
   {
     "name": "ACH_ALL_BOSS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/3a566e2d915351ed51ea83564765dc9dd09330a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -205,15 +215,17 @@
       "english": "Collect all stars from the boss levels.",
       "token": "NEW_ACHIEVEMENT_3_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "NumStarsBoss"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumStarsBoss",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "ACH_BAD_DRIVER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/3a566e2d915351ed51ea83564765dc9dd09330a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -224,15 +236,17 @@
       "english": "Crashed your car 100 times while transporting passengers.",
       "token": "NEW_ACHIEVEMENT_3_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "NumFailedJobs"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumFailedJobs",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_ONE_MORE_ROUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d60f696fe62157c8be752de1351d158337e15be6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2915280/d179559ca0aa16cfc0883aec75fbafef9324b696.jpg",
     "displayName": {
@@ -243,10 +257,12 @@
       "english": "You have played 1000 games.",
       "token": "NEW_ACHIEVEMENT_3_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "NumGames"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumGames",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

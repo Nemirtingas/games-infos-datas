@@ -1,7 +1,7 @@
 [
   {
     "name": "Clear_Game",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/a98ac99ab3cb0e2b9031eabb52ec7dfba880776f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Kill_Enemy_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/f2d61f2c3aef5f8386748701143fee54d8e8c40b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Find_MOD_Handgun",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/98a4144dcf143441dd4d80dd0da2f94a10a6754c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Find_Shotgun",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/53c683d2c697ce5cbc3044ad5e4414ea73f4c23d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Find_Orb",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/e1157276cfb316942b5a8297a47f4a7e6724c883.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Count_Tackle_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/dfe5288a596bafa10a4d9307df6f77c7be8a5068.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "Find_Skull_Of_Guru",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/81c202d19c75d9d22045a2b07fa8ded42063b339.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "Enter_Vault",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/dea80810c1ca689d0502750af7d827e17a200f96.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "Find_Donmani",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/0c38af7351de3898da60f24a67a7754b00b7ef1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "Count_Critical_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/ac31f0f54bc7953192658c82f5964a9589981532.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Hit enemy weak points 50 times",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "Stat_Critical"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Stat_Critical",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "Count_Crtical_200",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/a70617181ae971cd96906c12aad2148eba6818d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Hit enemy weak points 200 times",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "Stat_Critical"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Stat_Critical",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "Kill_Dragon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/ca8884c0dfceef049ea478b7ee4fb668107c53ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "Path_Wisdom",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/401082e24421490d5290be47f8df07258a375aff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "Path_Greed",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/ecdc166cf53ddb1f50094ba966e9201fac9c2b20.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "Path_Tyranny",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/dbd72141e36120b40dfd396c4dbbb9e1b63217da.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "Count_Tackle_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/65e94633efc3fc64be72ab0403e471d4fbdc58cc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -232,15 +236,17 @@
       "english": "Execute tackles 10 times",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Stat_Tackle"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Stat_Tackle",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Count_Tackel_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/4883bf8795ad2e545bde8f701047b325a18e28ca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -251,15 +257,17 @@
       "english": "Execute tackles 50 times",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "Stat_Tackle"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Stat_Tackle",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "Kill_Big_Dear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/1f8c1e34a666a00ace0429abf900fc14d50d3f4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -273,7 +281,7 @@
   },
   {
     "name": "Count_Chest_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/a8f188404d4ec38cfae78b6e04abcbe5111ab990.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -287,7 +295,7 @@
   },
   {
     "name": "Kill_Big_Ghost",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/8262bc88e4995fc543ebba9dc9a174d33c2b72fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -301,7 +309,7 @@
   },
   {
     "name": "Kill_Big_Iron",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/561dbdd8f2464248499b3783676d9bef51905a87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -315,7 +323,7 @@
   },
   {
     "name": "Kill_Big_Weak",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/3dd6bf3002d811c78f8783f018209afbc0b10a5b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -329,7 +337,7 @@
   },
   {
     "name": "Kill_Big_Sweep",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/cd96d6ab5265b90238925d4036e9da0635df929e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -343,7 +351,7 @@
   },
   {
     "name": "Kill_Big_Oni",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/409fa27f4fb22f6c04863111b863043870f29217.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -357,7 +365,7 @@
   },
   {
     "name": "Kill_Enemy_150",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/464f68a8e0cc33735a55a6efded8c81962ae30c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -368,15 +376,17 @@
       "english": "Defeat 150 enemies",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 150,
-      "stat_name": "Stat_Kill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Stat_Kill",
+        "min_val": 0,
+        "max_val": 150
+      }
+    ]
   },
   {
     "name": "Count_Secret",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/57bde97da20641f80084d095ae157e3cc2668016.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -387,15 +397,17 @@
       "english": "Find 40 secrets to complete the game",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "Stat_Secret"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Stat_Secret",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "Count_Chest_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/5887469b1f480acab2dd2a966329269736e38399.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -406,15 +418,17 @@
       "english": "Open 5 treasure chests",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "Stat_Chest"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Stat_Chest",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "Kill_Bird",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/1b374ae4142d88fd0a491d5f604af3efa9d078c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -428,7 +442,7 @@
   },
   {
     "name": "Hit_Stone",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/1023e7e0f69a675ae5ab63034f4632b01edc55ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -442,7 +456,7 @@
   },
   {
     "name": "Kill_Big_Oni2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/77473b9c2cd15d5eda1a9f462d1d2190a5bcada9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -456,7 +470,7 @@
   },
   {
     "name": "Kill_Big_Cockroach",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/9551afe7356cbea59e3f8bcc7ba9a0d18a25c650.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -470,7 +484,7 @@
   },
   {
     "name": "Kill_Big_Laugh",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/0a0cdb0015d488da17b51a865b8f7af0a0055a21.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {
@@ -484,7 +498,7 @@
   },
   {
     "name": "Status_Max",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/f29f2c24dec231dfd40cc5beaf39d21cd0ff30b0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2918410/372f194d841c0b37b9ca2a3ee07063f64765573e.jpg",
     "displayName": {

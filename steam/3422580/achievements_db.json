@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_WinBattle_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3422580/f771f26f934dcd4b91a0873fa174048a7f1b9449.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3422580/ce27d3ea08dc2caa8ee3d32e0975f8f9bef71a64.jpg",
     "displayName": {
@@ -14,15 +14,17 @@
       "schinese": "赢得一场游戏的胜利",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_NumBattleWin"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_NumBattleWin",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_WinBattle_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3422580/f7f481a4114643cbe24000494bcb29baa710c6b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3422580/40f60a85c7eb4a062078187a88f0a15ff073bcea.jpg",
     "displayName": {
@@ -35,10 +37,12 @@
       "schinese": "赢得20场游戏的胜利",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "STAT_NumBattleWin"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_NumBattleWin",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   }
 ]

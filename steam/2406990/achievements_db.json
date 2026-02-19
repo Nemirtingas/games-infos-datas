@@ -1,7 +1,7 @@
 [
   {
     "name": "TheAlpha",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2406990/e5c24f22ac1d4b02f387519dd26a2445b44b6c50.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2406990/4976b8852df8697ce3902551449996445ff57588.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "Play atleast 1 game during the alpha launch",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 0,
-      "stat_name": "alpha_games_played"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "alpha_games_played",
+        "min_val": 1,
+        "max_val": 0
+      }
+    ]
   }
 ]

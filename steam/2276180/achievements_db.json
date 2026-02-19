@@ -1,7 +1,7 @@
 [
   {
     "name": "c1b1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2276180/98355109ae92cdf085a7b596f199bf56e24100c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2276180/ed930b289646cf8dc55c94d99c7471c20d44e240.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "c1b2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2276180/ca956e3a184aac3726ecd71c33fd259d3716216a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2276180/b509f4e8054448f6bf0ea58d8f0baddc95c7c9f5.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "c1b3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2276180/ec68c60b3ebfd8139e4aaf3a6d98081a669b4328.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2276180/914a13e6daed8eb84b43607a33374e6ae89ff93f.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "c1b4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2276180/c6dccc7f0598fddcafffae672e3d77babb1c90ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2276180/f9a609d5b4cb004ec24d00beb94d49e3622c06e1.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "c1b5",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2276180/c1755935805ab689c8aa6faab91f8df615892c00.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2276180/d5528a33d443d878c972c2a645f03e2e0fa6d952.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "c1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2276180/633442139b466ce76ceb49622c6fd41c79083bd8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2276180/55050a8e25d13945dd6168cd8269bc1105eaa3bb.jpg",
     "displayName": {
@@ -82,10 +82,12 @@
       "english": "Completely clear Chapter 1",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 32,
-      "stat_name": "c1c"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "c1c",
+        "min_val": 0,
+        "max_val": 32
+      }
+    ]
   }
 ]

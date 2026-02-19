@@ -1,7 +1,7 @@
 [
   {
     "name": "FIRST_TIME_CRAFTING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/78378ca881db88040c8d602f2ed4b3d7c14931f2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/fd795c1e3802d9320f7f497641bb8f4015c67a46.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "WALK_10000_STEPS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/3f3b2dac50e77bddf002fb51a634573b89cca67c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/86a1a410187a039e0b02cfbb96fc240181114e46.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Walk 10,000 steps.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "STEPS_WALKED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STEPS_WALKED",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "HALLUCINATE_THREE_TIMES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/053d2533e5b16fc41fa649800abfecb7c650aa10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/5100c9e1fbf921f5083da8bf0ee6087f9597e26f.jpg",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "Hallucinate for at least three times.",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "HALLUCINATIONS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HALLUCINATIONS",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "FIRST_MAZE_EXIT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/7cc4e98a3fc7a56df3a0d8302fba0be1fa4775de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/2ee8698d88ae97fcf0158a79f53817f72b93b752.jpg",
     "displayName": {
@@ -67,7 +71,7 @@
   },
   {
     "name": "STRANGE_PENCIL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/99e9399cd1bde38d7ac3d8466879e3ebd5b982e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/9e779bf8d43a0923ecd47d16e11d42d95b2db912.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "MEMORY_PUZZLE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/d9a870531f3c9b60c1bd946c25053e605433984f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/0b484f75b215bab5131a866b038717a4a8be33ad.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "FIRST_KEYPAD_DOOR",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/f2ba8025f037c80239c25fed1b347d9970c783f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/959b6d76a968302f0716ba486762a267611f5aa0.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "STARE_FEAR",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/4c547950aaf84d89a73e20b9d329b18091851126.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/e6b83c6af6390e61105d639f688e4631b7424744.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "FIRST_TIME_DEATH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/8b97abb2382e3e3061cc1bbdaa2cc6a994edf066.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/687f22b312db277f94e6ae353c390344cecd29d9.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "DIE_15_TIMES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/e9e45fb1e5deac1354787f23e898411df1034b24.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/c115e04e6e1d668163471f9ecfe5dadacab60108.jpg",
     "displayName": {
@@ -148,15 +152,17 @@
       "english": "Die for at least fifteen times.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "DEATHS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DEATHS",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "OPEN_FOUR_KEYPAD_DOORS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/4b760b2cbb81559c89ccd79bbcb11338290fd3fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/4fd6bb512d27d8245a057e5bb2f3f2fb5007736e.jpg",
     "displayName": {
@@ -170,7 +176,7 @@
   },
   {
     "name": "SUMMON_RAKE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/391758e6635d554a9f005e50a8ba67c2406a9391.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/67fc078675487ee208889e2f253e7d6f4d23e675.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "OBTAIN_MARKER_DEVICE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/5523905de29c6fecc739d0f32e4fd59e2bce5d50.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/1a831eecfec7ef4fbe21781a644c04ff751d34c2.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "UNLOCK_GLYPH_ROOM",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/63df17e9c35a25f77048deb330c571f13c0c09c8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/d05b9dd0866c38d6c6c13c30b09d9cff12fbdb4b.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "UNLOCK_PLATFORM_ROOM",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/8c34b175ab53e4cafd4a59b65856da897d79fffd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/0079540723d0b138f8a8f5556bb7f9f74d7695aa.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "STUN_MANIFESTATION",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/339594479b441f3e06a4a4915182f51851d03018.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/d3bc4555900a767675caa7f8802e5d559254c10a.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "OBTAIN_LANTERN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/91df70e5321dded259b84dc626c829357c2a12fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/203354da23136c244aadcd5fd658546f2f453ad1.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "FIRST_MEMORY_FRAGMENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/319e9b1996d0dc4f3c31eac7686ee265ba937fcc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2785350/d4ce844ba3859c8ea5fb527fc0c02975260e6ee7.jpg",
     "displayName": {

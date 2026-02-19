@@ -1,7 +1,7 @@
 [
   {
     "name": "EL_ENTER_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/84bc6c4e25c03aeec47315216866052c59bbc5a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/a4afa2c18d6015d0218aec9e7f629fc0f20213bb.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "EL_WIN_BATTLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/d8c9bb2793fc0730732a04ab4963785bb105b47f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/9b6737b690b1654b3673a300e82c1b4ee7068ada.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "EL_LOSE_BATTLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/98db516105a3ac7e051856eb24f8b14499fb0ece.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/cdcab76988f26c07b8e52f58f66db2e983fc4c9f.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "EL_RECYCLE_CARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/45eda3693a6feae8e4892d8fa5f0acdaae6b9ad8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/2e350af452e16a2a12951fbede35bd15dc66df40.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "EL_CAST_SPELL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/0053b0afdfedfeb6332aaba4a2f39f31e4498233.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/50dde82d9e7f3231d6d7ecc62e1fcf22d527cd64.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "EL_DESTROY_MINION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/81f7fa02028dcef6ace75cc2c23910b1bbc123d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/4272ce76cbb38478a201cce6fd4c98b9f3af79a2.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "EL_USE_CLIMAX",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/3cdb8f8f8011bbe4052cf9f83a9eba2c2338a634.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/8389a6441cd14f2e4804bac27562965f5e8a269c.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "EL_READ_RULEBOOK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/6c3d79d0b90f31af9958ee8205980148cc6cd90a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/1fb550028744713dc8911dff509a4ea9d0161124.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "EL_WIN_ANY_CAMPAIGN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/9d7081cccce0de5dfc87ed32826a10a9fe9449bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/8d1385d4cd70cb82819df3e26e95ffcd72a30cfa.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "EL_WIN_ALL_CHARACTERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/2148fec7557b4249c6d181e7bdd26557721ed9f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/b54312924ac9175f27c6be3dfe19483bb5bfadd9.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Become Edge Lord with all four characters",
       "token": "NEW_ACHIEVEMENT_2_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "STAT_CAMPAIGN_CHARACTER_WIN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CAMPAIGN_CHARACTER_WIN",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "EL_WIN_MELONIE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/a0068d7df7672ac86b7fdd3a01c5ae410e54807b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/ae5b7c50d13f689c05f2d9103295e442ad3fe6b2.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Become Edge Lord with four of Melonie's outfits in any game mode",
       "token": "NEW_ACHIEVEMENT_2_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "STAT_CAMPAIGN_MELONIE_WIN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CAMPAIGN_MELONIE_WIN",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "EL_WIN_ASHKA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/1772520fc0c2a3d25d98645e9ef9c4593c7a45f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/b75208e0491071dcb59ea7b4690cfe4fc323b7b8.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Become Edge Lord with four of Ashka's outfits in any game mode",
       "token": "NEW_ACHIEVEMENT_2_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "STAT_CAMPAIGN_ASHKA_WIN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CAMPAIGN_ASHKA_WIN",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "EL_WIN_DEATHGRIP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/9d7081cccce0de5dfc87ed32826a10a9fe9449bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/8d1385d4cd70cb82819df3e26e95ffcd72a30cfa.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Become Edge Lord with four of Deathgrip's outfits in any  game mode",
       "token": "NEW_ACHIEVEMENT_2_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "STAT_CAMPAIGN_DEATHGRIP_WIN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CAMPAIGN_DEATHGRIP_WIN",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "EL_WIN_LILITH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/19a932eabe12bce377cebd901942f2127d90ff78.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/027ea29e905e8cc3cc59dbe35b623b6e272c5e53.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "Become Edge Lord with four of Lilith's outfits in any  game mode",
       "token": "NEW_ACHIEVEMENT_2_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "STAT_CAMPAIGN_LILITH_WIN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CAMPAIGN_LILITH_WIN",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "EL_WIN_PUZZLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/8fb29088dc1122daab77e0cf10f9573e2ab08c2d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/3fbf5e0cd04e69b03404979bfa301186ceaaa05a.jpg",
     "displayName": {
@@ -236,7 +246,7 @@
   },
   {
     "name": "EL_CLIMAX_KILL_MELONIE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/dd098d079873343277987c5e34dc48b1e39b02d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/2a9782ba3eaed86f48afecc05506e90b7509cf17.jpg",
     "displayName": {
@@ -250,7 +260,7 @@
   },
   {
     "name": "EL_PLAY_PROMOTED_6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/c76ed873162d2040bcffa28ff06425bcc9e77e22.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/99fd05a03a4999f938b18dc4014697171f6f735c.jpg",
     "displayName": {
@@ -264,7 +274,7 @@
   },
   {
     "name": "EL_ASHKA_NUN_DAMAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/15ac9443066ce5d03283b8e8ff63c4b737875846.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/847fb0efef283d21207399070f9c079a6e76c723.jpg",
     "displayName": {
@@ -278,7 +288,7 @@
   },
   {
     "name": "EL_PUMPKING_KILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/d08c4527630711f8bfa2fa1ab6e10ba238c357e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/db9442c8503b0ebf39cc13db6c2b13e89d1aeae5.jpg",
     "displayName": {
@@ -292,7 +302,7 @@
   },
   {
     "name": "EL_PLAY_SLAP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/fa6bd61bbd592302a12ffffabfe53eff5757b9a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/92e8c28b027d3a9d0d7a419429f1db85b515a0b2.jpg",
     "displayName": {
@@ -303,15 +313,17 @@
       "english": "Use the Slap card to slap Bosses a total of 10 times",
       "token": "NEW_ACHIEVEMENT_2_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_BOSS_SLAPS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_BOSS_SLAPS",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "EL_KILL_WITH_LANCE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/669134dd95825e11fa513b0f8b0f3e633c9aa75e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/6e8be0482a3917fddaf76ab9fb5c759e0bdd7d3e.jpg",
     "displayName": {
@@ -325,7 +337,7 @@
   },
   {
     "name": "EL_12_LOSS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/f11d31976b3a671189da9f623a4a50de359c7fee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/2c29f25e460f0c0aab2e9e8556826f188e1d2a22.jpg",
     "displayName": {
@@ -336,15 +348,17 @@
       "english": "Unlock all 12 'Loss' CGs",
       "token": "NEW_ACHIEVEMENT_2_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 12,
-      "stat_name": "STAT_LOSS_COMBINATIONS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_LOSS_COMBINATIONS",
+        "min_val": 0,
+        "max_val": 12
+      }
+    ]
   },
   {
     "name": "EL_DESTROY_PUMPKUNS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/69f4eb75fa01ea99efb824d52abe4c54ceb3b55a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/4dc035982037f788e39df94c32d54686f36dccea.jpg",
     "displayName": {
@@ -355,15 +369,17 @@
       "english": "Destroy a total of 10 Pump-kun minions",
       "token": "NEW_ACHIEVEMENT_2_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_DESTROY_PUMPKUNS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DESTROY_PUMPKUNS",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "EL_WIN_1_HEALTH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/786e1526bd3097a41d629616da99dc7c94c9b793.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/de711ee451f71abca35b34bd795cd395e9cb6130.jpg",
     "displayName": {
@@ -377,7 +393,7 @@
   },
   {
     "name": "EL_CROWHARPY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/ab46e51cd1f689cac1db0242e4032da53038a1d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/325fd1f11e62bdaa551fa7cf81b245d182c181d7.jpg",
     "displayName": {
@@ -388,15 +404,17 @@
       "english": "Destroy a total of 10 Black Crow or Harpy minions",
       "token": "NEW_ACHIEVEMENT_2_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_DESTROY_CROWHARPY"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DESTROY_CROWHARPY",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "EL_DESTROY_IMPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/436c52ac5985b523f41ee97df333f28b3bac67e2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1871480/441802c8dbb03158f9fac7e63a1642d2690104c2.jpg",
     "displayName": {
@@ -407,10 +425,12 @@
       "english": "Destroy a total of 10 Imp minions",
       "token": "NEW_ACHIEVEMENT_2_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_DESTROY_IMPS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DESTROY_IMPS",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

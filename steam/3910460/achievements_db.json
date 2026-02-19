@@ -1,106 +1,142 @@
 [
   {
     "name": "Tutorial_Beat",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Woodpusher"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Finish the tutorial"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/1821ac6736194495556024584a6c0b685118223b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/7caba32345e70ccedd0be6a5276e20aad31e9163.jpg"
-  },
-  {
-    "name": "Level_41",
-    "defaultvalue": 0,
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/7caba32345e70ccedd0be6a5276e20aad31e9163.jpg",
     "displayName": {
-      "english": "Advanced"
+      "english": "Woodpusher",
+      "token": "NEW_ACHIEVEMENT_2_0_NAME"
     },
-    "hidden": 0,
     "description": {
-      "english": "Conquer the first 40 levels"
-    },
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/2f602744d72d08abc48219001bc69bef3fdb3df3.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/9381bae5fe00a71b9fc46045ca698d89cfbf4893.jpg"
-  },
-  {
-    "name": "Level_81",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Master"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Beat level 80"
-    },
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/0659c535698584aa69dd22d3b291b4c14895823a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/f8b138d6aa48521d3968401ecb157ed2afaf86a6.jpg"
-  },
-  {
-    "name": "Level_91",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Grand Master"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Finish all the main levels."
-    },
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/46079b64041775c27209bb40ba42aee92a428b19.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/43c045fbedd55c8ed11318f3e8034283b01a8269.jpg"
-  },
-  {
-    "name": "new_background",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Remodeling"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Change your background board"
-    },
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/f2f25d7494d694cf3ee58958f2fdb874edc91c9a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/d7bb0a0408c1d51dd4c42724d8e884a9ca4ee02e.jpg"
-  },
-  {
-    "name": "level_secret",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Secret Grandmaster"
-    },
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/39318935cb4df03b300e987b079871a143a04a77.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/eb26e38271db336355899317dd902ba031543067.jpg",
-    "description": {
-      "english": null
+      "english": "Finish the tutorial",
+      "token": "NEW_ACHIEVEMENT_2_0_DESC"
     }
   },
   {
-    "name": "bird_found",
-    "defaultvalue": 0,
+    "name": "Level_41",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/2f602744d72d08abc48219001bc69bef3fdb3df3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/9381bae5fe00a71b9fc46045ca698d89cfbf4893.jpg",
     "displayName": {
-      "english": "Why is there a bird?"
+      "english": "Advanced",
+      "token": "NEW_ACHIEVEMENT_2_1_NAME"
     },
-    "hidden": 1,
+    "description": {
+      "english": "Conquer the first 40 levels",
+      "token": "NEW_ACHIEVEMENT_2_1_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "steam_levels_beat",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
+  },
+  {
+    "name": "Level_81",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/0659c535698584aa69dd22d3b291b4c14895823a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/f8b138d6aa48521d3968401ecb157ed2afaf86a6.jpg",
+    "displayName": {
+      "english": "Master",
+      "token": "NEW_ACHIEVEMENT_2_2_NAME"
+    },
+    "description": {
+      "english": "Beat level 80",
+      "token": "NEW_ACHIEVEMENT_2_2_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "steam_levels_beat",
+        "min_val": 0,
+        "max_val": 80
+      }
+    ]
+  },
+  {
+    "name": "Level_91",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/46079b64041775c27209bb40ba42aee92a428b19.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/43c045fbedd55c8ed11318f3e8034283b01a8269.jpg",
+    "displayName": {
+      "english": "Grand Master",
+      "token": "NEW_ACHIEVEMENT_2_3_NAME"
+    },
+    "description": {
+      "english": "Finish all the main levels.",
+      "token": "NEW_ACHIEVEMENT_2_3_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "steam_levels_beat",
+        "min_val": 0,
+        "max_val": 90
+      }
+    ]
+  },
+  {
+    "name": "new_background",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/f2f25d7494d694cf3ee58958f2fdb874edc91c9a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/d7bb0a0408c1d51dd4c42724d8e884a9ca4ee02e.jpg",
+    "displayName": {
+      "english": "Remodeling",
+      "token": "NEW_ACHIEVEMENT_2_4_NAME"
+    },
+    "description": {
+      "english": "Change your background board",
+      "token": "NEW_ACHIEVEMENT_2_4_DESC"
+    }
+  },
+  {
+    "name": "level_secret",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/39318935cb4df03b300e987b079871a143a04a77.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/eb26e38271db336355899317dd902ba031543067.jpg",
+    "displayName": {
+      "english": "Secret Grandmaster",
+      "token": "NEW_ACHIEVEMENT_2_5_NAME"
+    },
+    "description": {
+      "english": "Beat all secret levels",
+      "token": "NEW_ACHIEVEMENT_2_5_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "steam_secret_levels",
+        "min_val": 0,
+        "max_val": 12
+      }
+    ]
+  },
+  {
+    "name": "bird_found",
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/6e64e6f572ee59962215a565595acf144217b802.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/5cfd2548515592e91297b6d395fe913c723b9cd4.jpg",
+    "displayName": {
+      "english": "Why is there a bird?",
+      "token": "NEW_ACHIEVEMENT_2_6_NAME"
+    },
     "description": {
-      "english": null
+      "english": "Scare a bird off",
+      "token": "NEW_ACHIEVEMENT_2_6_DESC"
     }
   },
   {
     "name": "red_board",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Nobody is gonna use this"
-    },
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/ba181b1be046a8b0da58f6825f03afc07e4686dc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3910460/964d54f0103a9d80dc815fe061778d7f73261d72.jpg",
+    "displayName": {
+      "english": "Nobody is gonna use this",
+      "token": "NEW_ACHIEVEMENT_2_7_NAME"
+    },
     "description": {
-      "english": null
+      "english": "Unlock the worst board",
+      "token": "NEW_ACHIEVEMENT_2_7_DESC"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_Camping",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/3165f114ace09d7676b31c433c47031b68d25e81.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/5b912f5a6d56f0d8ba2afcd197843bac1ac8f7ce.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_Modern_Villa",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/c42697027a319ca775d56e9d976106809266ae48.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/d8b69dc5e80f2e7d8c8759a63419812c07cf83de.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_Old_Villa",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/f1ba89ddda75958ede00ccfb71b7ffaa449303fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/177cd66ae7348a9a84dca01b6fc163250d6b1ef4.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_Palace_Hall",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/86e4eb7301bb3c22cb4adc2c38ac60e829d5be89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/f811a95cbb1c6970a39bf1791c55c4e7dc9c4aff.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_Ruins",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/7e5862f38ac95117bbe0925b5fef405ce219cb0c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/36490383d54542f026d4d276134044de26ee8d1c.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_Rural_Cabin",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/48d78a0159691c1124d1e2b6ded61c8e9514d843.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/e186ade0501fffa753380ffe522b0c1ced9ebbc2.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_Ship",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/9b4b2c91392540840f56660ecbee135cce79942c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/2774a189b47a90f1cdfee192cb0481dae80cb5cc.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_Street_House",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/f37e3b7e15fea0d688e200dcc93652eb0b53fbbf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/4caac66b15fa4a77ff9499be98aeddcaefbe654c.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_Time_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/34d8a3dbf355b9a61bd955e4ee0a017076afb86b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/8e05ce33b515ef2f8bddd872bb1c32b169268dcd.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Two hours of pure serenity.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 120,
-      "stat_name": "STA_Time_2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STA_Time_2",
+        "min_val": 0,
+        "max_val": 120
+      }
+    ]
   },
   {
     "name": "ACH_Time_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/71f32b34131d5c89c4dbcf6f84048b2a75bea72f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/2c8c0022afad90097064e62d9f2e2c61bd30a9b1.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Zen level: Impressive.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 300,
-      "stat_name": "STA_Time_5"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STA_Time_5",
+        "min_val": 0,
+        "max_val": 300
+      }
+    ]
   },
   {
     "name": "ACH_Time_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/27d86e545ff4accc6fa59aacecbe58d5f74bf309.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/8b30b23c123b7f5e4fa1b4d1fe4fff1b9c7cc296.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Deep in the heart of nature.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 600,
-      "stat_name": "STA_Time_10"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STA_Time_10",
+        "min_val": 0,
+        "max_val": 600
+      }
+    ]
   },
   {
     "name": "ACH_Time_15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/7b24a983fbc3b008b4399354265628ba296e303d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/98ea34cacac5c773757a8cf9f34bef9124f6984a.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Soft steps, quiet soul.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 900,
-      "stat_name": "STA_Time_15"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STA_Time_15",
+        "min_val": 0,
+        "max_val": 900
+      }
+    ]
   },
   {
     "name": "ACH_Time_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/435f032c6b06bb54246fd4ca51ba2d5d1339c49c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/d7167890f6b6feaeb06162365e14f1b7af468f54.jpg",
     "displayName": {
@@ -200,15 +208,17 @@
       "english": "Trailblazer of tranquility.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1200,
-      "stat_name": "STA_Time_20"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STA_Time_20",
+        "min_val": 0,
+        "max_val": 1200
+      }
+    ]
   },
   {
     "name": "ACH_Time_25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/47d2ccef408aa3d774502e86d0bc5a20f3a62d1e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/b11cddcfc22ad31b13bd601ecddde7703a05e8b8.jpg",
     "displayName": {
@@ -219,15 +229,17 @@
       "english": "24 hours of harmony.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1440,
-      "stat_name": "STA_Time_25"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STA_Time_25",
+        "min_val": 0,
+        "max_val": 1440
+      }
+    ]
   },
   {
     "name": "ACH_Time_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/611c7bf2e448e7be7ec2426ebd97394012e13ddd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/62f92cd0c71224021dcd84a48e2a280d1a545895.jpg",
     "displayName": {
@@ -238,15 +250,17 @@
       "english": "Time passes… but you remain calm.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2880,
-      "stat_name": "STA_Time_100"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STA_Time_100",
+        "min_val": 0,
+        "max_val": 2880
+      }
+    ]
   },
   {
     "name": "ACH_Interacts_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/c4f9bb98edb2e8732bb18eb755802086c6fee73d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/00c6d35cbebbc2cb0c6c1483a546b55f2047c0f1.jpg",
     "displayName": {
@@ -257,15 +271,17 @@
       "english": "Curious, yet calm.",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STA_Interacts_50"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STA_Interacts_50",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_Interacts_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/6c321923de30a4147126e80da37309875c36663a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/32b8c647d8671771b9874ef13a8b03b52e61f9d2.jpg",
     "displayName": {
@@ -276,15 +292,17 @@
       "english": "A connoisseur of the little things.",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STA_Interacts_100"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STA_Interacts_100",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_One_Play",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/abf5746ae0c6f521d30413360552562c6eb353a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/77f8df3c0758997c5a4091eee1913ac5407541b1.jpg",
     "displayName": {
@@ -298,7 +316,7 @@
   },
   {
     "name": "ACH_Relaxing",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/595829e146230bb7eae809211ee8cbdc745e91d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/561d7eafbbb22995f927e2fca1a773a2c5a93c25.jpg",
     "displayName": {
@@ -312,7 +330,7 @@
   },
   {
     "name": "ACH_Sun",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/2378f330cfba20a443962f75b414b5216694ec2b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/79298ca313f3cd1e49e4f62ee26705d17df903f4.jpg",
     "displayName": {
@@ -326,7 +344,7 @@
   },
   {
     "name": "ACH_Rain",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/3e6f0cc624979e21a80534c89d6f42775051a861.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/b02b96f52ddd81de1c64eb17903b1f1400cb7130.jpg",
     "displayName": {
@@ -340,7 +358,7 @@
   },
   {
     "name": "ACH_Snow",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/d66c74b51f439fc0b27d4184a19ff2f00162572f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/4dbed37355ae56b51c7f8f617abfbef54586c4ee.jpg",
     "displayName": {
@@ -354,7 +372,7 @@
   },
   {
     "name": "ACH_Blizzard",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/7c153ebcd05efb91244b70b5fcdd8acbe37920d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/fab5917d0696e5befa92cba5f2fba07f53e3fc7b.jpg",
     "displayName": {
@@ -368,7 +386,7 @@
   },
   {
     "name": "ACH_Thunder",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/e33af54f3ff2fa1438fcb7585e9257c03833b498.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/b417f7f9c51df26c5df587c3d4c5513540175a24.jpg",
     "displayName": {
@@ -382,7 +400,7 @@
   },
   {
     "name": "ACH_Moon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/5c4a52b012fb62b3ec2e520e27d2670691a912a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/cf0692c41b16ebcb9d325363b23f1ea933eebd85.jpg",
     "displayName": {
@@ -396,7 +414,7 @@
   },
   {
     "name": "ACH_Island",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/834fc93a9d26e457998bc8e2f07c042cd65722bd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2965380/43dc0cb2601679711ab552975bedd26fe0763159.jpg",
     "displayName": {

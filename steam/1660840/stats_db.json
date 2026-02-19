@@ -2,57 +2,70 @@
   {
     "name": "STAT_MAX_INFAMY",
     "displayName": "Maximum Infamy",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "STAT_GANG_SIZE",
     "displayName": "Gang size",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 13,
+    "default": 0
   },
   {
     "name": "STAT_DYNAMITE",
     "displayName": "Kills from a single boom rod",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 3,
+    "default": 0
   },
   {
     "name": "STAT_HEADSHOT_KILL",
     "displayName": "Headshot kills in a showdown",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "STAT_LEVEL",
     "displayName": "Highest outlaw level",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 7,
+    "default": 0
   },
   {
     "name": "STAT_MODS",
     "displayName": "Mods collected",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 128,
+    "default": 0
   },
   {
     "name": "STAT_BESTIARY",
     "displayName": "Enemy data collected",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 41,
+    "default": 0
   }
 ]

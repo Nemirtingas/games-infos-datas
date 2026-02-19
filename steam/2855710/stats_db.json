@@ -1,82 +1,90 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "Kill_Counter",
     "displayName": "Kill Counter",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "Projectiles_Shot_Counter",
     "displayName": "Projectiles Shot Counter",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "Death_Counter",
     "displayName": "Death Counter",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "Traps_Activated",
     "displayName": "Traps Activated",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 999999999,
+    "default": 0
   },
   {
     "name": "Trap_Kills",
     "displayName": "Trap Kills",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 9999999,
+    "default": 0
   },
   {
     "name": "Health_Potions_Collected",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999,
+    "default": 0
   },
   {
     "name": "Active_Burning_Enemies",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 9999,
+    "default": 0
   },
   {
     "name": "Total_Collected_Gold",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "max": 1E+09,
+    "default": 0
   },
   {
     "name": "Runs_Won",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "max": 9999999,
+    "default": 0
   }
 ]

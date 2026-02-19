@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_CERTIFIEDGAMER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/211cd5b9ecb413175c2c0f778baf77b89aefadb6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/90e2ae0245be3354d806eda6144f3f4f739a8f97.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_1WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/46c0bbb4549dc7f7ff2a6a22eb4d5ab7b3bedddc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/f6600a6d561f2980f87ad7b89a3d8d80c482562a.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Congratulations, you won your first game!",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "win_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "win_stat",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_1KNOCKOUT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/7cf05a0bd1301ee417919da69f5fed8e09f90360.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/ca14905a31dbd40030a3b932570253499dffdd86.jpg",
     "displayName": {
@@ -45,15 +47,17 @@
       "english": "Who's there? A knuckle sandwich!",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "ko_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ko_stat",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_BANANA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/89fb8a1ccbb95f9bc0ee914901153ed53f0ebbf1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/a6514d53b787f063a00e8e2bbac1c99a097b759c.jpg",
     "displayName": {
@@ -67,7 +71,7 @@
   },
   {
     "name": "ACH_SPLASH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/8e912b1ed48726391cfb1c3192b49a572c7abdfd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/f78632c6469398a17731f2b7228662249ac0ceb4.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "ACH_MOWER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/6ce94eb9ab1b5fe1e29ae8c71e6ff2c3d229d692.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/893d1de90a27b53fc598d452c8607cde2adeba93.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "ACH_KABOOM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/3c5812e112cbb0b29e5e7677dbccf1fe69cf91ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/97e21e89bab5fd25967ffbc64bda16ec7961bc00.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_LAUNCHPAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/c00bce60298176210a3e00855e1354aba0f2adf1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/39d3c22ea780d5ad12d3d0b6eef3b930fd5baa9e.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_10WINS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/1af76556d4fc18144e50bdd3943931f9ee595e07.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/bb92ff45f95725971137fc07d1fd067f0f06ce1f.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "This is only for the most professional dads",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "win_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "win_stat",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_20KNOCKOUTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/7e9e65aeaab869fcd0846854f16aed2732fef254.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/3913b0319212cdc05e8ac50c6dd8b325fd4bad39.jpg",
     "displayName": {
@@ -153,15 +159,17 @@
       "english": "Fists go BONK",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "ko_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ko_stat",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_GRAVHAMMER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/90e3b2e04a6da051580df523b2f60e03c59d0a52.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1096760/c3ed68ba2a95b36ab9370b20a1bf506a184e1f42.jpg",
     "displayName": {

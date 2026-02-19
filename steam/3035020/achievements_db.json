@@ -1,7 +1,7 @@
 [
   {
     "name": "ONEMORE_ACHIEV_MUG_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3035020/7fad92c37d1203177c5e80525c0f3c571e8a19ac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3035020/8c3f24fc048eed2223b11dbe33ac3d0a652261e9.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Drink the first mug",
       "token": "NEW_ACHIEVEMENT_4_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_MUGS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MUGS",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ONEMORE_ACHIEV_MUG_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3035020/63627910cd379a4d32448be15a96bacc7084fa0e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3035020/1c890e15d34359b02f537a382a46449be87b241a.jpg",
     "displayName": {
@@ -31,15 +33,17 @@
       "english": "Drink 50 mugs",
       "token": "NEW_ACHIEVEMENT_4_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_MUGS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MUGS",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ONEMORE_ACHIEV_MUG_CLEAN_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3035020/62583f9b1c9a5965ef16ab0bb972f5e97b3e2abf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3035020/db48b2f4240332663f0725f7fcb8d97fe5b7a71d.jpg",
     "displayName": {
@@ -50,10 +54,12 @@
       "english": "Drink 10 mugs in a row without vomiting",
       "token": "NEW_ACHIEVEMENT_4_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_MUGS_CLEAN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MUGS_CLEAN",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

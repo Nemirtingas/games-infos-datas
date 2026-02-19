@@ -1,7 +1,7 @@
 [
   {
     "name": "Multikill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/77cce5fddb92ef49dfc151a80257f1634a759366.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/8440a0c70a4d72a2ddf91c0ad6b3bc92d4c87981.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Kills_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/19f4d77d99ce87f7cbb06aa53e2b2cf9fc687ed7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/5a39fe5ec4d983a65ce5832391aa9c52b15ac507.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Get 10 kills",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "Kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Kills",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Kill_All_Characters",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/f0513425ee68c9f06248f0ef18abc905a6f2981a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/ceae2ee3f612a5e6b8d0bdf0d835bbd976e6c88d.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "Consecutive_Jump_Pad",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/a709e9cc0817f2becd5e318106ad91deefc0980f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/c63999646fa75db57b087f0c07b7ba19f12fd9a5.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "Knockoff",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/212f5b7c3ec8b84e82250ba6d17194fd3ff64912.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/f34ffe55afb74ead1fdcb8efb507ea500390074c.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "Kill_All_Weapon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/55524ad0965affe467c2c0f9f73eb087348e31c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/e469290273fe8edf2014969cdc7a4292edfc5fe2.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "Played_All_Maps",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/263411cfc5eb9f0b917b2f596f3e9a55eb64aedb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/25b79207beb567330e1e304767556a6b58a93c52.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "Far_Away_Kill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/64abf2937409c55684e9030b19dd96479a138fc6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/8da44c155195cfc7a934f29f54c6dd4d12c7dc59.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "0_Deaths",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/60c41a1737c2d324a65d58458a174e0d9e5c20b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/00e29cedb63c4855cae2f76c9d7ec81de12bf25a.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "Damage_Dealt",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/0b6cd37496d97ebe5d34777630d51b31060793a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/5352478a3a88c55b6c48f72f032326f40f5c4799.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Deal 1000000 damage",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "DamageDealt"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DamageDealt",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "Melee_Kills",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/fd3a6c7c0889e2fd3c5da6c4c226e480e8ca7d2d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/7290cc6886aef44f0919434aeb34b6001547d049.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Get 10 Meleekills",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "MeleeKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MeleeKills",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Kills_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/aa865ca9fe9b607223c05c4b5dec080ada0a3885.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/3c7785a0c132e5dc9cb82470f347b9a8b666c095.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Get 100 Kills",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "Kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Kills",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Heal_10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/dc757bc6793637980d1d7dcbba7f29538097c17a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/2070ccc1128471bcd261bfb5820bd2c138a20cc1.jpg",
     "displayName": {
@@ -200,15 +208,17 @@
       "english": "Heal 10000 Health.",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "HealAmount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HealAmount",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Use_Abilities",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/b93fc160972073f2932337b1948a58685b05a6f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/27ffd1e485c13bae1f3917cac5aa131ea39e3eae.jpg",
     "displayName": {
@@ -219,15 +229,17 @@
       "english": "Use 100 skills",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "AbilitiesUsed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "AbilitiesUsed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Kills_Grenades",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/49bbd259edff3593870c55c83526032d1df08843.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/7cda96f87a54c3807aa994e23a38f025d722b889.jpg",
     "displayName": {
@@ -238,15 +250,17 @@
       "english": "Get 50 kills with grenades",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "GrenadeKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GrenadeKills",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "Kills_Abilities",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/f5f92d95499a08adf3e7f55c47485757ac200971.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/a10b32bbb46c06551ff170f2b9d9ae1035270b82.jpg",
     "displayName": {
@@ -257,15 +271,17 @@
       "english": "Get 50 kills with skills",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "AbilityKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "AbilityKills",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "Full_Game",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/54ce7636f1c599dc29912d3db20fee4b99d31f39.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/b147f128550199bf00211ede5f532a22ff77f9b7.jpg",
     "displayName": {
@@ -279,7 +295,7 @@
   },
   {
     "name": "Kills_10_OneMatch",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/40db47b740af5600fb5bf16c44e0c9f5ad4c2613.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/fd815c4c286598080ea2f006adba1f8d8aba8223.jpg",
     "displayName": {
@@ -293,7 +309,7 @@
   },
   {
     "name": "10_Health_OneMatch",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/cb3176bb8d21e140e39f70c38bfc3bfd2eb2ddd3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2137300/59cf0ec4cbb625eb9335e76c0e0f434b5d7cdf2e.jpg",
     "displayName": {

@@ -2,33 +2,45 @@
   {
     "name": "game_count",
     "displayName": "game_count",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "max": 100000,
+    "default": 0
   },
   {
     "name": "win_count",
     "displayName": "win_count",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 100000,
+    "default": 0
   },
   {
     "name": "lose_count",
     "displayName": "lose_count",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 100000,
+    "default": 0
   },
   {
     "name": "win_rate",
     "displayName": "win_rate",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1000.0,
+    "min": 0.0,
+    "max": 100000.0,
+    "default": 0.0
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "BEAT_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/39be9da1ec89160de6fbf381f969d710222e73f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/f5af7099007ee726dd1b46901c234001d104dacc.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "BEAT_NG",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/e625cf46149b9c3c70345001cfc1f7048c668308.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/927293f91f311f0093d9f449b1128eacbe669971.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Survive Endless Mode for more than 15 minutes.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 900,
-      "stat_name": "HIGHSCORE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HIGHSCORE",
+        "min_val": 0,
+        "max_val": 900
+      }
+    ]
   },
   {
     "name": "DEATH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/83a200ee0592717a7b2470c6151ce3bd5b37d177.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/63da51698f12476fbf7078a97f6ce9a75d739860.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "LIGHT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/5249ab11cced1e06fbc9c0bf0b7a6f243a7c0411.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/25a89802904bee3f11c8952356a88e51908b66bc.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "LOOK_AWAY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/8de5e9b637937df0e332043dfc10dffdf1afdc44.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/e3da04699f96b987b18134f5e654b87f7c904f9f.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "BLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/55829cf8f6276c3d6d6cde23da12e1d8a6f657bd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/72a95446647cc96e743fe8b9c2d98e2660c86246.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "OUTSIDE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/974a540c510fe0f713f614dac9cfea7590954e87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/9b2249e968b1a57a36a4268dd7d88a53bb5e0378.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "NIGHTMARE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/99736a7168924c0d9a02ab53cb0e772874e4ee7f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3293150/6437f418c3dc20cb683c716ab0100cee3584ba47.jpg",
     "displayName": {

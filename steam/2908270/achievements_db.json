@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_COMPLETE_CROWN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/bb3259097088be3f6e75f28117917c1113ea45d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/a57f2c0cd2ef5ea9ee26d1faf2ca568d462005ff.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_COMPLETE_LASER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/ed56f086e83fb20071faab4c2689bb0a6ba0fb5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/e019e43a19b7729dcc25b53a8de907f228ecd865.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_COMPLETE_ROCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/de4c02daff27fbf358531f5460da46244f72fcfd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/3da700f208aca1e767260562fe5e23dfbb0a29bc.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_COMPLETE_BEETLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/a9a68009b2d285f7377a9cf201e20c7336c2f1ce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/88bada44b7f97dc13d87c2eec976baf6cc8b711b.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_COMPLETE_FIGHT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/367ab283ff2365353ea87ec26518f6f857ec6bc9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/106e9cfdbd483cd3553f1aadea948678db3570d1.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_COMPLETE_SECRET_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/4531013c7f16d199f999793bb312561290b9b00c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/6a6b18981db66a007463826e592dd215e2473f2b.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_COMPLETE_SECRET_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/aeb82549c94d356b2e91bd6d119e7bd0fe5145cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/184e23777a1af59ef60755574ae27aae2d3e2d38.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_COMPLETE_DARK_ROACH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/ad8091d2df24d5b3ab39a0a5f0b03d4510011dc5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/4bac9f9625b6e5021d7037ea1d0fd8c26a0b03f3.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "ACH_COMPLETE_20_BIRDIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/acfd307117c63399818fa440b0923917a04a32e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/82c1f721da0e184ba67cb88396b6fa3bbc800cc3.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Complete 20 different levels with birdie",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "stat_20_birdies"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_20_birdies",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_COMPLETE_10_EAGLES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/a108d2c0bcf3c86e617427bc4af53be4c4824ba2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/f3ca9a2b3d5dabd9430bcfcaeeccbeab6ca555bf.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Finish 10 different levels with eagle",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_10_eagles"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_10_eagles",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_COMPLETE_5_HOLE_IN_ONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/88394d703ef6f9066c2128d4ba4fcaa14775b2ae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/09db6059cdb31fa548b738d67e77c0d6c3f9d0df.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Get hole-in-one in 5 different levels",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "stat_5_hole_in_ones"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_5_hole_in_ones",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_COMPLETE_30_PARS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/dd869861f9738371efeaca38a7249a752e5b4bdd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2908270/557a316ed2e1b1ec7a92f43dcf2995a112c721f3.jpg",
     "displayName": {
@@ -181,10 +187,12 @@
       "english": "Complete 30 different levels with par",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "stat_30_pars"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_30_pars",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "STANDARD_MODE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/ba245f753a9a661647825ea7495752e772ad717d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/199930c333ed8e37249327f0ea356484fb49165f.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ADVANCED_MODE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/76ba9ef3e95d4e8daeeddee0213872dbb313ca51.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/0e959a89ae27f0b903406237afa66b5bed6c1971.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "RECORDING_MODE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/6cfeeb657d615dc0cc3dd161fb5fa9d1e49fb1d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/ee285e2548772508a239d7df61eb7a1fb87fe05a.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "CLICKS-100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/49f696cb0bacec7fca672cd3632124ade40226f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/ec3229b6768688f5464073cdcc55b1ac95f9677b.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Execute 100 clicks.",
       "token": "NEW_ACHIEVEMENT_2_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "clicks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "clicks",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "CLICKS-1K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/757134ebbe6f8a59a91de04ae09a046019ac9887.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/4d6a71d7d7b780daaf1c248a09ef6734f42cc35b.jpg",
     "displayName": {
@@ -73,15 +75,17 @@
       "english": "Execute 1,000 clicks.",
       "token": "NEW_ACHIEVEMENT_2_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "clicks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "clicks",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "CLICKS-10K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/7e5e447e072022c1b59e1fc44c78e8d07cb85459.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/c2b626967230164307fcdccb1a8f27f0b47c8290.jpg",
     "displayName": {
@@ -92,15 +96,17 @@
       "english": "Execute 10,000 clicks.",
       "token": "NEW_ACHIEVEMENT_2_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "clicks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "clicks",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "CLICKS-100K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/e03e220205a069c4e4b1711632c68d2f4168929f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/3594d8a527730cf70972fbb4959e9578825f3cf6.jpg",
     "displayName": {
@@ -111,15 +117,17 @@
       "english": "Execute 100,000 clicks.",
       "token": "NEW_ACHIEVEMENT_2_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "clicks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "clicks",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "CLICKS-1M",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/fcdb296d2be3926be4ff656a934ca4384df837d1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2888120/d3884930df3adc0aab1b0d52ed569c0775b0c932.jpg",
     "displayName": {
@@ -130,10 +138,12 @@
       "english": "Execute 1,000,000 clicks.",
       "token": "NEW_ACHIEVEMENT_2_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "clicks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "clicks",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   }
 ]

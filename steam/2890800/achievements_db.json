@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_KILL_ENEMY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/04131e2cc1d54301a9301f45531ca98d6f0c85d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/3bcc3d760ac57f5f29aab20f3d26a30b096d9263.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_KILL_30_ENEMIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/f73681591a41ce567dcbded2a08a7a3feeafbcc3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/2f438370b4f8377813c2f5256ac522019f2f0fe7.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Kill 30 enemies",
       "token": "NEW_ACHIEVEMENT_2_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "STAT_ENEMIES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ENEMIES_KILLED",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_START_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/d6af1dd019d292c743f7b28605bd66e52b43dbef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/69bd748602d9caf9e98e2af2737a8838d421178e.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_ENDING_1",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/e5c5eb6ab90ab55c08cd387bf56ed5d7b421e406.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/50de6a6161d153481e245c0cda24e888afb26060.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_ENDING_2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/cd154808f05f2a4bd8cb59319e1323341bcaeb3f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/2547cbb51d3ab4bbb42cc7a0634155428256a455.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_LOG_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/facf269e3cfdcb4f151e0cb7165fd160e0b9e721.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/8dc19d713ee86102da89ad7f6bb8d884163325fd.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_FIRST_SCAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/095c0a02a32f948f3faa8fa6b70cd4b747e73e9c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/c210bebdf775987e3f9434912cbc786a708aaeeb.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_ALL_UPGRADES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/3db64b972d896460aed310b6e86caf043c9943c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/e6d954651647ba6220ce1191168d1aa16bf52a6e.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_UPGRADE_TOOL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/5af32dccde83f1f2b166a04d476ea897bf2f762f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/5a1e8ab3f6eb15beab3e4855721e5389aa23ee96.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACH_UPGRADE_SLOW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/adeebe2ae1eccab211e4d1ceeb2e5eda3aeb84d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/6fa1e752c928d04abf2b8a8dca87d4feda6c93ae.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "ACH_UPGRADE_DOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/e2d9531934172fb77af21d1d8d2305e4ce69e64a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/6d31f1659dbc0613cf14f55e5865f2047bde4e5b.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "ACH_UPGRADE_GRAVITY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/08e0151ff350517724388599fddd6197994dc48d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/cbdbcb37a8aff1e130431ea314b20561fe51ba6c.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "ACH_UPGRADE_PLASMA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/b919717f17ac51e4073281cf6589fd34d241911b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/df4bbb9e46cc9404690c2e49d63d5fc66515e5f6.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "ACH_UPGRADE_BHG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/eeb8d242f85fb5b0d8dedb40cc143249ca183705.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/ed38a53156dec913f5edef5af1765712afd74881.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "ACH_TRAP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/5ce583d4a2ae4316ecd47a41972195cb322a4738.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/dcad91ed6b0576d46d0657502d16e09f632b71f4.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "ACH_DOGS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/f2e7495cf5b129b6637349a08bfd7feb896f91c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/a26d36400b0af4f9979223051fe15bd4f0ba0d96.jpg",
     "displayName": {
@@ -227,15 +229,17 @@
       "english": "Kill 5 Quadravors",
       "token": "NEW_ACHIEVEMENT_2_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_DOG_KILLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DOG_KILLS",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_PLANT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/9aee3e33954708715ec8556672e7d0454697a667.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/130f10c84371c4a62d0c9705752f8593f4cc3bad.jpg",
     "displayName": {
@@ -246,15 +250,17 @@
       "english": "Take damage from a false healing plant 3 times.",
       "token": "NEW_ACHIEVEMENT_2_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "STAT_DAMAGE_PLANT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DAMAGE_PLANT",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACH_KNIFE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/fb7cc3ce0d47310ca70f2ad7cda1982eae7d82f6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/c39ce061a354dab90c5f2d4fd60b2401f0bf3992.jpg",
     "displayName": {
@@ -265,15 +271,17 @@
       "english": "Kill 10 enemies with the knife",
       "token": "NEW_ACHIEVEMENT_2_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_KNIFE_KILLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_KNIFE_KILLS",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_BULLETS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/688d68e798963b609feb1b1fddd91ecb2c635edd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/1badd2868b9b0f2257c63611e7e9deb9d2854f4f.jpg",
     "displayName": {
@@ -284,15 +292,17 @@
       "english": "Shoot 100 bullets",
       "token": "NEW_ACHIEVEMENT_2_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_BULLETS_FIRED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_BULLETS_FIRED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_FULL_HEALTH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/27b65d7a999b4344167596a569434ffce79accdd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/8e3492e9321d064eaebac28bf22147b2bfde4bf6.jpg",
     "displayName": {
@@ -306,7 +316,7 @@
   },
   {
     "name": "ACH_BABIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/3977494923b6f2a83f93cf605ff23aab40588b68.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/92ec269463bf767e87ea2ef500f98f6b47cc23c7.jpg",
     "displayName": {
@@ -320,7 +330,7 @@
   },
   {
     "name": "ACH_UPGRADE_KNOCKBACK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/46e50cb4c02f8b923dfabed6f6e61e33966a0886.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2890800/92ee48afa5712ae75280cb980e5e1ed7fadee3d7.jpg",
     "displayName": {

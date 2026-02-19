@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_WIN_LVL_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/96150e110fa154ceda10051193fb342cb1b30f7c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/a8c6d79330cb834a87a2651668542765f9832235.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/7cb92b2b329a528833f45c436f441acb87daa00a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/daf4ef0df607f9d06727fe3068f556055853431d.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/02055a38837a6926f9836c8cc9a6f539dab9eb8d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/bd78605edcb3457d34931febfefccf83197633ed.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/e11bda210c78c61c4f17567bd1d390c89da2eca7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/e87537afc5e878a5a08d72627b19f3c3f41c6f52.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/e94ae4497c135c2485fd5f5b571587f6f3b6b3be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/1fe8c05078a79dd3b6a4ce0b4ef4ddc7aff3047e.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/af6561ae4883eff6a071fca2925779e96ad37425.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/011196138cca5c203c331a7598580663aa47ca64.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/1d2aa6a40b709d5eef0b9f564bf0597613c422a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/194029379aa220f60776630379ab897b054014f4.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/fb8c1b51c72a4929203a708129d4cf2ab082a9f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/1a29c2149a2d10be8be6a99ab915de064a2c4675.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_8",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/e6a32e182fe1c1330d4d61493bca5745d19ea7cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/9adcd3bb93dc096223ea3a5aec10e1919643624d.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_9",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/17a0bfa8dea4ecb4b315b37aa8d193d18d677232.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/3162e11f52649d2c00b91cb220510d09934ca94b.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "100+ ships build",
       "token": "NEW_ACHIEVEMENT_4_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_built_ships"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_built_ships",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_4_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/0dfed44b33218e9be3e4b4d7343bcef10574ea61.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/a1bb44495e329715a7b7e1f55b01485f94bdb5e2.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_11",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/cc00305883aa079d43ed698d932343780cb3e1d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/742628c0aaa0e19aea1385ec71cea3bc280e791e.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_12",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/33fb1bbdacfecc2345c13c006ac7d03b5bede090.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/b65ea9c97706fd8ea78b2204224c090a98a49740.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_13",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/fa6aaff9dedc46cc7315873a7b0b157b1645c167.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/b46a73c64ccf8d9e96caec7291afd76d4a4a1298.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_14",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/4386583ccf3ada7285d0121eef96835f7bde38de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/d324349873638509bc7b9ee5a6a61c8a34e01315.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/4fd5611cebfa1d5771c9fb538759b664d9bb1ea8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/3af257d4b49f8be71a64c3feaf04fb2cf78d14fe.jpg",
     "displayName": {
@@ -230,7 +232,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_16",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/105aa88f25eca37891b9527420a64d2e8b047800.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/10edab5f98400ec37bd85289d2f720eb090e78b6.jpg",
     "displayName": {
@@ -244,7 +246,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_17",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/6a745b85f230380a4135171a0d0de177279f1d6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/c559b9e06dd054fb511fbc0240e1c613b1b8477e.jpg",
     "displayName": {
@@ -255,15 +257,17 @@
       "english": "Cleared ",
       "token": "NEW_ACHIEVEMENT_4_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_destroyed_ships"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_destroyed_ships",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_4_18",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/40734c288b5fdf8c45f947ae94677f12888d5cc2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/775347f71374c4929e9cafbc65e310d009017276.jpg",
     "displayName": {
@@ -274,15 +278,17 @@
       "english": "Freed 31 planets from Aliens",
       "token": "NEW_ACHIEVEMENT_4_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 31,
-      "stat_name": "stat_conquered_planets"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_conquered_planets",
+        "min_val": 0,
+        "max_val": 31
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_4_19",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/328d1b7124064a3b758fe76c6c96359ad4b40da5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/bebdac684ce244e4dcac57a91dc2ff689f6b8ec1.jpg",
     "displayName": {
@@ -296,7 +302,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/c9be6cb0d9099dd6761c391dde1b8784eee274a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/16d78006e643191a7655169522711811a322f6a0.jpg",
     "displayName": {
@@ -310,7 +316,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_21",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/bda063cc4f0aac6f46910809ca1b6d2cbffe89ca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/392893384fdd936db14f5b35fd3b5c1209b96415.jpg",
     "displayName": {
@@ -324,7 +330,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_4_22",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/1acd30aef5f1a22f6457ba65c644350b7847fd3b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2541580/b8e1140c2168e1469d2090d1d0f8a9e89ec9257e.jpg",
     "displayName": {

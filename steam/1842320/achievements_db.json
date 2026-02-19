@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_TUTO_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/bd7389b15eb84d9606b084784ea0aac5364041eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/cc0a58d271e17853248ab008bba559c5a0705dca.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_CH1_BOSS_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/56df73ffeb70bc03a2e6f17636e9e0733c93d9dc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/817ae2df320607171737a842162dc5dfaf22832e.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_CH2_BOSS_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/fdc8d5056531bd06376b4d63818dccacaeabe156.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/2f773db77f22e154fb68eaa2bd15b055ffe69459.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_CH1_1_MIDBOSS_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/fdf9bf090f092d82b26f81f2ab9c02d7ca9ac83a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/553ce4d8d2350f605fafa62e323821f725c727d9.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_CH1_2_MIDBOSS_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/bc6a94107e6d14f27e35136d8e04292df7a68738.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/b341271fb892c852ed2c0819899b7da4121efb58.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_CH2_1_MIDBOSS_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/39e377744e8ad106ab5c1223e65821adfc69cf02.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/98ca040365d99aadb35995655529a795130c4ab1.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_CH2_2_MIDBOSS_CLEAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/fd6e0bea3dd808d457b50b34f981b635cd23e431.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/1f1d470849ddb462c674f1e3f8469f16a0eea580.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ACH_COIN_1000_ACQUIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/169030e2b292dad002d8e4c37f8087ffacf581b5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/3abff556865208a9df895a1737377c54e51644e9.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Wealthy Adventurer",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "COIN_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "COIN_COUNT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_PARRY_10_SUCCESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/77d8f89e160e2faf182484d7814e7739bb67530f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/e300c256746ec56998ae5f20684566a270cc2130.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Master of Parrying",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "PARRY_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PARRY_COUNT",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_FALL_OF_DEATH_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/81f04a88b1c0b59fb1ce9a2d0615f9ab28d4ca6b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1842320/102c9cc7025f21b35244d53a665289d37963a472.jpg",
     "displayName": {
@@ -148,10 +152,12 @@
       "english": "Risk-Taker",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "FALL_DEATH_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FALL_DEATH_COUNT",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

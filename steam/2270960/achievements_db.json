@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_1_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2270960/e25900bcdf8663b784b37b7cac851fe6a1e38525.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2270960/efe1553b84528babd965766b5bc7757c80b48464.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_1_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2270960/f326e4cca8d3f2b43d74cb866f7296a1c5f6f5fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2270960/8db356565da5d028397edb102c1ca4b959011fd1.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "NEW_ACHIEVEMENT_1_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2270960/d47e847db5a1511afea99ed54f67e5301ab79ea9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2270960/67159e266efa8a5f2b05a5c3853c111267365f52.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Play ten times",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "GameCounter"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GameCounter",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2270960/620717a3d4d04c38fd7351ad9aefa49a3940d2f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2270960/436cdbf2532f03fd176e902e691b9ca23ab440a7.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "Play fifty times",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "GameCounter"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GameCounter",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "NEW_ACHIEVEMENT_1_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2270960/42361961a28bfc3476d33aff784ccc2782c13222.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2270960/4fc7683242310fbedc264c44959dbdf07d088e99.jpg",
     "displayName": {
@@ -78,10 +82,12 @@
       "english": "Play a hundred times",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "GameCounter"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GameCounter",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

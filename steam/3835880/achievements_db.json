@@ -1,7 +1,7 @@
 [
   {
     "name": "CLEAR_W1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/885ca684213f1a92cf7340d0fe5550c172e48034.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/8f63f6bcf40f2a6f16816598ad751aaf31d3872d.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "CLEAR_W2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/7c3b5b1e8bed44eac78aae8a6f7c5519321e99ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/3ce47d245fa837ac36d44084fe2368009e3671b3.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "CLEAR_W3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/9b7836562decb90c17d07ca86b15be99ef1ecc2d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/cf1ad49f5fffb3bae627820b365210c22adc8de8.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "CLEAR_W4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/9ad4f3f011ec75804da2e956844864cb361200e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/afc209697f153f3e1bb2a7917ffc4fdd8aa7e5f9.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "SPEEDRUN_W1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/f2383364593851999129df8a2e28e31e0a190fb3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/d7ce63b00d4488130b0a994cbc8e85132dd5ee72.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "SPEEDRUN_W2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/09654e81a0033d362ca91a1f17b56496b63a2694.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/87cb3754571934fc2d2c64e19d211e2c019f85eb.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "SPEEDRUN_W3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/bf37e49639937db166f2e6a21c08c15b5d24b3cc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/b8993159544829904c5da130ccdebedad75e8e93.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "SPEEDRUN_W4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/72b300165c34f01576a23f7eb44a6e8ed9e23277.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/c7fbe52a5aa7cab97ee7a0e6c38d3dcba5811216.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "CHALLENGECLEAR_EP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/04041726289c05361480d92704379abae766c0a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/acca3c3f38c61bc2afa13d6f1218c3bdc1cd0780.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Clear all levels in Ectoplasm Mode",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 32,
-      "stat_name": "ep_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ep_count",
+        "min_val": 0,
+        "max_val": 32
+      }
+    ]
   },
   {
     "name": "CHALLENGECLEAR_LO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/bc843781d9b4f1822886203bd2c499fa5942fee0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/062e69675860b760fe9d668197b3ae2452bf4e34.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Clear all levels in Lights Out Mode",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 32,
-      "stat_name": "lo_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "lo_count",
+        "min_val": 0,
+        "max_val": 32
+      }
+    ]
   },
   {
     "name": "CHALLENGECLEAR_SS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/cc461cda424cabb60545bcaa549250dfaab511bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/e979d6bbbdc478acf8d146f93481f5c1f59a1bf3.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Clear all levels in Spectral Shuffle Mode",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 32,
-      "stat_name": "ss_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ss_count",
+        "min_val": 0,
+        "max_val": 32
+      }
+    ]
   },
   {
     "name": "ECTOPLASM_DRY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/3d8df8fb1bcf3df8dba04707b74530ef70917d18.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/a20bddcfc321d9b00256ab5cd60ea199aee66320.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "CHALLENGECLEAR_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/105b9644f4e4ec9efd4489bb045f500973f354b0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/1fe9c7f3f9da4b79c91122024e03b52e90c2259c.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Crown every level in the game",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 32,
-      "stat_name": "crown_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "crown_count",
+        "min_val": 0,
+        "max_val": 32
+      }
+    ]
   },
   {
     "name": "CONCUSSION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/8de5d7a1465685193b8190d0badf1ac0fae0e60d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3835880/479ee87ee967f42385a6d7e575e2eb6867e13d07.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_WIN_A_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3849060/1480b837e709db69e71170a029f806d18762f6c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3849060/86ef0a12406bf5a2088ba0389ab99d5bb4e352c4.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Win one game",
       "token": "NEW_ACHIEVEMENT_3_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "stat_games_won"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_games_won",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_LOSE_A_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3849060/3824a1dbbb809979f92153f436cc27181e072095.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3849060/51b075e73dbd3038bbfc418d076f8d48d76fab86.jpg",
     "displayName": {
@@ -31,10 +33,12 @@
       "english": "Lose one game",
       "token": "NEW_ACHIEVEMENT_3_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "stat_games_lost"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_games_lost",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

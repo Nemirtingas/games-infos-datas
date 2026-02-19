@@ -1,26 +1,22 @@
 [
   {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
     "name": "STAT_REACH_LEVEL",
     "displayName": "Level",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 1,
+    "max": 999999,
+    "default": 1
   },
   {
     "name": "STAT_ENEMY_KILL",
     "displayName": "Enemy Killed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999,
+    "default": 0
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "MUSIC_ROOM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/ac345387808f838ebb2de0ba49cabd8418842432.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/7670cdcb6978eb7764c418c37c7d7ed60d9668d8.jpg",
     "displayName": {
@@ -19,7 +19,7 @@
   },
   {
     "name": "TRAIN_RIDDLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/76b89bcc40abdb1ba0f19d7d8fcc40c50eda8b16.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/8be4141dd7e2ce9f98454fa81ea0ee05a372e28b.jpg",
     "displayName": {
@@ -37,7 +37,7 @@
   },
   {
     "name": "DINING_ROOM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/64c79755a902dd09b63be219faa1de629bcee3d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/e8f43b480d4726b7658749d45cec0d5bd5e5471e.jpg",
     "displayName": {
@@ -55,7 +55,7 @@
   },
   {
     "name": "TV_ROOM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/1308857699edc2a5486a6b64393db3d4bd28df7f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/92b95dfb86a773353effd47f83ea9f366315133b.jpg",
     "displayName": {
@@ -73,7 +73,7 @@
   },
   {
     "name": "NOTES_FOUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/07a817d186bf6a5bbb05b3324d7e3e837d011574.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/399addacb65e852e5b19b8350c6c7a807a3274bf.jpg",
     "displayName": {
@@ -88,15 +88,17 @@
       "spanish": "Recoge todas las notas",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "NOTESTAT_NOTESTAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NOTESTAT_NOTESTAT",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "INTERACTIONS_FOUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/266a288811840115ba0b5148f11e0c743697725c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/bfece2fcdef15f8897e688623ec635e1730db3d4.jpg",
     "displayName": {
@@ -111,15 +113,17 @@
       "spanish": "Descubre todas las interacciones disponibles",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "INTSTAT_INTSTAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "INTSTAT_INTSTAT",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "BRIDGE_ROOM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/e4777ce32aae9771dc1933cdca88723593ee7e88.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/20ab5699524c2662b2772e46344e037526042d89.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "HOME_DOOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/d811d0b38e4dc724dda63d1b84db6d9fcbf12bcb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/f17176cf2a393b78f177e0cb151c50f426407575.jpg",
     "displayName": {
@@ -155,7 +159,7 @@
   },
   {
     "name": "BOOK_HEAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/9c81f2a19954f551058e1b409d3a93224f11a7f6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/f52939158b7de1eb6c5457d683e4bce205197137.jpg",
     "displayName": {
@@ -173,7 +177,7 @@
   },
   {
     "name": "SINGER_FOUND",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/b6820f7af1ad21efaeb726719036c18ab3eb9f7b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/b167f313e9eb25aa8468b9ec32af2f6f55f80f56.jpg",
     "displayName": {
@@ -191,7 +195,7 @@
   },
   {
     "name": "MIRROR_FOUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/7be8253793df31527f471ca6299cbd79b569dab7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3479790/5ba0ee3fb54848925357a7764e8ef9c1fb71e079.jpg",
     "displayName": {

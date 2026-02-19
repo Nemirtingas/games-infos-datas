@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_PROLOGUE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/fa10935bab3582ccd8f6d799a73f00d18fac8c05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_INDUSTRIALAREA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/ff6b7aa5df3aac097be1d97c48c73f0151d16398.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_ROMANAQUEDUCTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/979951e517059b5c63bdd385177e98b11958b6f7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_VORTEX",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/1226abc996f09f3ae560ec0e8ae69bf0dbc96fd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_SOTD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/524a3f9ce956aa127aa85e51116c001cdabcf5c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_LANDOFLUANA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/5e7c79f38d0a6e13801b22a98ec6287178a637b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_1KPOINTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/b6d65a156fea2275569f622efc317cf3adf7acbe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Collect 1000 points",
       "token": "NEW_ACHIEVEMENT_2_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "TOTALPOINTS_TOTALPOINTS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTALPOINTS_TOTALPOINTS",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_5KPOINTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/b6d65a156fea2275569f622efc317cf3adf7acbe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Collect 5000 points",
       "token": "NEW_ACHIEVEMENT_2_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "TOTALPOINTS_TOTALPOINTS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTALPOINTS_TOTALPOINTS",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "ACH_TSKILLED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/ea8e12ef19002a5335c14004799db71562560bd9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Kill 25 Templars",
       "token": "NEW_ACHIEVEMENT_2_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "TOTALTEMPLARSKILLED_TOTALTEMPLARSKILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTALTEMPLARSKILLED_TOTALTEMPLARSKILLED",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACH_FURORHEROICUS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/979951e517059b5c63bdd385177e98b11958b6f7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -153,15 +159,17 @@
       "english": "Unleash Furor Heroicus 15 times",
       "token": "NEW_ACHIEVEMENT_2_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "TOTALFH_TOTALFH"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTALFH_TOTALFH",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "ACH_AT_TO_FH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/1226abc996f09f3ae560ec0e8ae69bf0dbc96fd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -175,7 +183,7 @@
   },
   {
     "name": "ACH_LEDGE_TO_FH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/5e7c79f38d0a6e13801b22a98ec6287178a637b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -189,7 +197,7 @@
   },
   {
     "name": "ACH_WR_AT_FH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/39d32c71711c77d9cdc0f31327132d837874ca3a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -203,7 +211,7 @@
   },
   {
     "name": "ACH_ZIP_TO_HS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/5e7c79f38d0a6e13801b22a98ec6287178a637b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "ACH_ROLL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/3efdc5a776ede9c9a125ef798c9844156743405f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -228,15 +236,17 @@
       "english": "Perform 100 Rolls",
       "token": "NEW_ACHIEVEMENT_2_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TOTALROLLS_TOTALROLLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTALROLLS_TOTALROLLS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_SECRETROOMS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/5e7c79f38d0a6e13801b22a98ec6287178a637b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {
@@ -247,15 +257,17 @@
       "english": "Find all Secret Rooms in the game",
       "token": "NEW_ACHIEVEMENT_2_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 19,
-      "stat_name": "TOTALSECRETROOMS_TOTALSECRETROOMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTALSECRETROOMS_TOTALSECRETROOMS",
+        "min_val": 0,
+        "max_val": 19
+      }
+    ]
   },
   {
     "name": "ACH_WEAPONIZEDTHOUGHT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/ff6b7aa5df3aac097be1d97c48c73f0151d16398.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1152940/a9a4db355c10803d3d0a3fc34085fb2586116718.jpg",
     "displayName": {

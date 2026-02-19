@@ -1,7 +1,7 @@
 [
   {
     "name": "CollectTs_ACH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3385300/790d95f52cef46bc37a450ace4971820ad4b9377.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3385300/a6fee9b5e14d225b4b2e1b5e3fad8dd1a92c992a.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "Explore every corner of the world and collect all hidden collectibles.",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 0,
-      "stat_name": "stat_2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_2",
+        "min_val": 0,
+        "max_val": 0
+      }
+    ]
   }
 ]

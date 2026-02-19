@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_WIN_FIRST_LEVEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2391570/6a0e9500b40b8df514d21bfd6c8a6685f4616be6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2391570/b3ff3ec766ab5ad9016bd9b15ddda69c99440b2f.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_FIRST_BUILDING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2391570/bdb53bf97446781faa5fa00146c23aa3d97a8319.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2391570/e3a39f512c61d56ccba8b3f0e854b3cc6df0241e.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_ALL_SKULLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2391570/28beaebcabe3b4ea6091b95911fc83e060839e9f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2391570/1d8a33bcc4eec2d9f7758a4d7ed36d1ebf3a399d.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Collect all the skulls.",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 14,
-      "stat_name": "skulls_collected"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "skulls_collected",
+        "min_val": 0,
+        "max_val": 14
+      }
+    ]
   },
   {
     "name": "ACH_LAST_LEVEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2391570/7ec30faf3463fc5a9bd8e1283efa06b39992bd4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2391570/4a328be1d6ffd3ee20dd67f5c150a7c285b84142.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_CLICK_ASTEROIDS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2391570/62e295f5ca773df84eadaef74ccd170a7a5b7824.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2391570/5931c6d11be64413b288ca4d57cea83d1385b06a.jpg",
     "displayName": {
@@ -73,10 +75,12 @@
       "english": "Destroy a 1000 asteroids.",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "asteroid_deaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "asteroid_deaths",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

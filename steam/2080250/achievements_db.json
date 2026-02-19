@@ -1,7 +1,7 @@
 [
   {
     "name": "WinCombatsDuringOneRun_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/ad84a00c54d4b594d6e47d3b5f23aaf8bb5318d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/8e8877ef6c088ab0eb2fe8be2f17ce0ed3fcd4bf.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "EquipUnitsWithItemsDuringOneRun_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/5f28b5f2e8526e9bc8b0645b074fe2b8881b51f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/c6de775fe13823b27f78dc5637ea0124d8d571f5.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "CaptureBanksDuringOneRun_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/1c930d6d3f14b2032d09f809b9d81ce9eda37345.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/f45d81c3de60b3f873b0b8522eed2d5de7c3faa1.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "GetWareFromShopDuringOneRun_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/97ec068d321adede0b51aba82af254ba8c4e75f9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/86a3fe555415908963abb5f75e82a0d16a0d427a.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "BuyBuildings_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/1b7d632db1676dcea1cd6502e6dc825620a04b71.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/20b52b4a55d8fa945414b3ee40c5c2a9bc75cbc8.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "UnlockBlessings_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/1d888bed845e7e06317d87ce52c086444cf51aaf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/0de9f684af3a39b127b2448dd73f4beed74cb304.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ReachHeroesShopLevel_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/657a15011e42e569c9bc16cc8a1bf56fd165e0b4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/fa8790bf6ab7151e104ad5a3794bc433105b9ffe.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "FinishTowerFloor_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/062e567174d38d4cd3e22a26a57f06e3f0b9539d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/05f51505e1f7211227bc6007e711a0115f4528ce.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "FinishTowerFloor_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/bae0e902ba50aaf16a9f616bb6bd2d114a265e23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/d99955d122b43e10f3cf47f4c0cb81b608a2c478.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "Octopus_44",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/5fb2efe640f6de9dc233593f8e528005b875cea3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/ac20e6f6b8226d0fa1f9a7d535441114e2c2758a.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Octopus has jumped on your head 44 times.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 44,
-      "stat_name": "Octopus"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Octopus",
+        "min_val": 0,
+        "max_val": 44
+      }
+    ]
   },
   {
     "name": "Potions_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/a85812555b50aad5c71963b181a6b495d2bbc011.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/ad94e55991496ff962fd7aa9c4340f836007a120.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "You have used 100 potions.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "PotionsUsed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PotionsUsed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Items_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/e1501de9889e9325b5277e411dd6e6bfae65b0f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/c49f31fb048dc3c23bcf73efb1f802d3c70fb9fd.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "You've merged 50 items.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "ItemsMerged"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ItemsMerged",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "HiddenLoot_75",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/39f886cc72e9b38e39a7c2496199cff12e081521.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/d59e13cb39443b0e51e56b1f622ebedf902c648f.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "You've discovered 75 hidden loot spots.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 75,
-      "stat_name": "HiddenLootDiscovered"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HiddenLootDiscovered",
+        "min_val": 0,
+        "max_val": 75
+      }
+    ]
   },
   {
     "name": "ThreeStarUnits_7",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/089e61b546004bd1373de19210752680ed108b1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/07a7fd6390231378898dfd2c79121bd5d47d3d8e.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "AvoidAmbushes_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/73f768121e807e87169e2da08be8029460d1ac72.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/a2e82d11642380427bf54f26c904d786cad6eedd.jpg",
     "displayName": {
@@ -231,7 +239,7 @@
   },
   {
     "name": "FinishFloorWithoutPotions_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/bb8872df58bdca326d44a3764401bfe76c66353f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/a9745f7375795c429220830b1d1f57864e8a88dd.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "WinBossFightWithoutBossItems_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/6bec8ed9ecdff975e5517eae57884713d7b31246.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/ba844a092817c0755cc247fb118a6465ddeb6bb2.jpg",
     "displayName": {
@@ -259,7 +267,7 @@
   },
   {
     "name": "UsePotionsDuringOneFight_6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/f43704bb20dc2313ad23e0f9b2ac9d1801c36b05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/55dd2efe2782c11fb7811d66678f50fe79013d15.jpg",
     "displayName": {
@@ -273,7 +281,7 @@
   },
   {
     "name": "UnlockArtefacts_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/c8f31ab08eda63b0c3130d24c0c013ebed2d1b45.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/b447b59ef0b8f700d001313d728a4e968df89957.jpg",
     "displayName": {
@@ -287,7 +295,7 @@
   },
   {
     "name": "OneUnitBattles",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/23d21afa7b3c10359e53a74811ead9678326d6fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/511ad7dbb7745bb76be139b02776ff24fa90b9d1.jpg",
     "displayName": {
@@ -301,7 +309,7 @@
   },
   {
     "name": "BossOneStars",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/d30a76c6762aa7edb70722893275227ceb0c2647.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/cf2d04d824da311dbd3cfe25786f83b8e9020d85.jpg",
     "displayName": {
@@ -315,7 +323,7 @@
   },
   {
     "name": "NoShop",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/2aba61a8a56e105e3975faa5fb648b747c24c788.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/ea669e59526df0ee1c8aee1bff23eb0766869289.jpg",
     "displayName": {
@@ -329,7 +337,7 @@
   },
   {
     "name": "DoubleDuo",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/4da06e7ff1981b83dd9850def556c170cb125a26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/62dc3fba7f5239544b588e680043d8a1c9b65c4d.jpg",
     "displayName": {
@@ -343,7 +351,7 @@
   },
   {
     "name": "NineAttributeSources",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/9172cd810306986c0bd9e95c4c54a5984df14c87.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/aab90feb9164d22f22da0102bf9c28cc634c8075.jpg",
     "displayName": {
@@ -357,7 +365,7 @@
   },
   {
     "name": "LimitToLevelSix",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/52be13f3e09a4e8a1e435ab6ce13be3e692f14a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/36d6acfc96adc2c75f23307111310e9e618baff1.jpg",
     "displayName": {
@@ -371,7 +379,7 @@
   },
   {
     "name": "UpgradePerkToMaxLevel_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/396adfc968851522869ac85709523ca46b460b57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/e7e209267412849f5d02a07eacfbb40d476468a5.jpg",
     "displayName": {
@@ -385,7 +393,7 @@
   },
   {
     "name": "FinishRun_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/2a76df5d0166b09bcfd4484319f44beb206faea8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/f97b919f5ccf555875ab009a10550a104cfcc21b.jpg",
     "displayName": {
@@ -399,7 +407,7 @@
   },
   {
     "name": "FinishRun_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/e7c881d716a863092bd300fa5468d0df0205fa17.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/8c8fd34c6e9180e4c5931ebe526aea8518e074b4.jpg",
     "displayName": {
@@ -413,7 +421,7 @@
   },
   {
     "name": "FinishRunWithAllChallengesOnLevel_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/6851594eadad2a15ed062a6dc8ec7e0c9a108ba9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/590b46e4c6053588ed2e077515a94a4a1ad01254.jpg",
     "displayName": {
@@ -427,7 +435,7 @@
   },
   {
     "name": "Omus",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/6484345f9a07f246d63cf18cf7ae717ccdbd8f3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/5badba52dd4b5baa119e101bb0499ad41332e1b1.jpg",
     "displayName": {
@@ -441,7 +449,7 @@
   },
   {
     "name": "Varus",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/0741f15c761a3e682200e348fd6a4839ca45182c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/ef62d15ae133db188e5e2a7b95a084e7771fbf9b.jpg",
     "displayName": {
@@ -455,7 +463,7 @@
   },
   {
     "name": "FinishRun_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/c57fa05307adbdcdc90ec1c4ee9c70b06b96d1fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/4643415fbd7d9c2d98445064302695365fcf40a7.jpg",
     "displayName": {
@@ -469,7 +477,7 @@
   },
   {
     "name": "Lia",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/cb3bf23b32a95ac35ce9b7b55c042a223d91ce64.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/76bb0f08c3aa3606e1ca2b9ef56f9903efeaee1e.jpg",
     "displayName": {
@@ -483,7 +491,7 @@
   },
   {
     "name": "Arana",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/2fed8875dc8ef6fbed2e75789cf069dc2d285710.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/323f36ee3af302ab4cd456ae9234afd7b72a6f96.jpg",
     "displayName": {
@@ -497,7 +505,7 @@
   },
   {
     "name": "Sorana",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/584dc62ec9d0ef8b74c5c69d0aff3b09b02081c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/ffae05bf5faa550353228cfcba6e4c611d34c081.jpg",
     "displayName": {
@@ -511,7 +519,7 @@
   },
   {
     "name": "Uzim",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/75d030dc7bfced2cd0657b4506e12b4f0664ab28.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/788e6a1742a256dca61dff6ae23f097190bf7f90.jpg",
     "displayName": {
@@ -525,7 +533,7 @@
   },
   {
     "name": "Laxox",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/5ccb1fe641b8f16beee160e374fdd0684f39b164.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/90f9b26fb59b9c72d63567f70fa0fa22693dd027.jpg",
     "displayName": {
@@ -539,7 +547,7 @@
   },
   {
     "name": "AllDecorations",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/5964e56e9edcb5ee4975bfb4dad3d9c178df3291.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/90c1d6ba6214a441f1286162ba5ffeb168f64eba.jpg",
     "displayName": {
@@ -553,7 +561,7 @@
   },
   {
     "name": "FishedWithoutLevel4Chaos",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/7814048da26efd9110e558ee6932b85ebad4073b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/0da594c7d119fefdc871dafcf916e117a2f0182f.jpg",
     "displayName": {
@@ -567,7 +575,7 @@
   },
   {
     "name": "ElevenHeroes",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/91541b85eb76e2b6400221be22e6a8b4ff14f1f0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2080250/6cb1b81ad91401203e3b957480781fd2df60e6cb.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "EF_Staying_Positive",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "EF_Flightless_Squid_Indeed",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Destroy 30 Squids with towers across all profiles. ",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "EF_Squids_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Squids_Destroyed",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "EF_I_Swear_Ill_Use_It",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "EF_My_Precious",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "EF_Summer_School",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "EF_Wall_Art",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "EF_Junior_Technician",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "EF_Fast_Learner",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "EF_Final_Project",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "EF_Passing_Grade",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "EF_Im_An_Engineer_Not_A_Doctor",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "EF_Smooth_Sailing",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "EF_Routine_Code_Review",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -185,15 +187,17 @@
       "english": "Destroy 50 Drones with towers across all profiles.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "EF_Bugs_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Bugs_Destroyed",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "EF_Spaghetti_Code",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -204,15 +208,17 @@
       "english": "Destroy 20 Scale Worms",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "EF_Worms_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Worms_Destroyed",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "EF_Tricked_Decieved_Bamboozled",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -223,15 +229,17 @@
       "english": "Destroyed 5 Wizard Squids.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "EF_Wizard_Squids_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Wizard_Squids_Destroyed",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "EF_First_Into_The_Fray",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -242,15 +250,17 @@
       "english": "Destroy 30 Scorpion Flies",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "EF_Scorpion_Flies_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Scorpion_Flies_Destroyed",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "EF_Bugs_Together_Strong",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -261,15 +271,17 @@
       "english": "Destroyed 50 Chilopoda.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "EF_Chilopoda_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Chilopoda_Destroyed",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "EF_Preying_On_Mantis",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -280,15 +292,17 @@
       "english": "Destroyed 20 Mantises.",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "EF_Mantises_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Mantises_Destroyed",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "EF_Shields_Down",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -299,15 +313,17 @@
       "english": "Destroyed 10 Ceranas.",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "EF_Ceranas_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Ceranas_Destroyed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "EF_RPG_Rules_Say_Healer",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -318,15 +334,17 @@
       "english": "Destroyed 10 Meliferas.",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "EF_Meliferas_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Meliferas_Destroyed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "EF_Take_It_Slow",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -337,15 +355,17 @@
       "english": "Destroyed 10 Carnicas.",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "EF_Carnicas_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Carnicas_Destroyed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "EF_Package_Deal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -356,15 +376,17 @@
       "english": "Destroyed 30 Hives.",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "EF_Hives_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Hives_Destroyed",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "EF_False_Real_Estate",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -375,15 +397,17 @@
       "english": "Destroy 10 Hives before they can deploy any Solenopsis.",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "EF_Hives_Destroyed_Before_Deployed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Hives_Destroyed_Before_Deployed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "EF_Shocking_Development",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -397,7 +421,7 @@
   },
   {
     "name": "EF_Fully_Focused",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -411,7 +435,7 @@
   },
   {
     "name": "EF_Daytime_Radio",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -425,7 +449,7 @@
   },
   {
     "name": "EF_Broadside_Bombardment",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -439,7 +463,7 @@
   },
   {
     "name": "EF_Bullet_Hell",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -453,7 +477,7 @@
   },
   {
     "name": "EF_No_Weak_Link",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -467,7 +491,7 @@
   },
   {
     "name": "EF_1_is_not_0",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -481,7 +505,7 @@
   },
   {
     "name": "EF_Target_Practice",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -492,15 +516,17 @@
       "english": "Destroy 250 bugs of any kind across all profiles.",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "EF_Bugs_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Bugs_Destroyed",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "EF_Exterminator",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -511,15 +537,17 @@
       "english": "Destroy 500 bugs of any kind across all profiles.",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "EF_Bugs_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Bugs_Destroyed",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "EF_Theres_Just_Acres_of_You",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -530,15 +558,17 @@
       "english": "Destroy 1,000 bugs of any kind across all profiles.",
       "token": "NEW_ACHIEVEMENT_18_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "EF_Bugs_Destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Bugs_Destroyed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "EF_Hot_Iron",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -549,15 +579,17 @@
       "english": "Spend 500 solder across all profiles.",
       "token": "NEW_ACHIEVEMENT_18_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "EF_Solder_Spent"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Solder_Spent",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "EF_Butane_Torch",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -568,15 +600,17 @@
       "english": "Spend 1,000 solder across all profiles.",
       "token": "NEW_ACHIEVEMENT_18_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "EF_Solder_Spent"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Solder_Spent",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "EF_Circuit_Printer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -587,15 +621,17 @@
       "english": "Spend 2,500 solder across all profiles.",
       "token": "NEW_ACHIEVEMENT_18_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2500,
-      "stat_name": "EF_Solder_Spent"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Solder_Spent",
+        "min_val": 0,
+        "max_val": 2500
+      }
+    ]
   },
   {
     "name": "EF_Coincidentally_Isopod_Shaped",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -606,15 +642,17 @@
       "english": "Spend 50 Microchips across all profiles.",
       "token": "NEW_ACHIEVEMENT_18_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "EF_Microchips_Spent"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Microchips_Spent",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "EF_Black_Magic_Box",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -625,15 +663,17 @@
       "english": "Spend 100 Microchips across all profiles.",
       "token": "NEW_ACHIEVEMENT_18_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "EF_Microchips_Spent"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Microchips_Spent",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "EF_Lot_of_Multiplexers",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -644,15 +684,17 @@
       "english": "Spend 250 Microchips across all profiles.",
       "token": "NEW_ACHIEVEMENT_18_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "EF_Microchips_Spent"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EF_Microchips_Spent",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "EF_Full_Toolbox",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {
@@ -666,7 +708,7 @@
   },
   {
     "name": "EF_Gotta_Squish_em_All",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2143660/",
     "displayName": {

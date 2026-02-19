@@ -1,7 +1,7 @@
 [
   {
     "name": "COLLECT_250_POINTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3258940/a6b5096e62dfc2afcb822ccdeb81c78d5ff7fd86.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3258940/66647eef8651119b4a76117ebd97e273403c5322.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Collect 250 points in a single level.",
       "token": "NEW_ACHIEVEMENT_8_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "POINTS_COLLECTED_LEVEL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "POINTS_COLLECTED_LEVEL",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "DIE_250_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3258940/602ad07d8873ea435fbdf31871786da6de3c8c9c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3258940/cb54a704097dc8c8b6a028e38ba5dcde0cc3b45e.jpg",
     "displayName": {
@@ -31,15 +33,17 @@
       "english": "Die 250 times.",
       "token": "NEW_ACHIEVEMENT_8_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "DEATH_COUNT_LIFETIME"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DEATH_COUNT_LIFETIME",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "BEAT_100_LEVELS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3258940/1680a08c4f4561cda6dfa1dd3ca66e57004377e2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3258940/80b026f1c90637eb69940fe59f74ee1373c0ccd2.jpg",
     "displayName": {
@@ -50,15 +54,17 @@
       "english": "Beat 100 levels. Who plays a demo this much?!",
       "token": "NEW_ACHIEVEMENT_8_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "LEVELS_FINISHED_LIFETIME"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LEVELS_FINISHED_LIFETIME",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "DIE_FROM_GETTING_STICKED_10_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3258940/099b752a75600bf24750ab2aab7bb91609fee3a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3258940/5f6ce57df4cababe4f5f09171b706c7f7efe322e.jpg",
     "displayName": {
@@ -69,15 +75,17 @@
       "english": "Die from getting sticked 10 times.",
       "token": "NEW_ACHIEVEMENT_8_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "PVP_DEATHS_LIFETIME"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PVP_DEATHS_LIFETIME",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "DISCOVER_100_TRAPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3258940/95286b1ac8796901e7e378b09df82039d351bf8c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3258940/bc02738d55b82273e565ebfa29cf8e9cc079a8e5.jpg",
     "displayName": {
@@ -88,15 +96,17 @@
       "english": "Discover 100 traps.",
       "token": "NEW_ACHIEVEMENT_8_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TRAPS_DISCOVERED_LIFETIME"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TRAPS_DISCOVERED_LIFETIME",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "PLAY_10_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3258940/811e9521806546ffb6f4aa7084fe3f0e9659e942.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3258940/314b3c9df94fe2638ceac5c19439f8a5dc21503a.jpg",
     "displayName": {
@@ -107,10 +117,12 @@
       "english": "Complete 10 games.",
       "token": "NEW_ACHIEVEMENT_8_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "GAMES_PLAYED_LIFETIME"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GAMES_PLAYED_LIFETIME",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   }
 ]

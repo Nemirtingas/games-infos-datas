@@ -1,7 +1,7 @@
 [
   {
     "name": "EmployeeofTheWeek",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/0647e8211f3fa7a4ff4bc250038d6c83eeba564e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/9be95c73987253e7bed4df5f77884036847219b2.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "SoClose",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/d88bdc1fa9295d33af60119c88a788ff21b7d504.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/0c7b2b5197994121845e9033e33e9b7872e477fb.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "DirtyWork",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/d28ace6caed5cdeada69dfd7891690aaae82ff1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/fdcd97d6a88e65549563cb1da256134dfaed6834.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Complete 1000 tasks on the station",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "DirtyWork_DirtyWork"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DirtyWork_DirtyWork",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "NoWayFromHere",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/697665766aca07f3cb891707047edeecbfc508e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/17b31d522a26581aa2f9559f7b54d6ecdc9cc2a1.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "RatRace",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/6c8d316270e0ea9ebad288200b54ef3a0c4bd84a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/2ec5cec3392d617d2f45ed3b689cad3b82f5797b.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ForgottenVoices",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/5c622a1e346f7ed17ecf03fbdc076081f63b3aff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/bd700793ee2362e3f25a6c8e541f961afc712395.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "PromotionTime",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/8cb3f19c55125a6f123b49095f1f956b9ca7e415.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/3b95754c9639541c47c9350f95de1a28e1ea3492.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "SomethingInTheAir",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/3a6cb7dee55dd3fa955a4895a349bd77ac749e5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/a4f575dee803a8838877e39ff8ad955f75679fe8.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "HaventYouForgottenSomething",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/7054dfd4b051fb01d7da8af99927c621b694313a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/4bf87aec3723c29cd633a7a0d03e70a96772a739.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "EmergencyExit",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/c04062454d88a668a14b0d238ad1e068235fac76.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/46db9e08f7823a7e3e315b3329aaf9cd1e07a10c.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "ImOut",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/0721a4056fce33107bd227278e962cb4701afede.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/5e286159cb9c15efe57b5e4be4b4c80ad5c16428.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "TheSmallDetails",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/00010c139658f7b63a26225c5979f3290bb2d3c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/a55245271e82cee85942b0c82f639cce7c07f961.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "Bully",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/75671198efc527cf75c6d410d0ff2736ea13afb0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/309509d654e8c0dbfee54a94d92ab7af47002c6e.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "ThisIsMyStation",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/8d11002ead585cdb9ac5925671e9d3762a6ab837.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/b523c11a5b7b712ccdb0dafeecb8671efe10fba0.jpg",
     "displayName": {
@@ -199,15 +201,17 @@
       "english": "Get rid of the remaining customer five times",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "ThisIsMyStation_ThisIsMyStation"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ThisIsMyStation_ThisIsMyStation",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "PreparedForEverything",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/a52adbd4611615548442aba12fc64bab2f2e1254.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/eff67d4383652aeeea126ddaa597717a39e31d4e.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "Stinky",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/d5ccbfe4c82ccf291e4ebf578890440a585a4ef6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/616d4b5e6a8bed3ceb9ab3adad0a9fb7ad9b2825.jpg",
     "displayName": {
@@ -232,15 +236,17 @@
       "english": "Throw away 20 trash bags",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "Stinky_Stinky"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Stinky_Stinky",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "OrientationDay",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/ba438b7b935e44cafc7ee29e842b0d7fb34453e9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/ed772a6327b12daf6aad9dbae50d03d8176d0786.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "QuickPass",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/0d8981965d6987b3db716ce24ec31d7381562b01.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/ac8bc992749a21ee8cc60af6ecb10877a931c8f4.jpg",
     "displayName": {
@@ -265,15 +271,17 @@
       "english": "Throw 40 items",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "QuickPass_QuickPass"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "QuickPass_QuickPass",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "Armageddon",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/45d02d6e4e733229af07a3daccc1e576b4325227.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/6a17f923fc51f3511c411e9c269807c37bc9788d.jpg",
     "displayName": {
@@ -287,7 +295,7 @@
   },
   {
     "name": "Clumsy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/4877e6d425336456fa836a51db4797eb8a213b97.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3268520/d507fc3c3dafd83ab38af1a24011232f4fe0aea7.jpg",
     "displayName": {

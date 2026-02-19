@@ -1,7 +1,7 @@
 [
   {
     "name": "PortalSweetPortal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/49626f9df48bc2b36717eb46e6a4f1974cf78eb8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/49626f9df48bc2b36717eb46e6a4f1974cf78eb8.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "EightLeggedKiller",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/d3e5b21975fee9a6613d742fbc18eaaf11ce1aa0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/d3e5b21975fee9a6613d742fbc18eaaf11ce1aa0.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "AcidLover",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/5a5afcedf73b294590e21d50602a0b59583d64c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/d3e5b21975fee9a6613d742fbc18eaaf11ce1aa0.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "YourBiggestFan",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/5a5afcedf73b294590e21d50602a0b59583d64c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/d3e5b21975fee9a6613d742fbc18eaaf11ce1aa0.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "AIWinter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/5a5afcedf73b294590e21d50602a0b59583d64c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/d3e5b21975fee9a6613d742fbc18eaaf11ce1aa0.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "FledglingBaller",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/463444b299897eff023fc14f7797bcab05742fed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/463444b299897eff023fc14f7797bcab05742fed.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "JourneymanBaller",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/463444b299897eff023fc14f7797bcab05742fed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/463444b299897eff023fc14f7797bcab05742fed.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "MasterBaller",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/463444b299897eff023fc14f7797bcab05742fed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/463444b299897eff023fc14f7797bcab05742fed.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "EmperorBaller",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/463444b299897eff023fc14f7797bcab05742fed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/463444b299897eff023fc14f7797bcab05742fed.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "GravityKing",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/f472af2c51a389bab569c9c168422e9539d9690e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/f472af2c51a389bab569c9c168422e9539d9690e.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Knock 50 enemies into the abyss",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "GravityKingCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GravityKingCount",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "TimeLord",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/1c8397cd6c5182a1593940b14a019e69d45ac1ca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/1c8397cd6c5182a1593940b14a019e69d45ac1ca.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "AbilityMaster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/de0adaf98190e88d18eff30bf177d8e30b8449e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/de0adaf98190e88d18eff30bf177d8e30b8449e3.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "UpgradeMaster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/15d05c21cd129963b160c19acbae046c01f6a5c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/15d05c21cd129963b160c19acbae046c01f6a5c7.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "WeaponMaster",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/8b88e94f5ee585049d8cea7a87e02c90a1ff001e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/8b88e94f5ee585049d8cea7a87e02c90a1ff001e.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "BrainMeatAndGreet",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/2cd8170ca03d67065d755c156eb5825ffe938f41.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/2cd8170ca03d67065d755c156eb5825ffe938f41.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "BadKitty",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/d3e5b21975fee9a6613d742fbc18eaaf11ce1aa0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/d3e5b21975fee9a6613d742fbc18eaaf11ce1aa0.jpg",
     "displayName": {
@@ -230,7 +232,7 @@
   },
   {
     "name": "DoubleMarinara",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/d3e5b21975fee9a6613d742fbc18eaaf11ce1aa0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/d3e5b21975fee9a6613d742fbc18eaaf11ce1aa0.jpg",
     "displayName": {
@@ -244,7 +246,7 @@
   },
   {
     "name": "RoughAndTumble",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/d3e5b21975fee9a6613d742fbc18eaaf11ce1aa0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/d3e5b21975fee9a6613d742fbc18eaaf11ce1aa0.jpg",
     "displayName": {
@@ -258,7 +260,7 @@
   },
   {
     "name": "TriggerHappy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/d3e5b21975fee9a6613d742fbc18eaaf11ce1aa0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/d3e5b21975fee9a6613d742fbc18eaaf11ce1aa0.jpg",
     "displayName": {
@@ -272,7 +274,7 @@
   },
   {
     "name": "Ballbreaker",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/dcdfb48efb84a9695de19b3e47254050bce11a24.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/dcdfb48efb84a9695de19b3e47254050bce11a24.jpg",
     "displayName": {
@@ -283,15 +285,17 @@
       "english": "Kill 10 Roller enemies with collision damage",
       "token": "NEW_ACHIEVEMENT_2_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "BallbreakerCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BallbreakerCount",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "TheTrembler",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/e66807825dee7c896cbf0527c0013209e0272b5a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/e66807825dee7c896cbf0527c0013209e0272b5a.jpg",
     "displayName": {
@@ -305,7 +309,7 @@
   },
   {
     "name": "Tremors",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/c7e59ba6605ab3421c3f995c0c999993ee8ceeeb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/c7e59ba6605ab3421c3f995c0c999993ee8ceeeb.jpg",
     "displayName": {
@@ -319,7 +323,7 @@
   },
   {
     "name": "TrueHero",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/cb5ab2d874754688db5ba86529472dfdd64e8ace.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/cb5ab2d874754688db5ba86529472dfdd64e8ace.jpg",
     "displayName": {
@@ -333,7 +337,7 @@
   },
   {
     "name": "Netrunner",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/bbfa70aff7db5cd10dd5ef503ade4b2674dfc7c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/bbfa70aff7db5cd10dd5ef503ade4b2674dfc7c1.jpg",
     "displayName": {
@@ -347,7 +351,7 @@
   },
   {
     "name": "GildedAge",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/ca8c1e3168f8c06579e1a9dd5a887ae657240466.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/ca8c1e3168f8c06579e1a9dd5a887ae657240466.jpg",
     "displayName": {
@@ -361,7 +365,7 @@
   },
   {
     "name": "BigSpender",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/027d0883b31583fc1e66e4ecd334de52e137086b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/027d0883b31583fc1e66e4ecd334de52e137086b.jpg",
     "displayName": {
@@ -375,7 +379,7 @@
   },
   {
     "name": "FailureCascade",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/9000e5294e51396b68cc4ad4481e5f17d2c321fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/9000e5294e51396b68cc4ad4481e5f17d2c321fb.jpg",
     "displayName": {
@@ -389,7 +393,7 @@
   },
   {
     "name": "IttyBittySpider",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/4ef8854cee48f9a0b7f557c1c3d42abb049a5b33.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/4ef8854cee48f9a0b7f557c1c3d42abb049a5b33.jpg",
     "displayName": {
@@ -403,7 +407,7 @@
   },
   {
     "name": "FirstOnesAlmostFree",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/06fbe774761c6b775f89c241a5499d0ef4bc231f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2008510/06fbe774761c6b775f89c241a5499d0ef4bc231f.jpg",
     "displayName": {

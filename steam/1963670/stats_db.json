@@ -3,55 +3,55 @@
     "name": "SESSION_TIME_MINUTE",
     "displayName": "Session time",
     "type": "float",
-    "default": 0.0,
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1000.0,
     "min": 0.0,
-    "max": 1000000000
+    "max": 1E+09,
+    "default": 0.0
   },
   {
     "name": "PERMANENT_CURRENCY",
     "displayName": "Permanent currency",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 50000,
     "min": 0,
-    "max": 10000000000000
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "ENEMIES_DESTROYED",
     "displayName": "Enemies destroyed",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 5,
     "min": 0,
-    "max": 10000000000000
+    "max": "MAX_INT",
+    "default": 0
   },
   {
     "name": "ITEMS_IN_RUN",
     "displayName": "Dungeon items collected",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 5,
     "min": 0,
-    "max": 100
+    "max": 100,
+    "default": 0
   },
   {
     "name": "PERMANENT_UPGRADES_NO",
     "displayName": "Number of permanent upgrades",
     "type": "int",
-    "default": 0,
     "incrementonly": false,
     "aggregated": true,
     "maxchange": 4,
     "min": 0,
-    "max": 1000
+    "max": 1000,
+    "default": 0
   }
 ]

@@ -3,93 +3,93 @@
     "name": "TOTAL_EXP",
     "displayName": "Total Experience",
     "type": "int",
-    "default": 0,
     "incrementonly": false,
     "aggregated": false,
     "min": 0,
-    "max": 2000000000
+    "max": 2000000000,
+    "default": 0
   },
   {
     "name": "UNITS_MOVED",
     "displayName": "Units Moved",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": false,
-    "min": 0
+    "min": 0,
+    "default": 0
   },
   {
     "name": "TOTAL_RUNS",
     "displayName": "Ran Away Successes",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": false,
-    "min": 0
+    "min": 0,
+    "default": 0
   },
   {
     "name": "TOTAL_RUN_FAILS",
     "displayName": "Ran Away Failures",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": false,
-    "min": 0
+    "min": 0,
+    "default": 0
   },
   {
     "name": "TOTAL_DAMAGE",
     "displayName": "Total Deaths",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": false,
-    "min": 0
+    "min": 0,
+    "default": 0
   },
   {
     "name": "TOTAL_KILLBOTS_MISS",
     "displayName": "Killbot Misses",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": false,
-    "min": 0
+    "min": 0,
+    "default": 0
   },
   {
     "name": "TOTAL_KILLBOT_TAKEOVERS",
     "displayName": "Killbot Takeovers",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": false,
-    "min": 0
+    "min": 0,
+    "default": 0
   },
   {
     "name": "LOCAL_EVENTS_BITFLAG",
     "displayName": "Local Events",
     "type": "int",
-    "default": 0,
     "incrementonly": false,
     "aggregated": false,
-    "min": 0
+    "min": 0,
+    "default": 0
   },
   {
     "name": "AVG_SCORE",
     "displayName": "Average Score",
     "type": "avgrate",
-    "default": 0.0,
     "incrementonly": false,
     "aggregated": false,
+    "default": 0.0,
     "windowsize": 5.0
   },
   {
     "name": "AVG_SURVIVAL",
     "displayName": "Survival Rate",
     "type": "avgrate",
-    "default": 100.0,
     "incrementonly": false,
     "aggregated": false,
     "min": 0.0,
-    "max": 100,
+    "max": 100.0,
+    "default": 100.0,
     "windowsize": 5.0
   }
 ]

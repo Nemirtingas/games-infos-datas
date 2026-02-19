@@ -1,7 +1,7 @@
 [
   {
     "name": "InTheMines",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/0814453cc58af164b819bf4182e363f405f2fa1f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/95691c8dcd27a013fea79a03d2e75cba475d1ed8.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "MonsterRising",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/dcacc61c384c620a63b65f0148dc07fce0e6581e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/9e3ebc237a9f5adba82c1263af6d34e134e1fb4b.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "MynzHerb",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/feb1d789a6cf6896a103749b095dd178e0d2f73f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/0b5e4eb996ce390ebda2ccbe0656d98099586643.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "MerchHalt",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/cd0daa83ba5be4238710b86f0f424dbba4b606be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/021b928fc3787901b1241ae872c04ed6411061ad.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "WayOfSigns",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/df0a16e8f20a2a91a9fe523e089d22f13a588794.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/9b16e678811e960f51e44dccd4a279fb7fc5f82b.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "BDayFish",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/fa8724ae032cab827a0903001bd0e34eb9d19246.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/228bff76f8f852c450156f14906d6edac117f5a1.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "GreenThumb",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/1a8e59f839d0e40cabf9a6f87c45c958602a7e10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/7f7fe7ee38b0c5b2765da00a3226201655fd6bef.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "SecretGold",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/b8986fe90c8029354c8f43d586f6f50980e64b5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/e2c0a044b566ee6cb2ec0e3bad7fbe6daf4996d0.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "OrcKills10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/1685132a0a39b886d2e29089b41382e97bb9e958.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/16434104e0532113e4b45f2c71ca46e1f144088c.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Those orcs didn’t know what hit them",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "OrcKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "OrcKills",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "OrcKills100",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/1cbf848b163d7f4306f1c00fe139334b484bff21.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/7ca0c8c786d330d374bd724623a5523c0df46f7b.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "A hundred orcs have fallen at your feet. They’ll think twice before challenging you",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "OrcKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "OrcKills",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "OrcKills1000",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/9dd258d2f24a1f424b8e349c965831fdb2a7f336.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/348f10c8463d19e6402063a64c499b4ffec4ed9f.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "A thousand orcs slain. Your wrath has become their nightmare",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "OrcKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "OrcKills",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "SlimeKills10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/a17c15a26f0b8c1f7db50a5418365fa5ce9aad6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/fc5b1cedd100cced78c989da77f263a01966ea60.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "A quick start to your slime squishing adventure",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "SlimeKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SlimeKills",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "SlimeKills100",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/4d87589f593208b9e49b0a7e9b5922837fdce8c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/3591ba5233b1b0d995a1cf86b987ce80c8c90b35.jpg",
     "displayName": {
@@ -200,15 +208,17 @@
       "english": "One hundred slimes defeated. You’re making quite the mess",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "SlimeKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SlimeKills",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "SlimeKills1000",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/511142802dcd1d192e106a388902318743e0df25.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/e5da0c2568dd0774b7212a115a1199b4fb14f57e.jpg",
     "displayName": {
@@ -219,15 +229,17 @@
       "english": "You're soaked in slime, might be dirty, but it's a thousand less of them.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "SlimeKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SlimeKills",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "BatKills10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/6789785980410fd4a311202145b697f6d98a130a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/4a81b5627a39747085ae41ca635cf394f5f0031c.jpg",
     "displayName": {
@@ -238,15 +250,17 @@
       "english": "The caves are a little safer now, thanks to you",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "BatKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BatKills",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "BatKills100",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/0a399c239664e416d5516f65503e433de75357d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/5f13acd202c2810ab3aece6601cbe7dee70ac5fc.jpg",
     "displayName": {
@@ -257,15 +271,17 @@
       "english": "You’ve cleared the skies of these pests. No bat is safe",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "BatKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BatKills",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "BatKills1000",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/b8e08fff2c9ac45a99c12c44f098afd9d4725d73.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/25fed4bcd5a116a5d4cc76bdee553f7b4d882730.jpg",
     "displayName": {
@@ -276,15 +292,17 @@
       "english": "A thousand bats have fallen at your hands. The night is yours to command",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "BatKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BatKills",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "GoblinsHelp",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/38c9274453fc65f7197029113c508dce228228e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/f4aeb4e24374de913599ffe3aceb3c8670cb51c9.jpg",
     "displayName": {
@@ -298,7 +316,7 @@
   },
   {
     "name": "GoblinsFight",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/c2125b29aedf21e500e3c7cc90dc1fe0f781d1fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/c00aa1a608f319d263eb7f421797ba08d22532d2.jpg",
     "displayName": {
@@ -312,7 +330,7 @@
   },
   {
     "name": "NoPermit",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/d089a48a68efdff662691410e195cbdd8e6585b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/6202a5f28c60066239908eaa6b194dad3be72300.jpg",
     "displayName": {
@@ -326,7 +344,7 @@
   },
   {
     "name": "WolfKills10",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/",
     "displayName": {
@@ -337,15 +355,17 @@
       "english": "You’ve slain 10 wolves. They’re definitely not whispering back.",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "WolfKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "WolfKills",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "WolfKills100",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/",
     "displayName": {
@@ -356,15 +376,17 @@
       "english": "A hundred wolves silenced. The forest grows quiet…",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "WolfKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "WolfKills",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "WolfKills1000",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/",
     "displayName": {
@@ -378,7 +400,7 @@
   },
   {
     "name": "NahuraIslandFound",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/",
     "displayName": {
@@ -392,7 +414,7 @@
   },
   {
     "name": "MeatSeeker",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3045890/",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_ARRIVAL1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/61fdada61dd290d38a84c5829d8aed42084f1957.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/47e7f01c5c4687e51e51df6ea985476fc186c9fd.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_ARRIVAL2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/34d1ae66cdd0c9dbfd92fbbd5ddea93c1d381745.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/08ba4db1bb8b6565cf60a92aa1b78a015bf1876b.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_ARRIVAL3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/da184e5eda1db880d480cce444fa2e2e099e863c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/08ba4db1bb8b6565cf60a92aa1b78a015bf1876b.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_DRAWN_TO_CHAOS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/3194d1f16e2ea354a54e7e7a70e65b09d2cdc3ea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/f815d14a57eb83828d90287737d64134173a866d.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_SOULFUL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/41e01b263e735d32b2fc9d74d934a035c14e0f3a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/14e64373e158b96b29d062350a1dc2ca5fb5f1d3.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Obtain 350 Max Life.",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 350,
-      "stat_name": "STAT_LIFE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_LIFE",
+        "min_val": 100,
+        "max_val": 350
+      }
+    ]
   },
   {
     "name": "ACH_CHAOTIC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/a34cb428a15ceb9a3a6e21ac165f6722286a18cd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/31c51f7be028f23b5bfa26593e6e8b14bfc5daf8.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Obtain 50 Sword Damage.",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 50,
-      "stat_name": "STAT_DAMAGE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DAMAGE",
+        "min_val": 10,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_CYCLICAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/382be003c1b3ba449833acd46fb7e56876944df3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/9b7edc413df5c41c11ce2be16df1e12ecfdf8b11.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Obtain all 12 powers.",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 12,
-      "stat_name": "STAT_POWERS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_POWERS",
+        "min_val": 0,
+        "max_val": 12
+      }
+    ]
   },
   {
     "name": "ACH_TRUTHSEEKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/4bf33786de4e12a04b3acd43544a9b3fb993652b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/9da57caacec1959533a45a566b402e18430a566f.jpg",
     "displayName": {
@@ -128,7 +134,7 @@
   },
   {
     "name": "ACH_TIMELESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/5feaf4f247b97f6c116d7f31261276fdf6b8a394.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/6dd6926eb56a79987f3377e5d831b648512d5046.jpg",
     "displayName": {
@@ -142,7 +148,7 @@
   },
   {
     "name": "ACH_IMMORTAL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/1d1d1b546518e0838194eff032029a38f16f6d30.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/08ba4db1bb8b6565cf60a92aa1b78a015bf1876b.jpg",
     "displayName": {
@@ -156,7 +162,7 @@
   },
   {
     "name": "ACH_RETURN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/ea976b88cc1e713566a344365938e08f2d04b880.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/08ba4db1bb8b6565cf60a92aa1b78a015bf1876b.jpg",
     "displayName": {
@@ -170,7 +176,7 @@
   },
   {
     "name": "ACH_SWORDFIGHTER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/682ddb953a261d4471d89860b22ed85a7afb71e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/08ba4db1bb8b6565cf60a92aa1b78a015bf1876b.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "ACH_EXTINGUISHED_FLAMES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/9d6138509d683c11c6c283f0ebd421b276f3eb2e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/08ba4db1bb8b6565cf60a92aa1b78a015bf1876b.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "ACH_LIBERATOR",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/374ffe37c7966ff3fe77c8d234ab39ec605402ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/08ba4db1bb8b6565cf60a92aa1b78a015bf1876b.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "ACH_DRAGON_SLAYER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/cd662ac6ced5838c9ddabe973518990eeb6bc410.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/08ba4db1bb8b6565cf60a92aa1b78a015bf1876b.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "ACH_MASTER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/16689f5fdd41b7de10df9aa174469646f9ba7525.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/08ba4db1bb8b6565cf60a92aa1b78a015bf1876b.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "ACH_STAREDOWN_WITH_FATE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/46fe6cd7de17ea86833d5015c408b5d6d23792ce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/08ba4db1bb8b6565cf60a92aa1b78a015bf1876b.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "ACH_THUNDER_TAMER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/d7be4ac6215b305f1879caf484b419fbd45463d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/08ba4db1bb8b6565cf60a92aa1b78a015bf1876b.jpg",
     "displayName": {
@@ -268,7 +274,7 @@
   },
   {
     "name": "ACH_MASTER2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/5781d7ea12450c13adbd3e18c917d24a4abe79d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/08ba4db1bb8b6565cf60a92aa1b78a015bf1876b.jpg",
     "displayName": {
@@ -282,7 +288,7 @@
   },
   {
     "name": "ACH_AVENGING_THE_PLANE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/cb2314c09ba842d8517b2af4c4513cd3e125bdb9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3206890/08ba4db1bb8b6565cf60a92aa1b78a015bf1876b.jpg",
     "displayName": {

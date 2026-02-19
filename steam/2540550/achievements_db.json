@@ -1,7 +1,7 @@
 [
   {
     "name": "SkyTouch",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/11dbe5cab4c8a3236e6c82149c5e7a93f4ce3d37.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/ee62eff39836cdce206d13c0636d5c37f9f5ad41.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "SecretTeleporter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/cb0a2553a4764b5deedbe3ebe77d2d0c9c006754.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/b9c6d16d0a4b4201d20f1d1e6e6a2f9d75ba61d2.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "NormalGameCompleted",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/a19691c0abfa2b3b2955a2c079364c5d80d2a623.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/00748ea124dcc14d2a2f48e5890ef6d6c945b137.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ExtremeModeCompleted",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/68011741596fe0bda4567b026f7b8ef6a8c3e508.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/5ec717d09f9c129585179cd2ed27f35254d8a69d.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "LevelPublished",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/45039f4ba536f722043df9bfd5fa929a93fc0425.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/02ea71fbe41176554e2d18173a403699e608cb34.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "WorkshopLevelsCompleted",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/4a295e5723b255414b893f071d70a46b140b0dec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/37cbe66d9633c41f9d67266390bda484c3aa0d3c.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Complete 11 levels from the Workshop.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 11,
-      "stat_name": "WorkshopLevelsCompletedStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "WorkshopLevelsCompletedStat",
+        "min_val": 0,
+        "max_val": 11
+      }
+    ]
   },
   {
     "name": "CollectAllGoldenBombs",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/730dc27f27e3eaba7660bc78ac45b7f81d8fcefb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/663c5e81ee0b8b49242c473768749990a750c050.jpg",
     "displayName": {
@@ -101,15 +103,17 @@
       "english": "Find All 7 Golden Bombs in Normal Mode.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "GoldenBombsCollectedStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoldenBombsCollectedStat",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "EthanQuizMission",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/21199c66f0d05b6634d6ef06255397845940586c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/d83e53309714e27dddfe1ad100c45f9acc533843.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "SmartMissionChallenges",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/f51fd68bdc77b5822b04212f95e3a7e915fbb4ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/15ef700bbe48d164041e198e7417aa8233109ebd.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Complete all level challenges.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "ChallengesComplete"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ChallengesComplete",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "CollectAllPinkBombs",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/89f8bf1f369fb0a6140df98ce6b764012622b934.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/126be5034e050fbf20e6ded420713f1406232208.jpg",
     "displayName": {
@@ -153,15 +159,17 @@
       "english": "Find all 10 purple bombs in Normal Mode.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "PinkBombsCollectedStat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PinkBombsCollectedStat",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "TryHardMission",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/5c1bae213f300ed9a36993148a3ab46bca02c108.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/aface124b48e5ca35b57ee9b5107a7b8be34faca.jpg",
     "displayName": {
@@ -175,7 +183,7 @@
   },
   {
     "name": "SpeedrunUnder10Minutes",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/c4281c4153781892606e0da09d4fe4cbbf5117bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540550/cecfdee0e6de66a730aa8dab4ea22ec2893d05d7.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_MUSIC",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3334830/db561d0d8ae52fe10fb0ac030ee0b930b644b1eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3334830/634e1ae21756052760df17cefdcca0496c0cd6a6.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_BFF",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3334830/a440b9f44663f4b4bbdcaab3056d60a5de58be16.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3334830/56171a3db52da9feb99f0e33ec7002e19a796942.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_HAIRCUT_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3334830/00802852ebeb12b0c5482d2ad5dd3f5248b62f8b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3334830/aea4fcfecaa06ec65c455e6ab09746e51b2f4761.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Get Larry 100 haircuts",
       "token": "NEW_ACHIEVEMENT_3_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "P_LEVELS_COMPLETED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "P_LEVELS_COMPLETED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_25_STARS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3334830/44eec7642cf0c773b08818817dee573145ea8ad2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3334830/50a2467332863aa9232d45b4f66a26cec214a40d.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_ALL_STARS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3334830/bf04ce2a90b28241972162a231cbcfbbc93dd9ea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3334830/91007db67f54f1ed806cd22378ac973acac1ec7b.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_LAST_LEVEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3334830/b0009d33d8b3417cfafdd5d64f7a284fe5bfd29a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3334830/f536e14e9dab4b2fde41bfb3b3ed63153767951e.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "DEATH_FAST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/31c67ffdbd23d7e0cf56117ba1fc7e2ed836b23d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/b275ff18000879ddad75ead82ce89ff818215222.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "COMPLETE_FAST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/014047838d6075b7ee09daa7de5b91de7fbe69eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/dacb5e26fa4cc326eae5793687318e9ee4213b47.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "COMPLETE_MIDNIGHT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/fd58992995edb957546f1544939c7366cf6a2a33.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/bbe1455a0db290d295fbd770b5a30981ce2e8832.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "COLLECT_CACTUS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/6a8a101338326929948581fe988a18894478e446.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/daeaa26d2986ea8a063c5cedc4caf9e9ad546520.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Cacti destroyed",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "CACTUS_CACTUS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CACTUS_CACTUS",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "NODIE_M01",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/1b064b69ea3c985a8eb7ac53cea13d804f23037b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/efd314d1c3949022a04780061624d353992e103f.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "COLLECT_GEM_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/6423f6c5f4e9ab5545f7fc0a56dd2693c468bf53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/6fbaed959579603ea5b1cd14d6bd82b29deb4e65.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Found your first Gem.",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "GEMS_GEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GEMS_GEMS",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "COLLECT_GEM_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/c39a9b53f72e29993cbd257636a895fc15015592.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/660ef5ca0313a891bbd43a2864046da58bf25038.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Find 10 Gems",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "GEMS_GEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GEMS_GEMS",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "COLLECT_GEM_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/38e6c7ee64ed74898d19612911dec4d410a4e653.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/7a983a542902af1e2aa8b4442a66776811393741.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Find 20 Gems",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 20,
-      "stat_name": "GEMS_GEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GEMS_GEMS",
+        "min_val": 10,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "COLLECT_GEM_40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/905025bb5c9c70af1a74303453645f5da1d8437f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/c732eb5f9cad3ad91aa507ba6c2caefc3c3788d3.jpg",
     "displayName": {
@@ -144,15 +152,17 @@
       "english": "Find 40 Gems",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 20,
-      "max_val": 40,
-      "stat_name": "GEMS_GEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GEMS_GEMS",
+        "min_val": 20,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "COLLECT_GEM_60",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/fde2f978a95f7005900894e2598ec117b0525b36.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/0fc6e2456186976e81e7f08b91a2dd4ae5c26600.jpg",
     "displayName": {
@@ -163,15 +173,17 @@
       "english": "Find 60 Gems",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 40,
-      "max_val": 60,
-      "stat_name": "GEMS_GEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GEMS_GEMS",
+        "min_val": 40,
+        "max_val": 60
+      }
+    ]
   },
   {
     "name": "COLLECT_GEM_80",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/04a89f7529c8ef1eae537e02704b7427f14bb9db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/a10c9a8bedf59459255bb54447953647e95d9097.jpg",
     "displayName": {
@@ -182,15 +194,17 @@
       "english": "Find 80 Gems",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 60,
-      "max_val": 80,
-      "stat_name": "GEMS_GEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GEMS_GEMS",
+        "min_val": 60,
+        "max_val": 80
+      }
+    ]
   },
   {
     "name": "COLLECT_GEM_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/06f254d1fe0886c996bdbc8a9938bd585969f7a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/e7f6f22c14c89da1d520ec5dd461aadaf1d7e79c.jpg",
     "displayName": {
@@ -201,15 +215,17 @@
       "english": "Find 100 Gems",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 80,
-      "max_val": 100,
-      "stat_name": "GEMS_GEMS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GEMS_GEMS",
+        "min_val": 80,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "COMPLETE_LEVELS_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/b9a542d9f30963b192d1094c50913e757e5cd5b7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/0d00069ecb4d570e3d320f5cfc8e5d105a17ec13.jpg",
     "displayName": {
@@ -223,7 +239,7 @@
   },
   {
     "name": "COMPLETE_LEVELS_05",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/24a9ae3e6fc50fa948420abcd0e61ffeac52a73a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/8dd93f7709e15ac1cab615a1066430391579be95.jpg",
     "displayName": {
@@ -234,15 +250,17 @@
       "english": "Complete 5 levels",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 5,
-      "stat_name": "LEVELS_LEVELS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LEVELS_LEVELS",
+        "min_val": 1,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "COMPLETE_LEVELS_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/8f1a9605831b923fdfd4dbaf178deb4f9e92e4fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/cfb4e96b3531f7d2509f98e5d93e1449be8ae1a6.jpg",
     "displayName": {
@@ -256,7 +274,7 @@
   },
   {
     "name": "COMPLETE_LEVELS_16",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/1bab142b54eefd6a7efdd90d073d7ec5cf6002de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/aa367b2c1a4471553a46fdd72cfca5ef9ccbb6eb.jpg",
     "displayName": {
@@ -267,15 +285,17 @@
       "english": "Complete 16 levels",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 6,
-      "max_val": 16,
-      "stat_name": "LEVELS_LEVELS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LEVELS_LEVELS",
+        "min_val": 6,
+        "max_val": 16
+      }
+    ]
   },
   {
     "name": "COMPLETE_LEVELS_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/26d6dbd92f8d2f4880d0e6e1e3f2144889116e42.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/6c5edc91ad05079ab607b38c661ed6a4996390e9.jpg",
     "displayName": {
@@ -289,7 +309,7 @@
   },
   {
     "name": "COMPLETE_LEVELS_25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/256cbb9cf098cb18e0d73cb45046c87a3772728c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/0a0b4c3ce1978e99df773353c9896df6b80028a6.jpg",
     "displayName": {
@@ -303,7 +323,7 @@
   },
   {
     "name": "COMPLETE_LEVELS_30",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/86e85a060d940ffd68632c85b618be70e96c3966.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/4ed31f6212215c80d12ba4a21a5b36452b7a66e7.jpg",
     "displayName": {
@@ -317,7 +337,7 @@
   },
   {
     "name": "COMPLETE_LEVELS_40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/8ece08459f8cbc726ecf20fb1766a92d5caef252.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/db1fab7de143a30ae9f64e4a77f2793c141d4846.jpg",
     "displayName": {
@@ -331,7 +351,7 @@
   },
   {
     "name": "COMPLETE_LEVELS_46",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/dce69436f6e542c33fcba46c8fbf34e9d85c4b76.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/8d662f51f6b554873b6dce9255e7ccd39b80c2e9.jpg",
     "displayName": {
@@ -345,7 +365,7 @@
   },
   {
     "name": "COMPLETE_LEVELS_56",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/a206929efe2d94df9bd8219b0530303a01e4ac3f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/a0dde9843f7c258046b8bd1d14daf4fcf9f14f97.jpg",
     "displayName": {
@@ -359,7 +379,7 @@
   },
   {
     "name": "COLLECT_EGGS_01",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/5ec0c2214b1f24c4d4df70187cd19b4784a9f61e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/6852520a8c7bbd55e5e62f28924c7eaef47a81d6.jpg",
     "displayName": {
@@ -370,15 +390,17 @@
       "english": "Found your first Phoenix Egg.",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "EGGS_EGGS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EGGS_EGGS",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "COLLECT_EGGS_08",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/b50248928ec8b7a5207892e1ffc736df6c3abeee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/3b0aeccbc8637619f2687cabc7e166176ae1ce10.jpg",
     "displayName": {
@@ -389,15 +411,17 @@
       "english": "Found all 8 Phoenix eggs",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 8,
-      "stat_name": "EGGS_EGGS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EGGS_EGGS",
+        "min_val": 1,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "COLLECT_TOKEN_01",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/4f34895277aca16a69bb47e5cfd4565f9ce54665.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/0d2d46c8d0ddf86692db287f3e3a677b590e251e.jpg",
     "displayName": {
@@ -411,7 +435,7 @@
   },
   {
     "name": "COLLECT_TOKEN_02",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/8d125b472bf7825b4893d7577cb6b94ec241c283.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/a23acdbba5f6647a900ab2584f640f0282fd0b79.jpg",
     "displayName": {
@@ -425,7 +449,7 @@
   },
   {
     "name": "COLLECT_TOKEN_03",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/79a137d17900a3417afb77e1110ab2d28182505b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/bea46c8b36ddabf8c0f591f27fd2f27f6d55bc7d.jpg",
     "displayName": {
@@ -439,7 +463,7 @@
   },
   {
     "name": "COLLECT_TOKEN_04",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/46ebcf7ea93a02b5963897ac20d7e6d1cd2bd913.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/57c062211e186eada010f9ef534069a326b6a03d.jpg",
     "displayName": {
@@ -453,7 +477,7 @@
   },
   {
     "name": "COLLECT_SHARD_01",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/575de35d361e55378fcc9ec886786978a6f3d71e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/0d741e9c2d309e806ac046c1ada1bb8e2bc93631.jpg",
     "displayName": {
@@ -467,7 +491,7 @@
   },
   {
     "name": "COLLECT_SHARD_02",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/45926fdddfa02135da703497976723ffce01d628.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/952ef6e0ed0cd790761f318f0138e477e5ba4a1a.jpg",
     "displayName": {
@@ -481,7 +505,7 @@
   },
   {
     "name": "COLLECT_SHARD_03",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/06cdb7caab5d79bf4bb823e725b3269bf0df0f38.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/c61df39fd822739ef3d3fc7f728eb0048a193ab6.jpg",
     "displayName": {
@@ -495,7 +519,7 @@
   },
   {
     "name": "COLLECT_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/5f603b05d3c02df4e61ae8f2c64fbb2e99c15af3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/45f4dd01cefb511027e4cf59da47bd408ecab386.jpg",
     "displayName": {
@@ -509,7 +533,7 @@
   },
   {
     "name": "PLAY_ON_8TH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/055e3b53170cd9e1db42735c3630fff3380fbf63.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/094cbaaef8d4b14e1ad294b40cb5df34b7ae8bf1.jpg",
     "displayName": {
@@ -523,7 +547,7 @@
   },
   {
     "name": "COMPLETE_ABILITIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/9d4f2f22a141c9e70f1cb3fbcf67a3a994c5a804.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/d92a2797aea3656feb2919aefc7ba6c8d836eee2.jpg",
     "displayName": {
@@ -537,7 +561,7 @@
   },
   {
     "name": "COMPLETE_LEVELS_CORE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/37f7426372f3f33800d26fe8bfcffe7d52e9b8d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/ffad2a9546bab0c3e7159eaccc73427968c5a8ea.jpg",
     "displayName": {
@@ -551,7 +575,7 @@
   },
   {
     "name": "LP-01_01_DOMINOS-RUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/79a86aeeb2ebca45df5e0d79c384c6d412c7a774.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/804d0857d8d1a36e43237aaebefb8c18a0321aa0.jpg",
     "displayName": {
@@ -565,7 +589,7 @@
   },
   {
     "name": "LP-01_02_POWER-EGG-HUNTER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/58e5f454f138bedd87d9b792c0e6b194f581b82a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/ed136f26014dc1ac04871628fdef95033386d08a.jpg",
     "displayName": {
@@ -576,15 +600,17 @@
       "english": "Find your first Power Egg.",
       "token": "NEW_ACHIEVEMENT_5_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "LP-01_EGGS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LP-01_EGGS",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "LP-01_03_POWER_EGG_MASTER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/ad5d63f7907a94a3413e8e3b5ea23a91c9d476f6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/b395c9f077380552dc2943c710daa531e9586ae5.jpg",
     "displayName": {
@@ -595,15 +621,17 @@
       "english": "Find all 8 Power Eggs.",
       "token": "NEW_ACHIEVEMENT_5_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "LP-01_EGGS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LP-01_EGGS",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "LP-01_04_CHALLENGER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/9c4348f2d86a37ea6fc61db081f751ffe8e414ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/815955b6a447749222b0cd9ce1d538643d2415c0.jpg",
     "displayName": {
@@ -614,15 +642,17 @@
       "english": "Complete 1 Challenge.",
       "token": "NEW_ACHIEVEMENT_5_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "CORE_CHALLENGES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CORE_CHALLENGES",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "LP-01_05_CHALLENGE-SEEKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/8f3e24e077d5303d5ae7f68c0b2261d195bd4abd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/07a590790c2bff72b2254d702ae4e93ee17ec243.jpg",
     "displayName": {
@@ -633,15 +663,17 @@
       "english": "Complete 5 Challenges.",
       "token": "NEW_ACHIEVEMENT_5_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "CORE_CHALLENGES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CORE_CHALLENGES",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "LP-01_06_CHALLENGE-PRO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/9ec9622c9a160913d8437758a8d0438f7eadcbf4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/d50a07392951044bf54aef5d3494feac8a799ac7.jpg",
     "displayName": {
@@ -652,15 +684,17 @@
       "english": "Complete 10 Challenges.",
       "token": "NEW_ACHIEVEMENT_5_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "CORE_CHALLENGES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CORE_CHALLENGES",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "LP-01_07_SAVED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/e6c56dd721b87cf59754445eb66943558ebf5b65.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/63bc3d0bd69c99c711d9dcb1528b0f02811c347b.jpg",
     "displayName": {
@@ -674,7 +708,7 @@
   },
   {
     "name": "LP-01_08_NOT-SO-SAFE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/7efc18590540f1e5ce24add50d6516275d663b0b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/9d5bfdc20071e1e2ce41ce4fca8220f1f949f4d8.jpg",
     "displayName": {
@@ -688,7 +722,7 @@
   },
   {
     "name": "LP-01_09_DREAMER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/96536eae2e11a0d466ffbb07837ee78a5d99e361.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/9fb954c0e8e73df9fca3739d123f456be004301e.jpg",
     "displayName": {
@@ -699,15 +733,17 @@
       "english": "Collect all 6 Dream Tokens.",
       "token": "NEW_ACHIEVEMENT_5_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "LP-01_TOKENS-DREAM"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LP-01_TOKENS-DREAM",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "LP-01_10_SPIRIT-OF-DOMINO",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/e9c3a4a80afb5e1c14020baae0751311270b8b16.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/9d24b0123db7afbe8a956df74615b1ce1ac6ca56.jpg",
     "displayName": {
@@ -718,15 +754,17 @@
       "english": "Collect all 10 Spirit Cores.",
       "token": "NEW_ACHIEVEMENT_5_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "LP-01_SPIRIT-CORES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LP-01_SPIRIT-CORES",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "LP-01_11_DOMINOS-TOKENS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/bfe13bea34ee922938df2650139434f589bddac1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/0be6761ff58b71849f49fcb5a5022e74d2644652.jpg",
     "displayName": {
@@ -737,15 +775,17 @@
       "english": "Collect all 20 Domino Tokens.",
       "token": "NEW_ACHIEVEMENT_5_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "LP-01_TOKENS-DOMINO"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LP-01_TOKENS-DOMINO",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "LP-01_12_A-NEW-GEM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/956d509a4f084b9544dbd6c57074664364f10c05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/3361c653b3aa638c5771b11a4611573fdb638752.jpg",
     "displayName": {
@@ -759,7 +799,7 @@
   },
   {
     "name": "LP-01_13_RUN-RUN-RUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/0684214d18da003f403bf7a608659cdad162b15d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/e3426e400ae4705ca07c9e48a14d7ade06fb0ec6.jpg",
     "displayName": {
@@ -773,7 +813,7 @@
   },
   {
     "name": "LP-01_14_A-NEW-CORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/c82fbf02a72c6a3a0f37b240de42bf573ca60736.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/1fe984c1f2a1a8f9c37a62affde76c7cb6d0b0e0.jpg",
     "displayName": {
@@ -787,7 +827,7 @@
   },
   {
     "name": "LP-01_15_LEAVING-A-MARK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/4583af63551443d514a5746b0b26960eae23b950.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/8aa942827af76e2f3bc6580d4fe72b904768cae1.jpg",
     "displayName": {
@@ -801,7 +841,7 @@
   },
   {
     "name": "LP-01_16_JUST-THE-EFFECT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/d3e91cda46d229beaf8e91c47b494a1ab2f43acb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/c6219eceac685a5ad1b7f9824cd559278b9a4218.jpg",
     "displayName": {
@@ -815,7 +855,7 @@
   },
   {
     "name": "LP-01_17_OOPSY",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/a91efc3e5dc25000eea0e5fc8047bd7d15ee9f1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/619ef05f04a64a3efa7b25c276d5719dec0907be.jpg",
     "displayName": {
@@ -829,7 +869,7 @@
   },
   {
     "name": "LP-01_18_RERUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/048efc7081ffe94a10a885f5852a35bb3439b8f2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/d3c1acf3e516a8234b191527aeb58791e1c48f7a.jpg",
     "displayName": {
@@ -843,7 +883,7 @@
   },
   {
     "name": "LP-01_19_CREDITED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/8044e397486b62f3c501a41c2642a0fb07e73ef4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/440d59f07312679cc697ac647eb5e804fc0dacd8.jpg",
     "displayName": {
@@ -857,7 +897,7 @@
   },
   {
     "name": "LP-01_20_SPIRIT-OF-THE-IX-XV",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/d6c722f1a1b4eca6bf8d36da8a0919d53104b48a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003580/65c2bbffff73e3bb5a4b1b335e0306a3af15f55a.jpg",
     "displayName": {

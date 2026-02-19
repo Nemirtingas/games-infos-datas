@@ -1,7 +1,7 @@
 [
   {
     "name": "launch_game",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/cc9148df3bbe082998fb8654dc92eb752b65f689.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/a7da25b2b906e947c3761d774a9f822487b810f3.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "win_season_game",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/997040c1a0a4c9e065475d4ee7e4eab7d590c471.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/80ea467318df1ee44a1cca7ee26f4457b881ce58.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Win a Season game.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "season_wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "season_wins",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "pizza_party",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/7f0cb82cbb1c79737eb08992eb747fa0184bc73c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/015f1ff6e19a5bc4490726ccad1c03d47b061dde.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "promoted_to_divison_a",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/47ee193c9a3d0ba71441a2e22689fe483614ed26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/14511240992029499a38cee8413c62127adb471c.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "promoted_to_premier",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/2f91d96b8d10d6a7cdb90d4f4bcfe0143ef5f9d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/ae86dc87e8f572753ba1f06b0d61953d07741b58.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "participate_in_cup",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/850d619111418dbedb7211307d3fe146de0f35ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/619a73d070fc7317d3a1096fb3597734d262058e.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "win_indoor_invitational",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/e2736443a6609f7d2419ee65bde796fb71f1de60.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/067f7889a9d2ad7cdc0bec8e5fa25e7ae5a453ca.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "hat_trick",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/412300bed52e906d1ce8170ef41cdb165ee8293b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/68473cabdf760ce2ab36a232bb8320892747cfcb.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Score 3 goals in a game with a single player. ",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "hat_tricks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "hat_tricks",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "hat_tricks_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/608d0329983e606139031526c231bd6b49d5809b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/2fc8627ba63bb2a764fa225d4f1c1cb63f5c0950.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Score 5 hat tricks.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "hat_tricks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "hat_tricks",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "hat_tricks_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/e0b555e742002291482d0b9eacf56d42b99f8ee0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/996a799498aac09e8c79d92e777801891301c540.jpg",
     "displayName": {
@@ -153,15 +159,17 @@
       "english": "Score 20 hat tricks.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "hat_tricks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "hat_tricks",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "hat_tricks_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/c2ee69128dbed0daa8352b807beb721c3030e4b7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/04383266f85f9e7337da4b21dbde4ea7828adbb4.jpg",
     "displayName": {
@@ -172,15 +180,17 @@
       "english": "Score 50 hat tricks.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "hat_tricks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "hat_tricks",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "season_wins_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/7fa6ad453a5757e61ce66aefe5485d2a8e260ab9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/ffec84f54bd5ad9e4aefa3cce35e52e5b635fa25.jpg",
     "displayName": {
@@ -191,15 +201,17 @@
       "english": "Win 5 season games.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "season_wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "season_wins",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "season_wins_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/2381647445b7531da4223bdbfa53b8f2a66158b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/d0b27deaf03316e903bd524238c1e5e80335b0f9.jpg",
     "displayName": {
@@ -210,15 +222,17 @@
       "english": "Win 20 season games.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "season_wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "season_wins",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "season_wins_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/d284cf265b9f6a0e7cf8f5fd80b22d79f8a1eb69.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/2e38d9a2930a2c158406d7ae975790d513a786d7.jpg",
     "displayName": {
@@ -229,15 +243,17 @@
       "english": "Win 50 season games.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "season_wins"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "season_wins",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "undefeated_season",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/c3c9111eb6ea7f336bc80d62b2b1714dd840cb4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/3bbaedf1a43b5564702e067563a86af603016a15.jpg",
     "displayName": {
@@ -251,7 +267,7 @@
   },
   {
     "name": "lose_season_game",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/9dc32236d85753dcc432639f5b8c72a7a68e8c7f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/27f4d03f06f9f68e7d4a7d13f883ad1ea11a206b.jpg",
     "displayName": {
@@ -262,15 +278,17 @@
       "english": "Lose a season game.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "season_losses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "season_losses",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "season_losses_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/87eaad7233aea6d788b27c5a03bc00fde60edc3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/d67646fef953dd93a41da0d194e3b0ca99f8e49f.jpg",
     "displayName": {
@@ -281,15 +299,17 @@
       "english": "Lose 10 season games.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "season_losses"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "season_losses",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "win_via_penalty_kicks",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/3112d1f98d4e0405dcfaeb3bab694d5cf5f9900b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/b71f0f556077a6c24325ae4ec1d1f79ba43001c1.jpg",
     "displayName": {
@@ -303,7 +323,7 @@
   },
   {
     "name": "every_player_scored",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/90376cdf22d07fa90df0c07552714ad054f579a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/9fae0b2dee89c5ceb5215bf6a0e8d730ac1ab508.jpg",
     "displayName": {
@@ -317,7 +337,7 @@
   },
   {
     "name": "lose_via_penalty_kicks",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/cb77ca75b91276b9adeca3c34b422f47f472f3e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/1bc98dadb61bd79901a349d0668c2c79481b2b89.jpg",
     "displayName": {
@@ -331,7 +351,7 @@
   },
   {
     "name": "first_goal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/514ce6ed40c931c3f1a98615a39f3ce9d14f850b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/0006ea79834ee68fc8c6f97399f3e80cdae9e628.jpg",
     "displayName": {
@@ -342,15 +362,17 @@
       "english": "Score your first goal.",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "goals_scored"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "goals_scored",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "goals_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/552279a35582439692d58a902aefc64f0be17599.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/6265b4602a909748bcf11265370d5122f351a06e.jpg",
     "displayName": {
@@ -361,15 +383,17 @@
       "english": "Score 10 goals.",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "goals_scored"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "goals_scored",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "goals_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/c649d1eb4596b39320d2c8ee1d4e09323b8f6fcc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/4bb4d444fd0867aa5fc16a23714c8c9a0d88f665.jpg",
     "displayName": {
@@ -380,15 +404,17 @@
       "english": "Score 50 goals.",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "goals_scored"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "goals_scored",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "goals_250",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/1b6c2f67f9db48e57343f97cd68044f1a3301bb7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3170410/847bfddd82f9f8095eb44b65c70bebaffea5dd1a.jpg",
     "displayName": {
@@ -399,10 +425,12 @@
       "english": "Score 250 goals.",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "goals_scored"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "goals_scored",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   }
 ]

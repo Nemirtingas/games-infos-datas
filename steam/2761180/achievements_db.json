@@ -1,7 +1,7 @@
 [
   {
     "name": "THICKET_ACHIEVEMENT_BUTTON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761180/c2844ba66c1b7142b2ad5e58d199c91078a9c84d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761180/480ba35ffdc2c7ebb5daa4d3172946c46da94dfe.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_100_CROWS_SCARED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761180/3f99056645665afaa830eb2f8ec9dc25a386e11f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761180/29baa4d87cf8b8c09309c279c10a89b866db3437.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Scare 100 crows and become a scourge to corvid-kind.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "CROW_SCARE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CROW_SCARE",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_FIND_GHOST_1",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761180/a82b276488fcf8a8dccec5ac5c3f7361d8668e85.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761180/c45ba940669324979f45221595e8485f4bed64d8.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACHIEVEMENT_COMPLETE_PROLOGUE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761180/7ed11bec9ec4696b84cfbe0f2bd8d7da0b6fa850.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761180/3695965737d6f9bf715b3b1b5fb97537e9ece5ce.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACHIEVEMENT_SODA_CAN_MEMORY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761180/fe90bf9a1a6040a67e6a8187abcf3994c08127d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2761180/b7edbd51fd4559e7c48758e0654eb0cc4ad01eb9.jpg",
     "displayName": {

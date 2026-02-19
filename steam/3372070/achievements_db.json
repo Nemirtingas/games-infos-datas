@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_LVL_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3372070/66f34f5fd78f751267bcf6c39eef1f32d5d90fcf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3372070/2f933f19f524e5c7cd5d42be7337ee6bbd0a2f8e.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_LVL_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3372070/b36896c1e1872560d95a94ffd57888673a508f9c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3372070/11e1d85a6dfeb7555ee9aefe9e30522a60e3c5e6.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_LVL_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3372070/dac92d8b4e1dd5aedf9f9b5d197b2a47b21cf59b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3372070/d293812c521c38f6a33f0edac242cb582c08766b.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_SKP_VID",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3372070/803387c0196fc0d7373e43536482a57c4489d504.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3372070/ec4351a93e4e840ede3d7aa3035d01046d60eabc.jpg",
     "displayName": {
@@ -54,10 +54,12 @@
       "english": "Skip all Demo Cinematics",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "SKP_VID"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SKP_VID",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   }
 ]

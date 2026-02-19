@@ -2,41 +2,34 @@
   {
     "name": "floor",
     "displayName": "Floor reached",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 30,
+    "min": 0,
+    "max": 30,
+    "default": 0
   },
   {
     "name": "maxmoney",
     "displayName": "maxmoney",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 99999999,
+    "min": 0,
+    "max": 99999999,
+    "default": 0
   },
   {
     "name": "maxlevel",
     "displayName": "maxlevel",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 99,
+    "min": 0,
+    "max": 99,
+    "default": 0
   }
 ]

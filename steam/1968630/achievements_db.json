@@ -1,7 +1,7 @@
 [
   {
     "name": "ach_beat_houndwalker",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/8e2fcca7f99da458a3c3be52f0e0717c98c8717e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ach_beat_mutantmother",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/9965f3856a479b7713cdf4fa183bb569acfcda7a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ach_beat_legion",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/85b962c46fa1e724bc085083f9849f27cd3042a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ach_beat_silhouette",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/7fad940a4ff25923d71435a2e8a7d27292e44e0b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ach_stories_from_the_outbreak",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/c5817ed6e9869dd74e5917ee8c795decc84734d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ach_half_the_contry_here",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/99fe0f0d8264c40f0894ffb8f5d1d8b45dd28451.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ach_leave_no_one_behind",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/06770d88ec772eb39cbde3246b063a6090ad5a05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "ach_put_vejini",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/86d5491d48a84dd602376e03fadaaebf186882c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -110,15 +110,17 @@
       "english": "Escape Latvia at least once with each character.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 13,
-      "stat_name": "astat_put_vejini"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "astat_put_vejini",
+        "min_val": 0,
+        "max_val": 13
+      }
+    ]
   },
   {
     "name": "ach_the_full_story",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/aad0e1b0f64112f13f9990d83182904bea9a1e2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -129,15 +131,17 @@
       "english": "Unlock all character stories.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 13,
-      "stat_name": "astat_the_full_story"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "astat_the_full_story",
+        "min_val": 0,
+        "max_val": 13
+      }
+    ]
   },
   {
     "name": "ach_challenge1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/50253faf82dd04ae152b767b501f22bd8ff9dfac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "ach_challenge2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/1c675938221b8c28548f0f7869350d36d5025b7e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ach_challenge3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/b98fad608330e1ca819835dad8c63a2bbee1f582.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ach_challenge4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/59d86d2fd85140acbd63f7c0d68213bc8dcae420.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "ach_challenge5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/684a069c0633bde21035085564896e9a6bc7be08.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "ach_decisive_pumeling",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/9e2e13b7a1571b15a3585a74e896d84aef790270.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -218,15 +222,17 @@
       "english": "As Anna, deal over 200 damage with a single attack.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "astat_decisive_pumeling"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "astat_decisive_pumeling",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ach_he_remained_unbroken",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/cf082395119b9054bc02d8e82a4a061aedc495a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "ach_gunfights_and_explosions",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/c4aa4fceb93018481bc0c0825aab9de27129967d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -251,15 +257,17 @@
       "english": "As Katerina, reach 14 power (PWR).",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 14,
-      "stat_name": "astat_gunfights_and_explosions"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "astat_gunfights_and_explosions",
+        "min_val": 0,
+        "max_val": 14
+      }
+    ]
   },
   {
     "name": "ach_no_plan",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/fa8cf77b7f2be585076866b444be869dd23780a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -270,15 +278,17 @@
       "english": "As Dmitry, reach 50 focus.",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "astat_no_plan"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "astat_no_plan",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ach_life_of_helping_others",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/56baae2f6106accd4ff4b0c4f1ad37e1733d97d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -289,15 +299,17 @@
       "english": "As Dzintars, remove 30 bleed in a single battle.",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "astat_life_of_helping_others"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "astat_life_of_helping_others",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ach_dont_lose_your_head",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/56adb5640ba18080260f04348581a7be1a3f9081.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -311,7 +323,7 @@
   },
   {
     "name": "ach_look_upon_my_art",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/f10349c0b68c2bf051de67a522fbce776028d5c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -325,7 +337,7 @@
   },
   {
     "name": "ach_feeling_alive",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/b4a8baa3f94901efa388c315b18d82096b911ac0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -336,15 +348,17 @@
       "english": "As Viktorija, take at least 200 damage in a single battle.",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "astat_feeling_alive"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "astat_feeling_alive",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ach_nyoom",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/8219b9ef6831d78ef7444acd9a65b7fc3b4b4e92.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -358,7 +372,7 @@
   },
   {
     "name": "ach_mothers_smile",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/20fc3dec3d78bdbe331a9024d71ae5f64a51bbf6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -369,15 +383,17 @@
       "english": "As Samanta, block 200 damage with Immunity in a single battle.",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "astat_mothers_smile"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "astat_mothers_smile",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ach_deep_roar",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/b1030e9ddd36c4f1c435c7100b42221cbae87003.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -391,7 +407,7 @@
   },
   {
     "name": "ach_the_new_land_under_god",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/cdcefd04f03117419da5e0708d7a5299e63d6ec4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -405,7 +421,7 @@
   },
   {
     "name": "ach_heartbreak",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/ea71b9076c0ff3ddfa723585d7d1df776121050a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -419,7 +435,7 @@
   },
   {
     "name": "ach_never_give_up",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/2b5d8170b025d36b0fc65da6b617ed6c210ff25b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -433,7 +449,7 @@
   },
   {
     "name": "ach_eternity",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e06bfb06835e7f269ae13d697b62440adf0e09d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -447,7 +463,7 @@
   },
   {
     "name": "ach_grindset",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e77bdb49a7839d0d89890d43fdfe9df3a6999a12.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -461,7 +477,7 @@
   },
   {
     "name": "ach_final_form",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/cd090a123107c2b8ac7563c8f85aefc7fcc7062d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -475,7 +491,7 @@
   },
   {
     "name": "ach_unity_for_piece",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/5e886cc903a75fcb572c67c9e0ffe2cd036ff32f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -489,7 +505,7 @@
   },
   {
     "name": "ach_gallows",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/a975baf742a52be4336053d6451c140bfec40ca5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -503,7 +519,7 @@
   },
   {
     "name": "ach_brilliant_leader",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/65e23643c6db9ce7d36b63dc837c99f2b6ca6d44.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -517,7 +533,7 @@
   },
   {
     "name": "ach_forbidden_corners",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/f88b520cf2208078b19a75489328dc76b952b722.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -531,7 +547,7 @@
   },
   {
     "name": "ach_entertainer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/1545c025419b7ac96afbd667ff896537c042634a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {
@@ -545,7 +561,7 @@
   },
   {
     "name": "ach_abomination",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/edb33327801c6411a905f5ac3c4a1c751978582c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1968630/e684e0ca4a76543f3fd2ea70c5dc1e7158bf79c9.jpg",
     "displayName": {

@@ -2,33 +2,45 @@
   {
     "name": "KO",
     "displayName": "Knock Out Counter",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100000000,
+    "default": 0
   },
   {
     "name": "SD",
     "displayName": "Stamina Depletion Counter",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10000000,
+    "default": 0
   },
   {
     "name": "UNLOCKED_RELIC",
     "displayName": "Unlocked Relic",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 15,
+    "default": 0
   },
   {
     "name": "UNLOCKED_TOPS",
     "displayName": "Unlocked Tops",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 15,
+    "default": 0
   }
 ]

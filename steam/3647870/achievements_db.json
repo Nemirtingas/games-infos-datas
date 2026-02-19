@@ -1,7 +1,7 @@
 [
   {
     "name": "StandardModeClear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/22363c85b4604a537f707f6e383d9368e62e85c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/cf320b6759cef968f2c6488dde00371bd61f5089.jpg",
     "displayName": {
@@ -14,7 +14,7 @@
   },
   {
     "name": "FinaleModeClear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/9ea5dc02cd95b08260bdc9f49e4b90ecf246600b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/cf320b6759cef968f2c6488dde00371bd61f5089.jpg",
     "displayName": {
@@ -27,7 +27,7 @@
   },
   {
     "name": "BeginnerThief",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/100859ba79c0236fbf52fa2cf5dd81177d5fa915.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/7121a51f5853a86db3d23b12f9c111e506a826f6.jpg",
     "displayName": {
@@ -38,15 +38,17 @@
       "english": "Earn 9 trophies.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9,
-      "stat_name": "TrophiesCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TrophiesCount",
+        "min_val": 0,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "AdvancedThief",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/2690672b77affee1120d91b3553811b04c036dee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/7121a51f5853a86db3d23b12f9c111e506a826f6.jpg",
     "displayName": {
@@ -57,15 +59,17 @@
       "english": "Earn 18 trophies.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 18,
-      "stat_name": "TrophiesCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TrophiesCount",
+        "min_val": 0,
+        "max_val": 18
+      }
+    ]
   },
   {
     "name": "ExpertThief",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/0a4eb6c6106b540874f99778cdbd61eff65ee94d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/7121a51f5853a86db3d23b12f9c111e506a826f6.jpg",
     "displayName": {
@@ -76,15 +80,17 @@
       "english": "Earn 27 trophies.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 27,
-      "stat_name": "TrophiesCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TrophiesCount",
+        "min_val": 0,
+        "max_val": 27
+      }
+    ]
   },
   {
     "name": "ConsistentThief",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/377553b96eddd56ad813b7f16670982e29deb0c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/4abd810e8273c345b290354cc352204a65a99a65.jpg",
     "displayName": {
@@ -95,15 +101,17 @@
       "english": "Earn 9 gold streak medals by getting 3 gold trophy wins in a row without quitting or resetting in each game mode.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9,
-      "stat_name": "GoldStreakMedalsCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GoldStreakMedalsCount",
+        "min_val": 0,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "MasterThief",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/1c9e28192188acef080b757773fc10ffcc862ff3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/b6ca655ca6bdd917aaea42fc68a3beab5aa88827.jpg",
     "displayName": {
@@ -114,15 +122,17 @@
       "english": "Earn 9 gem medals by escaping with 20 gems in each game mode. Tip: You can miss 4 gems and still earn the gem medal.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 9,
-      "stat_name": "GemMedalsCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GemMedalsCount",
+        "min_val": 0,
+        "max_val": 9
+      }
+    ]
   },
   {
     "name": "RefreshModeClear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/0f3fdc10cd51e7280324ea158ad5452f0368aa16.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/cf320b6759cef968f2c6488dde00371bd61f5089.jpg",
     "displayName": {
@@ -135,7 +145,7 @@
   },
   {
     "name": "BombStorageModeClear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/cf649bef5899f86b1eb6183777faab4c7071f277.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/cf320b6759cef968f2c6488dde00371bd61f5089.jpg",
     "displayName": {
@@ -148,7 +158,7 @@
   },
   {
     "name": "GottaGoFastModeClear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/4929f98f7cd6aa1f83bb8e18d71b55a17284d001.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/cf320b6759cef968f2c6488dde00371bd61f5089.jpg",
     "displayName": {
@@ -161,7 +171,7 @@
   },
   {
     "name": "RobotGalleryModeClear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/f4091c87ee0ae987f8b7838c807075ce6bb66a9f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/cf320b6759cef968f2c6488dde00371bd61f5089.jpg",
     "displayName": {
@@ -174,7 +184,7 @@
   },
   {
     "name": "GlassCannonModeClear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/ef3729b8e516b19ad0eed5700d0e6a4a06a93cfc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/cf320b6759cef968f2c6488dde00371bd61f5089.jpg",
     "displayName": {
@@ -187,7 +197,7 @@
   },
   {
     "name": "EliteSecurityModeClear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/f364688e49566e7533aaa2c9212f8261d3d8323a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/cf320b6759cef968f2c6488dde00371bd61f5089.jpg",
     "displayName": {
@@ -200,7 +210,7 @@
   },
   {
     "name": "BeginnerModeClear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/03dd559798f0d8b1b31246052885efa11dc41aa0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3647870/cf320b6759cef968f2c6488dde00371bd61f5089.jpg",
     "displayName": {

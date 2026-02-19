@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_SAXOPHONE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/a3f9ba17d22d583d354d1169ad968bf6bf216a90.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/1776d4a5e11e2ff30b15add15e63a21ecf430f59.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "ACH_PROUD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/81227bf0bf463f5b356849837d1c75e52b9643a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/b11e40ddd8927c65d5b426e301e7eb0d1185c1fd.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "ACH_FIRST_DAY",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/413d8c16c9220b9c58f9056805926b417a33adba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/7c02c1864e0a228f900ca4f26cc00c25f7e344e7.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "ACH_SPLITSCREEN_FIRST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/4a6ed358166ce5a836b7e361699718205bff128c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/2eab07b9fc16200f7b518bcae91b5d478bd9cc81.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "ACH_OUT_OF_BED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/a9e8cebf94df77b000482f2d681a77f137bc5963.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/80b413f8ae5a0334ab6471faced24a12a7813f19.jpg",
     "displayName": {
@@ -81,7 +81,7 @@
   },
   {
     "name": "ACH_100_DAYS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/0f677239dbbb0341b3c011f65c778b2589b11a39.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/87f99ebfa5a74d303f9b44005da85080f23fd341.jpg",
     "displayName": {
@@ -94,15 +94,17 @@
       "german": "Wiederhole den ersten Tag 100 mal",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "played_days"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "played_days",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_REPEAT_DAY_1",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/316229d7455346916a7678029658cc2a3fce35f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/04e94c926f635894ad795c2f257b4a9b9afad94f.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_BUG_SWEEPER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/5e8aea047a4fc702a908e62d74ac112b35dc5306.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/da01e64c75a76ea6d855c43c27bafd4a38c3f924.jpg",
     "displayName": {
@@ -134,7 +136,7 @@
   },
   {
     "name": "ACH_ASMR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/20c8d6ef0d150a8bc9c3d0c9f409a1e5c83b7e89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/c20d1335434b14052e2fb01033f602c1b0dbf556.jpg",
     "displayName": {
@@ -150,7 +152,7 @@
   },
   {
     "name": "ACH_FILE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/4535e828a3b0550fd2bfd96b7b2818b11810fa96.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/05c744700dfc999d47cb868e1ce17052e6ac77c3.jpg",
     "displayName": {
@@ -166,7 +168,7 @@
   },
   {
     "name": "ACH_LOVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/b787729eeca4705c15b9c3c569063446ccf8a2ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/f42116b6841feafce674725f10bff165cc643347.jpg",
     "displayName": {
@@ -182,7 +184,7 @@
   },
   {
     "name": "ACH_MULTIPLAYER_FIRST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/63723caff055018ad9579dbbaab74c928135fae5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/843cf2ce393ec432cb6616320ce2345aa27b4f4e.jpg",
     "displayName": {
@@ -198,7 +200,7 @@
   },
   {
     "name": "ACH_ENTREPRENEUR",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/b280cf23b62a1a54e66fe237f218da45e66bcafc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/1e74b20561561d710d6cf7095ee86247b4fcede2.jpg",
     "displayName": {
@@ -212,7 +214,7 @@
   },
   {
     "name": "ACH_MONEYMEDITATION",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/9eaaadcd6dd8fddcc81170bc386f9d3faae12632.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/ca307dbf4edc440cc0549c548b8cfe162bcf0f70.jpg",
     "displayName": {
@@ -226,7 +228,7 @@
   },
   {
     "name": "ACH_ZOMBIE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/a15ef00299719cc474122fbec23506466ac1fcb1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/85cadb1cd3409e0cbdfe7108bab70358d25a48dc.jpg",
     "displayName": {
@@ -240,7 +242,7 @@
   },
   {
     "name": "ACH_HIGHPERFORMER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/f36b7dfe2379a861f6814cc5601c55c32b5af8a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/036173addfb33b929a8d2d98f7aff03111d8eb2b.jpg",
     "displayName": {
@@ -254,7 +256,7 @@
   },
   {
     "name": "ACH_CONES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/9461be138495306bfb220805726778894ec737ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/018133377518efb53e1166de01c66a06aca3a679.jpg",
     "displayName": {
@@ -268,7 +270,7 @@
   },
   {
     "name": "ACH_DIARY",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/160e7de8ce0f973c4eed2baa5b7d3191a1df804a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/a03036d87f4b60ce8901af4143d4546a46b73b9d.jpg",
     "displayName": {
@@ -282,7 +284,7 @@
   },
   {
     "name": "ACH_CITY",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/72d91b99118305281854d25d483818c7ce4b1ae6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/8a48ba3cfa035c3cc61b6d22471348a82116a906.jpg",
     "displayName": {
@@ -293,15 +295,17 @@
       "english": "Explore the vast city and find the secret places.",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "found_trash"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "found_trash",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "ACH_NOSKIP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/f30c7e67d418af16fe410155a4d182a41de86a74.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/bb39b9b4dfb06d5b016c66343f249ded8876c27f.jpg",
     "displayName": {
@@ -315,7 +319,7 @@
   },
   {
     "name": "ACH_CAT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/ab2277aecdc5b16f6def1948ee394108154dd1ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/43597514cbcdc0665b46c89d4e7f57d6f248c70f.jpg",
     "displayName": {
@@ -329,7 +333,7 @@
   },
   {
     "name": "ACH_NOSKIPCHRONICLES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/1c291d426f4e809c338f77a2264955fb23661a46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/713db7e759856b2d54bb45b5fe078f3d90cbbb11.jpg",
     "displayName": {
@@ -343,7 +347,7 @@
   },
   {
     "name": "ACH_MIPM",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/8e5d31ba1d26e042a2a5319cd3a3aadbbdefef78.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2111990/ce3a3f98f22d8d9811c7f57cdad1da63e2c53168.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "LEVEL_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/23b73bb5a939dcd9e4dd4e62759da524d24ee047.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/85d2084e4d931a44ba71a225559e615e1a833f46.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "LEG_PUNCH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/c3c1b7387c14e2af3b1abb0dba767a2b80c4784e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/c82208528dd5b6d7dc8e90af871f45d3b2b850c8.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "JUMP_TIMES_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/765d566bd60fab23e3a37a0d023458eb045fa963.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/4670c41045387afaa4de1f150d72691ee57df730.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "jump 100 times",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "JUMP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "JUMP",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "JUMP_TIMES_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/db5e61516cf18e249efb26a2c5f1e77a22b5a75d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/1c92198e0cd9ffcb57f72e559a7f24c6fb262b9a.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "jump 1000 times",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "JUMP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "JUMP",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "SOLO_GET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/30a5b2ecba049cd0a3c31d15b0b70ea7603f4349.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/fb414739576507ce86c33f1afee76032f38d9667.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "DIE_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/0829fb82337796d1b46446b6eed2805f3ce7bccd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/66ecf5166ac36462b54f559a4759fa8e76e861d3.jpg",
     "displayName": {
@@ -92,15 +96,17 @@
       "english": "respawn 100 times",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "RESPAWN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RESPAWN",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "SEED_GET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/ddedbbc7dd5b71376dac0b8b5537c88fa52cc4ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/009d1fccf68fb42f5994a4a9ab70715d1f7f6b05.jpg",
     "displayName": {
@@ -114,7 +120,7 @@
   },
   {
     "name": "STAR_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/f70bb57b832d7fdf2c7170d4e7199f21826456f2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/1fd2f09ed6c6b37c18ad75902f624daa80a85811.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "get 15 stars",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "STAR"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAR",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "CRAB_MEETING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/9e5d8cc6199846b395047e37088a3be016b792bf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/61da7f7577039a5055884179a2a65f0d69b603a8.jpg",
     "displayName": {
@@ -147,7 +155,7 @@
   },
   {
     "name": "LEVEL_LAST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/4e5ba687fb552b3a650341637f0efa18c34e4768.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2647980/27ff3c42a6ace9a0200c9812b644d3ce827a5736.jpg",
     "displayName": {

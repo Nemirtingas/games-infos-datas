@@ -1,7 +1,7 @@
 [
   {
     "name": "All_Time_the_world",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/7ebc44e1f598632b94da30773e7e21a48dc62dd3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "First_Death",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/71e63e171a1ba4b5738209ebe6b53d507bc524f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "More_Death",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/9faf5ddfb97d6ff63eb1c99765f6b525ae3c923a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Grab_the_jetpack",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/5fc04a215c96280421f958156f2b9dc2e0c720ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "kill_ennemy",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/26df6a18af50d36b38b64cfcd05b2277af962fd6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Death_ennemy",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/df933f8b887ce8cdb79f19faf43ede8e9c7a8ec6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "da_boing",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/a5feee8e7a4c237a1f1d0488d53f1f2c070c48f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "apple_heart",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/7d02ef07bdc429577794417f00794d7b2a81dbea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "easter_egg_0",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/abb2cb9252e3d411d29c4ffb9580c0317103dbdd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Find the three eggs on the first level",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "eggs"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "eggs",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "End_playtest",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "map_secret",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/d1c1e2683be232607b5da249b8c1fb54480eaa3b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "its_all_playtest",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "Platinum",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "lava_death",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/f702498303226decd7721040cf62999a83dda367.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4053390/88ade84b7cfd93f22b80b3933cd324810cf1c443.jpg",
     "displayName": {

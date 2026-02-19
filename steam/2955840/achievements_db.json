@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_CUSTOMER_SERVICE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/dda4eb3c40dcb5f93bce442750f9fb9ac8fa81a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/caf6633756314390b5faea42b0d4e7e0f491067f.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_CUSTOMER_SERVICE_PRO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/f2ecb66663e63868fb846abd3da649f3fa68e1ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/0884c54745d089efb4a434304566b66a0d2aadf9.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_FLAWLESS_BUSINESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/698d7b92d910d7125d4900853e85f7ccca0c5dc8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/b9ac71b43e2e4589fc269082e59971daebacd810.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_PERFECT_SERVICE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/a45bf25ed5353d8978d34cc905e7c54a77aadbb5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/631a2e2755eb7231202274752ab6b58106c2b68a.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_LAST_MIN_HERO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/c4ea6fcc9503fa34817a8c56bdaca5ac2776c712.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/71b7122b7ac0d1cd539fc3a582f3ee74b8aa7828.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Serve 10 customers just before they leave",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_LAST_MIN_HERO"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_LAST_MIN_HERO",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_CHAIR_COLLECTOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/ed378a9fbfd356e2661e0107513d73446fe4dcc4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/edbfab86d59961a9d7aefd76453e055470bd5118.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Steal 4 chairs",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "STAT_CHAIR_COLLECTOR"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CHAIR_COLLECTOR",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "ACH_TRASH_THIEF",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/bcd6c006bb909b698028fad02de622d0247d848a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/e4b3592edecbfa672778cf9a223ff987f55521f5.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Steal 6 trash bins from opponent",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "STAT_TRASH"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TRASH",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "EXPLOSIVE_CHEF",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/09afbc5ecd768468dc9a83cf0e6b3a2656e21cd2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/d5dc099e964f46f309bbd3202a2475085ef2d937.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": " Cause 10 explosions with gas cans or C4",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_EXPLOSION"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_EXPLOSION",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_HOME_DELIVERY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/66e09f5db158e6a608baa191d0fd7e3ca3ed1217.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/d6274f61fe793a4232687c0964dc6d466c271a78.jpg",
     "displayName": {
@@ -147,7 +155,7 @@
   },
   {
     "name": "ACH_HANDYMAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/f48d8e9b0a963a1019e16d14f8732ec26f819c3b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/63713055a4a2c66cfe7abebd143bff242b54b3b9.jpg",
     "displayName": {
@@ -158,15 +166,17 @@
       "english": "Repair 20 damaged zones",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "STAT_REPAIRS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_REPAIRS",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_FIXER_UPPER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/f642e1d56ec4485f454246c41931882d648d3141.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/a097c3522fddf5ac6f40fcc40562f53d758ac637.jpg",
     "displayName": {
@@ -177,15 +187,17 @@
       "english": "Use the repair button 6 times",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "STAT_REP_BUTTON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_REP_BUTTON",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "ACH_RESTAURATION_KING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/e60cc5a2433f1337e330c6f2515b8923914c57c0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/9a031f8f2e64e8e84bf762c5fb50c8b10aa4c402.jpg",
     "displayName": {
@@ -199,7 +211,7 @@
   },
   {
     "name": "ACH_BOUNCER_DUTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/e6737b4b87109c035aaee04e7217cabccddf4610.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/a57acbff00c323d1770fbf40892a956191fede72.jpg",
     "displayName": {
@@ -210,15 +222,17 @@
       "english": "Throw opponents into their restaurant 6 times in one game",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "STAT_THROWS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_THROWS",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "ACH_ARMED_TO_THE_TEETH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/a539ef101e51ef255ebfa5883324d4e14ef9b94a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/05e28255cc1cfa440389cfddbb55842e3136be40.jpg",
     "displayName": {
@@ -229,15 +243,17 @@
       "english": "Buy 30 melee weapons",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "STAT_MELEE_BOUGHT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MELEE_BOUGHT",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_WINNING_ON_BUDGET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/cac891f66522a2f7f189ec6c85b9b91445f53b53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/82850ab8112a2f63de7313c5694a5c6e9542af36.jpg",
     "displayName": {
@@ -251,7 +267,7 @@
   },
   {
     "name": "ACH_BIG_SPENDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/69e5c44e190659b0bef17115934ad68376869db2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/06ca917c3b4b9ac029f60cc45a8f68dce2ed5eb0.jpg",
     "displayName": {
@@ -262,15 +278,17 @@
       "english": "Spend 200 gold in the shop",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "STAT_MONEY"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_MONEY",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ACH_SPIN_THE_WHEEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/5b8eae5579e341e29df938af2c3b547ddc6cbec1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/844b4d6885de4a07b5b72b02df9ee5659e7dbfe1.jpg",
     "displayName": {
@@ -284,7 +302,7 @@
   },
   {
     "name": "ACH_COMPLETE_1_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/859a72cdf270b4c4b67f708e682fbe1557eda207.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/f73112de8de6b9f59de6d37c49b77ee220ee385c.jpg",
     "displayName": {
@@ -297,7 +315,7 @@
   },
   {
     "name": "ACH_COMPLETE_10_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/6c13283fd205214df2199f7a6f166bce2c04b6f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/45c7e1ca133b2b737b925d7246349032c9ec5e65.jpg",
     "displayName": {
@@ -310,7 +328,7 @@
   },
   {
     "name": "WIN_25_GAMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/f957a282376d8911ce1ec0592b12e967466c0881.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/fad1ea4018329de9a96deb8e10ef05cb511b2082.jpg",
     "displayName": {
@@ -321,15 +339,17 @@
       "english": "Win 25 games",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_WINS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WINS",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACH_DONE_IN_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/bc16d8b7f14c2fe11cf9e9055e325a8e209b06ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/d799f93aedd0df7665eb6282648db4a2854a1ec6.jpg",
     "displayName": {
@@ -343,7 +363,7 @@
   },
   {
     "name": "ACH_SPEED_RUNNER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/075850c07b717f336eaf6bfc5b430e6a11073452.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/6dd38e78bcd5a9e31ccf5b752e97d368a6e9108e.jpg",
     "displayName": {
@@ -357,7 +377,7 @@
   },
   {
     "name": "ACH_GOTTA_GO_FAST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/c56a9c3fe2dc13d377ce4c9060de55fdbadb358d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/b7a01bf3dd449fdbcf561f943ffc608ebce999f2.jpg",
     "displayName": {
@@ -368,15 +388,17 @@
       "english": "Use speed boost for one minute",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 60,
-      "stat_name": "STAT_SPEED_CARPET"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_SPEED_CARPET",
+        "min_val": 0,
+        "max_val": 60
+      }
+    ]
   },
   {
     "name": "ACH_NO_THROWS_ALLOWED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/a2e10c19ede5113544ad4af1623812e73396ac82.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/3a7d7e9cf357ff0564919ef3ae1e3a6b83c5fc58.jpg",
     "displayName": {
@@ -390,7 +412,7 @@
   },
   {
     "name": "ACH_FINISH_THE_TUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/0153bd6f0cd12548f20981fce8961f5fde893c62.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/a254c3c2fd1c8aa0f42380746e1a72798e9a965f.jpg",
     "displayName": {
@@ -403,7 +425,7 @@
   },
   {
     "name": "ACH_1V1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/009c2cfea1715f3f1935beba5ceb483306bbe6d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/ef6746552aa1c6e18b583b8cd21eec53592b1056.jpg",
     "displayName": {
@@ -416,7 +438,7 @@
   },
   {
     "name": "ACH_2V2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/d247bfc494cd05c8e78f9e445d0b3b664c0983b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/d5cc685dc0a4e8280266d0a65b2f1e3368deb4ed.jpg",
     "displayName": {
@@ -429,7 +451,7 @@
   },
   {
     "name": "ACH_3V3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/3ba4cd70122f4d8b3dd32b71cee72b7b28914cf1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/8339b5e79c0a6a4d69e182213bc3aec95a1a197c.jpg",
     "displayName": {
@@ -442,7 +464,7 @@
   },
   {
     "name": "ACH_4V4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/fc933c985dbcdbf90ad657ed96b11ce32755631b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955840/893db1230aeb21bfe115ef0657f970aaf7769782.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "drop_first_horse",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/e88ea089251e1abe3423d7fe4b626746e4d41508.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/1212528cb9bbd97125416f91f474e096a1c34a79.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ht_gold",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/f717a5d4736518e05b68d688f22c6ee300453175.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/2de0cc31ae6c7fb4622aefbfabaca928eb9db3fa.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "drag_horse",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/d389f6377f0cd156e38dac25ac2d2edc83e58bd1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/791751b083dd71d594fe8ea5cad0fe2404e16ea5.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "gravity_orb",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/514341cc5f5407dac1859aafcf5d6f59981eea7b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/75561dc4e2df53596c5564fc68fb9e986681935d.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "unlock_shrine",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/d080b0123cf4964a79120d87c8eac6ff08b2d386.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/a75b3cc89acbf317ffb23f5dc6cc19cc2348d470.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "skill_tree",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/50da2c3eb36966b16ab4c63a11ed806ce1bc8764.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/a7fab2a803f96e100ccceee2a4bf17f2e2943150.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "lose_game",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/3b800dece2da594a00cb7f0720da0eb9c554fcb8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/7260a631b05e00828808c1b2347386e8a30216bd.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "die_in_hell",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/465ce36de9104d845f177deffcec2b153f10e75f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/7042251249da436b1158110eef05e2b599fbd805.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "see_creator",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/c77ae587e38c05e616835a4fb59a7e58988e24b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/297194248fa9c94bb83ee74df8594929ef509687.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "all_horse_types",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/14a40f6676a9f26c2255d1a9c59467668d4f1a28.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/4c68b31aa6e4b79fd2fd4a88c6d68c1fe47d9e0f.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Get Every Horse Type",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "horse_types"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "horse_types",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ht_unicorn",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/213472e01e9fdab145d08ed98e942af4ca077be1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/fe141dbac01bc8dc4265c1106b2224bf9f3d5304.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "ht_racer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/45886ca527754a64e78742bcc6ad1124c5d894cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/97c19c753a6f89299a03c21c1078f4867e0c040a.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "ht_criminal",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/b4c1c5b74bcd3c8a4ac0ad714a33ff4cf9b7f9d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3750360/563e648aebb0a71a8a07b5aebfa908e9e446019e.jpg",
     "displayName": {

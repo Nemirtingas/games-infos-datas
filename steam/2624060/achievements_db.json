@@ -1,7 +1,7 @@
 [
   {
     "name": "StoryCompleteMedieval",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/b0585e9f7314ef8d315317b8433e85eae35d7673.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/41daf044e7ba9339dd370868195b5854c9726d8c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "StoryCompleteMedievalDeathless",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/de145f29252a1537f2de5b5ff3f1412deebfa91d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/454aef861f19d04ef8cb07dc3b7d88228b1c4395.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "SkirmishClassicNoTowers",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/f3568e5ab1353f11bb07f7f3f3a8c6857c8a30d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/258588a98c213c6c01de16166585fa203fe1c448.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "SkirmishBreakthroughNoHero",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/63baf7a072979d0de98bb473e975d3f0db301523.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/5ece7f384c2f67b864359c2fc83f51e32e2e4e88.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "HeroDie",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/658498773d53e49e89324817a021a2a9e9708493.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/196548c2d000331f0c17f3bb2f5f8933d7bfd46c.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "HeroDie100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/6becb4258634ffe4eaa5e7f508ba622fb81da82f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/5a886be81e4889e9c428f210d5e1670eda83c8c9.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Die 100 times.",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "hero_deaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "hero_deaths",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Hero1Shot10Kills",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/01c632efc6d2199e3c43a7d60669fdc3b5a6e933.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/1d3648f162ef3ec0af831ed32b055c1f1307d6a3.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "Hero10SuperCharges",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/a06251d430bbbfcf0b63595699c98a7209db20dc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/21ed7ff22d6ad6bfeee6afa53e99808f2a5cc88f.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "Hero10Dashes5Seconds",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/4a11c4045d17726518770ccd6ec0a73934761e5d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/09a276905411bd984cc7c4c367df50f6855d3084.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "HeroKillReflectedProjectile",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/d0e8cc4cdb4b33e7901ca26b311469319ecee458.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/c1f9cca57019e95c0f8d83926a861c9096835097.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "Hero10ReflectHits",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/1185a622c5e7e9f0d194e2b10aba6ee153253a76.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/da16f9b5d3138a62c722bb3c654b99a76bf9c01a.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "HeroKingSpear",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/bc1a56f4be83085041bc615c567fcfc8a67b276f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/5481a602f44ccd764102865f54f7ed732ab7680b.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "Hero20BleedStacks",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/41b73a4d07a76ccdc2c9fc9c258e7ec6fa588f10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/0a0e6e0a60519b9277e4d9ea7616a482459c1525.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "HeroLifeSavingParry",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/8c9209885cfd37f80d602d1d4f9ec58ce53600a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/1afd5cbb6791ba1ab9e62ea59c243049ad3e8a19.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "HeroBlockDamage",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/9af56cfb7ae6a690719534069e8d6fb71d14ac2a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/2c0f9d74cb0651a9f810960db2d9b74c657648d4.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "HeroOmnipresent",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/7dbd78d3fe624cb0692580d6be8dc2243c62ca9d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/de7948cc7f3844275bcac3179917cfb506020717.jpg",
     "displayName": {
@@ -230,7 +232,7 @@
   },
   {
     "name": "TowersWallLine",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/97a7f3357fddf2922a8236290380b25e2cd5ba6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/2d5e2eb6270f07f06eb31f2ee131fb1b0ae8b020.jpg",
     "displayName": {
@@ -244,7 +246,7 @@
   },
   {
     "name": "Towers5CannonTowerKills",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/97266bb1c82502aad98189294247e9b172f4897f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/cfe9d2c6d4b5e2c20ee6b2aa66342a0eed653e72.jpg",
     "displayName": {
@@ -258,7 +260,7 @@
   },
   {
     "name": "Towers50Summons",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/b65e3fbeccd08bafa7ef4cc9858c4b336b1f1900.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/1ea1c4d9c61b08c05c74273afbba0a30f91d0da2.jpg",
     "displayName": {
@@ -272,7 +274,7 @@
   },
   {
     "name": "TowersArrow15AS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/1d28d652a3b742c09fd81b2c21bba7c97ce4e4fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/ed64841fbd6b374a67f6c5cb43dc81ffc1b917fb.jpg",
     "displayName": {
@@ -286,7 +288,7 @@
   },
   {
     "name": "TowersHealFullHPWave",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/e82df7a216513aed56304064e7e38f4656a2c102.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/302ab81f8be5a3849425dac4f80a99fa90700a7a.jpg",
     "displayName": {
@@ -300,7 +302,7 @@
   },
   {
     "name": "TowersCrossbowStunCharge",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/b74389dd8588fc4b354a1cb0392af7eaa9732a96.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/f733dd2540eaeed2ca98a0c2b76976e3c1e32d1d.jpg",
     "displayName": {
@@ -314,7 +316,7 @@
   },
   {
     "name": "Towers1Shot20Kills",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/4866e1f1a91d53ef1e24157d76b3bb3a4d277fb0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/7cf926e1808707a044bef756fd4466ea2ae4d306.jpg",
     "displayName": {
@@ -328,7 +330,7 @@
   },
   {
     "name": "TowersFarm10InARow",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/e72f5becdf8fd297ccd04ebbf688a6a2d7d9fb70.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/6e9f1e4bf0bbc73fb60d07a130e40cffbfa63504.jpg",
     "displayName": {
@@ -342,7 +344,7 @@
   },
   {
     "name": "Towers50kInAWave",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/8326d045fe68862c8655809f4793cf707e58a3ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/05cdca1dff044a3244497f612a0c18696470ea67.jpg",
     "displayName": {
@@ -356,7 +358,7 @@
   },
   {
     "name": "Burning30",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/ac473cc183a3fca31e496b76db89921f933e6fe1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2624060/46ba5d4fafdaaa8620a8d3f4e32d3f5aed0112e9.jpg",
     "displayName": {

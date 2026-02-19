@@ -1,7 +1,7 @@
 [
   {
     "name": "5STAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/c51787d13d2524339dcf26a76bfd562f9433eeeb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/0fe77d3f6f26d598dad1189cb3e768d3eb167226.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "DEBTFREE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/920535fd8c7776cbf45fa41b444c2980a389844b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/0903309ae3bdfb0924b2d8568eadbe8e6dc873a8.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "4DIEEMP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/bd0944c71ecd73c1438046a42416c5a477d735cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/0b8086c54ba90ef6f97d8337216b559e3634800d.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACTIVEALLFOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/1c178c11fea40db37fab74d341d3f33d28e9333e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/aec12c65c3e3078ab85f5b3232af64c1041c3610.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "COOKALLFOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/1f789ce27e8ab78d6380eadf3da806e40fce52af.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/25fa94f1c68cc6dd63c9bde7a452981b5e892ff6.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ALLUPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/7757133e8e161dfe8d03b82db7c0db510612334d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/f54b2adc0d472549701e96ca8deaf920788e8644.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ORDERSERVE100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/819682fd37b4d8cd9dadd1b1b1136b29ced0411c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/eb7fdf894907a163774a0d09b998b3dc0bbbfdba.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "100 Orders served",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TOTSERVED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTSERVED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "TASKCOMPLETE50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/3196b7a00212f8bcb98c011331786de38ca29296.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/83b1ba021b6b5171dac6ac6541bbfaf54bcae8aa.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "50 Tasks Complete",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "TOTTASKCOMP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTTASKCOMP",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "SPECIALDICE100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/5ff6488ad92a6b0806059d1ad8a658eeb9142795.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/9fc280fc65b744db2fc641d801e2da049fd5953d.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "100 Special Skill Dice Used",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TOTSPECDICE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTSPECDICE",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "MICROWAVE50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/0dade98f0492e4a62f2bfc194b6339b58d2d8d59.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/d8965244101292615f6b7458b745eda79100bf39.jpg",
     "displayName": {
@@ -153,15 +159,17 @@
       "english": "50 Microwave Dice Used",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "TOTMICROWAVE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTMICROWAVE",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "FOODDICE50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/aa908971d15dc205a7b322d5449cc8de02e046d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/0a0c185970c21fab1fa4b676a65eda78eb831233.jpg",
     "displayName": {
@@ -172,15 +180,17 @@
       "english": "50 Food Dice Used",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "TOTFOODDICE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTFOODDICE",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "TEADICE25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/64e78dcf128ae03ac9588d21a1d39b9f29d05fc5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/161c86b655d8d895de04a9344fa89ce240dd6781.jpg",
     "displayName": {
@@ -191,15 +201,17 @@
       "english": "25 Tea Dice Used",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "TOTTEA"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTTEA",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "DRINKDICE25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/36a96f78f42c172aa5d393e9c44211d9e254011d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/eab19baf860f58397a188086af84a2a1358eb429.jpg",
     "displayName": {
@@ -210,15 +222,17 @@
       "english": "25 Drink Dice Used",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "TOTDRINKS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTDRINKS",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "MAXHAPPY50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/b620dd2f7e78d172273a25fbf01e8906e761ddb2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/2b4869d2e851c22d70ce5457b0ebf91b2c4d6b01.jpg",
     "displayName": {
@@ -229,15 +243,17 @@
       "english": "50 Max Happy Customers",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "TOTMAXHAPPY"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTMAXHAPPY",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "10LEVELS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/5d63e670ae5777ffce7a019060598dc4dc8399d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/3b244c0323e7bf07f95a595660b0a82ca8d58e61.jpg",
     "displayName": {
@@ -251,7 +267,7 @@
   },
   {
     "name": "FIRED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/bfabaf18f798a58c6a71464246526fc8c1cc3965.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/c565898aeeace231a0ad72f2acdfd7dced40b0ae.jpg",
     "displayName": {
@@ -265,7 +281,7 @@
   },
   {
     "name": "SPECIALDICE250",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/d5034319db773c30c59bb9e663c5d0b060c8cd0f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/8e7311cde23cfdf53aee6246492d0cf1e5fafe5f.jpg",
     "displayName": {
@@ -276,15 +292,17 @@
       "english": "250 Special Skill Dice Used",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "TOTSPECDICE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTSPECDICE",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "SPECIALDICE500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/4a77fdb11e6709cdfab9697d022cb01558161535.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/b251963713a815879a52302f43af720d7d466acb.jpg",
     "displayName": {
@@ -295,15 +313,17 @@
       "english": "500 Special Skill Dice Used",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "TOTSPECDICE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTSPECDICE",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ORDERSERVE50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/6d2de811178af62dab5a311337d05510a0a658f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/ff2845df56bbc7b710babe49902e9d1e580c1695.jpg",
     "displayName": {
@@ -314,15 +334,17 @@
       "english": "50 Orders served",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "TOTSERVED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTSERVED",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ORDERSERVE250",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/dbd4eae8c8a5027df6f18b5c1edc0ed802aa3f63.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/1999784a53622e4a4d98043863a7aeea085acbca.jpg",
     "displayName": {
@@ -333,15 +355,17 @@
       "english": "250 Orders served",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "TOTSERVED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTSERVED",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "MICROWAVE25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/4184372bc4018858ed5445ab16998410402d1c00.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/534e91d8f7a60e039cb25450904da5c88ad753c2.jpg",
     "displayName": {
@@ -352,15 +376,17 @@
       "english": "25 Microwave Dice Used",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "TOTMICROWAVE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTMICROWAVE",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "MICROWAVE100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/de5ae98d79c9ffd683f5699d2477c56983be3bc9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/a496d99a40127eac880ae0aa039f6df9d2ca6ac4.jpg",
     "displayName": {
@@ -371,15 +397,17 @@
       "english": "100 Microwave Dice Used",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TOTMICROWAVE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTMICROWAVE",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "TASKCOMPLETE25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/fbfd0e2dccabb3dbe7901cd42f9fd63aae18ee13.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/12615ebc1c83d095931ade51283ceb0204a4a35c.jpg",
     "displayName": {
@@ -390,15 +418,17 @@
       "english": "25 Tasks Complete",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "TOTTASKCOMP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTTASKCOMP",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "TASKCOMPLETE100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/8466597f9de3450a5877239713a9bef5e473a29f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/ca6dbe189a068578b666dba54e7f208131e4f12b.jpg",
     "displayName": {
@@ -409,15 +439,17 @@
       "english": "100 Tasks Complete",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TOTTASKCOMP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTTASKCOMP",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "FOODDICE25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/8ae3b82c8d55cd41c2d50888eb5d6bd02f4c6910.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/4e730b053718027f63e27edf9c9c13f2e406dd84.jpg",
     "displayName": {
@@ -428,15 +460,17 @@
       "english": "25 Food Dice Used",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "TOTFOODDICE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTFOODDICE",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "FOODDICE100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/675168d5378fec5e8ddca18e069fe2a18b1007d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/9b1d8b197fdeca2b30461be10671cfb81acd05fe.jpg",
     "displayName": {
@@ -447,15 +481,17 @@
       "english": "100 Food Dice Used",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TOTFOODDICE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTFOODDICE",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "TEADICE15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/8ef43b09f9358a82f46d7a2d2c11d41a405366e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/537c67773a91e37fc403b900181f4baf43547b52.jpg",
     "displayName": {
@@ -466,15 +502,17 @@
       "english": "15 Tea Dice Used",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "TOTTEA"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTTEA",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "TEADICE50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/ef6b7fb0df1e8d256ec664eb3da928487a3cfa6a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/c000b59c7c0b5fb4330f2ad290d79f5b2e564829.jpg",
     "displayName": {
@@ -485,15 +523,17 @@
       "english": "50 Tea Dice Used",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "TOTTEA"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTTEA",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "DRINKDICE15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/759508f5d09b9143cd49d96279a7d2292dff8b1f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/4ce4e37c0af4fbb1c556271bfecbbcaaf699b7df.jpg",
     "displayName": {
@@ -504,15 +544,17 @@
       "english": "15 Drink Dice Used",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "TOTDRINKS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTDRINKS",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "DRINKDICE50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/001eb25e26d8ea2c99c0a849c42e0a704dd3b652.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/e16cf56a3715deb32ad7c9ce18b1f56936187b27.jpg",
     "displayName": {
@@ -523,15 +565,17 @@
       "english": "50 Drink Dice Used",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "TOTDRINKS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTDRINKS",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "MAXHAPPY25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/bd5a4b3ba27ebbf6466650f735e9f060c766d217.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/63fc42671e29e805d6b10f51bf53bc7189c8278f.jpg",
     "displayName": {
@@ -542,15 +586,17 @@
       "english": "25 Max Happy Customers",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "TOTMAXHAPPY"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTMAXHAPPY",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "MAXHAPPY100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/571d61b538f15de50a6f4a183a99cd414722a191.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/654fa05771e320e7fbbb47c5a1a57392ee21032a.jpg",
     "displayName": {
@@ -561,15 +607,17 @@
       "english": "100 Max Happy Customers",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TOTMAXHAPPY"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTMAXHAPPY",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "BURNT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/e67b752547ae7a7668045a12bf2e0f651e3a9173.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/defd1674e38ddef5029d735f0f516f6bfecb5bca.jpg",
     "displayName": {
@@ -583,7 +631,7 @@
   },
   {
     "name": "RESTOCK5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/df0e8acc2f48891411343677a2162116080cab99.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/a8a35488ee0913c0fe7e2bebdb48ec8867060d83.jpg",
     "displayName": {
@@ -594,15 +642,17 @@
       "english": "Shop restocked 5 times.",
       "token": "NEW_ACHIEVEMENT_23_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "TOTRESTOCK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTRESTOCK",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "RESTOCK15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/2e5d4ae94b171c914d2822e3f2f3555c99aa8c53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/be39aa53923cda5b275416490965c40d4bc87f31.jpg",
     "displayName": {
@@ -613,15 +663,17 @@
       "english": "Shop restocked 15 times.",
       "token": "NEW_ACHIEVEMENT_23_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "TOTRESTOCK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTRESTOCK",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "RESTOCK25",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/5be96f38a23f445bcd1c29f301bc9c2b8b44b457.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/fa05b7b14045b039e848a76941ca845a6cf2efe5.jpg",
     "displayName": {
@@ -632,15 +684,17 @@
       "english": "Shop restocked 25 times.",
       "token": "NEW_ACHIEVEMENT_23_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "TOTRESTOCK"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTRESTOCK",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "TRAIN5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/15cc950643f5888fa8a2a4b8f11496266c2a7453.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/6bbfff9b993d7e0bca23d0707a21c79dddcdd2d8.jpg",
     "displayName": {
@@ -651,15 +705,17 @@
       "english": "5 Employee training sessions complete.",
       "token": "NEW_ACHIEVEMENT_23_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "TOTTRAIN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTTRAIN",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "TRAIN10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/a4dbda7c26c3840a7aec250ff99866ca7dec4e9e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/c26d5822d40a23faa4fbd8f9ae267ea3a58f67aa.jpg",
     "displayName": {
@@ -670,15 +726,17 @@
       "english": "10 Employee training sessions complete.",
       "token": "NEW_ACHIEVEMENT_23_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "TOTTRAIN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTTRAIN",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "TRAIN15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/ad5df8f513ad490f26a1bf17b165b09c494cd22d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2649460/f6b15d56444803cf3fe7b3983e5204eee1d52320.jpg",
     "displayName": {
@@ -689,10 +747,12 @@
       "english": "15 Employee training sessions complete.",
       "token": "NEW_ACHIEVEMENT_23_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "TOTTRAIN"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTTRAIN",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   }
 ]

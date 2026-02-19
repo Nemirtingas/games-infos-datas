@@ -1,7 +1,7 @@
 [
   {
     "name": "first_tutorial",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/a37574a7ff7f123deeb369502378f63db44b3261.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/9ec075237fcecff6727d8a697ba7b836e1975ebc.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "full_tutorial",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/8852012bec498efdaaafb8e32e6f4223dbdca103.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/f5fbe2884a02063771c130a7682000b0c423f40f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "loose_first",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/d36d8037b142185964bed47d403d26a506fbefa5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/21767fe6d51661157c893082702496a9e3bfa506.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "That defeat was so tragic, it feels like you ripped a page straight out of Lord Telenovela’s book.",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "matchmaking_loose"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "matchmaking_loose",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "loose_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/6b2b41a324455211004065d5ac3b5f69629f65b0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/dcb74ea10bdf6ba46d6ef9c81d5278933c18fc36.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "Lose 10 matches, but like Brawling Broccoli, remember: every punch you take makes you stronger.",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "matchmaking_loose"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "matchmaking_loose",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "first_onboarding",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/5800138b4baa5acbb5e7ed92b7d08e2068494448.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/f622fd4aec8bd017646f6ef0be50301c69a820ac.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "full_onboarding",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/80b8f48b9bb589b78ab8bafafc448611689f4931.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/5a5c8a8484d6da0e22619c86da3a97cdea546eb9.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "guide_deckbuilding",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/b1f0066c8222c6a249b511907d0a292596b91aa1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/c36669b293971a2ab5a2d4ebb84b1d06edfa99c5.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "guide_craft",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/eb3d9990516217424b6ddf884c431bf0f9cf5ff7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/1cdb50a4cac5143186f72576fd61f2741d2e1fbb.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "guide_store",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/9dfb8c868857c684de1b88dab9a4da34ccf96b8b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/a3d366cb8c5d1d47cee6303d66ab9612a4fd3325.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "guide_missions",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/d23f04c63b7c8e4310791430105a1ef304042057.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/b1237267b4183c641a4b9b444a2347e6ce0e45fb.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "ladder_win_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/330cf281c729dc2cce9e87b3ffb01a1f030cfde6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/71958e2a21c126fa909a4afb7fcbbb40c625aab4.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Your first ladder win—time to celebrate in style, just like Emcee Hammerhead!",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "matchmaking_win"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "matchmaking_win",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ladder_win_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/e86556aaf8344e7c98606c49d5efd3bcfa9ddc9c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/090ff977ae1286244c9b29731bfc4ecec5a0783f.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "10 wins, and your grin shines bright—just like Jaw-z, ruling the rap game with style and swagger.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "matchmaking_win"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "matchmaking_win",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ladder_win_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/f6adb63fe90226cc04c8682e1d2b709371be2672.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/3bd6e7f7e26adfd6b96d79abb15bf7779c7eb615.jpg",
     "displayName": {
@@ -200,15 +208,17 @@
       "english": "50 wins! You are surfing your way to greatness, just like our golden guy riding the crest of cinematic success.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 50,
-      "stat_name": "matchmaking_win"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "matchmaking_win",
+        "min_val": 10,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "first_craft",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/be437340db56dd1b62514f2acec8c2b2de2c9223.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/82800e20d975e9d4386a708ffab919e557a18973.jpg",
     "displayName": {
@@ -219,15 +229,17 @@
       "english": "Your first card crafted! Every journey begins with one fairy in a jar, just like Goblin el Falso's whimsical creations.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "craft"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "craft",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "craft_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/e37878112e8ff943dd7ccc211e76e4f302dce4eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/f8128f0d0acc9432518225827384eff727772c55.jpg",
     "displayName": {
@@ -238,15 +250,17 @@
       "english": "10 cards crafted! You are starting to think like the Zoomaniac Inventor, ticking off your own list of creations.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "craft"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "craft",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "craft_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/70d483ec7d871b6dfaf3e1220a8781d1c4419e75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/7167a5e962777a691ae8a106fc8345e7cb64be58.jpg",
     "displayName": {
@@ -257,15 +271,17 @@
       "english": "50 cards crafted! You are as busy as a Gaulish druid brewing potions, crafting magic, and stirring up greatness.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 50,
-      "stat_name": "craft"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "craft",
+        "min_val": 10,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "craft_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/649400d47819b74551a4f985aa73190fd577fe1d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/7215d9b274c546a3eb25f0b1564d677c895da714.jpg",
     "displayName": {
@@ -276,15 +292,17 @@
       "english": "100 cards crafted! At this rate, you are becoming a true baron of crafting, ready to build an empire like the Burger Baron himself.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 50,
-      "max_val": 100,
-      "stat_name": "craft"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "craft",
+        "min_val": 50,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "first_lead_craft",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/0978ee20e7fbe47fd4897b03cdfc8d28ddd94e82.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/6772afaf5179e0592855a7a998803a58687fc4e0.jpg",
     "displayName": {
@@ -295,15 +313,17 @@
       "english": "Your first lead crafted! Like BBQ Bill, you are cooking up something extraordinary and ready to serve a blockbuster.",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "craft_lead"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "craft_lead",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "leads_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/5614699f010b7b3d5b8eaf5d9a2303288a992295.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/91582ce915bb8f56c6600a08b88e8d9712ddbc63.jpg",
     "displayName": {
@@ -314,15 +334,17 @@
       "english": "You crafted 5 leads. Could it be that an ordinary goldfish is on its way to becoming don of the underworld mafia?",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 5,
-      "stat_name": "craft_lead"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "craft_lead",
+        "min_val": 1,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "decks_16",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/039ecc958bf72927e5883daefa667f641e8e7c3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/e4bcb45fcb88438e73610d12fe5f424e1fa3ca92.jpg",
     "displayName": {
@@ -333,15 +355,17 @@
       "english": "You've amassed 16 decks like the Area 51 Salvager, unearthing treasures others couldn't. Your collection rivals even extraterrestrial ingenuity!",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 16,
-      "stat_name": "decks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "decks",
+        "min_val": 1,
+        "max_val": 16
+      }
+    ]
   },
   {
     "name": "decks_40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/e28e55e9bc71323553e6313407ca43bd6e9d614e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/d0134c66fcf18220f91d16af2d654431ceebedc4.jpg",
     "displayName": {
@@ -352,15 +376,17 @@
       "english": "With 40 decks collected, you’ve outdone even the bartender Hydra. Every head raises a toast to your unmatched dedication!",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 16,
-      "max_val": 40,
-      "stat_name": "decks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "decks",
+        "min_val": 16,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "decks_created_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/4377abec5c9ac2fa81ce8286ccf2759d7cd81d2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/e5073b6dfc7353f2fafe9f3253f500c57dc65677.jpg",
     "displayName": {
@@ -371,15 +397,17 @@
       "english": "Your first deck crafted! Like the CyboChick, it’s just hatching, ready to spread its wings and dominate the battlefield!",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "decks_created"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "decks_created",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "decks_created_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/f075fbe7561e035ca315781f6dcb8570095b2ab2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/9ec6f25d85804895f916b61d94c9d3b40d363d26.jpg",
     "displayName": {
@@ -390,15 +418,17 @@
       "english": "Three decks crafted! Like a bounty sniper with three arrows, you’re locked, loaded, and ready to showcase your sharp skills!",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 3,
-      "stat_name": "decks_created"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "decks_created",
+        "min_val": 1,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "decks_created_15",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/0e5a077c218c3e43671c112fe6e593891767a927.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/576476fcdb1d92faa8c2bb970d230e8baa189403.jpg",
     "displayName": {
@@ -409,15 +439,17 @@
       "english": "Fifteen decks crafted! You’re like Pierce the Monster Maker, assembling all the tools needed to unleash your ultimate deck-building creations!",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 3,
-      "max_val": 15,
-      "stat_name": "decks_created"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "decks_created",
+        "min_val": 3,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "decks_created_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/5c3845422e73c8ceeb7619f3981360a332cfa7d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/85d753682f65b88b375a2a0aa67124bc2e58d3ec.jpg",
     "displayName": {
@@ -428,15 +460,17 @@
       "english": "Fifty decks crafted! You’re a mechanized marvel, ready to serve justice and dominate with your perfectly programmed creations!",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 15,
-      "max_val": 50,
-      "stat_name": "decks_created"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "decks_created",
+        "min_val": 15,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "decks_export_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/0d06f4b93d305001ffa784c0f994a12522581d3c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/1f27bb3b1329ec35a830e8d34a7b947c289d2f32.jpg",
     "displayName": {
@@ -447,15 +481,17 @@
       "english": "Your first deck exported! Like the Sungazing Pacifist, you’ve crafted a masterpiece that radiates harmony and caffeinated creativity ready to shine worldwide!",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "export_deck"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "export_deck",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "decks_export_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/888892ff9c55b8ae94f0715eecfc1e9738cf3b1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/bc97936f1c3a5fc687119097c7bb2ec60a8049a8.jpg",
     "displayName": {
@@ -466,15 +502,17 @@
       "english": "Ten decks exported! You’ve mastered the art of calm perfection, radiating brilliance like the Sungazing Guru atop his serene lotus leaf.",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "export_deck"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "export_deck",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "decks_import_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/e4b9641d31f9b6bb21f5c99035f39cea3ea0a642.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/99077b7d0f27847938d1fc30d6bb1973f3ddf1b0.jpg",
     "displayName": {
@@ -485,15 +523,17 @@
       "english": "Your first deck imported! Like the Crash Course Mentor, you’ve taken a step toward transforming potential into heroic brilliance.",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "import_deck"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "import_deck",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "decks_import_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/6bebe13d11cd666cfb1cb0c38a4045a9a19642d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/a43c57f5ad2766b9c54e3afc724ad6cdced6b7a4.jpg",
     "displayName": {
@@ -504,15 +544,17 @@
       "english": "Ten decks imported! Like the Alley Informant and his clever rats, you’re building a network that knows everything happening in the game.",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "import_deck"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "import_deck",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "friend_match_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/fba08247d407c07ffdf0f4ceb917d7dbb537b67f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/65de10e011e157331b7886d7f304d8f9ed93081b.jpg",
     "displayName": {
@@ -523,15 +565,17 @@
       "english": "Your first match with a friend! The Pengoons gift wrapped this fish, not a warning, but their odd way of saying they like you!",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "friend_match_start"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "friend_match_start",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "friend_match_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/70437866b0f6a4eccddf22d6c909759b8faed70d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/91e9ceb8e66ca31cc0cd71543db925c041c0d889.jpg",
     "displayName": {
@@ -542,15 +586,17 @@
       "english": "Ten matches with a friend! You and your pack are as sharp and strategic as the Raptor Boys, always in sync and ready to strike.",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "friend_match_start"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "friend_match_start",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "friend_match_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/165efdda868c087dd59b49887d5ad4f32aeec7ab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/5a7cfe85301bb1b1eff988e55a652f12abf5d022.jpg",
     "displayName": {
@@ -561,15 +607,17 @@
       "english": "Fifty matches with a friend! Like the fugitive zebrafish twins, you stick together, breaking limits and escaping boredom in every game.",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 50,
-      "stat_name": "friend_match_start"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "friend_match_start",
+        "min_val": 10,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "mission_claim_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/922be945c3ac3850a5fc4d338179c18467e26cf4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/151f6f2be557f3b155dc25e69df0ead9bdd4383f.jpg",
     "displayName": {
@@ -580,15 +628,17 @@
       "english": "Two daily missions claimed! Like the Backstreet Bouncer, you’ve honed your instincts to spot the best opportunities and keep things in check.",
       "token": "NEW_ACHIEVEMENT_22_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "mission_claim"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mission_claim",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   },
   {
     "name": "mission_claim_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/2ad121c5535679440c34ae87885c81b0381df861.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/a699567da7bd0607f3f08c7f98ebb42c9234fa7b.jpg",
     "displayName": {
@@ -599,15 +649,17 @@
       "english": "Ten daily missions claimed! Like the smiling leech atop a mountain of paperwork, you’ve mastered persistence and thrive amidst the bureaucracy.",
       "token": "NEW_ACHIEVEMENT_22_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 2,
-      "max_val": 10,
-      "stat_name": "mission_claim"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mission_claim",
+        "min_val": 2,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "mission_claim_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/1ac131c148ae9ed21f451dd8b445a6d21c06940b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/1f201e4482afd3137d6aa6e80f5b6faaae7dd1e5.jpg",
     "displayName": {
@@ -618,15 +670,17 @@
       "english": "Fifty daily missions claimed! Channel your inner Maximus, observing the game from the shadows and striking when the time is right.",
       "token": "NEW_ACHIEVEMENT_22_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 50,
-      "stat_name": "mission_claim"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mission_claim",
+        "min_val": 10,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "mission_reroll_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/037795973e5d54b3d97eed23f262ed5eec41fb1e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/d1792f455c5c8f4ae91b3071c59d34db6b929271.jpg",
     "displayName": {
@@ -637,15 +691,17 @@
       "english": "Re-rolled a mission! Like a cake hiding a surprise, you’ve taken a chance. Let’s hope it’s as sweet as expected!",
       "token": "NEW_ACHIEVEMENT_22_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "mission_reroll"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mission_reroll",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "mission_reroll_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/fe603d3565d08d0be69867327c62fc64850bf95b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/f1dc4b3b7398ce305389dbde93eadd996a586a1d.jpg",
     "displayName": {
@@ -656,15 +712,17 @@
       "english": "Rerolled 5 missions! Like the Tractor Beam Surfer, you’re undecided... caught between the ground and the UFO, enjoying the thrill of the reroll ride!",
       "token": "NEW_ACHIEVEMENT_22_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 5,
-      "stat_name": "mission_reroll"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mission_reroll",
+        "min_val": 1,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "mission_reroll_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/26a314e026bff6d47b0ef8aa8f2a3bd2b573076a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/5119eb42b2a192c2ea6e9cd177b84049fafdec57.jpg",
     "displayName": {
@@ -675,15 +733,17 @@
       "english": "Rerolled 20 missions! Like Reel Runner, you keep the pace, rewinding decisions faster than a roadrunner on a film reel treadmill.",
       "token": "NEW_ACHIEVEMENT_22_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 5,
-      "max_val": 20,
-      "stat_name": "mission_reroll"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "mission_reroll",
+        "min_val": 5,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "pack_open_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/deb56b4850ece541eeec40b32f91acf779df7be2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/eb26653bc964aa327c40738b3e88377be8a88af2.jpg",
     "displayName": {
@@ -694,15 +754,17 @@
       "english": "Opened your first pack! Like the Worm-Up Comedian, you're just starting out... ready to leap into the spotlight with some big laughs ahead!",
       "token": "NEW_ACHIEVEMENT_22_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "pack_open"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "pack_open",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "pack_open_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/3f3b07db5a63c36674100f6d529962a3909dbd33.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/be06e53e8b90b1a8a235fa85e4b4c9851536ecbb.jpg",
     "displayName": {
@@ -713,15 +775,17 @@
       "english": "Opened 10 packs! Like Deviant Croc Barnaby, you're always on the lookout... stalking the best cards with unrelenting focus.",
       "token": "NEW_ACHIEVEMENT_22_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "pack_open"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "pack_open",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "pack_open_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/bedb84c4a41e8967d8cff5179fa9b9c5daf8f0c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/be3ce270927c54becd37dea40ab684d3488c0062.jpg",
     "displayName": {
@@ -732,15 +796,17 @@
       "english": "Opened 50 packs! Like the Snoopy Reporter, you're digging deep into the unknown, uncovering thrilling conspiracies and sensational surprises in every pack.",
       "token": "NEW_ACHIEVEMENT_22_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 50,
-      "stat_name": "pack_open"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "pack_open",
+        "min_val": 10,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "pack_open_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/b959e45e83732de936d58b2b3bf9e862d17c16b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/5d518d0578b59e4711b8f0c13d5a7adcaada78a4.jpg",
     "displayName": {
@@ -751,15 +817,17 @@
       "english": "Opened 100 card packs! Like Pirate Bloodbeard, you've struck gold, uncovering a trove of treasures and building your empire of cards.",
       "token": "NEW_ACHIEVEMENT_22_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 50,
-      "max_val": 100,
-      "stat_name": "pack_open"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "pack_open",
+        "min_val": 50,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "purchase_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/a27af29a6736abf7812e1202a56d93c12a1ff2b5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/1a13f7ce78c24048932f5b83a7c6f0e6b77c1895.jpg",
     "displayName": {
@@ -770,15 +838,17 @@
       "english": "Your first purchase! Like the pro-profit centurion, you're paving the way for a thriving market: one denarius at a time!",
       "token": "NEW_ACHIEVEMENT_22_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "purchase"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "purchase",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "purchase_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/ba3c5743e88208f8d9a3c12ce9f653b159a1d139.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/833717f1413acbf6da2383a37fc830064c21e102.jpg",
     "displayName": {
@@ -789,15 +859,17 @@
       "english": "10 purchases made! Like the Placebo Healer's stacked stones, you're building a steady flow of fortune and positive energy into your game!",
       "token": "NEW_ACHIEVEMENT_22_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 10,
-      "stat_name": "purchase"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "purchase",
+        "min_val": 1,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "purchase_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/2f8c09edf10700be4da0beb70e742b18d6963eac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/647c98e2c80984c2cbc83fe63d5673c7e2087122.jpg",
     "displayName": {
@@ -808,15 +880,17 @@
       "english": "50 purchases made! You've spared this goat from corporate sacrifice, ensuring the gods of greed feast on your shopping instead!",
       "token": "NEW_ACHIEVEMENT_22_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 50,
-      "stat_name": "purchase"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "purchase",
+        "min_val": 10,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "store_waste_hard_32",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/4e384ce71b5cbf31cb441f8087ff3dd3c4efaf9a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/51e862af90ad8a694d25fd4c68e7cce799b92f4f.jpg",
     "displayName": {
@@ -827,15 +901,17 @@
       "english": "Spent 32 Goldies! Like the Sidewalker Boss, you’re making big moves and keeping the undersea economy flowing with style and authority.",
       "token": "NEW_ACHIEVEMENT_22_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 32,
-      "stat_name": "store_waste_hard"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "store_waste_hard",
+        "min_val": 0,
+        "max_val": 32
+      }
+    ]
   },
   {
     "name": "store_waste_hard_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/73fd338c8e03a2521f7a7a77ecb7e18e1ffb0cdd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/3c883cbe7753c8ecb3baf8730b8ed58b5ada5bf3.jpg",
     "displayName": {
@@ -846,15 +922,17 @@
       "english": "Spent 100 Goldies! Like Blingbringer, you’ve got the flair, the shine, and the style to make waves in any underwater scene.",
       "token": "NEW_ACHIEVEMENT_22_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 32,
-      "max_val": 100,
-      "stat_name": "store_waste_hard"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "store_waste_hard",
+        "min_val": 32,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "store_waste_hard_500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/8beb30eea182fe90abb7fa93e6acaba1f9526197.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/0c543bdf9b08a0be00bcc1fb0c5e15ce62f7fc1d.jpg",
     "displayName": {
@@ -865,15 +943,17 @@
       "english": "Spent 500 Goldies! Like the Bootleg Collector, your refined taste turns every purchase into a masterpiece of swashbuckling splendor.",
       "token": "NEW_ACHIEVEMENT_22_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 500,
-      "stat_name": "store_waste_hard"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "store_waste_hard",
+        "min_val": 100,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "store_waste_soft_500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/e8b1114de0d856615930c08ae43c59a8b0bdf232.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/960fd639bc67ede8d16043ea41989973e1f19591.jpg",
     "displayName": {
@@ -884,15 +964,17 @@
       "english": "Spent 500 tickets! Like McDoom's Little Princess, you’ve mastered splurging in style, leaving your mark with every extravagant purchase.",
       "token": "NEW_ACHIEVEMENT_22_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "store_waste_soft"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "store_waste_soft",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "store_waste_soft_2000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/4828163dba5e10e48b924c732cea7519d5fec7d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/c708ce794fa74a58f15b2479b3a0f4d669362a7a.jpg",
     "displayName": {
@@ -903,15 +985,17 @@
       "english": "Spent 2000 tickets! Like the Nigerian Prince Astronaut, your extravagant spending habits are out of this world. Royal and ready for the stars!",
       "token": "NEW_ACHIEVEMENT_22_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 500,
-      "max_val": 2000,
-      "stat_name": "store_waste_soft"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "store_waste_soft",
+        "min_val": 500,
+        "max_val": 2000
+      }
+    ]
   },
   {
     "name": "decks_exported_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/2029da2d512e5cce46b231ce4cda622fb4d56bdc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/76160f1891b7c579be6f6c54bce83d6d2d0b5829.jpg",
     "displayName": {
@@ -922,15 +1006,17 @@
       "english": "50 decks exported! Like Master Sun Mancheng, your cosmic focus and discipline have elevated your creations to celestial levels of perfection!",
       "token": "NEW_ACHIEVEMENT_22_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 50,
-      "stat_name": "export_deck"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "export_deck",
+        "min_val": 10,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "decks_imported_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/85c4f5fd8a28289d29d9201de00efd5d5d7b2a1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1830700/905d3b46593bb11eb0682963a9df89605edcc322.jpg",
     "displayName": {
@@ -941,10 +1027,12 @@
       "english": "50 decks imported! You’ve learned so much, you're starting to feel like the Debt-Ridden Scholar... burdened by knowledge but richer in wisdom!",
       "token": "NEW_ACHIEVEMENT_22_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 50,
-      "stat_name": "import_deck"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "import_deck",
+        "min_val": 10,
+        "max_val": 50
+      }
+    ]
   }
 ]

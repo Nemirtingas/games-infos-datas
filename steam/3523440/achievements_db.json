@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_SUPER_STEPPER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3523440/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3523440/",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "You have taken so many steps",
       "token": "NEW_ACHIEVEMENT_4_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_TOTAL_STEPS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_STEPS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_SUPER_BIKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3523440/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3523440/",
     "displayName": {
@@ -31,15 +33,17 @@
       "english": "You have biked so much",
       "token": "NEW_ACHIEVEMENT_4_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_BIKED_DISTANCE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_BIKED_DISTANCE",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "CHIEVEMENT_SUPER_WALKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3523440/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3523440/",
     "displayName": {
@@ -50,10 +54,12 @@
       "english": "You have walked so much",
       "token": "NEW_ACHIEVEMENT_4_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_WALKED_DISTANCE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_WALKED_DISTANCE",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

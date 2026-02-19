@@ -3,30 +3,30 @@
     "name": "blocksMined",
     "displayName": "Blocks mined",
     "type": "int",
-    "default": 0,
     "incrementonly": false,
     "aggregated": false,
     "min": 0,
-    "max": 1000000000
+    "max": 1000000000,
+    "default": 0
   },
   {
     "name": "rebirths",
     "displayName": "Rebirths",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": false,
     "min": 0,
-    "max": 1000000000
+    "max": 1000000000,
+    "default": 0
   },
   {
     "name": "moneyEarned",
     "displayName": "Money earned",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": false,
     "min": 0,
-    "max": -9223372036854775808
+    "max": "MAX_INT",
+    "default": 0
   }
 ]

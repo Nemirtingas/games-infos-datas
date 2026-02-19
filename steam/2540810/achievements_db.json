@@ -1,7 +1,7 @@
 [
   {
     "name": "Broodmother",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/b66edfb013d00425ebf0e6221944a452349ad3bd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/2161a49432ed814a62384105c580723a0939a467.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Paladin",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/b09a245a20ac0d37b9c7c2bfe81b33feab8c8dda.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/3cec7d805c41419cf89002db4075fdb47324d9b8.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "Wintercaller",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/624152cab9a9f3923694812886eb30419cebbe3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/36188c8695954bed43b68e7562ee0ee2014c89d8.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "Wizard",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/7c4c1b520c76d7529c3bc6e13a614550f242602a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/3606c295bf56061e9001c203db993abac4b2eff4.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "BossBattle",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/7f369656dc2aa2ddeb5f90d6d90e5ede7a191511.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/27d8ec616bab43a0d6759feb07a7a726fa458ddf.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "KillElite",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/fccd384738c93511293ad6593b2333e5026fd04b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/34da93537a3a4834f209c35cc33a08c10e74cbe4.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "SelectItem",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0e5956993d089ea0a8bef7926ff59dc68a6fcc7f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/32b36e38e09cb4693b8b69e6b754fc9a65f598d1.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "SelectSpell",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/b3b7817e2eb008e5664036711965a9b4e4f67c1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/04fa760cd6dc8db5950683ae1f16f0d1eb5225ec.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "EliteKills",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/fccd384738c93511293ad6593b2333e5026fd04b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/34da93537a3a4834f209c35cc33a08c10e74cbe4.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Kill 10 Elites",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 10,
-      "stat_name": "eliteKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "eliteKills",
+        "min_val": 10,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "EnemyKills",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Kill 10 Enemies",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 10,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 10,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "EnemyKills50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Kill 50 Enemies",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 50,
-      "max_val": 50,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 50,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "EnemyKills100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Kill 100 Enemies",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 100,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 100,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "EnemyKills250",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -200,15 +208,17 @@
       "english": "Kill 250 Enemies",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 250,
-      "max_val": 250,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 250,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "EnemyKills500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -219,15 +229,17 @@
       "english": "Kill 500 Enemies",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 500,
-      "max_val": 500,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 500,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "EnemyKills1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -238,15 +250,17 @@
       "english": "Kill 1,000 Enemies",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1000,
-      "max_val": 1000,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 1000,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "EnemyKills5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -257,15 +271,17 @@
       "english": "Kill 5,000 Enemies",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 5000,
-      "max_val": 5000,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 5000,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "EnemyKills10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -276,15 +292,17 @@
       "english": "Kill 10,000 Enemies",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10000,
-      "max_val": 10000,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 10000,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "EnemyKills25000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -295,15 +313,17 @@
       "english": "Kill 25,000 Enemies",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 25000,
-      "max_val": 25000,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 25000,
+        "max_val": 25000
+      }
+    ]
   },
   {
     "name": "EnemyKills50000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -314,15 +334,17 @@
       "english": "Kill 50,000 Enemies",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 50000,
-      "max_val": 50000,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 50000,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "EnemyKills100000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -333,15 +355,17 @@
       "english": "Kill 100,000 Enemies",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100000,
-      "max_val": 100000,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 100000,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "EnemyKills250000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -352,15 +376,17 @@
       "english": "Kill 250,000 Enemies",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 250000,
-      "max_val": 250000,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 250000,
+        "max_val": 250000
+      }
+    ]
   },
   {
     "name": "EnemyKills500000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -371,15 +397,17 @@
       "english": "Kill 500,000 Enemies",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 500000,
-      "max_val": 500000,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 500000,
+        "max_val": 500000
+      }
+    ]
   },
   {
     "name": "EnemyKills750000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -390,15 +418,17 @@
       "english": "Kill 750,000 Enemies",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 750000,
-      "max_val": 750000,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 750000,
+        "max_val": 750000
+      }
+    ]
   },
   {
     "name": "EnemyKills1000000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/4fc3fc8937392b6fe94574f151045bfecc7880bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0d7b8504b4a9377e8fc09073c83ffcaebc52dd65.jpg",
     "displayName": {
@@ -409,15 +439,17 @@
       "english": "Kill 1,000,000 Enemies",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1000000,
-      "max_val": 1000000,
-      "stat_name": "enemyKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "enemyKills",
+        "min_val": 1000000,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "RootKill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/9758af714e2533d5e3acd70e1409ba55928da67a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/b19236beb29cf4cbafcc4e45f300f4adb3305a4a.jpg",
     "displayName": {
@@ -428,15 +460,17 @@
       "english": "Kill one of Venusetri's Roots",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "rootKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rootKills",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "RootKill50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/9758af714e2533d5e3acd70e1409ba55928da67a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/b19236beb29cf4cbafcc4e45f300f4adb3305a4a.jpg",
     "displayName": {
@@ -447,15 +481,17 @@
       "english": "Kill 50 Venusetri's Roots",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 50,
-      "max_val": 50,
-      "stat_name": "rootKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rootKills",
+        "min_val": 50,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "RootKill100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/9758af714e2533d5e3acd70e1409ba55928da67a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/b19236beb29cf4cbafcc4e45f300f4adb3305a4a.jpg",
     "displayName": {
@@ -466,15 +502,17 @@
       "english": "Kill 100 Venusetri's Roots",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 100,
-      "stat_name": "rootKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rootKills",
+        "min_val": 100,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "RootKill500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/9758af714e2533d5e3acd70e1409ba55928da67a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/b19236beb29cf4cbafcc4e45f300f4adb3305a4a.jpg",
     "displayName": {
@@ -485,15 +523,17 @@
       "english": "Kill 500 Venusetri's Roots",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 500,
-      "max_val": 500,
-      "stat_name": "rootKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "rootKills",
+        "min_val": 500,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "Thadwyck Mines",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/3fc112d8d4043c77960bc47fbf83ce930ada167d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/9e057e18cab90cbedcb94174fac43a4657f61fff.jpg",
     "displayName": {
@@ -507,7 +547,7 @@
   },
   {
     "name": "Windmere Pass",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/f78ec4411e8b6bd365bce40c11aa25ed56bc8003.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/988b830e5fa554c79bd37398ac9c097770079009.jpg",
     "displayName": {
@@ -521,7 +561,7 @@
   },
   {
     "name": "Druid",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/79d4d564ace6fb367b998b54291bf35151c932d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/ef26a9fb853c54cfbfa12927f2af8a61c906eeec.jpg",
     "displayName": {
@@ -535,7 +575,7 @@
   },
   {
     "name": "Death Knight",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0859e2cd6b564700baa162c2ce4642ff393e3150.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/9c4f393996c5f3e30e0d5849cac1ee8e33d17010.jpg",
     "displayName": {
@@ -549,7 +589,7 @@
   },
   {
     "name": "Grimwood Graveyard",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/22ba962a3788b71cd601682ee7d49ab57305496d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/a67a82ec4d4eec6547e8712584a0a02840531011.jpg",
     "displayName": {
@@ -563,7 +603,7 @@
   },
   {
     "name": "Mediator",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/3f09f6825b30b87bb3e599275e91c06cb549bc10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/48ea45b3805ed473fa44ce48b56db72600b755fe.jpg",
     "displayName": {
@@ -577,7 +617,7 @@
   },
   {
     "name": "Broodmother40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/b66edfb013d00425ebf0e6221944a452349ad3bd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/2161a49432ed814a62384105c580723a0939a467.jpg",
     "displayName": {
@@ -591,7 +631,7 @@
   },
   {
     "name": "Warrior40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/3eebf9a7724ede4486527b2261ffd98c91462997.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/37977be0b0abceaa6c61d5b3c2680a783ce45d51.jpg",
     "displayName": {
@@ -605,7 +645,7 @@
   },
   {
     "name": "Ranger40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/8b57b1f78b52eade3471cac4966b41894c94a60d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/afe67c4b591730e5f4c4c8a4adc0b1a224a8ec2d.jpg",
     "displayName": {
@@ -619,7 +659,7 @@
   },
   {
     "name": "Elementalist40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/9f14ee24759226778a5c0b7752d2afa2aaf8da16.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/85d8694ab0c247962443b45892086fe61ade8dd6.jpg",
     "displayName": {
@@ -633,7 +673,7 @@
   },
   {
     "name": "Assassin40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/165336ab836022e64c166e07b0687e4ee9b3ef38.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/116b68bda3431ffef076d5dc77585ed4632c8bfe.jpg",
     "displayName": {
@@ -647,7 +687,7 @@
   },
   {
     "name": "Paladin40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/b09a245a20ac0d37b9c7c2bfe81b33feab8c8dda.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/3cec7d805c41419cf89002db4075fdb47324d9b8.jpg",
     "displayName": {
@@ -661,7 +701,7 @@
   },
   {
     "name": "Druid40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/79d4d564ace6fb367b998b54291bf35151c932d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/ef26a9fb853c54cfbfa12927f2af8a61c906eeec.jpg",
     "displayName": {
@@ -675,7 +715,7 @@
   },
   {
     "name": "DeathKnight40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/0859e2cd6b564700baa162c2ce4642ff393e3150.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/9c4f393996c5f3e30e0d5849cac1ee8e33d17010.jpg",
     "displayName": {
@@ -689,7 +729,7 @@
   },
   {
     "name": "Wizard40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/7c4c1b520c76d7529c3bc6e13a614550f242602a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/3606c295bf56061e9001c203db993abac4b2eff4.jpg",
     "displayName": {
@@ -703,7 +743,7 @@
   },
   {
     "name": "Wintercaller40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/624152cab9a9f3923694812886eb30419cebbe3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/36188c8695954bed43b68e7562ee0ee2014c89d8.jpg",
     "displayName": {
@@ -717,7 +757,7 @@
   },
   {
     "name": "EliteKills50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/fccd384738c93511293ad6593b2333e5026fd04b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/34da93537a3a4834f209c35cc33a08c10e74cbe4.jpg",
     "displayName": {
@@ -728,15 +768,17 @@
       "english": "Kill 50 Elites",
       "token": "NEW_ACHIEVEMENT_6_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 50,
-      "max_val": 50,
-      "stat_name": "eliteKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "eliteKills",
+        "min_val": 50,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "EliteKills100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/fccd384738c93511293ad6593b2333e5026fd04b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/34da93537a3a4834f209c35cc33a08c10e74cbe4.jpg",
     "displayName": {
@@ -747,15 +789,17 @@
       "english": "Kill 100 Elites",
       "token": "NEW_ACHIEVEMENT_6_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 100,
-      "stat_name": "eliteKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "eliteKills",
+        "min_val": 100,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "EliteKills500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/fccd384738c93511293ad6593b2333e5026fd04b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/34da93537a3a4834f209c35cc33a08c10e74cbe4.jpg",
     "displayName": {
@@ -766,15 +810,17 @@
       "english": "Kill 500 Elites",
       "token": "NEW_ACHIEVEMENT_6_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 500,
-      "max_val": 500,
-      "stat_name": "eliteKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "eliteKills",
+        "min_val": 500,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "EliteKills1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/fccd384738c93511293ad6593b2333e5026fd04b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/34da93537a3a4834f209c35cc33a08c10e74cbe4.jpg",
     "displayName": {
@@ -785,15 +831,17 @@
       "english": "Kill 1,000 Elites",
       "token": "NEW_ACHIEVEMENT_6_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1000,
-      "max_val": 1000,
-      "stat_name": "eliteKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "eliteKills",
+        "min_val": 1000,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "EliteKills5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/fccd384738c93511293ad6593b2333e5026fd04b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/34da93537a3a4834f209c35cc33a08c10e74cbe4.jpg",
     "displayName": {
@@ -804,15 +852,17 @@
       "english": "Kill 5,000 Elites",
       "token": "NEW_ACHIEVEMENT_6_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 5000,
-      "max_val": 5000,
-      "stat_name": "eliteKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "eliteKills",
+        "min_val": 5000,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "EliteKills10000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/fccd384738c93511293ad6593b2333e5026fd04b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/34da93537a3a4834f209c35cc33a08c10e74cbe4.jpg",
     "displayName": {
@@ -823,15 +873,17 @@
       "english": "Kill 10,000 Elites",
       "token": "NEW_ACHIEVEMENT_6_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10000,
-      "max_val": 10000,
-      "stat_name": "eliteKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "eliteKills",
+        "min_val": 10000,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "EliteKills50000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/fccd384738c93511293ad6593b2333e5026fd04b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/34da93537a3a4834f209c35cc33a08c10e74cbe4.jpg",
     "displayName": {
@@ -842,15 +894,17 @@
       "english": "Kill 50,000 Elites",
       "token": "NEW_ACHIEVEMENT_6_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 50000,
-      "max_val": 50000,
-      "stat_name": "eliteKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "eliteKills",
+        "min_val": 50000,
+        "max_val": 50000
+      }
+    ]
   },
   {
     "name": "EliteKills100000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/fccd384738c93511293ad6593b2333e5026fd04b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/34da93537a3a4834f209c35cc33a08c10e74cbe4.jpg",
     "displayName": {
@@ -861,15 +915,17 @@
       "english": "Kill 100,000 Elites",
       "token": "NEW_ACHIEVEMENT_6_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100000,
-      "max_val": 100000,
-      "stat_name": "eliteKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "eliteKills",
+        "min_val": 100000,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "EliteKills200000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/fccd384738c93511293ad6593b2333e5026fd04b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/34da93537a3a4834f209c35cc33a08c10e74cbe4.jpg",
     "displayName": {
@@ -880,15 +936,17 @@
       "english": "Kill 200,000 Elites",
       "token": "NEW_ACHIEVEMENT_6_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 200000,
-      "max_val": 200000,
-      "stat_name": "eliteKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "eliteKills",
+        "min_val": 200000,
+        "max_val": 200000
+      }
+    ]
   },
   {
     "name": "Gunslinger40",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/6641f444c4429e77687c4b079df5d8d7b6956bd4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/22f7b449f8016b7f14ab89b76dd47db376daedd4.jpg",
     "displayName": {
@@ -902,7 +960,7 @@
   },
   {
     "name": "Treasure Goblin",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/2812c59745d5611971e55463a209b0a1120c8887.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/abb95f4ab79d5ce5cc32b44d9b4cb674a2b7aaff.jpg",
     "displayName": {
@@ -916,7 +974,7 @@
   },
   {
     "name": "Treasure Goblin 100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/2812c59745d5611971e55463a209b0a1120c8887.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/abb95f4ab79d5ce5cc32b44d9b4cb674a2b7aaff.jpg",
     "displayName": {
@@ -927,15 +985,17 @@
       "english": "Kill 100 Treasure Goblins",
       "token": "NEW_ACHIEVEMENT_6_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 100,
-      "stat_name": "treasureGoblin"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "treasureGoblin",
+        "min_val": 100,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Treasure Goblin 250",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/2812c59745d5611971e55463a209b0a1120c8887.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/abb95f4ab79d5ce5cc32b44d9b4cb674a2b7aaff.jpg",
     "displayName": {
@@ -946,15 +1006,17 @@
       "english": "Kill 250 Treasure Goblins",
       "token": "NEW_ACHIEVEMENT_6_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 250,
-      "max_val": 250,
-      "stat_name": "treasureGoblin"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "treasureGoblin",
+        "min_val": 250,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "Treasure Goblin 500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/2812c59745d5611971e55463a209b0a1120c8887.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/abb95f4ab79d5ce5cc32b44d9b4cb674a2b7aaff.jpg",
     "displayName": {
@@ -965,15 +1027,17 @@
       "english": "Kill 500 Treasure Goblins",
       "token": "NEW_ACHIEVEMENT_6_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 500,
-      "max_val": 500,
-      "stat_name": "treasureGoblin"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "treasureGoblin",
+        "min_val": 500,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "Pirate Killer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/e62e448fbd4df7f2a82b85439f20c82ec847f81a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2540810/bc3ac08de83047210c698a8362783ee00363b3b8.jpg",
     "displayName": {

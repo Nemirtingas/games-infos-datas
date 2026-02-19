@@ -1,7 +1,7 @@
 [
   {
     "name": "KILL_BOSS_TUTORIAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/7fbb8ba4aa44b786d543a091c107b8fdb8b12e40.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/24e4824d0f780b8d5afc5fb633c8b3907d9ce1fd.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "TRIALS_COMPLETE_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/66b4a3fc063d0816792b457004695abb887807cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/5827de9d482df0c59ecb30fc82e8a30a4780d8ff.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "TRIALS_ALL_3_STARS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/ad10c56b192e04e2fa898a56c2746c2091b19983.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/3b7e5e36880378bebc0a8caaedb1d01db67bcf7c.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "TRIALS_100_STARS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/e0973b20a0d8d449664809439cd5272b62256c98.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/56264b02c8ea827ad784155fa78e9ed945fc61e8.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Achieved total of 100 stars from trials",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TRIALS_STAR_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TRIALS_STAR_COUNT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "KILL_BOSS_DEPTH_01",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/4aa9d6c25bae0ebeaa896af537acfa6759b501fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/7f3ff01c1c12ed7443f2946f8ba8bcbbbcdf7599.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "KILL_BOSS_DEPTH_02",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/c3c5d185b9c267c7772d3bed30e25ca6c749be82.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/b1d2f6216400d964aae8329366a3ab7f758fecd3.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "KILL_BOSS_DEPTH_03",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/779d40ee8104d7018b5a5b6f871587ed77675869.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/21aef95af071b2c15702a570b6741447360bdfa4.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "KILL_BOSS_DEPTH_03_2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/8da6018830543fbf614ed8a62ac8fcce2a00bccc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/b2ea0108c3bd867f748b6619e006b4557f98bb95.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "DEPTH_01_SCORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/17e79fb89475cd283a46f28c8d0f08db0f6c456a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/6d0959c577c128a96fad6c1f1641f0277b8377c0.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "DEPTH_01_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/17e79fb89475cd283a46f28c8d0f08db0f6c456a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/6d0959c577c128a96fad6c1f1641f0277b8377c0.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "DEPTH_02_SCORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/b05de5246b83cc5c5ebb0fb1c72253d7d9c3eaed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/db0996afc5c7ea2b66defa230864e47706140f44.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "DEPTH_02_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/b05de5246b83cc5c5ebb0fb1c72253d7d9c3eaed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/db0996afc5c7ea2b66defa230864e47706140f44.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "DEPTH_03_SCORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/c5e2d45292adaf5475b01fa5596d515f9fd566a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/06161142987f6e7f0f3ee13c9e3d598792e6dc8c.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "DEPTH_03_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/c5e2d45292adaf5475b01fa5596d515f9fd566a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/06161142987f6e7f0f3ee13c9e3d598792e6dc8c.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "MONSTER_KILL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/d1bb53d661dc3e59eec11a0573f23f7b55b2bef2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/37c109500fe7375a481d4f7e88aa7625ed135151.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "SURVIVE_CURSE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/bb935c6883efa6ba5d360eb8f86e1876d107e6a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/e334ead10a13464d5887cd37a0ce90be1a124090.jpg",
     "displayName": {
@@ -230,7 +232,7 @@
   },
   {
     "name": "FULLY_LOADED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/f9c7c7575cf70087f875b7d3d06f73be44fa042f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/594b2f56bf0ca78784cde7a094fdb578be7b6d0b.jpg",
     "displayName": {
@@ -244,7 +246,7 @@
   },
   {
     "name": "DAMAGE_TOTAL_1M",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/8c4b316f3134cce8213df097e02b32d79a7d92ab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/48138318b83eb158ca36e01c08ca4747db621e39.jpg",
     "displayName": {
@@ -255,15 +257,17 @@
       "english": "Deal total of 1M in damage!",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000000,
-      "stat_name": "DAMAGE_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DAMAGE_TOTAL",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
   },
   {
     "name": "SCORE_TOTAL_100K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/6e115567a278d281c1dd154a5ef0ad4254e45883.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/bab6dcaaf49f75ec16ee09740e4e33031f021d4e.jpg",
     "displayName": {
@@ -274,15 +278,17 @@
       "english": "Accumulate a total score of 100K",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "SCORE_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SCORE_TOTAL",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "SCORE_TOTAL_500K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/474245fca57faf0456e6d97fc9b3ca5e493bfa5c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/a8cf4891832e60bc6a2b8b3aaa7b3bfc983de572.jpg",
     "displayName": {
@@ -293,15 +299,17 @@
       "english": "Accumulate a total score of 500K",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500000,
-      "stat_name": "SCORE_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SCORE_TOTAL",
+        "min_val": 0,
+        "max_val": 500000
+      }
+    ]
   },
   {
     "name": "SCORE_TOTAL_2M",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/3b0bc36d0458d56c0e85d1a9e0e6c2696aa5b355.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/1a9f133d2d886e524728052f1ff884a15e19b16e.jpg",
     "displayName": {
@@ -312,15 +320,17 @@
       "english": "Accumulate a total score of 2M",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2000000,
-      "stat_name": "SCORE_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SCORE_TOTAL",
+        "min_val": 0,
+        "max_val": 2000000
+      }
+    ]
   },
   {
     "name": "OPEN_CHESTS_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/2f6f486f8b7585dc334abe7616d377097a17c36d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/f02c062b807c5a6e4e5a5bbdbd6f398ecdc6f9f2.jpg",
     "displayName": {
@@ -331,15 +341,17 @@
       "english": "Loot 100 chests",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "OPEN_CHESTS_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "OPEN_CHESTS_COUNT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "UNLOCK_CHESTS_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/6fa393eac900b7e9dfc65841cc622a1a1de1993e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/105bf610238da6aeaa11f08575a62a9cbf74acb4.jpg",
     "displayName": {
@@ -350,15 +362,17 @@
       "english": "Unlock 100 locked chests",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "UNLOCK_CHESTS_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "UNLOCK_CHESTS_COUNT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "DASH_1K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/c0102f3332c9b660137d78e37f173add87ac2de7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/7e85924e52bbffac4e4c553753c40349707434f0.jpg",
     "displayName": {
@@ -369,15 +383,17 @@
       "english": "Dash 1000 times",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "DASH_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DASH_COUNT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "PERFECT_CLEARS_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/f834163ea3023b003b9a0d29149a257b1e92838c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/1651e2218e16081ea48ec30c8e55df9b9572d807.jpg",
     "displayName": {
@@ -388,15 +404,17 @@
       "english": "Get 100 perfect clears",
       "token": "NEW_ACHIEVEMENT_1_25_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "PERFECT_CLEAR_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PERFECT_CLEAR_COUNT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "STUN_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/88e5887d8771d4cfe3c0f8a86a633657ff1bb1c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/9d6c722d371fb7120daf21abcc943731e109db07.jpg",
     "displayName": {
@@ -407,15 +425,17 @@
       "english": "Stun enemis 100 times",
       "token": "NEW_ACHIEVEMENT_1_26_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STUN_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STUN_COUNT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "PROJECTILES_CLEARED_1K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/ac2597be11928444dec6428277a4e42ef1d09504.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/77b103db6aaa59f40f20796c5bd829683697bc9b.jpg",
     "displayName": {
@@ -426,15 +446,17 @@
       "english": "Use stun to clear 1000 projectiles",
       "token": "NEW_ACHIEVEMENT_1_27_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "PROJECTILES_CLEARED_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PROJECTILES_CLEARED_COUNT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "SPEND_TICKETS_1K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/ceb36f3965df03d5d0fc08bb8abb5ca3eef3e236.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/3bf106d7cca6841e1814afab5c86f8284f125a5c.jpg",
     "displayName": {
@@ -445,15 +467,17 @@
       "english": "Spend 1000 tickets",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "TICKETS_SPENT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TICKETS_SPENT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "FINISHER_1K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/ee44e5ab34f9b7946dd16e8deb74edd0c82b8e51.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/9c5e10887ad1de052ec9d2af2de6af6761e5fa71.jpg",
     "displayName": {
@@ -464,15 +488,17 @@
       "english": "Use finisher to kill enemies 1000 times",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "KILL_COUNT_FINISHER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KILL_COUNT_FINISHER",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "DAMAGE_DEALT_HANDGUNS_100K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/d9154241557e92613c1d4d65712b6bd221a2eeaa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/45d2c8588d561af62b0e776f9c2147c56a9f5a01.jpg",
     "displayName": {
@@ -483,15 +509,17 @@
       "english": "Deal 100K damage with handguns",
       "token": "NEW_ACHIEVEMENT_1_30_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "DAMAGE_DEALT_HANDGUNS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DAMAGE_DEALT_HANDGUNS",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "DAMAGE_DEALT_SHOTGUNS_100K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/34d37419e2b471ab99c86f5bff54952e34a8c5f0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/98349eb62975162a7250a998ada08cf1375e6f1a.jpg",
     "displayName": {
@@ -502,15 +530,17 @@
       "english": "Deal 100K damage with shotguns",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "DAMAGE_DEALT_SHOTGUNS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DAMAGE_DEALT_SHOTGUNS",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "DAMAGE_DEALT_SMGS_100K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/4b77b0230ce29251c048c542541fa5b472c6783b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/f8aa03c029ecf10a21c44de5f07b4b68c1345375.jpg",
     "displayName": {
@@ -521,15 +551,17 @@
       "english": "Deal 100K damage with SMGs",
       "token": "NEW_ACHIEVEMENT_24_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "DAMAGE_DEALT_SMGS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DAMAGE_DEALT_SMGS",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "DAMAGE_DEALT_ASSAULT_RIFLES_100K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/3cce01300c330013416b46613144bcd07c3f6eb3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/1ce4302d208262967e48c2b70d39c73238a1bb10.jpg",
     "displayName": {
@@ -540,15 +572,17 @@
       "english": "Deal 100K damage with assault rifles",
       "token": "NEW_ACHIEVEMENT_24_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "DAMAGE_DEALT_ASSAULT_RIFLES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DAMAGE_DEALT_ASSAULT_RIFLES",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "DAMAGE_DEALT_RIFLES_100K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/96069e94b241000738d62589ddf761992669d0bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/61647212d47f61ed19aa10c7e5aaef22e4c3e525.jpg",
     "displayName": {
@@ -559,15 +593,17 @@
       "english": "Deal 100K damage with rifles",
       "token": "NEW_ACHIEVEMENT_24_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100000,
-      "stat_name": "DAMAGE_DEALT_RIFLES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DAMAGE_DEALT_RIFLES",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "INFLICT_BURNING_1K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/e843360b5f64ac9126df56eae974c5fb1b201433.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/6d84bb96dcc2539fcb105ec0be482f85f7dc7bf0.jpg",
     "displayName": {
@@ -578,15 +614,17 @@
       "english": "Inflict burning to enemies 1000 times",
       "token": "NEW_ACHIEVEMENT_24_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "INFLICT_BURNING_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "INFLICT_BURNING_COUNT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "INFLICT_DEATHMARK_1K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/ee44e5ab34f9b7946dd16e8deb74edd0c82b8e51.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/9c5e10887ad1de052ec9d2af2de6af6761e5fa71.jpg",
     "displayName": {
@@ -597,15 +635,17 @@
       "english": "Inflict deathmark to enemies 1000 times",
       "token": "NEW_ACHIEVEMENT_24_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "INFLICT_DEATHMARK_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "INFLICT_DEATHMARK_COUNT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "INFLICT_ELECTRIFY_1K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/48f7f3a885098eb05c36737f1a51a1612a3e6275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/2e9a00b35bdcac384790a1e6520792cd8c3dd99e.jpg",
     "displayName": {
@@ -616,15 +656,17 @@
       "english": "Inflict electrify to enemies 1000 times",
       "token": "NEW_ACHIEVEMENT_24_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "INFLICT_ELECTRIFY_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "INFLICT_ELECTRIFY_COUNT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "HIT_STREAK_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/6a1707bdf71d3e1aa9b1bc6861ee0f4d09d7441c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/cd76d482c2447b966cf10b73289f0e6325c33346.jpg",
     "displayName": {
@@ -638,7 +680,7 @@
   },
   {
     "name": "NO_WEAPON_PICKUPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/cbe86c5143322476c60af47d5beca5cb1c5c77fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/ee3ccf26640f4f51152a34a41069981c937a7584.jpg",
     "displayName": {
@@ -652,7 +694,7 @@
   },
   {
     "name": "SELL_AND_BUY_HEALTH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/29471454469e03732e3ab08b513add44f1b3833d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/1a80a6513c589fcbb6d5e6823fbd6319216a1b6c.jpg",
     "displayName": {
@@ -666,7 +708,7 @@
   },
   {
     "name": "DEATH_BY_SELLING_HEALTH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/630ce1a8dce63b840dc9c6d514f61f9ec3a0f50f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/3f16afdf09c1e95e54d5a684b05b98101adb90ca.jpg",
     "displayName": {
@@ -680,7 +722,7 @@
   },
   {
     "name": "RESURRECTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/ddce336c3d18aee972fcd653de93d5153d895e24.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/26797375488cb87076629da93e322f297be8157d.jpg",
     "displayName": {
@@ -694,7 +736,7 @@
   },
   {
     "name": "CHEATED_RITUALIST",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/630ce1a8dce63b840dc9c6d514f61f9ec3a0f50f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/3f16afdf09c1e95e54d5a684b05b98101adb90ca.jpg",
     "displayName": {
@@ -708,7 +750,7 @@
   },
   {
     "name": "BEAT_HARD_DIFFICULTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/9015b5ff457d0f76c62df82dc40388f41d9369c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/276147f2d5ce0e64850aae0082ed52cee4cd5a00.jpg",
     "displayName": {
@@ -722,7 +764,7 @@
   },
   {
     "name": "BEAT_IMPOSSIBLE_DIFFICULTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/f45c14346cbce45fcd78e72772d40cb607a2e6dc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/9554f4c60b92f6c2057e8721ed8990c6082e371e.jpg",
     "displayName": {
@@ -736,7 +778,7 @@
   },
   {
     "name": "NO_WEAPON_OR_PASSIVE_PICKUPS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/49d2c851061f57e0e40423d42ab7b29decb332cd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2808530/c5367ce5c63d210f261d0d486f87c57836f46262.jpg",
     "displayName": {

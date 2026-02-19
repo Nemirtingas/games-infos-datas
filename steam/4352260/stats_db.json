@@ -1,32 +1,61 @@
 [
   {
     "name": "holdouts_captured",
-    "defaultvalue": 0,
-    "displayName": "Holdouts Captured"
+    "displayName": "Holdouts Captured",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 200,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "global_holdouts_captured",
-    "defaultvalue": 0,
-    "displayName": "Total Holdouts Captured"
+    "displayName": "Total Holdouts Captured",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 200,
+    "default": 0
   },
   {
     "name": "deaths",
-    "defaultvalue": 0,
-    "displayName": "Times Defeated"
+    "displayName": "Times Defeated",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "global_deaths",
-    "defaultvalue": 0,
-    "displayName": "Totals Deaths within Implant Corps"
+    "displayName": "Totals Deaths within Implant Corps",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "robots_destroyed",
-    "defaultvalue": 0,
-    "displayName": "Robots Destroyed"
+    "displayName": "Robots Destroyed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 2500,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "global_robots_destroyed",
-    "defaultvalue": 0,
-    "displayName": "Robots Destroyed by Implant Corps"
+    "displayName": "Robots Destroyed by Implant Corps",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 2500,
+    "min": 0,
+    "default": 0
   }
 ]

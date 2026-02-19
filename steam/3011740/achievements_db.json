@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_LV_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3011740/50cbb3e23c5e6b80af5c48f502b1745d21d55f59.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3011740/b018f99e6078fdf969c17fa6044c88479efbc132.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_KILL_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3011740/7409cd2a9a3c1f77394c51d03637a2962aa7705f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3011740/b018f99e6078fdf969c17fa6044c88479efbc132.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Killed 1000 Monsters",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "EnemyKilled"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "EnemyKilled",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_LV_60",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3011740/de53fbb9892d16a3e5080057e49a2fc7e94c2f7d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3011740/b018f99e6078fdf969c17fa6044c88479efbc132.jpg",
     "displayName": {

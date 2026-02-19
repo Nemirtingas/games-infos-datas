@@ -1,7 +1,7 @@
 [
   {
     "name": "secret",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/4b23d4feac13e0b82d269b6288c2894e71ee7e32.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": " ",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "FoundSecret"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FoundSecret",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "noDamage",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/a0c3299351a55076b5cc400ac632894c53106e90.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -31,15 +33,17 @@
       "english": "Beat the game without taking any damage",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "NoHit"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NoHit",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "timeMet",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/209f532fc682df72cb4cf1d667918e9d4a393be4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -50,15 +54,17 @@
       "english": "Beat the game in under 5 minutes",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "TimeMet"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TimeMet",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "gensFixed",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/c56242e68ae43dc11c8959f222c3660d2527ca16.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -69,15 +75,17 @@
       "english": "Fix at least 100 generators",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "TasksCompleted_TasksCompleted"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TasksCompleted_TasksCompleted",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "shortcircuit",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/6190d4c14addcbb6c4bd93b4015d1784a085c20c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -88,15 +96,17 @@
       "english": "Fortunately (or rather, unfortunately), we thought you would do that.",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "WaterGen_WaterGen"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "WaterGen_WaterGen",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "firstDeath",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/6c0911683b73c48e546bc73d6c72eb0a37fd0304.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -107,15 +117,17 @@
       "english": "Died for the first time",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "FirstDeath"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "FirstDeath",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "allDamageSourceDeath",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/e0ce372b99a0a875982b28e4ebb02f65bd6ccc63.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -126,15 +138,17 @@
       "english": "Got hit by all damage sources in one life",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "AllDamage"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "AllDamage",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "beatLevel1",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/aca38e730006f0ae4e76ebda6ba6d2692e0c5bdb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -145,15 +159,17 @@
       "english": "Beat level 1",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "BeatLvl1"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BeatLvl1",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "beatLevel2",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/3558056e0a80b1bbfb93f6ef99919d4173e544ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -164,15 +180,17 @@
       "english": "Beat level 2",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "BeatLvl2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BeatLvl2",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "beatGame",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/89d721388fd0d02ee0556b56312a0a918a11c1a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -183,15 +201,17 @@
       "english": "Get it?",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "BeatGame"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BeatGame",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "beatGameTimerActive",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/19b11796d721e9c016bbe11858eedddf1d6682c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -202,15 +222,17 @@
       "english": "Beat the game with the timer active",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "TimerActive"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TimerActive",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "noLowPlant",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/589d9347f12d2927fd19e48a5e0973ae92a57c3f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -221,15 +243,17 @@
       "english": "Beat the game without the plant getting below 60 percent health",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "PlantHealthy"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PlantHealthy",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "noLowGenerators",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/df3cdb13c22d281ca5bb9e1968965bda0b2f242d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -240,15 +264,17 @@
       "english": "Beat the game without a generator going below 19 seconds",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "GenHealthy"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GenHealthy",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "lastSecondFix",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/41392c1035361686157e01d24657169f98611c35.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -259,15 +285,17 @@
       "english": "How much time was left? You don't wanna know.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "LastSecond"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LastSecond",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "firstPlantDeath",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/6fbf8bad940c9ce740f0ab38633fc72a44ea2bb5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -278,15 +306,17 @@
       "english": "You know that's your only source of oxygen, right?",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "PlantDeath"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "PlantDeath",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "beatGameOneHitLeft",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/106319b328ad43a22cf821b7d0a6fe487cc93bb4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -297,15 +327,17 @@
       "english": "Beat the game with only 1 hit remaining on each level.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "OneHitEach"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "OneHitEach",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "beatLevel2NoJump",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/606bcc57a1f9ff24cac97bf6808f57cca751a48c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -316,15 +348,17 @@
       "english": "Beat Level 2 without jumping",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "Lvl2NoJump"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Lvl2NoJump",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "plantsWatered",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/5758c985e915c94601f9294686856113bdb2fd8f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/009d8622744712ebd064bd1a49c170332f0f6698.jpg",
     "displayName": {
@@ -335,15 +369,17 @@
       "english": "Water the plant 50 times",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "WaterPlant_WaterPlant"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "WaterPlant_WaterPlant",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "beatLevel3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/a6d3b03d40030366decae15ed0ab7eeb9ccfa2f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3925860/a572fb5a2442c20b8b7910e35cb837e81dd64ec1.jpg",
     "displayName": {
@@ -354,10 +390,12 @@
       "english": "Beat level 3",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "BeatLvl3"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BeatLvl3",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

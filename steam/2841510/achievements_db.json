@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_LEVEL1_SURVIVE_I",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/4fd1affcdaba1bbaed1eaf8f3bdd1a1eb8da1700.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/4fb731ab02b147c03d7e69cdaade858a5f16900c.jpg",
     "displayName": {
@@ -19,7 +19,7 @@
   },
   {
     "name": "ACH_LEVEL1_SURVIVE_II",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/1624623a0976c3b1ffdc5cec455268219923f957.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/4fb731ab02b147c03d7e69cdaade858a5f16900c.jpg",
     "displayName": {
@@ -37,7 +37,7 @@
   },
   {
     "name": "ACH_LEVEL1_SURVIVE_III",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/71ceae2c987bc988386489535fd546addecf62f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/4fb731ab02b147c03d7e69cdaade858a5f16900c.jpg",
     "displayName": {
@@ -55,7 +55,7 @@
   },
   {
     "name": "ACH_LEVEL1_BEAT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/708500c69c9968fbf4fc4d0258ae1c5d9fabba4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/4fb731ab02b147c03d7e69cdaade858a5f16900c.jpg",
     "displayName": {
@@ -73,7 +73,7 @@
   },
   {
     "name": "ACH_BOSS_KILL_HOUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/87bfb1b773f8dc48e5ef2d2e8e16f8727ec1b86d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/bf2d072917b229a9961228608ef8cf3fcad2b838.jpg",
     "displayName": {
@@ -91,7 +91,7 @@
   },
   {
     "name": "ACH_BOSS_KILL_SUCCUBUS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/23bf72e26effa34e831e2ccacde2775f0a58d5e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/9bba0d00192451f078eadf6266ff29135906c36e.jpg",
     "displayName": {
@@ -109,7 +109,7 @@
   },
   {
     "name": "ACH_BOSS_KILL_I",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/9feebba82a8cb6af6599f346a313b838e326fd54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/15bb0276e7b654bee94f6e21c31b7cf608f49458.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "schinese": "总共杀死 10 个 Boss。",
       "token": "ACH_BOSS_KILL_I_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_bosses_killed_total"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_bosses_killed_total",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_BOSS_KILL_II",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/c27abd7d9940a1812d2defc5aeb7d3eb4e35b5f6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/15bb0276e7b654bee94f6e21c31b7cf608f49458.jpg",
     "displayName": {
@@ -147,15 +149,17 @@
       "schinese": "总共杀死 40 个 Boss。",
       "token": "ACH_BOSS_KILL_II_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 40,
-      "stat_name": "stat_bosses_killed_total"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_bosses_killed_total",
+        "min_val": 10,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "ACH_BOSS_KILL_III",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/4923e0b4dc44d459e4d087b8fd2cb6559a98014b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/15bb0276e7b654bee94f6e21c31b7cf608f49458.jpg",
     "displayName": {
@@ -170,15 +174,17 @@
       "schinese": "总共杀死 100 个 Boss。",
       "token": "ACH_BOSS_KILL_III_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 40,
-      "max_val": 100,
-      "stat_name": "stat_bosses_killed_total"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_bosses_killed_total",
+        "min_val": 40,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_ELITE_KILL_HIGHDEMON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/46d27fe51ee68d009644d48986c22fdde657b3e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/fdee371b71ed8462bd43a9374f0a6e8ebfc80c22.jpg",
     "displayName": {
@@ -196,7 +202,7 @@
   },
   {
     "name": "ACH_ELITE_KILL_VENOSAUR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/49fe9cc33297bc963e6f89cf6bac4d7b149da8db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/e7ada4d379e288bc9b0c6e6cf9e0a17c2b71ef34.jpg",
     "displayName": {
@@ -214,7 +220,7 @@
   },
   {
     "name": "ACH_ELITE_KILL_DEMONBRUTE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/e8db34ee668ca862cbaa0176f2425e18ee79c267.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/9911771bda2016f73b0fe377c34269dd28a6ebda.jpg",
     "displayName": {
@@ -232,7 +238,7 @@
   },
   {
     "name": "ACH_ELITE_KILL_I",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/e6fccc01d4c8f2e4751dcaecc0a95539b6c99f79.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/6763e97714722d5c5fed5477d09dbed74a37554d.jpg",
     "displayName": {
@@ -247,15 +253,17 @@
       "schinese": "总共杀死 20 名精英。",
       "token": "ACH_ELITE_KILL_I_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "stat_elites_killed_total"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_elites_killed_total",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_ELITE_KILL_II",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/0df7f7980180d7a4811204ff02cb63be6c229954.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/6763e97714722d5c5fed5477d09dbed74a37554d.jpg",
     "displayName": {
@@ -270,15 +278,17 @@
       "schinese": "总共击杀 80 名精英。",
       "token": "ACH_ELITE_KILL_II_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 20,
-      "max_val": 80,
-      "stat_name": "stat_elites_killed_total"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_elites_killed_total",
+        "min_val": 20,
+        "max_val": 80
+      }
+    ]
   },
   {
     "name": "ACH_ELITE_KILL_III",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/57cb29cb9c3598c504ce70ea74685719bda48fb5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/6763e97714722d5c5fed5477d09dbed74a37554d.jpg",
     "displayName": {
@@ -293,15 +303,17 @@
       "schinese": "总共杀死 160 名精英。",
       "token": "ACH_ELITE_KILL_III_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 80,
-      "max_val": 160,
-      "stat_name": "stat_elites_killed_total"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_elites_killed_total",
+        "min_val": 80,
+        "max_val": 160
+      }
+    ]
   },
   {
     "name": "ACH_GOLD_COLLECT_I",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/c863a96ec080cc53c9e94530d225a2310fe31d53.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/ab7af699c8641ee2d7f931b3fe054b08df955676.jpg",
     "displayName": {
@@ -316,15 +328,17 @@
       "schinese": "总共收集 1000 金。",
       "token": "ACH_GOLD_COLLECT_I_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "stat_gold_collect"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_gold_collect",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ACH_GOLD_COLLECT_II",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/78e8ef45fa99b56f895bc8a01fae4042635b810b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/ab7af699c8641ee2d7f931b3fe054b08df955676.jpg",
     "displayName": {
@@ -339,15 +353,17 @@
       "schinese": "总共收集 20000 金。",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1000,
-      "max_val": 20000,
-      "stat_name": "stat_gold_collect"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_gold_collect",
+        "min_val": 1000,
+        "max_val": 20000
+      }
+    ]
   },
   {
     "name": "ACH_GOLD_COLLECT_III",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/ecf2cfe226a97d4fc7d2810bb09805717b4e9773.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/ab7af699c8641ee2d7f931b3fe054b08df955676.jpg",
     "displayName": {
@@ -362,15 +378,17 @@
       "schinese": "总共杀死 160 名精英。",
       "token": "ACH_GOLD_COLLECT_III_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 20000,
-      "max_val": 100000,
-      "stat_name": "stat_gold_collect"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_gold_collect",
+        "min_val": 20000,
+        "max_val": 100000
+      }
+    ]
   },
   {
     "name": "ACH_DEMONHEART_COLLECT_I",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/35cfaebd4b671145111bb4fe02d8d2abe95e6866.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/9d89e2333adf6c3df70ba0077412ac782833c5d2.jpg",
     "displayName": {
@@ -385,15 +403,17 @@
       "schinese": "总共收集 1000 金。",
       "token": "ACH_DEMONHEART_COLLECT_I_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_demon_hearts_collect"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_demon_hearts_collect",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_DEMONHEART_COLLECT_II",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/761404adacab44c7283d5a9ba01e22cf9fd0d4c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/9d89e2333adf6c3df70ba0077412ac782833c5d2.jpg",
     "displayName": {
@@ -408,15 +428,17 @@
       "schinese": "总共收集 20000 金。",
       "token": "ACH_DEMONHEART_COLLECT_II_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 50,
-      "stat_name": "stat_demon_hearts_collect"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_demon_hearts_collect",
+        "min_val": 10,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_DEMONHEART_COLLECT_III",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/7dcab93ae54b8ae91c9fc2ba6439f2c2506069f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/9d89e2333adf6c3df70ba0077412ac782833c5d2.jpg",
     "displayName": {
@@ -431,15 +453,17 @@
       "schinese": "总共收集 100000 金。",
       "token": "ACH_DEMONHEART_COLLECT_III_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 50,
-      "max_val": 200,
-      "stat_name": "stat_demon_hearts_collect"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_demon_hearts_collect",
+        "min_val": 50,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ACH_SENDTOMERCHANT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/5b05f70f1ef929500b683497fb81523b4471face.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/a6f122bbdd1c0a06d20cfae4bfc6de0ddaa7a379.jpg",
     "displayName": {
@@ -457,7 +481,7 @@
   },
   {
     "name": "ACH_POTION_DRINK_I",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/ae9fd575ac5db396619a596059ef1c7ac21b33d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/c2435f713265d24d44d9efb6fe8fa1b6e6d97bf0.jpg",
     "displayName": {
@@ -472,15 +496,17 @@
       "schinese": "总共消耗 10 个健康药水。",
       "token": "ACH_POTION_DRINK_I_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stat_health_potion_consumed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_health_potion_consumed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_POTION_DRINK_II",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/e141b4529d81414d112e4faecf4a834fcd4eb2c5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/c2435f713265d24d44d9efb6fe8fa1b6e6d97bf0.jpg",
     "displayName": {
@@ -495,15 +521,17 @@
       "schinese": "总共消耗 100 个健康药水。",
       "token": "ACH_POTION_DRINK_II_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10,
-      "max_val": 100,
-      "stat_name": "stat_health_potion_consumed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_health_potion_consumed",
+        "min_val": 10,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_POTION_DRINK_III",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/cc380619c4132c583857d2509b9d920a57820162.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/c2435f713265d24d44d9efb6fe8fa1b6e6d97bf0.jpg",
     "displayName": {
@@ -518,15 +546,17 @@
       "schinese": "总共消耗 500 个健康药水。",
       "token": "ACH_POTION_DRINK_III_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 100,
-      "max_val": 500,
-      "stat_name": "stat_health_potion_consumed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_health_potion_consumed",
+        "min_val": 100,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACH_NO_HIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/3545ffe1a84a8e0bff7a12a72f063e4a48f3606e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/92de27a8bc5308bdd5c54f44c97b6136aae83009.jpg",
     "displayName": {
@@ -544,7 +574,7 @@
   },
   {
     "name": "ACH_NO_FIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/a665f2982d57af0013f289b15b5ce02b13d1067c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/6fa628f61767bcdc8591d21596dcd10dd6b4808f.jpg",
     "displayName": {
@@ -562,7 +592,7 @@
   },
   {
     "name": "ACH_ENEMY_KILL_ONERUN_I",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/b7aa630cacab202c6eeba16f1921aa9503df5d6b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/b64a431f48aa306dce04e893c38e6377e91b5bf3.jpg",
     "displayName": {
@@ -577,15 +607,17 @@
       "schinese": "在一次运行中杀死 5000 名敌人",
       "token": "ACH_ENEMY_KILL_ONERUN_I_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "stat_enemy_killed_onerun"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_enemy_killed_onerun",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "ACH_ENEMY_KILL_ONERUN_II",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/1aff2927a6d7f68963d4e2cb101d8868a96f7e68.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/b64a431f48aa306dce04e893c38e6377e91b5bf3.jpg",
     "displayName": {
@@ -600,15 +632,17 @@
       "schinese": "在一次运行中杀死 10000 名敌人。",
       "token": "ACH_ENEMY_KILL_ONERUN_II_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 5000,
-      "max_val": 10000,
-      "stat_name": "stat_enemy_killed_onerun"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_enemy_killed_onerun",
+        "min_val": 5000,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "ACH_ENEMY_KILL_ONERUN_III",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/7d381231d74fd4a46c51a8056bf5aff345d48c4b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/b64a431f48aa306dce04e893c38e6377e91b5bf3.jpg",
     "displayName": {
@@ -623,15 +657,17 @@
       "schinese": "在一次运行中杀死 20000 名敌人",
       "token": "ACH_ENEMY_KILL_ONERUN_III_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 10000,
-      "max_val": 20000,
-      "stat_name": "stat_enemy_killed_onerun"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_enemy_killed_onerun",
+        "min_val": 10000,
+        "max_val": 20000
+      }
+    ]
   },
   {
     "name": "ACH_LEVELUP_I",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/b49964d51f715010f46df2f0c68dfa686964cba1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/2d8ae4ba5dc52a822848eff5a57854442fa87112.jpg",
     "displayName": {
@@ -646,15 +682,17 @@
       "schinese": "达到 20 级",
       "token": "ACH_LEVELUP_I_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "stat_max_level_reached"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_max_level_reached",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_LEVELUP_II",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/865f19f1c5d16b786262bccf47b6f0ea37d3a8bd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/2d8ae4ba5dc52a822848eff5a57854442fa87112.jpg",
     "displayName": {
@@ -669,15 +707,17 @@
       "schinese": "达到 40 级",
       "token": "ACH_LEVELUP_II_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 20,
-      "max_val": 40,
-      "stat_name": "stat_max_level_reached"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_max_level_reached",
+        "min_val": 20,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "ACH_LEVELUP_III",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/e88b7b7c507280782059941fa703bd2383c319e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2841510/2d8ae4ba5dc52a822848eff5a57854442fa87112.jpg",
     "displayName": {
@@ -692,10 +732,12 @@
       "schinese": "达到 60 级",
       "token": "ACH_LEVELUP_III_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 40,
-      "max_val": 60,
-      "stat_name": "stat_max_level_reached"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_max_level_reached",
+        "min_val": 40,
+        "max_val": 60
+      }
+    ]
   }
 ]

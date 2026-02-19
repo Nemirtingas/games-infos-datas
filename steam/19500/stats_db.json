@@ -5,9 +5,9 @@
     "type": "float",
     "incrementonly": true,
     "aggregated": false,
-    "min": 0,
-    "max": 100,
-    "default": 0
+    "min": 0.0,
+    "max": 100.0,
+    "default": 0.0
   },
   {
     "name": "time_per_life",
@@ -15,7 +15,8 @@
     "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "gems_percent",
@@ -23,8 +24,8 @@
     "type": "float",
     "incrementonly": true,
     "aggregated": false,
-    "min": 0,
-    "max": 100,
-    "default": 0
+    "min": 0.0,
+    "max": 100.0,
+    "default": 0.0
   }
 ]

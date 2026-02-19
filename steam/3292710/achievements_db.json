@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_GLDV",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/f72f9c983f0af30135bafa914eaac5469b7c525b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/02eee60a2707caa176ebb489453aed29377e21af.jpg",
     "displayName": {
@@ -14,7 +14,7 @@
   },
   {
     "name": "ACH_TUT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/e27a891aaf39163c4e66102bd3408aaedd25bf7c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/b05661aa75d54d209278cce7f2340d4f5e06b0f5.jpg",
     "displayName": {
@@ -28,7 +28,7 @@
   },
   {
     "name": "ACH_MAP1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/5fb87af63a7309170cf0e650db3eaf129b4310d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/ea863a67afaefb0c611e16136714f1b1a09dd3d9.jpg",
     "displayName": {
@@ -42,7 +42,7 @@
   },
   {
     "name": "ACH_MAP2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/fc5535679257287299c2823708678f006f18d3e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/6bbf3af52078e6fb06168f19ed585d11dd3c127c.jpg",
     "displayName": {
@@ -56,7 +56,7 @@
   },
   {
     "name": "ACH_MAP3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/de1afba79b36872846e96165d8410742d06ad5fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/3d7f4169340ef989f4e991b9b08b40aa96faf63b.jpg",
     "displayName": {
@@ -70,7 +70,7 @@
   },
   {
     "name": "ACH_MAP4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/e3826c813b3d145d9d0db373a249f245252efec9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/714838e27e6c016380ffa8c642e3ea33ee03c012.jpg",
     "displayName": {
@@ -84,7 +84,7 @@
   },
   {
     "name": "ACH_MAP5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/2166aca951fd20110ad28faa43b147b343c62e3b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/643b2ff75cd70a6b531670cd061dee2e99f83a21.jpg",
     "displayName": {
@@ -98,7 +98,7 @@
   },
   {
     "name": "ACH_P1K",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/b793c2164930132489abfeb00b41de52695ad2f0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/a2863b64deda6e4c9aa58722ca5ee91dc68ed9a9.jpg",
     "displayName": {
@@ -112,7 +112,7 @@
   },
   {
     "name": "ACH_NUKE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/1df3f111d89ef3b76e200d15cdfd2e095ad4e011.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/32028f897cb2a41b0e7335bfda22ca03c2fc81be.jpg",
     "displayName": {
@@ -126,7 +126,7 @@
   },
   {
     "name": "ACH_KILL_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/a6c6119280383ef14be30df9db69a9cd87eb77ca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/9987237e618be71a42d3ffc0f328890da89ae353.jpg",
     "displayName": {
@@ -137,15 +137,17 @@
       "english": "Destroy 5 enemy units",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "KILLER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KILLER",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_KILL_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/da9d176f17f960dd061426a663817ee5716cdee0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/85042ea2aa6c051d1d43a280d2ace63d7e21408f.jpg",
     "displayName": {
@@ -156,15 +158,17 @@
       "english": "Destroy 15 enemy units",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "KILLER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KILLER",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "ACH_KILL_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/d28572f01ac1597bb386386fe9cf4e2e420d5ef0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/9993d5a5c6d3f1cac476907347135f1ad19d008c.jpg",
     "displayName": {
@@ -175,15 +179,17 @@
       "english": "Destroy 40 enemy units",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 40,
-      "stat_name": "KILLER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KILLER",
+        "min_val": 0,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "ACH_KILL_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/9eea338b2a940a22c76e2855848b1dc36fe2c80b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/8e26a003c4a9e157238aeb7aa335a659f72be391.jpg",
     "displayName": {
@@ -194,15 +200,17 @@
       "english": "Destroy 100 enemy units",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "KILLER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KILLER",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_KILL_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/0f07e7b7dcfca4261918e97bea577b0cf7ce550e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/3d9ffdf9ce3f7badce857865973fb4307fa77d0a.jpg",
     "displayName": {
@@ -213,15 +221,17 @@
       "english": "Destroy 250 enemy units",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "KILLER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KILLER",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "ACH_STACJA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/b9e365c93e32b832bbc46f8f21146255514f6580.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3292710/d99e9e6dcbeae06d6168bf563f16bbce58089edd.jpg",
     "displayName": {

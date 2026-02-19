@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_50_ENEMIES_KILLED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/546afbd4a20472358c33dbf500111f1cd9c9c7bd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/958065ba960aff12796935069bd20eab0a50201c.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Kill 50 enemies",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "numKilledEnemies"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "numKilledEnemies",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_FIRSTGAME",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/6a6873c4e89df6fe380f662753877ca9f9c25f96.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/0575a69ee5a3184899019857ba20f07e6ed25200.jpg",
     "displayName": {
@@ -34,7 +36,7 @@
   },
   {
     "name": "ACH_MARKET",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/3b391a2841307662fa494b8ddec8b9c61ad179ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/5a11b31783172b1896be9b65af5ccbd9ddba38b0.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_DOCKS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/440aa594294721abd835545e47aba5d69b51cbb2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/64093c24877947ba3a3efc2ffb52ddf65500a63c.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_KILL_RODRIGO",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/f97ba73b8058913c603b3e76d91b4798ac839353.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/04193fddc9a4eb8b9aa2e597dc3e613f2fb61374.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_FINISH_GAME",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/46255692d1fe648457876c93b26545fd9c96505a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/dbbc63253475f3994304cd9082de4d3b412ca698.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_SpeedRunner",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/98b66dc0e47415ac3da1fd9fce86f522ba285841.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/bf7b56db6be277d28f1e1812a3a1d4374056c768.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_FALLDAMAGE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/d7800c1b11055eca66eaffc8e6fdcf40567d585e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/49209488ae3c6f23923592e1274cb34864a15128.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_LOSEAI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/c7d04c1f251fa146ff967bd6ae74edbcf93fd2ca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/70a5c451bd5aa517d355a885b4a8eb097b57ba8c.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACH_HITLESSRUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/1f52ebc18bd03675d9c0dc7ba3466e2075d63125.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/da88b1436ba4e1d926536557c748c7a2f92e6133.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "ACH_CHEAPSKATE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/643bf0b61404891a487342025b7e1eb59daaabe6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/3bd3e0ec9bf672e4881800cfe34e977dae6cc65a.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "ACH_PETPIG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/0d69eca7973808aca0ff7219561d6967726e41f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/40e1abcf0609681f040cbacd45364c56c87d41b0.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "ACH_SMELLYSITUATION",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/b310010f3c6ad0375ec8ed9d3307078473b2fb7b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/643f933ce7baa03856f75205f27f9f2051025d4c.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "ACH_ALLACHIEVEMENTS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/9f473ff7cdec035163fae46e8e772251b415adb7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/04566468b77edbb68b78adfd5578129a9bc10bf4.jpg",
     "displayName": {
@@ -199,15 +201,17 @@
       "english": "Get all achievements",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "numAchievments"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "numAchievments",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "ACH_DIE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/731cc5c0a5ebf5ed20078b5ca8bcb72eff8f090a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/b8fcea757faf074f54b580a7c0c380216edd36e6.jpg",
     "displayName": {
@@ -218,15 +222,17 @@
       "english": "Die 10 times",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "numDeaths"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "numDeaths",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_PETALLPIGS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/7edf6fafdc1ea1c1f3cc3f654ec4ba51ee572cb0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2707390/aca389c3e090d6bbd909f985a57bccfd2f4d1e99.jpg",
     "displayName": {

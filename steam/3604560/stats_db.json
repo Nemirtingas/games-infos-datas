@@ -2,25 +2,31 @@
   {
     "name": "stat_sell_count",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 5000,
+    "default": 0
   },
   {
     "name": "stat_popularity",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 50000,
+    "default": 0
   },
   {
     "name": "stat_decoration_count",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 50,
+    "default": 0
   }
 ]

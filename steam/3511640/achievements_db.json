@@ -1,7 +1,7 @@
 [
   {
     "name": "UNLOCKED_EXTRA_BALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/73e2354412e16a913e4c535a550f4ff0579640e9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/06586d7ecd27623fbc869b98795341cbcf00c17e.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "UNLOCKED_LARGE_PADDLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/753000d33035da01fd57bd16ab6548eaff5c7946.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/683236a73b7beda5cb05432ec643f7859ba89556.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "UNLOCKED_SHIELD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/0b9b9a64a38ac474cadd63852da8b8bd8f1c1792.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/e82e204fc03fa0717ba200c6119412c294246d29.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "UNLOCKED_FIREBALLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/82bdb801516911206ff27b3cae698341a25033b8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/3df87873f05d6806072f0f4c1edaf343c7839759.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "UNLOCKED_GHOST_BALLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/4740620f0090b9ba5ed852e44549532f74012257.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/d1453fc3e57a6cf3adab524862b25a9a85d1b6df.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "UNLOCKED_LIGHTNING_BALLS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/0fd585df1e33d1365da925fbd17743981c42526f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/669c2219d6820e5022f7df67055cd78018107b7e.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "UNLOCKED_100_BLOCKS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/70c0b06be43d1daf97181f3774f11f8b0863cf75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/30c403f47af236945b915d4b2c701019cdfeddd8.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "100 Blocks broken",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "break_100_blocks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "break_100_blocks",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "UNLOCKED_500_BLOCKS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/a35b22020253077975a37262518aea8f3adb0403.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/7f1b312ba86b28476844e49cc541ddf9ad7d84e5.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "500 Blocks broken",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "break_500_blocks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "break_500_blocks",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "UNLOCKED_1000_BLOCKS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/3f99f06df7f9612ec06ab793cdacf281c55962de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3511640/11b4f050a73614254f5c7db2317a36b0729baf3b.jpg",
     "displayName": {
@@ -134,10 +138,12 @@
       "english": "1000 Blocks broken",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "break_1000_blocks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "break_1000_blocks",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

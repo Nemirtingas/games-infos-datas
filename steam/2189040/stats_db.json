@@ -2,25 +2,34 @@
   {
     "name": "_experience",
     "displayName": "Experience",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10000.0,
+    "min": 0.0,
+    "max": 1000000.0,
+    "default": 0.0
   },
   {
     "name": "_level",
     "displayName": "Level",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 999,
+    "min": 1,
+    "max": 1000000,
+    "default": 1
   },
   {
     "name": "_version",
     "displayName": "Version",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 1,
+    "max": 10000,
+    "default": 1
   }
 ]

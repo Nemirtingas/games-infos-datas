@@ -1,7 +1,7 @@
 [
   {
     "name": "SCENARIO_00",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/4e5750891cf66028bc4591b200d64ea1de0b1333.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "SCENARIO_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/4e5750891cf66028bc4591b200d64ea1de0b1333.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "SCENARIO_02",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/4e5750891cf66028bc4591b200d64ea1de0b1333.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -49,7 +49,7 @@
   },
   {
     "name": "SCENARIO_03",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/4e5750891cf66028bc4591b200d64ea1de0b1333.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -65,7 +65,7 @@
   },
   {
     "name": "ITEM_00",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/4e5750891cf66028bc4591b200d64ea1de0b1333.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -78,15 +78,17 @@
       "japanese": "パンを5個食べる。",
       "token": "NEW_ACHIEVEMENT_6_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "BREAD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BREAD",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ITEM_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/dcd97ee29206699bd077d6e693945b1fbcd4691d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -99,15 +101,17 @@
       "japanese": "パンを20個食べる。",
       "token": "NEW_ACHIEVEMENT_6_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "BREAD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BREAD",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ITEM_02",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/4e5750891cf66028bc4591b200d64ea1de0b1333.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -120,15 +124,17 @@
       "japanese": "水を5杯飲む。",
       "token": "NEW_ACHIEVEMENT_6_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "WATER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "WATER",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ITEM_03",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/dcd97ee29206699bd077d6e693945b1fbcd4691d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -141,15 +147,17 @@
       "japanese": "水を20杯飲む。",
       "token": "NEW_ACHIEVEMENT_6_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "WATER"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "WATER",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACTION_00",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/4e5750891cf66028bc4591b200d64ea1de0b1333.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -162,15 +170,17 @@
       "japanese": "ジャストガードを20回成功する。",
       "token": "NEW_ACHIEVEMENT_6_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "JUST_G"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "JUST_G",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ITEM_04",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/4e5750891cf66028bc4591b200d64ea1de0b1333.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -183,15 +193,17 @@
       "japanese": "武具の強化値を＋5にする。",
       "token": "NEW_ACHIEVEMENT_6_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "UPG"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "UPG",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ITEM_05",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/dcd97ee29206699bd077d6e693945b1fbcd4691d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -204,15 +216,17 @@
       "japanese": "武具の強化値を＋1０にする、",
       "token": "NEW_ACHIEVEMENT_6_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "UPG"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "UPG",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ITEM_06",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/aaf6258b493c2693da718795a669aaa1cd54ef2e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -225,15 +239,17 @@
       "japanese": "武器の強化値を＋15にする。",
       "token": "NEW_ACHIEVEMENT_6_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 15,
-      "stat_name": "UPG"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "UPG",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   },
   {
     "name": "ITEM_07",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/4e5750891cf66028bc4591b200d64ea1de0b1333.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -246,15 +262,17 @@
       "japanese": "10個のアイテムを売却する。",
       "token": "NEW_ACHIEVEMENT_6_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "SELL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SELL",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ITEM_08",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/dcd97ee29206699bd077d6e693945b1fbcd4691d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -267,15 +285,17 @@
       "japanese": "50個のアイテムを売却する。",
       "token": "NEW_ACHIEVEMENT_6_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "SELL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SELL",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ITEM_09",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/aaf6258b493c2693da718795a669aaa1cd54ef2e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {
@@ -288,15 +308,17 @@
       "japanese": "100個のアイテムを売却する。",
       "token": "NEW_ACHIEVEMENT_6_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "SELL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SELL",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACTION_01",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/aaf6258b493c2693da718795a669aaa1cd54ef2e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3642680/0d7462cbd8675f70f8ed0f51f1180e2b8e0801ca.jpg",
     "displayName": {

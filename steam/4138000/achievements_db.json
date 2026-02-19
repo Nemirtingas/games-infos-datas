@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_STARTUP_THRESHOLD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/79b4cfae814f475d52d091fd77422d94a3552472.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/a6c15f851418b4e295ac429ab5689c7692f7bb3e.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_COMPLETE_FIRST_MIS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/db971ea9fb1a7a5dde7d66ee887137a5805dcf3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/1523dfda4386a7893a08c7b2a43225aaebb9462a.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_COMPLETE_ALL_MIS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/f806abce3cfd0b8dc58ea1f6d5b561eb53fcc18a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/6c67d1aa7a7bd1213c09becf6d03837686ee71ff.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Complete all missions given from the VCR",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 23,
-      "stat_name": "MIS_COMP"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MIS_COMP",
+        "min_val": 0,
+        "max_val": 23
+      }
+    ]
   },
   {
     "name": "ACH_FIND_AE86",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/39732a70ece0a686d5d8aecd311865504b7a8237.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/d3444aae84649bac0ee54d550429d3e0826dd22e.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_UNLOCK_SHOP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/8bcebdbee7032f533e79892c192a82296cd5ea8b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/9c001e1dea369e0e8cba3d617e63ae6888c218ac.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_COMP_SHOP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/559990e634eac081844d1570067a06aa2a9b830a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/15bddef793efbffd9921daf096d5136cbe226611.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Purchase every single item from the shop",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 12,
-      "stat_name": "SHOP_BOUGHT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SHOP_BOUGHT",
+        "min_val": 0,
+        "max_val": 12
+      }
+    ]
   },
   {
     "name": "ACH_FIND_LIFT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/388ba3caa7aff4b4973d80ef7ba6b4b6d0e8c031.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/b340ce930a22a40f445841d7de3f055202fab384.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_FIND_MIMIC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/59299d3f41caf3f9d3dedb525712380d7c1c688f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/349bd541712722cc77c6d7d33b1ad0ddd72da602.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_ALL_LEVELS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/e43ed9abf2390aa11a59e026d157d15d14c329d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/71aea92f9fcbdad8c349459dbc2c633659a3655b.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Discover and explore every level",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 12,
-      "stat_name": "LVL_FOUND"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LVL_FOUND",
+        "min_val": 0,
+        "max_val": 12
+      }
+    ]
   },
   {
     "name": "MYSTERIOUS_TAPE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/39a63c37a947c38119f57a754deef109697fa07a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/74cac5a0b8c611c3b49af3b47f2ace9c1cb1c8c3.jpg",
     "displayName": {
@@ -156,7 +162,7 @@
   },
   {
     "name": "STORY_REVEALED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/f7dcbe4571b26aabcbfa984194c3d918e98a5859.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/0e35c8dc3cae935fb58c0e2f6411f0fa427c0057.jpg",
     "displayName": {
@@ -167,15 +173,17 @@
       "english": "What can I do about all this?",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "S_TAPE_FOUND"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "S_TAPE_FOUND",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "PRISM_DOWNFALL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/02f57f444ac145dec3917e056af30ca672565035.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4138000/ef1178ab8412f240a20484979d9575ce97c16447.jpg",
     "displayName": {

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_KILL_TYRANT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/40d0c012c3c3df0bf3070a5a576e56ed60290883.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/f485708450f567541babc3daebfe176bb80ad101.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_EXPL_VORTEX",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/a2fe62843c24760b825b28ef6acc58c66e3471a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/0c342bd361aaf6dc6da7dd45f0b33a8303a73a72.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_LEVEL_SAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/30fa438aef7272e00439cfd0544be74682d7c30a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/7305c0816adfb37971612c2697d948a64c3deffa.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Max out the Sand Mask",
       "token": "NEW_ACHIEVEMENT_10_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "MOV_STAT_MASK_SAND"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MOV_STAT_MASK_SAND",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_KILL_WISEMAN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/737a440f887820d7a62a6c90da3be6d7f86edae5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/f6ea807d5539ea0872f2121d2457e4656529b595.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_KILL_DARKIRET",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/920b95d46da71169dd915d193e8e28d1defeb0b0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/fb5103bf03b5184304d054b97679565b8c525e15.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_KILL_ENTITY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/2e61b0ea1b4e5ddccc18cbb494cd4c1b560bd86b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/faee8f07aab98a2fc12ac2ec7b132e96da1210f7.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_EXPL_VOID",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/bdf0956f52b4b875ecbc53067321ab6ecefba501.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/09be96dca81b1bd0d2e75aa479b301535e1e9ba4.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_PACT_DAYIR",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/dd59b9e14ed70ce7a16f85f5de2f8909ce1f06ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/8ecd935ed8a8fdae33e705ffbcfb43ae52f6c420.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "ACH_PACT_WISEMAN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/6bc0ca6bf7645166e8eff1f55f0b042d497a9a9b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/a0021c2eb4cd3a56b8433fee421c9497b658de13.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "ACH_PACT_DARKIRET",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/c4b0daac509a5763aafa8f58dd1dd4c503c13d6a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/8d0e3309c14c18d569b7846dd415a8113e6a3f3d.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "ACH_MASK_LIGHT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/b4bb5344f98344263306557c08ef56e3e91bf867.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/463bf646600f2129d0ac8277c2bf5d2dad5f30fd.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "ACH_MASK_BLOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/5447dc592462b7b3cff9933ece67395db80a674c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/85cfec4a5218018872a94f27f7c8726d49fd0b35.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "ACH_MASK_VOID",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/a9e27d80986ae7d0ce913e193e27a2b77adb0971.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/c18f2c648e0dc08588eb68b61ddcb47474195c3d.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "ACH_LEVEL_BLOOD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/03c8fd5b61d1a841fcca61f544e0dade09e6c5e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/31aaab47d5ab9a028fa40e394a87a40cb63a8ee2.jpg",
     "displayName": {
@@ -199,15 +201,17 @@
       "english": "Max out the Blood Mask",
       "token": "NEW_ACHIEVEMENT_10_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "MOV_STAT_MASK_BLOOD"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MOV_STAT_MASK_BLOOD",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_LEVEL_LIGHT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/929ec2c631a5b9797466554dbde3210fb00ef44a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/4f1486e72ea321379336ff39d0489462eb040d06.jpg",
     "displayName": {
@@ -218,15 +222,17 @@
       "english": "Max out the Light Mask",
       "token": "NEW_ACHIEVEMENT_10_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "MOV_STAT_MASK_LIGHT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MOV_STAT_MASK_LIGHT",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_LOOTED_RELICS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/e14e499724576eee80c9865a30b01cc6fcc65c0a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/7e5de352f633ea37ddc1ec97af039946df7a031b.jpg",
     "displayName": {
@@ -237,15 +243,17 @@
       "english": "Obtain 100 relics exploring the Realms",
       "token": "NEW_ACHIEVEMENT_10_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "MOV_STAT_RELICS_LOOT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MOV_STAT_RELICS_LOOT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_ALL_AWAKEN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/ec4d1103181f0d0465cc5519544c60b8bc1c52fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/db2e2dee4fc7cc8c3f62e09cd1f47029e7842e86.jpg",
     "displayName": {
@@ -259,7 +267,7 @@
   },
   {
     "name": "ACH_FIRST_AWAKEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/335bf96ec9bfeabc0b92e9c3919c7b54795b851e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/44b6aa0465383fbf8affc380a5c99dd04fb0241c.jpg",
     "displayName": {
@@ -273,7 +281,7 @@
   },
   {
     "name": "ACH_ALL_DOC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/e7b79d33788f1f1d1301f400e6fa67c62a88d693.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/de98e1591b91221a5a5ce72443b4d1df68f28128.jpg",
     "displayName": {
@@ -287,7 +295,7 @@
   },
   {
     "name": "ACH_MAXED_ONEDOC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/e0585006d8802658c451c46adb77b8efddab3d4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/55588d05f922cdfaa4f4629f75b43043c8d5c128.jpg",
     "displayName": {
@@ -301,7 +309,7 @@
   },
   {
     "name": "ACH_MAXED_DOCS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/c4a343ae8757989b07e57bb7927a0bd9e0ae3961.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/629029fa26a9434de8f1076f5416e592b3c03297.jpg",
     "displayName": {
@@ -315,7 +323,7 @@
   },
   {
     "name": "ACH_USED_CARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/9e1897370a359a1cb3d5f2ac387e43104260935a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/dcc593b7525eda25aa89c2a4637b48eb99d8bf3e.jpg",
     "displayName": {
@@ -326,15 +334,17 @@
       "english": "Use 100 cards exploring the Realms",
       "token": "NEW_ACHIEVEMENT_10_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "MOV_STAT_CARDS_USE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MOV_STAT_CARDS_USE",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_USED_SHARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/b23d2c1f8828cdb85e3a3018230391b457921276.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2542350/a2ae93c8b326f2376c24d330d9af8b52d054ff72.jpg",
     "displayName": {
@@ -345,10 +355,12 @@
       "english": "Use 100 shards exploring the Realms",
       "token": "NEW_ACHIEVEMENT_10_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "MOV_STAT_SHARDS_USE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "MOV_STAT_SHARDS_USE",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   }
 ]

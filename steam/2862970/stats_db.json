@@ -2,73 +2,70 @@
   {
     "name": "STEAM_STAT_COMPLETED_MISSIONS",
     "displayName": "Completed Missions",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "max": 999,
+    "default": 0
   },
   {
     "name": "STEAM_STAT_KILLED_ENEMIES",
     "displayName": "Killed Enemies",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 99999999,
+    "default": 0
   },
   {
     "name": "STEAM_STAT_SNIPER_LEVEL",
     "displayName": "Sniper Level",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "STEAM_STAT_ENGINEER_LEVEL",
     "displayName": "Engineer Level",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "TestStat",
     "displayName": "Test Stat",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "STEAM_STAT_PACIFIST_MISSIONS",
     "displayName": "Pacifist Missions",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 999,
+    "default": 0
   },
   {
     "name": "STEAM_STAT_SIMULTANEOUS_PENETRATIONS",
     "displayName": "Simultaneous Penetrations",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 999,
+    "default": 0
   }
 ]

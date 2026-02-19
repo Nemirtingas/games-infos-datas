@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_FIRST_SOLVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/ca16cacb81c182272c0b29d5636a2497dd726306.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/8be79a73e9ddbac79ccb6f0fd5905d6869b1a477.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_TEN_DOWN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/511677267cb83c56937805f435774bb48a5b8352.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/147120c03c667cd50aa590e7b50b4dc7e283130f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_HUNDRED_CLUB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/708baa937057e6c6e1eede93cd150223563d607d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/e1f466140df3c45f756438c991b35fea4434750e.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_SPEED_SMALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/0b925b14abd8ab2541779687e36ad45d3a866138.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/7e90177c1c391ea83f7c636d47c9baac9e3e920b.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_SPEED_MEDIUM",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/e187eafe669304d1958c3dd253df9fadb7a84362.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/0de3dcc15fe5851c4372bce1ecae2c252d3561ab.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ACH_SPEED_LARGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/edcbf5903f5e28c9dbc86416977821ea423e5c08.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/665a3727ce18439ea24eec7cb08c13409822ad95.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ACH_TEN_IN_DAY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/3c05b1641dd789bb645b080376316fca4ce269b8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/fe05a6ecbe5cbc3b19eceaeaa73f6e20024e10e6.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Complete 10 Puzzles in one day",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_DAILY_COMPLETIONS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DAILY_COMPLETIONS",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_SEVEN_DAY_STREAK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/fe996f08e6ad301f631279f783b355cb8810e39c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/abdc7b89a58e1315d0b5ff6711b2d1700c67a3ed.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Complete a 7 day streak",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "STAT_STREAK_DAYS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_STREAK_DAYS",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "ACH_THIRTY_DAY_STREAK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/63f5efba427f45821ed20795051a2df672dabc08.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/22de976c967f69298056e3321b6c69a29a33d987.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Complete a 30 day streak",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "STAT_STREAK_DAYS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_STREAK_DAYS",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "ACH_YEARLY_STREAK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/355fc34c8c135014099ed94b3469ddbf8622b7be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3738820/5ca90ba8bd403d8c482b8f48901033c44d8983d8.jpg",
     "displayName": {
@@ -153,10 +159,12 @@
       "english": "Complete a 365 day streak",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 365,
-      "stat_name": "STAT_STREAK_DAYS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_STREAK_DAYS",
+        "min_val": 0,
+        "max_val": 365
+      }
+    ]
   }
 ]

@@ -2,33 +2,45 @@
   {
     "name": "users_tracked",
     "displayName": "users_tracked",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "tutorial_stage",
     "displayName": "tutorial_stage",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 12,
+    "min": 0,
+    "max": 12,
+    "default": 0
   },
   {
     "name": "money_made",
     "displayName": "money_made",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 999999,
+    "min": 0,
+    "max": 999999,
+    "default": 0
   },
   {
     "name": "in_async_pool",
     "displayName": "",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
   }
 ]

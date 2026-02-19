@@ -1,7 +1,7 @@
 [
   {
     "name": "LaunchAchievement",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3328530/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3328530/",
     "displayName": {
@@ -10,10 +10,12 @@
     "description": {
       "token": "NEW_ACHIEVEMENT_3_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "LaunchCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LaunchCount",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

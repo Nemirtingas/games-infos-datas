@@ -1,7 +1,7 @@
 [
   {
     "name": "Cerber",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3684010/374d26c6fa5a60725992c2d28e35ab78910ef601.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3684010/6345005bf7dfc1ac38d54427d548243e31c3889f.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "earn 5,000 points",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "Leaderboard_Leaderboard"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "Leaderboard_Leaderboard",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   }
 ]

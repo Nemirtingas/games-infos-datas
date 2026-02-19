@@ -1,7 +1,7 @@
 [
   {
     "name": "boss_kill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955600/2e42996b715fb033845b71e8084f32bf402307f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955600/9a198257d0221fcac347a54453ec0b3dc673c161.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "junky",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955600/16056a65bb088cd510d32043915ea6085c6b6200.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955600/02fd69d84b27d0d16009acbf9d4444eee8b56bb9.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "take 50 Pills",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "pills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "pills",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "take_pill",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955600/6e1380d518fc809122c91defff8954ae1e85f04b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955600/e2949cd2b10bbde26c70ffd6c0b2fa8164fbda86.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "rich",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955600/e5eb5100d4c4d90462c8e7b220cfa883ddec8a62.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2955600/e5eb5100d4c4d90462c8e7b220cfa883ddec8a62.jpg",
     "displayName": {

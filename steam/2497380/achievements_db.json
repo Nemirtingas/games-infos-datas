@@ -1,7 +1,7 @@
 [
   {
     "name": "check_in",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/1ef0ebc326d7cb64cf2256e6c3c0772c0dd2a338.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/6f6b2f2ed6b9567194b3ecdd6345813fcb52b652.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "found_note",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/693e43bdfad35c33b722bb114edb873e5130e154.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/32e6f7158bc6c62e5aa773ec208ded3bf929f918.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "flower_lock",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/2f5d54871ee12fcfeb1382348b67cea1263cd8d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/2fdb5e079abcfd5a1ff7a2a9fe39ee2ee29a9bea.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "amusement_park_all",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/754c24c3a6bf0d78277906b2fcfaf5ef5efdd812.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/5b40db04e885f0a111c7f4531513c7074e22ba2f.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Visited/Played every attraction (without skipping!)",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "attraction_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "attraction_count",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "board_done",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/d1c75c61962e6e11af358a008e4a22212a32b5fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/483219f0548d826ed2ad43537d1e666a4f9f532a.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "enter_house",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/2f5b8cb86f4e40854b365002e4c53c6b8137bc54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/178ea73440850c541a232b1bbefe13ca69ad0e73.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "hidden_door",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/55f0ba75093f6f716b5253f3a4bc043c8925c07b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/493d835b8b41382063d0dbd8156fefd7d335d636.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "maze_minigame",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/516cd8825216ce8666a32dcb52a59edec38e780c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/2d03faffa1e625d0b689bbf7e5b2f8ba38e5baa5.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "entered_factory",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/8a3f948ffa3d35f056185a4a8a8363c518291cf0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/8666cb224db5ab12b2ada258617c3f78929ba89b.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "escaped_pit",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/0860a8aeaa78bded0e489249f33e7aec46c4deb8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/342373cdd80d7e66c432d250b5f78754aa342acd.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "safe_minigame",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/adbcc908c640c2afedd7feac3bf13654615c7b56.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/a8c2a54920075ecc611c3829892f755321438d66.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "perfect_cup",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/ae7417b4defb64c434c2387935acb2d4643c2f2d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/365779b1102d7b3ae04c05444f6499c9d7a12b18.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "rhino_down",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/fed0209cc5a225f99dfc40ce3745e7a357ac25c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/cb2c7859ae21f8b6acf2e4c55491660198e27200.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "all_rings",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/790a07843b35208ebe96de3f3dcff902fa03f301.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/7cd8a8fcf56a8de7981069be3d20704450c91be8.jpg",
     "displayName": {
@@ -199,15 +201,17 @@
       "english": "Collected all rings ",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "ring_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ring_count",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "finished_game",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/e6f1d1de0cf230055a3ee5cdb110cdb11e21079c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/3c51604c20a0a66bd1354456c2b4e6d080a7dbeb.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "no_skip",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/6968c0282fbe23875842b61ad8611e41f918113a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/a7a70caf70a7e46a94348cf69664089ee792a4c5.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "all_hogs",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/383bc48842331441fa00dbd4cb2311be32cac532.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/63cad037b1bb3440914c44b8d41f655ec89df34d.jpg",
     "displayName": {
@@ -249,7 +253,7 @@
   },
   {
     "name": "ultimate",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/46c9443dc3027b68e0fcd3339b81114ff9fe7c0a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2497380/6289d51ba63acf2ee22074613bdc5f57beec839c.jpg",
     "displayName": {

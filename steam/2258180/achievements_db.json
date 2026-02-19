@@ -1,7 +1,7 @@
 [
   {
     "name": "RUN_START",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/d1d05d0a7414ab47fee453f846c0cb2bf4a3cd7e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/f603c8cd0d0dee2db663763002e855880d462cbe.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "SAVE_RAIDER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/d75e06690967c881c141cac95f2d717c89e4932b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/a7b9094ac90f5b02527566e9d0aad84ae36bd6c2.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "BOSS_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/8de138e42c327563be6fd6001ac65a73a17d9a95.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/1ba01e7a68a0a7f820030e6211dce473ed64f609.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "BOSS_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/d7e6ed1d53503e1ffc2d0816b76b8451ea3120f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/d0f5c2c9772a216b69485c4a1caf383882c300df.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "FULL_PARTY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/0ea3090f8c9a9d77317cee769b849c773adc6545.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/6fd12c7ad0a0a397875a7dbcd5454755a6b1e21d.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ALL_CHARACTERS_SAVED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/0bb7479e6952e76da6d9af44be28d16bb405780d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/058cda0f9379180f466d37457c665a6a43af3b11.jpg",
     "displayName": {
@@ -82,15 +82,17 @@
       "english": "Bring every character to Sanctuary alive at least once.",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 8,
-      "stat_name": "CHARACTERS_SAVED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CHARACTERS_SAVED",
+        "min_val": 0,
+        "max_val": 8
+      }
+    ]
   },
   {
     "name": "SETTLEMENT_UPGRADED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/48a989fd481a3f4ee188782239633c547a30c14b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/3a26c3e3aa4c2d838964b75a2abb936b5fc8f84d.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "MERCHANT_UNLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/ee23d4f6abd2e02db5fbe01bf57fe251771defb4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/561d9c53f373fc952f50d553a2c5063024fbe3b8.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "PYRO_UNLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/8034c01c3c389175e15b17ae69bd0d26afbceb58.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/8c4c87923490f7e22d1b551aca83133b4d996f27.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "THRASHER_UNLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/af5429fb518d7d5fbad7e3f919be72b650d10cb8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/ef05586bfd1aa3ae9b21e9e3dc9afbd5cd67cd0f.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "BOOMSTICK_UNLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/a2cf8dcbf87acb70e49fa484b65f0ce8fc53dc37.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/b165d0551a6ff15c8224273f22290b36342a9479.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "COLOSSUS_UNLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/a1069cf84cf8fb226e13697ddbda808067154ca6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/8f187c679a0aa16658fb206ac6c2959fcff81025.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "RUN_WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/2c4ae0895f4b7b18ef10a5f0ba1a518218efd9c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/aa4409433c72fb0e050861a3da87b8332fd37962.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "FULL_EQUIP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/47e764fba5dd9306a7c9fd6f510e4d3eca8f7939.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/0c1671fa20793dacf6e53aa567d598e3b9f8bd8e.jpg",
     "displayName": {
@@ -202,7 +204,7 @@
   },
   {
     "name": "BOSS_SINGLE_CHARACTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/ffcbba02afa3643255aa5c6f7bfb83bca8162471.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/f037a6acdbefa47bff8c75b72733ae2b8bf0f4ed.jpg",
     "displayName": {
@@ -216,7 +218,7 @@
   },
   {
     "name": "LEVEL_6",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/3a33614b58349026762e924073338c3b8cf5a7cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/1e06a9d4b8dc2ad6c958a43cf286e17c9907eb9f.jpg",
     "displayName": {
@@ -230,7 +232,7 @@
   },
   {
     "name": "DEAD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/2cc5c8587a0a7a0d8161b93ec9ffddf4e3a2b01e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/938e94d451232311934fb9dd0af4532cd70fb6b0.jpg",
     "displayName": {
@@ -244,7 +246,7 @@
   },
   {
     "name": "OUT_OF_FUEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/806ca88eb301c8d08e2e6e1140fde0be77f50be5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/c4c2e674730a378eb6cbab8ff7c309d278352b0c.jpg",
     "displayName": {
@@ -258,7 +260,7 @@
   },
   {
     "name": "500_ENEMIES_KILLED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/31d41b83234a323c16298ac3da5262571d4debc2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/7ad48f66f10a0b1cf847455d169db89bdc2f083f.jpg",
     "displayName": {
@@ -269,15 +271,17 @@
       "english": "Dispatch 500 enemies.",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "ENEMIES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ENEMIES_KILLED",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "FLAWLESS_RUN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/97e989438d712fc8d9a144f55af9700983ec6c9c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2258180/7804beb82533bc7aec940e89f2927dc607eedf0d.jpg",
     "displayName": {

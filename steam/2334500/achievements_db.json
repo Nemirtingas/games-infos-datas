@@ -1,7 +1,7 @@
 [
   {
     "name": "ENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/072fc19070c4e058d3d94a6d0f6ae3522820f2c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/8f559d230934fc0cf746468ec932eab590fc37ef.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "CRYSTAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/cf65f904b9e9f41aca0848bf13dda28da998e7ab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/794976544266ccd152c9f7c0c0f309709493427f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "GARGOYLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/73bc56d14d4a8e8f1115ea5d656242fa77edc9a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/6bc985054f3471f3655521708ca3d16c6146aea6.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "MUSHROOM_WIZARDS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/468621f32348911aa013750eac7b7b7b79f6d4d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/686b8aad2e7a21ee5cbbc26b0e535868538958ef.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "GAME_COMPLETE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/f549299ba07e08828bc0fc9ef9f76fe1ff26555c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/94bf0c40ecc4804b3a5ceccd751bd7a7a0235e4a.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "CREDITS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/69c86edb1bd1b1cdf932ebd00fc64b8daab9a83f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/e45b1455ec3011f6d976f47d22b776ab69915532.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "FAIRY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/e23354746d1b56cf9bb2d911ed3f43b9cab02a0a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/25fbb76289e2d58f6b7a8cc241dbc80ab8b90efe.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Kill 200 enemies with Wisps",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "fairy"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "fairy",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "FIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/58977d746164aa4652b0c03605c0e8da63fe3c91.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/e5b10293e54f072424f4d7ab9e8bab348badf899.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Deal 10,000 fire damage to enemies",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "fire"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "fire",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "VAMPIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/fe7aa618547538aac8183f3cea575920f7e205de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/752b1f5de0d9bd9a283f3e7b1bc617ef5f7515cc.jpg",
     "displayName": {
@@ -134,15 +138,17 @@
       "english": "Heal 10,000 health from lifesteal",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10000,
-      "stat_name": "vampire"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "vampire",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "CAULDRON_01",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/7881c868f2f3a1d2269501879bd9c1a16397bda8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/03c56fd4a6a2cb09df75c5dd82d8bcf42e9fe753.jpg",
     "displayName": {
@@ -156,7 +162,7 @@
   },
   {
     "name": "CAULDRON_02",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/aebe33509da685761a6223f829f42b2cbb0fad52.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/a8b2089264b5a43c8da72b26268d0a4960623a4a.jpg",
     "displayName": {
@@ -170,7 +176,7 @@
   },
   {
     "name": "CAULDRON_03",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/7a69eb27ac1ddc08816e55ba5868b0c5a014f1a8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/e8ddea428da400bc72a1b83ee5f110f1aede20c3.jpg",
     "displayName": {
@@ -184,7 +190,7 @@
   },
   {
     "name": "CAULDRON_04",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/c41e6906e913e83f2f07212c6d73cdda55b82ff8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/6e846672bf1d6ba9a68d57bbb2eaf8970f510ad7.jpg",
     "displayName": {
@@ -198,7 +204,7 @@
   },
   {
     "name": "CAULDRON_05",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/80119c4a9d9937af0c2cf0fed81a3c1584770eb7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/87627833410cd200f03519eaba6878e1f16cd9aa.jpg",
     "displayName": {
@@ -212,7 +218,7 @@
   },
   {
     "name": "CAULDRON_06",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/79df1de0f8b7b891b3ea684f729b4c8423e9dd18.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/2fc37ef4a2958c4f03f93ee704dda19a8ea69582.jpg",
     "displayName": {
@@ -226,7 +232,7 @@
   },
   {
     "name": "CAULDRON_07",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/6aee71733f230baa1ff869ce10b76803eefc6c8d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/2a50daa2126efa916306726dfbb01a28278870b3.jpg",
     "displayName": {
@@ -240,7 +246,7 @@
   },
   {
     "name": "CAULDRON_08",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/7d1281f566cc02a84d735469019a5ea8feb758a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/4c4d96acdcd7987d75e217cee34cb419797116b8.jpg",
     "displayName": {
@@ -254,7 +260,7 @@
   },
   {
     "name": "CAULDRON_09",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/b87a7f43f7ae09e2b7f248d70c4080cea3c3ee8b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/3daad690321b672f2e20d1203fc903c0df1f15f6.jpg",
     "displayName": {
@@ -268,7 +274,7 @@
   },
   {
     "name": "CAULDRON_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/80c5327b8c294acb95dec05b6d20ed1615711e0c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/901638ce4063ef28b98a6b8d59148cfb2e725ada.jpg",
     "displayName": {
@@ -282,7 +288,7 @@
   },
   {
     "name": "FIRST_KRILL_POINT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/2aacd8e79f12b407a31b9df6862be10ac93247a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/d4352d5c87226aa3735cf7b3281a1aef0534b22b.jpg",
     "displayName": {
@@ -296,7 +302,7 @@
   },
   {
     "name": "ALL_KRILL_POINTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/e9b34c29c8448146626741f604117c9065753247.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/5322ff65d6cd3ce53e3eda33f65f24718cf2e804.jpg",
     "displayName": {
@@ -310,7 +316,7 @@
   },
   {
     "name": "GAME_COMPLETE_FIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/6ac22e104fdd1a15ed3a7c5579b275cf9b15e8ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/be0069ad9fbb6a24e92ddb6e7cb899e4ad43029e.jpg",
     "displayName": {
@@ -324,7 +330,7 @@
   },
   {
     "name": "GAME_COMPLETE_FAIRY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/985967b9a6c58c262d6ef5f16422ce9f62104f5f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/87a41f25630d186e6916cb3b6c5517a3cb5e8295.jpg",
     "displayName": {
@@ -338,7 +344,7 @@
   },
   {
     "name": "GAME_COMPLETE_VAMPIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/6a743eaec376e010c71b992cbf90eed34f378fe8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2334500/be337197bf43fdf252c35d303ed24b731ee1ccc1.jpg",
     "displayName": {

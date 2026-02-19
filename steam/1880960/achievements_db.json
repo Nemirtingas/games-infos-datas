@@ -1,7 +1,7 @@
 [
   {
     "name": "MissionComplete",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/c54ae05744a2fc331a47f4d24e667b3715d0473f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "TriggerHappy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/98551fb465a6c517f7369f294bb3c6887fd1fbca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "LifeIsButADream",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/8d1c72fe08171bdfdbb97c5408000a9c9de50abb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "TheFasterTheBetter",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/666b54dd7216f6d741c00555f9efe00d6a84bc1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "IKnowYoureInThere",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/47fbc85caf383c54eb2450b79128e14a1d369339.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "StayHydrated",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/cba882ea02c24d8b1344ea5ef71c1154c286e5c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "Precision",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/4a910f27ae1a7e5d1e5622228700b341e37d237a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "GoBallistic",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/aa90588caf64181a09033344f256eb0a9987bc1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "FullyEquipped",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/3d5a89984438d3f2b5d0def354ca0f7e0978667a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -127,7 +127,7 @@
   },
   {
     "name": "Bloodbath",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/445acad1edc7a17e85c029d7a09499c00b256f06.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -138,15 +138,17 @@
       "english": "Kill a total of 100 enemies.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "KillCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "KillCount",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "Locksmith",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/cd8d6cce2dc96970f14f8bef1785671bb4674a3f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -157,15 +159,17 @@
       "english": "Pick a total of 30 locks.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "LockpickCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "LockpickCount",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "Masterhacker",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/dd1d4d78983d601937aba6968ca77c4d26e15c7a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -176,15 +180,17 @@
       "english": "Hack a total of 30 terminals.",
       "token": "NEW_ACHIEVEMENT_1_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "HackingCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "HackingCount",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "StickyFingers",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/82e02d890ae1f547079b0542bee4440faab19f6e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -195,15 +201,17 @@
       "english": "Steal from enemies 5 times.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "StealingCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "StealingCount",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "RoughHands",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/18a4fadd41c52a1a63968c79cb1fbebdf68e143f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -214,15 +222,17 @@
       "english": "Repair 30 times.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 30,
-      "stat_name": "RepairCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "RepairCount",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "TrackMarks",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/21fa2989555f47e73ca44351c4f0bb755c0d8e7d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -233,15 +243,17 @@
       "english": "Use stimulants 50 times.",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "StimulantCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "StimulantCount",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "LeadingDealer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/6ecc1d7ce7a7f7b16a412b76a00b51d3ae03cfef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -252,15 +264,17 @@
       "english": "Trade 250 times.",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "TradingCount"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TradingCount",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "Multitalented",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/eea520f3e77dae596a5be8bea99780c97dd39f8e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -274,7 +288,7 @@
   },
   {
     "name": "Hero",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/61e9c2680ecf2c5dacb9c7cdc933d39eca93fc04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -288,7 +302,7 @@
   },
   {
     "name": "GeneralManager",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/2179166e11a6010aa32b46c42bbd0c2a6ba9b385.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -302,7 +316,7 @@
   },
   {
     "name": "HighPriestess",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/5d59daaa5c64ad0a29a360c016545dfac95a7459.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -316,7 +330,7 @@
   },
   {
     "name": "Neutralization",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e96dc86d1607a8bca29d5f629d77daaece331eb0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -330,7 +344,7 @@
   },
   {
     "name": "BurnItToTheGround",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/3d485954e34a5b34b1579f103aa5784a06d631bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -344,7 +358,7 @@
   },
   {
     "name": "Dedication",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/995d10e084db54b4c6341bbbde49769440f31424.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -358,7 +372,7 @@
   },
   {
     "name": "OneManArmy",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/26d21a1258568cdc3a75c083c58ff219e38c72d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {
@@ -372,7 +386,7 @@
   },
   {
     "name": "EverybodysFriend",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/ae498e198ab612190e5eb3d184b98fb6b013b0e8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1880960/e9a869ab2d346529556046b676b5a6798609a319.jpg",
     "displayName": {

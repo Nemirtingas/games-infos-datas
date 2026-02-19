@@ -2,41 +2,56 @@
   {
     "name": "S_PaddleHardHits",
     "displayName": "PaddlePaddle Hard HitsHits",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100000,
+    "default": 0
   },
   {
     "name": "S_PaddleLiquidHits",
     "displayName": "Paddle Liquid Hits",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100000,
+    "default": 0
   },
   {
     "name": "S_CumulativeFall",
     "displayName": "Cumulative Fall",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 10.0,
+    "min": 0.0,
+    "max": 18000.0,
+    "default": 0.0
   },
   {
     "name": "S_BigFall",
     "displayName": "Big Fall",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 0.1,
+    "min": 0.0,
+    "max": 100.0,
+    "default": 0.0
   },
   {
     "name": "S_PaddleAnimalsHit",
     "displayName": "Paddle Animals Hit",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 0,
+    "min": 0,
+    "max": 100,
+    "default": 0
   }
 ]

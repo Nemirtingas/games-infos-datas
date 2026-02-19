@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_GPT_REQUESTS_NUMBER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3164900/48b0772788b7b1a78a75d51f86c4114ea46d84e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3164900/b7882f5f753806875bde222137f462553d5831bd.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "Call a ghost 20 times using the Spirit Box.",
       "token": "NEW_ACHIEVEMENT_2_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "stat_gpt_requests_number"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_gpt_requests_number",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_SKIP_WARN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/f4d90808ee3d738c62a061ae35028ecd13242d21.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/8a1f908a9dc922d94b2b410d1f7f35883d2e91ba.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_A_RSLT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/fcd613790be0e3051d3c788e5ff18f57d2754ecc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/160f94382288e47acd750bc875936a9f3f5f4db9.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_F_RSLT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/59e21675774b174082f1e9dc43da8b4bfda95247.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/e97ff88f16adb28c04c8df35c1083ad05b487bc8.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACH_BEAT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/bdcd69512cc013835029362688de1a7805fd2731.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/b5e5c76a1a5789a5fc5b2236bb549e8558ac6abe.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ACH_SEC_HUNT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/340825f2c037d7579797c7f108ea7df798086888.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/69ed817bf1b27340dc68afec6f1ef1c92af28011.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Find all 6 secrets",
       "token": "NEW_ACHIEVEMENT_9_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "SECRETS_FOUND_STAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SECRETS_FOUND_STAT",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "ACH_BOOK_READ",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/6f5d6a9e97d5d7a03f05ba5d2d9dc4f4321eae26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/56fd9c2aa3b39279df82726a9d7395ab4e18d886.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Read all the books in Patrick's library",
       "token": "NEW_ACHIEVEMENT_9_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "BOOKS_READ_STAT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "BOOKS_READ_STAT",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "ACH_YES_TRUST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/805259580d50c1d03e246c8678b8a27620343677.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/079d8476b1ff3e76e90038e9a0d39eb5e54347ab.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_NO_TRUST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/e20448887470494588e224981e79388e7b1887d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/336787b97dcec6b6135e619007cf3798239cc180.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_PERSIST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/07569fbc6303ce92d39cd08c783b93dea1c64133.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2998260/923733c8218591de8d3738303af6a7242d91dd8b.jpg",
     "displayName": {

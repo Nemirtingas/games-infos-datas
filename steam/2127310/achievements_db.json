@@ -1,7 +1,7 @@
 [
   {
     "name": "GettingStarted",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/a3511f6629f3028f90154d2395316a2589da17cc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/0a0f3c3ce398058764dbcaec4d6a6d6fdf7abc3a.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "MeHost",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/b69e7c99b406b575c4350359bfad299fc19db96a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/0a0f3c3ce398058764dbcaec4d6a6d6fdf7abc3a.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ActionTime",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/b2fadd6cd033394ac118edd71378aa1dea0cb759.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/0a0f3c3ce398058764dbcaec4d6a6d6fdf7abc3a.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "QuickMatch",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/ba381e91875342e3ec323451b35217f40ad38f2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/0a0f3c3ce398058764dbcaec4d6a6d6fdf7abc3a.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Golden",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/8f625d69d5b1a6b027b7064d74b116d460a7b70b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/0a0f3c3ce398058764dbcaec4d6a6d6fdf7abc3a.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Reach Level 20",
       "token": "NEW_ACHIEVEMENT_15_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 20,
-      "max_val": 20,
-      "stat_name": "CurrentRank"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CurrentRank",
+        "min_val": 20,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "GettingBigger",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/957ebe1ebc65c4d9ad299229667ca8514f89f382.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/0a0f3c3ce398058764dbcaec4d6a6d6fdf7abc3a.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Reach Level 40",
       "token": "NEW_ACHIEVEMENT_15_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 40,
-      "max_val": 40,
-      "stat_name": "CurrentRank"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CurrentRank",
+        "min_val": 40,
+        "max_val": 40
+      }
+    ]
   },
   {
     "name": "MaximumPower",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/65d8d6215d2354ac0836ba69202a9ded9a7c7433.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/0a0f3c3ce398058764dbcaec4d6a6d6fdf7abc3a.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Reach the Highest Rank.",
       "token": "NEW_ACHIEVEMENT_15_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 55,
-      "max_val": 55,
-      "stat_name": "CurrentRank"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CurrentRank",
+        "min_val": 55,
+        "max_val": 55
+      }
+    ]
   },
   {
     "name": "NextLevel",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/eb2d539f138e1c9ab86aea820bfe489f050b8fe0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/0a0f3c3ce398058764dbcaec4d6a6d6fdf7abc3a.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Prestige at least once.",
       "token": "NEW_ACHIEVEMENT_15_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1,
-      "max_val": 1,
-      "stat_name": "CurrentPrestige"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CurrentPrestige",
+        "min_val": 1,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "GoingNuclear",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/ec0a16220f810b85d47259f0221cac065ec39873.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/0a0f3c3ce398058764dbcaec4d6a6d6fdf7abc3a.jpg",
     "displayName": {
@@ -147,7 +155,7 @@
   },
   {
     "name": "Killer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2127310/",
     "displayName": {
@@ -158,10 +166,12 @@
       "english": "Kill 1,000 Total Enemies",
       "token": "NEW_ACHIEVEMENT_15_14_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 1000,
-      "max_val": 1000,
-      "stat_name": "TotalKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalKills",
+        "min_val": 1000,
+        "max_val": 1000
+      }
+    ]
   }
 ]

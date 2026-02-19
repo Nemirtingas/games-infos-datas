@@ -1,7 +1,7 @@
 [
   {
     "name": "VexcarThrown",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1210540/0547a902254a68e5ba511f89f7dd1d029c143d92.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1210540/788371648a7560541a3da437e6a9d3f4c9c5c6fe.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "GeneratorDestroyed",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1210540/27840c3a40fcaf54680b74da8ce0a4ee6a525e48.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1210540/788371648a7560541a3da437e6a9d3f4c9c5c6fe.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "CompleteBossFight",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1210540/f11496964451d8391f2616d86f6ebd8c45c5086e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1210540/788371648a7560541a3da437e6a9d3f4c9c5c6fe.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "NZRE_DestroyGenerator",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1210540/8df42928e2422d4f3970784efa293099cc07439f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1210540/788371648a7560541a3da437e6a9d3f4c9c5c6fe.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "SolarCar_Kills",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1210540/991a2c6755355930834d05ca062027d5e8255eb5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1210540/788371648a7560541a3da437e6a9d3f4c9c5c6fe.jpg",
     "displayName": {
@@ -68,10 +68,12 @@
       "english": "Kill 500 SolarCars",
       "token": "NEW_ACHIEVEMENT_2_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "SCKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "SCKills",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   }
 ]

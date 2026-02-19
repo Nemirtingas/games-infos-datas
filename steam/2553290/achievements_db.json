@@ -1,7 +1,7 @@
 [
   {
     "name": "Ach_NewPlanet",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2553290/052b779d2e5f56bd684aaeb3651e078943af8dd0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2553290/7af7002f3b1e0477b27da2923dc570384b30bc78.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "Ach_Killer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2553290/6ede15cd6f10fb6a3ef9781a13500975c04c01dc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2553290/31f81f1fcd08555b12c79aa459511790bdf5cbec.jpg",
     "displayName": {
@@ -26,10 +26,12 @@
       "english": "Defeat every type of Enemy",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "DefeatedEnemys"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "DefeatedEnemys",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   }
 ]

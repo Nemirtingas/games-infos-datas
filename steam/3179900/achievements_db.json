@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_CREATE_LEVEL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/a3bdbf091cafac14bbc7ce244ee232583bc84443.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/ca3be4d37867ff04a2126bd084aaa20b02b08413.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "ACH_WIN_RUNNER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/6d501bd4c238bf5800cc809874a7f64e56f538cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/fcb439d3ec28d9f8c18ab0756d59461ae0525d83.jpg",
     "displayName": {
@@ -30,15 +30,17 @@
       "french": "Valider un niveau en mode Course",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "NumWinsRunner"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumWinsRunner",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_WIN_CHILL_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/f0a54a898e95e7ad5216b15cac7bb38d458bd93f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/3405b62967482171dabd944bd8f42a02d977930e.jpg",
     "displayName": {
@@ -54,7 +56,7 @@
   },
   {
     "name": "ACH_WIN_CHILL_GATES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/873f31ec06be728b883e2b21b0c2146df4d01b72.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/96a92da9be2a6ad1f04a94efa4a4b34ad7015ccb.jpg",
     "displayName": {
@@ -67,15 +69,17 @@
       "french": "Passer 50 portes en mode Chill",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "NumGatesChill"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumGatesChill",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_TRY_MODIFIERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/4ab266c23dc3ea64134f49346ebc5b69776b277c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/484c359f4b7a077016e03c523d9a4256437615e4.jpg",
     "displayName": {
@@ -91,7 +95,7 @@
   },
   {
     "name": "ACH_ALL_LEVEL_DIFFICULTIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/7d77d8a6bb326cae0e66155d874da2a20ad4623c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/281ef252864f28a152d82f585fc03d883ae41f87.jpg",
     "displayName": {
@@ -107,7 +111,7 @@
   },
   {
     "name": "ACH_RETRY_10_TIMES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/c4f6fc44a95b8b5ea5325b5e2de5ab5a9ccd0d3c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/2a2c920e0faa363301eb955e7346ba9951e480e8.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_1_LIFE_REMAINING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/ebffe9cb4547f7a2b0c1fc1f194aaac360673f66.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/923b5122bbde655da0564a45f635048eb9b4bf19.jpg",
     "displayName": {
@@ -139,7 +143,7 @@
   },
   {
     "name": "ACH_INF_LIVES_NO_HIT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/0801c9b83d1a2f757b940e85e6eef1077b201ed8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/5980d1148a8f0ee861270aabefd7e752ae0c70ca.jpg",
     "displayName": {
@@ -155,7 +159,7 @@
   },
   {
     "name": "ACH_ALL_MODIFIERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/6412ac9fc96fb4f8aef20e9fcdff7a203cac0d77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/6047baab161865a328265a40805f4d11d1499fe2.jpg",
     "displayName": {
@@ -171,7 +175,7 @@
   },
   {
     "name": "ACH_WIN_FAST_SONG",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/0e10f26e30ddc53bc7626fce5a54ccbcbbddfc73.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/3dcbadce21814e279ef1cfcab4f9f3b37522cece.jpg",
     "displayName": {
@@ -187,7 +191,7 @@
   },
   {
     "name": "ACH_WIN_10_RUNNER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/4cab2db294468041bdb6a004b96d4d0227323bb7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/e01b5405cbd0fb46c800b054912cd89c5338eeec.jpg",
     "displayName": {
@@ -200,15 +204,17 @@
       "french": "Valider 10 niveaux en mode Course",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "NumWinsRunner"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumWinsRunner",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_WIN_100_RUNNER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/9bd4eae1b8ee3e4af3488ac98404616d66d41e51.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/ce481e26841568fc72ef32bcfd3aaa3d87628897.jpg",
     "displayName": {
@@ -221,15 +227,17 @@
       "french": "Valider 100 niveaux en mode Course",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "NumWinsRunner"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumWinsRunner",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_USE_BLOCK_PATTERN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/b7e1366184d7191b740a28bdbd1b079f2fb61911.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/7205b92fa0ed70f0cbba73c8aafb9deb2050f785.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "ACH_EDITOR_500_BLOCKS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/c0bbb731e56fb47efea113b8157511b8ac59dc7a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/5b7eb804b9ec3aeecb3a5606d0a2c178d158db23.jpg",
     "displayName": {
@@ -258,15 +266,17 @@
       "french": "Placer 500 blocs dans l'éditeur",
       "token": "NEW_ACHIEVEMENT_1_31_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "NumBuiltBlocks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumBuiltBlocks",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACH_UNLOCK_1_GATE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/55085a1db85b21de9ad2a2d684888951c7d8dad0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/52ed79fb478e888e7311cb6f27decf823dbf2018.jpg",
     "displayName": {
@@ -279,15 +289,17 @@
       "french": "Déverouiller une porte dans un niveau",
       "token": "NEW_ACHIEVEMENT_2_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "NumGatesUnlock"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumGatesUnlock",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_EDITOR_FIRST_LINK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/59aa6a2f38273f3dc71369ade1df378925d15258.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/57a2ad97364689e3cf1a6b69b788974604dfada8.jpg",
     "displayName": {
@@ -303,7 +315,7 @@
   },
   {
     "name": "ACH_WIN_PUZZLE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/60c7dbc46b48959deae413c0fae237b8b7820a5a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/f1c01d6c965bd675fb97abeacdc3d37fe9b600f0.jpg",
     "displayName": {
@@ -319,7 +331,7 @@
   },
   {
     "name": "ACH_WIN_PUZZLE_STAR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/5023ac0a3a5ef734a20ee9dfa62abf43dd8d583b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/4201a86e96d19e30347f903818d045c7db1bb75c.jpg",
     "displayName": {
@@ -335,7 +347,7 @@
   },
   {
     "name": "ACH_WIN_PUZZLE_TIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/2313ebe98cb4906292623c6a4fa8df66b2c022ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/ba49b209d0514bfdb05833557818731de6846172.jpg",
     "displayName": {
@@ -351,7 +363,7 @@
   },
   {
     "name": "ACH_WIN_EXPLORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/94d329f143a0be218e1fb70cbd31b0d406bca25f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/6e9540a2eb4f12dc21f94edc17202e85c1ecd860.jpg",
     "displayName": {
@@ -364,15 +376,17 @@
       "french": "Valider un niveau en mode Exploration",
       "token": "NEW_ACHIEVEMENT_2_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "NumWinsExplore"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumWinsExplore",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_WIN_10_EXPLORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/f5a7fad21999e42ebe63c24a71c7a85f6be52349.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/e0f0070668ff2cb5bbe8658e4b6814a51f139876.jpg",
     "displayName": {
@@ -385,15 +399,17 @@
       "french": "Valider 10 niveaux en mode Exploration",
       "token": "NEW_ACHIEVEMENT_2_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "NumWinsExplore"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumWinsExplore",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_WIN_100_EXPLORE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/4594556b72954017ed77955db8b91cee7e485705.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/c0c59f816186d93cc3b1a6c2a11bad2b21833651.jpg",
     "displayName": {
@@ -406,15 +422,17 @@
       "french": "Valider 100 niveaux en mode Exploration",
       "token": "NEW_ACHIEVEMENT_2_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "NumWinsExplore"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumWinsExplore",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_MATCH_GATES_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/d09920ead7e86c40fd122328c48063e7dbf0dcbc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/28985a8633480e53e96dcb464704120dbb0795f1.jpg",
     "displayName": {
@@ -427,15 +445,17 @@
       "french": "Passer 10 portes (tous modes confondus)",
       "token": "NEW_ACHIEVEMENT_2_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "NumGateMatches"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumGateMatches",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_MATCH_GATES_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/e3c8dcf3e3726a1d15c480439a6f05f78c25ba29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/0fd61f895a2ab5fb60d2e9d14df67beb844613d5.jpg",
     "displayName": {
@@ -448,15 +468,17 @@
       "french": "Passer 100 portes (tous modes confondus)",
       "token": "NEW_ACHIEVEMENT_2_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "NumGateMatches"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumGateMatches",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_MATCH_GATES_500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/396016ca0132aead8019b7abfb3f117f52bb7718.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/46ab89400bc7ad43151933db839fdaf380ef177c.jpg",
     "displayName": {
@@ -469,15 +491,17 @@
       "french": "Passer 500 portes (tous modes confondus)",
       "token": "NEW_ACHIEVEMENT_2_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "NumGateMatches"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumGateMatches",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACH_MATCH_GATES_2000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/3c0790902d32d637c7972ebf80d54d9af59fe34f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3179900/0bcadbbb7607924caaa4c82a98e4f165fd58b34d.jpg",
     "displayName": {
@@ -490,10 +514,12 @@
       "french": "Passer 200 portes (tous modes confondus)",
       "token": "NEW_ACHIEVEMENT_2_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2000,
-      "stat_name": "NumGateMatches"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "NumGateMatches",
+        "min_val": 0,
+        "max_val": 2000
+      }
+    ]
   }
 ]

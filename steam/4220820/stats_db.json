@@ -2,41 +2,56 @@
   {
     "name": "STAT_GOONKILLS",
     "displayName": "Goon Kills",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "STAT_TALLMENKILLS",
     "displayName": "Tall Goon Kills",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 25,
+    "default": 0
   },
   {
     "name": "STAT_BRUTEKILLS",
     "displayName": "Brute Goon Kills",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 25,
+    "default": 0
   },
   {
     "name": "STAT_RADIOOFF",
     "displayName": "Radio Turn Offs",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 5,
+    "default": 0
   },
   {
     "name": "STAT_SATISFYINGKILLS",
     "displayName": "Satisfying Kill Count",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10,
+    "default": 0
   }
 ]

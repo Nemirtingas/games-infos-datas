@@ -1,7 +1,7 @@
 [
   {
     "name": "FIRST_FLIGHT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/23c12c069549ef51f9baf48c11481bac00dc206d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/dc1123d0cb0e5d3faa9acd258710b9ea63708ff7.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "NICE_SERVICE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/835a165bde223a908eddb70d782ded46b2cbadaa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/d576ac4e6ec915a0abc704a31a9d1952e95ed231.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "FIRST_VENDINGMACHINE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/a11ad525f673591c4d8ad61aa59c8ffffe487a57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/8e1724e9c2c7d7196adb183feff3b05bd79e38ec.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "FIRST_FRIDGEMAGNET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/1d9527ab9708e84d4702c499ff4a5052b9cb3012.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/66c696e14829b23b6ba0f6ee1ac6a823f9273588.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "SERVICE_5000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/74186fa386698bb99ff8003f5c9954104c06eb40.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/ab9027008208a8679767754dcce13c26c57bc29d.jpg",
     "displayName": {
@@ -68,15 +68,17 @@
       "english": "Serviced total 5000 passengers.",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5000,
-      "stat_name": "STAT_TOTAL_SERVICED_PASSENGERS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_SERVICED_PASSENGERS",
+        "min_val": 0,
+        "max_val": 5000
+      }
+    ]
   },
   {
     "name": "SERVICE_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/7c4766530922d25d83504fcea03f8a093aa51a88.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/e9d78462795199431038edd79211b4b2ea7a48ae.jpg",
     "displayName": {
@@ -87,15 +89,17 @@
       "english": "Serviced 50 passengers.",
       "token": "NEW_ACHIEVEMENT_1_5_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_TOTAL_SERVICED_PASSENGERS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_SERVICED_PASSENGERS",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "SERVICE_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/edd5abad0759a943c5bdf72041569a06d519798d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/1878bf4930580aaf6cb379d34df1f2e9cfd8c023.jpg",
     "displayName": {
@@ -106,15 +110,17 @@
       "english": "Serviced 100 passengers",
       "token": "NEW_ACHIEVEMENT_1_6_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_TOTAL_SERVICED_PASSENGERS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_SERVICED_PASSENGERS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "SERVICE_500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/087432cf4296229954e6ba10c3f49955ad3c5e3c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/d9463aecfa33533f484f00d459ba38962331361c.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Serviced 500 passengers",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "STAT_TOTAL_SERVICED_PASSENGERS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_SERVICED_PASSENGERS",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "SERVICE_1000",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/b994c02d43c4a102f54e224318440dbd592f847f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/2939697bf1117c08058238a9edf978ba94d7dbf8.jpg",
     "displayName": {
@@ -144,15 +152,17 @@
       "english": "Serviced 1000 passengers",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_TOTAL_SERVICED_PASSENGERS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_SERVICED_PASSENGERS",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "EVENT_SNAKE_CATCHER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/edb2af51f021e2978a5d2bb902828fcbe20dc558.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/5ec25c4db97bdf7a1807d6c3f3e1f07d6a54f5ce.jpg",
     "displayName": {
@@ -166,7 +176,7 @@
   },
   {
     "name": "OPEN_DOOR_ON_AIR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/b3c24128f82182a70e2d1f0d0537dca9141655ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/8c5c37bc2c370664e7ee8cc1ee2654850264c065.jpg",
     "displayName": {
@@ -180,7 +190,7 @@
   },
   {
     "name": "DIE_WITH_A_SMILE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/829295a201c6b3b1bc41b6b2e4ddab26f93e2b0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/12daeca6672d72fe96d481e3f76bfe9c91c92a1d.jpg",
     "displayName": {
@@ -194,7 +204,7 @@
   },
   {
     "name": "LUGGAGE_THEFT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/91ddd8e074ee2235d068d84adc7362e40305a57c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/ec68d9fcd47c017b7a3c709af7db1e03ce56336b.jpg",
     "displayName": {
@@ -208,7 +218,7 @@
   },
   {
     "name": "FIRST_BUY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/4f04172389d0483c269ed65785d06ddddc64d5bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/bb74e224cab62f22bebe32d3d4f1759e240566bd.jpg",
     "displayName": {
@@ -222,7 +232,7 @@
   },
   {
     "name": "CLEANING_UP",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/a2be5c324d3012f1d26323fcdacf3b10a85ae431.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/c0993e99f39116f05c43344c0f58160a441a278f.jpg",
     "displayName": {
@@ -236,7 +246,7 @@
   },
   {
     "name": "JUNIOR_FA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/04ebad9847a1fdfbc189e4dd2d39f52ef20cd0ae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/95d6f3edea49b84f15328dbe923af83c10ecc147.jpg",
     "displayName": {
@@ -250,7 +260,7 @@
   },
   {
     "name": "SENIOR_FA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/b4a3492ee18b9c477d64416c5bf2b9cefe4c09b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/6a392e8c1359d32f639e26c7a30a7073ab9fe4b2.jpg",
     "displayName": {
@@ -264,7 +274,7 @@
   },
   {
     "name": "PURSER_FA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/80aa77120813d1a370f474b2ad3cdcedaddd4e0a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/2190657d085634d5e3f3441e4e364c6ddf98e27a.jpg",
     "displayName": {
@@ -278,7 +288,7 @@
   },
   {
     "name": "CHIEF_FA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/a443731764513d2adc2c7393ac0bb1143e90fca6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/3a2f882e414686d2ecd5a08b4583450243079e0d.jpg",
     "displayName": {
@@ -292,7 +302,7 @@
   },
   {
     "name": "TRAINEE_FA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/4cd7cfc8618d1745ed2a7e03207ac0a96ba5a028.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/e3d9ee6a366c37281b90336dde73eb3b820f2c33.jpg",
     "displayName": {
@@ -306,7 +316,7 @@
   },
   {
     "name": "FIRST_SELL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/bf6276db6759388001623f98e90e98f28861d0a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/39a1eb0ae97881dbf850eb7fdf71ec9afc96888e.jpg",
     "displayName": {
@@ -317,15 +327,17 @@
       "english": "You have sold your first product.",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_TOTAL_SELL_PRODUCT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_SELL_PRODUCT",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "SELL_50_PRODUCTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/81bfe51d24eb8d305e4f96cfca820abab8e5af65.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/3cdad0dc595f2416231f611053c75c6b8e0f1033.jpg",
     "displayName": {
@@ -336,15 +348,17 @@
       "english": "You are skilled salesperson.",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_TOTAL_SELL_PRODUCT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_SELL_PRODUCT",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "SELL_100_PRODUCTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/0d3235c02f48c859d10c1b36d138b5d4cd74bfc6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/0a28a7563dead1046bfb4efb52953a991c8b64af.jpg",
     "displayName": {
@@ -355,15 +369,17 @@
       "english": "You are top seller of the Week",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_TOTAL_SELL_PRODUCT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_SELL_PRODUCT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "SELL_500_PRODUCTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/7fb0fd261d7f5835392a2d349b6ff4d9ec566e12.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/c520b49713c6230a7a42dc853859053d59447159.jpg",
     "displayName": {
@@ -374,15 +390,17 @@
       "english": "Best Salesperson of the Week",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "STAT_TOTAL_SELL_PRODUCT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_SELL_PRODUCT",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "SELL_1000_PRODUCTS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/aead8688c42d37b571ed436851c29a8f42cf251b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/4f5fed4f5f681abd10d94085d78b2d77a18987d0.jpg",
     "displayName": {
@@ -393,15 +411,17 @@
       "english": "Congratulations! You're the Airlines' Sales Star!",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "STAT_TOTAL_SELL_PRODUCT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_SELL_PRODUCT",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "WIFI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/ce975656a6da913b3369f3dcbc9763cda0f0dc0e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/74a929eabd745130698fdc33ad611a68cf0aded5.jpg",
     "displayName": {
@@ -415,7 +435,7 @@
   },
   {
     "name": "VISIT_CASINO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/9f6bc77c60af2063fbb6c0696e276606f26f2e13.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/a578aec06f3633f5cb9359df32cdfd8bf525c2b0.jpg",
     "displayName": {
@@ -429,7 +449,7 @@
   },
   {
     "name": "VISIT_NIGHTCLUB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/c80454e10ffe489e7742315b20bed8e25eb325d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/3c0d6c3da1ba865b661d72d2b47a21aee3e5d9dd.jpg",
     "displayName": {
@@ -443,7 +463,7 @@
   },
   {
     "name": "AIRPORT_MUNICH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/2c63dad4135dfba227514fb342dfd4657b71e7bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/c5d4b66b6c09cd494a944b833ea238e1071c6c9c.jpg",
     "displayName": {
@@ -457,7 +477,7 @@
   },
   {
     "name": "AIRPORT_STUTTGART",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/2487fe44d8c77a7ef369d7efed9e5e5fa6c6ef08.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/0a0ec11c2046340db59f0ad97d99a861f5ab9add.jpg",
     "displayName": {
@@ -471,7 +491,7 @@
   },
   {
     "name": "AIRPORT_CHANGI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/4d64b50bb8d8039524e500acc77e3bddc4957296.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/3d585127be98704da63a4a643cb88676e43368fa.jpg",
     "displayName": {
@@ -485,7 +505,7 @@
   },
   {
     "name": "AIRPORT_PARIS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/fba592ac1570bf9cdd687ee77f65bb0cccbb1df0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/8255d54384f73d3092e63eaac0f4f67d1eb90684.jpg",
     "displayName": {
@@ -499,7 +519,7 @@
   },
   {
     "name": "AIRPORT_MOSCOW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/b080609dd8a23e264a7695cb188fd3ebef6b2c72.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/09c81c989faa6cb0b6d4a4322f0041edae4e18e7.jpg",
     "displayName": {
@@ -513,7 +533,7 @@
   },
   {
     "name": "AIRPORT_DUBAI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/1e2d97987905d4ff3a83a73a2cf887946f83a334.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/96140600c3d9a97a21a3f2d86f62725d26769f23.jpg",
     "displayName": {
@@ -527,7 +547,7 @@
   },
   {
     "name": "AIRPORT_BEIJING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/88ebf5fe494464a5f4a1e13e5d5f5c851711eb90.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/3c5cfab5c073d59c5fbe59e08e5a6bda3bccb9db.jpg",
     "displayName": {
@@ -541,7 +561,7 @@
   },
   {
     "name": "AIRPORT_TOKYO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/8c081a60c57c013b201e9ea679ead65e631a755e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/dfb855868624e052f7f6d4abaaef9f455cc4f7d5.jpg",
     "displayName": {
@@ -555,7 +575,7 @@
   },
   {
     "name": "AIRPORT_ZURICH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/d89f83da50312e979501afd557b93b1fb93de602.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/c1d0d68f9001b5a22f782a24390b8cf95625217e.jpg",
     "displayName": {
@@ -569,7 +589,7 @@
   },
   {
     "name": "AIRPORT_HEATHROW",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/c852d58c30b028fa87ff349ca82a1efafba646c4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/24eb981c230178c26a924df90cdab6cc2b29797a.jpg",
     "displayName": {
@@ -583,7 +603,7 @@
   },
   {
     "name": "AIRPORT_JOHN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/f5d12c29d23b04fca6dd2cd85740e9c88acf1c1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/8db480d876812d992552f4203d18ded4a0837fef.jpg",
     "displayName": {
@@ -597,7 +617,7 @@
   },
   {
     "name": "NAKED_FA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/8d97bc9ccae9c231ad72b5a555a16feced93837d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/1ad9468d68a653ded0f9baa0a7667b6b90f667a4.jpg",
     "displayName": {
@@ -611,7 +631,7 @@
   },
   {
     "name": "FIRST_FRIDGE_MAGNET",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/04ee852dd5f3a9f97157957b97d0e7bacabc2ac5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/f88fe19ce552d745e7daece32bfc3faa873b1e88.jpg",
     "displayName": {
@@ -625,7 +645,7 @@
   },
   {
     "name": "ENDLESS_MODE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/6028278e36c4c838786fafee96c445ecae2b20d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/ad21c658bd22ecf4f191fc2ae48960a59b21bdb2.jpg",
     "displayName": {
@@ -639,7 +659,7 @@
   },
   {
     "name": "PERFECT_FLIGHT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/323b807382c91ab3bddea509ae1ab03d6ef849b3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/c60fcd2810484a9e538eb20e7f0beda180fc6155.jpg",
     "displayName": {
@@ -653,7 +673,7 @@
   },
   {
     "name": "CONQUER_SKY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/0de428ee0ae3e26ec19172f93e8cbdffc4cc4f2d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/256e730e8900228d1bd8f6023c8661c916187d7a.jpg",
     "displayName": {
@@ -664,15 +684,17 @@
       "english": "You have flown in the sky 500 times.",
       "token": "NEW_ACHIEVEMENT_3_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "STAT_TOTAL_FLIGHT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_FLIGHT",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "EVENT_ONFIRE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/5c7f1dd31d7be7a4700f9c52a20040245f48b211.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/4ca85def427a3fce77b5d2943b47dd99c657ed93.jpg",
     "displayName": {
@@ -686,7 +708,7 @@
   },
   {
     "name": "EVENT_CPR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/5da7b8365fdd4fcdb98a919f704ecaf66b276f05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/8333d4f3b38ec567d1c1bd2f15ebd1542b33dd3a.jpg",
     "displayName": {
@@ -700,7 +722,7 @@
   },
   {
     "name": "EVENT_BOMB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/668dbca8e74fea953c2f7172f92ccbf6fcb8f746.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/b03457bf8c6bb7e5508f45597a7dc9e0e126b11d.jpg",
     "displayName": {
@@ -714,7 +736,7 @@
   },
   {
     "name": "EVENT_SICK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/45fbefe6b60ed2aea9b6c611e15b4ea54d9d8d73.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/d3e23cbe70cc292795a134620f9277dfc991f4ca.jpg",
     "displayName": {
@@ -728,7 +750,7 @@
   },
   {
     "name": "EVENT_STEALING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/c88b72113abf3c76ee026cee4f9a87292690de0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/874bfe38d0e3092234374ebe1f2109e30fbbfec8.jpg",
     "displayName": {
@@ -742,7 +764,7 @@
   },
   {
     "name": "EVENT_SLEEPING",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/f461928e669ccc705e3a38d59e2f93c0fa43f389.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/51624db5d9c5a238d08f93277cda54abcb90e397.jpg",
     "displayName": {
@@ -756,7 +778,7 @@
   },
   {
     "name": "SKY_ROOKIE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/e12166862e800115eb18effa7155f3dc02d7a8e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/8f7c29e558d7771f747e4ef35a54a2e34e788ea6.jpg",
     "displayName": {
@@ -767,15 +789,17 @@
       "english": " You have flown in the sky 10 times.",
       "token": "NEW_ACHIEVEMENT_3_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "STAT_TOTAL_FLIGHT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_FLIGHT",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "SKY_EXPLORER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/8ce6d054389666e8030fe9d9bb3307dbec1ad45f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/771f76c6e03a63833ad5f53727463b8f588210f1.jpg",
     "displayName": {
@@ -786,15 +810,17 @@
       "english": "You have flown in the sky 25 times.",
       "token": "NEW_ACHIEVEMENT_3_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_TOTAL_FLIGHT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_FLIGHT",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "SKY_LEGEND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/584f53dd9395138ccc095e819c996ea8cc5de150.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/72042244865143e0706269e9eed0ce1d898004be.jpg",
     "displayName": {
@@ -805,15 +831,17 @@
       "english": "You have flown in the sky 100 times.",
       "token": "NEW_ACHIEVEMENT_3_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_TOTAL_FLIGHT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TOTAL_FLIGHT",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "FIRST_PHOTOBOOTH",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/66d607c1ec21f7ae6698817c246cc4fc1ebcd37c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2959610/8f69599351f44f769566d28efbaa7f3d7c091c0d.jpg",
     "displayName": {

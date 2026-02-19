@@ -1,7 +1,7 @@
 [
   {
     "name": "ETQ_ACHIEVEMENT_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543950/129639e8ac784a1afe6329874ba8ea8f13ad8d19.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543950/e5e389308ff1fdbae0b2b538e135363dc3bd2173.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Jump a total of 100 times.",
       "token": "NEW_ACHIEVEMENT_27_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "ETQ_Jumps"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ETQ_Jumps",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ETQ_ACHIEVEMENT_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543950/af0ac5c59df7eca9b557a19210759e111666e73b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543950/0dc17eab91cfec22bbc24f4ac0ac1e99ca2de341.jpg",
     "displayName": {
@@ -31,15 +33,17 @@
       "english": "Achieve your first 3-star completion.",
       "token": "NEW_ACHIEVEMENT_27_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "ETQ_3STAR_TOT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ETQ_3STAR_TOT",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ETQ_ACHIEVEMENT_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543950/463913b26cea3b3bf38554c8f3a7e805043fd067.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3543950/f78b8458a5b357cd63c0bd2256b05579c8433810.jpg",
     "displayName": {
@@ -50,10 +54,12 @@
       "english": "Find your first collectible.",
       "token": "NEW_ACHIEVEMENT_27_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "ETQ_COLLECTIBLES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ETQ_COLLECTIBLES",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_OUCH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/fe90fe31227c8dc121fe1882095411d53c0e257c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/c25f708cd5ef853dfaa1d49c217ffd8459f21d30.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_WIN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/6823ab4b0b43b741974c10f6b15d9031433f560a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/ee9ff050b741011a126bf08b46a1f5014e47520f.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACHIEVEMENT_EDUCATED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/b15a1d3517f8147edad95d92681fe97d6105cb6f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/88b489bfa52091304b90ab6e0e2a845402734be7.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ACHIEVEMENT_OOPSIE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/90f4be28137d18ec41ce77a33c33f3b9f5681477.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/7596cbe8833970a88be389dd36411da20796a101.jpg",
     "displayName": {
@@ -54,15 +54,17 @@
       "english": "Fall to death 25 times.",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "fall_count"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "fall_count",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_LAWS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/08b44a3cd0736471bee29a2fa7bcdf2105275ce4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/b9452b3eb2385f258e02d071f464c8882b81e467.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACHIEVEMENT_BALLER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/3bf3f564b4e6e2849ca4c99dc34e7bfc186bf795.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/7ff5321d5985a24df4303314b77664083e5f804c.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACHIEVEMENT_EGG",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/a662082ab3b2a51a8f5d205f99327fe44c3d1b44.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2266510/cd32c186b2fd8ed95b5bafeda3d6f429b3b86983.jpg",
     "displayName": {

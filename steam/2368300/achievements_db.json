@@ -1,7 +1,7 @@
 [
   {
     "name": "campaign_trigger_specialforces",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/bc77eb457a044619e891674add8331436708e58c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/71de0ce69d877890ca1a105a6e00514897538537.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "campaign_trigger_takingastand",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/7fd75cb74c4a0193344ac8da2572d6d6b681e524.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/a9c591a2131d14752da334fd7ad424910872ee74.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "campaign_trigger_thelaststand",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/aa8adde26a500a4de5f979bf33939aeaed55d1a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/03517c630c1145a6564d06df77b58169ed9e6954.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "campaign_trigger_krakenswake",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/c74ca5f8fd9d54bd04ab1c04f47af59c47235132.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/bad3ee8ee46e7aecd3f21b9de2046361efce08d7.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "campaign_trigger_fogofwar",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/fa1703466071ea059f4c1d7ec94a805f8e3b9e10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/7c8994ae009bd73c7a331d5dbcd3a68273d1c028.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "campaign_trigger_asurpriseattack",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/6e6643f7661237e5b42343efde2318f28ba6486f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/e0c131bb4147c925ed652a4c748585b90b12738c.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "campaign_completed",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/b3a92a4716e17567e3b7561c5acb5c0c6d609cac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/cd956de364f4d44b636bbce4140f3eb110e8485a.jpg",
     "displayName": {
@@ -99,7 +99,7 @@
   },
   {
     "name": "campaign_newworld",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/beb6e3e06c1615b2e0d3eefd8a0e7c92f29b5596.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/d05a0c15f16c2c3b241ac67ea3d0fc253bbce8e9.jpg",
     "displayName": {
@@ -113,7 +113,7 @@
   },
   {
     "name": "totals_airport",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/ffac23d766a9b4c47846b623d65a72c05c1f3e61.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/141d83c5e82970c1ef7dd36a4e75e41edbbc6672.jpg",
     "displayName": {
@@ -124,15 +124,17 @@
       "english": "Collectively capture 25 Airports across all sessions.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "stats_airport"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stats_airport",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "totals_tanks",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/94653522d5310514617da50161476f72ff2b975f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/65f8e4eabef43afa1fe9abef03e35c353d6b6e4b.jpg",
     "displayName": {
@@ -143,15 +145,17 @@
       "english": "Collectively build 250 Tanks across all sessions.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "stats_tanks"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stats_tanks",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "totals_powers",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/79dbfc0c4d3c5272375c0b1befc49111744e8aab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/4ace9d0765caac89e8b10979cd5bfa05da0ce5fa.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Collectively use Battle Powers 100 times across all sessions.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stats_powers"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stats_powers",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "totals_units_destroyed",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/123fd1794e6cc9075bd944b9c1ac06b4eb1ccc54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/3fe7e68ff9ed605dc7666415e19eee088237453c.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Collectively destroy 1000 enemy units across all sessions.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "stats_units_destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stats_units_destroyed",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "totals_naval_destroyed",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/449419887f86d12eaac2eba7ca61f9d12a6e3237.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/4584a69c70cfa13698672cafd022c397a82fa34e.jpg",
     "displayName": {
@@ -200,15 +208,17 @@
       "english": "Collectively destroy 75 enemy naval units across all sessions.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 75,
-      "stat_name": "stats_naval_destroyed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stats_naval_destroyed",
+        "min_val": 0,
+        "max_val": 75
+      }
+    ]
   },
   {
     "name": "totals_bombers",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/4c897cc080d042358b049dd7466fd71f9a93fe0f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/c5779172adb88aebdbd6e34c30ffeca6570837dc.jpg",
     "displayName": {
@@ -219,15 +229,17 @@
       "english": "Collectively destroy 50 enemy units using Bombers across all sessions.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "stats_bombers"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stats_bombers",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "skirmish",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/b5917a363d8d3819904a906f50385ec787fca25f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/e91b41e60a7bc5aa877121a87e09277f6d4a7f4c.jpg",
     "displayName": {
@@ -241,7 +253,7 @@
   },
   {
     "name": "skirmish_10",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/05801e22b7e1b64e48bd073fbc89139dc83d5f3d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/fe6f994d451dd4139040094cee5ce8735249caa5.jpg",
     "displayName": {
@@ -252,15 +264,17 @@
       "english": "Win 10 Skirmish missions.",
       "token": "NEW_ACHIEVEMENT_1_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "stats_skirmish_won"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stats_skirmish_won",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "skirmish_communitymap",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/a3738916f982745f20a9ae59a843fda13bc71ba4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/c968b90a68d6dc53eddf97faf5010a34fbb0ceb9.jpg",
     "displayName": {
@@ -274,7 +288,7 @@
   },
   {
     "name": "action_rhino_double",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/663c1a09cbef6ae32e19096e8980cd129b95d07c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/cc245fecfa6f7c1f55da000d01ed6a51a57132cb.jpg",
     "displayName": {
@@ -288,7 +302,7 @@
   },
   {
     "name": "action_rhino_self",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/efadb74e6b4645489b53f7ec2a1f20362926a86d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/e8dbc76f43db29ee39ee2a18c33c2efd81e1c778.jpg",
     "displayName": {
@@ -302,7 +316,7 @@
   },
   {
     "name": "action_ambushed",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/45ba4778623f47c01aba839c5a0bfc69d298df52.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/3ba662f8676c99d2958b2d45550b3ef63c6b2f41.jpg",
     "displayName": {
@@ -316,7 +330,7 @@
   },
   {
     "name": "action_boomtruck_drop",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/fdc765e24b5fa62709d52c352566270f487ae8b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/053289c1b7e241c19f016e351575fa067f844718.jpg",
     "displayName": {
@@ -330,7 +344,7 @@
   },
   {
     "name": "multiplayer",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/8c3509d8f1ab154e70b7bc77191133f7570dce7f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2368300/8af108c5348688148ebfb0e36ef1d3da8dcc2697.jpg",
     "displayName": {

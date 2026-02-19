@@ -1,7 +1,7 @@
 [
   {
     "name": "kill_420_zombies",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/6386991ade6cabcab5a8cb99c9fb550427a62f29.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "Kill 420 zombies",
       "token": "NEW_ACHIEVEMENT_6_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 420,
-      "stat_name": "num_zombie_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "num_zombie_kills",
+        "min_val": 0,
+        "max_val": 420
+      }
+    ]
   },
   {
     "name": "kill_friendly_npc",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/45fcd9bfe5fa935f54d3912940297a4fc29279f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -31,15 +33,17 @@
       "english": "Kill a fellow survivor",
       "token": "NEW_ACHIEVEMENT_6_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "num_npc_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "num_npc_kills",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "start_campaign",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/2f153984643ea1d5f87a74de61effa81a188e755.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -53,7 +57,7 @@
   },
   {
     "name": "fire_safety_on",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/bd7d1cfb239cb78b2b6e9529436be78289f10ba9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -67,7 +71,7 @@
   },
   {
     "name": "complete_mission_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/328c18cc6c431c1dec20c0d218cce2cd59d47676.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "complete_mission_2",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/9c35176fc0f7c18ba8679d12898b86316dc65cb7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "complete_mission_3",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/16a183b30839209ae1ebddd8fb8e13246dc88180.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "complete_mission_4",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/0751125b85f25f6c2ec18746d92d7d57d58d0097.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "complete_mission_5",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/144a5c7ba9d3e31ffd43e0a07ecf728bcf4cef4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "fire_empty_mag",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/121249860b85fd39055470dbb5f8ab807f8ec3e9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "kill_helicopter",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/1d772df8e8325d1528898d624551723cf4aa6a13.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "kill_zombie_far",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/f48bacd0b208aec916c6d3a02ebf21fb4c185ebf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "kill_zombie_grenade_3",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/f1572e4490212ac1f4513e598c3b1b9f00cc0f84.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "kill_zombie_multi_1_shot",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/1c507d4cfd4db1f75374d9e466ae9f92a1c88357.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "flashbang_self",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/fb913779e998c486a4b5bfeb91211ee0bd28e2e5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "kill_100_zombies",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/3845e8001f35fa796a58ee529eb391504e68ea0c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -232,15 +236,17 @@
       "english": "Kill 100 zombies",
       "token": "NEW_ACHIEVEMENT_6_15_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "num_zombie_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "num_zombie_kills",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "kill_20_zombies",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/165a67ff4518e2a2ba9fc6cb20cadb681df7ebf0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -251,15 +257,17 @@
       "english": "Kill 20 zombies",
       "token": "NEW_ACHIEVEMENT_6_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "num_zombie_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "num_zombie_kills",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "kill_200_zombies",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/12d652434ef4fcc979bcf7c6412d7cfa23634d42.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -270,15 +278,17 @@
       "english": "Kill 200 zombies",
       "token": "NEW_ACHIEVEMENT_6_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "num_zombie_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "num_zombie_kills",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "kill_1000_zombies",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/ab3ea6cf5316c2a271a09521fa13c72770e49f94.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -289,15 +299,17 @@
       "english": "Kill 1000 zombies",
       "token": "NEW_ACHIEVEMENT_6_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "num_zombie_kills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "num_zombie_kills",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "damaged_first_time",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/688e3aaf517a6a43b83dccb66cddcf37d1714c5c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {
@@ -311,7 +323,7 @@
   },
   {
     "name": "kill_zombie_last_round",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/f34f2f2e0844686ae8fb7235b352c7f546add791.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1887760/8e22a31c763dfae8a75fcf049b8b4476710af285.jpg",
     "displayName": {

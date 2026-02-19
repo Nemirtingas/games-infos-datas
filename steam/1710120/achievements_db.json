@@ -1,7 +1,7 @@
 [
   {
     "name": "ach_survivalScoreA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/ac3661e99b696d7efb978cf50ec2bf487bec1926.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/5cf1ecc55c4531b869c670c78da6a21394cef550.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ach_survivalScoreB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/73da9ad45381ed7fd12c347c09537d84e4192f5a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/815bb81e67e2766492abd19ad6bcfbde6fe9553b.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ach_survivalScoreC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/b00dd2f048267bc6245a65f2121ce85322e9200f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/b8ad3ebfb3f37d3c150bbba8d0ba05a0c8fd27cf.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "ach_survivalScoreD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/84c89067b5bcd12017fd6843feac4e8cffce6dab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/e481136e2af4b8a181c725518ad226bcdf1e1d28.jpg",
     "displayName": {
@@ -57,7 +57,7 @@
   },
   {
     "name": "ach_chainA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/5d201c7e13b558efe66f95fe5b107c824c52abc5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/47973987e0f40804113778699946ff05ee54cfaa.jpg",
     "displayName": {
@@ -71,7 +71,7 @@
   },
   {
     "name": "ach_chainB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/dedb417146d55a761dbfe89603344e8d479d2fcb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/b3593ad4f14eb78167a9692ebea99bf124e263e7.jpg",
     "displayName": {
@@ -85,7 +85,7 @@
   },
   {
     "name": "ach_killA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/77112e483b76a71dd873f99b92e39a8f423f76fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/86efc816d53496347a7090cfba5bd934a996a691.jpg",
     "displayName": {
@@ -96,15 +96,17 @@
       "english": "Kill 100 enemies.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "stat_totalKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_totalKills",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ach_killB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/bcdb090177cb75058df4d2ccdf6f59a26ff23cbb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/a2dd82fbbef3cd8dd6488765cc0d1709965a0843.jpg",
     "displayName": {
@@ -115,15 +117,17 @@
       "english": "Kill 1000 enemies.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "stat_totalKills"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_totalKills",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "ach_supernovaComboA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/71385cfd31fb242dba31ef23cd9dc389c21d2db3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/5fd255a961febc5310d2a5f6a0ca7f0937d61ae6.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "ach_boostDodge",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/ccf557535d15804e08066b974f0dfe3cbaf90e30.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/fc6dfa5f7592d9f024b5b2e7077d229abd2c0322.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "ach_boostComboA",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/24cd7f71d69b93dbcfbe7a73039339fa143e7cb5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/c68f745fe4303b8644ba95f1f184dca126a97cc5.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ach_chainC",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/f1f889465a2c9e26b5fb6f267b8c80c690f4ff1f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/fbefa1fa45966ff776a03c13c6b26743aa8a7d72.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ach_boostComboB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/80eb523dc3acf000a0ee3f1a466fd0491b23e5a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/4cf2bf8f685bd27503c651167d2fda31478f6265.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "ach_survivalScoreE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/34b3f84c568af80265f9dde99881034a8866e85a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/dae8ad7f394352e073f8acc57c69d1dfab82d02f.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "ach_survivalScoreF",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/6bd61550a46fc86f1796d0bd5ff57143e21bbffa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/311841c29feaa0734b6834f6665c23329973ff19.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "ach_basicSurvivalRankS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/b01af062161097c63600b29a39bfb32fec9705e2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/9607e5cf413e8417a12302c17f8f5bf65af0069e.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "ach_superSurvivalRankS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/b01af062161097c63600b29a39bfb32fec9705e2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/9607e5cf413e8417a12302c17f8f5bf65af0069e.jpg",
     "displayName": {
@@ -249,7 +253,7 @@
   },
   {
     "name": "ach_swarmSurvivalRankS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/b01af062161097c63600b29a39bfb32fec9705e2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/9607e5cf413e8417a12302c17f8f5bf65af0069e.jpg",
     "displayName": {
@@ -263,7 +267,7 @@
   },
   {
     "name": "ach_shieldSurvivalRankS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/b01af062161097c63600b29a39bfb32fec9705e2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/9607e5cf413e8417a12302c17f8f5bf65af0069e.jpg",
     "displayName": {
@@ -277,7 +281,7 @@
   },
   {
     "name": "ach_perfectSurvivalRankS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/b01af062161097c63600b29a39bfb32fec9705e2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1710120/9607e5cf413e8417a12302c17f8f5bf65af0069e.jpg",
     "displayName": {

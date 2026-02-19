@@ -1,7 +1,7 @@
 [
   {
     "name": "ACHIEVEMENT_HELLO",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/07eba52e7e1d6d55c95f91f6cbd7d44b4b7e26c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/8028fddf5f4d88f37c644b19683406adffe9d70c.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACHIEVEMENT_CLEAR_STATION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/3be9c8960f7e53bd7a887d7b1d2553888bc1e556.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/0b768d016eff5376677ca984edf7c43ce01ab906.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACHIEVEMENT_KILL_50_ENEMIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/234c972998112cef13aa8343a1e597787d7e6a97.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/8539c73a77be33bcbc3b1fdc6badf1ab53400b05.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Kill 50 enemies",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_ENEMIES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ENEMIES_KILLED",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_KILL_250_ENEMIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/e3e80eb65d29cfc19f546f6726c59cd39bcfa407.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/9650a39c08582185e1d65993f955307c6ca1d6c9.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "Kill 250 enemies",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 250,
-      "stat_name": "STAT_ENEMIES_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_ENEMIES_KILLED",
+        "min_val": 0,
+        "max_val": 250
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_GATHER_200_MONEY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/517d2d8f199bcd81158839ce2422c5692d140378.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/9fa6a03c72d4a6e9731172f6a2f33db8e8eeaefb.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "ACHIEVEMENT_TRAVEL_REGION_1",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/c31012d8d1a1cf454c8f55d883b693e313c8dd12.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/f05db20c1093040e21dd4fa3559de3c909912b30.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "ACHIEVEMENT_KILL_MEGATRON",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/461e086297bce607836e30623b9665a6a974166e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/13d3a7df184f3f9e8fb1bda10284d95d9ee6ca44.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACHIEVEMENT_KILL_KILLERBOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/72c75fd21439b012a2ea368d30664f6213c3b073.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/ce544740bf9bce02807f851795ff3415cfc506d8.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACHIEVEMENT_KILL_BLOODSPAWN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/59b1238f4dd5cef8f794236352c888d4147f10f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/20b435144f64d1a0933ebe5b335e7b9062cbfeb3.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "ACHIEVEMENT_KILL_QUEEN",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/67b1a75cb32f1085548ce463b42d3f92e213deca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/a151dde246c248905ce78673f12e49527f27b081.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "ACHIEVEMENT_KILL_HOLK_LAB",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/1f7a2af233e73a6fd57d8e36106aaf07b4cece16.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/d85954d805c79b524cd28e4c7a3e7d66f06c3e74.jpg",
     "displayName": {
@@ -165,7 +169,7 @@
   },
   {
     "name": "ACHIEVEMENT_KILL_HIVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/1ee63c63cdd71c3dbe2fe65f62cd044d491e1ada.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/a1d5ead0419fa803558b7cb3d1b34f17df5fd5a0.jpg",
     "displayName": {
@@ -179,7 +183,7 @@
   },
   {
     "name": "ACHIEVEMENT_KILL_BANDITS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/85fd0f51996d90a840ad9607dd390ce390aa419f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/cb07d5c286100cabe5415f7dd3ab267e4910ca85.jpg",
     "displayName": {
@@ -193,7 +197,7 @@
   },
   {
     "name": "ACHIEVEMENT_VISIT_ALIENS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/eaf8aa92691c8d71b8a706211b57d45287e49fd7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/2ce6f250644bda35b953a0f6557f71dd412096dd.jpg",
     "displayName": {
@@ -207,7 +211,7 @@
   },
   {
     "name": "ACHIEVEMENT_VISIT_ZOMBIES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/08bfedb1eb61267a8a8f91646eb2ca30f1f0dc1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/1acd6837ce2c6538bfab7b2adab41f8aa690309a.jpg",
     "displayName": {
@@ -221,7 +225,7 @@
   },
   {
     "name": "ACHIEVEMENT_VISIT_FEDERATION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/afb71486289cde77d94bc0511b13ced9e889c15a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/094e3c298f9226561318f752e954f376fbdcf579.jpg",
     "displayName": {
@@ -235,7 +239,7 @@
   },
   {
     "name": "ACHIEVEMENT_KILL_MRBONSON",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/e51d957891d68d63b70a63a4745ac375b9ce614f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/63ce2b0827ede407e157f0f67f41cadcbc8d8135.jpg",
     "displayName": {
@@ -249,7 +253,7 @@
   },
   {
     "name": "ACHIEVEMENT_MISC_KILL_PROPS_WITH_GRENADE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/cddf3ef3777087af9c15dd1684ee11476e67bdb1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/f0fa213b5b35be422702a0838c4b30849ff2079c.jpg",
     "displayName": {
@@ -260,15 +264,17 @@
       "english": "Destroy 25 props with grenades",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_PROPS_KILLED"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_PROPS_KILLED",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_MISC_LOSE_ALL_YOUR_MONEY_TO_A_GAMBLER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/2aa275815498502b0dd2771396fddbc98c75d2fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/d2b933041c8498c2377b947eeed3cc60e567b6ad.jpg",
     "displayName": {
@@ -282,7 +288,7 @@
   },
   {
     "name": "ACHIEVEMENT_MISC_GET_5_SHIP_UPGRADES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/d9ed5ebe4840f1028a757e7cbafec7eaa62a8600.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/4ac424abdb27d3fbc98a7c7840caa5220e7915ac.jpg",
     "displayName": {
@@ -296,7 +302,7 @@
   },
   {
     "name": "ACHIEVEMENT_MISC_PICKAXE_UPGRADE_STRAT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/5882e812d3dcd17425e0281b87209bc5098559b7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/18720858876e011076efa3a03278e6611f14327f.jpg",
     "displayName": {
@@ -310,7 +316,7 @@
   },
   {
     "name": "ACHIEVEMENT_MISC_CHEAT_GAMBLER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/e7973f82dd150ee31327d4be5470d7c16d006459.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3807940/041a8c6a0580deb1fe414489cce7cdd234c5995a.jpg",
     "displayName": {

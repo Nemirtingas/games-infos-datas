@@ -1,7 +1,7 @@
 [
   {
     "name": "MY_HEART_WILL_GO_ON",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "HEART_COLLECTOR",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {
@@ -26,15 +26,17 @@
       "english": "Collect all of the hidden hearts.",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "heart_stat"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "heart_stat",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "INFORMATION_BROKER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ZODIAC_PUZZLE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "COMPLETE_TUNNELS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "COMPLETE_HOSPITAL",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "COMPLETE_VOID",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "COMPLETE_HOUSE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {
@@ -118,7 +120,7 @@
   },
   {
     "name": "COMPLETE_BRIDGE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {
@@ -132,7 +134,7 @@
   },
   {
     "name": "COMPLETE_GRAVEYARD",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {
@@ -146,7 +148,7 @@
   },
   {
     "name": "GOOD_ENDING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {
@@ -160,7 +162,7 @@
   },
   {
     "name": "BAD_ENDING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {
@@ -174,7 +176,7 @@
   },
   {
     "name": "SECRET_ENDING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {
@@ -188,7 +190,7 @@
   },
   {
     "name": "HOUSE_EVENT",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/19fd774b2e523f4ea3f667b57c51490e62fd92df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3003530/dcf47f75ada0e93e80a604ab6c6da0dc3abf0207.jpg",
     "displayName": {

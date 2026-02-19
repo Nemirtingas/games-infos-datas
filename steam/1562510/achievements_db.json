@@ -1,7 +1,7 @@
 [
   {
     "name": "Oathbreaker",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1562510/975a65bca6d4470b83d7a71dfdab07577d206bf4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1562510/3c51322f6b4001f438ea141cd40ba5f2d21260d9.jpg",
     "displayName": {
@@ -12,10 +12,12 @@
       "english": "Launch FTO",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "stat_2"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "stat_2",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]

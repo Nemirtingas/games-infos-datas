@@ -2,25 +2,28 @@
   {
     "name": "CROWNS",
     "displayName": "Crowns",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "maxchange": 1,
+    "default": 0
   },
   {
     "name": "RANK_POINTS",
     "displayName": "Rank Points",
-    "type": "0",
-    "default": 0,
+    "type": "float",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": -5.0,
+    "max": 35.0,
+    "default": 0.0
   },
   {
     "name": "RANKED_ROUNDS",
     "displayName": "Ranked Rounds",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "START_GAME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4078640/ca4563b43c5d544b631268de788aa26d1e60d6bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4078640/e8457e06fdb40bf554b049b2fa7cb3ae65255485.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "EXPERIMENT_ENDED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4078640/dfc528e094c73e068326e0c3c0d4eba677381ca7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4078640/2d1af09ce6ddcfc4017497e733bc0c3cd4dfbae6.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "WISH_SENT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4078640/c062f244995a37a397255e832c96bea5ce264979.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4078640/86105ee3e858a5827c74b3ef5b7f3ad86bd9243f.jpg",
     "displayName": {
@@ -43,7 +43,7 @@
   },
   {
     "name": "CAPYBARA_FOUND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4078640/50e269bad1e7f4d822ac8026e80cf5787a4085ca.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4078640/98288bb1b2779280ccc8212265d5ff64c9c89617.jpg",
     "displayName": {
@@ -54,10 +54,12 @@
       "english": "Find all 20 hidden capybaras",
       "token": "NEW_ACHIEVEMENT_2_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "CAPYBARA_COUNT"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "CAPYBARA_COUNT",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   }
 ]

@@ -2,41 +2,51 @@
   {
     "name": "games",
     "displayName": "Game Cartidges",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 3,
+    "max": 20,
+    "default": 3
   },
   {
     "name": "guns",
     "displayName": "Ranged Weapons",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 20,
+    "default": 0
   },
   {
     "name": "treasures",
     "displayName": "Treasures",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 50,
+    "default": 0
   },
   {
     "name": "cash",
     "displayName": "Cash found",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 10000,
+    "default": 0
   },
   {
     "name": "days",
     "displayName": "Days Survived",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 15,
+    "default": 0
   }
 ]

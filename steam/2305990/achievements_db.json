@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_SUPER_SHOT",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/37c1b57ab5dd024e800b23124aaff46fbe9c6db9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/c1b8a621c955894b34493f3648625801a3aa4e24.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_SLAM_DUNK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/8c56211d1b3ede9af5ebc6785ce5bc11f8081cc2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/af32bfc07e5665b0d3e55df54d17f67b5907f730.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_WINNER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/8e9886555723e0147fff8de188fc373b138dab2f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/0bb77903a347dd57cd7bfdc66d24c043c26cc9d9.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Win a single match.",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "GAMES_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GAMES_WON",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_BRONZE_MEDAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/3a4fffca1807ac0b0ae876fc7c39289e904538b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/0d336995804b64f65a9d8bfd39bbd355c2f842e6.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "Win 5 games.",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "GAMES_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GAMES_WON",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_SILVER_MEDAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/b38f525c78af94bc5ce02ca9d1243a1c0975fbd4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/02bd5e684aa76f33a6e4777239d24f0cd31178d9.jpg",
     "displayName": {
@@ -78,15 +82,17 @@
       "english": "Win 10 games.",
       "token": "NEW_ACHIEVEMENT_1_4_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "GAMES_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GAMES_WON",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "ACH_CHAMPION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/ec1d507cf298ab78690e6305442e0b1905abf4ea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/a401432c6c79ce8499970f3d69b8a6ec764ef3c2.jpg",
     "displayName": {
@@ -100,7 +106,7 @@
   },
   {
     "name": "ACH_ALL_WINNERS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/9a3baf4cb616141ffc094c93a048cf86613af778.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/958e4e15b52cf79adf331f4e2f898e3ce869a1b2.jpg",
     "displayName": {
@@ -114,7 +120,7 @@
   },
   {
     "name": "ACH_GOLD_MEDAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/349c0bc1792cf180d871b7336be28e5a6129b0ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/b1edf508683c7c6ac389b1db74de780979000efa.jpg",
     "displayName": {
@@ -125,15 +131,17 @@
       "english": "Win 50 games.",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "GAMES_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GAMES_WON",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_PLATINUM_MEDAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/5e691b4c5af21b06374483443921e18936ee1e41.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/f64c420999f8997f39d4fa066f81bb297680fa4b.jpg",
     "displayName": {
@@ -144,15 +152,17 @@
       "english": "Win 100 games.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "GAMES_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GAMES_WON",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_ALL_CHAMPIONS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/9b629456498bd20f165e91cafa5258451eb77fff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/e449eb2108e31a32302ec878c65dc2183c68525d.jpg",
     "displayName": {
@@ -166,7 +176,7 @@
   },
   {
     "name": "ACH_DIAMOND_MEDAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/5ef7be55d615e97d7cdb517badd93fe41187cc77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/252439f10dbc676491719aecbfe1ba6c0aee34fc.jpg",
     "displayName": {
@@ -177,15 +187,17 @@
       "english": "Win 200 games.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "GAMES_WON"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "GAMES_WON",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ACH_GOOD_ADVANTAGE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/18ee638a47d94bdaa0e0507fec4778bde5d069d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/e47a1054065caf6d93cbd1e0629a642f8143e9b6.jpg",
     "displayName": {
@@ -199,7 +211,7 @@
   },
   {
     "name": "ACH_COMFORTABLE_VICTORY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/de96ea2ec161b8f9471269146f9080a45ddccfd5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/9402cdd56132862e31b47c6040cb90c8bd48d321.jpg",
     "displayName": {
@@ -213,7 +225,7 @@
   },
   {
     "name": "ACH_SHARP_SHOOTER",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/d5aa5671a18dfb9c7a9ab5385fde2bd36cfdb452.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/6b3d68b2303f4aa661eb76e0f4b22cca8b2a189f.jpg",
     "displayName": {
@@ -227,7 +239,7 @@
   },
   {
     "name": "ACH_GOAL_MACHINE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/397c3ac024dad9224261d5548cce050ca51e8311.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/c9484bfae1684f98878988444b1a0e75d97a1d90.jpg",
     "displayName": {
@@ -241,7 +253,7 @@
   },
   {
     "name": "ACH_D_OH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/91ccdb6ebee4617c4d14c698ff28d31283606bfe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/df236db9eff3d7e4678ea118532e2fc079c41f86.jpg",
     "displayName": {
@@ -255,7 +267,7 @@
   },
   {
     "name": "ACH_FLAWLESS_VICTORY",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/b3fd47599e6a7a4d46ded84a5b35c60f0e2b070b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/82b85afca68445d6a62e4ea2d22c99d47561bfdf.jpg",
     "displayName": {
@@ -269,7 +281,7 @@
   },
   {
     "name": "ACH_LUCKY_ENOUGH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/bc46df8b06ba8df259d24243ee1caf29ab3c7915.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/e8d051a653851678704275ab13ae09711e51756b.jpg",
     "displayName": {
@@ -283,7 +295,7 @@
   },
   {
     "name": "ACH_FORGOTTEN_NO_MORE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/70a7e563ad163e34922e1daa8b883603b6b32958.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/621c7620991e7e6b78d0bf4b0f498da63474217c.jpg",
     "displayName": {
@@ -297,7 +309,7 @@
   },
   {
     "name": "ACH_BOSS_BREAKER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/3d40889b0ad4afa52578df74f32178c366b36b6a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/f5afab6e56b31098a59015c678dc4cb9e5fd4ed4.jpg",
     "displayName": {
@@ -311,7 +323,7 @@
   },
   {
     "name": "ACH_CHALLENGE_COMPLETED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/7582aa0229e5b3a954c869f9d74bf295b96e3358.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/50f44befc03c05d99a56fb82de24d7bf5f89cdc4.jpg",
     "displayName": {
@@ -325,7 +337,7 @@
   },
   {
     "name": "ACH_BASKET_BREAKER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/799db69f71c2921d03fc31372b4a1fcf7e6bf35b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/a37b00f796e9cc8d0e4118c398d86c1a6cd7ab9e.jpg",
     "displayName": {
@@ -339,7 +351,7 @@
   },
   {
     "name": "ACH_TRUE_ENDING",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/564dc0dc5708c21a22e49df491bb4808267d6045.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/6dec675d6b8b2f934b6e3b2e069f6833897097d3.jpg",
     "displayName": {
@@ -353,7 +365,7 @@
   },
   {
     "name": "ACH_LESSON_LEARNED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/c8b189abf79fef3e38017492d4c5caa986c71712.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/627b70617cc5ba7cf00c5a0e6a2db23054f7adfd.jpg",
     "displayName": {
@@ -367,7 +379,7 @@
   },
   {
     "name": "ACH_MYSTERY_SOLVED",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/e76c07e3fda52173be9bb53d83e77761bcde7a46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/0d919ccdede91525fddd51be79766645b83383a1.jpg",
     "displayName": {
@@ -381,7 +393,7 @@
   },
   {
     "name": "ACH_SUMMER_STYLE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/3f77c04334b6d682a8cf97f19f58c18be6aa57a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/ceebc9802c36d84838fe8eebfc65c71b52f27da5.jpg",
     "displayName": {
@@ -395,7 +407,7 @@
   },
   {
     "name": "ACH_TIME_TO_RELAX",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/3ec02c8d9845ca21a1ac9df5116aacb28f3c8f3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/ad526242b50e37400235d7135ba9f89cfb421abd.jpg",
     "displayName": {
@@ -409,7 +421,7 @@
   },
   {
     "name": "ACH_BONUS_MASTER",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/cba3737b7d00128982e375509d77754db8a2fc0a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2305990/47c2230a6993419bbfd11922494759d870b2a449.jpg",
     "displayName": {

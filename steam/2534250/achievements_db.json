@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_STORY_PROLOGUE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/da7387c5b75dd947ccb7e932fb113a1d658751db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "ACH_FIRSTBOAR",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/db51bbf4f8649b21b2b9ff5a72da67a1d10220eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -29,7 +29,7 @@
   },
   {
     "name": "ACH_BOARS",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/164beba981d40592d8b115a5ecf0bf8dc1fff3cb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -40,15 +40,17 @@
       "english": "Get killed 20 times by boars.",
       "token": "NEW_ACHIEVEMENT_1_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "STAT_BOARS_KILLS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_BOARS_KILLS",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_TORI_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/a1988093fac99a0b18bbce3196fcf8c94eb817f3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -59,15 +61,17 @@
       "english": "Enter Torii 100 times.",
       "token": "NEW_ACHIEVEMENT_1_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_TORI_ENTRANCES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_TORI_ENTRANCES",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_CHAMELEON_YES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/e2f02c56e41a3dcf39be774de4e276517e238236.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -81,7 +85,7 @@
   },
   {
     "name": "ACH_CHAMELEON_NO",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/0c4707c6d5a0a1cc3e8b8bbcfa6435140f8b2e32.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -95,7 +99,7 @@
   },
   {
     "name": "ACH_TORI_RETURN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/6fb78ef639dbe3b419be06002522785daa76f997.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -109,7 +113,7 @@
   },
   {
     "name": "ACH_POWER_ACTIVATOR_UNLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/71a2b7bf9586bf04b94de6a9b0bc44e533a52851.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -123,7 +127,7 @@
   },
   {
     "name": "ACH_STORY_TORI_END",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/1af9163a6e679c0033a36aa0f92ac5dfc1041a3a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -137,7 +141,7 @@
   },
   {
     "name": "ACH_CARDS_FIRST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/a7781946dec6cd6ebdbfb1ff2ad9496ffda71495.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -151,7 +155,7 @@
   },
   {
     "name": "ACH_CARDS_PROLOGUE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/a2ab1005830132e9fac29b76dcc0aec6d5160f7a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -162,15 +166,17 @@
       "english": "Collect all the cards in the Prologue.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 3,
-      "stat_name": "STAT_CARDS_PROLOGUE"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CARDS_PROLOGUE",
+        "min_val": 0,
+        "max_val": 3
+      }
+    ]
   },
   {
     "name": "ACH_CARDS_TORI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/b804060f0b51882bd4c575e85ac8834afb2f6e4a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -181,15 +187,17 @@
       "english": "Collect all the cards in the Forest of Perdition chapter.",
       "token": "NEW_ACHIEVEMENT_1_11_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_CARDS_TORI"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CARDS_TORI",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_STORY_FORESTRUINS_END",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/2b21ea710be686573c13d295e1fed34b17d91c2b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -203,7 +211,7 @@
   },
   {
     "name": "ACH_STORY_YAGI_END",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/9311d7344c85c046e879aaf19dacc4bde58a2516.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -217,7 +225,7 @@
   },
   {
     "name": "ACH_STORY_ANCIENTCAVES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/36705bd767a5774afc10e88a0aa922e97d5af402.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -231,7 +239,7 @@
   },
   {
     "name": "ACH_POWER_DOG_UNLOCK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/96a3bc1bf7643306256b50a534b956c6981c21f8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -245,7 +253,7 @@
   },
   {
     "name": "ACH_CARDS_FORESTRUINS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/a125d7740299eb3882da76166f2f4db6c512a503.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -256,15 +264,17 @@
       "english": "Collect all the cards in the Lost Ruins chapter.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 6,
-      "stat_name": "STAT_CARDS_FORESTRUINS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CARDS_FORESTRUINS",
+        "min_val": 0,
+        "max_val": 6
+      }
+    ]
   },
   {
     "name": "ACH_CARDS_YAGI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/8d2ecd00cc0814889f05e8e1ff8f7a9dd7b26906.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -275,15 +285,17 @@
       "english": "Collect all the cards in the The Mighty Fallen Guardian chapter.",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "STAT_CARDS_YAGI"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CARDS_YAGI",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "ACH_CARDS_ANCIENTCAVES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/4f5368325b05a76324f08334d1fa07f35ad9cdf5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -294,15 +306,17 @@
       "english": "Collect all the cards in the Ancient Caves chapter.",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 7,
-      "stat_name": "STAT_CARDS_ANCIENTCAVES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CARDS_ANCIENTCAVES",
+        "min_val": 0,
+        "max_val": 7
+      }
+    ]
   },
   {
     "name": "ACH_CARDS_ALL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/d2b5a3cb4e25ad60249f7910e3dc19c9a889d84c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -313,15 +327,17 @@
       "english": "Collect all the cards in the game.",
       "token": "NEW_ACHIEVEMENT_1_19_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 25,
-      "stat_name": "STAT_CARDS_ALL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_CARDS_ALL",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "ACH_DEATHS_20",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/5d453e82198238b2c2634389ab122a8110c0881e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -332,15 +348,17 @@
       "english": "Die 20 times.",
       "token": "NEW_ACHIEVEMENT_1_20_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 20,
-      "stat_name": "STAT_DEATHS_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DEATHS_TOTAL",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "ACH_DEATHS_100",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/96185cfd1bab0d0442f0bb1bf9dba83b7d359fa8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -351,15 +369,17 @@
       "english": "Die 100 times.",
       "token": "NEW_ACHIEVEMENT_1_21_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 100,
-      "stat_name": "STAT_DEATHS_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DEATHS_TOTAL",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACH_DEATHS_200",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/3bc8dd2bc3515e6f08d400c97bbdb870ffd98177.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -370,15 +390,17 @@
       "english": "Die 200 times.",
       "token": "NEW_ACHIEVEMENT_1_22_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 200,
-      "stat_name": "STAT_DEATHS_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DEATHS_TOTAL",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ACH_DEATHS_500",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/4727a8cb5082c264951c47f14771f358f1e8bb37.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -389,15 +411,17 @@
       "english": "Die 500 times.",
       "token": "NEW_ACHIEVEMENT_1_23_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 500,
-      "stat_name": "STAT_DEATHS_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DEATHS_TOTAL",
+        "min_val": 0,
+        "max_val": 500
+      }
+    ]
   },
   {
     "name": "ACH_RUINS_TRAP_YES",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/fa99bba3d7b0ba2331b2ad5a324b1453f72bd8ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -411,7 +435,7 @@
   },
   {
     "name": "ACH_RUINS_TRAP_NO",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/6ccb6dd5daf03bcd07f4b70c2abdc9c8cf723f35.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -425,7 +449,7 @@
   },
   {
     "name": "ACH_CHAMELEON_TRAP",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/0c68817935ca5e10dd3ab5f5aaa6345a32421733.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -439,7 +463,7 @@
   },
   {
     "name": "ACH_CHAMELEON_TRAP_AGAIN",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/c393ee35a5bde21e71f4e6c771ccb2ce7cb78475.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -453,7 +477,7 @@
   },
   {
     "name": "ACH_DEATHS_50",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/5c23edcbdb1d50d4e2ffd9b48ddaa242d8b0b69f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -464,15 +488,17 @@
       "english": "Die 50 times.",
       "token": "NEW_ACHIEVEMENT_1_28_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 50,
-      "stat_name": "STAT_DEATHS_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DEATHS_TOTAL",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "ACH_DEATHS_350",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/9fd50c74134c4ea43c1ec1df0d377450959c24e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -483,15 +509,17 @@
       "english": "Die 350 times.",
       "token": "NEW_ACHIEVEMENT_1_29_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 350,
-      "stat_name": "STAT_DEATHS_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_DEATHS_TOTAL",
+        "min_val": 0,
+        "max_val": 350
+      }
+    ]
   },
   {
     "name": "ACH_CARDS_SECRET",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/9e174ca3786a89170d11706051cf671cae60855d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -505,7 +533,7 @@
   },
   {
     "name": "ACH_HISTORY_FIRST",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/856c197f0fdebc80385731297f64875efd4c91ae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -519,7 +547,7 @@
   },
   {
     "name": "ACH_HISTORY_TORI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/dd38013cd00fd5472e6bfcaf87d64db32dcd4922.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -530,15 +558,17 @@
       "english": "Read all background history in the Forest of Perdition chapter.",
       "token": "NEW_ACHIEVEMENT_11_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "STAT_HISTORY_TORI"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_HISTORY_TORI",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ACH_HISTORY_FORESTRUINS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/4aa4421a5eacac4f962469d018fdd5dde71dc751.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -549,15 +579,17 @@
       "english": "Read all background history in the Lost Ruins chapter.",
       "token": "NEW_ACHIEVEMENT_11_2_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 4,
-      "stat_name": "STAT_HISTORY_FORESTRUINS"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_HISTORY_FORESTRUINS",
+        "min_val": 0,
+        "max_val": 4
+      }
+    ]
   },
   {
     "name": "ACH_HISTORY_TOTAL",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/a6969c46fe8df83c7e4ab3c81dc414d546825462.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/38197c2cca5891bb8979bf6223bfd0de527e72d0.jpg",
     "displayName": {
@@ -568,15 +600,17 @@
       "english": "Read all background history.",
       "token": "NEW_ACHIEVEMENT_11_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 12,
-      "stat_name": "STAT_HISTORY_TOTAL"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_HISTORY_TOTAL",
+        "min_val": 0,
+        "max_val": 12
+      }
+    ]
   },
   {
     "name": "ACH_HITCHAIN_TWO",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/e625583c401e23eaeca398386893cef86f018d5d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/6b786d1c122c69e6a8cd93af03b3aa5478b4f537.jpg",
     "displayName": {
@@ -590,7 +624,7 @@
   },
   {
     "name": "ACH_HITCHAIN_THREE",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/afb9e611e6a676b509ab94fbcefca4b663b85011.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/6b786d1c122c69e6a8cd93af03b3aa5478b4f537.jpg",
     "displayName": {
@@ -604,7 +638,7 @@
   },
   {
     "name": "ACH_BOAR_DEATH",
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/6524f4ef200919c7e8c2deb5ba952d2b5954972d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/6b786d1c122c69e6a8cd93af03b3aa5478b4f537.jpg",
     "displayName": {
@@ -618,7 +652,7 @@
   },
   {
     "name": "ACH_HISTORY_YAGI",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/8ed4e1eb4e8ae06b0d99c448349cd19ded004f41.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/6b786d1c122c69e6a8cd93af03b3aa5478b4f537.jpg",
     "displayName": {
@@ -629,15 +663,17 @@
       "english": "Read all background history in The Mighty Fallen Guardian chapter.",
       "token": "NEW_ACHIEVEMENT_11_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 2,
-      "stat_name": "STAT_HISTORY_YAGI"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_HISTORY_YAGI",
+        "min_val": 0,
+        "max_val": 2
+      }
+    ]
   },
   {
     "name": "ACH_HISTORY_ANCIENTCAVES",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/6b786d1c122c69e6a8cd93af03b3aa5478b4f537.jpg",
     "displayName": {
@@ -648,15 +684,17 @@
       "english": "Read all background history in the Ancient Caves chapter.",
       "token": "NEW_ACHIEVEMENT_11_8_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "STAT_HISTORY_ANCIENTCAVES"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "STAT_HISTORY_ANCIENTCAVES",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_CONFESSIONAL_FIRSTTIME",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/6b786d1c122c69e6a8cd93af03b3aa5478b4f537.jpg",
     "displayName": {
@@ -670,7 +708,7 @@
   },
   {
     "name": "ACH_CONFESSIONAL_NOUSE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2534250/6b786d1c122c69e6a8cd93af03b3aa5478b4f537.jpg",
     "displayName": {

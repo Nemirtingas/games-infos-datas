@@ -2,33 +2,37 @@
   {
     "name": "postcards_unlocked",
     "displayName": "Postcards unlocked",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 7,
+    "default": 0
   },
   {
     "name": "stations_discovered",
     "displayName": "Stations discovered",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "weeks_completed",
     "displayName": "Weeks completed",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "max": 2,
+    "default": 0
   },
   {
     "name": "tutorial_level",
     "displayName": "Tutorial level",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": true,
-    "aggregated": false
+    "aggregated": false,
+    "max": 6,
+    "default": 0
   }
 ]

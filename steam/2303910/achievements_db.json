@@ -1,7 +1,7 @@
 [
   {
     "name": "kill_10_enemies",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2303910/c0bd4ed379bde0f4bc66d8dcc5b057f1765aead4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2303910/2984f0d29c0e29c070a927d2a169165a81f45aba.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "kill 10 enemies",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 10,
-      "stat_name": "ennemy_killed"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "ennemy_killed",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "test_auto_unlock",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2303910/56a5eba509925746000acb30661d0ee062fef55e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2303910/acb60a4810fa7b056765b92c434607b573b607f1.jpg",
     "displayName": {
