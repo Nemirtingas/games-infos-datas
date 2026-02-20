@@ -1,288 +1,401 @@
 [
   {
     "name": "Continue",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Continue"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Continue from one grid onto the next"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/b70e7c95b0a9e329322045fb6038f0a6aa83eba7.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/61520ae5c56ea4ed993068e2d75b1bdca20f27d7.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/61520ae5c56ea4ed993068e2d75b1bdca20f27d7.jpg",
+    "displayName": {
+      "english": "Continue",
+      "token": "NEW_ACHIEVEMENT_1_0_NAME"
+    },
+    "description": {
+      "english": "Continue from one grid onto the next",
+      "token": "NEW_ACHIEVEMENT_1_0_DESC"
+    }
   },
   {
     "name": "5InARow",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "5 In A Row"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "You are in the zone now"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/e552b4adc374aa64635a4da933a42e50912b35ac.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/2a7ccf625fc350ea1aa03bd53aa5e5ec88348e9f.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/2a7ccf625fc350ea1aa03bd53aa5e5ec88348e9f.jpg",
+    "displayName": {
+      "english": "5 In A Row",
+      "token": "NEW_ACHIEVEMENT_1_1_NAME"
+    },
+    "description": {
+      "english": "You are in the zone now",
+      "token": "NEW_ACHIEVEMENT_1_1_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "InARow_Stat",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "ThemeChange",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Customizer"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "You have to adjust it to be just right"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/dea49d89f89e43a9a8798fdabf3a3a946f890f21.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/041dc4f72b08fea291767533e0760efa3d16076a.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/041dc4f72b08fea291767533e0760efa3d16076a.jpg",
+    "displayName": {
+      "english": "Customizer",
+      "token": "NEW_ACHIEVEMENT_1_2_NAME"
+    },
+    "description": {
+      "english": "You have to adjust it to be just right",
+      "token": "NEW_ACHIEVEMENT_1_2_DESC"
+    }
   },
   {
     "name": "Logo",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "InfiniPicross 3"
-    },
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/223fbf71a85a30085706e39b88d42c98a7030e1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/3f8e2fbd2627ae4d235896f67613a6f8b01962b3.jpg",
+    "displayName": {
+      "english": "InfiniPicross 3",
+      "token": "NEW_ACHIEVEMENT_1_3_NAME"
+    },
     "description": {
-      "english": null
+      "english": "Another mystery has been solved",
+      "token": "NEW_ACHIEVEMENT_1_3_DESC"
     }
   },
   {
     "name": "First_Solved",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "First One Down"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "You have embarked on a journey"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/4f695e284019d8e7eeff86fd9ecaedc7e3171ffb.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/8445168c30ad7c97b27fc5b1eea763e55d681c7f.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/8445168c30ad7c97b27fc5b1eea763e55d681c7f.jpg",
+    "displayName": {
+      "english": "First One Down",
+      "token": "NEW_ACHIEVEMENT_1_4_NAME"
+    },
+    "description": {
+      "english": "You have embarked on a journey",
+      "token": "NEW_ACHIEVEMENT_1_4_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Solved_Stat",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "5_Solved",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Five Complete"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Well on your way"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/548ea9642432ae818ffa2b1bd5cc5d0db5a55d6a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/e6329cc388f50e6595c62002dd0a315d40be62e6.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/e6329cc388f50e6595c62002dd0a315d40be62e6.jpg",
+    "displayName": {
+      "english": "Five Complete",
+      "token": "NEW_ACHIEVEMENT_1_5_NAME"
+    },
+    "description": {
+      "english": "Well on your way",
+      "token": "NEW_ACHIEVEMENT_1_5_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Solved_Stat",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "10_Solved",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Ten Further"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Your skills are starting to grow"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/f636563b6d2643a833a4d8ff3550aac87ed1bc5e.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/3de3d71236f1a973dcdfde423bf9b959e381f410.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/3de3d71236f1a973dcdfde423bf9b959e381f410.jpg",
+    "displayName": {
+      "english": "Ten Further",
+      "token": "NEW_ACHIEVEMENT_1_6_NAME"
+    },
+    "description": {
+      "english": "Your skills are starting to grow",
+      "token": "NEW_ACHIEVEMENT_1_6_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Solved_Stat",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "25_Solved",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "The Puzzler"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "You pretty much has things down at this point"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/b33f58a71ab04126ccdbd61a03b005d98edd405c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/84aa777d974c777d486ba24ed4e3b4ae92c026a8.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/84aa777d974c777d486ba24ed4e3b4ae92c026a8.jpg",
+    "displayName": {
+      "english": "The Puzzler",
+      "token": "NEW_ACHIEVEMENT_1_7_NAME"
+    },
+    "description": {
+      "english": "You pretty much has things down at this point",
+      "token": "NEW_ACHIEVEMENT_1_7_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Solved_Stat",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
   },
   {
     "name": "50_Solved",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "The Professional"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Others could look to you for advice"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/e1c36a2b63bbc733c4b23ab3625d570567af11b3.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/fcf5fad67b6429d95d81f15d8979a48831a04cd2.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/fcf5fad67b6429d95d81f15d8979a48831a04cd2.jpg",
+    "displayName": {
+      "english": "The Professional",
+      "token": "NEW_ACHIEVEMENT_1_8_NAME"
+    },
+    "description": {
+      "english": "Others could look to you for advice",
+      "token": "NEW_ACHIEVEMENT_1_8_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Solved_Stat",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "100_Solved",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Picross Forever"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "You have jumped deep into the puzzles"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/1f1be34e4cc4bd007ee63afd2bbbe41858a202d2.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/5f3e63c13ef715135f3477e334b8152fcf106a04.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/5f3e63c13ef715135f3477e334b8152fcf106a04.jpg",
+    "displayName": {
+      "english": "Picross Forever",
+      "token": "NEW_ACHIEVEMENT_1_9_NAME"
+    },
+    "description": {
+      "english": "You have jumped deep into the puzzles",
+      "token": "NEW_ACHIEVEMENT_1_9_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Solved_Stat",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "First_Custom",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Something Pretty"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "You solved something and found a picture"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/ed02bdd3007ee24c0f5a8da3af670d7f3fdff05f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/63aa7a46326fd62c4432eb5d496ca50b13d81bda.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/63aa7a46326fd62c4432eb5d496ca50b13d81bda.jpg",
+    "displayName": {
+      "english": "Something Pretty",
+      "token": "NEW_ACHIEVEMENT_1_10_NAME"
+    },
+    "description": {
+      "english": "You solved something and found a picture",
+      "token": "NEW_ACHIEVEMENT_1_10_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Custom_Stat",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "10_Custom",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Ten Pictures"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Building the photo album"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/82492db7e606e494975e5e1c6b10c67399aed326.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/e4035d5395c67a7b7f5f22d03a727fa768f3736c.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/e4035d5395c67a7b7f5f22d03a727fa768f3736c.jpg",
+    "displayName": {
+      "english": "Ten Pictures",
+      "token": "NEW_ACHIEVEMENT_1_11_NAME"
+    },
+    "description": {
+      "english": "Building the photo album",
+      "token": "NEW_ACHIEVEMENT_1_11_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Custom_Stat",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "20_Custom",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Twenty Pictures"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "You have become a true collector"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/fabbcd865ab052283e8debd3fe55a180002ebb30.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/0fabe2de70e911e90ace404881c3e6ccdc5a3239.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/0fabe2de70e911e90ace404881c3e6ccdc5a3239.jpg",
+    "displayName": {
+      "english": "Twenty Pictures",
+      "token": "NEW_ACHIEVEMENT_1_12_NAME"
+    },
+    "description": {
+      "english": "You have become a true collector",
+      "token": "NEW_ACHIEVEMENT_1_12_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Custom_Stat",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "5x5",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "5x5"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Learning the puzzles"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/30c2482403ecc3a390d2cfbd9c5837335b5d6298.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/1bfb56b51ccd6587bb5bd0ab817ff73ac7e1dfc5.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/1bfb56b51ccd6587bb5bd0ab817ff73ac7e1dfc5.jpg",
+    "displayName": {
+      "english": "5x5",
+      "token": "NEW_ACHIEVEMENT_1_13_NAME"
+    },
+    "description": {
+      "english": "Learning the puzzles",
+      "token": "NEW_ACHIEVEMENT_1_13_DESC"
+    }
   },
   {
     "name": "10x10",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "10x10"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Getting some basics down"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/68916371c24b1ed12183064cc1f0f875f8d8f7eb.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/5a8d5f269aa56e00134e9c5a6c5a5ae6b56ad23d.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/5a8d5f269aa56e00134e9c5a6c5a5ae6b56ad23d.jpg",
+    "displayName": {
+      "english": "10x10",
+      "token": "NEW_ACHIEVEMENT_1_14_NAME"
+    },
+    "description": {
+      "english": "Getting some basics down",
+      "token": "NEW_ACHIEVEMENT_1_14_DESC"
+    }
   },
   {
     "name": "15x15",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "15x15"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Your talents begin to increase"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/6af0af9ea49868d558606bd481517ec9d602d78a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/17a8491cbfc02ba4db9084ac6f730f2de5313cb4.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/17a8491cbfc02ba4db9084ac6f730f2de5313cb4.jpg",
+    "displayName": {
+      "english": "15x15",
+      "token": "NEW_ACHIEVEMENT_1_15_NAME"
+    },
+    "description": {
+      "english": "Your talents begin to increase",
+      "token": "NEW_ACHIEVEMENT_1_15_DESC"
+    }
   },
   {
     "name": "25x25",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "25x25"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "You start to feel a hint of greatness"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/112ed371fc4b8c213878455b219c50fb2d081fef.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/4d2247cab63d4ad99f699bada30583755971ec06.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/4d2247cab63d4ad99f699bada30583755971ec06.jpg",
+    "displayName": {
+      "english": "25x25",
+      "token": "NEW_ACHIEVEMENT_1_16_NAME"
+    },
+    "description": {
+      "english": "You start to feel a hint of greatness",
+      "token": "NEW_ACHIEVEMENT_1_16_DESC"
+    }
   },
   {
     "name": "50x50",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "50x50"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "The picross master"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/e3abd134f79cc6fa79cfa29bef729cae329b81a0.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/6991015f1db3dd0eea950b9e1d4533c45b2889de.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/6991015f1db3dd0eea950b9e1d4533c45b2889de.jpg",
+    "displayName": {
+      "english": "50x50",
+      "token": "NEW_ACHIEVEMENT_1_17_NAME"
+    },
+    "description": {
+      "english": "The picross master",
+      "token": "NEW_ACHIEVEMENT_1_17_DESC"
+    }
   },
   {
     "name": "100x100",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "100x100"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "A true legend that stands in the hall of heroes"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/6a089385aba04c55d82e81b4aa2573bc56940692.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/ab737ae466517f25e6f65e705983a46466ca7196.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/ab737ae466517f25e6f65e705983a46466ca7196.jpg",
+    "displayName": {
+      "english": "100x100",
+      "token": "NEW_ACHIEVEMENT_1_18_NAME"
+    },
+    "description": {
+      "english": "A true legend that stands in the hall of heroes",
+      "token": "NEW_ACHIEVEMENT_1_18_DESC"
+    }
   },
   {
     "name": "1_BirdWatcher",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Bird Watching Recruit"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "What an interesting hobby"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/2691d1ecbec6716a226cfef0a2a293edc725dc3f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/e781603522057dd2f8e9679d9b0cb43cbc51a0ac.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/e781603522057dd2f8e9679d9b0cb43cbc51a0ac.jpg",
+    "displayName": {
+      "english": "Bird Watching Recruit",
+      "token": "NEW_ACHIEVEMENT_1_19_NAME"
+    },
+    "description": {
+      "english": "What an interesting hobby",
+      "token": "NEW_ACHIEVEMENT_1_19_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "BirdCollection",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "5_BirdWatcher",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "The Bird Watcher"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "You have become a true hobbyist "
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/d6c59b70adae0c631cc60177c3dffaf1d8a4712a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/226d4885fa4767433b9a50409fcce309e0cbc892.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/226d4885fa4767433b9a50409fcce309e0cbc892.jpg",
+    "displayName": {
+      "english": "The Bird Watcher",
+      "token": "NEW_ACHIEVEMENT_1_20_NAME"
+    },
+    "description": {
+      "english": "You have become a true hobbyist ",
+      "token": "NEW_ACHIEVEMENT_1_20_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "BirdCollection",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "15_BirdWatcher",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "The Ornithologist"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Always another feathered friend to find"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/eb8b36566f7e50dbeb8b0bc4929443ccfc98245c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/f7908d345a7db0c5ba898c70667687aed19371c7.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2396220/f7908d345a7db0c5ba898c70667687aed19371c7.jpg",
+    "displayName": {
+      "english": "The Ornithologist",
+      "token": "NEW_ACHIEVEMENT_1_21_NAME"
+    },
+    "description": {
+      "english": "Always another feathered friend to find",
+      "token": "NEW_ACHIEVEMENT_1_21_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "BirdCollection",
+        "min_val": 0,
+        "max_val": 15
+      }
+    ]
   }
 ]

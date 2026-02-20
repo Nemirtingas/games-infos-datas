@@ -1,17 +1,35 @@
 [
   {
     "name": "upgrades_researched",
-    "defaultvalue": 0,
-    "displayName": "Upgrades Researched"
+    "displayName": "Upgrades Researched",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 150,
+    "min": 0,
+    "max": 150,
+    "default": 0
   },
   {
     "name": "raiders_destroyed",
-    "defaultvalue": 0,
-    "displayName": "Raider Vehicles Destroyed"
+    "displayName": "Raider Vehicles Destroyed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 400,
+    "min": 0,
+    "max": 400,
+    "default": 0
   },
   {
     "name": "vehicles_mobilized",
-    "defaultvalue": 0,
-    "displayName": "Vehicles Mobilized"
+    "displayName": "Vehicles Mobilized",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 300,
+    "min": 0,
+    "max": 300,
+    "default": 0
   }
 ]

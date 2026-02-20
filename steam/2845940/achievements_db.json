@@ -1,431 +1,680 @@
 [
   {
     "name": "TheTruth1",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Discover the Truth"
-    },
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/f12b13d822fddb4b104c65a5ad3a15e5fe2e40fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/dc0d15ec70fb4314f1f70c72346eb0c6a9bab77b.jpg",
+    "displayName": {
+      "english": "Discover the Truth",
+      "latam": "Descubrí la Verdad",
+      "spanish": "Descubre la Verdad",
+      "token": "NEW_ACHIEVEMENT_1_0_NAME"
+    },
     "description": {
-      "english": null
+      "english": "Well... at least part of it",
+      "latam": "Bueno... al menos una parte",
+      "spanish": "Bueno... al menos una parte",
+      "token": "NEW_ACHIEVEMENT_1_0_DESC"
     }
   },
   {
     "name": "10mudgolems",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Defeat 10 Mud Golems"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Getting your hands dirty"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/ebd8eb594a16104e017a6baa3e463c0c52054313.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/0f3f419711398aa7bb176a0bd9aee0631aacfd02.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/0f3f419711398aa7bb176a0bd9aee0631aacfd02.jpg",
+    "displayName": {
+      "english": "Defeat 10 Mud Golems",
+      "latam": "Derrotá 10 Gólems de Barro",
+      "spanish": "Derrota 10 Gólems de Barro",
+      "token": "NEW_ACHIEVEMENT_1_1_NAME"
+    },
+    "description": {
+      "english": "Getting your hands dirty",
+      "latam": "Ensuciándote las manos",
+      "spanish": "Ensuciándote las manos",
+      "token": "NEW_ACHIEVEMENT_1_1_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "totalmudgolemdeaths",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "100mudgolems",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Defeat 100 Mud Golems"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Getting your hands very dirty"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/12e95f047e6e7d00afd00d09f8bdc60b1b5428d7.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/a0a654b7f194c0dbf034c66cc907cec70716eaf5.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/a0a654b7f194c0dbf034c66cc907cec70716eaf5.jpg",
+    "displayName": {
+      "english": "Defeat 100 Mud Golems",
+      "latam": "Derrotá 100 Gólems de Barro",
+      "spanish": "Derrota 100 Gólems de Barro",
+      "token": "NEW_ACHIEVEMENT_1_2_NAME"
+    },
+    "description": {
+      "english": "Getting your hands very dirty",
+      "latam": "Ensuciándote mucho las manos",
+      "spanish": "Ensuciándote mucho las manos",
+      "token": "NEW_ACHIEVEMENT_1_2_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "totalmudgolemdeaths",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "100stonegolems",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Defeat 200 Stone Golems"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Getting your hands... rocky?"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/dfb6e26b773956e4cc8db2974b7b4cf075dc0a3a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/fd47eb5a7071cea419a84234c0300a4f3f065698.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/fd47eb5a7071cea419a84234c0300a4f3f065698.jpg",
+    "displayName": {
+      "english": "Defeat 200 Stone Golems",
+      "latam": "Derrotá 200 Gólems de Piedra",
+      "spanish": "Derrota 200 Gólems de Piedra",
+      "token": "NEW_ACHIEVEMENT_1_3_NAME"
+    },
+    "description": {
+      "english": "Getting your hands... rocky?",
+      "latam": "Ensuciándote las manos... ¿con piedras?",
+      "spanish": "Ensuciándote las manos... ¿con piedras?",
+      "token": "NEW_ACHIEVEMENT_1_3_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "totalstonegolemdeaths",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "50granitegolems",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Defeat 100 Granite Golems"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "They're scaaary, dude!"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/173103d0201ab205c9a7b78d71d1fcdaa60c7fe9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/f360c285154521d92aca04e6d3616f14c7630106.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/f360c285154521d92aca04e6d3616f14c7630106.jpg",
+    "displayName": {
+      "english": "Defeat 100 Granite Golems",
+      "latam": "Derrotá 100 Gólems de Granito",
+      "spanish": "Derrota 100 Gólems de Granito",
+      "token": "NEW_ACHIEVEMENT_1_4_NAME"
+    },
+    "description": {
+      "english": "They're scaaary, dude!",
+      "latam": "¡Dan mieeedo, chabón!",
+      "spanish": "¡Dan mieeedo, tío!",
+      "token": "NEW_ACHIEVEMENT_1_4_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "totalgranitegolemdeaths",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "35runicgolems",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Defeat 50 Runic Golems"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Stop burning my mana!"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/ef44a2acca42aee9f2ec6df99b74ea0a29239e0b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/215e0047d7d0086602efd0b02a4a9842ebebf357.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/215e0047d7d0086602efd0b02a4a9842ebebf357.jpg",
+    "displayName": {
+      "english": "Defeat 50 Runic Golems",
+      "latam": "Derrotá 50 Gólems Rúnicos",
+      "spanish": "Derrota 50 Gólems Rúnicos",
+      "token": "NEW_ACHIEVEMENT_1_5_NAME"
+    },
+    "description": {
+      "english": "Stop burning my mana!",
+      "latam": "¡Dejá de quemarme el maná!",
+      "spanish": "¡Deja de quemarme el maná!",
+      "token": "NEW_ACHIEVEMENT_1_5_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "totalrunicgolemdeaths",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "chadmancerdefeat",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Defeat the Necromancer"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "AND he's also a tank? What a chad..."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/297e79bf98d62d6410874e242fa7bca7e408ecd4.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/0c6e81ffa30c87912721983a26e06ebc80904ef5.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/0c6e81ffa30c87912721983a26e06ebc80904ef5.jpg",
+    "displayName": {
+      "english": "Defeat the Necromancer",
+      "latam": "Derrotá al Nigromante",
+      "spanish": "Derrota al Nigromante",
+      "token": "NEW_ACHIEVEMENT_1_6_NAME"
+    },
+    "description": {
+      "english": "AND he's also a tank? What a chad...",
+      "latam": "¿que TAMBIÉN es un tanque? Qué chad...",
+      "spanish": "¿que TAMBIÉN es un tanque? Qué chad...",
+      "token": "NEW_ACHIEVEMENT_1_6_DESC"
+    }
   },
   {
     "name": "statuefinder",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Find all the statues"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "They have an immortalised will."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/15bb7fbc12bf5241f8825ed5785f99ee5220e0f1.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/f060b0aa6306c62b71a0ea8af6ee493e3be57061.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/f060b0aa6306c62b71a0ea8af6ee493e3be57061.jpg",
+    "displayName": {
+      "english": "Find all the statues",
+      "latam": "Encuentra todas las estatuas",
+      "spanish": "Encuentra todas las estatuas",
+      "token": "NEW_ACHIEVEMENT_1_7_NAME"
+    },
+    "description": {
+      "english": "They have an immortalised will.",
+      "latam": "Tienen su voluntad inmortalizada.",
+      "spanish": "Tienen su voluntad inmortalizada.",
+      "token": "NEW_ACHIEVEMENT_1_7_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "statuesfound",
+        "min_val": 0,
+        "max_val": 14
+      }
+    ]
   },
   {
     "name": "bossgolemdefeat",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Defeat the guardian of the cave"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Quite a grumpy fella, innit?"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/4ebd660b9dd2b3d58ad6ebf48f34254a3854f8eb.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/218e20a3698a36ee57d0c81fd1148176e99003bf.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/218e20a3698a36ee57d0c81fd1148176e99003bf.jpg",
+    "displayName": {
+      "english": "Defeat the guardian of the cave",
+      "latam": "Derrotá al guardián de la cueva",
+      "spanish": "Derrota al guardián de la cueva",
+      "token": "NEW_ACHIEVEMENT_1_8_NAME"
+    },
+    "description": {
+      "english": "Quite a grumpy fella, innit?",
+      "latam": "Que tipo gruñón, ¿no?",
+      "spanish": "Que tío más gruñón, ¿no?",
+      "token": "NEW_ACHIEVEMENT_1_8_DESC"
+    }
   },
   {
     "name": "alldiodoros",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Find all Diodoro's terminals"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Knowledge is power and vice versa"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/d9a0f71ea934edcdc82ec6950a6a7770ad41c68a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/338786f4cf6bd7ef195b3f55791a8e29c5923907.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/338786f4cf6bd7ef195b3f55791a8e29c5923907.jpg",
+    "displayName": {
+      "english": "Find all Diodoro's terminals",
+      "latam": "Encuentra todas las terminales de Diodoro",
+      "spanish": "Encuentra todas las terminales de Diodoro",
+      "token": "NEW_ACHIEVEMENT_1_9_NAME"
+    },
+    "description": {
+      "english": "Knowledge is power and vice versa",
+      "latam": "El conocimiento es poder y viceversa",
+      "spanish": "El conocimiento es poder y viceversa",
+      "token": "NEW_ACHIEVEMENT_1_9_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "dioterminalsread",
+        "min_val": 0,
+        "max_val": 19
+      }
+    ]
   },
   {
     "name": "obliviondefeat",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Defeat Oblivion"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Choose order over chaos"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/00b4db2f7abcacbd2bc7c0a6c120d84a21ae44d1.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/28cf13dfaebfc509408decc6cf548b881983edfe.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/28cf13dfaebfc509408decc6cf548b881983edfe.jpg",
+    "displayName": {
+      "english": "Defeat Oblivion",
+      "latam": "Derrotá al Olvido",
+      "spanish": "Derrota al Olvido",
+      "token": "NEW_ACHIEVEMENT_1_10_NAME"
+    },
+    "description": {
+      "english": "Choose order over chaos",
+      "latam": "Elige el orden por encima del caos",
+      "spanish": "Elige el orden por encima del caos",
+      "token": "NEW_ACHIEVEMENT_1_10_DESC"
+    }
   },
   {
     "name": "freethesoul",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Free the soul"
-    },
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/c688ca8f351c3263fd2cde2cdb19ec15132f5a22.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/886a65e2f32a88f6d4cf696eeaa3ec760ee62984.jpg",
+    "displayName": {
+      "english": "Free the soul",
+      "latam": "Liberá el alma",
+      "spanish": "Libera el alma",
+      "token": "NEW_ACHIEVEMENT_1_11_NAME"
+    },
     "description": {
-      "english": null
+      "english": "Let it go and let it be",
+      "latam": "Let it go and let it be",
+      "spanish": "Let it go and let it be",
+      "token": "NEW_ACHIEVEMENT_1_11_DESC"
     }
   },
   {
     "name": "1secret",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Discover a secret"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Tung ting tung ting!"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/e7802fbb862555ac67c22fe83971020bacbabf57.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/c47a53cd8582c0e7df0222e0bdc675531b50ff34.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/c47a53cd8582c0e7df0222e0bdc675531b50ff34.jpg",
+    "displayName": {
+      "english": "Discover a secret",
+      "latam": "Descubriste un secreto",
+      "spanish": "Descubre un secreto",
+      "token": "NEW_ACHIEVEMENT_1_12_NAME"
+    },
+    "description": {
+      "english": "Tung ting tung ting!",
+      "latam": "¡Tung ting tung ting!",
+      "spanish": "¡Tung ting tung ting!",
+      "token": "NEW_ACHIEVEMENT_1_12_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "secretsdiscovered",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "5secrets",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Discover 5 secrets"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "The tung ting tung tings continue"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/d73fc133ad5a6f124b77917ed34ee972b10a09b6.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/7d4e7640ac20ab39beef023a58e7adc0df47005c.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/7d4e7640ac20ab39beef023a58e7adc0df47005c.jpg",
+    "displayName": {
+      "english": "Discover 5 secrets",
+      "latam": "Descubriste 5 secretos",
+      "spanish": "Descubre 5 secretos",
+      "token": "NEW_ACHIEVEMENT_1_13_NAME"
+    },
+    "description": {
+      "english": "The tung ting tung tings continue",
+      "latam": "Los tung ting tung tings siguen",
+      "spanish": "Los tung ting tung tings continúan",
+      "token": "NEW_ACHIEVEMENT_1_13_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "secretsdiscovered",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   },
   {
     "name": "10secrets",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Discover 10 secrets"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Official secret hunter"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/647525404f6b00a56909bf0851849bd7659be0d8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/8c47d551a35a35f7b804327fddc0a5e76ff02f99.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/8c47d551a35a35f7b804327fddc0a5e76ff02f99.jpg",
+    "displayName": {
+      "english": "Discover 10 secrets",
+      "latam": "Descubriste 10 secretos",
+      "spanish": "Descubre 10 secretos",
+      "token": "NEW_ACHIEVEMENT_1_14_NAME"
+    },
+    "description": {
+      "english": "Official secret hunter",
+      "latam": "Cazador de secretos oficial",
+      "spanish": "Cazador de secretos oficial",
+      "token": "NEW_ACHIEVEMENT_1_14_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "secretsdiscovered",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "survivethelimbo",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Survive the Limbo"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Back from the death"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/7b675f3814716123157c43f19d684be22f726fc6.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/15df7204a411354ff367b6e6c3645ae8a4276a76.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/15df7204a411354ff367b6e6c3645ae8a4276a76.jpg",
+    "displayName": {
+      "english": "Survive the Limbo",
+      "latam": "Sobrevive el limbo",
+      "spanish": "Sobrevive el limbo",
+      "token": "NEW_ACHIEVEMENT_1_15_NAME"
+    },
+    "description": {
+      "english": "Back from the death",
+      "latam": "Regresaste de la muerte",
+      "spanish": "Regresa de la muerte",
+      "token": "NEW_ACHIEVEMENT_1_15_DESC"
+    }
   },
   {
     "name": "necrowifelimbo",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Find a lost spirit in the Limbo"
-    },
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/b44dcfc656ec52611162c0d68511c52b9c1fd2df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/e13a04fc5f417a9a35cd8f5b674910b3e0bad6ea.jpg",
+    "displayName": {
+      "english": "Find a lost spirit in the Limbo",
+      "latam": "Encontraste un espíritu perdido en el Limbo",
+      "spanish": "Encuentras un espíritu perdido en el Limbo",
+      "token": "NEW_ACHIEVEMENT_1_16_NAME"
+    },
     "description": {
-      "english": null
+      "english": "Who is she?",
+      "latam": "¿Quién es ella?",
+      "spanish": "¿Quién es ella?",
+      "token": "NEW_ACHIEVEMENT_1_16_DESC"
     }
   },
   {
     "name": "manahearthroute",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Unlock the Mana Hearth"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "The spooky, ethereal one"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/08035916914d3165d96630616867388ff9729062.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/1914cb2d446bb671514f563317b61f6c788bc99e.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/1914cb2d446bb671514f563317b61f6c788bc99e.jpg",
+    "displayName": {
+      "english": "Unlock the Mana Hearth",
+      "latam": "Desbloqueá el Corazón de Maná",
+      "spanish": "Desbloquea el Corazón de Maná",
+      "token": "NEW_ACHIEVEMENT_1_17_NAME"
+    },
+    "description": {
+      "english": "The spooky, ethereal one",
+      "latam": "El etéreo y fantasmagórico",
+      "spanish": "El etéreo y fantasmagórico",
+      "token": "NEW_ACHIEVEMENT_1_17_DESC"
+    }
   },
   {
     "name": "goldenhearthroute",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Unlock the Golden Hearth"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "The purest one"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/2b4474fe40d396eec857a97c0cf1ff708ac29abb.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/688dbcef4551915425d7bc022312e4c4a5c518bb.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/688dbcef4551915425d7bc022312e4c4a5c518bb.jpg",
+    "displayName": {
+      "english": "Unlock the Golden Hearth",
+      "latam": "Desbloqueá el Corazón de Oro",
+      "spanish": "Desbloquea el Corazón de Oro",
+      "token": "NEW_ACHIEVEMENT_1_18_NAME"
+    },
+    "description": {
+      "english": "The purest one",
+      "latam": "El más puro",
+      "spanish": "El más puro",
+      "token": "NEW_ACHIEVEMENT_1_18_DESC"
+    }
   },
   {
     "name": "eternalhearthroute",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Unlock the Eternal Hearth"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Eternal at the cost of the cycle"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/4d122a1b3c56aa6976d34e81bdea5be0e2731281.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/98951e1bed0f576e69458a3fa9ccaf0622ab4a28.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/98951e1bed0f576e69458a3fa9ccaf0622ab4a28.jpg",
+    "displayName": {
+      "english": "Unlock the Eternal Hearth",
+      "latam": "Desbloqueá el Corazón Eterno",
+      "spanish": "Desbloquea el Corazón Eterno",
+      "token": "NEW_ACHIEVEMENT_1_19_NAME"
+    },
+    "description": {
+      "english": "Eternal at the cost of the cycle",
+      "latam": "Eterno al costo del ciclo",
+      "spanish": "Eterno al costo del ciclo",
+      "token": "NEW_ACHIEVEMENT_1_19_DESC"
+    }
   },
   {
     "name": "colossusroute",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Unlock the Colossus"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Unstoppable force and immovable object in one"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/bb767dd543b84bfb3a76f299c0b76f96654c6523.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/3c31cbf3da2290c524b8b8ecd8dd33e48d8c69aa.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/3c31cbf3da2290c524b8b8ecd8dd33e48d8c69aa.jpg",
+    "displayName": {
+      "english": "Unlock the Colossus",
+      "latam": "Desbloqueá el Coloso",
+      "spanish": "Desbloquea el Coloso",
+      "token": "NEW_ACHIEVEMENT_1_20_NAME"
+    },
+    "description": {
+      "english": "Unstoppable force and immovable object in one",
+      "latam": "Fuerza imparable y objeto inamovible en uno",
+      "spanish": "Fuerza imparable y objeto inamovible en uno",
+      "token": "NEW_ACHIEVEMENT_1_20_DESC"
+    }
   },
   {
     "name": "armoredpath",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Unlock the God's Armor"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Blessed and beloved"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/3b21ffd27c817da1d8a80faa0d96b3b420d68058.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/29b7c917cd48ada92e7e42492a2512161695ad99.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/29b7c917cd48ada92e7e42492a2512161695ad99.jpg",
+    "displayName": {
+      "english": "Unlock the God's Armor",
+      "latam": "Desbloqueá la Armadura de Dios",
+      "spanish": "Desbloquea la Armadura de Dios",
+      "token": "NEW_ACHIEVEMENT_1_21_NAME"
+    },
+    "description": {
+      "english": "Blessed and beloved",
+      "latam": "Blessed and beloved",
+      "spanish": "Blessed and beloved",
+      "token": "NEW_ACHIEVEMENT_1_21_DESC"
+    }
   },
   {
     "name": "firefightachievement",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Reach the Eternal Forest in survival mode"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "You must survive, tank"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/9bd3ca9ae6ad461e1011175fbe8abcb1d316f980.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/77fffbc0fcabbf6535bd9c66b0ffd3c1e79c4ff2.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/77fffbc0fcabbf6535bd9c66b0ffd3c1e79c4ff2.jpg",
+    "displayName": {
+      "english": "Reach the Eternal Forest in survival mode",
+      "latam": "Alcanza el Bosque Eterno en modo supervivencia",
+      "spanish": "Alcanza el Bosque Eterno en modo supervivencia",
+      "token": "NEW_ACHIEVEMENT_1_22_NAME"
+    },
+    "description": {
+      "english": "You must survive, tank",
+      "latam": "Debes sobrevivir, tanque",
+      "spanish": "Debes sobrevivir, tanque",
+      "token": "NEW_ACHIEVEMENT_1_22_DESC"
+    }
   },
   {
     "name": "TheTruth2",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Discover what truly happened"
-    },
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/1b756c8fee0993c6f5c3f483577fee8ed0c9a2a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/c27d5bc299e847a59d11241ddd9187415be1534b.jpg",
+    "displayName": {
+      "english": "Discover what truly happened",
+      "latam": "Verdaderamente descubriste qué pasó",
+      "spanish": "Verdaderamente descubres lo qué pasó",
+      "token": "NEW_ACHIEVEMENT_1_23_NAME"
+    },
     "description": {
-      "english": null
+      "english": "Now you know what to do.",
+      "latam": "Ahora ya sabés que hacer.",
+      "spanish": "Ahora ya sabes que hacer.",
+      "token": "NEW_ACHIEVEMENT_1_23_DESC"
     }
   },
   {
     "name": "challenge7achievement",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Unlock the challenge 7"
-    },
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/3ecaa103587257d982f1c360f9bbefde3567969d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/bd71e53f3c1f0ca2b1849e34be32ad552edabb39.jpg",
+    "displayName": {
+      "english": "Unlock the challenge 7",
+      "latam": "Desbloqueá el Challenge 7",
+      "spanish": "Desbloquea el Challenge 7",
+      "token": "NEW_ACHIEVEMENT_1_24_NAME"
+    },
     "description": {
-      "english": null
+      "english": "Warning: may have undesirable side effects...",
+      "latam": "Advertencia: puede tener efectos secundarios indeseados...",
+      "spanish": "Advertencia: puede tener efectos secundarios indeseables...",
+      "token": "NEW_ACHIEVEMENT_1_24_DESC"
     }
   },
   {
     "name": "100vineskilled",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Defeat 100 Vines"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Chop them down!"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/9fcbd9a625317612d5ec5bebda4d0354a0e3745d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/d482c3a23f39f0969a7c72b1c51952a09b9d7c86.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/d482c3a23f39f0969a7c72b1c51952a09b9d7c86.jpg",
+    "displayName": {
+      "english": "Defeat 100 Vines",
+      "latam": "Derrotá 100 Enredaderas",
+      "spanish": "Derrota 100 Enredaderas",
+      "token": "NEW_ACHIEVEMENT_1_25_NAME"
+    },
+    "description": {
+      "english": "Chop them down!",
+      "latam": "¡Cortalas!",
+      "spanish": "¡Córtalas!",
+      "token": "NEW_ACHIEVEMENT_1_25_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "vineskilled",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "20secrets",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Discover 20 secrets"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "The will of Sentinus"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/dcde267d4c1e24ece74971b11898a45fbaa14508.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/c16df931e87f1073ee1cb6056ec0851ec8b39835.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/c16df931e87f1073ee1cb6056ec0851ec8b39835.jpg",
+    "displayName": {
+      "english": "Discover 20 secrets",
+      "latam": "Descubriste 20 secretos",
+      "spanish": "Descubre 20 secretos",
+      "token": "NEW_ACHIEVEMENT_1_26_NAME"
+    },
+    "description": {
+      "english": "The will of Sentinus",
+      "latam": "La voluntad de Sentinus",
+      "spanish": "La voluntad de Sentinus",
+      "token": "NEW_ACHIEVEMENT_1_26_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "secretsdiscovered",
+        "min_val": 0,
+        "max_val": 20
+      }
+    ]
   },
   {
     "name": "gibbedanenemy",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Kill an enemy using a teleporter"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Telefragin' like in the 90'!"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/3cc0a26b1fe272962cbe6d8d7c13d47c7d3faea8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/473c108f853d8640a6de0fddabbd5de41322c38b.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/473c108f853d8640a6de0fddabbd5de41322c38b.jpg",
+    "displayName": {
+      "english": "Kill an enemy using a teleporter",
+      "latam": "Matá a un enemigo usando un teletransportador",
+      "spanish": "Mata a un enemigo usando un teletransportador",
+      "token": "NEW_ACHIEVEMENT_1_27_NAME"
+    },
+    "description": {
+      "english": "Telefragin' like in the 90'!",
+      "latam": "¡Telefrageando como en los 90!",
+      "spanish": "¡Telefrageando como en los 90!",
+      "token": "NEW_ACHIEVEMENT_1_27_DESC"
+    }
   },
   {
     "name": "badoblivionending",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Let yourself be consumed by oblivion"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Just stand still... and do nothing against it."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/6c6aaf4516c68d2dc8c76ba8e26c922f223e34e9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/bba203358dab18280a54348a03aa0800fc6c7d28.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/bba203358dab18280a54348a03aa0800fc6c7d28.jpg",
+    "displayName": {
+      "english": "Let yourself be consumed by oblivion",
+      "latam": "Dejá que el olvido te consuma",
+      "spanish": "Deja que el olvido te consuma",
+      "token": "NEW_ACHIEVEMENT_1_28_NAME"
+    },
+    "description": {
+      "english": "Just stand still... and do nothing against it.",
+      "latam": "Quedate quieto... y no hagas nada contra él.",
+      "spanish": "Sólo quédate quieto... y no hagas nada contra él.",
+      "token": "NEW_ACHIEVEMENT_1_28_DESC"
+    }
   },
   {
     "name": "stormbabyactivated",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Awake the StormBaby."
-    },
-    "hidden": 0,
-    "description": {
-      "english": "The will of a god that just wants to... cry?"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/4a5e38c6b8997a821e182f8de0f9293f2fb67b96.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/f4f480997390b18c80dfdd9bda5c16798a117e47.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/f4f480997390b18c80dfdd9bda5c16798a117e47.jpg",
+    "displayName": {
+      "english": "Awake the StormBaby.",
+      "latam": "Despertá al Bebé Tormenta.",
+      "spanish": "Despierta al Bebé Tormenta.",
+      "token": "NEW_ACHIEVEMENT_1_29_NAME"
+    },
+    "description": {
+      "english": "The will of a god that just wants to... cry?",
+      "latam": "La voluntad de un dios que solo quiere... ¿Llorar?",
+      "spanish": "La voluntad de un dios que solo quiere... ¿Llorar?",
+      "token": "NEW_ACHIEVEMENT_1_29_DESC"
+    }
   },
   {
     "name": "altendingobtained",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Find and alternate way."
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Freedom, alas!"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/5da84543143bee30b156becea8db7c973b0517ac.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/e94e5759fa1201c6669b6bd05dccdc04e159ae10.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/e94e5759fa1201c6669b6bd05dccdc04e159ae10.jpg",
+    "displayName": {
+      "english": "Find and alternate way.",
+      "latam": "Encontrá un camino alternativo.",
+      "spanish": "Encuentra un camino alternativo.",
+      "token": "NEW_ACHIEVEMENT_1_30_NAME"
+    },
+    "description": {
+      "english": "Freedom, alas!",
+      "latam": "¡Libertad, por fin!",
+      "spanish": "¡Libertad, por fin!",
+      "token": "NEW_ACHIEVEMENT_1_30_DESC"
+    }
   },
   {
     "name": "lootedtheaxe",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Loot an axe from the thief elves instead of buying one"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Worth it!"
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/ed9a9a053e66869b61cd90bbd041cc3cef2c0423.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/7bc0745c528cfddcf3f6c4c7af607a4e5d011960.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/7bc0745c528cfddcf3f6c4c7af607a4e5d011960.jpg",
+    "displayName": {
+      "english": "Loot an axe from the thief elves instead of buying one",
+      "latam": "Robá un hacha de los elfos ladrones en lugar de comprarla",
+      "spanish": "Róbales un hacha a los elfos ladrones en lugar de comprar una",
+      "token": "NEW_ACHIEVEMENT_1_31_NAME"
+    },
+    "description": {
+      "english": "Worth it!",
+      "latam": "¡Valió la pena!",
+      "spanish": "¡Ha valido la pena!",
+      "token": "NEW_ACHIEVEMENT_1_31_DESC"
+    }
   },
   {
     "name": "mapopened",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Find a map of the world"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "You seem kinda lost..."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/e090cd0a85e7f0214a5cd59008a33d579959aeda.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/01be728e4626ebb501c7e9a27b77086efb16b50b.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2845940/01be728e4626ebb501c7e9a27b77086efb16b50b.jpg",
+    "displayName": {
+      "english": "Find a map of the world",
+      "latam": "Encontrá un mapa del mundo",
+      "spanish": "Encuentra un mapa del mundo",
+      "token": "NEW_ACHIEVEMENT_10_0_NAME"
+    },
+    "description": {
+      "english": "You seem kinda lost...",
+      "latam": "Te ves un poco perdido pibe...",
+      "spanish": "Te ves algo perdido chaval...",
+      "token": "NEW_ACHIEVEMENT_10_0_DESC"
+    }
   }
 ]

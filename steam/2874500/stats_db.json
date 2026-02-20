@@ -3,22 +3,22 @@
     "name": "days-passed",
     "displayName": "Weeks Passed",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
     "aggregated": true,
     "maxchange": 1,
     "min": 0,
-    "max": 52
+    "max": 52,
+    "default": 0
   },
   {
     "name": "avg-days",
     "displayName": "Average Playtime",
     "type": "avgrate",
-    "default": 0,
     "incrementonly": false,
     "aggregated": false,
     "min": 0.0,
-    "max": 52,
+    "max": 52.0,
+    "default": 0.0,
     "windowsize": 10.0
   }
 ]

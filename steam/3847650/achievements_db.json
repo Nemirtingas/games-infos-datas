@@ -1,7 +1,7 @@
 [
   {
     "name": "ACH_SHAPECLICKED",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/3461f22748ca23ba5fea59388a430b6dae57160a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/132a5a1f52ee19edae6f3ae4d1a2d951fc0162aa.jpg",
     "displayName": {
@@ -12,15 +12,17 @@
       "english": "You did the thing!",
       "token": "NEW_ACHIEVEMENT_1_0_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1,
-      "stat_name": "shapes_clicked"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "shapes_clicked",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_STANDARD",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/4cb884b8caf439f555a699159c89948f43a01adc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/73f8fe4246d57c98c61c459f94d3b03209b90963.jpg",
     "displayName": {
@@ -34,7 +36,7 @@
   },
   {
     "name": "ACH_QUICK",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/784fe9bd28a7d0fb291dd0f331496848a29b625e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/e8ffb6c807e7936d64d508b5b4288f1cf2a0694a.jpg",
     "displayName": {
@@ -48,7 +50,7 @@
   },
   {
     "name": "ACH_TOYBOX",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/6615a568d1eba0a1116265157eac1c10ad193172.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/b69ddd6b508d2637922899274df7460a1940c227.jpg",
     "displayName": {
@@ -62,7 +64,7 @@
   },
   {
     "name": "ACH_DETECTIVE",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/0ef05d54fcadc50398b3a72d14481569ce9aade9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/896bab685694298c9543bdfa54f4d0da17a33ce2.jpg",
     "displayName": {
@@ -76,7 +78,7 @@
   },
   {
     "name": "ACH_ENDLESS",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/084beb6d1e39346ef9c6321b85e1fb8a35d01bb4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/f968f5113d727851977fe67c8900051ae0178f2f.jpg",
     "displayName": {
@@ -90,7 +92,7 @@
   },
   {
     "name": "ACH_REACTION",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/3260ef79deb47de8022d3ad6aaed30032ed66c62.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/6a4631a152312853c951d18a45f8713527077169.jpg",
     "displayName": {
@@ -104,7 +106,7 @@
   },
   {
     "name": "ACH_THOUSAND",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/b9b72921d042b05aa82de2e97f654c5111a7c126.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3847650/aabd698eeaf205ba22be831d46b672688d787373.jpg",
     "displayName": {
@@ -115,10 +117,12 @@
       "english": "Click 1000 shapes",
       "token": "NEW_ACHIEVEMENT_1_7_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 1000,
-      "stat_name": "shapes_clicked"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "shapes_clicked",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   }
 ]

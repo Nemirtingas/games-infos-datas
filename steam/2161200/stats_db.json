@@ -1,17 +1,35 @@
 [
   {
     "name": "ACH_DEATH",
-    "defaultvalue": 0,
-    "displayName": "Deaths"
+    "displayName": "Deaths",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "ACH_WIN",
-    "defaultvalue": 0,
-    "displayName": "Wins"
+    "displayName": "Wins",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "ACH_KILL",
-    "defaultvalue": 0,
-    "displayName": "Kills"
+    "displayName": "Kills",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   }
 ]

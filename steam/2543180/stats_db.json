@@ -2,49 +2,30 @@
   {
     "name": "stat_games_played",
     "displayName": "Games Played",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "stat_games_won",
     "displayName": "Games Won",
-    "type": "0",
-    "default": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "stat_avgrate",
     "displayName": "Avgrate Test",
-    "type": "0",
-    "default": 0,
+    "type": "avgrate",
     "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
-  },
-  {
-    "name": null,
-    "displayName": "",
-    "type": "0",
-    "default": 0,
-    "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "min": 0.0,
+    "max": 50.0,
+    "default": 0.0,
+    "windowsize": 10.0
   }
 ]

@@ -1,27 +1,48 @@
 [
   {
     "name": "Survey_Sentiment",
-    "defaultvalue": 2,
-    "displayName": "Sentiment"
+    "displayName": "Sentiment",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 4,
+    "default": 2
   },
   {
     "name": "Survey_Referral",
-    "defaultvalue": 2,
-    "displayName": "Referral"
+    "displayName": "Referral",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 4,
+    "default": 2
   },
   {
     "name": "Survey_Price",
-    "defaultvalue": 2,
-    "displayName": "Price"
+    "displayName": "Price",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 4,
+    "default": 2
   },
   {
     "name": "Survey_Anomaly",
-    "defaultvalue": 0,
-    "displayName": "Anomaly"
+    "displayName": "Anomaly",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "Survey_Submission",
-    "defaultvalue": 2147483647,
-    "displayName": "Submission"
+    "displayName": "Submission",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": "MAX_INT"
   }
 ]

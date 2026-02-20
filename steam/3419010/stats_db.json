@@ -1,27 +1,52 @@
 [
   {
     "name": "Stat_GravesDugInTotal",
-    "defaultvalue": 0,
-    "displayName": "Grave Dug In Total"
+    "displayName": "Grave Dug In Total",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999,
+    "default": 0
   },
   {
     "name": "Stat_TargetGravesDugInTotal",
-    "defaultvalue": 0,
-    "displayName": "Target Graves Dug In Total"
+    "displayName": "Target Graves Dug In Total",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999,
+    "default": 0
   },
   {
     "name": "Stat_GravesDugInOneSession",
-    "defaultvalue": 0,
-    "displayName": "Graves Dug In One Session"
+    "displayName": "Graves Dug In One Session",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999,
+    "default": 0
   },
   {
     "name": "Stat_KnockedDownInTotal",
-    "defaultvalue": 0,
-    "displayName": "How many player have you knocked down in total"
+    "displayName": "How many player have you knocked down in total",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 99999,
+    "default": 0
   },
   {
     "name": "Stat_PlayTime",
-    "defaultvalue": 0,
-    "displayName": "Total play time"
+    "displayName": "Total play time",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 99999999,
+    "default": 0
   }
 ]

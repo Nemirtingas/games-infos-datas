@@ -1,27 +1,48 @@
 [
   {
     "name": "ST_LVL_FINISH",
-    "defaultvalue": 0,
-    "displayName": "Levels Finished"
+    "displayName": "Levels Finished",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "ST_LIFE_KOIN",
-    "defaultvalue": 0,
-    "displayName": "Coins Collected"
+    "displayName": "Coins Collected",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "ST_WHAPS",
-    "defaultvalue": 0,
-    "displayName": "Critters Whapped"
+    "displayName": "Critters Whapped",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "ST_L1_TOPTIME",
-    "defaultvalue": 0,
-    "displayName": "Level 1 Best Time"
+    "displayName": "Level 1 Best Time",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
   },
   {
     "name": "ST_L2_TOPTIME",
-    "defaultvalue": 0,
-    "displayName": "Level 2 Best Time"
+    "displayName": "Level 2 Best Time",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
   }
 ]

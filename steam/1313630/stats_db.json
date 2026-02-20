@@ -1,22 +1,42 @@
 [
   {
     "name": "CurrentlyCompletedLevel",
-    "defaultvalue": 4294967295,
-    "displayName": "Currently_Completed_Level"
+    "displayName": "Currently_Completed_Level",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "max": 1000,
+    "default": -1
   },
   {
     "name": "LastLevelCompleted",
-    "defaultvalue": 4294967295,
-    "displayName": "Last_Level_Completed"
+    "displayName": "Last_Level_Completed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": -1,
+    "max": 1000,
+    "default": -1
   },
   {
     "name": "CurrentlyBeganLevel",
-    "defaultvalue": 4294967295,
-    "displayName": "Currently_Began_Level"
+    "displayName": "Currently_Began_Level",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "max": 1000,
+    "default": -1
   },
   {
     "name": "LastTriggeredCheckpoint",
-    "defaultvalue": 4294967295,
-    "displayName": "Last_Triggered_Checkpoint"
+    "displayName": "Last_Triggered_Checkpoint",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "max": 1000000,
+    "default": -1
   }
 ]

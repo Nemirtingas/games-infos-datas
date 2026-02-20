@@ -1,17 +1,29 @@
 [
   {
     "name": "deaths",
-    "defaultvalue": 0,
-    "displayName": "Total Deaths"
+    "displayName": "Total Deaths",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "complete_time",
-    "defaultvalue": 0,
-    "displayName": "Fastest Complete Time (Gems)"
+    "displayName": "Fastest Complete Time (Gems)",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 60.0,
+    "default": 18000.0
   },
   {
     "name": "all_log_time",
-    "defaultvalue": 0,
-    "displayName": "Fastest Complete Time (All Logs)"
+    "displayName": "Fastest Complete Time (All Logs)",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 60.0,
+    "default": 32000.0
   }
 ]

@@ -1,32 +1,56 @@
 [
   {
     "name": "stat_node_0_0_win",
-    "defaultvalue": 0,
-    "displayName": "Node_0_0_Win"
+    "displayName": "Node_0_0_Win",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_node_0_0_lose",
-    "defaultvalue": 0,
-    "displayName": "Node_0_0_Lose"
+    "displayName": "Node_0_0_Lose",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "stat_node_0_0_winDays",
-    "defaultvalue": 0,
-    "displayName": "Node_0_0_WinDays"
+    "displayName": "Node_0_0_WinDays",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 3600.0
   },
   {
     "name": "stat_node_0_0_loseDays",
-    "defaultvalue": 0,
-    "displayName": "Node_0_0_LoseDays"
+    "displayName": "Node_0_0_LoseDays",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 3600.0
   },
   {
     "name": "stat_node_0_0_winTime",
-    "defaultvalue": 0,
-    "displayName": "Node_0_0_WinTime"
+    "displayName": "Node_0_0_WinTime",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 3600.0
   },
   {
     "name": "stat_node_0_0_loseTime",
-    "defaultvalue": 0,
-    "displayName": "Node_0_0_LoseTime"
+    "displayName": "Node_0_0_LoseTime",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 3600.0
   }
 ]

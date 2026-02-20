@@ -1,42 +1,81 @@
 [
   {
     "name": "player_balance",
-    "defaultvalue": 0,
-    "displayName": "Balance"
+    "displayName": "Balance",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 999999,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "total_races",
-    "defaultvalue": 0,
-    "displayName": "Races Completed"
+    "displayName": "Races Completed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
   },
   {
     "name": "races_won",
-    "defaultvalue": 0,
-    "displayName": "Races Won"
+    "displayName": "Races Won",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "containers_opened",
-    "defaultvalue": 0,
-    "displayName": "Containers Opened"
+    "displayName": "Containers Opened",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "total_drift_score",
-    "defaultvalue": 0,
-    "displayName": "Total Score"
+    "displayName": "Total Score",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1000000,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "best_drift_score",
-    "defaultvalue": 0,
-    "displayName": "Best Score"
+    "displayName": "Best Score",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000000,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "max_total_score",
-    "defaultvalue": 0,
-    "displayName": "Max Total Score"
+    "displayName": "Max Total Score",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1000000,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "cars_owned_count",
-    "defaultvalue": 0,
-    "displayName": "Cars Owned"
+    "displayName": "Cars Owned",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 10,
+    "min": 0,
+    "default": 0
   }
 ]

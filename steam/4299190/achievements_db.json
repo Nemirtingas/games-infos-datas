@@ -1,15 +1,23 @@
 [
   {
     "name": "DemoTimeLimit",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Reached the Demo time limit!"
-    },
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4299190/2acaf24a6472d528506714bf8c0ff97164ee5941.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4299190/128603cc608ebd41d746dbcde57a0ec4eb57e1e3.jpg",
+    "displayName": {
+      "english": "Reached the Demo time limit!",
+      "token": "NEW_ACHIEVEMENT_2_0_NAME"
+    },
     "description": {
-      "english": null
-    }
+      "english": "Hope you liked it! ",
+      "token": "NEW_ACHIEVEMENT_2_0_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalTimePlayed_TotalTimePlayed",
+        "min_val": 0,
+        "max_val": 2700
+      }
+    ]
   }
 ]
