@@ -1,37 +1,71 @@
 [
   {
     "name": "StatsSeason",
-    "defaultvalue": 0,
-    "displayName": "Season"
+    "displayName": "Season",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "NumMatchesPlayedSeason",
-    "defaultvalue": 0,
-    "displayName": "Matches Played Season"
+    "displayName": "Matches Played Season",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "NumMatchesWonSeason",
-    "defaultvalue": 0,
-    "displayName": "Matches Won Season"
+    "displayName": "Matches Won Season",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "NumMatchesPlayedTotal",
-    "defaultvalue": 0,
-    "displayName": "Matches Played Total"
+    "displayName": "Matches Played Total",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "NumMatchesWonTotal",
-    "defaultvalue": 0,
-    "displayName": "Matches Won Total"
+    "displayName": "Matches Won Total",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "CurrentRating",
-    "defaultvalue": 1000,
-    "displayName": "Current Rating"
+    "displayName": "Current Rating",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 60,
+    "min": 500,
+    "default": 1000
   },
   {
     "name": "HighestRating",
-    "defaultvalue": 1000,
-    "displayName": "Highest Rating"
+    "displayName": "Highest Rating",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 60,
+    "min": 500,
+    "default": 1000
   }
 ]

@@ -1,112 +1,221 @@
 [
   {
     "name": "money",
-    "defaultvalue": 0,
-    "displayName": "金钱"
+    "displayName": "金钱",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 99999,
+    "default": 0
   },
   {
     "name": "strength",
-    "defaultvalue": 0,
-    "displayName": "体能"
+    "displayName": "体能",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 999,
+    "default": 0
   },
   {
     "name": "social_skills",
-    "defaultvalue": 0,
-    "displayName": "社交"
+    "displayName": "社交",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 999,
+    "default": 0
   },
   {
     "name": "charm",
-    "defaultvalue": 0,
-    "displayName": "魅力"
+    "displayName": "魅力",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 999,
+    "default": 0
   },
   {
     "name": "moral",
-    "defaultvalue": 0,
-    "displayName": "道德"
+    "displayName": "道德",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 999,
+    "default": 0
   },
   {
     "name": "exp",
-    "defaultvalue": 0,
-    "displayName": "经验值"
+    "displayName": "经验值",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 99999,
+    "default": 0
   },
   {
     "name": "reputation",
-    "defaultvalue": 0,
-    "displayName": "声誉"
+    "displayName": "声誉",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 999,
+    "default": 0
   },
   {
     "name": "rating",
-    "defaultvalue": 0,
-    "displayName": "评级"
+    "displayName": "评级",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 999,
+    "default": 0
   },
   {
     "name": "stress",
-    "defaultvalue": 0,
-    "displayName": "疲劳"
+    "displayName": "疲劳",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 999,
+    "default": 0
   },
   {
     "name": "money_spent_on_facility",
-    "defaultvalue": 0,
-    "displayName": "设备升级金钱消耗"
+    "displayName": "设备升级金钱消耗",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 99999,
+    "default": 0
   },
   {
     "name": "money_spent_on_item",
-    "defaultvalue": 0,
-    "displayName": "货品升级金钱消耗"
+    "displayName": "货品升级金钱消耗",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 99999,
+    "default": 0
   },
   {
     "name": "study",
-    "defaultvalue": 0,
-    "displayName": "进修"
+    "displayName": "进修",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 50,
+    "default": 0
   },
   {
     "name": "stroll",
-    "defaultvalue": 0,
-    "displayName": "散步"
+    "displayName": "散步",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 50,
+    "default": 0
   },
   {
     "name": "absolute_week",
-    "defaultvalue": 0,
-    "displayName": "总周数"
+    "displayName": "总周数",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 1,
+    "max": 50,
+    "default": 1
   },
   {
     "name": "unique_client_count",
-    "defaultvalue": 0,
-    "displayName": "总客户数"
+    "displayName": "总客户数",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 20,
+    "default": 0
   },
   {
     "name": "hypnosis_count",
-    "defaultvalue": 0,
-    "displayName": "催眠次数"
+    "displayName": "催眠次数",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
   },
   {
     "name": "wishlist_clicked",
-    "defaultvalue": 0,
-    "displayName": "是否点击愿望单"
+    "displayName": "是否点击愿望单",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "avergae_massage_income",
-    "defaultvalue": 0,
-    "displayName": "按摩平均收入"
+    "displayName": "按摩平均收入",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 0.0
   },
   {
     "name": "average_massage_score",
-    "defaultvalue": 0,
-    "displayName": "按摩平均评分"
+    "displayName": "按摩平均评分",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 0.0
   },
   {
     "name": "total_be",
-    "defaultvalue": 0,
-    "displayName": "BE次数"
+    "displayName": "BE次数",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
   },
   {
     "name": "service_count",
-    "defaultvalue": 0,
-    "displayName": "服务次数"
+    "displayName": "服务次数",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
   },
   {
     "name": "demo_finished",
-    "defaultvalue": 0,
-    "displayName": "完成DEMO"
+    "displayName": "完成DEMO",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
   }
 ]
