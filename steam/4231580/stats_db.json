@@ -1,18 +1,18 @@
 [
   {
-    "name": "level",
-    "displayName": "Level",
+    "name": "demo_level",
+    "displayName": "Level (Demo)",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
     "maxchange": 100,
     "min": 1,
-    "max": 1000,
+    "max": 100000,
     "default": 1
   },
   {
-    "name": "exp",
-    "displayName": "Experience",
+    "name": "demo_experience",
+    "displayName": "Experience (Demo)",
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
@@ -22,14 +22,47 @@
     "default": 0
   },
   {
-    "name": "currency",
-    "displayName": "Beetle Bucks",
+    "name": "demo_currency",
+    "displayName": "Currency (Demo)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 100000,
+    "min": 0,
+    "max": 10000000,
+    "default": 0
+  },
+  {
+    "name": "demo_currency_new",
+    "displayName": "Demo Currency",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 100000,
+    "min": 0,
+    "max": 1000000,
+    "default": 0
+  },
+  {
+    "name": "demo_level_new",
+    "displayName": "Demo Level",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 100,
+    "min": 1,
+    "max": 100000,
+    "default": 1
+  },
+  {
+    "name": "demo_experience_new",
+    "displayName": "Demo Experience",
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
     "maxchange": 10000,
     "min": 0,
-    "max": 1000000,
+    "max": 100000,
     "default": 0
   }
 ]
