@@ -1,0 +1,56 @@
+[
+  {
+    "name": "DRINKS_FINISHED",
+    "displayName": "Drinks Finished",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "PATRONS_DEFEATED",
+    "displayName": "Patrons Beaten in Combat",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "NPCs_HELPED",
+    "displayName": "Quests Completed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "AVG_DRINKS_PER_MATCH",
+    "displayName": "Average Drinks Per Game",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0.0,
+    "windowsize": 10.0
+  },
+  {
+    "name": "AVG_RANK",
+    "displayName": "Average Post-Game Rank",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0.0,
+    "windowsize": 10.0
+  },
+  {
+    "name": "GAMES_COMPLETE",
+    "displayName": "Games Complete",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  }
+]

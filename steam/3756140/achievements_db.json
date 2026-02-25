@@ -1,210 +1,850 @@
 [
   {
     "name": "a_biomass_first",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Slime Free Since Today"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Clear your first infestation."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/71b55e9aa924597c79d41d431a0121f0265eb732.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/48af579299ceff704439a36395c65035f550c3f8.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/48af579299ceff704439a36395c65035f550c3f8.jpg",
+    "displayName": {
+      "brazilian": "Livre da Gosma!",
+      "czech": "Bez slizu odteď",
+      "english": "Slime Free Since Today",
+      "french": "Sans bave depuis aujourd’hui",
+      "german": "Schleimfrei seit heute",
+      "italian": "Libero da melma da oggi",
+      "japanese": "今日から粘液ゼロ",
+      "koreana": "오늘부터 무점액",
+      "norwegian": "Slimfri fra i dag",
+      "polish": "Śluz wolny od dziś",
+      "portuguese": "Sem Lodo!",
+      "russian": "Свободен от слизи с сегодняшнего дня",
+      "schinese": "今天起无黏液",
+      "spanish": "Limpio de baba desde hoy",
+      "tchinese": "黏液剋星",
+      "thai": "ไร้เมือกตั้งแต่วันนี้",
+      "token": "NEW_ACHIEVEMENT_52_0_NAME",
+      "turkish": "Bugünden İtibaren Sümüksüz"
+    },
+    "description": {
+      "brazilian": "Remova sua primeira infestação.",
+      "czech": "Odstraň svou první přerostlou hmotu.",
+      "english": "Clear your first infestation.",
+      "french": "Élimine ta première prolifération.",
+      "german": "Beseitige deine erste Wucherung.",
+      "italian": "Rimuovi la tua prima crescita.",
+      "japanese": "最初のバイオマスを除去しよう。",
+      "koreana": "덩굴을 처음으로 제거하세요.",
+      "norwegian": "Fjern din første vekst.",
+      "polish": "Usuń swoją pierwszą narośl.",
+      "portuguese": "Elimina a tua primeira proliferação.",
+      "russian": "Удали свой первый нарост.",
+      "schinese": "清除你的第一处蔓生物。",
+      "spanish": "Elimina tu primera proliferación.",
+      "tchinese": "清除你的第一個蔓生物。",
+      "thai": "กำจัดวัชพืชครั้งแรกของคุณ",
+      "token": "NEW_ACHIEVEMENT_52_0_DESC",
+      "turkish": "İlk yayılımı yok et."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "destroy_biomass",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "a_build_automate_refiner",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Hands-Free Melting"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Unlock the automation upgrade for the Melt-O-Tron."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/17034f62ed320cf4ace976738dcaea0463c4801d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/7a72f821d6e23020a71416ad1ff6bcd964650d1b.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/7a72f821d6e23020a71416ad1ff6bcd964650d1b.jpg",
+    "displayName": {
+      "brazilian": "Derreta Sem Mãos",
+      "czech": "Tavič bez rukou",
+      "english": "Hands-Free Melting",
+      "french": "Raffinage mains libres",
+      "german": "Schmelzen ohne Hände",
+      "italian": "Fusione senza mani",
+      "japanese": "メルト・オ・ハンズフリー",
+      "koreana": "손 안 대고 제련",
+      "norwegian": "Smelting uten hender",
+      "polish": "Topienie bez rąk",
+      "portuguese": "Fundir sem mãos",
+      "russian": "Плавим без рук",
+      "schinese": "解放双手熔炼",
+      "spanish": "Fundir sin manos",
+      "tchinese": "無人熔煉",
+      "thai": "หลอมมือว่าง",
+      "token": "NEW_ACHIEVEMENT_52_1_NAME",
+      "turkish": "Eritmede Eller Yok"
+    },
+    "description": {
+      "brazilian": "Desbloqueie o upgrade de automação para o Derret-O-Tron.",
+      "czech": "Odemkni automatizační upgrade pro Tavič-O-Tron.",
+      "english": "Unlock the automation upgrade for the Melt-O-Tron.",
+      "french": "Débloque l’amélioration d’automatisation pour le Fond-O-Tron.",
+      "german": "Schalte das Automations-Upgrade für den Schmelz-O-Tron frei.",
+      "italian": "Sblocca l'upgrade di automazione per il Fus-O-Tron.",
+      "japanese": "メルト・オ・トロンの自動化アップグレードをアンロックしよう。",
+      "koreana": "멜트-오-트론의 자동화 업그레이드를 해제하세요.",
+      "norwegian": "Lås opp automasjons-oppgraderingen for Smelt-O-Tron.",
+      "polish": "Odblokuj ulepszenie automatyzacji dla Topnik-O-Trona.",
+      "portuguese": "Desbloqueia o upgrade de automação para o Funde-O-Tron.",
+      "russian": "Открой модуль автоматизации для Плав-О-Трона.",
+      "schinese": "解锁 熔化-欧-特龙 的自动化升级。",
+      "spanish": "Desbloquea la mejora de automatización para el Fund-O-Trón.",
+      "tchinese": "解鎖熔化-歐-特龍的自動化升級。",
+      "thai": "ปลดล็อกอัปเกรดอัตโนมัติสำหรับ เมลท์-โอ-ทรอน",
+      "token": "NEW_ACHIEVEMENT_52_1_DESC",
+      "turkish": "Erit-O-Tron için otomasyon yükseltmesini aç."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "automate_refiner",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "a_build_driller",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Drillmaster"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Build a driller."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/58bc0c0df992c4065dd1c6788a92f73d923745b4.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/f36a868bbfd64a2a7eff26ce055b5830e13fbac0.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/f36a868bbfd64a2a7eff26ce055b5830e13fbac0.jpg",
+    "displayName": {
+      "brazilian": "Mestre Perfurador",
+      "czech": "Mistr vrtáků",
+      "english": "Drillmaster",
+      "french": "Maître foreur",
+      "german": "Bohrmeister",
+      "italian": "Maestro della perforazione",
+      "japanese": "ドリルマスター",
+      "koreana": "드릴 마스터",
+      "norwegian": "Bormester",
+      "polish": "Mistrz wiertła",
+      "portuguese": "Mestre da Perfuração",
+      "russian": "Мастер буров",
+      "schinese": "钻机大师",
+      "spanish": "Maestro perforador",
+      "tchinese": "鑽機大師",
+      "thai": "ปรมาจารย์เจาะ",
+      "token": "NEW_ACHIEVEMENT_52_2_NAME",
+      "turkish": "Sondaj Ustası"
+    },
+    "description": {
+      "brazilian": "Construa um perfurador.",
+      "czech": "Postav vrták.",
+      "english": "Build a driller.",
+      "french": "Construit une foreuse.",
+      "german": "Baue einen Bohrer.",
+      "italian": "Costruisci un trapano.",
+      "japanese": "ドリルを建設しよう。",
+      "koreana": "드릴러를 건설하세요.",
+      "norwegian": "Bygg en bohrer.",
+      "polish": "Zbuduj wiertło.",
+      "portuguese": "Constrói um perfurador.",
+      "russian": "Построй бур.",
+      "schinese": "建造一台钻机。",
+      "spanish": "Construye un perforador.",
+      "tchinese": "建造一台鑽機。",
+      "thai": "สร้างเครื่องเจาะ",
+      "token": "NEW_ACHIEVEMENT_52_2_DESC",
+      "turkish": "Bir sondajcı inşa et."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "build_driller",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "a_build_refiner",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Melting Point Achieved"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Build a Melt-O-Tron."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/ec6a5ca92e0864987098c269913718c2a0ddce88.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/1d2390165aea629215e282f24320a69808daead7.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/1d2390165aea629215e282f24320a69808daead7.jpg",
+    "displayName": {
+      "brazilian": "Ponto de Fusão",
+      "czech": "Tavič bod varu",
+      "english": "Melting Point Achieved",
+      "french": "Point de fusion atteint",
+      "german": "Schmelzpunkt erreicht",
+      "italian": "Punto di fusione raggiunto",
+      "japanese": "融点到達",
+      "koreana": "용융점 도달",
+      "norwegian": "Smeltepunkt nådd",
+      "polish": "Osiągnięcie temperatury topnienia",
+      "portuguese": "Ponto de Fusão",
+      "russian": "Точка плавления",
+      "schinese": "熔点突破",
+      "spanish": "Punto de fusión alcanzado",
+      "tchinese": "熔點達標",
+      "thai": "ถึงจุดหลอมละลาย",
+      "token": "NEW_ACHIEVEMENT_52_3_NAME",
+      "turkish": "Eritme Noktası"
+    },
+    "description": {
+      "brazilian": "Construa um Derret-O-Tron.",
+      "czech": "Postav Tavič-O-Tron.",
+      "english": "Build a Melt-O-Tron.",
+      "french": "Construit un Fond-O-Tron.",
+      "german": "Baue einen Schmelz-O-Tron.",
+      "italian": "Costruisci un Fus-O-Tron.",
+      "japanese": "メルト・オ・トロンを建設しよう。",
+      "koreana": "멜트-오-트론을 건설하세요.",
+      "norwegian": "Bygg en Smelt-O-Tron.",
+      "polish": "Zbuduj Topnik-O-Trona.",
+      "portuguese": "Constrói um Funde-O-Tron.",
+      "russian": "Построй Плав-О-Трон.",
+      "schinese": "建造一台熔化-欧-特龙。",
+      "spanish": "Construye un Fund-O-Trón.",
+      "tchinese": "建造一台熔化-歐-特龍。",
+      "thai": "สร้างเมลท์-โอ-ทรอน",
+      "token": "NEW_ACHIEVEMENT_52_3_DESC",
+      "turkish": "Bir Erit-O-Tron inşa et."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "build_refiner",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "a_build_connection",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Connection Established"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Build a transport connection."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/8ea5fc0e134267ecafeb11ba466669626bba6a63.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/567c67bf65d3c0a463624aae07484e2f6c977779.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/567c67bf65d3c0a463624aae07484e2f6c977779.jpg",
+    "displayName": {
+      "brazilian": "Conexão Estabelecida",
+      "czech": "Spojení navázáno",
+      "english": "Connection Established",
+      "french": "Connexion établie",
+      "german": "Verbindung hergestellt",
+      "italian": "Connessione stabilita",
+      "japanese": "接続完了",
+      "koreana": "연결 완료",
+      "norwegian": "Forbindelse opprettet",
+      "polish": "Połączenie ustanowione",
+      "portuguese": "Ligação estabelecida",
+      "russian": "Связь установлена",
+      "schinese": "连接已建立",
+      "spanish": "Conexión establecida",
+      "tchinese": "連結建立",
+      "thai": "เชื่อมต่อสำเร็จ",
+      "token": "NEW_ACHIEVEMENT_52_4_NAME",
+      "turkish": "Bağlantı Kuruldu"
+    },
+    "description": {
+      "brazilian": "Construa uma conexão de transporte.",
+      "czech": "Vytvoř transportní spojení.",
+      "english": "Build a transport connection.",
+      "french": "Crée une connexion de transport.",
+      "german": "Stelle eine Transportverbindung her.",
+      "italian": "Stabilisci una connessione di trasporto.",
+      "japanese": "搬送接続を作成しよう。",
+      "koreana": "운송 연결을 만드세요.",
+      "norwegian": "Bygg en transportforbindelse.",
+      "polish": "Zbuduj połączenie transportowe.",
+      "portuguese": "Constrói uma ligação de transporte.",
+      "russian": "Построй транспортную связь.",
+      "schinese": "建立一条运输连接。",
+      "spanish": "Construye una conexión de transporte.",
+      "tchinese": "建造一條運輸連線。",
+      "thai": "เชื่อมต่อขนส่งหนึ่งเส้น",
+      "token": "NEW_ACHIEVEMENT_52_4_DESC",
+      "turkish": "Bir taşıma bağlantısı oluştur."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "build_transportconnection",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "a_customer_100",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Service with Style"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Fulfill 100 complete customer orders."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/1b1be6ad1fb21cd83de8b970767cad03c477785c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/bcf0bdbfd0a8b66535620e79e81118777ea13b3e.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/bcf0bdbfd0a8b66535620e79e81118777ea13b3e.jpg",
+    "displayName": {
+      "brazilian": "Atendimento com Estilo",
+      "czech": "Servis se stylem",
+      "english": "Service with Style",
+      "french": "Service stylé",
+      "german": "Service mit Stil",
+      "italian": "Servizio con stile",
+      "japanese": "サービスも極めて",
+      "koreana": "스타일 있는 서비스",
+      "norwegian": "Service med stil",
+      "polish": "Obsługa ze stylem",
+      "portuguese": "Serviço com Estilo",
+      "russian": "Сервис со стилем",
+      "schinese": "优雅服务",
+      "spanish": "Servicio con estilo",
+      "tchinese": "貼心服務",
+      "thai": "บริการมีสไตล์",
+      "token": "NEW_ACHIEVEMENT_52_5_NAME",
+      "turkish": "Stil Sahibi Hizmet"
+    },
+    "description": {
+      "brazilian": "Complete o pedido de 100 clientes.",
+      "czech": "Vyřiď 100 zákazníků kompletní objednávkou.",
+      "english": "Fulfill 100 complete customer orders.",
+      "french": "Commande complète pour 100 clients.",
+      "german": "Erfüllte bei 100 Kunden die Bestellung komplett.",
+      "italian": "Soddisfa completamente 100 clienti.",
+      "japanese": "顧客100人の注文をすべて達成しよう。",
+      "koreana": "100명의 고객 주문을 완벽히 처리하세요.",
+      "norwegian": "Fullførte hele bestillingen hos 100 kunder.",
+      "polish": "Zrealizuj kompletne zamówienie dla 100 klientów.",
+      "portuguese": "Atende 100 clientes com o pedido completo.",
+      "russian": "Полностью выполни заказы для 100 клиентов.",
+      "schinese": "为 100 位客户完整完成订单。",
+      "spanish": "Completa el pedido de 100 clientes.",
+      "tchinese": "為 100 位客戶完整交貨。",
+      "thai": "ให้บริการลูกค้า 100 คนสำเร็จ",
+      "token": "NEW_ACHIEVEMENT_52_5_DESC",
+      "turkish": "100 müşterinin siparişini tamamen karşıla."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "full_serve_customer",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "a_deco_first",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Nice Place!"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Build your first decoration."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/13626f3df70514770864234841d7d70e127f6b8a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/2cca71181911430dd7cacaefdb415f2702514ce4.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/2cca71181911430dd7cacaefdb415f2702514ce4.jpg",
+    "displayName": {
+      "brazilian": "Que Lugar Lindo!",
+      "czech": "Hezky tu!",
+      "english": "Nice Place!",
+      "french": "Quel style !",
+      "german": "Schön hier!",
+      "italian": "Bello qui!",
+      "japanese": "居心地バツグン！",
+      "koreana": "여기 예쁘다!",
+      "norwegian": "Trivelig her!",
+      "polish": "Ładnie tu!",
+      "portuguese": "Que bonito!",
+      "russian": "Красиво здесь!",
+      "schinese": "真好看！",
+      "spanish": "¡Qué bonito!",
+      "tchinese": "好美！",
+      "thai": "ที่นี่สวยดี!",
+      "token": "NEW_ACHIEVEMENT_52_6_NAME",
+      "turkish": "Ne Güzel!"
+    },
+    "description": {
+      "brazilian": "Construa sua primeira decoração.",
+      "czech": "Postav svou první dekoraci.",
+      "english": "Build your first decoration.",
+      "french": "Construis ta première décoration.",
+      "german": "Baue deine erste Dekoration.",
+      "italian": "Costruisci la tua prima decorazione.",
+      "japanese": "初めてデコレーションを建設しよう。",
+      "koreana": "첫 장식을 건설하세요.",
+      "norwegian": "Bygg din første dekorasjon.",
+      "polish": "Zbuduj swoją pierwszą dekorację.",
+      "portuguese": "Constrói a tua primeira decoração.",
+      "russian": "Поставь свой первый декор.",
+      "schinese": "建造你的第一件装饰品。",
+      "spanish": "Construye tu primera decoración.",
+      "tchinese": "建造你的第一件裝飾品。",
+      "thai": "สร้างของตกแต่งชิ้นแรก",
+      "token": "NEW_ACHIEVEMENT_52_6_DESC",
+      "turkish": "İlk dekorasyonunu inşa et."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "deco_first_build",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "a_door_first",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Access Granted"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Hack your first door."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/a8ebf7bb45c2f6dfe66980c3fcb146bf44d453d0.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/0b1b7103007ad1079cc3a727c7c8aac908846b75.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/0b1b7103007ad1079cc3a727c7c8aac908846b75.jpg",
+    "displayName": {
+      "brazilian": "Acesso Garantido",
+      "czech": "Přístup povolen",
+      "english": "Access Granted",
+      "french": "Accès accordé",
+      "german": "Zugang gewährt",
+      "italian": "Accesso consentito",
+      "japanese": "アクセス承認",
+      "koreana": "접근 허가",
+      "norwegian": "Tilgang innvilget",
+      "polish": "Dostęp przyznany",
+      "portuguese": "Acesso Concedido",
+      "russian": "Доступ получен",
+      "schinese": "访问许可",
+      "spanish": "Acceso concedido",
+      "tchinese": "通行授權",
+      "thai": "เข้าถึงแล้ว",
+      "token": "NEW_ACHIEVEMENT_52_7_NAME",
+      "turkish": "Erişim İzni"
+    },
+    "description": {
+      "brazilian": "Hackeie sua primeira porta.",
+      "czech": "Hackni své první dveře.",
+      "english": "Hack your first door.",
+      "french": "Pirate ta première porte.",
+      "german": "Hacke deine erste Tür.",
+      "italian": "Hackera la tua prima porta.",
+      "japanese": "扉を初めてハックしよう。",
+      "koreana": "문을 처음으로 해킹하세요.",
+      "norwegian": "Hack din første dør.",
+      "polish": "Zhakuj swoje pierwsze drzwi.",
+      "portuguese": "Hackeia a tua primeira porta.",
+      "russian": "Взломай свою первую дверь.",
+      "schinese": "黑进你的第一扇门。",
+      "spanish": "Hackea tu primera puerta.",
+      "tchinese": "駭入你的第一道門。",
+      "thai": "แฮกประตูครั้งแรก",
+      "token": "NEW_ACHIEVEMENT_52_7_DESC",
+      "turkish": "İlk kapını hackle."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "unlock_door",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "a_erfi_first",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Erfi Emergency"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Repair your first Erfi."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/fc07fb1002e7179f097d064328e38f358b723ea8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/02ac2b5de3e804f9bd96cb3a9ef212296ea9e664.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/02ac2b5de3e804f9bd96cb3a9ef212296ea9e664.jpg",
+    "displayName": {
+      "brazilian": "Emergência Erfi",
+      "czech": "Erfi nouzovka",
+      "english": "Erfi Emergency",
+      "french": "Urgence Erfi",
+      "german": "Erfi Notfall",
+      "italian": "Emergenza Erfi",
+      "japanese": "エルフィ緊急",
+      "koreana": "에르피 긴급상황",
+      "norwegian": "Erfi-nødsituasjon",
+      "polish": "Alarm Erfi",
+      "portuguese": "Emergência Erfi",
+      "russian": "Erfi — экстренное вмешательство",
+      "schinese": "Erfi 紧急情况",
+      "spanish": "Emergencia Erfi",
+      "tchinese": "Erfi 緊急！",
+      "thai": "เออร์ฟี่ฉุกเฉิน",
+      "token": "NEW_ACHIEVEMENT_52_8_NAME",
+      "turkish": "Erfi Acil Durum"
+    },
+    "description": {
+      "brazilian": "Conserte seu primeiro Erfi.",
+      "czech": "Oprav svého prvního Erfi.",
+      "english": "Repair your first Erfi.",
+      "french": "Répare ton premier Erfi.",
+      "german": "Repariere deinen ersten Erfi.",
+      "italian": "Ripara il tuo primo Erfi.",
+      "japanese": "初めてエルフィを修理しよう。",
+      "koreana": "첫 에르피를 수리하세요.",
+      "norwegian": "Reparer din første Erfi.",
+      "polish": "Napraw swojego pierwszego Erfi.",
+      "portuguese": "Repara o teu primeiro Erfi.",
+      "russian": "Почини свой первый Erfi.",
+      "schinese": "修复你的第一个 Erfi。",
+      "spanish": "Repara tu primer Erfi.",
+      "tchinese": "修復你的第一台 Erfi。",
+      "thai": "ซ่อมเออร์ฟี่ตัวแรก",
+      "token": "NEW_ACHIEVEMENT_52_8_DESC",
+      "turkish": "İlk Erfi'ni tamir et."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "repair_erfi",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "a_fragment_01",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "D.I.S.C 01"
-    },
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/f9b5f1fdd8aded3e271e5006422daa9ba1cb44a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/2e6b343eab0b0155f05ce532641ce46d67047da6.jpg",
+    "displayName": {
+      "brazilian": "D.I.S.C 01",
+      "czech": "D.I.S.C 01",
+      "english": "D.I.S.C 01",
+      "french": "D.I.S.C 01",
+      "german": "D.I.S.C 01",
+      "italian": "D.I.S.C 01",
+      "japanese": "D.I.S.C 01",
+      "koreana": "D.I.S.C 01",
+      "norwegian": "D.I.S.C 01",
+      "polish": "D.I.S.C 01",
+      "portuguese": "D.I.S.C 01",
+      "russian": "D.I.S.C 01",
+      "schinese": "D.I.S.C 01",
+      "spanish": "D.I.S.C 01",
+      "tchinese": "D.I.S.C 01",
+      "thai": "D.I.S.C 01",
+      "token": "NEW_ACHIEVEMENT_52_9_NAME",
+      "turkish": "D.I.S.C 01"
+    },
     "description": {
-      "english": null
-    }
+      "brazilian": "Encontre D.I.S.C 01.",
+      "czech": "Najdi D.I.S.C 01.",
+      "english": "Find D.I.S.C 01.",
+      "french": "Trouve D.I.S.C 01.",
+      "german": "Finde D.I.S.C 01.",
+      "italian": "Trova D.I.S.C 01.",
+      "japanese": "D.I.S.C 01を見つけよう。",
+      "koreana": "D.I.S.C 01을 찾으세요.",
+      "norwegian": "Finn D.I.S.C 01.",
+      "polish": "Znajdź D.I.S.C 01.",
+      "portuguese": "Encontra a D.I.S.C 01.",
+      "russian": "Найди D.I.S.C 01.",
+      "schinese": "找到 D.I.S.C 01。",
+      "spanish": "Encuentra D.I.S.C 01.",
+      "tchinese": "找到 D.I.S.C 01。",
+      "thai": "ค้นหา D.I.S.C 01",
+      "token": "NEW_ACHIEVEMENT_52_9_DESC",
+      "turkish": "D.I.S.C 01'i bul."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "fragment_01",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "a_misc_hit_erfi",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Unintentional Delivery"
-    },
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/f54cc83d39b8d60c137c3e32c1811ee6fe74f4a5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/bba4aaa55b99b7337081368d0439fe91b63e1b1e.jpg",
+    "displayName": {
+      "brazilian": "Entrega Acidental",
+      "czech": "Nechtěná dodávka",
+      "english": "Unintentional Delivery",
+      "french": "Livraison accidentelle",
+      "german": "Unabsichtliche Lieferung",
+      "italian": "Consegna accidentale",
+      "japanese": "予想外の納品",
+      "koreana": "의도치 않은 배송",
+      "norwegian": "Utilsiktet levering",
+      "polish": "Niechciana dostawa",
+      "portuguese": "Entrega Acidental",
+      "russian": "Неожиданная доставка",
+      "schinese": "意外投递",
+      "spanish": "Entrega accidental",
+      "tchinese": "意外送貨",
+      "thai": "ส่งผิดไปโดนเออร์ฟี่",
+      "token": "NEW_ACHIEVEMENT_52_10_NAME",
+      "turkish": "İstenmeyen Teslimat"
+    },
     "description": {
-      "english": null
-    }
+      "brazilian": "Acerte um Erfi com um produto.",
+      "czech": "Zasáhni Erfi produktem.",
+      "english": "Hit an Erfi with a product.",
+      "french": "Touche un Erfi avec un produit.",
+      "german": "Triff einen Erfi mit einem Produkt.",
+      "italian": "Colpisci un Erfi con un prodotto.",
+      "japanese": "製品をエルフィに当てよう。",
+      "koreana": "제품으로 에르피를 맞혀보세요.",
+      "norwegian": "Treff en Erfi med et produkt.",
+      "polish": "Traf Erfi produktem.",
+      "portuguese": "Atira um produto a um Erfi.",
+      "russian": "Попади продуктом в Erfi.",
+      "schinese": "用产品击中一个 Erfi。",
+      "spanish": "Lanza un producto a un Erfi.",
+      "tchinese": "用產品擊中一台 Erfi。",
+      "thai": "ขว้างของถูกเออร์ฟี่",
+      "token": "NEW_ACHIEVEMENT_52_10_DESC",
+      "turkish": "Bir Erfi'ye ürünle vur."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "hit_erfi",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "a_misc_hit_tutorialbot",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Educational Mishap"
-    },
-    "hidden": 1,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/747e5efc726aa565f292521a91cab66edbc80196.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/e0b90a30d52f9a109d839fa40733eca6ecf11ee5.jpg",
+    "displayName": {
+      "brazilian": "Mal-entendido Didático",
+      "czech": "Poučná nehoda",
+      "english": "Educational Mishap",
+      "french": "Incident pédagogique",
+      "german": "Lehrreiches Missverständnis",
+      "italian": "Equivoco istruttivo",
+      "japanese": "教育的誤解",
+      "koreana": "교육적 오해",
+      "norwegian": "Lærerikt misforståelse",
+      "polish": "Edukacyjne nieporozumienie",
+      "portuguese": "Mal-entendido Didático",
+      "russian": "Поучительное недоразумение",
+      "schinese": "教学误会",
+      "spanish": "Malentendido educativo",
+      "tchinese": "教學誤會",
+      "thai": "เข้าใจผิดแบบมีประโยชน์",
+      "token": "NEW_ACHIEVEMENT_52_11_NAME",
+      "turkish": "Eğitici Yanlış Anlama"
+    },
     "description": {
-      "english": null
-    }
+      "brazilian": "Acertar o robô tutorial com um produto.",
+      "czech": "Zasáhni tutorialového robota produktem.",
+      "english": "Hit the tutorial robot with a product.",
+      "french": "Touche le robot-tutoriel avec un produit.",
+      "german": "Triff den Tutorial-Roboter mit einem Produkt.",
+      "italian": "Colpisci il robot tutorial con un prodotto.",
+      "japanese": "チュートリアルロボットに製品を当てよう。",
+      "koreana": "튜토리얼 로봇에게 제품을 맞혀보세요.",
+      "norwegian": "Treff tutorial-roboten med et produkt.",
+      "polish": "Traf robota-tutorialowego produktem.",
+      "portuguese": "Atinge o robô tutorial com um produto.",
+      "russian": "Попади в туториал-бота продуктом.",
+      "schinese": "用产品击中教学机器人。",
+      "spanish": "Golpea al robot tutorial con un producto.",
+      "tchinese": "用產品擊中教學機器人。",
+      "thai": "ขว้างสินค้าถูกหุ่นยนต์สอนเล่น",
+      "token": "NEW_ACHIEVEMENT_52_11_DESC",
+      "turkish": "Eğitici robota bir ürünle vur."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "hit_tutorialbot",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "a_product_30_ore",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Small Miners, Big Deals"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Sell 30 ore to customers."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/42f3330ef2a78bc976bba8ff9183bd1c7902ea45.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/0ebf19a7d09d7d05fe78c5ac3cd6d5a5d6f121e7.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/0ebf19a7d09d7d05fe78c5ac3cd6d5a5d6f121e7.jpg",
+    "displayName": {
+      "brazilian": "Pequenos Garimpeiros, Grandes Feitos",
+      "czech": "Malí těžaři, velké úspěchy",
+      "english": "Small Miners, Big Deals",
+      "french": "Petits mineurs, grandes affaires",
+      "german": "Kleine Schürfer ganz groß",
+      "italian": "Piccoli scavatori crescono",
+      "japanese": "小さな鉱夫も大活躍",
+      "koreana": "작은 광부의 큰 꿈",
+      "norwegian": "Små gruvearbeidere, store drømmer",
+      "polish": "Mały górnik, wielka rzecz",
+      "portuguese": "Pequenos mineradores, grandes negócios",
+      "russian": "Маленькие шахтёры — большие дела",
+      "schinese": "新手采矿大进阶",
+      "spanish": "Pequeños mineros, gran negocio",
+      "tchinese": "小礦工大成就",
+      "thai": "นักขุดตัวน้อยใหญ่",
+      "token": "NEW_ACHIEVEMENT_52_12_NAME",
+      "turkish": "Küçük Madenciler Büyük İşte"
+    },
+    "description": {
+      "brazilian": "Venda 30 minérios para clientes.",
+      "czech": "Prodej 30 rud zákazníkům.",
+      "english": "Sell 30 ore to customers.",
+      "french": "Vends 30 minerais à des clients.",
+      "german": "Verkaufe 30 Erz an Kunden.",
+      "italian": "Vendi 30 minerali ai clienti.",
+      "japanese": "30個の鉱石を顧客に販売しよう。",
+      "koreana": "광석 30개를 고객에게 판매하세요.",
+      "norwegian": "Selg 30 malm til kunder.",
+      "polish": "Sprzedaj 30 rudy klientom.",
+      "portuguese": "Vende 30 minérios a clientes.",
+      "russian": "Продай 30 руды клиентам.",
+      "schinese": "向客户售出 30 份矿石。",
+      "spanish": "Vende 30 mena a clientes.",
+      "tchinese": "將 30 份礦石賣給客戶。",
+      "thai": "ขายแร่ 30 ชิ้นให้ลูกค้า",
+      "token": "NEW_ACHIEVEMENT_52_12_DESC",
+      "turkish": "30 cevheri müşterilere sat."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "sold_ore",
+        "min_val": 0,
+        "max_val": 30
+      }
+    ]
   },
   {
     "name": "a_product_ingot_ore",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Born of Ingot"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Produce an ore ingot."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/835bb0250aef795925341ca5ed7c57da74fa2390.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/45864ccf247cdc0376e42a5c9eac9cec6a42d4ff.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/45864ccf247cdc0376e42a5c9eac9cec6a42d4ff.jpg",
+    "displayName": {
+      "brazilian": "Nascido para Lingote",
+      "czech": "Zrozen ingotu",
+      "english": "Born of Ingot",
+      "french": "Né lingot",
+      "german": "Barren geboren",
+      "italian": "Nato lingotto",
+      "japanese": "インゴット誕生",
+      "koreana": "주괴 탄생",
+      "norwegian": "Barr-født",
+      "polish": "Narodziny sztabki",
+      "portuguese": "Nascido para fundir",
+      "russian": "Слиток рождён",
+      "schinese": "锭之诞生",
+      "spanish": "Nacido para fundir",
+      "tchinese": "錠塊誕生",
+      "thai": "เกิดเป็นแท่ง",
+      "token": "NEW_ACHIEVEMENT_52_13_NAME",
+      "turkish": "Külçeden Doğdu"
+    },
+    "description": {
+      "brazilian": "Produza um Lingote de Minério.",
+      "czech": "Vyrob ingot rudy.",
+      "english": "Produce an ore ingot.",
+      "french": "Fabrique un lingot de minerai.",
+      "german": "Stelle einen Erz-Barren her.",
+      "italian": "Produci un lingotto di minerale.",
+      "japanese": "鉱石インゴットを1つ製造しよう。",
+      "koreana": "광석 주괴를 제작하세요.",
+      "norwegian": "Lag en malmbarr.",
+      "polish": "Wyprodukuj sztabkę rudy.",
+      "portuguese": "Produz um lingote de minério.",
+      "russian": "Произведи слиток руды.",
+      "schinese": "制造一块矿石锭。",
+      "spanish": "Produce un lingote de mena.",
+      "tchinese": "製作一塊礦石錠。",
+      "thai": "ผลิตแท่งแร่หนึ่งแท่ง",
+      "token": "NEW_ACHIEVEMENT_52_13_DESC",
+      "turkish": "Bir cevher külçesi üret."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "create_ore_ingot",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "a_product_unlock_karnit",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Karnit? Can do!"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Mine your first Karnit."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/9ae2ffad1382fd18b51af2edecbfe40f1f61ab0f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/501ef1abfe7669cd1b42208361fed05b97ca4b47.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/501ef1abfe7669cd1b42208361fed05b97ca4b47.jpg",
+    "displayName": {
+      "brazilian": "Karnit? Deixa comigo!",
+      "czech": "Karnit? Umím!",
+      "english": "Karnit? Can do!",
+      "french": "Karnit ? Je peux !",
+      "german": "Karnit? Kann ich!",
+      "italian": "Karnite? Ci penso io!",
+      "japanese": "カーニット？任せて！",
+      "koreana": "카르닛? 가능!",
+      "norwegian": "Karnit? Kan jeg!",
+      "polish": "Karnit? Potrafię!",
+      "portuguese": "Karnit? Eu posso!",
+      "russian": "Карнит? Да запросто!",
+      "schinese": "卡尼特？小意思！",
+      "spanish": "¿Karnit? ¡Claro!",
+      "tchinese": "卡尼特？我可以！",
+      "thai": "คาร์นิท? สบายมาก!",
+      "token": "NEW_ACHIEVEMENT_52_14_NAME",
+      "turkish": "Karnit mi? Benim işim!"
+    },
+    "description": {
+      "brazilian": "Extraia seu primeiro Karnit.",
+      "czech": "Vytěž svůj první karnit.",
+      "english": "Mine your first Karnit.",
+      "french": "Extrait ton premier karnit.",
+      "german": "Baue dein erstes Karnit ab.",
+      "italian": "Estrai la tua prima karnite.",
+      "japanese": "初めてカーニットを採掘しよう。",
+      "koreana": "첫 카르닛을 채굴하세요.",
+      "norwegian": "Bryt din første Karnit.",
+      "polish": "Wydobądź pierwszy karnit.",
+      "portuguese": "Extrai o teu primeiro karnit.",
+      "russian": "Добыть свой первый карнит.",
+      "schinese": "第一次开采卡尼特。",
+      "spanish": "Extrae tu primer karnit.",
+      "tchinese": "第一次開採卡尼特。",
+      "thai": "ขุดคาร์นิทครั้งแรก",
+      "token": "NEW_ACHIEVEMENT_52_14_DESC",
+      "turkish": "İlk Karnit'ini çıkar."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "find_karnit",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "a_stone_first",
-    "defaultvalue": 0,
-    "displayName": {
-      "english": "Rock Solid"
-    },
-    "hidden": 0,
-    "description": {
-      "english": "Mine your first large rock."
-    },
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/c395a5da3ce67d8e0ffe81f09969ca32fda10c41.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/4860c42b081822bc3767f58a8548b71f361efaba.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3756140/4860c42b081822bc3767f58a8548b71f361efaba.jpg",
+    "displayName": {
+      "brazilian": "Pedra Fundamental",
+      "czech": "Skála v bouři",
+      "english": "Rock Solid",
+      "french": "Roc de la galaxie",
+      "german": "Fels in der Brandung",
+      "italian": "Roccia portafortuna",
+      "japanese": "最初の大岩",
+      "koreana": "바위처럼",
+      "norwegian": "Fjell i stormen",
+      "polish": "Skała oporu",
+      "portuguese": "Pedra Fundamental",
+      "russian": "Скала на старте",
+      "schinese": "磐石起步",
+      "spanish": "Roca inaugural",
+      "tchinese": "堅不可摧",
+      "thai": "หินแรกในทะเล",
+      "token": "NEW_ACHIEVEMENT_52_15_NAME",
+      "turkish": "Sarsılmaz Kaya"
+    },
+    "description": {
+      "brazilian": "Minerar sua primeira grande rocha.",
+      "czech": "Vytěž svůj první velký kámen.",
+      "english": "Mine your first large rock.",
+      "french": "Extrait ton premier gros rocher.",
+      "german": "Baue deinen ersten großen Felsen ab.",
+      "italian": "Estrai la tua prima grande roccia.",
+      "japanese": "初めて巨大岩を採掘しよう。",
+      "koreana": "첫 거대 암석을 채굴하세요.",
+      "norwegian": "Bryt din første store stein.",
+      "polish": "Wydobądź swoją pierwszą dużą skałę.",
+      "portuguese": "Extrai a tua primeira grande pedra.",
+      "russian": "Добыть свой первый большой камень.",
+      "schinese": "开采你的第一块巨石。",
+      "spanish": "Extrae tu primera roca grande.",
+      "tchinese": "開採你的第一顆大型岩石。",
+      "thai": "ขุดหินก้อนใหญ่ก้อนแรก",
+      "token": "NEW_ACHIEVEMENT_52_15_DESC",
+      "turkish": "İlk büyük kayayı çıkar."
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "destroy_stone",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]
