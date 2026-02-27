@@ -1,130 +1,240 @@
 [
   {
     "name": "STAT_TOTAL_RUNS",
-    "displayName": "",
+    "displayName": "Total Runs",
     "type": "int",
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false,
+    "min": 0,
     "default": 0
   },
   {
     "name": "STAT_BEST_TIME_MS_NORMAL",
-    "displayName": "",
+    "displayName": "Best Any% Time (Normal)",
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
+    "min": 0,
     "default": 0
   },
   {
     "name": "STAT_BEST_TIME_MS_GODMODE",
-    "displayName": "",
+    "displayName": "Best Any% Time (GodMode)",
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
+    "min": 0,
     "default": 0
   },
   {
     "name": "STAT_TOTAL_SCORE",
-    "displayName": "",
+    "displayName": "Total Score (Lifetime)",
     "type": "int",
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false,
+    "min": 0,
     "default": 0
   },
   {
     "name": "STAT_BEST_SCORE_NORMAL",
-    "displayName": "",
+    "displayName": "Best Score (Normal)",
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
+    "min": 0,
     "default": 0
   },
   {
     "name": "STAT_BEST_SCORE_GODMODE",
-    "displayName": "",
+    "displayName": "Best Score (GodMode)",
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
+    "min": 0,
     "default": 0
   },
   {
     "name": "STAT_TOTAL_KILLS",
-    "displayName": "",
+    "displayName": "Total Kills",
     "type": "int",
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false,
+    "min": 0,
     "default": 0
   },
   {
     "name": "STAT_TOTAL_SPAWNS",
-    "displayName": "",
+    "displayName": "Total Enemies Spawned",
     "type": "int",
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false,
+    "min": 0,
     "default": 0
   },
   {
     "name": "STAT_BEST_ACC_BPS_NORMAL",
-    "displayName": "",
+    "displayName": "Best Clear Accuracy (Normal)",
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
+    "min": 0,
+    "max": 10000,
     "default": 0
   },
   {
     "name": "STAT_BEST_ACC_BPS_GODMODE",
-    "displayName": "",
+    "displayName": "Best Clear Accuracy (GodMode)",
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
+    "min": 0,
+    "max": 10000,
     "default": 0
   },
   {
     "name": "STAT_TOTAL_DEATHS",
-    "displayName": "",
+    "displayName": "Total Deaths",
     "type": "int",
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false,
+    "min": 0,
     "default": 0
   },
   {
     "name": "STAT_TOTAL_CONTINUES",
-    "displayName": "",
+    "displayName": "Total Continues",
     "type": "int",
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false,
+    "min": 0,
     "default": 0
   },
   {
     "name": "STAT_TOTAL_SHOTS_FIRED",
-    "displayName": "",
+    "displayName": "Total Shots Fired",
     "type": "int",
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false,
+    "min": 0,
     "default": 0
   },
   {
     "name": "STAT_TOTAL_SHOTS_HIT",
-    "displayName": "",
+    "displayName": "Total Shots Hit",
     "type": "int",
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false,
+    "min": 0,
     "default": 0
   },
   {
     "name": "STAT_BEST_SHOT_ACC_BPS_NORMAL",
-    "displayName": "",
+    "displayName": "Best Shot Accuracy (Normal)",
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
+    "min": 0,
+    "max": 10000,
+    "default": 0
+  },
+  {
+    "name": "STAT_BEST_LEVEL1_MS_NORMAL",
+    "displayName": "Best Level 1 Time (Normal)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "STAT_BEST_LEVEL2_MS_NORMAL",
+    "displayName": "Best Level 2 Time (Normal)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "STAT_BEST_LEVEL3_MS_NORMAL",
+    "displayName": "Best Level 3 Time (Normal)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "STAT_BEST_LEVEL4_MS_NORMAL",
+    "displayName": "Best Level 4 Time (Normal)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "STAT_BEST_LEVEL5_MS_NORMAL",
+    "displayName": "Best Level 5 Time (Normal)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "STAT_BEST_LEVEL1_MS_GODMODE",
+    "displayName": "Best Level 1 Time (GodMode)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "STAT_BEST_LEVEL2_MS_GODMODE",
+    "displayName": "Best Level 2 Time (GodMode)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "STAT_BEST_LEVEL3_MS_GODMODE",
+    "displayName": "Best Level 3 Time (GodMode)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "STAT_BEST_LEVEL4_MS_GODMODE",
+    "displayName": "Best Level 4 Time (GodMode)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "STAT_BEST_LEVEL5_MS_GODMODE",
+    "displayName": "Best Level 5 Time (GodMode)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
     "default": 0
   },
   {
     "name": "STAT_BEST_SHOT_ACC_BPS_GODMODE",
-    "displayName": "",
+    "displayName": "Best Shot Accuracy (GodMode)",
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
+    "min": 0,
+    "max": 10000,
     "default": 0
   }
 ]
