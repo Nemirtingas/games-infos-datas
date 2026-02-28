@@ -44,8 +44,8 @@
     "default": 0
   },
   {
-    "name": "failTimes",
-    "displayName": "Fail Times",
+    "name": "fails",
+    "displayName": "Fail",
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
@@ -63,6 +63,28 @@
     "maxchange": 1000,
     "min": 0,
     "max": 1000,
+    "default": 0
+  },
+  {
+    "name": "loseLevels",
+    "displayName": "LoseLevel",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 10000,
+    "default": 0
+  },
+  {
+    "name": "stat_11",
+    "displayName": "Stat11",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "max": 100000,
     "default": 0
   }
 ]
