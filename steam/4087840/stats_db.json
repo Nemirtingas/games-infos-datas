@@ -1,17 +1,35 @@
 [
   {
     "name": "MUFFINS_STAT_ATE",
-    "defaultvalue": 0,
-    "displayName": "muffins ate"
+    "displayName": "muffins ate",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "BATTERIES_USED_STAT_1",
-    "defaultvalue": 0,
-    "displayName": "batteries used"
+    "displayName": "batteries used",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 10,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "GENERATORS_STAT_FIXED",
-    "defaultvalue": 0,
-    "displayName": "generators fixed"
+    "displayName": "generators fixed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 50,
+    "default": 0
   }
 ]

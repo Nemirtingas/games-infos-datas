@@ -1,0 +1,950 @@
+[
+  {
+    "name": "bots",
+    "displayName": "Bots Destroyed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "abilities",
+    "displayName": "Abilities Used",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "runs",
+    "displayName": "Runs Started",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "boss",
+    "displayName": "Bosses Defeated",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "waves",
+    "displayName": "Waves Completed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "placed",
+    "displayName": "Monsters Placed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "evo",
+    "displayName": "Monsters Evolved",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "damage",
+    "displayName": "Damage Done",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "quest",
+    "displayName": "Quests Completed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "monster_upgrade",
+    "displayName": "Monster Upgrades Purchased",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "egg",
+    "displayName": "Eggs Hatched",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "level",
+    "displayName": "Player Levels",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "biome1",
+    "displayName": "Biome 1 Start",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "biome2",
+    "displayName": "Biome 2 Start",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "biome3",
+    "displayName": "Biome 3 Start",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "biome4",
+    "displayName": "Biome 4 Start",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "prestige",
+    "displayName": "Monsters Prestiged",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "emburn",
+    "displayName": "Emburn in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "treant",
+    "displayName": "Treant in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lazeye",
+    "displayName": "Lazeye in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "farseer",
+    "displayName": "Farseer in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "wolfie",
+    "displayName": "Wolfie in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "sprouden",
+    "displayName": "Sprouden in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "prixler",
+    "displayName": "Prixler in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "gloree",
+    "displayName": "Gloree in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "elekit",
+    "displayName": "Elekit in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "grimscythe",
+    "displayName": "Grimscythe in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "phasmur",
+    "displayName": "Phasmur in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "araknik",
+    "displayName": "Araknik in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "musher",
+    "displayName": "Mushser in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "slithur",
+    "displayName": "Slithur in Party",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "temporal",
+    "displayName": "Temporal Rift Ability Used",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "meteor",
+    "displayName": "Meteor Ability Used",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "overshield",
+    "displayName": "Overshield Ability Used",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "chaingun",
+    "displayName": "Chaingun Abiilty Used",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "blizzard",
+    "displayName": "Blizzard Ability Used",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "smite",
+    "displayName": "Smite Ability Used",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "robodex",
+    "displayName": "Robodex Visited",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "credits",
+    "displayName": "Credits Viewed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "tutorials",
+    "displayName": "Tutorials Disabled",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "tips",
+    "displayName": "Tips Viewed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "build",
+    "displayName": "Time Spent in Build Phase",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "combat",
+    "displayName": "Time Spent in Combat Phase",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "lead_emburn",
+    "displayName": "Emburn Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lead_treant",
+    "displayName": "Treant Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lead_lazeye",
+    "displayName": "Lazeye Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lead_farseer",
+    "displayName": "Farseer Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lead_wolfie",
+    "displayName": "Wolfie Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lead_sprouden",
+    "displayName": "Sprouden Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lead_prixler",
+    "displayName": "Prixler Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lead_glore",
+    "displayName": "Gloree Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lead_elekit",
+    "displayName": "Elekit Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lead_grimscythe",
+    "displayName": "Grimscythe Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lead_phasmur",
+    "displayName": "Phasmur Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lead_araknik",
+    "displayName": "Araknik Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lead_musher",
+    "displayName": "Musher Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "lead_slithur",
+    "displayName": "Slithur Leader",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "gold",
+    "displayName": "Gold Earned",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "meteor_bots",
+    "displayName": "Bots Destroyed with Meteor Ability",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "chaingun_bots",
+    "displayName": "Bots Destroyed with Chaingun Ability",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "smite_bots",
+    "displayName": "Bots Destroyed with Smite Ability",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "cold_bots",
+    "displayName": "Bots Destroyed while Frozen",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "move",
+    "displayName": "Monsters Moved",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "sold",
+    "displayName": "Monsters Sold",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "treasure_island",
+    "displayName": "Treasure Islands Connected",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "base_upgrade",
+    "displayName": "Base Upgrades Purchased",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ability_upgrade",
+    "displayName": "Ability Upgrades Purchased",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ability_unlock",
+    "displayName": "Player Abilities Unlocked",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "miniboss",
+    "displayName": "Minibosses Defeated",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "bulldoze",
+    "displayName": "Blocked Tiles Bulldozed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "victory_close",
+    "displayName": "Bosses Defeated Near Base",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "victory_clutch",
+    "displayName": "Bosses Defeated with 1HP Left",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "strategist",
+    "displayName": "Bosses Defeated Without Player Abilities",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "victory_emburn",
+    "displayName": "Victory with Emburn",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_treant",
+    "displayName": "Victory with Treant",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_lazeye",
+    "displayName": "Victory with Lazeye",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_farseer",
+    "displayName": "Victory with Farseer",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_wolfie",
+    "displayName": "Victory with Wolfie",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_sprouden",
+    "displayName": "Victory with Sprouden",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_prixler",
+    "displayName": "Victory with Prixler",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_gloree",
+    "displayName": "Victory with Gloree",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_elekit",
+    "displayName": "Victory with Elekit",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_grimscythe",
+    "displayName": "Victory with Grimscythe",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_phasmur",
+    "displayName": "Victory with Phasmur",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_araknik",
+    "displayName": "Victory with Araknik",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_musher",
+    "displayName": "Victory with Musher",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_slithur",
+    "displayName": "Victory with Slthur",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "defeat",
+    "displayName": "Bases Destroyed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "reroll",
+    "displayName": "Re-Rolls",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_biome1",
+    "displayName": "Biome 1 Boss Defeated",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_biome2",
+    "displayName": "Biome 2 Boss Defeated",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_biome3",
+    "displayName": "Biome 3 Boss Defeated",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_biome4",
+    "displayName": "Biome 4 Boss Defeated",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "shop",
+    "displayName": "In-Game Shop Purchases",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "booster",
+    "displayName": "Boosters Applied",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "boostlevel",
+    "displayName": "Booster Level",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "newmonster",
+    "displayName": "New Monster Unlocked",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "victory_duo",
+    "displayName": "Victory With Only 2 Monsters",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "crystal",
+    "displayName": "Monsters Harnessing Power Crystals",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "currentwave",
+    "displayName": "Current Wave",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 1,
+    "max": 20,
+    "default": 1
+  },
+  {
+    "name": "victory_15",
+    "displayName": "Victory on or Before Wave 15",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "default": 0
+  },
+  {
+    "name": "mythicboost",
+    "displayName": "Mythic Boost Obtained",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "poison",
+    "displayName": "Enemies Poisoned",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "burn",
+    "displayName": "Enemies Burned",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "slowed",
+    "displayName": "Enemies Slowed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "worldegg",
+    "displayName": "World Eggs Hatched",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "tribute",
+    "displayName": "Clicked The Drums To Honor Daniel",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "egglevel",
+    "displayName": "Egg Levels",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "eggmon",
+    "displayName": "Egg Levels on the Same Monster",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  }
+]
