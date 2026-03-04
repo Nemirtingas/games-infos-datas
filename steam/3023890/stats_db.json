@@ -1,0 +1,683 @@
+[
+  {
+    "name": "version",
+    "displayName": "version",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "count_jump",
+    "displayName": "Jump Count",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_dash",
+    "displayName": "Dash Count",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_lines_read",
+    "displayName": "Lines Read",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_choices_made",
+    "displayName": "Choices Made",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_coins_collected",
+    "displayName": "Coins Collected",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_fish_caught",
+    "displayName": "Fish Caught",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "timer_total",
+    "displayName": "Total Time Spent",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0.0,
+    "default": 0.0
+  },
+  {
+    "name": "timer_menu",
+    "displayName": "Time Spent: Menu",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0.0,
+    "default": 0.0
+  },
+  {
+    "name": "timer_overworld",
+    "displayName": "Time Spent: Overworld",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0.0,
+    "default": 0.0
+  },
+  {
+    "name": "timer_fishing",
+    "displayName": "Time Spent: Fishing",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0.0,
+    "default": 0.0
+  },
+  {
+    "name": "timer_dialogue",
+    "displayName": "Time Spent: Dialogue",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0.0,
+    "default": 0.0
+  },
+  {
+    "name": "timer_cooking",
+    "displayName": "Time Spent: Cooking",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0.0,
+    "default": 0.0
+  },
+  {
+    "name": "timer_feeding",
+    "displayName": "Time Spent: Feeding",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0.0,
+    "default": 0.0
+  },
+  {
+    "name": "count_fish_ambulance",
+    "displayName": "Fish Caught Count: Ambulance",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_fish_cannon",
+    "displayName": "Fish Caught Count: Cannon",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_fish_delivery",
+    "displayName": "Fish Caught Count: Delivery",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_fish_firetruck",
+    "displayName": "Fish Caught Count: Fire Truck",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_fish_jeep",
+    "displayName": "Fish Caught Count: Jeep",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_fish_race",
+    "displayName": "Fish Caught Count: Race Car",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_fish_clown",
+    "displayName": "Fish Caught Count: Clown Car",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_fish_taxi",
+    "displayName": "Fish Caught Count: Taxi",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_fish_tractor",
+    "displayName": "Fish Caught Count: Tractor",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_fish_trash",
+    "displayName": "Fish Caught Count: Trash",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_fish_van",
+    "displayName": "Fish Caught Count: Van",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_item_fishing_rod",
+    "displayName": "Item Count: Fishing Rod",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_item_jump",
+    "displayName": "Item Count: Jump",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_item_dash",
+    "displayName": "Item Count: Dash",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_item_cowboy_hat",
+    "displayName": "Item Count: Cowboy Hat",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "dialogue_choice_pos_top",
+    "displayName": "Dialogue Choice: Pos = Top",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "dialogue_choice_pos_bot",
+    "displayName": "Dialogue Choice: Pos = Bot",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "dialogue_choice_pos_vers",
+    "displayName": "Dialogue Choice: Pos = Vers",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "dialogue_choice_pos_side",
+    "displayName": "Dialogue Choice: Pos = Side",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "dialogue_choice_pref_walls",
+    "displayName": "Dialogue Choice: Pref = Walls",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "dialogue_choice_pref_basement",
+    "displayName": "Dialogue Choice: Pref = Basement",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "dialogue_choice_pref_job",
+    "displayName": "Dialogue Choice: Pref = Job",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "dialogue_choice_pref_kind",
+    "displayName": "Dialogue Choice: Pref = Kind",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "npc_talked_chester_1",
+    "displayName": "NPC Chester 1",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "npc_talked_chester_2",
+    "displayName": "NPC Chester 2",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "npc_talked_chester_3",
+    "displayName": "NPC Chester 3",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "npc_talked_chester_4",
+    "displayName": "NPC Chester 4",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "npc_talked_chester_5",
+    "displayName": "NPC Chester 5",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "npc_talked_chester_9",
+    "displayName": "NPC Chester 9",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "npc_talked_boulder_front",
+    "displayName": "NPC Boulder Front",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "npc_talked_boulder_back",
+    "displayName": "NPC Boulder Back",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "met_actors_count",
+    "displayName": "Count of Actors Met",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "met_chesters_count",
+    "displayName": "Count of Chesters Met",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "timer_paused",
+    "displayName": "Time Spent: Paused",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0.0,
+    "default": 0.0
+  },
+  {
+    "name": "language_en",
+    "displayName": "Language: English",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "language_es",
+    "displayName": "Language: Spanish",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "language_fr",
+    "displayName": "Language: French",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "language_de",
+    "displayName": "Language: German",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "language_jp",
+    "displayName": "Language: Japanese",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "language_br",
+    "displayName": "Language: Brazilian Portuguese",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "language_zh",
+    "displayName": "Language: Simplified Chinese",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "language_ru",
+    "displayName": "Language: Russian",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "dialogue_docktor_good_building",
+    "displayName": "Called a good building by Docktor",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "dialogue_docktor_good_building_again",
+    "displayName": "Asked to be called a good building by the Docktor",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "count_spare_antenna",
+    "displayName": "Total spare antenna found (old)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "count_spare_antenna_v2",
+    "displayName": "Total spare antenna found (correct)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "count_dash_jump",
+    "displayName": "Total dash into jump",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_fire_dash",
+    "displayName": "Total dash while on fire",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_fire_jump",
+    "displayName": "Total jump while on fire",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_jump_dash",
+    "displayName": "Total jump into dash",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_on_fire",
+    "displayName": "Total on fire",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "count_cooking_start",
+    "displayName": "Total start cooking",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "count_cooking_finish",
+    "displayName": "Total finish cooking",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "max_speed",
+    "displayName": "Max speed achieved",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0.0,
+    "default": 0.0
+  },
+  {
+    "name": "count_fish_unique_type",
+    "displayName": "Total count of fish types",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 11,
+    "default": 0
+  }
+]
