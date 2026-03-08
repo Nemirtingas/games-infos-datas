@@ -2,361 +2,450 @@
   {
     "name": "games_played",
     "displayName": "Total Runs",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 10,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "games_won",
     "displayName": "Wins",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 5,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "games_lost",
     "displayName": "Losses",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 10,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "floors_climbed",
     "displayName": "Floors Climbed",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 25,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "hi_run_score",
     "displayName": "Highest Run Score",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0,
+    "max": 999999999,
+    "default": 0
   },
   {
     "name": "hi_floor_score",
     "displayName": "Highest Single-floor Score",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0,
+    "max": 999999999,
+    "default": 0
   },
   {
     "name": "cumulative_score",
     "displayName": "Total Points Earned",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_acid",
     "displayName": "Acid Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_buster",
     "displayName": "Buster Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_butcher",
     "displayName": "Butcher Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_combo",
     "displayName": "Combo Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_cow",
     "displayName": "Cow Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_death",
     "displayName": "Death Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_echo",
     "displayName": "Echo Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_eight",
     "displayName": "Eight Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_fire",
     "displayName": "Fire Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_fortune",
     "displayName": "Fortune Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_frog",
     "displayName": "Frog Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_glutton",
     "displayName": "Glutton Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_gravity",
     "displayName": "Gravity Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_hard",
     "displayName": "Hard Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_hive",
     "displayName": "Hive Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_hyper",
     "displayName": "Hyper Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_loner",
     "displayName": "Loner Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_magnet",
     "displayName": "Magnet Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_mason",
     "displayName": "Mason Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_multi",
     "displayName": "Multi Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_nuclear",
     "displayName": "Nuclear Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_piggy",
     "displayName": "Piggy Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_pin",
     "displayName": "Pin Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_plague",
     "displayName": "Plague Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_power",
     "displayName": "Power Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_prize",
     "displayName": "Prize Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_raging",
     "displayName": "Raging Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_science",
     "displayName": "Science Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_sniper",
     "displayName": "Sniper Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_snow",
     "displayName": "Snow Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_speed",
     "displayName": "Speed Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_spice",
     "displayName": "Spice Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_spit",
     "displayName": "Spit Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_split",
     "displayName": "Split Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_star",
     "displayName": "Star Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_strike",
     "displayName": "Strike Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_tennis",
     "displayName": "Tennis Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "upg_zap",
     "displayName": "Zap Balls",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 3,
+    "min": 0,
+    "default": 0
   }
 ]
