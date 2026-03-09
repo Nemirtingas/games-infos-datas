@@ -2,17 +2,21 @@
   {
     "name": "game_seconds",
     "displayName": "Game playtime",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 120,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "editor_seconds",
     "displayName": "Editor playtime",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 120,
+    "min": 0,
+    "default": 0
   }
 ]
