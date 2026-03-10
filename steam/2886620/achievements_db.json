@@ -387,87 +387,6 @@
     }
   },
   {
-    "name": "ChiefConductor",
-    "hidden": false,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2886620/3dbd74b94f995eb14827cdfae4ab240593ff3470.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2886620/7d86244b6f53a43c0753dc3a3b22819aedf7df0a.jpg",
-    "displayName": {
-      "english": "Chief conductor",
-      "french": "Chef d'Orchestre",
-      "japanese": "首席指揮者",
-      "schinese": "首席指挥",
-      "token": "ChiefConductor_NAME"
-    },
-    "description": {
-      "english": "Evolve all unit of the Sweet Symphoney to tier 3 at least once",
-      "french": "Évoluer toutes les unités de la Symphonie Sucrée au rang 3 au moins une fois",
-      "japanese": "スウィートシンフォニーの全ユニットを一度はランク3に進化させよ",
-      "schinese": "将甜蜜交响乐团的所有单位至少一次进化至 3 阶",
-      "token": "ChiefConductor_DESC"
-    },
-    "stats_thresholds": [
-      {
-        "stat_name": "Tier3_SweetSymphoney_Count",
-        "min_val": 0,
-        "max_val": 10
-      }
-    ]
-  },
-  {
-    "name": "MasterAssassin",
-    "hidden": false,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2886620/5c72829a2a4f8ffdcff1e65ac009ff79b6f1444f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2886620/0c64edc67aec21f04dc2d0f2da30d390679b3492.jpg",
-    "displayName": {
-      "english": "Master assassin",
-      "french": "Maître Assassin",
-      "japanese": "マスターアサシン",
-      "schinese": "暗杀大师",
-      "token": "MasterAssassin_NAME"
-    },
-    "description": {
-      "english": "Evolve all unit of the Silent Cabbale to tier 3 at least once",
-      "french": "Évoluer toutes les unités de la Cabale Silencieuse au rang 3 au moins une fois",
-      "japanese": "サイレントカバルの全ユニットを一度はランク3に進化させよ",
-      "schinese": "将沉默阴谋团的所有单位至少一次进化至 3 阶",
-      "token": "MasterAssassin_DESC"
-    },
-    "stats_thresholds": [
-      {
-        "stat_name": "Tier3_SilentCabbale_Count",
-        "min_val": 0,
-        "max_val": 10
-      }
-    ]
-  },
-  {
-    "name": "VeteranSoldier",
-    "hidden": false,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2886620/ef327ea0275e6a23f163a07d095f57dd0c39a7b9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2886620/3e5507ec04bc87b9c7b1b4aeb8cfc2f29228d885.jpg",
-    "displayName": {
-      "english": "Veteran soldier",
-      "french": "Soldat Aguerri",
-      "japanese": "ベテラン兵士",
-      "schinese": "百战老兵",
-      "token": "VeteranSoldier_NAME"
-    },
-    "description": {
-      "english": "Evolve all unit of the Vespada to tier 3 at least once",
-      "french": "Évoluer toutes les unités des Vespada au rang 3 au moins une fois",
-      "japanese": "ヴェスパーダの全ユニットを一度はランク3に進化させよ",
-      "schinese": "将毒蜂军团的所有单位至少一次进化至 3 阶",
-      "token": "VeteranSoldier_DESC"
-    },
-    "stats_thresholds": [
-      {
-        "stat_name": "Tier3_Vespada_Count",
-        "min_val": 0,
-        "max_val": 10
-      }
-    ]
-  },
-  {
     "name": "ToArms",
     "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2886620/fc5472d2df4922a5ea8bb3a7174318b863c7a6d0.jpg",
@@ -722,12 +641,19 @@
       "token": "PatientZero_NAME"
     },
     "description": {
-      "english": "Apply 100 poison to one enemy",
+      "english": "Apply 50 poison to one enemy",
       "french": "Appliquer 200 cumuls de poison à une unité",
       "japanese": "1体のユニットに「毒」を200スタック付与せよ",
       "schinese": "使一个单位处于 200 层中毒状态",
       "token": "PatientZero_DESC"
-    }
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "MaxPoisonStacks",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
   },
   {
     "name": "SixtiesVibe",
