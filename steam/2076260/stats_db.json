@@ -2,12 +2,23 @@
   {
     "name": "total_kills",
     "displayName": "total_kills",
-    "type": "int",
+    "type": "float",
     "incrementonly": true,
     "aggregated": false,
-    "maxchange": 1,
-    "min": 0,
-    "max": 5000,
-    "default": 0
+    "maxchange": 1.0,
+    "min": 0.0,
+    "max": 1000000.0,
+    "default": 0.0
+  },
+  {
+    "name": "all_kills",
+    "displayName": "All Murders",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1.0,
+    "min": 0.0,
+    "max": 1000000.0,
+    "default": 0.0
   }
 ]

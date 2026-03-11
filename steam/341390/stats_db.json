@@ -4,23 +4,657 @@
     "displayName": "Turns Played",
     "type": "int",
     "incrementonly": true,
-    "aggregated": false,
+    "aggregated": true,
     "default": 0
   },
   {
     "name": "new_games_played",
-    "displayName": "New Games Started",
+    "displayName": "Games Played",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "deaths",
+    "displayName": "Deaths",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascensions",
+    "displayName": "Successful Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "escapes",
+    "displayName": "Escapes",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "quits",
+    "displayName": "Quits",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "highest_score",
+    "displayName": "Highest Score",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
     "default": 0
   },
   {
-    "name": "deaths",
-    "displayName": "DYWYPI?",
+    "name": "highest_dlevel",
+    "displayName": "Deepest Dungeon Level",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
+    "max": 127,
+    "default": 0
+  },
+  {
+    "name": "longest_game_turns",
+    "displayName": "Longest Game (Turns)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "deaths_choking",
+    "displayName": "Deaths by Choking",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "deaths_poisoning",
+    "displayName": "Deaths by Poisoning",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "deaths_starving",
+    "displayName": "Deaths by Starving",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "deaths_drowning",
+    "displayName": "Deaths by Drowning",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "deaths_burning",
+    "displayName": "Deaths by Burning",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "deaths_dissolved",
+    "displayName": "Deaths by Dissolution",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "deaths_stoning",
+    "displayName": "Deaths by Petrification",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "deaths_genocided",
+    "displayName": "Deaths by Genocide",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_archeologist",
+    "displayName": "Games as Archeologist",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_barbarian",
+    "displayName": "Games as Barbarian",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_caveman",
+    "displayName": "Games as Caveman",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_healer",
+    "displayName": "Games as Healer",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_knight",
+    "displayName": "Games as Knight",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_monk",
+    "displayName": "Games as Monk",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_priest",
+    "displayName": "Games as Priest",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_rogue",
+    "displayName": "Games as Rogue",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_ranger",
+    "displayName": "Games as Ranger",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_samurai",
+    "displayName": "Games as Samurai",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_tourist",
+    "displayName": "Games as Tourist",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_valkyrie",
+    "displayName": "Games as Valkyrie",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_wizard",
+    "displayName": "Games as Wizard",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascend_archeologist",
+    "displayName": "Archeologist Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascend_barbarian",
+    "displayName": "Barbarian Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascend_caveman",
+    "displayName": "Caveman Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascend_healer",
+    "displayName": "Healer Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascend_knight",
+    "displayName": "Knight Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascend_monk",
+    "displayName": "Monk Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascend_priest",
+    "displayName": "Priest Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascend_rogue",
+    "displayName": "Rogue Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascend_ranger",
+    "displayName": "Ranger Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascend_samurai",
+    "displayName": "Samurai Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascend_tourist",
+    "displayName": "Tourist Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascend_valkyrie",
+    "displayName": "Valkyrie Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ascend_wizard",
+    "displayName": "Wizard Ascensions",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_human",
+    "displayName": "Games as Human",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_elf",
+    "displayName": "Games as Elf",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_dwarf",
+    "displayName": "Games as Dwarf",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_gnome",
+    "displayName": "Games as Gnome",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "games_as_orc",
+    "displayName": "Games as Orc",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "mines_reached",
+    "displayName": "Times Reached Gnomish Mines",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "sokoban_reached",
+    "displayName": "Times Reached Sokoban",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "quest_reached",
+    "displayName": "Times Reached Quest",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gehennom_reached",
+    "displayName": "Times Reached Gehennom",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "ludios_reached",
+    "displayName": "Times Reached Fort Ludios",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "vlad_reached",
+    "displayName": "Times Reached Vlad's Tower",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "astral_reached",
+    "displayName": "Times Reached Astral Plane",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "wizard_deaths",
+    "displayName": "Wizard Mode Deaths",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "wizard_games_played",
+    "displayName": "Wizard Mode Games",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "daily_challenges_completed",
+    "displayName": "Daily Challenges Completed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "daily_streak_current",
+    "displayName": "Current Daily Streak",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "daily_streak_longest",
+    "displayName": "Longest Daily Streak",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "weekly_challenges_completed",
+    "displayName": "Weekly Challenges Completed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "weekly_streak_current",
+    "displayName": "Current Weekly Streak",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "weekly_streak_longest",
+    "displayName": "Longest Weekly Streak",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "seasonal_challenges_completed",
+    "displayName": "Seasonal Challenges Completed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "daily_gold_tiers",
+    "displayName": "Daily Gold Tiers Earned",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "challenges_with_modifiers",
+    "displayName": "Challenges with Modifiers",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "challenges_all_modifiers_completed",
+    "displayName": "Challenges with All Modifiers",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "streak_shields_earned",
+    "displayName": "Streak Shields Earned",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gold_type_daily",
+    "displayName": "Gold Tier Daily Challenge",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gold_type_weekly",
+    "displayName": "Gold Tier Weekly Challenge",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gold_type_seasonal",
+    "displayName": "Gold Tier Seasonal Challenge",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gold_tier_speed",
+    "displayName": "Gold Tier Speed Challenge",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gold_tier_collection",
+    "displayName": "Gold Tier Collection Challenge",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gold_tier_combat",
+    "displayName": "Gold Tier Combat Challenge",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gold_tier_exploration",
+    "displayName": "Gold Tier Exploration Challenge",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gold_tier_pacifist",
+    "displayName": "Gold Tier Pacifist Challenge",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gold_tier_conduct",
+    "displayName": "Gold Tier Conduct Challenge",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gold_tier_variety",
+    "displayName": "Gold Tier Variety Challenge",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gold_tier_survival",
+    "displayName": "Gold Tier Survival Challenge",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gold_tier_ascension",
+    "displayName": "Gold Tier Ascension Challenge",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "gold_tier_skill",
+    "displayName": "Gold Tier Skill Challenge",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "category_master_complete",
+    "displayName": "Category Master",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "max": 1,
     "default": 0
   }
 ]
