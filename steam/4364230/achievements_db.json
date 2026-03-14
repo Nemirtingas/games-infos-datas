@@ -169,14 +169,21 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4364230/1c3cfb8ed176c3519e31b84be307e410b6c2d02c.jpg",
     "displayName": {
       "english": "Turn the Tide",
-      "schinese": "绝处逢生",
+      "schinese": "高手过招",
       "token": "NEW_ACHIEVEMENT_1_8_NAME"
     },
     "description": {
-      "english": "Win after entering on the last line",
-      "schinese": "在猜成语模式下，在最后一行输入成语后获得胜利",
+      "english": "Play a match over 100 rounds against one opponent without injured",
+      "schinese": "在未受伤的情况下，与一名对手进行一次超过100回合的对局",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
-    }
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "RoundCount_NotInjured",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_NARROW_ESCAPE",
@@ -185,14 +192,21 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4364230/34933df7422ae793481b4f9391758e02a95751ac.jpg",
     "displayName": {
       "english": "Out of Danger",
-      "schinese": "转危为安",
+      "schinese": "大道磨灭",
       "token": "NEW_ACHIEVEMENT_1_9_NAME"
     },
     "description": {
-      "english": "Win after surviving Russian Roulette twice",
-      "schinese": "在俄罗斯轮盘下成功存活2次后获得胜利",
+      "english": "Play a match over 200 rounds against one opponent",
+      "schinese": "与一名对手进行一次超过200回合的对局",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
-    }
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "RoundCount",
+        "min_val": 0,
+        "max_val": 200
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_DEATH_JOKE",
@@ -464,10 +478,17 @@
       "token": "NEW_ACHIEVEMENT_1_24_NAME"
     },
     "description": {
-      "english": "Play a match over 200 rounds against one opponent",
-      "schinese": "与一名对手进行一次超过200回合的对局",
+      "english": "Play a match over 100 rounds against one opponent",
+      "schinese": "与一名对手进行一次超过100回合的对局",
       "token": "NEW_ACHIEVEMENT_1_24_DESC"
-    }
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "RoundCount",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
   },
   {
     "name": "ACHIEVEMENT_INVINCIBLE",

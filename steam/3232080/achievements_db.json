@@ -1,7 +1,7 @@
 [
   {
     "name": "OracleDefeated",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3232080/18e39e3e16abb6763055e4fbe315d1c2f06b591d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3232080/4513e2b6c3ec21d10cefb9344355efb2b4c9fe09.jpg",
     "displayName": {
@@ -17,7 +17,7 @@
   },
   {
     "name": "PrologueCompleted",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3232080/ddfcf0afdd6d446076b5193cac104e4eb2d728c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3232080/aff676bf9baccb5072ebd6f6c5838568846a9763.jpg",
     "displayName": {
@@ -33,7 +33,7 @@
   },
   {
     "name": "AbyssGiftObtained",
-    "hidden": 0,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3232080/c0f398157138ee50f26da7c2308c842bce494db3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3232080/e85fc22d1552cf411be226e27c97895f631827ee.jpg",
     "displayName": {
@@ -46,10 +46,12 @@
       "russian": "Вы молодец! Боги выдали вам 5 Даров Бездны.",
       "token": "NEW_ACHIEVEMENT_5_3_DESC"
     },
-    "stats_thresholds": {
-      "min_val": 0,
-      "max_val": 5,
-      "stat_name": "AbyssGift"
-    }
+    "stats_thresholds": [
+      {
+        "stat_name": "AbyssGift",
+        "min_val": 0,
+        "max_val": 5
+      }
+    ]
   }
 ]

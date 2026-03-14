@@ -3,33 +3,42 @@
     "name": "enemy_kills",
     "displayName": "Enemy kills count",
     "type": "int",
-    "default": 0,
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "default": 0
   },
   {
     "name": "avg_playtime",
     "displayName": "Average session playtime in minutes",
     "type": "avgrate",
-    "default": 0,
     "incrementonly": false,
     "aggregated": false,
+    "default": 0,
     "windowsize": 5.0
   },
   {
     "name": "full_playtime",
     "displayName": "Full user playtime in game",
     "type": "float",
-    "default": 0,
     "incrementonly": true,
-    "aggregated": true
+    "aggregated": true,
+    "default": 0
   },
   {
     "name": "AbyssGift",
     "displayName": "Abyss Gifts",
     "type": "int",
-    "default": 0,
     "incrementonly": false,
-    "aggregated": false
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "HeroLevel",
+    "displayName": "Hero Level",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
   }
 ]
