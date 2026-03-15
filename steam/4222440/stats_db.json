@@ -2,41 +2,47 @@
   {
     "name": "xp",
     "displayName": "XP",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 10000,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "level",
     "displayName": "Level",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 1.0
+    "maxchange": 10,
+    "min": 1,
+    "default": 1
   },
   {
     "name": "elo",
     "displayName": "Elo",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 1000.0
+    "maxchange": 100,
+    "min": 0,
+    "default": 1000
   },
   {
     "name": "game_tokens",
     "displayName": "Game Tokens",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 500.0
+    "default": 500
   },
   {
     "name": "bought_tokens",
     "displayName": "Bought Tokens",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "default": 0
   }
 ]
