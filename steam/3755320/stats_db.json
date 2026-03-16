@@ -2,201 +2,276 @@
   {
     "name": "STAT_TOTAL_REVENUE",
     "displayName": "总营业额",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 2000000,
+    "min": 0,
+    "max": 2000000,
+    "default": 0
   },
   {
     "name": "STAT_CORRECT_SERVICES",
     "displayName": "正确服务次数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "STAT_CONSECUTIVE_CORRECT",
     "displayName": "连续正确服务",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_STORIES_UNLOCKED",
     "displayName": "已解锁故事数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_BREAD_DONATED",
     "displayName": "捐赠面包数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1500000,
+    "min": 0,
+    "max": 1500000,
+    "default": 0
   },
   {
     "name": "STAT_THIEF_CAUGHT",
     "displayName": "抓住小偷次数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "STAT_BEGGAR_REMINDED",
     "displayName": "提醒乞丐付款",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_HOOLIGAN_DEALT",
     "displayName": "对付混混次数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_DELIVERIES_COMPLETED",
     "displayName": "完成外卖订单数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_PUZZLE_PIECES",
     "displayName": "拼图碎片收集数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_PUZZLES_COMPLETED",
     "displayName": "完成拼图数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_GIFT_BOXES_PACKED",
     "displayName": "打包礼盒数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1000,
+    "min": 0,
+    "max": 100000,
+    "default": 0
   },
   {
     "name": "STAT_STICKERS_COLLECTED",
     "displayName": "获得贴纸数",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "aggregated": true,
+    "maxchange": 41,
+    "min": 0,
+    "max": 41,
+    "default": 0
   },
   {
     "name": "STAT_RARE_STICKERS",
     "displayName": "稀有贴纸数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_QUICK_HANDOFFS",
     "displayName": "快速递交次数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 20,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "STAT_WRONG_SERVICES",
     "displayName": "错误服务次数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 0,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "STAT_CONSECUTIVE_WRONG",
     "displayName": "连续错误服务",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "aggregated": true,
+    "maxchange": 20,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "STAT_FAVORITE_GIVEN",
     "displayName": "赠送最爱面包",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 20,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_BASKET_STACKS",
     "displayName": "篮子堆叠数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 0,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "STAT_FAST_SERVICES",
     "displayName": "快速服务次数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 0,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "STAT_NO_ANGRY_DAYS",
     "displayName": "无生气顾客天数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 0,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_PHONE_CALLS",
     "displayName": "打电话次数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 100,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "STAT_DAYS_COMPLETED",
     "displayName": "完成天数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 500,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "STAT_SU_MENGMENG_ORDERS",
     "displayName": "苏萌萌订单完成",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 1,
+    "default": 0
   },
   {
     "name": "STAT_CUSTOMER_TYPES",
     "displayName": "顾客类型遇到数",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 0,
+    "min": 0,
+    "max": 100,
+    "default": 0
   }
 ]
