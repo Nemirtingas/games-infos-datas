@@ -2,41 +2,49 @@
   {
     "name": "STAT_VERSION",
     "displayName": "Stat version",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 1.0
+    "default": 1
   },
   {
     "name": "STAT_DEATH_COUNT",
     "displayName": "Total death count",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "STAT_ABILITIES_USED",
     "displayName": "Total abilities used count",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "STAT_SECONDARY_ABILITIES_USED",
     "displayName": "Total secondary abilities used count",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "STAT_AVG_ABILITIES_USED",
     "displayName": "Avg count of abilities used",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0.0,
+    "default": 0.0,
+    "windowsize": 10.0
   }
 ]
