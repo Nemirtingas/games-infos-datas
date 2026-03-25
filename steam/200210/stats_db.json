@@ -49,7 +49,7 @@
   },
   {
     "name": "TilesUncovered",
-    "displayName": "Tiles Uncovered",
+    "displayName": "TilesUncovered",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
@@ -76,11 +76,12 @@
   },
   {
     "name": "GodKills",
-    "displayName": "God Kills",
+    "displayName": "GodKills",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
     "min": 0,
+    "max": 5000,
     "default": 0
   },
   {
@@ -277,48 +278,8 @@
     "default": 0
   },
   {
-    "name": "TestClassesUnlockedCount",
-    "displayName": "TestClassesUnlockedCount",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": false,
-    "min": 0,
-    "max": 5,
-    "default": 0
-  },
-  {
-    "name": "TestBestFame",
-    "displayName": "TestBestFame",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": false,
-    "min": 0,
-    "max": 500,
-    "default": 0
-  },
-  {
-    "name": "TestNumStars",
-    "displayName": "TestNumStars",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": false,
-    "min": 0,
-    "max": 18,
-    "default": 0
-  },
-  {
-    "name": "TestDungeonsCompleted",
-    "displayName": "TestDungeonsCompleted",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": false,
-    "min": 0,
-    "max": 10,
-    "default": 0
-  },
-  {
-    "name": "TestDungeonCompletedSnakePit",
-    "displayName": "TestDungeonCompletedSnakePit",
+    "name": "TutorialCompletedCount",
+    "displayName": "TutorialCompletedCount",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
@@ -327,28 +288,18 @@
     "default": 0
   },
   {
-    "name": "TestRealmGodKills",
-    "displayName": "TestRealmGodKills",
+    "name": "ClassesUnlockedCount",
+    "displayName": "ClassesUnlockedCount",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
     "min": 0,
-    "max": 10,
+    "max": 19,
     "default": 0
   },
   {
-    "name": "TestPetMaxedSkillCount",
-    "displayName": "TestPetMaxedSkillCount",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": false,
-    "min": 0,
-    "max": 1,
-    "default": 0
-  },
-  {
-    "name": "TestEnchantCount",
-    "displayName": "TestEnchantCount",
+    "name": "WizardUnlocked",
+    "displayName": "WizardUnlocked",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
@@ -357,8 +308,8 @@
     "default": 0
   },
   {
-    "name": "TestForgeCount",
-    "displayName": "TestForgeCount",
+    "name": "NinjaUnlocked",
+    "displayName": "NinjaUnlocked",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
@@ -367,8 +318,8 @@
     "default": 0
   },
   {
-    "name": "TestDismantleCount",
-    "displayName": "TestDismantleCount",
+    "name": "SamuraiUnlocked",
+    "displayName": "SamuraiUnlocked",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
@@ -377,8 +328,8 @@
     "default": 0
   },
   {
-    "name": "TestShinyItemsAcquired",
-    "displayName": "TestShinyItemsAcquired",
+    "name": "BardUnlocked",
+    "displayName": "BardUnlocked",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
@@ -387,8 +338,58 @@
     "default": 0
   },
   {
-    "name": "TestAccountLevel",
-    "displayName": "TestAccountLevel",
+    "name": "SummonerUnlocked",
+    "displayName": "SummonerUnlocked",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "KenseiUnlocked",
+    "displayName": "KenseiUnlocked",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DruidUnlocked",
+    "displayName": "DruidUnlocked",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "ClassesExaltedCount",
+    "displayName": "ClassesExaltedCount",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 19,
+    "default": 0
+  },
+  {
+    "name": "DungeonsCompleted",
+    "displayName": "DungeonsCompleted",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 250,
+    "default": 0
+  },
+  {
+    "name": "HighDifficultyDungeonsCompleted",
+    "displayName": "HighDifficultyDungeonsCompleted",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
@@ -397,8 +398,8 @@
     "default": 0
   },
   {
-    "name": "TestMaxedStatsCount",
-    "displayName": "TestMaxedStatsCount",
+    "name": "DungeonCompletedPirateCave",
+    "displayName": "DungeonCompletedPirateCave",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
@@ -407,8 +408,8 @@
     "default": 0
   },
   {
-    "name": "TestSkinsEquippedCount",
-    "displayName": "TestSkinsEquippedCount",
+    "name": "DungeonCompletedForestMaze",
+    "displayName": "DungeonCompletedForestMaze",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
@@ -417,13 +418,873 @@
     "default": 0
   },
   {
-    "name": "TestTilesUncovered",
-    "displayName": "TestTilesUncovered",
+    "name": "DungeonCompletedSpiderDen",
+    "displayName": "DungeonCompletedSpiderDen",
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
     "min": 0,
-    "max": 1000000,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedForbiddenJungle",
+    "displayName": "DungeonCompletedForbiddenJungle",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedTheHive",
+    "displayName": "DungeonCompletedTheHive",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedSnakePit",
+    "displayName": "DungeonCompletedSnakePit",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedSpriteWorld",
+    "displayName": "DungeonCompletedSpriteWorld",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedCaveOfAThousandTreasures",
+    "displayName": "DungeonCompletedCaveOfAThousandTreasures",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedAncientRuins",
+    "displayName": "DungeonCompletedAncientRuins",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedMagicWoods",
+    "displayName": "DungeonCompletedMagicWoods",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedCandylandHuntingGrounds",
+    "displayName": "DungeonCompletedCandylandHuntingGrounds",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedUndeadLair",
+    "displayName": "DungeonCompletedUndeadLair",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedPuppetMasterSTheatre",
+    "displayName": "DungeonCompletedPuppetMasterSTheatre",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedToxicSewers",
+    "displayName": "DungeonCompletedToxicSewers",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedCursedLibrary",
+    "displayName": "DungeonCompletedCursedLibrary",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedMadLab",
+    "displayName": "DungeonCompletedMadLab",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedAbyssOfDemons",
+    "displayName": "DungeonCompletedAbyssOfDemons",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedManorOfTheImmortals",
+    "displayName": "DungeonCompletedManorOfTheImmortals",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedHauntedCemetery",
+    "displayName": "DungeonCompletedHauntedCemetery",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedTheMachine",
+    "displayName": "DungeonCompletedTheMachine",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedDavyJonesLocker",
+    "displayName": "DungeonCompletedDavyJonesLocker",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedOceanTrench",
+    "displayName": "DungeonCompletedOceanTrench",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedTheCrawlingDepths",
+    "displayName": "DungeonCompletedTheCrawlingDepths",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedWoodlandLabyrinth",
+    "displayName": "DungeonCompletedWoodlandLabyrinth",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedDeadwaterDocks",
+    "displayName": "DungeonCompletedDeadwaterDocks",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedPuppetMasterSEncore",
+    "displayName": "DungeonCompletedPuppetMasterSEncore",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedCnidarianReef",
+    "displayName": "DungeonCompletedCnidarianReef",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedParasiteChambers",
+    "displayName": "DungeonCompletedParasiteChambers",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedTheTavern",
+    "displayName": "DungeonCompletedTheTavern",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedSulfurousWetlands",
+    "displayName": "DungeonCompletedSulfurousWetlands",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedMountainTemple",
+    "displayName": "DungeonCompletedMountainTemple",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedLairOfDraconis",
+    "displayName": "DungeonCompletedLairOfDraconis",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedTombOfTheAncients",
+    "displayName": "DungeonCompletedTombOfTheAncients",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedTheThirdDimension",
+    "displayName": "DungeonCompletedTheThirdDimension",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedLairOfShaitan",
+    "displayName": "DungeonCompletedLairOfShaitan",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedHighTechTerror",
+    "displayName": "DungeonCompletedHighTechTerror",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedMoonlightVillage",
+    "displayName": "DungeonCompletedMoonlightVillage",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedIceCitadel",
+    "displayName": "DungeonCompletedIceCitadel",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedBeachzone",
+    "displayName": "DungeonCompletedBeachzone",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedTheNest",
+    "displayName": "DungeonCompletedTheNest",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedCultistHideout",
+    "displayName": "DungeonCompletedCultistHideout",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedFungalCavern",
+    "displayName": "DungeonCompletedFungalCavern",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedCrystalCavern",
+    "displayName": "DungeonCompletedCrystalCavern",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedSpectralPenitentiary",
+    "displayName": "DungeonCompletedSpectralPenitentiary",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedKogboldSteamworks",
+    "displayName": "DungeonCompletedKogboldSteamworks",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedLostHalls",
+    "displayName": "DungeonCompletedLostHalls",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedTheVoid",
+    "displayName": "DungeonCompletedTheVoid",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedTheShatters",
+    "displayName": "DungeonCompletedTheShatters",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedHeroicUndeadLair",
+    "displayName": "DungeonCompletedHeroicUndeadLair",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedInfernalAbyssOfDemons",
+    "displayName": "DungeonCompletedInfernalAbyssOfDemons",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedPlaguedNest",
+    "displayName": "DungeonCompletedPlaguedNest",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedAdvancedKogboldSteamworks",
+    "displayName": "DungeonCompletedAdvancedKogboldSteamworks",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedOryxSCastle",
+    "displayName": "DungeonCompletedOryxSCastle",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedSecludedThicket",
+    "displayName": "DungeonCompletedSecludedThicket",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EnemyKillsWineInspector",
+    "displayName": "EnemyKillsWineInspector",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EnemyKillsGodSlayer",
+    "displayName": "EnemyKillsGodSlayer",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "RealmGodKills",
+    "displayName": "RealmGodKills",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 10000,
+    "default": 0
+  },
+  {
+    "name": "BeaconGuardianKills",
+    "displayName": "BeaconGuardianKills",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100,
+    "default": 0
+  },
+  {
+    "name": "RealmBossKills",
+    "displayName": "RealmBossKills",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 500,
+    "default": 0
+  },
+  {
+    "name": "PetsOwned",
+    "displayName": "PetsOwned",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "PetFeedCount",
+    "displayName": "PetFeedCount",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "PetMaxedSkillCount",
+    "displayName": "PetMaxedSkillCount",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 2,
+    "default": 0
+  },
+  {
+    "name": "PetFuseCount",
+    "displayName": "PetFuseCount",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EquipmentSnapshotGarmentsOfAChampion",
+    "displayName": "EquipmentSnapshotGarmentsOfAChampion",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EquipmentSnapshotFullyEquipped",
+    "displayName": "EquipmentSnapshotFullyEquipped",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DivineItemsAcquired",
+    "displayName": "DivineItemsAcquired",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EnchantCount",
+    "displayName": "EnchantCount",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100,
+    "default": 0
+  },
+  {
+    "name": "ForgeCount",
+    "displayName": "ForgeCount",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100,
+    "default": 0
+  },
+  {
+    "name": "DismantleCount",
+    "displayName": "DismantleCount",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100,
+    "default": 0
+  },
+  {
+    "name": "ShinyItemsAcquired",
+    "displayName": "ShinyItemsAcquired",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 25,
+    "default": 0
+  },
+  {
+    "name": "EquipmentSnapshotDazzling",
+    "displayName": "EquipmentSnapshotDazzling",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "AccountLevel",
+    "displayName": "AccountLevel",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 100,
+    "default": 0
+  },
+  {
+    "name": "GuildJoinedCount",
+    "displayName": "GuildJoinedCount",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EnemyKillsExpertTrimmer",
+    "displayName": "EnemyKillsExpertTrimmer",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EnemyKillsHeartbreaker",
+    "displayName": "EnemyKillsHeartbreaker",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EnemyKillsWitchSeeker",
+    "displayName": "EnemyKillsWitchSeeker",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EnemyKillsMeltedSnow",
+    "displayName": "EnemyKillsMeltedSnow",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EnemyKillsWintersEnd",
+    "displayName": "EnemyKillsWintersEnd",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedMalogia",
+    "displayName": "DungeonCompletedMalogia",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedUntaris",
+    "displayName": "DungeonCompletedUntaris",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedKatalund",
+    "displayName": "DungeonCompletedKatalund",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "DungeonCompletedForax",
+    "displayName": "DungeonCompletedForax",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EnemyKillsBuffedBunny",
+    "displayName": "EnemyKillsBuffedBunny",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EnemyKillsTastyBattle",
+    "displayName": "EnemyKillsTastyBattle",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EnemyKillsKeyKeeper",
+    "displayName": "EnemyKillsKeyKeeper",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "EnemyKillsFrozenThrone",
+    "displayName": "EnemyKillsFrozenThrone",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "SkinsEquippedCount",
+    "displayName": "SkinsEquippedCount",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 25,
+    "default": 0
+  },
+  {
+    "name": "MaxedStatsCount",
+    "displayName": "MaxedStatsCount",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 8,
+    "default": 0
+  },
+  {
+    "name": "SkinsAcquiredCount",
+    "displayName": "SkinsAcquiredCount",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 0,
+    "max": 25,
     "default": 0
   }
 ]
