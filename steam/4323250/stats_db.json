@@ -2,31 +2,32 @@
   {
     "name": "SessionCount",
     "displayName": "Session Count",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
   },
   {
     "name": "TotalPlaytimeMinutes",
     "displayName": "Total Playtime (Minutes)",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "default": 0
   },
   {
     "name": "LastSessionLengthMinutes",
     "displayName": "Last Session Length (Minutes)",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "default": 0.0,
+    "windowsize": 7.0
   },
   {
     "name": "AverageSessionLengthMinutes",
     "displayName": "Average Session Length (Minutes)",
-    "type": 0,
+    "type": "float",
     "incrementonly": false,
     "aggregated": false,
     "default": 0.0
@@ -34,129 +35,166 @@
   {
     "name": "DaysRetained",
     "displayName": "Days Retained",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "default": 0
   },
   {
     "name": "FirstPlayDate",
     "displayName": "First Play Date",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "default": 0
   },
   {
     "name": "AvgSurvivalTimeSeconds",
     "displayName": "Avg Survival Time (Seconds)",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0.0,
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "VictoryCount",
     "displayName": "Victory Count",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "DeathCount",
     "displayName": "Death Count",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "DPS_MainWeapon",
     "displayName": "DPS Main Weapon",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0.0,
+    "max": 1000000000.0,
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "DPS_OrbitalHat",
     "displayName": "DPS Orbital Hat",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0.0,
+    "max": 1000000000.0,
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "DPS_SideWeapon",
     "displayName": "DPS Side Weapon",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0.0,
+    "max": 1000000000.0,
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "DPS_AuraWeapon",
     "displayName": "DPS Aura Weapon",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0.0,
+    "max": 1000000000.0,
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "DPS_DirectionalRevolver",
     "displayName": "DPS Directional Revolver",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0.0,
+    "max": 1000000000.0,
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "DPS_LandingExplosion",
     "displayName": "DPS Landing Explosion",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0.0,
+    "max": 1000000000.0,
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "DPS_ExplosiveRounds",
     "displayName": "DPS Explosive Rounds",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0.0,
+    "max": 1000000000.0,
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "DPS_IncendiaryRounds",
     "displayName": "DPS Incendiary Rounds",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0.0,
+    "max": 1000000000.0,
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "DPS_PoisonRounds",
     "displayName": "DPS Poison Rounds",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0.0,
+    "max": 1000000000.0,
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "DPS_ChainLightning",
     "displayName": "DPS Chain Lightning",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0.0,
+    "max": 1000000000.0,
+    "default": 0.0,
+    "windowsize": 20.0
   },
   {
     "name": "DPS_JumpHeightAttack",
     "displayName": "DPS Jump Height Attack",
-    "type": 0,
+    "type": "avgrate",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0.0,
+    "max": 1000000000.0,
+    "default": 0.0,
+    "windowsize": 20.0
   }
 ]
