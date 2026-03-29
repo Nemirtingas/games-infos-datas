@@ -2,41 +2,54 @@
   {
     "name": "stat_stars",
     "displayName": "",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0,
+    "max": 180,
+    "default": 0
   },
   {
     "name": "stat_restarts",
     "displayName": "",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 1,
+    "min": 0,
+    "max": 555,
+    "default": 0
   },
   {
     "name": "stat_drift_time",
     "displayName": "",
-    "type": 0,
+    "type": "float",
     "incrementonly": false,
     "aggregated": false,
+    "min": 0.0,
+    "max": 1000.0,
     "default": 0.0
   },
   {
     "name": "stat_boosts",
     "displayName": "",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 1,
+    "min": 0,
+    "max": 125,
+    "default": 0
   },
   {
     "name": "stat_rematch",
     "displayName": "",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 1,
+    "min": 0,
+    "max": 3,
+    "default": 0
   }
 ]
