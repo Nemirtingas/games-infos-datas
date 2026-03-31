@@ -2,65 +2,83 @@
   {
     "name": "stat_generations",
     "displayName": "传承总代数",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "stat_max_power",
     "displayName": "历史最高战力",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0,
+    "max": 1000000,
+    "default": 0
   },
   {
     "name": "stat_beast_count",
     "displayName": "拥有灵兽总数",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "stat_good_deeds",
     "displayName": "累计行善次数",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "stat_evil_deeds",
     "displayName": "累计作恶次数",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "stat_max_world",
     "displayName": "最高探索层数",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "stat_sect_reputation",
     "displayName": "宗门名望等级",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 0,
+    "min": 1,
+    "max": 7,
+    "default": 1
   },
   {
     "name": "stat_max_realm_sub",
     "displayName": "最高大境界等级",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 0,
+    "max": 9,
+    "default": 0
   }
 ]

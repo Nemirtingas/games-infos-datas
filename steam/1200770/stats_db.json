@@ -664,5 +664,42 @@
     "aggregated": false,
     "min": 0,
     "default": 0
+  },
+  {
+    "name": "SESSIONS_COUNT_TOTAL",
+    "displayName": "Total Session Count",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "SESSIONS_LENGTH_TOTAL",
+    "displayName": "Total Sessions Length",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "SESSION_LENGTH_MIN",
+    "displayName": "Minimum Session Length",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "default": "MAX_INT"
+  },
+  {
+    "name": "SESSION_LENGTH_MAX",
+    "displayName": "Maximum Session Length",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
   }
 ]
