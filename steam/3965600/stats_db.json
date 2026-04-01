@@ -2,17 +2,22 @@
   {
     "name": "Stat_PlayCount",
     "displayName": "",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 1,
+    "min": 0,
+    "max": 1000,
+    "default": 0
   },
   {
     "name": "Stat_Score",
     "displayName": "",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "min": 0,
+    "max": 10000,
+    "default": 0
   }
 ]
