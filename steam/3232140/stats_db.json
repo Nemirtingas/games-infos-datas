@@ -1,0 +1,58 @@
+[
+  {
+    "name": "STAT_NUMGAMES",
+    "displayName": "Games Played",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "STAT_NUMWINS",
+    "displayName": "Games Won",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "STAT_NUMLOSSES",
+    "displayName": "Games Lost",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "STAT_GAMETIME",
+    "displayName": "Average Game Time",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 10.0
+  },
+  {
+    "name": "STAT_HIGHESTSCORE",
+    "displayName": "Highest score achieved",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "STAT_AVGSCORE",
+    "displayName": "Average score per game",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 10.0
+  }
+]
