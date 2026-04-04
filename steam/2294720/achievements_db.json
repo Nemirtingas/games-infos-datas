@@ -16,8 +16,8 @@
   {
     "name": "ACH_FIRST_TREE_CUT",
     "hidden": false,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/cd3522740f8b056662c366e881f6cfa09438436f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/af59fcdd4d298405f576347462a90434d7f4ee22.jpg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/2d897045bb830608b74d44df3e4f4aa5a9ae0431.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/5ea2aa8d75aad4c67e7e02d7cb73e26082a7942c.jpg",
     "displayName": {
       "english": "Chop chop",
       "token": "NEW_ACHIEVEMENT_1_1_NAME"
@@ -25,7 +25,14 @@
     "description": {
       "english": "Cut your first tree",
       "token": "NEW_ACHIEVEMENT_1_1_DESC"
-    }
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_TREES",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "ACH_FIRST_BRIDGE_PASSED",
@@ -295,6 +302,321 @@
     "stats_thresholds": [
       {
         "stat_name": "KILLS",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
+  },
+  {
+    "name": "ACH_MINING_AMOUNT_1",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/bf728afb885f6eddf464b9a257f7be9afdee19e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/39998dcde07c946281606103e9442be695bdd28e.jpg",
+    "displayName": {
+      "english": "Novice Miner",
+      "token": "NEW_ACHIEVEMENT_1_15_NAME"
+    },
+    "description": {
+      "english": "Mine some rocks (100)",
+      "token": "NEW_ACHIEVEMENT_1_15_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_ORES",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
+  },
+  {
+    "name": "ACH_MINING_AMOUNT_2",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/2aaf3466074eca9e2b09d0dd2eaeec7018b6cd3f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/adf7dae2908951189bf64974b8a1ea7ad1a10599.jpg",
+    "displayName": {
+      "english": "Apprentice Miner",
+      "token": "NEW_ACHIEVEMENT_1_16_NAME"
+    },
+    "description": {
+      "english": "Mine a bunch of rocks (1000)",
+      "token": "NEW_ACHIEVEMENT_1_16_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_ORES",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
+  },
+  {
+    "name": "ACH_MINING_AMOUNT_3",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/0070790266cccfd330775a6bc64d01ccfdc2d2b9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/3cf2c171d02826e6d813517cdb96bbb7286a617d.jpg",
+    "displayName": {
+      "english": "Journeyman Miner",
+      "token": "NEW_ACHIEVEMENT_1_17_NAME"
+    },
+    "description": {
+      "english": "Mine a lot of rocks (10,000)",
+      "token": "NEW_ACHIEVEMENT_1_17_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_ORES",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
+  },
+  {
+    "name": "ACH_MINING_AMOUNT_4",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/7b61d1912b61887f6b1d9e6f83d8b39d297a6857.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/6538063daef7921d104309c627798d768c55f944.jpg",
+    "displayName": {
+      "english": "Master Miner",
+      "token": "NEW_ACHIEVEMENT_1_18_NAME"
+    },
+    "description": {
+      "english": "Mine a ton of rocks (100,000)",
+      "token": "NEW_ACHIEVEMENT_1_18_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_ORES",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
+  },
+  {
+    "name": "ACH_MINING_AMOUNT_5",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/5629ba66e2ffa695614293bb37ef790229f74cf2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/1f728967b80c94aec48f5ee5eb69878ab83044c3.jpg",
+    "displayName": {
+      "english": "Grandmaster Miner",
+      "token": "NEW_ACHIEVEMENT_1_19_NAME"
+    },
+    "description": {
+      "english": "Mine a mountain of rocks (1,000,000)",
+      "token": "NEW_ACHIEVEMENT_1_19_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_ORES",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
+  },
+  {
+    "name": "ACH_WOODCUTTING_AMOUNT_1",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/cd3522740f8b056662c366e881f6cfa09438436f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/ee7e5df19121655a30eb239bab54a7ac5e6c19f5.jpg",
+    "displayName": {
+      "english": "Novice Woodcutter",
+      "token": "NEW_ACHIEVEMENT_1_20_NAME"
+    },
+    "description": {
+      "english": "Cut some trees (100)",
+      "token": "NEW_ACHIEVEMENT_1_20_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_TREES",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
+  },
+  {
+    "name": "ACH_WOODCUTTING_AMOUNT_2",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/e4b80861534f205faaa93388a9321aa9fe91abe7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/ad9312cbda457d60aa4c322445c1458f15baccc3.jpg",
+    "displayName": {
+      "english": "Apprentice Woodcutter",
+      "token": "NEW_ACHIEVEMENT_1_21_NAME"
+    },
+    "description": {
+      "english": "Cut a bunch of trees (1000)",
+      "token": "NEW_ACHIEVEMENT_1_21_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_TREES",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
+  },
+  {
+    "name": "ACH_WOODCUTTING_AMOUNT_3",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/52144efe6f6d8059ca1c046649775c8ad2970993.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/ae7c59890276c50b6fd709990b43277b1c809aef.jpg",
+    "displayName": {
+      "english": "Journeyman Woodcutter",
+      "token": "NEW_ACHIEVEMENT_1_22_NAME"
+    },
+    "description": {
+      "english": "Cut a lot of trees (10,000)",
+      "token": "NEW_ACHIEVEMENT_1_22_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_TREES",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
+  },
+  {
+    "name": "ACH_WOODCUTTING_AMOUNT_4",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/ec70ecd4690dcc9c5046345254cc1778c7165400.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/f0e4463d054451a764e7854b0a46dcb5f814a112.jpg",
+    "displayName": {
+      "english": "Master Woodcutter",
+      "token": "NEW_ACHIEVEMENT_1_23_NAME"
+    },
+    "description": {
+      "english": "Cut a ton of trees (100,000)",
+      "token": "NEW_ACHIEVEMENT_1_23_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_TREES",
+        "min_val": 0,
+        "max_val": 100000
+      }
+    ]
+  },
+  {
+    "name": "ACH_WOODCUTTING_AMOUNT_5",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/dc20ca92c26373bd0b89227e98bb0cc9fe635698.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/fd5f2e579525c86e59af0ac279cd406ad62b0f6b.jpg",
+    "displayName": {
+      "english": "Grandmaster Woodcutter",
+      "token": "NEW_ACHIEVEMENT_1_24_NAME"
+    },
+    "description": {
+      "english": "Cut a mountain of trees (1,000,000)",
+      "token": "NEW_ACHIEVEMENT_1_24_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_TREES",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
+  },
+  {
+    "name": "ACH_FISHING_AMOUNT_1",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/f54a53d6f6d34f85d114903ce150295afdf0a64a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/0cea4765ea5ecf805475dfe74cf77bb7464f57bb.jpg",
+    "displayName": {
+      "english": "Novice Fisher",
+      "token": "NEW_ACHIEVEMENT_1_25_NAME"
+    },
+    "description": {
+      "english": "Catch some fish (10)",
+      "token": "NEW_ACHIEVEMENT_1_25_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_FISH",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
+  },
+  {
+    "name": "ACH_FISHING_AMOUNT_2",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/45b52ca70ea8fe01a47767e3788b1e94654639e0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/9c711c0eba825add2b4260c974be37a007e4efcd.jpg",
+    "displayName": {
+      "english": "Apprentice Fisher",
+      "token": "NEW_ACHIEVEMENT_1_26_NAME"
+    },
+    "description": {
+      "english": "Catch a bunch of fish (100)",
+      "token": "NEW_ACHIEVEMENT_1_26_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_FISH",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
+  },
+  {
+    "name": "ACH_FISHING_AMOUNT_3",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/d4f4c2f78f6c55ac6eb5c34f907be5a7ab3bf19e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/602c6cd7b8aad0482ff911d0bf62cee70c350e80.jpg",
+    "displayName": {
+      "english": "Journeyman Fisher",
+      "token": "NEW_ACHIEVEMENT_1_27_NAME"
+    },
+    "description": {
+      "english": "Catch a lot of fish (1000)",
+      "token": "NEW_ACHIEVEMENT_1_27_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_FISH",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
+  },
+  {
+    "name": "ACH_FISHING_AMOUNT_4",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/6fb945e80b50abaafb0946989b0ec598eb1c2bd1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/7382b22cef8d69210f76835669c02fd0fc127c97.jpg",
+    "displayName": {
+      "english": "Master Fisher",
+      "token": "NEW_ACHIEVEMENT_1_28_NAME"
+    },
+    "description": {
+      "english": "Catch a ton of fish (10,000)",
+      "token": "NEW_ACHIEVEMENT_1_28_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_FISH",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
+  },
+  {
+    "name": "ACH_FISHING_AMOUNT_5",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/4ac230a422692850519583f5c61e31971e0e6dfe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2294720/088aa6e91493e7f13735624041374ee2b6199948.jpg",
+    "displayName": {
+      "english": "Grandmaster Fisher",
+      "token": "NEW_ACHIEVEMENT_1_29_NAME"
+    },
+    "description": {
+      "english": "Catch a mountain of fish (100,000)",
+      "token": "NEW_ACHIEVEMENT_1_29_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TOTAL_FISH",
         "min_val": 0,
         "max_val": 100000
       }

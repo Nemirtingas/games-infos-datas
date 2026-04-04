@@ -1,16 +1,18 @@
 [
   {
     "name": "WIN_1_GAME",
-    "hidden": true,
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/4f0eb3e36b1303c2b9a2cf5d4fe866323d44ebc4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/4f0eb3e36b1303c2b9a2cf5d4fe866323d44ebc4.jpg",
     "displayName": {
-      "english": "Win a game",
-      "token": "NEW_ACHIEVEMENT_1_2_NAME"
+      "english": "First victory",
+      "french": "Première victoire",
+      "token": "WIN_1_GAME_NAME"
     },
     "description": {
-      "english": "Win a game",
-      "token": "NEW_ACHIEVEMENT_1_2_DESC"
+      "english": "Win your first match",
+      "french": "Remporter votre premier match",
+      "token": "WIN_1_GAME_DESC"
     },
     "stats_thresholds": [
       {
@@ -21,23 +23,25 @@
     ]
   },
   {
-    "name": "WIN_5_GAME",
-    "hidden": true,
+    "name": "WIN_10_GAME",
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/4f0eb3e36b1303c2b9a2cf5d4fe866323d44ebc4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/4f0eb3e36b1303c2b9a2cf5d4fe866323d44ebc4.jpg",
     "displayName": {
-      "english": "Win 5 games",
-      "token": "NEW_ACHIEVEMENT_1_3_NAME"
+      "english": "Confirmed champion",
+      "french": "Champion confirmé",
+      "token": "WIN_10_GAME_NAME"
     },
     "description": {
-      "english": "Win 5 games",
-      "token": "NEW_ACHIEVEMENT_1_3_DESC"
+      "english": "Win 10 matches",
+      "french": "Remporter 10 matchs",
+      "token": "WIN_10_GAME_DESC"
     },
     "stats_thresholds": [
       {
         "stat_name": "GameWon_GameWon",
         "min_val": 0,
-        "max_val": 5
+        "max_val": 10
       }
     ]
   },
@@ -48,11 +52,13 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
     "displayName": {
       "english": "First throw",
-      "token": "NEW_ACHIEVEMENT_1_5_NAME"
+      "french": "Premier lancer",
+      "token": "BALL_THROWN_1_NAME"
     },
     "description": {
       "english": "Throw your first ball",
-      "token": "NEW_ACHIEVEMENT_1_5_DESC"
+      "french": "Lancer votre première boule",
+      "token": "BALL_THROWN_1_DESC"
     },
     "stats_thresholds": [
       {
@@ -128,6 +134,213 @@
         "stat_name": "BallThrown_BallThrown",
         "min_val": 0,
         "max_val": 1000
+      }
+    ]
+  },
+  {
+    "name": "WIN_25_GAME",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "displayName": {
+      "english": " Game Master",
+      "french": "Maître du jeu",
+      "token": "WIN_25_GAME_NAME"
+    },
+    "description": {
+      "english": "Win 25 matches",
+      "french": "Remporter 25 matchs",
+      "token": "WIN_25_GAME_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "GameWon_GameWon",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
+  },
+  {
+    "name": "WIN_50_GAME",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "displayName": {
+      "english": "Living legend",
+      "french": "Légende vivante",
+      "token": "WIN_50_GAME_NAME"
+    },
+    "description": {
+      "english": "Win 50 matches",
+      "french": "Remporter 50 matchs",
+      "token": "WIN_50_GAME_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "GameWon_GameWon",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
+  },
+  {
+    "name": "USE_1_MAGIC",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "displayName": {
+      "english": "Apprentice druid",
+      "french": "Apprenti druide",
+      "token": "USE_1_MAGIC_NAME"
+    },
+    "description": {
+      "english": "Use your first power",
+      "french": "Utiliser votre premier pouvoir",
+      "token": "USE_1_MAGIC_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "PowerUpUsed_PowerUpUsed",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
+  },
+  {
+    "name": "USE_50_MAGIC",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "displayName": {
+      "english": "Experienced Druid",
+      "french": "Druide expérimenté",
+      "token": "USE_50_MAGIC_NAME"
+    },
+    "description": {
+      "english": "Use 50 powers in total",
+      "french": "Utiliser 50 pouvoirs au total",
+      "token": "USE_50_MAGIC_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "PowerUpUsed_PowerUpUsed",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
+  },
+  {
+    "name": "USE_100_MAGIC",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "displayName": {
+      "english": "Archdruid",
+      "french": "Archidruide",
+      "token": "USE_100_MAGIC_NAME"
+    },
+    "description": {
+      "english": "Use 100 powers in total",
+      "french": "Utiliser 100 pouvoirs au total",
+      "token": "USE_100_MAGIC_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "PowerUpUsed_PowerUpUsed",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
+  },
+  {
+    "name": "KNOCKED_OUT_BALLS_1",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "displayName": {
+      "english": " First elimination",
+      "french": "Première élimination",
+      "token": "KNOCKED_OUT_BALLS_1_NAME"
+    },
+    "description": {
+      "english": " Knock out and eliminate your first opponent's ball",
+      "french": "Dégommer et éliminer votre première boule adverse",
+      "token": "KNOCKED_OUT_BALLS_1_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "KnockedOutBall_KnockedOutBall",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
+  },
+  {
+    "name": "KNOCKED_OUT_BALLS_10",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "displayName": {
+      "english": "Sniper",
+      "french": "Tireur d'élite",
+      "token": "KNOCKED_OUT_BALLS_10_NAME"
+    },
+    "description": {
+      "english": "Knock out and eliminate 10 opposing balls",
+      "french": "Dégommer et éliminer 10 boules adverses",
+      "token": "KNOCKED_OUT_BALLS_10_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "KnockedOutBall_KnockedOutBall",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
+  },
+  {
+    "name": "KNOCKED_OUT_BALLS_25",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "displayName": {
+      "english": "Legendary Sniper",
+      "french": "Sniper légendaire",
+      "token": "KNOCKED_OUT_BALLS_25_NAME"
+    },
+    "description": {
+      "english": "Knock out and eliminate 25 opposing balls",
+      "french": "Dégommer et éliminer 25 boules adverses",
+      "token": "KNOCKED_OUT_BALLS_25_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "KnockedOutBall_KnockedOutBall",
+        "min_val": 0,
+        "max_val": 25
+      }
+    ]
+  },
+  {
+    "name": "KNOCKED_OUT_OWNER_BALL_1",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2075480/",
+    "displayName": {
+      "english": "Go back and do the tutorial",
+      "french": "Retournez faire le tuto",
+      "token": "KNOCKED_OUT_OWNER_BALL_1_NAME"
+    },
+    "description": {
+      "english": " Accidentally discarding your own ball",
+      "french": "Éliminer accidentellement votre propre boule",
+      "token": "KNOCKED_OUT_OWNER_BALL_1_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "KnockedOutOwnerBall_KnockedOutOwnerBall",
+        "min_val": 0,
+        "max_val": 1
       }
     ]
   }

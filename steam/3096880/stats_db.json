@@ -5,9 +5,9 @@
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "maxchange": 200,
+    "maxchange": 500,
     "min": 0,
-    "max": 500,
+    "max": 1000,
     "default": 0
   },
   {
@@ -36,8 +36,8 @@
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "maxchange": 10,
-    "max": 10,
+    "maxchange": 5,
+    "max": 5,
     "default": 0
   },
   {
@@ -56,8 +56,8 @@
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "maxchange": 200,
-    "max": 200,
+    "maxchange": 100,
+    "max": 500,
     "default": 0
   },
   {
@@ -69,5 +69,24 @@
     "maxchange": 500,
     "max": 500,
     "default": 0
+  },
+  {
+    "name": "stat_10",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "maxchange": 10000,
+    "max": 10000000,
+    "default": 0
+  },
+  {
+    "name": "stat_11",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "min": 1,
+    "default": 1
   }
 ]

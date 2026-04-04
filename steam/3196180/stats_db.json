@@ -2,17 +2,23 @@
   {
     "name": "STATS_ALL_COFFEE",
     "displayName": "ACHIEVEMENTS_ALL_COFFEE",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 1,
+    "min": 0,
+    "max": 3,
+    "default": 0
   },
   {
     "name": "STATS_ALL_ENDINGS",
     "displayName": "ACHIEVEMENTS_ALL_ENDINGS",
-    "type": 0,
-    "incrementonly": false,
-    "aggregated": false,
-    "default": 0.0
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "max": 6,
+    "default": 0
   }
 ]

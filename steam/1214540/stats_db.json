@@ -1,0 +1,435 @@
+[
+  {
+    "name": "stat_total_runs",
+    "displayName": "Total Runs",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_average_run_length",
+    "displayName": "Average Run Length",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 10.0
+  },
+  {
+    "name": "stat_deaths",
+    "displayName": "Deaths",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemies_killed",
+    "displayName": "Enemies Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_favorite_weapon",
+    "displayName": "Favorite Weapon",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_power_ups_used",
+    "displayName": "Power-Ups Used",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_highest_room_reached",
+    "displayName": "Highest Room Reached",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_boss_kills",
+    "displayName": "Boss Kills",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_co_op_revives",
+    "displayName": "Co-op Revives",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_damage_dealt",
+    "displayName": "Damage Dealt",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_total_playtime_seconds",
+    "displayName": "Total Playtime (Seconds)",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_no_hit_room_clears",
+    "displayName": "No-hit Room Clears",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_crates_destroyed",
+    "displayName": "Crates Destroyed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_crystals_obtained",
+    "displayName": "Crystals Obtained",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_shots_fired",
+    "displayName": "Shots Fired",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_shield_used",
+    "displayName": "Shield Used",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_bullets_reflected",
+    "displayName": "Bullets Reflected",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_goon",
+    "displayName": "Goons Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_dash_goon",
+    "displayName": "Dash Goons Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_gunner",
+    "displayName": "Gunners Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_jetpack",
+    "displayName": "Jetpack Enemies Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_rocket",
+    "displayName": "Rocket Enemies Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_iron",
+    "displayName": "Iron Enemies Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_drum",
+    "displayName": "Drums Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_energy_drum",
+    "displayName": "Energy Drums Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_bazooka",
+    "displayName": "Bazooka Enemies Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_orbit",
+    "displayName": "Orbit Enemies Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_cake",
+    "displayName": "Cake Enemies Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_tank",
+    "displayName": "Tanks Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_warp",
+    "displayName": "Warp Enemies Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_bax",
+    "displayName": "Bax Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_bax_mini",
+    "displayName": "Bax Minis Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_platform",
+    "displayName": "Platforms Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_rail",
+    "displayName": "Rails Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_enemy_kills_battleship",
+    "displayName": "Battleships Killed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_goon",
+    "displayName": "Deaths by Goon",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_dash_goon",
+    "displayName": "Deaths by Dash Goon",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_gunner",
+    "displayName": "Deaths by Gunner",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_jetpack",
+    "displayName": "Deaths by Jetpack Enemy",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_rocket",
+    "displayName": "Deaths by Rocket Enemy",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_iron",
+    "displayName": "Deaths by Iron Enemy",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_drum",
+    "displayName": "Deaths by Drum",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_energy_drum",
+    "displayName": "Deaths by Energy Drum",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_bazooka",
+    "displayName": "Deaths by Bazooka Enemy",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_orbit",
+    "displayName": "Deaths by Orbit Enemy",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_cake",
+    "displayName": "Deaths by Cake Enemy",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_tank",
+    "displayName": "Deaths by Tank",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_warp",
+    "displayName": "Deaths by Warp Enemy",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_bax",
+    "displayName": "Deaths by Bax",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_bax_mini",
+    "displayName": "Deaths by Bax Mini",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_platform",
+    "displayName": "Deaths by Platform",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_rail",
+    "displayName": "Deaths by Rail",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_deaths_by_battleship",
+    "displayName": "Deaths by Battleship",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "stat_room_challenges_completed",
+    "displayName": "Room Challenges Completed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  }
+]
