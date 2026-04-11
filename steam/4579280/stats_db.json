@@ -35,104 +35,6 @@
     "default": 0.0
   },
   {
-    "name": "WOODBENCH",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "WORKBENCH",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "default": 0
-  },
-  {
-    "name": "FOUNDRY",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "GENERATOR",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "PLASTIC_PRODUCER",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "NUCLEAR_REACTOR",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "FOOD_MAKER",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "BED",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "FOOD_RECYCLER",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "ENGINE",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "NAVIGATION",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
     "name": "BREACH",
     "displayName": "",
     "type": "int",
@@ -143,51 +45,6 @@
   },
   {
     "name": "BIG_BREACH",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "HIBERNATION",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "TRANSPORT",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "WATER_PURIFIER",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "BATTERY",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "default": 0
-  },
-  {
-    "name": "ELECTRONICBENCH",
     "displayName": "",
     "type": "int",
     "incrementonly": true,
@@ -261,16 +118,6 @@
     "default": 0
   },
   {
-    "name": "STATS_ENABLED",
-    "displayName": "",
-    "type": "int",
-    "incrementonly": true,
-    "aggregated": true,
-    "min": 0,
-    "max": 1,
-    "default": 0
-  },
-  {
     "name": "PLANET_FINISHED",
     "displayName": "",
     "type": "int",
@@ -290,12 +137,233 @@
     "default": 0
   },
   {
-    "name": "RAIN_COLLECTOR",
+    "name": "FIRST_WOODBENCH",
     "displayName": "",
     "type": "int",
     "incrementonly": true,
     "aggregated": true,
     "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "STATS_0.1.5",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_WORKBENCH",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_BED",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_GENERATOR",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_FOOD_MAKER",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_FOOD_RECYCLER",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_FOUNDRY",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_NUCLEAR_REACTOR",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_ELECTRONICBENCH",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_BATTERY",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_HIBERNATION",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_PLASTIC_PRODUCER",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_RAIN_COLLECTOR",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_ENGINE",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_NAVIGATION",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_WATER_PURIFIER",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_TRANSPORT",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_WATER_SOURCE",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_FRUIT_BUSH",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_TREE",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_MINE",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "FIRST_OIL",
+    "displayName": "",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "min": 0,
+    "max": 1,
     "default": 0
   }
 ]
