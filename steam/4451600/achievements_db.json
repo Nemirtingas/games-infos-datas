@@ -5,10 +5,12 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4451600/5b10e1e1be0b1b5278c810fa08e632d1852975ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4451600/bb63370f174bd782600d29059904e2a302777bd1.jpg",
     "displayName": {
-      "english": "Finish the demo"
+      "english": "Finish the demo",
+      "token": "NEW_ACHIEVEMENT_1_0_NAME"
     },
     "description": {
-      "english": "You've successfully finished the demo!"
+      "english": "You've successfully finished the demo!",
+      "token": "NEW_ACHIEVEMENT_1_0_DESC"
     }
   },
   {
@@ -17,10 +19,12 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4451600/5816b9b131b1c112467a916355747f5f017479c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4451600/a4d93a84f446a52e8918e9f05964eb96441f6897.jpg",
     "displayName": {
-      "english": "Skill Set"
+      "english": "Skill Set",
+      "token": "NEW_ACHIEVEMENT_1_3_NAME"
     },
     "description": {
-      "english": "Fully upgrade the skill tree."
+      "english": "Fully upgrade the skill tree.",
+      "token": "NEW_ACHIEVEMENT_1_3_DESC"
     }
   },
   {
@@ -29,10 +33,12 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4451600/c9ce298bdaec5a7b398c1e8e3bc8ee7e7d3e417c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4451600/fad9b8f84c0f1ea20982bd8e285bdb3616577401.jpg",
     "displayName": {
-      "english": "I’m Learning"
+      "english": "I’m Learning",
+      "token": "NEW_ACHIEVEMENT_1_4_NAME"
     },
     "description": {
-      "english": "Reach Level 5."
+      "english": "Reach Level 5.",
+      "token": "NEW_ACHIEVEMENT_1_4_DESC"
     }
   },
   {
@@ -41,11 +47,20 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4451600/907b48963f1e3d2bc8ce9a6ac1dabbb87b79af78.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4451600/55616cd9282dfd81be7a79cd029f20edb91077fe.jpg",
     "displayName": {
-      "english": "Square destroyer"
+      "english": "Square destroyer",
+      "token": "NEW_ACHIEVEMENT_1_5_NAME"
     },
     "description": {
-      "english": "Destroy a total of 1,000 red nodes."
-    }
+      "english": "Destroy a total of 1,000 squares",
+      "token": "NEW_ACHIEVEMENT_1_5_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "KilledRedNodeCount",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
   },
   {
     "name": "Gained10000Dollars",
@@ -53,11 +68,20 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4451600/7554c4c9c2199866630a22034cb9623a4c522bbc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4451600/61b8521fede3e3975fde0dd3f365c1d9181bf7c0.jpg",
     "displayName": {
-      "english": "Getting Richer"
+      "english": "Getting Richer",
+      "token": "NEW_ACHIEVEMENT_1_6_NAME"
     },
     "description": {
-      "english": "Earn a total of $10,000."
-    }
+      "english": "Earn a total of $10,000.",
+      "token": "NEW_ACHIEVEMENT_1_6_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "MoneyGained",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
   },
   {
     "name": "Player_Firtst_Session",
@@ -65,10 +89,19 @@
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4451600/ef3f618bcbaa9d80d2b4939b18389e660286352b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4451600/ac423b4f7204d3d359ef0c9013ca006f20fd2497.jpg",
     "displayName": {
-      "english": "Getting Started"
+      "english": "Getting Started",
+      "token": "NEW_ACHIEVEMENT_1_7_NAME"
     },
     "description": {
-      "english": "Start your first session."
-    }
+      "english": "Start your first session.",
+      "token": "NEW_ACHIEVEMENT_1_7_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "TotalSessions",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   }
 ]
