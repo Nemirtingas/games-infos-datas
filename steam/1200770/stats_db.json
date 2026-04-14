@@ -701,5 +701,53 @@
     "aggregated": true,
     "min": 0,
     "default": 0
+  },
+  {
+    "name": "SESSION_INPUTTYPE_KEYBOARDMOUSE_COUNT",
+    "displayName": "Total sessions a keyboard/mouse was used in",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "SESSION_INPUTTYPE_GAMEPAD_COUNT",
+    "displayName": "Total sessions a gamepad was used in",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "SESSION_DEVICE_PC_COUNT",
+    "displayName": "Total sessions the player played on PC (versus Steam Deck/other devices)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "SESSION_DEVICE_STEAMDECK_COUNT",
+    "displayName": "Total sessions the player played on Steam Deck",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "TIME_IDLE_TOTAL",
+    "displayName": "Total time the player has spent idle (not doing anything for > 1 minute)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "default": 0
   }
 ]
