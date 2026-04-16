@@ -748,6 +748,86 @@
     "type": "int",
     "incrementonly": false,
     "aggregated": true,
+    "maxchange": 20,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "FIND_GAME_PRESSED_COUNT",
+    "displayName": "The total number of times that a player has pressed the \"Find game\" button (actually searched for a game)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "HOST_GAME_PUBLIC_PRESSED_COUNT",
+    "displayName": "The total number of times that a player has pressed the \"Host public game\" button (actually hosted a game)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "SESSION_HOST_FIRST_COUNT",
+    "displayName": "The total number of times that a player has hosted a game first (as opposed to searching for a game first)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "SESSION_FIND_FIRST_COUNT",
+    "displayName": "The total number of times that a player has searched for a game first (as opposed to hosting a game first)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "FIND_GAME_SUCCESS_COUNT",
+    "displayName": "The total number of games that a player found and succesfully joined",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "LAST_PLAY_COUNTRY",
+    "displayName": "The last local country index (stored at the start of a session)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "default": -1
+  },
+  {
+    "name": "LAST_JOINED_COUNTRY",
+    "displayName": "The last joined country index (if joined a game this is the country code of the host)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "default": -1
+  },
+  {
+    "name": "HOST_GAME_PRIVATE_PRESSED_COUNT",
+    "displayName": "The total number of times that a player has pressed the \"Host private game\" button (actually hosted a game)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
     "default": 0
   }
 ]
