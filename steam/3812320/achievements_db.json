@@ -1,16 +1,324 @@
 [
   {
-    "name": "Test_ACH",
+    "name": "Commander_ACH",
     "hidden": true,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/35791ad0b032a71bed3e615b31483070c42da4c2.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/1b6a880f1a37b48bb295a64b67fda5776b9d7002.jpg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/73f2b8fa75dbc4423bbeaea0653f5d0f85fd3942.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/4d8e7cb59d1788543ba89e40b44f2b8e08dba827.jpg",
     "displayName": {
-      "english": "This is a test",
-      "token": "NEW_ACHIEVEMENT_1_0_NAME"
+      "english": "Commander",
+      "token": "NEW_ACHIEVEMENT_1_1_NAME"
     },
     "description": {
-      "english": "Well done achivements work",
-      "token": "NEW_ACHIEVEMENT_1_0_DESC"
+      "english": "Win a Guardian mission with a perfect score.",
+      "token": "NEW_ACHIEVEMENT_1_1_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Guardian_STAT_A_W",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
+  },
+  {
+    "name": "PerDelivery_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/84d339416e10a36700a14e26f229696fc7f01d54.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/f311c0cbb9b945c65720e60eeba399b44dbe0503.jpg",
+    "displayName": {
+      "english": "Perfect Delivery",
+      "token": "NEW_ACHIEVEMENT_1_2_NAME"
+    },
+    "description": {
+      "english": "Win a Payload mission with a perfect score.",
+      "token": "NEW_ACHIEVEMENT_1_2_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Payload_STAT_A_W",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
+  },
+  {
+    "name": "Escape_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/dde686fc99f35c42a56f59a065c877f56ca08870.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/64b058ae761bd19cc82b5ce8d45797ee7df45449.jpg",
+    "displayName": {
+      "english": "Clean Escape",
+      "token": "NEW_ACHIEVEMENT_1_3_NAME"
+    },
+    "description": {
+      "english": "Win an Escape mission with a perfect score.",
+      "token": "NEW_ACHIEVEMENT_1_3_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Escape_STAT_A_W",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
+  },
+  {
+    "name": "Odyssey_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/cb2024cca69916e920755598ece9ce0a33ed9c60.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/8c77575dca11412dc631e6df32f5598e4ed1fca5.jpg",
+    "displayName": {
+      "english": "End of the Odyssey",
+      "token": "NEW_ACHIEVEMENT_1_4_NAME"
+    },
+    "description": {
+      "english": "Complete all three chapters.",
+      "token": "NEW_ACHIEVEMENT_1_4_DESC"
+    }
+  },
+  {
+    "name": "DifDelivery_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/e58eedf1b57dc9e144b9acb08fc340c59f9fd22a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/7f73e6e2baa1d01f91a5544b8a3cc97e29c351cc.jpg",
+    "displayName": {
+      "english": "Difficult Delivery",
+      "token": "NEW_ACHIEVEMENT_1_5_NAME"
+    },
+    "description": {
+      "english": "Win a Payload mission without using any payload cards.",
+      "token": "NEW_ACHIEVEMENT_1_5_DESC"
+    }
+  },
+  {
+    "name": "Luck_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/7b91e678c81e952c7f6fa01a820c2070b86a2115.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/8323e2931c6467c1530a9998b115fc70858d41f2.jpg",
+    "displayName": {
+      "english": "Try your luck",
+      "token": "NEW_ACHIEVEMENT_1_6_NAME"
+    },
+    "description": {
+      "english": "Survive while five enemy cards are active at the same time.",
+      "token": "NEW_ACHIEVEMENT_1_6_DESC"
+    }
+  },
+  {
+    "name": "Optional_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/dcca55b6751f2ccd8f3067c51ac2862fae8a0ecd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/e5e8f7a3ab80f6ef43dbf4273915370ad34688b4.jpg",
+    "displayName": {
+      "english": "Overachiever",
+      "token": "NEW_ACHIEVEMENT_1_7_NAME"
+    },
+    "description": {
+      "english": "Complete all challenges in a run.",
+      "token": "NEW_ACHIEVEMENT_1_7_DESC"
+    }
+  },
+  {
+    "name": "Defence_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/b290625942c9f99ff19edbcc4307786e5e1b74bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/da56ec00ebb8e97641afc550b2c947bc8537ece6.jpg",
+    "displayName": {
+      "english": "Defence is best offence",
+      "token": "NEW_ACHIEVEMENT_1_8_NAME"
+    },
+    "description": {
+      "english": "Complete a mission without using any armory cards.",
+      "token": "NEW_ACHIEVEMENT_1_8_DESC"
+    }
+  },
+  {
+    "name": "Tech_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/56c3de4a3885946ab0782f94c8f44f5ab7a88e26.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/23bcc5f6db01ff810e3d0c07040b68ff712b0219.jpg",
+    "displayName": {
+      "english": "Pure Technology",
+      "token": "NEW_ACHIEVEMENT_1_9_NAME"
+    },
+    "description": {
+      "english": "Complete a mission using only tech cards.",
+      "token": "NEW_ACHIEVEMENT_1_9_DESC"
+    }
+  },
+  {
+    "name": "Tactical_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/9ee793946b499699090ae2b595e42aa44e5f80db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/1db122705fe36b428d3218fc06aa33d7793b01cf.jpg",
+    "displayName": {
+      "english": "Tactical Variety",
+      "token": "NEW_ACHIEVEMENT_1_10_NAME"
+    },
+    "description": {
+      "english": "Play at least 10 different meowrrior-ship-weapon combinations.",
+      "token": "NEW_ACHIEVEMENT_1_10_DESC"
+    }
+  },
+  {
+    "name": "Untouchable_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/7ad86f4b2afa84db972891f88eec3ebf16e9e4d3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/8377ae27fc737abb17be81ab8fbcd174ee836e07.jpg",
+    "displayName": {
+      "english": "Untouchable",
+      "token": "NEW_ACHIEVEMENT_1_11_NAME"
+    },
+    "description": {
+      "english": "Reach a score multiplier of 1000.",
+      "token": "NEW_ACHIEVEMENT_1_11_DESC"
+    }
+  },
+  {
+    "name": "Evasion_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/ba137780fd29cdefb2f148b15d5f523497f67d65.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/e751a43670216a8beb85d38737ecb62db68e2805.jpg",
+    "displayName": {
+      "english": "Thrusters Down",
+      "token": "NEW_ACHIEVEMENT_1_12_NAME"
+    },
+    "description": {
+      "english": "Complete a mission without dashing.",
+      "token": "NEW_ACHIEVEMENT_1_12_DESC"
+    }
+  },
+  {
+    "name": "Whisker_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/69d8dd6f496cf197146b40b6e7e8b0eb2e081ff2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/925497352e059b8eda3a6b0671ba00afbe20b25c.jpg",
+    "displayName": {
+      "english": "By a Whisker",
+      "token": "NEW_ACHIEVEMENT_1_13_NAME"
+    },
+    "description": {
+      "english": "Win a mission with 10 HP or less remaining.",
+      "token": "NEW_ACHIEVEMENT_1_13_DESC"
+    }
+  },
+  {
+    "name": "Hangar_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/d29e395e971ef72d9b909f57d24303af383c1759.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/1825102bb83338bb5b6e0fe441f8230a2fbe874c.jpg",
+    "displayName": {
+      "english": "Full Hangar",
+      "token": "NEW_ACHIEVEMENT_1_14_NAME"
+    },
+    "description": {
+      "english": "Unlock all ships.",
+      "token": "NEW_ACHIEVEMENT_1_14_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Hangar_STAT",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
+  },
+  {
+    "name": "Armed_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/a53648f73d3c0e5a4142f0f5952bf229dfc6b45f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/edf9f0120c88d1a6549d2bb5d04adbcf685a9612.jpg",
+    "displayName": {
+      "english": "Armed to the Teeth",
+      "token": "NEW_ACHIEVEMENT_1_15_NAME"
+    },
+    "description": {
+      "english": "Unlock all weapons.",
+      "token": "NEW_ACHIEVEMENT_1_15_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Armed_STAT",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
+  },
+  {
+    "name": "Litter_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/63631a72901287e7b32aa1d7ae9cf37bb03defd5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/f90ef8529c585d5b14631b0ac5468df12648e5e6.jpg",
+    "displayName": {
+      "english": "Full litter",
+      "token": "NEW_ACHIEVEMENT_1_16_NAME"
+    },
+    "description": {
+      "english": "Unlock all meowrriors.",
+      "token": "NEW_ACHIEVEMENT_1_16_DESC"
+    }
+  },
+  {
+    "name": "FullDeck_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/d9edc6624093efd68b3502dca6ac3417495eae5d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/6f4eabbccf87bec1526d15ad862b58242bc9c016.jpg",
+    "displayName": {
+      "english": "Full deck",
+      "token": "NEW_ACHIEVEMENT_1_17_NAME"
+    },
+    "description": {
+      "english": "Use every card in the game at least once, including enemy tech cards.",
+      "token": "NEW_ACHIEVEMENT_1_17_DESC"
+    }
+  },
+  {
+    "name": "Veteran_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/73c3e3072fd9967d1e3b96533061ca7842b9e051.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/34e057319b6116395468b90a33252f00bb17b62b.jpg",
+    "displayName": {
+      "english": "Veteran",
+      "token": "NEW_ACHIEVEMENT_1_18_NAME"
+    },
+    "description": {
+      "english": "Reach Hard difficulty for at least 50 runs.",
+      "token": "NEW_ACHIEVEMENT_1_18_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Veteran_STAT",
+        "min_val": 0,
+        "max_val": 50
+      }
+    ]
+  },
+  {
+    "name": "Close_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/758719bacd3c802891d75852fdcdb854d0da89d6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/47cdc7f016e8af6188c96ed49e43e444227d9336.jpg",
+    "displayName": {
+      "english": "So Close",
+      "token": "NEW_ACHIEVEMENT_1_19_NAME"
+    },
+    "description": {
+      "english": "Die within one hit of completing a Guardian mission.",
+      "token": "NEW_ACHIEVEMENT_1_19_DESC"
+    }
+  },
+  {
+    "name": "Onemorerun_ACH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/02a8d2a57bee81d85b131bfe1967ced9ff05b1b9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3812320/3b6b71d2b9991257e70285d6415b3df9a5b6247d.jpg",
+    "displayName": {
+      "english": "Just One More Run",
+      "token": "NEW_ACHIEVEMENT_1_20_NAME"
+    },
+    "description": {
+      "english": "Retry a mission immediately after dying.",
+      "token": "NEW_ACHIEVEMENT_1_20_DESC"
     }
   }
 ]

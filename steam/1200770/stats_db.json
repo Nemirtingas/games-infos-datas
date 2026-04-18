@@ -812,8 +812,18 @@
     "default": -1
   },
   {
-    "name": "LAST_JOINED_COUNTRY",
-    "displayName": "The last joined country index (if joined a game this is the country code of the host)",
+    "name": "HOST_GAME_PRIVATE_PRESSED_COUNT",
+    "displayName": "The total number of times that a player has pressed the \"Host private game\" button (actually hosted a game)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "LAST_JOINED_COUNTRY_0",
+    "displayName": "The last joined country index (if joined a game this is the country code of the host). Gets moved to LAST_JOINED_COUNTRY_1 once updated",
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
@@ -821,8 +831,74 @@
     "default": -1
   },
   {
-    "name": "HOST_GAME_PRIVATE_PRESSED_COUNT",
-    "displayName": "The total number of times that a player has pressed the \"Host private game\" button (actually hosted a game)",
+    "name": "LAST_JOINED_COUNTRY_1",
+    "displayName": "The last joined country index (if joined a game this is the country code of the host). Gets moved to LAST_JOINED_COUNTRY_2 once updated",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "default": -1
+  },
+  {
+    "name": "LAST_JOINED_COUNTRY_2",
+    "displayName": "The last joined country index (if joined a game this is the country code of the host). Gets moved to LAST_JOINED_COUNTRY_3 once updated",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "default": -1
+  },
+  {
+    "name": "LAST_JOINED_COUNTRY_3",
+    "displayName": "The last joined country index (if joined a game this is the country code of the host). Gets moved to LAST_JOINED_COUNTRY_4 once updated",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "default": -1
+  },
+  {
+    "name": "LAST_JOINED_COUNTRY_4",
+    "displayName": "The final last joined country index (if joined a game this is the country code of the host)",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": -1,
+    "default": -1
+  },
+  {
+    "name": "LOBBY_COUNT_HOST_PUBLIC",
+    "displayName": "The total number of public games a player hosted",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "LOBBY_COUNT_HOST_PRIVATE",
+    "displayName": "The total number of private games a player hosted",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "LOBBY_COUNT_JOIN_PUBLIC",
+    "displayName": "The total number of public games a player joined",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "LOBBY_COUNT_JOIN_PRIVATE",
+    "displayName": "The total number of private games a player joined",
     "type": "int",
     "incrementonly": true,
     "aggregated": true,
