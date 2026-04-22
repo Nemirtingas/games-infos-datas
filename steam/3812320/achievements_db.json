@@ -135,7 +135,7 @@
       "token": "NEW_ACHIEVEMENT_1_8_NAME"
     },
     "description": {
-      "english": "Complete a mission without using any armory cards.",
+      "english": "Win a mission without using any armory cards.",
       "token": "NEW_ACHIEVEMENT_1_8_DESC"
     }
   },
@@ -149,7 +149,7 @@
       "token": "NEW_ACHIEVEMENT_1_9_NAME"
     },
     "description": {
-      "english": "Complete a mission using only tech cards.",
+      "english": "Win a mission using only tech cards.",
       "token": "NEW_ACHIEVEMENT_1_9_DESC"
     }
   },
@@ -163,9 +163,16 @@
       "token": "NEW_ACHIEVEMENT_1_10_NAME"
     },
     "description": {
-      "english": "Play at least 10 different meowrrior-ship-weapon combinations.",
+      "english": "Reach the Hard difficulty on any mission with at least 10 different meowrrior-ship-weapon combinations.",
       "token": "NEW_ACHIEVEMENT_1_10_DESC"
-    }
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Combinations_STAT",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
   },
   {
     "name": "Untouchable_ACH",
@@ -191,7 +198,7 @@
       "token": "NEW_ACHIEVEMENT_1_12_NAME"
     },
     "description": {
-      "english": "Complete a mission without dashing.",
+      "english": "Win a mission without dashing.",
       "token": "NEW_ACHIEVEMENT_1_12_DESC"
     }
   },
@@ -205,7 +212,7 @@
       "token": "NEW_ACHIEVEMENT_1_13_NAME"
     },
     "description": {
-      "english": "Win a mission with 10 HP or less remaining.",
+      "english": "Win a mission with 50 HP or less remaining.",
       "token": "NEW_ACHIEVEMENT_1_13_DESC"
     }
   },
@@ -263,7 +270,14 @@
     "description": {
       "english": "Unlock all meowrriors.",
       "token": "NEW_ACHIEVEMENT_1_16_DESC"
-    }
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Litter_STAT",
+        "min_val": 0,
+        "max_val": 1
+      }
+    ]
   },
   {
     "name": "FullDeck_ACH",
@@ -277,7 +291,14 @@
     "description": {
       "english": "Use every card in the game at least once, including enemy tech cards.",
       "token": "NEW_ACHIEVEMENT_1_17_DESC"
-    }
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "Cards_STAT",
+        "min_val": 0,
+        "max_val": 73
+      }
+    ]
   },
   {
     "name": "Veteran_ACH",
@@ -289,14 +310,14 @@
       "token": "NEW_ACHIEVEMENT_1_18_NAME"
     },
     "description": {
-      "english": "Reach Hard difficulty for at least 50 runs.",
+      "english": "Reach Hard difficulty for at least 20 runs.",
       "token": "NEW_ACHIEVEMENT_1_18_DESC"
     },
     "stats_thresholds": [
       {
         "stat_name": "Veteran_STAT",
         "min_val": 0,
-        "max_val": 50
+        "max_val": 20
       }
     ]
   },
