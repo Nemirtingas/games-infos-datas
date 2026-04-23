@@ -3217,7 +3217,7 @@
     "windowsize": 1.0
   },
   {
-    "name": "MISSION_FAIL_MIN_GEO_1_PLAYERS_ONE_TIME",
+    "name": "MISSION_FAIL_MIN_GEO_1_PLAYERS_ONE_TIME_TEMP",
     "displayName": "The 'Geothermal: Restart The Powerplant' minimum fail time (alone)",
     "type": "int",
     "incrementonly": false,
@@ -4115,5 +4115,15 @@
     "maxchange": 1,
     "min": 0,
     "default": 0
+  },
+  {
+    "name": "MISSION_FAIL_MIN_GEO_1_PLAYERS_ONE_TIME_FIXED",
+    "displayName": "The 'Geothermal: Restart The Powerplant' minimum fail time (alone)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "maxchange": 21500,
+    "min": 30,
+    "default": "MAX_INT"
   }
 ]

@@ -2,41 +2,52 @@
   {
     "name": "Parry_Parry",
     "displayName": "Parry Count",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 0,
+    "min": 0,
+    "default": 0
   },
   {
     "name": "LaserParry_LaserParry",
     "displayName": "Laser Parry Count",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 1,
+    "min": 0,
+    "max": 50,
+    "default": 0
   },
   {
     "name": "Hidden_Hidden",
     "displayName": "Hidden Rooms",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "maxchange": 1,
+    "min": 0,
+    "max": 10,
+    "default": 0
   },
   {
     "name": "Record_Record",
     "displayName": "Record",
-    "type": 0,
+    "type": "int",
     "incrementonly": false,
     "aggregated": false,
-    "default": 0.0
+    "min": 1,
+    "max": 999,
+    "default": 0
   },
   {
     "name": "Enemies_Enemies",
     "displayName": "",
-    "type": 0,
-    "incrementonly": false,
+    "type": "int",
+    "incrementonly": true,
     "aggregated": false,
-    "default": 0.0
+    "min": 0,
+    "default": 0
   }
 ]

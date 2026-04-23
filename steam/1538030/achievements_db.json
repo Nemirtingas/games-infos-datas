@@ -877,7 +877,7 @@
   },
   {
     "name": "ACHIEVEMENT_LEVEL_PERFECT",
-    "hidden": false,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1538030/ede3d4ab4fb7fb02593a0a409e8d0629bb113fa7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1538030/a8fcf03406fd4bbf67797f686f1ecf09a7375dc1.jpg",
     "displayName": {
@@ -983,15 +983,15 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1538030/f6fc913dca667e8be8bcaabe8291282e3c491800.jpg",
     "displayName": {
       "dutch": "100.000 Combo",
-      "english": "100,000 Combo",
+      "english": "100k Combo",
       "french": "Combo de 100 000",
       "german": "100.000 Combo",
       "token": "ACHIEVEMENT_100K_COMBO_NAME"
     },
     "description": {
-      "dutch": "Reach a combo of 100,000 damage.",
-      "english": "Reach a combo of 100,000 damage.",
-      "french": "Atteignez un combo de 100 000 dégâts.",
+      "dutch": "Behaal een combo van 100.000 miljoen schade.",
+      "english": "Reach a damage combo of 100,000.",
+      "french": "Réalisez un combo de 100 000 dégâts.",
       "german": "Erreiche eine Kombo mit 100.000 Schaden.",
       "token": "ACHIEVEMENT_100K_COMBO_DESC"
     },
@@ -1005,7 +1005,7 @@
   },
   {
     "name": "ACHIEVEMENT_PACIFIST",
-    "hidden": false,
+    "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1538030/8a8774724bf415b7373d10bc88ea6b14cf750000.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1538030/7bd0377157c847a4d8179ab7e5034bf9cfa71ba5.jpg",
     "displayName": {
@@ -1049,5 +1049,59 @@
       "german": "Rüste ein symmetisches Waffen-Set mit fünf Waffen aus.",
       "token": "NEW_ACHIEVEMENT_17_10_DESC"
     }
+  },
+  {
+    "name": "ACHIEVEMENT_1M_COMBO",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1538030/1a1431f9522e58359007385f63df549e31d03492.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1538030/a7d903daf807e4c78ad97f4733e394b52417b375.jpg",
+    "displayName": {
+      "dutch": "1 miljoen combo",
+      "english": "1 MEGA Combo",
+      "french": "Combo d'un million",
+      "german": "1 Mega-Combo!",
+      "token": "NEW_ACHIEVEMENT_17_11_NAME"
+    },
+    "description": {
+      "dutch": "Behaal een combo van 1 miljoen schade.",
+      "english": "Reach a damage combo of 1 million.",
+      "french": "Réalisez un combo d'un million de dégâts.",
+      "german": "Erreiche eine Kombo mit 1 Million Schaden.",
+      "token": "NEW_ACHIEVEMENT_17_11_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "BEST_COMBO",
+        "min_val": 0,
+        "max_val": 1000000
+      }
+    ]
+  },
+  {
+    "name": "ACHIEVEMENT_10M_COMBO",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1538030/6521dd775ae2ec13e4a1e7549bea6c6259af7720.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1538030/8e1b3e3898922f86f1cacbd7c6e52a7189573a23.jpg",
+    "displayName": {
+      "dutch": "10 miljoen combo",
+      "english": "10 MEGA Combo",
+      "french": "Combo de 10 million",
+      "german": "10 Million Combo",
+      "token": "NEW_ACHIEVEMENT_17_12_NAME"
+    },
+    "description": {
+      "dutch": "Behaal een combo van 10 miljoen schade.",
+      "english": "Reach a combo of 10 million damage.",
+      "french": "Réalisez un combo de 10 million de dégâts.",
+      "german": "Erreiche eine Kombo mit 10 Million Schaden",
+      "token": "NEW_ACHIEVEMENT_17_12_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "BEST_COMBO",
+        "min_val": 0,
+        "max_val": 10000000
+      }
+    ]
   }
 ]
