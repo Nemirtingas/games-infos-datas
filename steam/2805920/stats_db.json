@@ -25,7 +25,6 @@
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
-    "maxchange": 1,
     "min": 0,
     "default": 0
   },
@@ -35,14 +34,13 @@
     "type": "int",
     "incrementonly": true,
     "aggregated": false,
-    "maxchange": 1,
     "default": 0
   },
   {
     "name": "games_hosted",
     "displayName": "Games Hosted",
     "type": "int",
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false,
     "maxchange": 1,
     "min": 0,
@@ -52,7 +50,7 @@
     "name": "damage_dealt",
     "displayName": "Damage Dealt To Players",
     "type": "float",
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false,
     "min": 0.0,
     "default": 0.0
@@ -61,7 +59,7 @@
     "name": "damage_taken",
     "displayName": "Damage Taken From Players",
     "type": "float",
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false,
     "min": 0.0,
     "default": 0.0
@@ -70,7 +68,7 @@
     "name": "players_killed",
     "displayName": "Players Killed",
     "type": "int",
-    "incrementonly": false,
+    "incrementonly": true,
     "aggregated": false,
     "min": 0,
     "default": 0
