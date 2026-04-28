@@ -1,0 +1,381 @@
+[
+  {
+    "name": "SessionCount",
+    "displayName": "Session Count",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "TotalPlaytimeMinutes",
+    "displayName": "Total Playtime Minutes",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "LastSessionLengthMinutes",
+    "displayName": "Last Session Length Minutes",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "AverageSessionLengthMinutes",
+    "displayName": "Average Session Length Minutes",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DaysRetained",
+    "displayName": "Days Retained",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "FirstPlayDate",
+    "displayName": "First Play Date",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "AvgSurvivalTimeSeconds",
+    "displayName": "Average Survival Time Seconds",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 20.0
+  },
+  {
+    "name": "VictoryCount",
+    "displayName": "Victory Count",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DeathCount",
+    "displayName": "Death Count",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "Damage_MainWeapon",
+    "displayName": "Damage_MainWeapon",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_MainWeapon",
+    "displayName": "DPS_MainWeapon",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_AuraWeapon",
+    "displayName": "Damage_AuraWeapon",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_AuraWeapon",
+    "displayName": "DPS_AuraWeapon",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_DirectionalRevolver",
+    "displayName": "Damage_DirectionalRevolver",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_DirectionalRevolver",
+    "displayName": "DPS_DirectionalRevolver",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_SideWeapon",
+    "displayName": "Damage_SideWeapon",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_SideWeapon",
+    "displayName": "DPS_SideWeapon",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_OrbitalHat",
+    "displayName": "Damage_OrbitalHat",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_OrbitalHat",
+    "displayName": "DPS_OrbitalHat",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_ExplosiveRounds",
+    "displayName": "Damage_ExplosiveRounds",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_ExplosiveRounds",
+    "displayName": "DPS_ExplosiveRounds",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_ChainLightning",
+    "displayName": "Damage_ChainLightning",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_ChainLightning",
+    "displayName": "DPS_ChainLightning",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_FrostRounds",
+    "displayName": "Damage_FrostRounds",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_FrostRounds",
+    "displayName": "DPS_FrostRounds",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_IncendiaryRounds",
+    "displayName": "Damage_IncendiaryRounds",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_IncendiaryRounds",
+    "displayName": "DPS_IncendiaryRounds",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_JumpCar",
+    "displayName": "Damage_JumpCar",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_JumpCar",
+    "displayName": "DPS_JumpCar",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_JumpPeakAttack",
+    "displayName": "Damage_JumpPeakAttack",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_JumpPeakAttack",
+    "displayName": "DPS_JumpPeakAttack",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_LandingExplosion",
+    "displayName": "Damage_LandingExplosion",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_LandingExplosion",
+    "displayName": "DPS_LandingExplosion",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_LandingImpact",
+    "displayName": "Damage_LandingImpact",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_LandingImpact",
+    "displayName": "DPS_LandingImpact",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_SprintCollisionDamage",
+    "displayName": "Damage_SprintCollisionDamage",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_SprintCollisionDamage",
+    "displayName": "DPS_SprintCollisionDamage",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_Turret",
+    "displayName": "Damage_Turret",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_Turret",
+    "displayName": "DPS_Turret",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_BombItem",
+    "displayName": "Damage_BombItem",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_BombItem",
+    "displayName": "DPS_BombItem",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 10.0
+  },
+  {
+    "name": "Damage_Ricochet",
+    "displayName": "Damage_Ricochet",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_Ricochet",
+    "displayName": "DPS_Ricochet",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  },
+  {
+    "name": "Damage_Piercing",
+    "displayName": "Damage_Piercing",
+    "type": "float",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0
+  },
+  {
+    "name": "DPS_Piercing",
+    "displayName": "DPS_Piercing",
+    "type": "avgrate",
+    "incrementonly": false,
+    "aggregated": false,
+    "default": 0,
+    "windowsize": 600.0
+  }
+]
