@@ -1,7 +1,7 @@
 [
   {
-    "name": "DS_FIRST_KILL",
-    "hidden": true,
+    "name": "DS_ACH_FIRST_ENEMY_KILL",
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "displayName": {
@@ -14,8 +14,8 @@
     }
   },
   {
-    "name": "DS_FIRST_DEATH",
-    "hidden": true,
+    "name": "DS_ACH_FIRST_DEATH",
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "displayName": {
@@ -28,8 +28,8 @@
     }
   },
   {
-    "name": "DS_FIRST_MISSION_SUCCESS",
-    "hidden": true,
+    "name": "DS_ACH_FIRST_MISSION_SUCCESS",
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "displayName": {
@@ -42,8 +42,8 @@
     }
   },
   {
-    "name": "DS_FIRST_REVIVE",
-    "hidden": true,
+    "name": "DS_ACH_FIRST_REVIVE",
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "displayName": {
@@ -56,7 +56,7 @@
     }
   },
   {
-    "name": "DS_EXTRACTION_FAILED",
+    "name": "DS_ACH_EXTRACTION_FAILED",
     "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
@@ -70,7 +70,7 @@
     }
   },
   {
-    "name": "DS_FIRST_FRIENDLY_FIRE_KILL",
+    "name": "DS_ACH_FRIENDLY_FIRE_KILL",
     "hidden": true,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
@@ -84,8 +84,8 @@
     }
   },
   {
-    "name": "DS_TENDRAAL_UNLOCKED",
-    "hidden": true,
+    "name": "DS_ACH_TENDRAAL_UNLOCKED",
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "displayName": {
@@ -98,22 +98,8 @@
     }
   },
   {
-    "name": "DS_MISSION_WIN_NO_DEATH",
-    "hidden": true,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
-    "displayName": {
-      "english": "True Survivor",
-      "token": "NEW_ACHIEVEMENT_1_13_NAME"
-    },
-    "description": {
-      "english": "Complete a mission without dying",
-      "token": "NEW_ACHIEVEMENT_1_13_DESC"
-    }
-  },
-  {
-    "name": "DS_ENEMIES_KILLED_100",
-    "hidden": true,
+    "name": "DS_ACH_ENEMIES_KILLED_100",
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "displayName": {
@@ -126,15 +112,15 @@
     },
     "stats_thresholds": [
       {
-        "stat_name": "NumEnemyKills",
+        "stat_name": "DS_STAT_ENEMIES_KILLED_DS_STAT_ENEMIES_KILLED",
         "min_val": 0,
         "max_val": 100
       }
     ]
   },
   {
-    "name": "DS_REVIVES_10",
-    "hidden": true,
+    "name": "DS_ACH_REVIVES_10",
+    "hidden": false,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
     "displayName": {
@@ -147,10 +133,584 @@
     },
     "stats_thresholds": [
       {
-        "stat_name": "NumRevives",
+        "stat_name": "DS_STAT_REVIVES_DS_STAT_REVIVES",
         "min_val": 0,
         "max_val": 10
       }
     ]
+  },
+  {
+    "name": "DS_ACH_FIRST_RESCUE",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Saved the Day",
+      "token": "NEW_ACHIEVEMENT_1_16_NAME"
+    },
+    "description": {
+      "english": "First time a friend is rescued",
+      "token": "NEW_ACHIEVEMENT_1_16_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_FIRST_HEAL_TEAMMATE",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Doctor Debut",
+      "token": "NEW_ACHIEVEMENT_1_17_NAME"
+    },
+    "description": {
+      "english": "First time healing another player",
+      "token": "NEW_ACHIEVEMENT_1_17_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_FIRST_DATA_DRIVE_PICKED_UP",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Driven for Data",
+      "token": "NEW_ACHIEVEMENT_1_18_NAME"
+    },
+    "description": {
+      "english": "First time a data drive is picked up",
+      "token": "NEW_ACHIEVEMENT_1_18_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_DEATH_BY_KILL_PLANE",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Fatal Gravity Test",
+      "token": "NEW_ACHIEVEMENT_1_19_NAME"
+    },
+    "description": {
+      "english": "Self-inflicted death by falling off the map",
+      "token": "NEW_ACHIEVEMENT_1_19_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_DAMAGE_THREE_TEAMMATES_IN_ONE_ATTACK",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Confrontational",
+      "token": "NEW_ACHIEVEMENT_1_20_NAME"
+    },
+    "description": {
+      "english": "Damage three teammates at the same time",
+      "token": "NEW_ACHIEVEMENT_1_20_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_CHRYOS_UNLOCKED",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Ice to meet you",
+      "token": "NEW_ACHIEVEMENT_1_21_NAME"
+    },
+    "description": {
+      "english": "Chryos unlocked",
+      "token": "NEW_ACHIEVEMENT_1_21_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_SPORA_PRIME_UNLOCKED",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Fungus Among Us",
+      "token": "NEW_ACHIEVEMENT_1_22_NAME"
+    },
+    "description": {
+      "english": "Spora unlocked",
+      "token": "NEW_ACHIEVEMENT_1_22_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_WEAPON_MOD_PURCHASED_10",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Weapon Mod Fetischist",
+      "token": "NEW_ACHIEVEMENT_1_23_NAME"
+    },
+    "description": {
+      "english": "10 weapon mods purchased",
+      "token": "NEW_ACHIEVEMENT_1_23_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "DS_STAT_WEAPON_MODS_PURCHASED_DS_STAT_WEAPON_MODS_PURCHASED",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
+  },
+  {
+    "name": "DS_ACH_MISSION_WIN_NO_DEATH",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "True Survivor",
+      "token": "NEW_ACHIEVEMENT_1_24_NAME"
+    },
+    "description": {
+      "english": "Complete a mission without dying",
+      "token": "NEW_ACHIEVEMENT_1_24_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_MISSION_WIN_THREAT_5",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Made of Iron",
+      "token": "NEW_ACHIEVEMENT_1_25_NAME"
+    },
+    "description": {
+      "english": "Threat level 5 mission is completed",
+      "token": "NEW_ACHIEVEMENT_1_25_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_MISSION_WIN_NO_ALERTS",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Master of Shadows",
+      "token": "NEW_ACHIEVEMENT_1_26_NAME"
+    },
+    "description": {
+      "english": "No alerts triggered during a completed mission",
+      "token": "NEW_ACHIEVEMENT_1_26_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_MISSION_WIN_SOLO_NO_AUTO_REVIVE",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Survivor & Single",
+      "token": "NEW_ACHIEVEMENT_1_27_NAME"
+    },
+    "description": {
+      "english": "No auto-revives used during a completed mission",
+      "token": "NEW_ACHIEVEMENT_1_27_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_MISSION_WIN_SAME_WEAPON_RANGED",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Weapon Specialist",
+      "token": "NEW_ACHIEVEMENT_1_28_NAME"
+    },
+    "description": {
+      "english": "Only used the same ranged weapon during a completed mission",
+      "token": "NEW_ACHIEVEMENT_1_28_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_MISSION_WIN_SAME_WEAPON_MELEE",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Viking Ninja",
+      "token": "NEW_ACHIEVEMENT_1_29_NAME"
+    },
+    "description": {
+      "english": "Only used melee weapons during a completed mission",
+      "token": "NEW_ACHIEVEMENT_1_29_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_ENEMIES_KILLED_1000",
+    "hidden": false,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Experienced Killer",
+      "token": "NEW_ACHIEVEMENT_1_30_NAME"
+    },
+    "description": {
+      "english": "1000 enemies killed",
+      "token": "NEW_ACHIEVEMENT_1_30_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "DS_STAT_ENEMIES_KILLED_DS_STAT_ENEMIES_KILLED",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
+  },
+  {
+    "name": "DS_ACH_ENEMIES_KILLED_10000",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Master Killer",
+      "token": "NEW_ACHIEVEMENT_1_31_NAME"
+    },
+    "description": {
+      "english": "10000 enemies killed",
+      "token": "NEW_ACHIEVEMENT_1_31_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "DS_STAT_ENEMIES_KILLED_DS_STAT_ENEMIES_KILLED",
+        "min_val": 0,
+        "max_val": 10000
+      }
+    ]
+  },
+  {
+    "name": "DS_ACH_DATA_DRIVES_EXTRACTED_100",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Datadrive Greed",
+      "token": "NEW_ACHIEVEMENT_6_0_NAME"
+    },
+    "description": {
+      "english": "100 data drives extracted",
+      "token": "NEW_ACHIEVEMENT_6_0_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "DS_STAT_DATA_DRIVES_EXTRACTED_DS_STAT_DATA_DRIVES_EXTRACTED",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
+  },
+  {
+    "name": "DS_ACH_LOOTBOXES_OPENED_1000",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Looting as Loke",
+      "token": "NEW_ACHIEVEMENT_6_1_NAME"
+    },
+    "description": {
+      "english": "1000 loot boxes opened",
+      "token": "NEW_ACHIEVEMENT_6_1_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "DS_STAT_LOOT_BOXES_OPENED_DS_STAT_LOOT_BOXES_OPENED",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
+  },
+  {
+    "name": "DS_ACH_MISSION_SUCCESS_100",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Devoted Einherjer",
+      "token": "NEW_ACHIEVEMENT_6_2_NAME"
+    },
+    "description": {
+      "english": "100 missions succeeded",
+      "token": "NEW_ACHIEVEMENT_6_2_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "DS_STAT_MISSIONS_WON_DS_STAT_MISSIONS_WON",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
+  },
+  {
+    "name": "DS_ACH_MISSION_WIN_NO_TEAM_DEATHS",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Optimized Survival",
+      "token": "NEW_ACHIEVEMENT_6_3_NAME"
+    },
+    "description": {
+      "english": "Noone died during a succeeded mission",
+      "token": "NEW_ACHIEVEMENT_6_3_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_MISSION_WIN_THREAT_5_NO_TEAM_DEATHS",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Best of the Best",
+      "token": "NEW_ACHIEVEMENT_6_4_NAME"
+    },
+    "description": {
+      "english": "Threat level 5 mission succeeded without anyone killed",
+      "token": "NEW_ACHIEVEMENT_6_4_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_MISSIONS_WON_WITH_EACH_CLASS",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Class Diversity",
+      "token": "NEW_ACHIEVEMENT_6_5_NAME"
+    },
+    "description": {
+      "english": "Succeed one mission with each class",
+      "token": "NEW_ACHIEVEMENT_6_5_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_REVIVES_100",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Living Ambulance",
+      "token": "NEW_ACHIEVEMENT_6_6_NAME"
+    },
+    "description": {
+      "english": "100 revives",
+      "token": "NEW_ACHIEVEMENT_6_6_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "DS_STAT_REVIVES_DS_STAT_REVIVES",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
+  },
+  {
+    "name": "DS_ACH_REVIVES_1000",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Master Valkyrie",
+      "token": "NEW_ACHIEVEMENT_6_7_NAME"
+    },
+    "description": {
+      "english": "1000 revives",
+      "token": "NEW_ACHIEVEMENT_6_7_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "DS_STAT_REVIVES_DS_STAT_REVIVES",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
+  },
+  {
+    "name": "DS_ACH_HOURS_PLAYED_1",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Rookie Training",
+      "token": "NEW_ACHIEVEMENT_6_8_NAME"
+    },
+    "description": {
+      "english": "Played 1 Hour",
+      "token": "NEW_ACHIEVEMENT_6_8_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_HOURS_PLAYED_10",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Devoted",
+      "token": "NEW_ACHIEVEMENT_6_9_NAME"
+    },
+    "description": {
+      "english": "Played 10 Hours",
+      "token": "NEW_ACHIEVEMENT_6_9_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "DS_STAT_HOURS_IN_MISSIONS_DS_STAT_HOURS_IN_MISSIONS",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
+  },
+  {
+    "name": "DS_ACH_HOURS_PLAYED_100",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Built to Last",
+      "token": "NEW_ACHIEVEMENT_6_10_NAME"
+    },
+    "description": {
+      "english": "Played 100 Hours",
+      "token": "NEW_ACHIEVEMENT_6_10_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "DS_STAT_HOURS_IN_MISSIONS_DS_STAT_HOURS_IN_MISSIONS",
+        "min_val": 0,
+        "max_val": 100
+      }
+    ]
+  },
+  {
+    "name": "DS_ACH_HOURS_PLAYED_1000",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Worthy of Valhalla",
+      "token": "NEW_ACHIEVEMENT_6_11_NAME"
+    },
+    "description": {
+      "english": "Played 1000 Hours",
+      "token": "NEW_ACHIEVEMENT_6_11_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "DS_STAT_HOURS_IN_MISSIONS_DS_STAT_HOURS_IN_MISSIONS",
+        "min_val": 0,
+        "max_val": 1000
+      }
+    ]
+  },
+  {
+    "name": "DS_ACH_FIRST_AUTO_REVIVE",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Saved by the Bell",
+      "token": "NEW_ACHIEVEMENT_6_12_NAME"
+    },
+    "description": {
+      "english": "First auto-revive",
+      "token": "NEW_ACHIEVEMENT_6_12_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_FIRST_QUICK_RELOAD_SUCCESS",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Quick-fingered",
+      "token": "NEW_ACHIEVEMENT_6_13_NAME"
+    },
+    "description": {
+      "english": "First successful quick reload",
+      "token": "NEW_ACHIEVEMENT_6_13_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_FIRST_CLAW_GAME_REWARD_PICKED_UP",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Clawed",
+      "token": "NEW_ACHIEVEMENT_6_14_NAME"
+    },
+    "description": {
+      "english": "First time the reward is picked in the claw game",
+      "token": "NEW_ACHIEVEMENT_6_14_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_SUPPLY_DROP_CALLS_10",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Great Supplier",
+      "token": "NEW_ACHIEVEMENT_6_15_NAME"
+    },
+    "description": {
+      "english": "Called down 10 Supply Drops",
+      "token": "NEW_ACHIEVEMENT_6_15_DESC"
+    },
+    "stats_thresholds": [
+      {
+        "stat_name": "DS_STAT_SUPPLY_DROP_CALLS_DS_STAT_SUPPLY_DROP_CALLS",
+        "min_val": 0,
+        "max_val": 10
+      }
+    ]
+  },
+  {
+    "name": "DS_ACH_THREE_CONSECUTIVE_QUICK_RELOAD_FAILS",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Fat-fingered",
+      "token": "NEW_ACHIEVEMENT_6_16_NAME"
+    },
+    "description": {
+      "english": "Failed Quick Reload Attempts 3 times in succession",
+      "token": "NEW_ACHIEVEMENT_6_16_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_REACTOR_CORE_DROPPED_OFF_MAP",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Butter Fingers",
+      "token": "NEW_ACHIEVEMENT_6_17_NAME"
+    },
+    "description": {
+      "english": "Reactor core dropped off the map",
+      "token": "NEW_ACHIEVEMENT_6_17_DESC"
+    }
+  },
+  {
+    "name": "DS_ACH_TEAM_WIPED_OUT_BY_CYCLOTRON",
+    "hidden": true,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/2617420/",
+    "displayName": {
+      "english": "Killed by Cyclotron",
+      "token": "NEW_ACHIEVEMENT_6_18_NAME"
+    },
+    "description": {
+      "english": "Everyone wiped out by cyclotron's lasers",
+      "token": "NEW_ACHIEVEMENT_6_18_DESC"
+    }
   }
 ]
