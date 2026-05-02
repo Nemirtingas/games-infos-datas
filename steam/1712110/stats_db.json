@@ -7,7 +7,6 @@
     "aggregated": true,
     "maxchange": 1,
     "min": 0,
-    "max": 100,
     "default": 0
   },
   {
@@ -18,7 +17,6 @@
     "aggregated": true,
     "maxchange": 1,
     "min": 0,
-    "max": 100,
     "default": 0
   },
   {
@@ -29,7 +27,6 @@
     "aggregated": true,
     "maxchange": 1,
     "min": 0,
-    "max": 100,
     "default": 0
   },
   {
@@ -37,7 +34,7 @@
     "displayName": "Days",
     "type": "int",
     "incrementonly": false,
-    "aggregated": true,
+    "aggregated": false,
     "maxchange": 1,
     "min": 0,
     "default": 0
@@ -47,7 +44,7 @@
     "displayName": "Researched Schematics",
     "type": "int",
     "incrementonly": false,
-    "aggregated": true,
+    "aggregated": false,
     "maxchange": 1,
     "min": 0,
     "max": 100,
@@ -66,6 +63,34 @@
   {
     "name": "trades",
     "displayName": "Trades Made",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "maxchange": 1,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "credits",
+    "displayName": "Credits Earnt",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": true,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "bank",
+    "displayName": "Bank Credits",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "default": 0
+  },
+  {
+    "name": "pirate_ship_kills",
+    "displayName": "Pirate Ships",
     "type": "int",
     "incrementonly": false,
     "aggregated": true,
