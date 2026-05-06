@@ -2,7 +2,7 @@
   {
     "name": "damage_dealt",
     "displayName": "Damage Dealt",
-    "type": "int",
+    "type": "float",
     "incrementonly": true,
     "aggregated": true,
     "default": 0
@@ -10,7 +10,7 @@
   {
     "name": "healing",
     "displayName": "Healing Dealt",
-    "type": "int",
+    "type": "float",
     "incrementonly": true,
     "aggregated": true,
     "default": 0
@@ -26,7 +26,7 @@
   {
     "name": "gold_spent",
     "displayName": "Gold Spent",
-    "type": "int",
+    "type": "float",
     "incrementonly": true,
     "aggregated": true,
     "default": 0
@@ -34,7 +34,7 @@
   {
     "name": "blocked_damage",
     "displayName": "Damage Blocked",
-    "type": "int",
+    "type": "float",
     "incrementonly": true,
     "aggregated": true,
     "default": 0
@@ -50,7 +50,7 @@
   {
     "name": "enemies_killed",
     "displayName": "Enemies Killed",
-    "type": "int",
+    "type": "float",
     "incrementonly": true,
     "aggregated": true,
     "default": 0
@@ -65,7 +65,7 @@
   },
   {
     "name": "active_heroes",
-    "displayName": "",
+    "displayName": "Max Active Heroes",
     "type": "int",
     "incrementonly": false,
     "aggregated": false,
@@ -204,7 +204,7 @@
     "default": 0
   },
   {
-    "name": "beat_wave_50",
+    "name": "beat_wave50",
     "displayName": "Beat Wave 50",
     "type": "int",
     "incrementonly": false,
@@ -213,7 +213,7 @@
     "default": 0
   },
   {
-    "name": "beat_wave_100",
+    "name": "beat_wave100",
     "displayName": "Beat Wave 100",
     "type": "int",
     "incrementonly": false,
@@ -222,7 +222,7 @@
     "default": 0
   },
   {
-    "name": "beat_wave_150",
+    "name": "beat_wave150",
     "displayName": "Beat Wave 150",
     "type": "int",
     "incrementonly": true,
@@ -231,7 +231,7 @@
     "default": 0
   },
   {
-    "name": "beat_wave_75",
+    "name": "beat_wave75",
     "displayName": "Beat Wave 75",
     "type": "int",
     "incrementonly": false,
@@ -240,7 +240,7 @@
     "default": 0
   },
   {
-    "name": "beat_wave_200",
+    "name": "beat_wave200",
     "displayName": "Beat Wave 200",
     "type": "int",
     "incrementonly": false,
@@ -249,7 +249,7 @@
     "default": 0
   },
   {
-    "name": "beat_wave_300",
+    "name": "beat_wave300",
     "displayName": "Beat Wave 300",
     "type": "int",
     "incrementonly": false,
@@ -258,7 +258,7 @@
     "default": 0
   },
   {
-    "name": "beat_wave_400",
+    "name": "beat_wave400",
     "displayName": "Beat Wave 400",
     "type": "int",
     "incrementonly": false,
@@ -267,7 +267,7 @@
     "default": 0
   },
   {
-    "name": "beat_wave_500",
+    "name": "beat_wave500",
     "displayName": "Beat Wave 500",
     "type": "int",
     "incrementonly": false,
@@ -278,7 +278,7 @@
   {
     "name": "skill_points_gained",
     "displayName": "Skill Points Gained",
-    "type": "int",
+    "type": "float",
     "incrementonly": true,
     "aggregated": true,
     "default": 0
@@ -306,6 +306,129 @@
     "incrementonly": true,
     "aggregated": true,
     "max": 1,
+    "default": 0
+  },
+  {
+    "name": "battles_completed",
+    "displayName": "Battles Completed",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "battle_time_total",
+    "displayName": "Battle Time Total",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
+    "default": 0
+  },
+  {
+    "name": "locale_zh",
+    "displayName": "Played in Simplified Chinese",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "locale_zh_tw",
+    "displayName": "Played in Traditional Chinese",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "locale_en",
+    "displayName": "Played in English",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "locale_ko",
+    "displayName": "Played in Korean",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "locale_ja",
+    "displayName": "Played in Japanese",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "locale_fr",
+    "displayName": "Played in French",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "locale_de",
+    "displayName": "Played in German",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "locale_es",
+    "displayName": "Played in Spanish (general)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "locale_es_ES",
+    "displayName": "Played in Spanish (Spain)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "locale_es_MX",
+    "displayName": "Played in Spanish (Mexico)",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "locale_pt",
+    "displayName": "Played in Portuguese",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": true,
+    "max": 1,
+    "default": 0
+  },
+  {
+    "name": "gold_collected",
+    "displayName": "Gold Collected",
+    "type": "float",
+    "incrementonly": true,
+    "aggregated": true,
     "default": 0
   }
 ]
