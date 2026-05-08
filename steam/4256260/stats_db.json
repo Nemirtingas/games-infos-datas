@@ -1,17 +1,31 @@
 [
   {
     "name": "max_floor_reached",
-    "defaultvalue": 0,
-    "displayName": "max_floor_reached"
+    "displayName": "max_floor_reached",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 100,
+    "default": 0
   },
   {
     "name": "runs_started_total",
-    "defaultvalue": 0,
-    "displayName": "runs_started_total"
+    "displayName": "runs_started_total",
+    "type": "int",
+    "incrementonly": true,
+    "aggregated": false,
+    "max": 999999,
+    "default": 0
   },
   {
     "name": "adventurers_dead_total",
-    "defaultvalue": 0,
-    "displayName": "adventurers_dead_total"
+    "displayName": "adventurers_dead_total",
+    "type": "int",
+    "incrementonly": false,
+    "aggregated": false,
+    "min": 0,
+    "max": 300,
+    "default": 0
   }
 ]
