@@ -1,1 +1,1 @@
-https://nemirtingas.github.io/games-infos-datas/
+https://emulator.servegame.com/games-infos-data/index.html
